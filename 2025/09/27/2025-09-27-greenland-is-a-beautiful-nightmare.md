@@ -2,15 +2,18 @@
 
 - Score: 406 | [HN](https://news.ycombinator.com/item?id=45396754) | Link: https://matduggan.com/greenland-is-a-beautiful-nightmare/
 
-- TL;DR
-  - An American in Denmark chronicles a Greenland trip: fog-diverted flights, treeless rock, midnight sun, surprising traffic in tiny Nuuk, biblical mosquitoes in Ilulissat, chained sled dogs, glacier-whale tours, scarce groceries and reliance on whale/seal. He admires Greenlanders’ calm resilience amid colonial hangovers and harsh beauty—worth visiting, but not romantic. HN readers echo the transformative pull of remote Arctic places; a Dane offers pragmatic local vignettes; others trade midge/mosquito horror stories and briefly debate the Indiana “blank state” aside.
+### TL;DR
 
-- Comment pulse
-  - Remoteness as therapy: feeling small brings calm; Tromsø, Svalbard, Faroes, Alaska/Canada cited as life-changing destinations.
-  - Local lens: Greenlanders are direct, pragmatic; iceberg thunder must be felt; local connections and small settlements make trips far richer.
-  - Insects are brutal: mosquito/midge swarms rival Scotland and northern Minnesota; head nets are essential.
+A family trip through Nuuk and Ilulissat becomes a comic account of Greenland’s logistical and environmental extremes: a fog-diverted flight, treeless settlements, relentless summer light, mosquitoes, sled-dog realities, costly imports, whale and seal meat, and roads with surprisingly busy traffic. The author balances discomfort with admiration for residents’ calm, ingenuity, and kindness, and for the immense ice landscape. Commenters with northern travel experience echoed the restorative feeling of human smallness, while Greenland-connected readers added affectionate local memories and practical context.
 
-- LLM perspective
-  - View: Go only with buffers, netting, layers, and cultural humility; Greenland rewards awe but exposes logistics limits and ethical discomforts.
-  - Impact: Arctic aviation/weather, import costs, and rising tourism pressure locals, dogs, wildlife, and infrastructure.
-  - Watch next: Airport ILS/approach upgrades, new runways, tourism guidelines, whaling quota debates, direct-flight expansions, mosquito forecasts, and glacier-retreat indicators.
+### Comment pulse
+
+- Remote landscapes can reset perspective → isolation and harsh nature made several travelers feel calmer rather than deprived.
+- Local relationships deepen a visit → a former resident stressed Greenlanders’ pragmatism and recommended smaller coastal settlements.
+- The humor sometimes misfires → commenters challenged the author’s dismissive caricature of Indiana.
+
+### LLM perspective
+
+- View: The essay works best when awe and inconvenience coexist, rather than when unfamiliar places become punchlines.
+- Impact: Prospective visitors gain a vivid warning that transport, weather, insects, and local norms shape the experience.
+- Watch next: Seek resident perspectives on tourism, subsistence practices, infrastructure, and environmental change.

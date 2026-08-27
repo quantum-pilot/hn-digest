@@ -2,15 +2,17 @@
 
 - Score: 146 | [HN](https://news.ycombinator.com/item?id=45396284) | Link: https://essopenarchive.org/doi/full/10.22541/essoar.175874118.83695562/v1
 
-- TL;DR
-  - JPL researchers attribute 2024’s record atmospheric CO₂ growth (~3.2 ppm) largely to fires, with the Amazon emitting 741 ± 61 TgC—its highest since 2000 and over half of the global fire anomaly. Fire drove 48% of the year’s net CO₂ flux anomaly, outweighing reduced land/ocean uptake and modest fossil-fuel increases. Exceptional El Niño plus a very warm tropical North Atlantic created hot–dry conditions. Projections: Amazon fire emissions could rise 53–199% by 2100, challenging carbon budgets and deforestation gains; commenters stressed rate-of-change, tipping risks, and fire feedbacks.
+### TL;DR
 
-- Comment pulse
-  - The rate of CO₂ rise matters most → rapid increase outpaces species and system adaptation; some push SRM to cap heat—counterpoint: proxy resolution limits firm rate comparisons with past eras.
-  - Amazon near a tipping point → relies on self-generated rainfall; loss drives savannization, making regrowth hard—counterpoint: future warming could raise rainfall locally.
-  - Global mega-fires undermine afforestation → recent Canada/Siberia/Australia/Indonesia events add feedbacks that erase sinks—counterpoint: some biomes (e.g., Australia) are fire-adapted.
+An unreviewed preprint uses satellite-constrained inversions to attribute 2024's record atmospheric CO₂ growth chiefly to elevated fires. It estimates Amazon fires emitted 741 ± 61 teragrams of carbon, their highest level since 2000 and over half the global fire-emission anomaly, offsetting two decades of declining deforestation emissions. Exceptional heat and drought followed overlapping El Niño and tropical North Atlantic warming. Its empirical climate model projects Amazon fire emissions rising 53–199% by late century across low-to-high emissions scenarios, excluding fuel-availability changes.
 
-- LLM perspective
-  - View: Fire–climate coupling is now a first-order term in annual CO₂ variability; models and targets must reflect it.
-  - Impact: NDCs, carbon markets, and “net-zero via forests” strategies face higher risk and cost.
-  - Watch next: CMIP7 fire modules, satellite fire/CO–CO₂ products, Amazon fire management policies and dry-season fuel-load programs.
+### Comment pulse
+
+- Readers emphasized rapid change rates and feared a reinforcing loop in which warming, drought, fire, and emissions compound.
+- Others questioned historical temporal resolution, forest recoverability, and whether geoengineering or afforestation can respond effectively.
+
+### LLM perspective
+
+- View: Fire variability can erase gradual land-use gains, making annual carbon budgets increasingly climate-sensitive.
+- Impact: Mitigation plans relying on forests need resilience measures and explicit buffers for catastrophic fire years.
+- Watch next: Peer review, alternative inversion estimates, fuel dynamics, 2025 observations, and regional fire-prevention outcomes.

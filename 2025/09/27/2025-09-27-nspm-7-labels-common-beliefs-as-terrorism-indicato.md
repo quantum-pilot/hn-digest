@@ -2,15 +2,17 @@
 
 - Score: 88 | [HN](https://news.ycombinator.com/item?id=45398719) | Link: https://www.kenklippenstein.com/p/trumps-nspm-7-labels-common-beliefs
 
-- TL;DR
-  - NSPM-7, a published national security directive, orders DOJ/FBI/JTTFs to preempt “left-wing” political violence using broad “indicators” (anti-Americanism, anti-capitalism, anti-Christianity, and issue “extremism”). It emphasizes speech monitoring, omits First Amendment guardrails, and leverages existing JTTFs—minimizing new oversight. Critics see a partisan extension of post‑9/11 pre-crime tactics into domestic politics; supporters frame it as disrupting radicalization before violence. HN discussion focuses on practical pushback limits, historical analogs, and curbing surveillance authorities like the Patriot Act.
+### TL;DR
 
-- Comment pulse
-  - Impeachment won’t happen → 67 Senate votes are unattainable; “Trumpism” outlasts Trump via a durable base and successors.
-  - Suppression debate → Streisand effect boosts targeted ideas — counterpoint: authoritarian systems can chill speech by enforcing punitive lines; the US isn’t immune.
-  - Roll back surveillance → Repeal the Patriot Act and limit JTTF scope to prevent pre-crime mission creep into protected speech.
+The article argues that US National Security Presidential Memorandum 7 dangerously broadens domestic counterterrorism by listing views such as anti-capitalism, anti-Christianity, migration, race, and gender “extremism” as indicators associated with political violence. The memorandum directs Joint Terrorism Task Forces to investigate crimes involving recruitment, radicalization, funding, doxing, swatting, rioting, threats, and civil disorder. The author interprets its preventive focus as partisan “pre-crime” surveillance of lawful speech; that sweeping conclusion is analysis, while the directive repeatedly invokes violence and criminal conduct.
 
-- LLM perspective
-  - View: Vague “indicators” convert counterterrorism into political-policing; investigative thresholds may drop from acts to speech adjacency.
-  - Impact: Universities, NGOs, donors, and platforms risk scrutiny; local police on JTTFs become conduits for federal intelligence priorities.
-  - Watch next: DOJ guidance language, FOIA-able metrics, early test cases, injunctions, and state AGs’ directives to limit local cooperation.
+### Comment pulse
+
+- Critics fear existing post-9/11 powers are being redirected toward domestic dissent and urged reconsidering the Patriot Act.
+- Discussion rejected complacency that ideas cannot be suppressed, citing institutions and enforcement pressure as capable of chilling speech.
+
+### LLM perspective
+
+- View: Ideological indicators become dangerous when they substitute for evidence of criminal planning or violence.
+- Impact: Activists, donors, educators, and local police could face uncertainty about where protected association ends.
+- Watch next: Attorney General guidance, actual investigations, judicial challenges, oversight records, and safeguards for protected speech.

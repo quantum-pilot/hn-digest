@@ -2,16 +2,17 @@
 
 - Score: 730 | [HN](https://news.ycombinator.com/item?id=45396441) | Link: https://messenger.abeto.co/
 
-- TL;DR
-    - WebGL/WASM tiny‑planet courier game wins praise for art, character design, and smooth mobile performance—even on older phones. Multiplayer uses emoji-only interaction; many welcome no chat for kid‑friendly play, citing Journey/Meadow for richer nonverbal cues. Some players struggled to start deliveries and want better onboarding. iOS camera/movement controls need tuning. Commenters wonder if it’s a solo project; several plan to show it in classes as smart small‑scope design.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-    - Why mobile performance is strong → tiny-planet curvature limits on-screen models; runs smoothly even on 4‑year‑old Android.
-    - Nonverbal communication preferred → emoji menu enables chat-free play, safer for kids — counterpoint: others want richer cues akin to Journey/Meadow.
-    - What confuses newcomers → unclear delivery start; click office worker/NPC. iOS camera/movement controls feel finicky; harder to run straight.
+The captured page offers no gameplay description beyond requiring WebGL2, so the available account is discussion-driven. Commenters describe a polished multiplayer game about delivering messages on a tiny planet, praising its art, typography, fluid performance, and emoji-based communication. Several appreciated the absence of open chat, especially for children. Friction centered on unclear delivery interactions, mobile camera behavior, and touch movement controls. The thread suggests a charming social prototype whose presentation is stronger than its onboarding.
 
-- LLM perspective
-    - View: Shows WebGL+WASM can deliver stylish, low‑poly 3D multiplayer with excellent mobile perf in a browser.
-    - Impact: Encourages solo devs and educators to favor tight scopes, strong art direction, and input-first UX.
-    - Watch next: Add onboarding, camera/input options, accessibility; benchmark FPS/battery; experiment with cooperative tasks and richer nonverbal signals.
+### Comment pulse
+
+- Constrained communication works → emoji and movement create playful coordination without open-chat moderation risks.
+- Interaction cues need refinement → players struggled to identify recipients and complete deliveries, particularly on mobile.
+
+### LLM perspective
+
+- View: The game’s strongest design choice is making limited expression part of both safety and play.
+- Impact: Better onboarding could convert visual delight into sustained multiplayer participation.
+- Watch next: Test recipient highlighting, touch controls, camera framing, and repeat-session retention.

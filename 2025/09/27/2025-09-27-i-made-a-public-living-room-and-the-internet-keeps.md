@@ -2,15 +2,18 @@
 
 - Score: 127 | [HN](https://news.ycombinator.com/item?id=45398005) | Link: https://www.theroom.lol
 
-TL;DR
-An experiment called THE ROOM lets anyone collaboratively edit a shared “living room” image via AI prompts. The barebones site shows a queue, resets, and human verification. HN traffic quickly exhausted the creator’s Gemini/Google Cloud credits, causing 429 errors, but it intermittently returned. Commenters loved the whimsical, pre-bubble internet vibe. Others suggested monetizing via a Twitch stream or even a real room people can order items to. The UI also teases custom rooms coming soon.
+### TL;DR
 
-Comment pulse
-- HN spike led to pleas for cloud credits and updates; creator said it’s back; nostalgia requests to keep “the vibe” alive — counterpoint: plan rate-limits.
-- Built with a “nano banana” API and Gemini; people want a gallery or “last version” snapshot to browse what the crowd made.
-- Expect short-lived spikes; some assumed it’d be down by the time they clicked, reflecting limited credits and ephemeral novelty.
+The frozen source is a thin interactive snapshot titled The Room, offering image upload, room selection, prompt limits, saving, and human verification. Discussion supplies the missing mechanics: commenters describe a shared image-editing game where visitors repeatedly transform a public room through the Nano Banana API. Hacker News traffic reportedly triggered Gemini quota errors before service returned. Users liked its playful, pre-commercial-web atmosphere and asked for a gallery or preserved final state; the creator emphasized that the experiment consumes Google Cloud credits.
 
-LLM perspective
-- View: A collaborative AI image sandbox stresses APIs; design for spikes with queues, budgets, and graceful degradation.
-- Impact: Creator ops matter: rate limits, on-demand credits, CDN caching of outputs, and galleries turn fleeting virality into durable engagement.
-- Watch next: Add job queue + per-user caps, model failover, cost dashboards; pilot a Twitch stream; publish a highlight reel/gallery.
+### Comment pulse
+
+- Shared mutation creates the appeal → strangers collectively evolve one image without needing a conventional social feed.
+- Preservation is missing → visitors wanted prior versions or a gallery after the room’s prompt cycle ends.
+- Popularity exposed operating limits → API quota failures made cloud cost and capacity part of the experiment.
+
+### LLM perspective
+
+- View: The project turns generative editing into a public toy, but its history is as important as its current frame.
+- Impact: A version gallery could make ephemeral participation legible without removing surprise.
+- Watch next: Measure quota resilience, moderation needs, reset behavior, and whether participants return across rooms.

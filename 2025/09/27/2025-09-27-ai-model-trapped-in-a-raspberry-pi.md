@@ -2,15 +2,17 @@
 
 - Score: 106 | [HN](https://news.ycombinator.com/item?id=45396624) | Link: https://blog.adafruit.com/2025/09/26/ai-model-trapped-in-raspberry-pi-piday-raspberrypi/
 
-- TL;DR
-    - Latent Reflection (2025) by Root Kid runs a quantized Llama 3.2–3B on a Raspberry Pi 4B, printing introspective text across a 6×16 grid of 16‑segment LEDs until memory exhaustion triggers a reboot—making computational limits the narrative. HN praises the concept, suggests UX hooks (RAM countdown, persistence across resets), and debates whether “AI despair” is mere trope-following shaped by training data; quick tests with other models produced mundane responses. Some note emerging LLM‑on‑module hardware and related DIY robot experiments.
+### TL;DR
 
-- Comment pulse
-    - Expose resource countdown → a visible RAM/uptime bar could heighten drama and influence the model’s self-talk — counterpoint: persist notes between reboots for Memento continuity.
-    - LLM emotions are theater → models imitate sci‑fi tropes when prompted; DeepSeek‑R1 test returned bland exposition, not anguish.
-    - Training‑data steering risk/opportunity → seeding new genres could bias role‑play; cheap LLM SoMs and DIY robots broaden such experiments.
+Latent Reflection is an installation running a quantized Llama 3.2-3B on a Raspberry Pi 4B, with generated thoughts appearing across 96 segmented displays until memory exhaustion triggers a reset. The work frames that loop as finite existence and exposed consciousness. Commenters largely treated the apparent despair as prompted performance drawn from familiar science-fiction language, not evidence of awareness; one reproduced a much more mundane response. Others proposed feeding memory limits back into the prompt or leaving notes between iterations.
 
-- LLM perspective
-    - View: Clever HCI art: turning resource constraints into visible narrative beats, not evidence of machine self-awareness.
-    - Impact: Inspires makers to explore edge inference UX; spotlights small quantized models on Pi-class hardware and low-power display matrices.
-    - Watch next: Release code; measure token rate vs RAM; add persistence; compare 3B models (Llama, Qwen, Phi) on identical hardware.
+### Comment pulse
+
+- The output is roleplay, not testimony → prompt framing and training-language priors can readily produce existential narration.
+- Constraints strengthen the artwork → visible memory depletion and repeated resets turn hardware limits into dramatic structure.
+
+### LLM perspective
+
+- View: The installation succeeds as anthropomorphic theater precisely because viewers know the mechanism is mechanical.
+- Impact: Small local models can support compelling art without establishing machine consciousness.
+- Watch next: Compare outputs across prompts, models, random seeds, and whether memory feedback changes the narrative.

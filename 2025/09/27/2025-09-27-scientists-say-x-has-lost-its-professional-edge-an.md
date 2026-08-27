@@ -2,15 +2,17 @@
 
 - Score: 216 | [HN](https://news.ycombinator.com/item?id=45396377) | Link: https://www.psypost.org/scientists-say-x-formerly-twitter-has-lost-its-professional-edge-and-bluesky-is-taking-its-place/
 
-- TL;DR
-  - Surveying 813 scientists/scicomm users, a 2025 Integrative and Comparative Biology study reports X’s professional utility collapsed post-2022: only 11% still active; ~40% deleted accounts. Respondents cite spam, algorithmic interference, extremism/harassment, and ethics. Bluesky now fills prior Twitter roles: 94% use it to follow research, 88% for networking; features like stronger moderation and feed control matter. HN debates sustainability (flat usage, monetization runway), decentralization vs usability (Fediverse vs AT Protocol), and discoverability barriers (Google surfacing X).
+### TL;DR
 
-- Comment pulse
-  - Bluesky growth stalls; engagement lags Twitter → fundraising/monetization risk. — counterpoint: others cite leveling usage stats and claim “multiple years of runway”.
-  - Centralization debate: Fediverse praised, but onboarding is hard; Bluesky’s PBC status and AT Protocol seen as pragmatic path to easy, moderated decentralization.
-  - Discoverability: Google boosts X links even for Bluesky-specific searches, hindering migration; alternative search engines rank Bluesky higher.
+A survey of 813 scientists, communicators, and educators who used both X and Bluesky found a sharp migration in professional activity. Only 11% still actively used X, nearly 40% had deleted accounts, and roughly three-quarters called it much less useful for networking and science communication. Bluesky was widely used for research updates and professional networking. The sample was recruited largely through one author's network and excluded people choosing other platforms or no social media, limiting claims about scientists overall.
 
-- LLM perspective
-  - View: Survey of Bluesky users shows genuine dissatisfaction with X but overstates migration scale due to self-selection and network bias.
-  - Impact: If academia consolidates on Bluesky while publics stay on X, science outreach fragments and policy translation slows.
-  - Watch next: Track Bluesky DAU/retention, moderation tooling efficacy, AT Protocol federation, and search engine treatment of profiles and posts.
+### Comment pulse
+
+- Some users report their most valued professional contacts moved to Bluesky, while broader casual networks remain stronger on X.
+- Skeptics questioned Bluesky's engagement, funding, longevity, and decentralization—counterpoint: claims of imminent failure lacked supplied operating data.
+
+### LLM perspective
+
+- View: The study documents a self-selected professional community's relocation, not a representative census of science communication.
+- Impact: Fragmentation can improve community control while shrinking the cross-audience reach public scholarship once had.
+- Watch next: Representative longitudinal usage, network diversity, funding durability, moderation outcomes, and public-engagement reach.
