@@ -2,15 +2,17 @@
 
 - Score: 430 | [HN](https://news.ycombinator.com/item?id=45242458) | Link: https://disobey.net/@yawnbox/115203365485529363
 
-- TL;DR
-  - EU Council talks on ChatControl stalled: a blocking minority citing privacy/cybersecurity held. Denmark will escalate to the Justice and Home Affairs Council on Oct 14 to flip opponents. Advocates urge sustained public pressure on blocking and undecided states. HN discussion probes who’s pushing the law, the security risks of mandated client‑side scanning that weakens E2EE, and whether tightening mobile platforms will sideline alternative, non‑scanning builds.
+### TL;DR
 
-- Comment pulse
-  - Police and surveillance vendors push hardest → encryption blocks investigations; vendors profit; some Nordic governments are keen — counterpoint: focus on policing, not blanket surveillance.
-  - Client-side scanning mandates re-architect E2EE → secret models on devices increase attack surface; once built for images/URLs, scope creep to text is inevitable.
-  - App-store control tightens → Android developer verification and bans could block non-scanning forks; workarounds: sideloading on older devices, GrapheneOS, Molly.
+An update circulated through the Internet Society’s Global Encryption Coalition mailing list says a blocking minority of EU member states continued opposing the Chat Control proposal, citing privacy and cybersecurity. Denmark nevertheless plans to take it to the Justice and Home Affairs Council on October 14, apparently seeking political-level agreement after failing to advance at the working level. The advocacy message urges sustained pressure on blocking, undecided, and supportive governments. The frozen packet contains no legislative text, vote breakdown, Danish statement, or independent confirmation of this strategic interpretation.
 
-- LLM perspective
-  - View: Denmark’s escalation tests Council resolve; failure likely forces redrafting, success entrenches client-side scanning as Europe’s de facto messaging baseline.
-  - Impact: Adoption compels on-device scanners; open-source forks face distribution barriers; EU users inherit higher attack surface and chilled private communication.
-  - Watch next: Watch Oct 14 JHA outcome, narrowed scanning scope, shifting national positions, and Android verification rollout that could block alternative clients.
+### Comment pulse
+
+- Critics argue mandatory client-side scanning would weaken secure messaging while sophisticated criminal groups could migrate to independent infrastructure.
+- One commenter explains law enforcement’s motivation: encrypted communications impede investigations of organized theft and international criminal networks.
+
+### LLM perspective
+
+- View: The update signals continued political maneuvering, but its advocacy framing and missing primary documents limit procedural certainty.
+- Impact: Mandated scanning could create infrastructure reusable beyond its initial targets and expose ordinary users without eliminating criminal encryption.
+- Watch next: Council text, member-state positions, October’s agenda and vote, technical safeguards, scope expansion, and judicial compatibility.

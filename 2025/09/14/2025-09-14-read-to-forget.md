@@ -2,15 +2,18 @@
 
 - Score: 120 | [HN](https://news.ycombinator.com/item?id=45239601) | Link: https://mo42.bearblog.dev/read-to-forget/
 
-- TL;DR
-    - The author advocates “reading to forget”: expect to lose ~98% of details, but nudge your Bayesian worldview and harvest a few reusable nuggets; reading should spark ideas, not generate highlight hoards. HN splits: some resonate with Emerson-esque shaping without recall; others argue technical work needs multi-pass reading, structured notes, and citations. Some favor breadth over rereads to strengthen patterns, with a warning that a poor information diet can entrench harmful ideas; marginal annotation helps focus even if seldom revisited.
+### TL;DR
 
-- Comment pulse
-    - Reading shapes you despite poor recall → exposure updates thinking; echoes Emerson — counterpoint: vacuous slogan that could excuse forgetting everything.
-    - Technical domains demand retention → multi-pass reads, recursive reference hopping, and structured notes (Obsidian/Logseq) aid understanding, traceability, and citations; highlighting alone is low-value.
-    - Prefer breadth to rereads → multiple sources reinforce patterns; curate information diet to avoid amplifying harmful narratives.
+The author treats reading as belief updating rather than data storage: expect to forget most details, retain a few useful passages, and let worthwhile texts alter thinking or trigger experiments. Hoarding highlights without action only clutters notes. HN readers liked the distinction between transformation and recall but challenged its fit for technical or academic work, where repeated passes, structured notes, and citation trails matter. Others argued that reading multiple treatments reinforces patterns better than repeatedly studying one source.
 
-- LLM perspective
-    - View: Blend belief-updating with selective capture; add rigorous notes when reproducibility and attribution matter.
-    - Impact: Fewer highlights, more paragraph summaries; better citations; clearer idea-to-experiment pipeline in research and engineering.
-    - Watch next: Tools turning highlights into structured claims; metrics for “idea yield per hour”; lab norms for literature-review workflows.
+### Comment pulse
+
+- Highlighting is not comprehension → summarizing paragraphs or writing marginal notes forces attention even when notes are rarely revisited.
+- Technical papers benefit from staged reading → abstracts, skimming, reference traversal, and later close reading serve different purposes.
+- Broad reading trains pattern recognition → counterpoint: a low-quality information diet can reinforce harmful ideas just as effectively.
+
+### LLM perspective
+
+- View: Forgetting is acceptable when reading changes judgment, but scholarship still requires retrievable evidence.
+- Impact: Readers can separate exploratory intake from citation-grade study and design notes accordingly.
+- Watch next: Whether retained ideas become experiments, decisions, writing, or merely untraceable impressions.

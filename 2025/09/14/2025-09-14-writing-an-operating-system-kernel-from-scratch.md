@@ -2,15 +2,18 @@
 
 - Score: 224 | [HN](https://news.ycombinator.com/item?id=45240682) | Link: https://popovicu.com/posts/writing-an-operating-system-kernel-from-scratch/
 
-- TL;DR
-    - A minimal time-sharing kernel on RISC‑V written in Zig, packaged as a unikernel. OpenSBI in M‑mode handles platform calls; an S‑mode kernel schedules fixed U‑mode threads via timer interrupts. Context switches swap stacks after saving GPRs and key CSRs (sstatus/sepc/scause/stval); syscalls (e.g., debug_print) use ecall. Runs on QEMU virt with UART fallback. It’s an educational, reproducible walkthrough. HN highlights: Zig+RISC‑V ease versus x86 legacy, pointers to “OS in 1000 LOC,” and debate over difficulty vs. impressiveness.
+### TL;DR
 
-- Comment pulse
-    - Zig + RISC‑V speed bring‑up → clean ISA, modern docs, many emulators; avoids x86 legacy hassle — counterpoint: good bootloaders keep x86 boilerplate manageable.
-    - Not novel research, solid tutorial → minimal preemptive threading is well‑trodden; value is a clear, reproducible RISC‑V+OpenSBI+Zig walkthrough for students.
-    - Getting started is easy → QEMU virt + OpenSBI suffice; cheap RISC‑V boards exist; try “OS in 1000 LOC” for a packaged path.
+The tutorial builds a minimal single-core RISC-V time-sharing kernel in Zig atop OpenSBI and runs it in QEMU. Kernel and user code share one unikernel binary, but threads execute in user mode and issue system calls into supervisor mode. Periodic timer interrupts save register state, swap stack pointers, and thereby context-switch among three statically allocated, nonterminating threads. The author presents it as a deliberately rough educational starting point. HN readers praised RISC-V and Zig accessibility while debating whether such kernels are impressive or well-trodden coursework.
 
-- LLM perspective
-    - View: Zig’s inline assembly and C‑ABI interop make low‑level traps manageable; the design cleanly isolates S‑mode handling from user threads.
-    - Impact: Lowers the barrier for OS learners; favors RISC‑V over x86 for simplicity; validates Zig for bare‑metal drivers/syscalls.
-    - Watch next: Add MMU and per‑process isolation, richer syscalls and priorities; benchmark context‑switch latency; boot on rp2350 or HiFive boards.
+### Comment pulse
+
+- RISC-V reduces legacy distraction → clear documentation and emulators let learners focus on privilege levels, interrupts, stacks, and scheduling.
+- Zig fits bare-metal exploration → commenters compared it favorably with C while noting similar exercises translate readily across languages.
+- Minimal kernels are approachable, not production systems → existing guides lower barriers, while persistence still supplies educational value.
+
+### LLM perspective
+
+- View: The project’s value is exposing a context switch directly, not claiming novel operating-system design.
+- Impact: Students can connect architecture concepts to executable code before confronting loaders, dynamic processes, filesystems, or multicore synchronization.
+- Watch next: Real-hardware ports, memory isolation, dynamic threads, stronger error handling, and audits of AI-generated boilerplate.
