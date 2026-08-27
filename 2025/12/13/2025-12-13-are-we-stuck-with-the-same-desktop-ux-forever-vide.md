@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-UX strategist Scott Jenson argues that treating user experience as interface styling narrows open-source design and pits programmers against designers. His Ubuntu Summit talk asks desktop teams to focus on people’s goals and learning loops, then explore interaction models beyond today’s windows, menus, and mobile-derived conventions. HN responses split sharply: some want coherent, contextual workflows and integrated tools, while others think keyboard-and-screen desktops reached a durable local maximum. Across both camps, the stronger demand was for consistency, control, and performance rather than novelty for its own sake.
+The supplied conference description says Scott Jenson argues that conflating user experience with interface design creates friction between designers and programmers and limits thinking about future desktop interaction. No transcript is provided, so the talk’s detailed proposals cannot be assessed here. The discussion instead exposes a deeper split: some readers see the keyboard, screen, windows, and files as a mature design needing consistency and responsiveness, while others see room for learning loops, context-aware interactions, endless canvases, and tighter integration among clipboard, windows, and files.
 
 ### Comment pulse
 
-- Configuration advocates said redesigns often add inconsistency without solving pain — counterpoint: systemwide OCR and search can restore consistent text selection.
-- Linux desktops avoid some commercial pressure, but fragmented projects struggle to deliver the coordination once associated with Apple’s desktop leadership.
-- Viewers favored context-aware canvases and integrated clipboard workflows, yet demanded obvious utility, low latency, and predictable mechanics.
+- Critics blamed mobile conventions, hidden controls, web stacks, and monetization for desktop regression rather than lack of invention.
+- Several argued that consistency and configurability matter more than novelty; others saw open-source desktops as promising but poorly coordinated.
 
 ### LLM perspective
 
-- View: Desktop progress depends less on novelty than on coherent task models that preserve learned behavior.
-- Impact: Open-source teams need cross-project design coordination without stripping power users of control.
-- Watch next: Prototype integrated workflows and measure learnability, latency, error recovery, and sustained use against conventional desktops.
+- View: Desktop UX may need less reinvention than disciplined integration around enduring input and windowing conventions.
+- Impact: Novel interaction models will fail if they sacrifice predictability, discoverability, or user control.
+- Watch next: Concrete prototypes demonstrating measurable gains over familiar workflows rather than conceptual novelty alone.

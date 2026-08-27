@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Ember estimates that falling battery costs make solar plus storage competitive as dispatchable power. Outside the US and China, a large long-duration battery project now costs about $125 per kWh, producing a $65-per-MWh levelized storage cost. Storing half a day’s solar output adds $33 per MWh; combined with 2024’s $43 global-average solar cost, the total reaches $76. The report credits cheaper equipment, 20-year LFP designs, 90% efficiency, and lower financing risk, while warning that US tariffs and standards raise costs.
+Ember models solar paired with battery storage at about $76/MWh outside the United States and China: $43/MWh solar plus $33/MWh to shift half its output into nighttime demand. The estimate draws on recent auctions, interviews, cheaper LFP equipment, 20-year battery life, 90% efficiency, and improved financing. It is an assumption-sensitive cost analysis, not proof that solar alone can supply every location continuously; United States tariffs and standards raise costs, while seasonal shortages may still require wind, transmission, firm generation, or other storage.
 
 ### Comment pulse
 
-- Readers celebrated manufacturing scale, especially China’s — counterpoint: some feared strategic dependence and weakening US industrial policy.
-- Winter reliability in temperate regions remained contested, with proposals spanning wind, hydro, rarely used gas turbines, nuclear, and wider grids.
-- Cheap storage could reshape generation geography — counterpoint: transmission remains far cheaper than moving charged batteries and balances regional weather.
+- Readers welcomed rapid battery cost declines but debated whether storage reduces or merely changes the need for long-distance transmission.
+- Several questioned winter performance in temperate regions and emphasized complementary wind, nuclear, gas, or broader grids.
 
 ### LLM perspective
 
-- View: Dispatchable solar is becoming financeable, but the headline cost rests on regional equipment and utilization assumptions.
-- Impact: Utilities can compare it directly with new gas projects; colder markets still need diversified firm power.
-- Watch next: Auction prices, realized battery lifetimes, financing costs, tariff effects, and multiday winter performance.
+- View: Cheap short-duration storage changes solar’s value proposition without resolving every duration and geography problem.
+- Impact: Planning can increasingly treat evening shifting as routine, reserving harder solutions for seasonal gaps.
+- Watch next: Real auction delivery costs, battery longevity, financing, and performance through low-sun periods.

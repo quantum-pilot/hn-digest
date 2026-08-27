@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A programmer who has completed Advent of Code for seven years used Gleam for 24 parts of 2025’s shortened event and found it unusually pleasant. Clean syntax, strong compiler errors, a reliable LSP, pipelines, safe option handling, and rich list functions made parsing and transformations concise. Friction included missing standard-library file I/O and regex, limited list patterns, verbose comparisons, target-dependent big integers, and no Z3 bindings. HN broadly confirmed the developer experience and surprising speed, while noting sparse libraries, formatter choices, namespace verbosity, and that BEAM and OTP are distinct.
+After completing all 24 parts of 2025’s shortened Advent of Code, the author found Gleam unusually pleasant for puzzle solving: pipelines, options, strong error messages, a capable LSP, rich list helpers, and `fold_until` made transformations clear and safe. Friction included external dependencies for file I/O and regex, limited list patterns, verbose comparisons, cross-target integer differences, and no Z3 bindings. Commenters largely confirmed the strong developer experience and performance while adding ecosystem, syntax, formatting, and OTP-support caveats.
 
 ### Comment pulse
 
-- Users praised the LSP, pipelines, type system, and double-digit-microsecond solutions, while warning that performant patterns differ from other languages.
-- Library gaps and verbose namespaces drew criticism — counterpoint: selective imports reduce repeated module prefixes, and maintainers fixed one break within a day.
-- Commenters corrected a terminology error: Gleam targets BEAM; its type-safe OTP library implements a smaller subset than Erlang or Elixir.
+- Gleam’s tooling earns unusual praise → its LSP offers formatting, imports, fixes, pattern completion, and broad editor support.
+- Language simplicity has costs → commenters cite verbose qualification, Boolean branching, recursion constraints, aggressive formatting, and missing specialist libraries.
+- BEAM support is not OTP equivalence → Gleam’s type-safe OTP library reportedly covers less than Erlang or Elixir.
 
 ### LLM perspective
 
-- View: Gleam’s appeal comes from coherent tools and constrained functional patterns, not a single novel feature.
-- Impact: Puzzle fluency suggests a low-friction learning path, but production adoption depends on ecosystem depth and interoperability.
-- Watch next: Real-project experience, library coverage, cross-target integer behavior, native bindings, formatter control, and OTP parity.
+- View: Gleam’s advantage is coherent ergonomics, not any single novel feature.
+- Impact: Puzzle success justifies testing it on a real service, where ecosystem gaps become clearer.
+- Watch next: Compare web-service reliability, library coverage, profiling, and deployment experience against established BEAM languages.

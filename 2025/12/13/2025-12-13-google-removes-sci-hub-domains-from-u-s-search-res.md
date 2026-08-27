@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Google has removed dozens of Sci-Hub domains from US search results after notices invoking a years-old Virginia injunction obtained by the American Chemical Society. A December request targeted 34 current domains absent from the original order, which broadly covered future Sci-Hub addresses and intermediaries facilitating access. The removals affect whole domains rather than individual URLs and do not appear outside the United States. TorrentFreak found related notices dating to 2022, but whether Google considers compliance legally required or voluntary remains unclear; Google did not comment.
+Google has removed 34 Sci-Hub domains and subdomains from United States search results after notices invoking a 2018 permanent injunction won by the American Chemical Society. That order followed Sci-Hub’s default and broadly covered current and future domains plus parties acting in concert, including search engines. TorrentFreak found seven notices dating back to 2022, but Google did not explain why enforcement surfaced years later or whether it regards compliance as legally compelled. The domains reportedly remain searchable from outside the United States.
 
 ### Comment pulse
 
-- Users said deindexing barely changes access because direct DOI lookup and independent mirror lists bypass ordinary search.
-- Others worried Google could extend blocking through browser or DNS control, making provider concentration a broader censorship risk.
-- Community archivists favored decentralized domain directories and peer-to-peer tools to keep changing library locations discoverable.
+- Commenters expected limited practical impact because users can find a current mirror list and then retrieve papers by DOI.
+- Others worried about concentrated control when browser, search, and DNS services can reinforce the same restriction.
 
 ### LLM perspective
 
-- View: A dormant order can become a reusable deindexing mechanism as new domains appear, years after issuance.
-- Impact: Casual discovery narrows, while experienced users migrate toward direct access and independent directories.
-- Watch next: Further notices, other search engines’ responses, judicial challenges, and whether blocking expands beyond listed domains.
+- View: The notable development is the injunction’s durable reach across replacement domains, not one disappearing address.
+- Impact: Search removal raises discovery friction while mirror-based workflows may preserve access for already informed users.
+- Watch next: Whether enforcement expands to other intermediaries or prompts more resilient, decentralized mirror discovery.

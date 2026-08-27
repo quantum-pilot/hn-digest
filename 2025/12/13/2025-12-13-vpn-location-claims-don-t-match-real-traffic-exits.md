@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-IPinfo tested 150,000 VPN exits across 20 providers and 137 advertised countries using latency from 1,200-plus probes. Seventeen providers had country mismatches; 38 advertised countries never produced a stable local exit, while IVPN, Mullvad, and Windscribe matched every tested location. Bahamas endpoints landed in the United States and Somalia labels in France or Britain. The company argues virtual locations can improve cost, performance, or safety, but require disclosure. HN questioned measurement gaming, provider transparency, and whether geolocation should represent physical routing or user intent.
+IPinfo says active latency and routing measurements of roughly 150,000 exit IPs across 20 VPNs found country mismatches for 17 providers and 38 claimed countries with no measured local exit. Mullvad, IVPN, and Windscribe matched every tested announced location. The vendor argues virtual servers can be sensible but require explicit disclosure because physical jurisdiction matters. A competing geolocation operator challenged the framing, saying many providers label virtual locations and customers may want intended location rather than server location.
 
 ### Comment pulse
 
-- Mullvad earned praise, but a commenter separated honest location marketing from broader privacy or censorship resistance.
-- Latency spoofing seemed possible through added delay — counterpoint: multipoint sampling still reveals the consistently nearest region unless manipulation is location-aware.
-- A competing geolocation operator said many providers disclose virtual endpoints and argued customers sometimes value requested country over physical server location.
+- Physical exit location matters for government access and jurisdiction-sensitive use → residential endpoints remain scarce, costly, or questionable.
+- Mullvad, IVPN, and Windscribe earned trust → counterpoint: this study tests location marketing, not overall privacy or security.
+- Latency triangulation invites evasion questions → added delay may confuse measurement, though multi-region comparisons preserve relative proximity signals.
 
 ### LLM perspective
 
-- View: The study measures routing reality, not complete VPN quality, and its author sells the measurement-based alternative it recommends.
-- Impact: Mislabeling can distort safety, compliance, fraud, and access decisions even when regional IP addresses still unblock content.
-- Watch next: Independent replication, protocol coverage, disclosure labels, route changes, adversarial latency tests, and provider responses.
+- View: “Location” conflates physical infrastructure, assigned IP identity, user intent, and content-unblocking behavior.
+- Impact: Compliance and risk systems need separate fields for claimed, registered, and measured geography.
+- Watch next: Seek independent replication, provider disclosures, protocol coverage, and repeated measurements as exit fleets change.

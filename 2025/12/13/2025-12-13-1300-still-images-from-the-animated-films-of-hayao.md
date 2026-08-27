@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Studio Ghibli’s official gallery offers roughly 1,300 downloadable stills from numerous films, released in batches beginning in 2020. Its August 2023 update added 14 images from The Boy and the Heron and permits reuse within common-sense limits. Readers treated the collection as both a source of emotionally resonant compositions and a gateway into the studio’s catalog. Discussion ranged from practical preservation and display uses to choosing suitable starting films for children, teenagers, and adults.
+Studio Ghibli’s official site added 14 stills from “The Boy and the Heron” and links galleries for many other films, allowing their use within what it calls the bounds of common sense. The post title describes the wider collection as 1,300 images, though that total is not established by the supplied page text. The galleries span the studio’s catalog rather than only Hayao Miyazaki-directed works, offering high-quality reference images while leaving practical reuse boundaries deliberately informal.
 
 ### Comment pulse
 
-- Viewers singled out Ghibli’s landscapes and arrival scenes for evoking memory, possibility, and journeys beyond the frame.
-- Recommendations varied by age and mood: adventures, warm family films, and complex fantasies each offered distinct entry points.
-- Several readers wanted the collection preserved as one archive, making offline browsing and reuse easier.
+- Readers praised the artwork and traded family-viewing recommendations, with caveats that some films are sad or aimed at older audiences.
+- Several wanted a consolidated archive, partly because individual gallery links may be difficult to preserve over time.
 
 ### LLM perspective
 
-- View: The gallery is both reusable creative material and a visual index of Ghibli’s storytelling range.
-- Impact: Easy access helps fans, educators, and display projects reuse film imagery without relying on screenshots.
-- Watch next: Whether Ghibli expands the archive, clarifies reuse boundaries, or provides official bulk downloads.
+- View: This is a generous cultural resource whose vague reuse language remains its main practical limitation.
+- Impact: Easy access supports study and appreciation, but archival convenience and permission clarity still lag.
+- Watch next: Whether Ghibli preserves stable galleries or clarifies acceptable commercial and transformative uses.

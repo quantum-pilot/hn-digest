@@ -4,10 +4,10 @@
 
 ### TL;DR
 
-At 100, Dick Van Dyke represents seven decades of American entertainment, from performing for wartime troops through Broadway, television, Mary Poppins, and Chitty Chitty Bang Bang. The profile credits his appeal to elastic physical comedy, mischievous energy, decency, and enduring chemistry with Mary Tyler Moore. It also complicates his wholesome image with a 25-year struggle with alcoholism and notes recent appearances in The Masked Singer and a Coldplay video. Van Dyke attributes longevity to genes, friendships, optimism, and continuing work he loves.
+A centenary profile traces Dick Van Dyke’s career from entertaining troops during the Second World War through television, “Mary Poppins,” “Chitty Chitty Bang Bang,” and recent appearances in music and reality television. It credits his enduring appeal to elastic physical comedy, warmth, and boyish charm, while acknowledging a 25-year struggle with alcoholism. Van Dyke attributes his longevity to genes, friendship, and optimism, and describes his career as an extraordinary indulgence. The supplied comment contains no substantive discussion beyond pointing to a companion thread.
 
 ### LLM perspective
 
-- View: His durability comes from making highly controlled physical comedy feel spontaneous, mischievous, and generous.
-- Impact: The centennial reframes familiar family entertainment as a bridge across multiple eras of show business.
-- Watch next: Restorations, retrospectives, and archival releases spanning his television, film, stage, and late-career work.
+- View: The profile succeeds by pairing celebratory longevity with the personal difficulty behind an apparently effortless public persona.
+- Impact: His century-long arc links changing entertainment formats through a remarkably consistent style of humane physical comedy.
+- Watch next: How retrospectives balance iconic performances, later-life visibility, and the less polished parts of his biography.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A Reddit post shows Microsoft Copilot appearing after an LG webOS update as a non-removable app and alleges that Live Plus viewing recognition was enabled by default. Reports in the supplied thread vary by model and region; several users say Live Plus and automatic content recognition predate this update. Most recommend disconnecting televisions, using replaceable streaming hardware, or blocking telemetry. Counterpoints note that external boxes also collect data and firmware can fix OLED behavior. HN saw demand for premium owner-controlled displays, constrained by lost advertising subsidies and supplier scale.
+A Reddit image post reports that an LG TV update added a non-removable Microsoft Copilot app; the poster also alleges that LG’s Live Plus viewing-recognition feature was enabled by default and monetizes viewing data. The supplied material does not independently verify the model, rollout, removability, or data practices, and users reported differing Live Plus defaults. HN discussion focused less on Copilot than on embedded surveillance, subsidized smart-TV economics, and keeping televisions offline or using a separate streaming device.
 
 ### Comment pulse
 
-- A premium dumb OLED drew enthusiasm for owner-first hardware — counterpoint: losing ad revenue, purchasing volume, and retail leverage raises prices.
-- Several readers considered Live Plus surveillance worse than the bundled assistant and called for opt-in privacy or a right to be left alone.
-- Microsoft’s forced accounts, ads, updates, and Copilot placement pushed some users toward Linux, despite appreciation for its earlier open-source shift.
+- Live Plus drew greater concern than Copilot → commenters objected to default-on viewing recognition and personalized advertising.
+- A premium “dumb TV” sounds attractive → counterpoint: lost advertising revenue and lower volume would likely raise its price.
+- Disconnecting the panel is the practical defense → users favor external streamers or isolated local networks.
 
 ### LLM perspective
 
-- View: The core violation is post-purchase control changing silently, not whether one bundled assistant is useful.
-- Impact: Owners must choose between connected features and minimizing telemetry, while privacy becomes a premium hardware attribute.
-- Watch next: Regional defaults, uninstallability, consent persistence after updates, network traces, firmware benefits, and demand for offline displays.
+- View: Undeletable software and opaque defaults turn a purchased display into a remotely governed advertising surface.
+- Impact: Buyers must now evaluate update policy and network behavior alongside panel quality.
+- Watch next: Confirm affected models, regional defaults, deletion controls, disclosures, and whether disabling Live Plus persists after updates.

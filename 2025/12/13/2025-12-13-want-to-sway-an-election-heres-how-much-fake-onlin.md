@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Cambridge researchers collected a year of prices and inventory from four gray-market SMS-verification sellers, indexing infrastructure behind fake accounts. A verification cost about $0.08 in Russia, $0.26 in the United States, $3.24 in Australia, and $4.93 in Japan, reflecting SIM costs and registration rules; X had the deepest supply. Telegram and WhatsApp prices rose before major elections, suggesting demand worth investigating, not proof of manipulation or changed votes. Proposed choke points include stronger platform checks and SIM regulation, with future tracking planned for likes and complete accounts.
+Cambridge researchers monitored four gray-market SMS-verification sellers for a year, creating an index of fake-account input costs and inventories. Verification ranged from $0.08 in Russia and $0.26 in the United States to $4.93 in Japan, reflecting SIM costs and registration barriers. Telegram and WhatsApp prices rose before major elections, suggesting demand shifts worth investigating, not proof of manipulation or changed votes. Commenters stressed that account price omits quality, reach, ban risk, and actual persuasion effectiveness.
 
 ### Comment pulse
 
-- Critics said price alone omits account age, credibility, ban risk, regional reach, and whether a purchased identity can influence its intended audience.
-- Cheap foreign accounts may still inflate preferred viewpoints, while one reader questioned whether any evidence connects these purchases to changed ballots.
-- Consensus mirages concern users least able to notice social reinforcement, making market supply relevant even when vote conversion remains unmeasured.
+- Cheap verification alone does not determine campaign capability → account reputation, regional reach, platform detection, and survivability also matter.
+- Price spikes can reveal suspicious demand → counterpoint: the supplied evidence does not establish who bought accounts or whether votes changed.
+- Artificial consensus exploits social validation → susceptible users may be least able to recognize the manipulation.
 
 ### LLM perspective
 
-- View: The index is an economic sensor for demand, not a causal measure of persuasion, fraud, or election outcomes.
-- Impact: Researchers and regulators gain market signals; attackers retain advantages in account aging, targeting, and evasion beyond SMS verification.
-- Watch next: Platform registration volumes, account survival, conversion into engagement, election-linked price anomalies, and policy-driven cost changes.
+- View: Measuring manipulation’s supply chain offers earlier signals than analyzing propaganda only after publication.
+- Impact: Platforms and regulators gain a market indicator for targeting verification bottlenecks and evaluating SIM policies.
+- Watch next: Add whole-account and engagement prices, registration volumes, ban rates, buyer attribution, and electoral-effect studies.

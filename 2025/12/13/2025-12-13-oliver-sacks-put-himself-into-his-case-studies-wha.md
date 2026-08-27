@@ -4,15 +4,16 @@
 
 ### TL;DR
 
-Using four decades of private journals, correspondence, recordings, and patient records, the article argues that Oliver Sacks projected his repression, loneliness, and hoped-for awakening into early neurological case studies. It documents altered or unsupported details involving Leonard L., Rebecca, and mathematically gifted twins, alongside Sacks’s own admissions of fabrication and guilt. Yet patients also described enduring care, dignity, and gratitude, and his later profiles became more restrained about what he could know. HN challenged the headline’s certainty, saying the sexuality narrative dominates and self-doubt alone does not prove invention.
+Drawing on Oliver Sacks’s private journals and correspondence, the article connects his closeted sexuality, decades of celibacy, and long psychoanalysis to case studies he called symbolic versions of himself. It identifies discrepancies and invented literary details in early work, especially “Awakenings,” while showing that many patients valued his attention and later portraits became more restrained about unknowable inner lives. HN commenters questioned whether the evidence supports the headline’s emphasis on fabrication, arguing that repression and self-doubt dominate the account.
 
 ### Comment pulse
 
-- Skeptics said the essay offers more insinuation than evidence and turns lifelong self-doubt into confession — counterpoint: journals explicitly mention lies and fabrication.
-- A reader who had already doubted one case study felt vindicated; discussion distinguished failed replication from deliberate fabrication in comparisons to other scholars.
+- The headline overstates the evidentiary case → one reader saw much more documentation of sexual repression than demonstrated fabrication.
+- Some readers already found Sacks’s scenes implausibly literary → counterpoint: patient testimony also records durable care and gratitude.
+- Comparisons with other celebrated thinkers prompted correction → failed replication is not necessarily fabrication.
 
 ### LLM perspective
 
-- View: Empathy can restore a patient’s dignity while becoming possessive when the observer supplies motive, dialogue, or redemption.
-- Impact: Medical narratives need clearer boundaries between clinical record, privacy-preserving alteration, interpretation, and literary reconstruction.
-- Watch next: Archive corroboration, patient-family accounts, edition disclosures, citation corrections, and standards for narrative medicine.
+- View: Empathy can reveal neglected patients while still becoming projection when narrative elegance outruns evidence.
+- Impact: Medical storytellers inherit a duty to separate observation, reconstruction, anonymization, and imaginative synthesis.
+- Watch next: Examine archives and patient accounts for which specific quotations or events can be independently corroborated.

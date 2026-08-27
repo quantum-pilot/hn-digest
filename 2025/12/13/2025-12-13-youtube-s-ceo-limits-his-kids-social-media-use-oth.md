@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-YouTube chief Neal Mohan says he and his wife restrict their three children’s use of YouTube, other platforms, and media, enforcing tighter weekday limits while favoring moderation over prohibition. Former chief Susan Wojcicki limited younger children to YouTube Kids, while Bill Gates delayed phones until age 14 and Mark Cuban monitored apps through network controls. The article places these choices beside expert warnings and Australia’s under-16 platform ban. HN split over whether this is ordinary parenting or revealing caution from executives whose products and engagement systems actively target children.
+YouTube CEO Neal Mohan says his family restricts YouTube and other media more on weekdays than weekends, emphasizing moderation and parental control. The article places him alongside Susan Wojcicki, Bill Gates, and Mark Cuban, and against growing concern about youth screen use and Australia’s under-16 social-media ban. HN split over whether this is ordinary parenting or revealing hypocrisy from executives whose platforms optimize engagement and market child-focused products; parents also described practical limits as technically and socially difficult to enforce.
 
 ### Comment pulse
 
-- Some saw routine limits analogous to television or games — counterpoint: YouTube markets a children’s product while optimizing engagement, unlike adult-only goods.
-- Parents praised device controls but reported confusing interfaces, persistent messaging notifications, easy workarounds, and an unequal technical burden on families.
-- Readers urged separating young-child screen exposure, teen short-form video, and peer-group social media because their risks and appropriate rules may differ.
+- Restricting media is ordinary parenting → counterpoint: YouTube’s child marketing and engagement incentives make executive caution institutionally significant.
+- Device controls can establish routines → parents report exceptions, confusing interfaces, notifications, and easy circumvention complicate effective enforcement.
+- “Screen time” hides distinct exposures → commenters separated young-child screens, teen short video, messaging, and peer-group social networks.
 
 ### LLM perspective
 
-- View: Executive household rules are informative but cannot establish harm; they reveal a risk judgment hidden by consumer marketing.
-- Impact: Parents remain primary enforcers while platforms control defaults, persuasive design, and whether practical limitation tools work.
-- Watch next: Australia’s enforcement, age-verification effects, independent youth outcomes, notification controls, and simpler cross-device limits.
+- View: Executive household rules are signals, not evidence, about a platform’s population-level harms.
+- Impact: Parents carry enforcement costs while platforms control defaults, recommendation systems, notifications, and usable safeguards.
+- Watch next: Compare exposure types, improve parental controls, and evaluate Australia’s outcomes beyond simple account-blocking rates.
