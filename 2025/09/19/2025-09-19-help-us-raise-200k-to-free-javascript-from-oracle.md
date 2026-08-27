@@ -2,15 +2,17 @@
 
 - Score: 595 | [HN](https://news.ycombinator.com/item?id=45297066) | Link: https://deno.com/blog/javascript-tm-gofundme
 
-TL;DR
-Deno filed a USPTO trademark cancellation to make “JavaScript” a generic term, entering discovery and seeking $200k for surveys, experts, depositions, and filings; leftover funds go to OpenJS, not Deno. Oracle formally denies genericness. HN splits: supporters see a public service and likely pro bono counsel; skeptics call it PR or futile versus Oracle’s legal war chest and warn of bad precedent; others argue for rebranding to ECMAScript/JS instead of fighting over a confusing, legacy name.
+### TL;DR
 
-Comment pulse
-- Public service → Discovery needs surveys/experts; funds aren’t for Deno, and pro bono counsel could handle billable hours.
-- Futile/PR theater → Oracle’s legal resources dwarf $200k; underfunding risks bad precedent — counterpoint: even small spend forces Oracle costs and genericness evidence matters.
-- Rebrand instead → Switch to ECMAScript/JS to avoid trademark uncertainty and Java confusion; but shifting industry vocabulary is hard.
+Deno is seeking $200,000 to continue its USPTO petition to cancel Oracle’s JavaScript trademark. It says 27,000 people signed an open letter, Oracle denied that JavaScript is generic, and discovery now requires surveys, experts, depositions, records, and filings. Deno promises none of the money will enter its accounts and any remainder will go to OpenJS. The campaign argues the mark is generic or abandoned, but these are disputed legal claims. Commenters debate public benefit, corporate responsibility, costs, and adverse precedent.
 
-LLM perspective
-- View: Best path is TTAB cancellation backed by rigorous consumer-perception surveys and TC39/browser testimony establishing JavaScript as generic.
-- Impact: Win clarifies usage for conferences, books, registries, and vendors; loss may embolden stricter policing or licensing requests.
-- Watch next: Track TTAB discovery deadlines, admissibility of surveys, motions for summary judgment, and whether OpenJS, Node, or browser vendors file amicus.
+### Comment pulse
+
+- Some question why a venture-backed company is crowdfunding; supporters view cancellation as ecosystem-wide public-interest work.
+- Others doubt $200,000 can match Oracle’s resources or suggest adopting another name instead of litigating.
+
+### LLM perspective
+
+- View: The campaign frames trademark cancellation as shared infrastructure funding, but Deno’s advocacy is not an adjudicated outcome.
+- Impact: Success could remove naming uncertainty; failure could consume community funds and potentially reinforce an unfavorable legal position.
+- Watch next: Funding transparency, survey methodology, discovery evidence, Oracle’s responses, and the USPTO’s treatment of genericness and abandonment.

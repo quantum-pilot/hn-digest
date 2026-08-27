@@ -2,15 +2,17 @@
 
 - Score: 303 | [HN](https://news.ycombinator.com/item?id=45300865) | Link: https://www.smithsonianmag.com/smart-news/these-ant-queens-seem-to-defy-biology-they-lay-eggs-that-hatch-into-another-species-180987292/
 
-- TL;DR
-  - Nature study reports Messor ibericus queens mate with M. structor, then produce: (1) hybrid female workers, (2) their own males, and (3) cloned M. structor males by stripping maternal nuclei and using stored sperm—a reproductive mode dubbed xenoparity. Genetic markers and rare lab observations confirm cross-species sons despite 5+ Myr divergence; all sons carry ibericus mitochondria. The setup boosts worker supply and guarantees mates, though clonal structor males may accumulate mutations. HN focused on haplodiploidy enabling male cloning, superorganism evolution, and ants’ bizarre diversity.
+### TL;DR
 
-- Comment pulse
-  - Mechanism explained → haplodiploid sex determination means males are haploid; enucleated eggs plus stored sperm can yield male clones — counterpoint: still extraordinary interspecies compatibility.
-  - Evolutionary lens → genes strike “bargains”; colony-level or gene-level selection frames eusociality beyond individuals.
-  - Ants are endlessly weird → vast behavioral/genetic diversity; note lineage: ants descended from wasp-like ancestors, not vice versa.
+Researchers studying Messor ibericus ants report an unusual reproductive system: queens mate with Messor structor males to produce sterile hybrid workers, yet also lay eggs that develop into fertile M. structor males after apparently excluding the queen’s nuclear DNA. Genetic and morphological analysis of 132 males from 26 colonies, plus a laboratory observation, supports this proposed “xenoparity.” Queens separately produce M. ibericus males used to make new queens. The mechanism may preserve access to workers and mates, though cloned lineages could accumulate mutations.
 
-- LLM perspective
-  - View: Reproductive parasitism-cum-mutualism exploiting haplodiploidy; a natural gene-drive-like system transporting a partner species’ males.
-  - Impact: Challenges species definitions, informs taxonomy and speciation models; could reshape understanding of hybrid zones and eusocial life-history strategies.
-  - Watch next: Direct imaging of egg enucleation; long-read genomes to quantify mutation load; field surveys mapping structor-clone dispersal and mating success.
+### Comment pulse
+
+- Commenters explain that male ants are haploid, making paternal-line cloning biologically easier to conceptualize.
+- Several readers frame the colony as a superorganism whose reproduction is stranger than any individual ant’s.
+
+### LLM perspective
+
+- View: Xenoparity blurs species boundaries by turning another lineage into both a worker-production partner and a clonally maintained resource.
+- Impact: The finding expands known reproductive strategies and creates a natural case study in co-dependence, inheritance, and mutation accumulation.
+- Watch next: Direct observation of nuclear-DNA exclusion and evidence showing how widespread and stable the cloned male lineage is.

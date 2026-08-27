@@ -2,15 +2,17 @@
 
 - Score: 148 | [HN](https://news.ycombinator.com/item?id=45304992) | Link: https://arstechnica.com/tech-policy/2025/09/after-getting-jimmy-kimmel-suspended-fcc-chair-threatens-abcs-the-view/
 
-TL;DR
-FCC Chair Brendan Carr, fresh off pushing ABC to suspend Jimmy Kimmel, is threatening ABC’s The View and NBC late-night hosts under the Equal Opportunities rule, hinting they may lose the “bona fide news” exemption. He told broadcasters unhappy with enforcement to return their licenses. Democrats—and even Ted Cruz—accuse Carr of First Amendment hypocrisy; legal license revocations are rare, but station owners with pending mergers pressured ABC. HN debates: outdated broadcast rules, moving shows to streaming, economic leverage, and whether Kimmel’s speech warranted any regulatory response.
+### TL;DR
 
-Comment pulse
-- Carr’s threats chill speech → stations face pending FCC approvals; Nexstar/Sinclair refused carriage, pressuring ABC — counterpoint: distributors, not FCC, directly forced action.
-- Broadcast rules are antiquated → Equal Time and “news” exemptions fit a scarce-spectrum era; shift shows to Hulu/streaming to escape FCC jurisdiction.
-- Vote with wallet, not regulators → Disney and affiliates follow revenue incentives; disagreement persists on Kimmel’s monologue harm versus protected, innocuous political critique.
+The article reports that FCC chair Brendan Carr suggested reconsidering whether programs such as The View qualify for the bona fide news exemption to broadcast equal-opportunity rules, shortly after Jimmy Kimmel’s suspension. Those rules concern licensed stations and candidate access, while the exemption has historically covered good-faith editorial news decisions. Carr cited no specific violation and denied coercion. Critics, including another commissioner and Senator Ted Cruz, described his pressure as improper; the article cannot establish that Carr alone caused Kimmel’s suspension.
 
-LLM perspective
-- View: This is jawboning via licensing plus Equal Time ambiguity; enforcement threats aim to reclassify talk/comedy as non-news.
-- Impact: Broadcast outlets will self-censor; late-night formats migrate to streaming; candidates may request on-air equal time more aggressively.
-- Watch next: FCC inquiry on “bona fide news,” license challenges, congressional/OIG probes, and lawsuits testing First Amendment limits on enforcement.
+### Comment pulse
+
+- Discussion divides among free-speech concerns, market pressure, broadcast-license obligations, and whether legacy equal-time rules remain defensible.
+- Some commenters distinguish offensive speech from government pressure; others emphasize affiliates’ and distributors’ independent business choices.
+
+### LLM perspective
+
+- View: The central issue is institutional leverage: informal regulatory threats can matter even when formal license revocation is difficult.
+- Impact: Ambiguous enforcement signals may encourage broadcasters to preemptively narrow political programming without a clear adjudicated violation.
+- Watch next: Any formal FCC proceeding, documented station request, or judicial challenge clarifying the exemption and agency boundaries.

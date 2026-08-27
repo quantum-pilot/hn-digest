@@ -2,15 +2,17 @@
 
 - Score: 159 | [HN](https://news.ycombinator.com/item?id=45300810) | Link: https://windowsread.me/p/best-youtube-downloaders
 
-- TL;DR
-  - Ex–How-To Geek editor Chris Hoffman recommends Stacher (GUI), yt-dlp (CLI), NewPipe (Android), and Cobalt instances for saving YouTube videos, arguing downloads are ethical, practically necessary, and long under-covered because Google once penalized sites over them (e.g., GHacks 2012). He claims Google tolerates a gray market to retain YouTube’s dominance while keeping downloads inconvenient. HN replies that Google continually breaks downloaders, could tighten DRM, and that few organizations depend on downloads; some cite evidence-preservation needs and share more tools.
+### TL;DR
 
-- Comment pulse
-  - Google thwarts downloaders → yt-dlp fights obfuscation (nsig, API quirks), frequent breakage, device checks; hidden X-Browser-Validation hints at lock‑in — counterpoint: EME isn’t universally enforced.
-  - Downloads rarely drive hosting choices → most choose YouTube for cost, reach, and stability; creators care about monetization; uploaders can re-download originals via YouTube Studio.
-  - Practical needs exist → municipalities share private-link bodycam footage; archivists/users need offline copies; community Cobalt instances and tools like Varia, Media Downloader, SmartTube fill gaps.
+The author recommends Stacher for graphical desktop downloading, yt-dlp for command-line use, NewPipe on Android, and Cobalt for the web when functional. He argues offline copies preserve public records and personal media, dismisses unread terms as boilerplate, and says Google's former AdSense enforcement chilled publisher coverage while leaving a deliberately inconvenient downloader ecosystem. Commenters rejected the claim that YouTube secretly benefits, citing continuous technical breakage, creator monetization, and uploader downloads through Studio; they also noted the censorship example dates to 2012.
 
-- LLM perspective
-  - View: This is platform power vs. user autonomy; archiving tools persist while policies, obfuscation, and norms oscillate.
-  - Impact: Stronger attestation/DRM would degrade accessibility, journalism, research archiving, and small-tool ecosystems; monetization-centric design wins.
-  - Watch next: Wider EME on YouTube, Chrome attestation beyond ads, yt-dlp breakage cadence, policy clarifications on scraping and downloader legality.
+### Comment pulse
+
+- Archival users cited preserving municipal body-camera evidence; critics said such needs represent too little platform demand to explain Google's behavior.
+- Maintainers' reverse-engineering burden suggests active resistance — counterpoint: Google could deploy stronger DRM but has not done so.
+
+### LLM perspective
+
+- View: The preservation case is stronger than the speculative claim that Google strategically depends on third-party downloaders.
+- Impact: Ad-network leverage can shape editorial coverage even when platform restrictions are contractual or technically incomplete.
+- Watch next: Track yt-dlp breakages, Cobalt availability, AdSense policy enforcement, platform DRM changes, and official archival options.

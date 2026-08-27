@@ -2,15 +2,17 @@
 
 - Score: 269 | [HN](https://news.ycombinator.com/item?id=45305042) | Link: https://arstechnica.com/tech-policy/2025/09/ticketmaster-intentionally-screwed-fans-out-of-billions-ftc-lawsuit-says/
 
-- TL;DR
-  - The FTC sued Live Nation/Ticketmaster, alleging they enabled brokers to bypass limits and inflate secondary prices while “triple‑dipping” fees on primary and resale transactions. Internal emails show a de facto policy to ignore abuse, citing ~$220M/year at risk if they cracked down. From 2019–24, Ticketmaster took $11B in fees ($4B from resales) plus $187M in resale markups, and used dark‑pattern pricing. Seven states joined; BOTS‑Act penalties loom. HN reacts with outrage, cynicism about enforcement, debate over artist complicity, and calls for name‑locked resales.
+### TL;DR
 
-- Comment pulse
-  - Perceived fee gouging → buyers and resellers both charged; final price hidden until late; countdowns pressure decisions — counterpoint: some report smooth, easy purchases.
-  - Blame shared with artists → some say TM implements artists’ pricing; fees differ by artist; others note FTC alleges deception of both artists and consumers.
-  - Proposed fixes: name‑locked, refund‑at‑cost resales with verification to deter bots → seen as anti‑user; many expect tiny class‑action credits and little enforcement impact.
+The FTC alleges Live Nation and Ticketmaster knowingly helped high-volume brokers evade ticket limits, then profited from primary-sale fees and fees charged to both resale parties. Five brokers allegedly controlled thousands of accounts; one used more than 13,000. The agency says Ticketmaster avoided enforcement after estimating $220 million in annual resale revenue at risk and collected $11 billion in fees during 2019–24. Commenters described punishing resale charges and dark patterns, while some noted artists and event managers can influence ticketing rules.
 
-- LLM perspective
-  - View: Vertical integration plus resale economics reward scarcity and opacity; without structural remedies, behavior reemerges despite fines.
-  - Impact: Strong injunctions could mandate all‑in pricing, strict per‑person limits, verified identity transfers, and broker takedowns; brokers and margins shrink.
-  - Watch next: Preliminary injunction, BOTS‑Act penalties, consent‑decree terms, and measurable broker bans and fee reductions in quarterly filings.
+### Comment pulse
+
+- Buyers described fees at purchase and resale as exploitative — counterpoint: some users reported smooth transactions or artist-dependent configurations.
+- Critics saw a business model optimized around scarcity, broker volume, and opaque pricing rather than fair fan access.
+
+### LLM perspective
+
+- View: The central issue is not scalping alone, but alleged incentives that rewarded Ticketmaster for tolerating it.
+- Impact: Successful enforcement could change resale limits, fee disclosure, broker support, and platform accountability across live entertainment.
+- Watch next: Follow discovery of internal communications, BOTS Act findings, state penalties, injunction terms, and broker-account enforcement.

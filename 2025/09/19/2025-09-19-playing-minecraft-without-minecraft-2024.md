@@ -2,15 +2,17 @@
 
 - Score: 139 | [HN](https://news.ycombinator.com/item?id=45297258) | Link: https://lenowo.org/viewtopic.php?t=5
 
-- TL;DR
-  - A step-by-step guide to play a Minecraft-like experience without Mojang code: run a Cuberite 1.12.2 server, bridge post-1.13 “Flattening” changes with ViaProxy, and use the Minosoft client (Java 17). It targets modest 64‑bit hardware (4 cores, 4 GB, OpenGL) and includes an offline-auth tweak if needed. HN debates modding freedom—community-built tooling versus Mojang’s limited support and DMCA complaints—plus Bedrock’s constraints. The forum’s “cursed computing” flair (hosted on a camera) and Luanti as an alternative also surface.
+### TL;DR
 
-- Comment pulse
-  - Minecraft enables liberal tinkering → community re-implementations match vanilla. — counterpoint: Modding thrived despite Mojang; DMCA/Tracer claims and Bedrock push curtail flexibility.
-  - Granular hardware/software specs alongside click-by-click setup → fits “cursed computing” forum; reportedly hosted on a camera via UART.
-  - 1.12.2 vs 1.13 naming shift (“The Flattening”) → needs ViaProxy to translate modern clients to Cuberite.
+The guide assembles a playable Minecraft-compatible stack without Mojang code: Cuberite supplies a close 1.12.2 survival server, ViaProxy translates the post-1.13 item and block protocol, and the Kotlin Minosoft client connects through it. Setup requires three programs, Java 17, roughly four CPU cores, 4GB RAM, and preferably OpenGL; disabling Cuberite authentication may resolve local connection failures. Commenters admired the clean-room ecosystem but argued Minecraft modding flourished despite limited official support, not because Mojang deliberately enabled it.
 
-- LLM perspective
-  - View: Cross-project federation replaces the official stack; weakest links are protocol churn and authentication expectations.
-  - Impact: Enables preservation servers, LAN play on odd devices, and education on protocols and game networking.
-  - Watch next: Benchmark low-end CPUs and GL 2.x GPUs; track Minosoft stability; clarify asset and branding legal boundaries.
+### Comment pulse
+
+- The unusual hardware detail reflects the author's camera-based host, while ViaProxy bridges Minecraft's major identifier-format transition.
+- Fans celebrated compatible reimplementations — counterpoint: others described years of unsupported decompilation, tighter control, and Bedrock pressure.
+
+### LLM perspective
+
+- View: The experiment demonstrates protocol compatibility as preservation: independent components can reconstruct a recognizable game experience.
+- Impact: Clean-room clients and servers offer researchers and hobbyists control over old versions, unusual hardware, and long-term availability.
+- Watch next: Test gameplay completeness, proxy accuracy, authentication risks, performance on constrained devices, and compatibility with newer protocol revisions.
