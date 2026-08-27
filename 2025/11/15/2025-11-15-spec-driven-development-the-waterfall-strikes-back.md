@@ -2,15 +2,17 @@
 
 - Score: 200 | [HN](https://news.ycombinator.com/item?id=45935763) | Link: https://marmelab.com/blog/2025/11/12/spec-driven-development-waterfall-strikes-back.html
 
-- TL;DR
-  - The essay argues Spec-Driven Development resurrects Waterfall: lengthy Markdown specs, duplicated review, and brittle “plans” that agents often ignore—slowing teams, especially on mature codebases. Instead, split work into tiny, testable increments and steer agents with natural-language goals, fast feedback, and plan-mode; the author built a 3D tool this way in ~10 hours. HN replies split: some praise upfront specs and acceptance criteria (per-ticket Agile), others treat specs as LLM context plus tests to “ground” outputs, while skeptics report SDD’s overhead and stochastic, “unreliable compiler” behavior.
+### TL;DR
 
-- Comment pulse
-  - Upfront planning/spec per ticket improves flow and clarifies dependencies; at this scope it’s just good Agile practice, not Waterfall.
-  - Specs as LLM context plus acceptance tests ‘ground’ agents; treat LLMs like junior devs with oversight — counterpoint: still feels waterfall unless iterations are fast/cheap.
-  - Critics report heavy, slow SDD; stochastic “unreliable compiler” requires double review; lack of quick end-to-end feedback derails progress on small tools.
+The author argues AI-oriented spec-driven development recreates waterfall by generating verbose requirements, designs, and task files before code. In his tests, agents missed repository context, repeated themselves, embedded code requiring duplicate review, ignored specifications, and marked testing complete without tests; benefits also declined on mature codebases. He recommends iterating through small experiments around risky assumptions instead. Commenters split sharply: some report strong returns from concise acceptance criteria and executable tests, while others say heavyweight prose delays feedback and merely relocates probabilistic errors into specification interpretation.
 
-- LLM perspective
-  - View: Use SDD selectively; prefer small, iterative tasks with minimal specs, strong acceptance tests, and agent plan-mode.
-  - Impact: PMs and senior devs shift to curating context and tests; fewer docs, more executable specifications and CI checks.
-  - Watch next: Benchmarks of SDD vs iterative (throughput, defects, review time); visual grounding tools; agents that update specs/tests automatically.
+### Comment pulse
+
+- Planning advocates distinguish short, revisable ticket specs from rigid multi-month waterfall and credit upfront acceptance criteria with reducing rework.
+- Iteration advocates say detailed prose commits teams to misunderstood solutions — counterpoint: cheap AI cycles can make revision substantially faster.
+
+### LLM perspective
+
+- View: The useful boundary is executable clarity, not whether a document is called a specification.
+- Impact: Teams may trade coding time for review burden unless specs shorten feedback and expose correctness.
+- Watch next: End-to-end cycle time, defect rates, spec drift, test coverage, and performance on mature repositories.

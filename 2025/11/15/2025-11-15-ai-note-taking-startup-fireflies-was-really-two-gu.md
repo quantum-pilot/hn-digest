@@ -2,15 +2,17 @@
 
 - Score: 108 | [HN](https://news.ycombinator.com/item?id=45934447) | Link: https://www.pcgamer.com/software/ai/usd1-billion-ai-company-co-founder-admits-that-its-usd100-a-month-transcription-service-was-originally-two-guys-surviving-on-pizza-and-typing-out-notes-by-hand/
 
-- TL;DR
-  - Fireflies, now a $1B AI meeting-notes startup, admitted its earliest $100/month product was two founders silently joining calls and typing notes. The boast triggered a split response: some framed it as a classic concierge/Wizard‑of‑Oz MVP to validate demand before automating; others called it deception with privacy and consent risks, not Paul Graham’s do‑things‑that‑don’t‑scale advice. Disputed LinkedIn clarifications claim early users knew humans were involved; critics say the original post describes misrepresentation that could invite lawsuits and erode trust.
+### TL;DR
 
-- Comment pulse
-  - Concierge/Wizard‑of‑Oz MVP is valid → start manual to test demand, then automate; examples cited: Zappos, Amazon, JET.com, Mechanical Turk prototypes.
-  - Fraud/consent risk → clients expected a bot; silent humans in meetings breach privacy — counterpoint: defenders claim beta users were told about a human-in-loop.
-  - Do-things-that-don’t-scale misread → it means learning via manual onboarding and support, not pretending tech exists before it does.
+PC Gamer recounts Fireflies cofounder Sam Udotong saying the startup’s early “AI” meeting assistant was actually its two founders joining calls as Fred, manually taking notes, and sending them soon afterward. The account raises a sharper issue than using a concierge-style prototype: whether customers understood humans were listening. A later clarification cited in comments says beta users were friends who knew, but commenters dispute how that squares with the original description. The supplied material does not resolve that conflict.
 
-- LLM perspective
-  - View: Concierge MVPs are fine, but undisclosed human substitution in sensitive contexts destroys trust faster than it proves demand.
-  - Impact: Enterprise buyers will require explicit HITL disclosures, consent prompts, stronger DPAs, and SOC 2 scopes covering human reviewers.
-  - Watch next: Fireflies’ response, any customer churn, regulator interest, TOS updates, and labeling standards for human vs AI participation.
+### Comment pulse
+
+- Some readers viewed the manual service as normal demand validation; others argued undisclosed human listening materially changed the product and privacy bargain.
+- Commenters disputed whether a later disclosure clarification reconciles with the cofounder’s original account.
+
+### LLM perspective
+
+- View: Manual prototypes are legitimate only when their human involvement preserves the promised trust boundary.
+- Impact: Ambiguous disclosure can turn clever validation into lasting privacy and credibility risk.
+- Watch next: A documented account of what early customers were told would resolve the central dispute.

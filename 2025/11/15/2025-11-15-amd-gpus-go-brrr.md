@@ -2,15 +2,17 @@
 
 - Score: 246 | [HN](https://news.ycombinator.com/item?id=45934416) | Link: https://hazyresearch.stanford.edu/blog/2025-11-09-amd-brr
 
-TL;DR
-HipKittens is a low-level toolkit that unlocks AMD CDNA GPUs by embracing their quirks: explicit register-tiling with pinned AGPR/VGPR usage, AMD-specific memory layouts/phases, and HBM-address swizzling; two intra-CU schedules (8‑wave ping‑pong, 4‑wave interleave) instead of wave specialization; and chiplet‑aware grid ordering to reuse L2/LLC. Results: MI355X BF16 GEMM hits ~1.6 PFLOPs, attention backward is 1.8–2.3× over AMD baselines, and bandwidth/TFLOPs rise with cache-smart block ordering. HN debates AMD’s software gaps, dev experience vs NVIDIA, and chiplet-driven scalability.
+### TL;DR
 
-Comment pulse
-- AMD must fix software stack → hardware lags without compiler/driver maturity; NVIDIA remains smoother for devs — counterpoint: Some report painless ROCm inference setups.
-- Academia fills gaps productively → HipKittens/ThunderKittens show vendor-independent kernel progress; AMD is engaging (e.g., with tinycorp).
-- Chiplets may scale better → more XCDs favor cache-aware scheduling; solving locality now could future-proof performance.
+Hazy Research presents HipKittens, tile-based primitives and scheduling patterns intended to unlock AMD CDNA3 and CDNA4 GPU performance without raw assembly. The authors argue Nvidia-style wave specialization fits AMD poorly because registers cannot be reallocated between producer and consumer waves. Their alternatives use eight-wave ping-pong or four-wave interleaving, plus layouts tailored to AMD memory instructions and chiplet-aware grid ordering. Reported kernels lead AMD baselines across tested workloads and, in some cases, compete with Nvidia Blackwell results, according to the project.
 
-LLM perspective
-- View: Adopt AMD-native pipelines; don’t force NVIDIA paradigms like wave specialization without register reallocation.
-- Impact: Kernel authors, ROCm/HIPCC teams, and frameworks need register pinning, MFMA-aware layouts, and chiplet-aware launchers.
-- Watch next: HIPCC AGPR input fixes, formal docs on memory phases, upstream PyTorch/Triton support for XCD-savvy scheduling.
+### Comment pulse
+
+- Readers debated whether AMD should solve its software gap internally or leave room for independent research tooling.
+- Experiences with ROCm ranged from effortless recent deployments to persistent consumer-GPU frustration.
+
+### LLM perspective
+
+- View: Portable GPU performance still requires architecture-specific abstractions rather than copying Nvidia’s execution model.
+- Impact: Better primitives could turn AMD’s hardware capacity into practical AI competition without hiding its distinct design.
+- Watch next: Whether HipKittens techniques enter mainstream frameworks and survive across more workloads and hardware generations.

@@ -2,15 +2,17 @@
 
 - Score: 145 | [HN](https://news.ycombinator.com/item?id=45939266) | Link: https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph
 
-- TL;DR
-  ProPublica reports FBI Director Kash Patel granted polygraph waivers to Deputy Director Dan Bongino and two senior hires, enabling Top Secret/SCI access despite unresolved screenings—described by former officials as unprecedented. The FBI denies any failures and cites protocol compliance; experts dispute a Schedule C exemption. An internal complaint and DOJ IG referral followed, amid broader purges and loyalty-test allegations. HN debates polygraphs: many call them unreliable security theater; others say they’re useful for structured interrogations. Consensus worry: selective waivers for political appointees undermine norms.
+### TL;DR
 
-- Comment pulse
-  - Polygraphs are unreliable security theater; selectively waiving them for appointees signals favoritism, not reform; if required for rank-and-file, leadership should comply.
-  - Used properly, polygraphs flag leads and create a recorded Q&A baseline; example: Israeli leak case cited; they’re not lie detectors.
-  - Waiver authority exists for senior posts; apply policy changes universally and transparently—counterpoint: selective waivers by allies undermine institutional constraints.
+ProPublica reports, citing four unnamed knowledgeable sources, that FBI Director Kash Patel granted waivers allowing senior officials Dan Bongino, Marshall Yates, and Nicole Rucker to receive sensitive clearances without clearing standard polygraph screening. The FBI strongly disputed the story’s framing and said nobody “failed,” while not identifying specific alleged errors. The article says waivers are available but exceptionally rare at this level; it could not determine whether Bongino took an exam. Polygraph reliability itself remains disputed, complicating what the waivers signify.
 
-- LLM perspective
-  - View: Focus is institutional integrity, not polygraph science; selective exemptions amid purges intensify politicization concerns.
-  - Impact: Potential chilled morale, partner distrust, and legal challenges to clearances, briefings, and compartmented access decisions.
-  - Watch next: OIG findings, Senate inquiries, any policy memo standardizing waivers, and whether SCI accesses are curtailed or retroactively reviewed.
+### Comment pulse
+
+- Many commenters considered polygraphs unreliable while still objecting to selective exemptions from an established screening rule.
+- Others argued a formally available waiver may be preferable to treating an unreliable test as decisive.
+
+### LLM perspective
+
+- View: A weak screening tool can still create a governance problem when exceptions lack transparent justification.
+- Impact: Selective waivers may erode institutional trust independently of whether polygraphs accurately detect deception.
+- Watch next: Documentary clarification of waiver criteria, exam status, and oversight findings would separate procedure from political inference.

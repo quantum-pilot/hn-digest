@@ -2,15 +2,17 @@
 
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=45935342) | Link: https://cs.lmu.edu/~ray/notes/languagedesignnotes/
 
-- TL;DR
-  - Hands-on guide to language design: iterate through sketching, abstract syntax, concrete syntax, and formal grammar; know paradigms, ask sharp feature questions, and define syntax/statics/dynamics. It walks from ASTs (EsTree) to precedence/associativity, then a tiny language (Astro) specified in Ohm. Discussion pushes for coherent philosophies over feature bloat, suggests Raku for rapid grammar/DSL prototyping, debates whether new languages are worth it, and points to design-rationale resources (Python PEPs, Stroustrup’s C++, Ada) plus niche experiments like stack-based Brainfuck for evolutionary programming.
+### TL;DR
 
-- Comment pulse
-  - Have a coherent philosophy → prevents kitchen‑sink “garbage‑can” languages and keeps feasibility, sustainability, and ergonomics aligned.
-  - Use Raku for prototyping → built‑in grammars, RakuAST, and “slangs” speed parsers and DSLs; powerful but “seductive and terrifying” to some.
-  - Should you create a new language? → skeptics cite tech debt and duplication—counterpoint: advocates emphasize education, specialization, and progress from diversity.
+These course notes frame programming-language design as an iterative loop connecting intended capabilities, abstract syntax, concrete syntax, formal definition, prototyping, and implementation feedback. They urge designers to study paradigms, language concepts, existing languages, and users before selecting features. Extensive checklists expose decisions around types, functions, control flow, concurrency, reflection, and syntax, while examples show how progressively richer teaching languages exercise compiler construction. The central lesson is that coherent tradeoffs and repeated testing matter more than accumulating fashionable features.
 
-- LLM perspective
-  - View: Start with minimal core and target audience; evolve via prototypes; quantify trade‑offs before adding features.
-  - Impact: Prefer DSLs or slangs within host languages to reduce maintenance and adoption friction.
-  - Watch next: Prototype with Ohm‑JS, Raku, or ANTLR; measure parse ambiguities, error messages, and user comprehension in small studies.
+### Comment pulse
+
+- Readers stressed having a clear design philosophy, including strong convictions about which features do not belong.
+- Several defended toy languages as valuable learning exercises even when they are never intended for production adoption.
+
+### LLM perspective
+
+- View: A language’s exclusions reveal its design more clearly than a long feature inventory.
+- Impact: Iterating from user goals through syntax and implementation exposes incoherence before it becomes permanent complexity.
+- Watch next: Prototype programs should test the language’s hardest semantic choices, not merely demonstrate pleasant syntax.

@@ -2,15 +2,17 @@
 
 - Score: 75 | [HN](https://news.ycombinator.com/item?id=45939459) | Link: https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/
 
-- TL;DR
-  - Trump announced U.S. approval for South Korea to build nuclear-powered submarines at Hanwha’s newly acquired Philadelphia shipyard. Naval News notes a reported $5B modernization, no signed program yet, and ROK Navy estimates ≥10-year timelines for ≥5,000‑ton boats aimed at endurance/deterrence. HN debates feasibility: U.S. shipbuilding’s capacity limits (Jones Act, commercial–naval split) versus the upside of Korean investment expanding U.S. yards. Others argue Seoul is technically capable but constrained by enrichment/NPT politics; building in the U.S. may ease proliferation optics.
+### TL;DR
 
-- Comment pulse
-  - Skeptical → $5B yard upgrades, no details, and U.S. commercial–naval split suggest no boats from Philadelphia within a decade.
-  - Industrial upside → Korean capital could rebuild U.S. yards and workforce, boosting future capacity — counterpoint: labor frictions and local politics could bog it down.
-  - Politics/proliferation → Korea’s past SSN ambitions stumbled over uranium enrichment and NPT optics; U.S.-based build may sidestep fuel and safeguards scrutiny.
+President Donald Trump announced US approval for South Korea to build nuclear-powered submarines at Hanwha's Philadelphia shipyard. The announcement lacks a signed South Korean agreement or concrete construction plan, and the commercial yard needs a reported $5 billion modernization. South Korean officials estimate a program would take around ten years, exceed 5,000 tons, and require at least four boats. The capability would extend underwater endurance and deterrence against regional powers. Commenters see potential US shipbuilding investment but question feasibility, timing, fuel politics, and whether any boats will materialize.
 
-- LLM perspective
-  - View: Announcement is a signal; core blockers are reactor tech transfer, export controls, and nuclear facility certification, not hull fabrication.
-  - Impact: If realized, normalizes allied access to naval reactors beyond AUKUS, pressuring safeguards regimes and U.S. industrial base planning.
-  - Watch next: Formal MoU, reactor fuel choice (HEU vs LEU), U.S. export authorizations, and Philadelphia’s workforce/nuclear QA pipelines.
+### Comment pulse
+
+- Supporters frame the plan as allied self-defense plus imported Korean shipbuilding capacity and American industrial investment.
+- Skeptics call it an announcement without infrastructure or agreements — counterpoint: existing US-Korean shipbuilding cooperation could provide a foundation.
+
+### LLM perspective
+
+- View: Political permission starts a negotiation; it is not yet an executable submarine program.
+- Impact: Success could expand South Korean endurance and US yard capacity while raising proliferation sensitivities.
+- Watch next: Bilateral signatures, fuel arrangements, Philadelphia upgrades, reactor design, financing, and South Korean procurement approval.
