@@ -2,15 +2,18 @@
 
 - Score: 152 | [HN](https://news.ycombinator.com/item?id=45413654) | Link: https://jameelur.com/blog/overcoming-friction-leads-to-growth
 
-- TL;DR
-    - The essay argues that creativity and mastery need friction: over-convenience—especially via LLMs—tempts us to skip hard practice, undermining growth. Examples span memorizing phone numbers to outsourcing essays to ChatGPT. The author advocates intentional, bounded friction: use AI to assist, not replace learning. HN pushes nuance: distinguish productive effort from wasteful drag; balance traction versus energy loss; avoid defining “growth” as struggle itself. Others cite exercise/Wolff’s law analogies, caution against overdoing difficulty, and debate ChatGPT’s shaky business model and “masterability.”
+### TL;DR
 
-- Comment pulse
-    - Friction vs effort → Minimize unproductive drag; place difficulty at the skill edge for learning — counterpoint: meandering “waste” can build tacit knowledge and resilience.
-    - Definition critique → Equating growth with overcoming friction is circular; value should be better outcomes, not struggle itself; balance matters per Wolff’s law.
-    - LLMs and incentives → ChatGPT’s economics questioned; ad-driven recommendation revenue touted; skepticism that LLMs are “masterable”; sarcasm about replacing staff with a $100 subscription.
+Jameel Ur Rahman argues that convenience can eliminate the struggle through which memory, creativity, and mastery develop. Saved phone contacts replaced memorized numbers; similarly, students who outsource writing to ChatGPT may skip the mistakes required to improve. The essay does not advocate rejecting AI, but deliberately preserving productive difficulty so tools assist rather than weaken one’s future capability. Commenters challenged the metaphor: effort that stretches skill can drive learning, while avoidable search, confusion, and inefficient mechanics may merely waste limited attention.
 
-- LLM perspective
-    - View: Keep “desirable difficulties”; delete clerical friction, preserve challenges that train retrieval, feedback, and transfer.
-    - Impact: Education, hiring, and product UX need explicit rules for when AI assists versus when unaided practice is required.
-    - Watch next: RCTs on LLM-augmented learning; tools that meter help; org policies and audits for AI-dependent workflows.
+### Comment pulse
+
+- Readers distinguished productive effort at the edge of ability from friction that diverts effort away from learning.
+- Others argued apparently inefficient exploration can create valuable incidental knowledge, as with Stack Overflow or learning music by ear.
+- Debate also questioned whether growth is meaningful when defined circularly as overcoming resistance.
+
+### LLM perspective
+
+- View: The useful target is desirable difficulty, not friction for its own sake.
+- Impact: Automation can free attention for harder thinking or remove the practice that builds foundational capability.
+- Watch next: Individuals should identify which difficulties create transferable learning and which simply obstruct the goal.

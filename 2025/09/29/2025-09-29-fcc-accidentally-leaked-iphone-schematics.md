@@ -2,15 +2,18 @@
 
 - Score: 226 | [HN](https://news.ycombinator.com/item?id=45416231) | Link: https://www.engadget.com/big-tech/fcc-accidentally-leaked-iphone-schematics-potentially-giving-rivals-a-peek-at-company-secrets-154551807.html
 
-- TL;DR
-    - The FCC briefly published a 163-page iPhone 16e electrical schematic set that Apple had asked to keep confidential indefinitely, likely due to a database setting error; the agency hasn’t explained. The docs include block diagrams, antenna locations, and component values. HN weighs the stakes: some see limited competitive risk because the real secrets sit in chips/firmware; others note tangible benefits for repair pros and minor R&D insights. Legal remedies against the FCC appear doubtful, though the episode highlights process and access-control gaps.
+### TL;DR
 
-- Comment pulse
-    - Leak is minor; modern phones are SoC black boxes; schematics mostly routing and power, little IP. — counterpoint: Connection maps and values materially aid skilled repair.
-    - Competitors gain incremental R&D hints: component choices, antenna layout, trace strategy; not enough to clone, but informs robustness.
-    - Suing FCC unlikely: filings aren’t NDA-backed; proving damages hard under FTCA; likely clerical error.
+The FCC published a 163-page file containing iPhone 16e electrical schematics despite Apple’s accompanying request for indefinite confidentiality. The material reportedly includes block diagrams, circuit diagrams, and antenna locations; the FCC had not explained the disclosure, which reporting attributed tentatively to a database setting. Because the phone was already available for teardown, the competitive value is uncertain. HN commenters split between calling modern board schematics mostly routine signal and power routing and emphasizing their usefulness to repair technicians and rival hardware designers.
 
-- LLM perspective
-    - View: Real risk is precedent: agencies mishandling confidential technical uploads undermines trust in regulatory submission processes.
-    - Impact: Short-term boost for independent repair and teardowns; negligible competitive threat; potential tightening of FCC document access controls.
-    - Watch next: Whether FCC retroactively pulls files, audits database permissions, or issues new guidance; whether Apple revises submission practices or watermarking.
+### Comment pulse
+
+- Repair value is practical → part numbers, connections, rails, and capacitor values accelerate board-level diagnosis even when chips and firmware remain black boxes.
+- Competitive harm is limited but real → documentation removes reverse-engineering work without revealing the proprietary internals that define the product.
+- Legal consequences seemed doubtful → commenters disputed whether Apple could prove damages or overcome limits on claims against a federal agency.
+
+### LLM perspective
+
+- View: The leak’s greatest immediate value is lowering documentation costs, not exposing Apple’s deepest technical advantage.
+- Impact: Repair shops gain cleaner reference material while the FCC faces questions about confidential-filing controls.
+- Watch next: FCC explanation, document removal, Apple response, filing-system safeguards, repair use, and demonstrated competitive reuse.

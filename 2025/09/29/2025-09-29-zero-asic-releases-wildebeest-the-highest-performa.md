@@ -2,15 +2,18 @@
 
 - Score: 181 | [HN](https://news.ycombinator.com/item?id=45410155) | Link: https://www.zeroasic.com/blog/wildebeest-launch
 
-- TL;DR
-  - Zero ASIC’s Wildebeest is an Apache-2.0 Yosys plugin that selects size-aware optimization recipes and pushes ABC’s abc9 to cut logic depth, claiming state‑of‑the‑art QoR. On picorv32, it reports fewer LUTs and much lower depth than vendor and Yosys flows, and ships LogikBench for third‑party checks. HN welcomes lean, scriptable tooling but questions apples‑to‑apples benchmarks, target specificity (Zero ASIC eFPGAs), and the impact without open bitstreams/placers. Still, industry‑hardened techniques landing in open synthesis is a meaningful step.
+### TL;DR
 
-- Comment pulse
-  - Vendor IDEs are huge → command-line exists but installations ~100 GB; open tools are lean yet miss features, and closed bitstreams block end‑to‑end competitiveness.
-  - Performance claim intrigues → apache‑2.0 code; depth drop (17→6 on LUT6) suggests big Fmax gains—but comparisons mix architectures and xc7 Yosys is limited.
-  - Not standalone → Yosys plugin tuned for Zero ASIC eFPGAs; why not upstream, and why VTR over nextpnr? — counterpoint: permissive license, proper credit.
+Zero ASIC released Wildebeest, an open-source Yosys plugin for FPGA synthesis that selects optimization scripts by circuit size and uses advanced ABC9 techniques for speculative synthesis and logic-depth reduction. The company says an internal suite exceeding 150 benchmarks informed development and publishes LogikBench for evaluation. On its PicoRV32 table, Wildebeest reports fewer LUTs or lower logic depth than listed Yosys and proprietary results. However, several targets differ substantially, and Zero ASIC acknowledged that comparing compilers across different FPGA architectures is intrinsically difficult.
 
-- LLM perspective
-  - View: Real progress if scripts upstream into Yosys targets beyond Zero ASIC; otherwise value stays mostly vendor‑specific.
-  - Impact: Smaller teams get better QoR without vendor IDEs; research gains reproducible benchmarks via LogikBench.
-  - Watch next: Independent xc7/ice40 results, integration PRs, and any moves on bitstream docs or nextpnr support.
+### Comment pulse
+
+- Readers welcomed smaller open tooling but noted synthesis is only one stage; proprietary bitstreams still obstruct complete toolchains.
+- Commenters questioned whether cross-device LUT and depth comparisons support the “highest performance” claim.
+- Critics called Wildebeest a Yosys plugin focused on Zero ASIC hardware, while defenders cited its permissive release and explicit upstream credit.
+
+### LLM perspective
+
+- View: The release is meaningful open synthesis work, but the superlative headline outruns the presented cross-architecture evidence.
+- Impact: Open optimization techniques can improve Yosys ecosystems even before a fully open FPGA flow exists.
+- Watch next: Independent same-device benchmarks, broader target ports, upstream collaboration, and end-to-end results will establish value.

@@ -2,15 +2,18 @@
 
 - Score: 627 | [HN](https://news.ycombinator.com/item?id=45412419) | Link: https://neilzone.co.uk/2025/09/what-if-i-dont-want-videos-of-my-hobby-time-available-to-the-entire-world/
 
-- TL;DR
-  - An airsoft player enjoys the game but dislikes being posted to YouTube by fellow players without consent, especially on a private site with no opt-out cues. He’s not arguing law, just asking for courtesy. HN debates norms: some see filming as invasive and community‑chilling; others cite public recording rights and practicality. Many propose venue‑level policies that balance creators and participants, and note laws differ across jurisdictions (e.g., UK vs. France). The tension is less legality than expectations in shared hobby spaces.
+### TL;DR
 
-- Comment pulse
-  - Cameras chill behavior → People report anxiety at gyms, weddings, and kids’ parties; phones out shift vibes from carefree to self‑censoring.
-  - Consent requirements are unworkable → Model releases for bystanders scale poorly and endanger reporting; — counterpoint: on private venues, rules, opt‑outs, and blurring are practical.
-  - Online dunk culture deters growth → Public shaming of mistakes makes beginners avoid communities where practicing publicly used to be safe.
+An airsoft player enjoys the hobby but dislikes that participants routinely record multi-camera game footage and upload it without asking everyone shown. The private venue has no visible consent mechanism, such as opt-out lanyards used at some conferences, and recording appears culturally assumed. The author has not asked camera users to exclude them and is not demanding a policy change; the concern is ethical rather than a definitive legal claim. Face coverings do not guarantee anonymity because equipment, patches, names, and unmasked rest areas remain identifying.
 
-- LLM perspective
-  - View: Treat hobby sites like conferences—clear filming policy, visible opt‑outs, pre‑game briefing, and default anonymization for non‑participants.
-  - Impact: Site owners set norms; creators add blur/consent workflows; platforms offer easy face‑blur and respect per‑video visibility constraints.
-  - Watch next: Sites piloting camera‑free sessions; YouTube/TikTok shipping auto‑redaction by default; UK/EU guidance on filming in private venues.
+### Comment pulse
+
+- Many viewed persistent video publication as more invasive than being briefly observed, including readers from younger generations.
+- Others defended public filming rights but distinguished a private hobby venue where explicit camera rules are practical.
+- Commenters argued recording can destroy supportive spaces needed to learn, fail, play, or behave imperfectly without global exposure.
+
+### LLM perspective
+
+- View: Presence in a shared activity does not automatically imply informed agreement to permanent worldwide distribution.
+- Impact: Default recording can chill participation and turn community members into involuntary content inputs.
+- Watch next: Venues could test clear notices, camera-specific sessions, opt-outs, blurring, and enforceable upload rules.

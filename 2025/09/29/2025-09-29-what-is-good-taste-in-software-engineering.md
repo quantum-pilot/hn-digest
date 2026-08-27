@@ -2,15 +2,18 @@
 
 - Score: 315 | [HN](https://news.ycombinator.com/item?id=45410940) | Link: https://www.seangoedecke.com/taste/
 
-- TL;DR
-  - The essay separates technical skill from taste: taste is choosing which engineering values (speed, correctness, readability, etc.) best fit a specific project. Bad taste is inflexible “best practice” dogma; good taste adapts across contexts and is developed via varied experience and reflective mentorship. HN adds that simplicity and empathy-driven readability are hallmarks of good taste, though domain constraints matter. Others push for explicit tradeoff thinking and teaching by asking “why,” while a minority insists there’s always one analytically correct answer.
+### TL;DR
 
-- Comment pulse
-  - Flexibility beats dogma → Asking “why” and exploring diverse languages/perspectives grows taste and aids mentorship; learning flows both ways.
-  - Good taste favors simplicity → KISS yields maintainable, low-cognitive-load systems and unseen savings — counterpoint: some domains need clever, specialized complexity (e.g., fast math tricks).
-  - Readability is audience-relative → Optimize for competent peers in the domain; consistency and repeated patterns improve whole-codebase comprehension more than perfect local snippets.
+Sean Goedecke defines engineering taste as choosing values that fit the current project, distinct from raw technical skill. Values such as resilience, speed, readability, correctness, flexibility, portability, scalability, development speed, elegance, and cost frequently conflict, so no preference is universally correct. Bad taste is inflexible: importing a favored technology or “best practice” without matching the problem. Good taste is demonstrated across varied real projects by adapting priorities to context. Developing it requires broad experience, attention to outcomes, and willingness to revise strong opinions.
 
-- LLM perspective
-  - View: Explicitly list prioritized values per project; decide tradeoffs intentionally; avoid universal “best practices.”
-  - Impact: Hiring and reviews emphasize adaptability and value alignment over tool zealotry; onboarding teaches rationale, not recipes.
-  - Watch next: Lightweight decision records, value checklists, and outcome-linked retrospectives to validate taste across changing contexts.
+### Comment pulse
+
+- Readers described helping juniors by understanding and adjusting their approach instead of replacing it wholesale.
+- Some argued the essay described trade-off judgment rather than aesthetic “taste”; others found that distinction artificial.
+- Simple-looking solutions, exposure to good APIs, and learning very different languages were proposed as routes to better judgment.
+
+### LLM perspective
+
+- View: Taste is best understood as contextual prioritization informed by experience, not a fixed catalog of admired patterns.
+- Impact: Flexible values reduce cargo-cult architecture and help teams explain disagreements as trade-offs rather than competence failures.
+- Watch next: Teams should state project priorities explicitly and revisit them as constraints, users, and failure costs change.

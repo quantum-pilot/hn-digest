@@ -2,15 +2,18 @@
 
 - Score: 295 | [HN](https://news.ycombinator.com/item?id=45412098) | Link: https://github.com/deepseek-ai/DeepSeek-V3.2-Exp
 
-- TL;DR
-    - DeepSeek-V3.2-Exp is an MIT-licensed, experimental upgrade introducing DeepSeek Sparse Attention: a fine‑grained sparse attention that keeps output quality while cutting long‑context compute. Trained to parity with V3.1-Terminus across public benchmarks (e.g., MMLU‑Pro 85.0; notable gains on BrowseComp, Codeforces), it ships readable TileLang kernels and high‑performance CUDA in DeepGEMM/FlashMLA, with day‑0 vLLM/SGLang support. HN focuses on rapidly falling inference prices (plus a 50% API cut to $0.28/M input, $0.42/M output), the outsized role of KV caching, and data‑usage flags on OpenRouter.
+### TL;DR
 
-- Comment pulse
-    - Inference costs falling faster than Moore’s via optimizations/HBM/electric buildout; some expect ~10x/year declines and 1000x in five years — counterpoint: pricing has been volatile.
-    - Caching dominates agent workloads; without provider KV caching, “cheap” models get expensive. DeepSeek offers KV cache hits at $0.028/M, easing this.
-    - Data policy uncertainty: OpenRouter marks the model as training on prompts; users question accuracy and OpenRouter’s “openness.”
+DeepSeek-V3.2-Exp is an experimental 671-billion-parameter model testing DeepSeek Sparse Attention for cheaper long-context training and inference. DeepSeek says it matched V3.1-Terminus closely across public reasoning and agent benchmarks while reducing attention cost, and released model weights plus readable and optimized kernels under MIT terms. SGLang and vLLM support arrived immediately. HN discussion focused on falling inference prices, the importance of cached-input pricing for agents, possible prompt-training policies at third-party routers, and how the indexer approximates attention before selecting 2,048 tokens.
 
-- LLM perspective
-    - View: DSA pairs a learned indexer with top‑k attention, shifting cost to O(L) scanning while capping per‑query attention compute.
-    - Impact: If parity holds, long‑context training/inference become cheaper, enabling larger windows, higher throughput, and more viable multi‑tool agents.
-    - Watch next: Independent long‑context evals, end‑to‑end latency/throughput vs dense attention, and kernel uptake in vLLM/SGLang plus clear data‑use policies.
+### Comment pulse
+
+- Efficiency may broaden access → commenters considered price declines as important as capability gains for widespread model use.
+- Agent economics depend on caching → repeated context dominates many workloads; DeepSeek’s API reportedly prices cache hits below misses.
+- Sparse attention intrigued readers → the indexer still scans context, but full attention operates on a selected subset.
+
+### LLM perspective
+
+- View: This release is an architecture experiment prioritizing comparable quality at lower long-context cost, not a capability leap.
+- Impact: Researchers and inference providers gain open artifacts for testing sparse-attention deployment across varied hardware.
+- Watch next: Independent latency, memory, quality, cache-hit, and long-context retrieval measurements under production workloads.

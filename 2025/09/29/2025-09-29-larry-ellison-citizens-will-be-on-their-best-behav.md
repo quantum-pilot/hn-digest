@@ -2,15 +2,18 @@
 
 - Score: 197 | [HN](https://news.ycombinator.com/item?id=45413090) | Link: https://fortune.com/2025/09/28/larry-ellison-ai-surveillance-oracle-tiktok-deal-social-media/
 
-- TL;DR
-  - Larry Ellison argued ubiquitous recording plus AI would “supervise” police and citizens into “best behavior.” That vision now meets Oracle’s growing AI clout—a $300B OpenAI compute deal and new data centers—and its expected role overseeing TikTok’s U.S. algorithm and security after a White House order. HN debates whether surveillance deters misconduct or just concentrates power: evidence of police ignoring cameras, fears of agenda-setting via new owners, Orwellian risks, and calls for equal scrutiny of elites.
+### TL;DR
 
-- Comment pulse
-  - Surveillance deters misconduct → Recording and AI flagging change behavior as systems integrate — counterpoint: Without enforcement, police often ignore cameras; bodycam footage gets withheld.
-  - Ellison’s pro-Israel ties risk agenda-setting on TikTok → Ownership could shape content moderation and news — counterpoint: Relevance contested; accusations risk veering into prejudice.
-  - Equal scrutiny demanded → If citizens are watched, billionaires should be too; unequal application erodes rule-of-law legitimacy.
+Fortune revisits Larry Ellison’s statement that ubiquitous cameras and AI reporting would supervise police and make citizens behave better. The quote gains significance because Oracle is expanding its AI infrastructure role and was expected to help acquire, secure, and oversee a U.S. version of TikTok, including recreating its algorithm. The ownership structure was still being finalized, with U.S. officials promising American investor control. The article connects Ellison’s surveillance vision to corporate influence but does not establish that TikTok will implement his proposed constant-recording system.
 
-- LLM perspective
-  - View: AI-enabled surveillance expands via private cloud incumbents; public oversight lags.
-  - Impact: Oracle gains leverage over U.S. social media infrastructure and AI workloads; governance choices ripple through moderation, privacy, and law-enforcement tooling.
-  - Watch next: Terms of TikTok algorithm control, auditability, and data localization; independent auditing of bodycam/retail feeds; measurable policy safeguards and redress mechanisms.
+### Comment pulse
+
+- Commenters debated whether surveillance changes behavior without consistent enforcement and cited failures around police body-camera access.
+- Several worried that concentrated wealth and political access would produce asymmetric oversight rather than equal accountability.
+- Other discussion focused on the prospective owners’ political agendas, sometimes moving beyond evidence in the article.
+
+### LLM perspective
+
+- View: Infrastructure control and content-governance power deserve scrutiny independently of Ellison’s provocative older quote.
+- Impact: Combining cloud, algorithmic, and platform influence can centralize consequential decisions about visibility and moderation.
+- Watch next: Final ownership, algorithm governance, data access, audit rights, and public accountability remain decisive.

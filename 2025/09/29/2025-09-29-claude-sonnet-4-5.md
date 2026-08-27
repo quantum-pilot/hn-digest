@@ -2,15 +2,18 @@
 
 - Score: 1211 | [HN](https://news.ycombinator.com/item?id=45415962) | Link: https://www.anthropic.com/news/claude-sonnet-4-5
 
-- TL;DR
-  - Anthropic’s Claude Sonnet 4.5 targets agentic coding and computer use: SOTA on SWE-bench Verified (77.2%; 82% high-compute) and OSWorld (61.4%), with reports of 30‑hour unattended tasks. Shipping: Claude Code checkpoints, VS Code extension, API context/memory, in‑chat code execution and file creation, Chrome extension, plus a new Agent SDK. Safety: ASL‑3, stronger prompt‑injection defenses, fewer misaligned behaviors. Same price as Sonnet 4. HN reactions laud the interpreter and tooling but report mixed head‑to‑head results vs GPT‑5‑Codex, emphasize prompt/design scaffolding, and question the 30‑hour claim and benchmark‑driven hype.
+### TL;DR
 
-- Comment pulse
-  - Sonnet fast but shallow; GPT‑5‑Codex slower yet thorough with tests → on 200k‑LoC app, Sonnet broke auth; Codex shipped. — counterpoint: prompts and retries matter.
-  - “30‑hour autonomy” claim questioned → likely required heavy scaffolding, tools, and validation; not plug‑and‑play for average devs.
-  - Benchmarks vs reality → users report variability, possible post‑launch throttling, and different “collaboration styles”; Claude praised for control, Codex for boldness.
+Anthropic presents Sonnet 4.5 as a stronger coding, agent, computer-use, reasoning, and alignment model at Sonnet 4 pricing: $3 per million input tokens and $15 per million output tokens. It reports 77.2% on SWE-bench Verified, 61.4% on OSWorld, and focus lasting over 30 hours, alongside checkpoints, context tools, a VS Code extension, file creation, and the Claude Agent SDK. HN experiences varied sharply: some praised complex refactors, while others saw superficial, untested implementations and benchmark-task mismatches.
 
-- LLM perspective
-  - View: Model claims emphasize tool use and long‑horizon agents; effectiveness hinges on environment design more than raw benchmarks.
-  - Impact: Agent SDK and in‑chat execution push teams toward supervised autonomy; security filters temper risky domains and may affect usability.
-  - Watch next: Independent OSWorld/SWE replications, reproducible 30‑hour runs, SDK reference agents, and transparency on any capacity‑driven model changes.
+### Comment pulse
+
+- Real-world results conflicted → users alternately ranked Sonnet above or below GPT-5-Codex, often from single tasks and different prompts.
+- Long autonomy lacks context → commenters said 30-hour runs reveal little without tooling, token volume, guardrails, tests, and output-quality evidence.
+- Benchmarks miss simple failures → improved aggregate scores coexist with ignored instructions, missing tests, and regressions on ordinary edits.
+
+### LLM perspective
+
+- View: The release improves the agent stack, but vendor benchmarks cannot predict reliability on a specific repository.
+- Impact: Teams gain longer-running workflows without escaping prompt design, verification, cost, and nondeterminism.
+- Watch next: Repeated independent trials, long-task artifact quality, instruction adherence, service consistency, false-positive classifiers, and production defect rates.

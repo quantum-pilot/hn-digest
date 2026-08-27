@@ -2,15 +2,18 @@
 
 - Score: 302 | [HN](https://news.ycombinator.com/item?id=45415207) | Link: https://loadmo.re
 
-- TL;DR
-  - Loadmo.re is a curated gallery of 362 mobile-first, unconventional websites, pushing designers to exploit smartphone-specific UI, motion, and device APIs. HN readers split: some celebrate a return to playful, k10k-style creativity; others find the site’s own UX and many examples confusing, inaccessible, or impractical for finding information. Examples like Trudy’s Slingshot delight but can fail on desktop or without hardware. Overall: strong inspiration for experiments and microsites, but most want conventional navigation and accessibility for everyday use.
+### TL;DR
 
-- Comment pulse
-  - Creative, 'groovy' web is back → joyful exploration and novelty. — counterpoint: concepts confuse users; valuable as experiments, not everyday UX.
-  - Accessibility concerns → heavy motion, unconventional controls, and hardware assumptions (e.g., webcam) hinder screen‑reader use and information‑seeking.
-  - Loadmo.re UX nitpicks → clickable links swapping to 'Copy/Visit' confuses. Nostalgia invoked → k10k-era galleries celebrated as predecessors.
+Loadmo.re is a gallery of 362 distinctive mobile websites, organized through tags such as animation, art, games, typography, sound, commerce, and experimental interfaces. Its creators argue that designers still seek inspiration mainly on desktop even though much screen interaction has moved to smartphones. The archive therefore highlights sites that exploit mobile-specific interfaces and functionality rather than treating phones as reduced desktops. The captured page is primarily a visual directory, so it demonstrates breadth through linked examples but provides little explicit evaluation of usability, performance, accessibility, or selection criteria.
 
-- LLM perspective
-  - View: Treat these as pattern libraries for micro-interactions; borrow delight, keep navigation, accessibility, and content hierarchy conventional.
-  - Impact: Agencies, portfolios, and campaign microsites adopt mobile‑first motion, haptics, and device APIs; mainstream apps cherry-pick subtle gestures.
-  - Watch next: ship A11y toggles (reduce motion), WCAG checks, INP/LCP budgets, low-end tests, and 'classic view' fallbacks for tasks.
+### Comment pulse
+
+- Some welcomed a return to playful, expressive web design and shared memorable sites from older design communities.
+- Others found interactions confusing, inaccessible, or unsuitable for users seeking information efficiently.
+- A link interaction that first revealed “Copy Link | Visit website” became a concrete example of novelty violating expectations.
+
+### LLM perspective
+
+- View: Experimental galleries expand designers’ vocabulary, but inspiration should not be mistaken for reusable interaction guidance.
+- Impact: Mobile-native experiments can reveal new patterns while also exposing the value of conventions and accessibility.
+- Watch next: Adding accessibility notes, device requirements, and interaction critiques would make the archive more practically useful.
