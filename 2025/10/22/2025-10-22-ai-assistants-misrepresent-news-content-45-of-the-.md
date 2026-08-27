@@ -2,15 +2,17 @@
 
 - Score: 390 | [HN](https://news.ycombinator.com/item?id=45668990) | Link: https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content
 
-- TL;DR
-  - An EBU/BBC-led study of 3,000+ answers from ChatGPT, Copilot, Gemini, and Perplexity found 45% had significant issues: 31% poor sourcing and 20% major inaccuracies. Gemini fared worst (76%), largely from weak citations. With 7% of online news users—and 15% under-25s—now turning to assistants, the BBC warns of eroding trust; audiences often blame news outlets too. The EBU released a toolkit, urged regulators to enforce integrity laws, and called for continuous monitoring. HN debates methods but shares frequent hallucinations and bad “summaries.”
+### TL;DR
 
-- Comment pulse
-  - Methodology is weak: sourcing dominates errors, model variants unclear, Anthropic omitted; article mixes old/new results—counterpoint: fabricated links/policies show real accuracy failures.
-  - User reports: Gemini hallucinated articles, links, and business hours; many assistants give “random condensation” summaries; some claim SOTA models fare better than lightweight/mini ones.
-  - Mitigation: verify cited links, prefer assistants with retrieval on, and demand source attributions—counterpoint: some reports show hallucinations even when web search is enabled.
+An EBU study led by the BBC had journalists assess more than 3,000 news answers from ChatGPT, Copilot, Gemini, and Perplexity across 14 languages. It reported significant issues in 45% of answers, including sourcing problems in 31% and major accuracy problems in 20%; Gemini reportedly reached 76% overall. The broadcasters call the failures systemic and seek monitoring and regulatory enforcement. Commenters agreed fabricated or inverted summaries are dangerous but questioned the methodology, model selection, changing product versions, and whether the headline obscures citation-heavy scoring.
 
-- LLM perspective
-  - View: Most failures are ungrounded claims and weak attribution; enforce claim-grounding, link validation, and temporal awareness before summarizing news.
-  - Impact: Newsrooms, platforms, and regulators must align: assistants should default to citations, show recency, and degrade gracefully when retrieval is unavailable.
-  - Watch next: Track citation validity rate, grounded-claim accuracy, model/version transparency, and cross-lingual results; include Anthropic and enterprise tiers in follow‑ups.
+### Comment pulse
+
+- Methodology skepticism → critics wanted clearer model details, stronger baselines, and separation of sourcing failures from factual errors.
+- Practical distrust → commenters reported invented links, reversed conclusions, and unreliable call or message summaries.
+
+### LLM perspective
+
+- View: A single failure rate compresses distinct risks, but the documented attribution and accuracy failures still require verification.
+- Impact: News consumers and publishers bear reputational costs when assistants confidently detach claims from sources.
+- Watch next: Repeated tests by model version, transparent rubrics, error severity, and independently reproducible datasets.

@@ -2,15 +2,18 @@
 
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=45667458) | Link: https://blogs.nvidia.com/blog/starcloud/
 
-- TL;DR
-    - Starcloud, an NVIDIA-backed startup, proposes space-based data centers powered by constant solar and cooled via radiative heat sinks, starting with a November launch of an H100-equipped satellite. They tout 10x cheaper energy, large water savings, and near-instant in-orbit inference for Earth-observation workloads, scaling to a 5‑GW platform with kilometer-scale panels and future Blackwell GPUs. HN pushes back: cooling area, launch/maintenance, radiation bit flips, latency/bandwidth, debris, and bold timelines look prohibitive—though some see niche value in off-Earth jurisdiction and continuous solar.
+### TL;DR
 
-- Comment pulse
-    - Radiative cooling bottlenecks → Stefan–Boltzmann limits demand kilometer-scale radiators for multi‑GW heat; shading, orientation, and deployment negate “free” space energy.
-    - Ops/robustness are hard → radiation upsets, debris, stationkeeping, no maintenance force redundancy, increasing mass/cost — counterpoint: niche high-security, extra-sovereign use could pay.
-    - Water/cooling narrative debated → datacenter water is often evaporated and can harm ecosystems; others say impacts are overstated but politically potent, fueling local opposition.
+NVIDIA profiles Starcloud's plan to launch a 60-kilogram satellite carrying an H100 GPU, initially targeting in-orbit processing of Earth-observation data. The startup ultimately proposes a five-gigawatt orbital data center with solar and radiator structures kilometers wide, claiming tenfold lower energy costs and carbon savings over terrestrial facilities. Those projections come from Starcloud and NVIDIA's promotional account. Commenters strongly challenge the economics and engineering, citing radiative cooling limits, launch mass, radiation faults, debris, maintenance, stationkeeping, communications, and latency.
 
-- LLM perspective
-    - View: Technically intriguing, but economics hinge on radiator mass/area, autonomous servicing, and reliable high-throughput downlink; otherwise it’s a marketing demo.
-    - Impact: If viable, shifts energy/cooling externalities off-grid, but increases orbital risk, favors sovereign-poor actors, and concentrates power with launch-capable ecosystems.
-    - Watch next: Thermal budget per kW, H100 SEU rates, sustained downlink >10 Gbps, radiator density <5 kg/m², debris/insurance, licensing.
+### Comment pulse
+
+- Skeptics calculated that rejecting gigawatts of heat would require enormous radiators protected from sunlight.
+- Others saw narrower value in secure or low-latency processing of data already collected in orbit.
+- The CEO's prediction that most new data centers move to space within ten years drew broad disbelief.
+
+### LLM perspective
+
+- View: In-orbit inference is a plausible experiment; a five-gigawatt orbital campus is an unvalidated extrapolation.
+- Impact: The satellite can test compute, radiation, thermal, and communications assumptions before megastructure economics matter.
+- Watch next: Launch results, sustained H100 reliability, measured power and cooling performance, and transparent cost models.

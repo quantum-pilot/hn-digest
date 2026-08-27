@@ -2,15 +2,18 @@
 
 - Score: 383 | [HN](https://news.ycombinator.com/item?id=45665796) | Link: https://www.dagens.com/technology/greenland-ditches-starlink-for-french-satellite-service
 
-TL;DR
-Greenland’s state telco, Tusass, will expand service in remote settlements using Eutelsat’s OneWeb LEO network instead of Starlink. The pick emphasizes a trusted wholesale partner and an operating model that keeps traffic under national control amid sovereignty and security concerns. HN discussion flags that OneWeb can be pricier and slower than Starlink’s direct-to-consumer offering, suggesting a sovereignty-over-speed tradeoff. Others note Starlink’s U.S. ties and Musk’s unpredictability make governments cautious—potentially signaling broader pushback against foreign-controlled DTC infrastructure.
+### TL;DR
 
-Comment pulse
-- National-control first → Tusass wants centralized, wholesale backhaul; Starlink’s direct-to-consumer bypasses the incumbent and poses governance risk — counterpoint: others frame it as anti-U.S. geopolitics.
-- Price/performance dispute → Commenters cite OneWeb plans around $625/40GB at 10/2 Mbps, arguing the choice is political, not technical.
-- Broader pattern → Governments avoid Starlink over Musk’s unilateral control and U.S. leverage; expect more sovereignty-first telecom decisions.
+Greenlandic telecom provider Tusass chose Eutelsat’s OneWeb service to improve connectivity in remote settlements lacking cables or radio links, beginning with Tasiilaq before year-end. Tusass said its existing relationship with Eutelsat offered trust and continuity after discussions with Starlink, while keeping communications under Greenlandic control remained a priority. The brief article notes AI may have assisted its preparation. Commenters largely interpreted the decision geopolitically, but claims about Starlink’s suitability, comparative pricing, political pressure, or prospective service interruption were assertions rather than demonstrated facts in the supplied material.
 
-LLM perspective
-- View: Governance fit dominated: wholesale LEO backhaul integrating with a national carrier beat higher-performance but disintermediating DTC.
-- Impact: Remote Arctic towns gain lower-latency links; OneWeb strengthens enterprise market; Starlink faces regulatory pushback where telcos are state-run.
-- Watch next: SLAs, gateway locations in Greenland, pricing to end users; whether Starlink offers wholesale models acceptable to sovereign incumbents.
+### Comment pulse
+
+- Sovereignty reading → participants viewed communications dependence as a strategic risk amid political uncertainty.
+- Commercial counterpoint → one explanation said Starlink’s direct-to-consumer model did not fit Tusass’s centralized requirements.
+- Source-quality concern → commenters criticized the article’s sparse prose, advertising, imagery, and ambiguous AI disclosure.
+
+### LLM perspective
+
+- View: Institutional control and an established operating relationship can outweigh nominal consumer-service comparisons.
+- Impact: Remote communities may gain better access while Tusass retains responsibility for national network integration.
+- Watch next: Tasiilaq deployment results, actual speeds and prices, coverage expansion, and infrastructure-control terms.

@@ -2,15 +2,18 @@
 
 - Score: 191 | [HN](https://news.ycombinator.com/item?id=45672280) | Link: https://steveklabnik.com/writing/i-see-a-future-in-jj/
 
-- TL;DR
-  - Steve Klabnik argues jj (Jujutsu) has Rust-like momentum: Git-compatible for incremental adoption, traction from individuals to Google-scale monorepos, and an experienced, welcoming team. He’s leaving Oxide to join ERSC to build collaboration tooling atop jj. Commenters focus on what a “jjhub” must deliver (stacked-diff review, offline-first workflows), whether Google’s uptake signals durable viability amid internal churn, and industry needs beyond Git’s comfort zone (e.g., large binaries/Perforce). jj recently formalized governance and has a passionate early community; Klabnik’s popular tutorial reflects that momentum.
+### TL;DR
 
-- Comment pulse
-  - ERSC “jjhub” needed → stacked-diff review and integration beyond GitHub; Gerrit aligns via change IDs; offline-first workflows requested.
-  - Google uptake shows scale viability → jj atop Piper; Perforce fork may be deprecated — counterpoint: Google frequently churns internal VCS tools.
-  - GitHub today limits jj benefits → change IDs don't help PRs; jj-spr helps; GitHub SVP exploring stacked diffs.
+Steve Klabnik argues that Jujutsu has the ingredients he once saw in early Rust: a real market opening, experienced maintainers, institutional use, and an enthusiastic community. Unlike previous Git challengers, jj can work with Git repositories, enabling incremental adoption; Google also uses it with its Piper backend. Klabnik acknowledges a learning curve for deeply invested Git users and says he is leaving Oxide to join friends building an ERSC developer-collaboration platform atop jj. Commenters focused on the missing hosting and review layer, binary files, and Google’s shifting internal tools.
 
-- LLM perspective
-  - View: Edge: stacked-change model with Git interoperability; success hinges on integrated review/CI UX.
-  - Impact: Could normalize stack-based workflows outside Meta/Google; pressures GitHub/GitLab to support change IDs and non-linear review.
-  - Watch next: ERSC alpha, Gerrit change-ID rollout, GitHub stacked-diff experiments, large-binary strategy beyond LFS.
+### Comment pulse
+
+- Adoption advantage → Git compatibility lets teams experiment without replacing repositories or hosting immediately.
+- Collaboration gap → change IDs and stacked work lose benefits when existing review platforms ignore their semantics.
+- Durability concern → Google use offers scale evidence but not assurance against another internal tool migration.
+
+### LLM perspective
+
+- View: jj’s strongest wedge is a better local model that does not demand ecosystem replacement upfront.
+- Impact: ERSC must add collaboration value beyond what jj already provides through GitHub interoperability.
+- Watch next: Hosted review workflows, stable governance, large-binary handling, and adoption outside Google and enthusiasts.

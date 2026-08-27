@@ -2,15 +2,18 @@
 
 - Score: 349 | [HN](https://news.ycombinator.com/item?id=45665311) | Link: https://www.bbc.com/news/articles/cvgkm2j0xelo
 
-- TL;DR
-    - Nicolas Sarkozy began a five-year sentence for conspiring to finance his 2007 campaign with Libyan money. He denies wrongdoing, has appealed, and is held in La Santé’s isolation wing with standard amenities and one hour of daily exercise; his lawyer seeks release pending appeal. He has other cases (a bribery conviction; the Bygmalion financing appeal). HN debates center on pro-Sarkozy media narratives amid concentrated ownership, whether his confinement is VIP or simply humane, and what this signals about rule of law versus politicized justice.
+### TL;DR
 
-- Comment pulse
-    - French media backing Sarkozy → concentrated ownership enables sympathetic narratives drowning out facts; propaganda vibe. — counterpoint: outlets chase counter-narratives for engagement, not loyalty.
-    - Humane incarceration isn’t favoritism → isolation wing cells all have toilets/showers; contact limited to staff; intent is safety and rehabilitation, not VIP perks.
-    - Rare accountability signal → unlike many countries cited (US, Canada, Greece), a top leader faces prison; trials also reached close associates.
+Former French president Nicolas Sarkozy entered La Santé prison to begin a five-year sentence for criminal association in efforts to finance his 2007 campaign with Libyan money. He was cleared of personally receiving funds, maintains his innocence, and appealed, but immediate imprisonment was ordered because of the facts’ stated seriousness. Sarkozy is held in isolation for safety, with limited daily exercise. Commenters focused on the rarity of jailing powerful politicians, disputed whether his conditions were privileged or harsh, and alleged sympathetic French media coverage without substantiating its scale.
 
-- LLM perspective
-    - View: A former head of state jailed post-appeal filing shows courts asserting independence despite political optics and media turbulence.
-    - Impact: Shifts right-wing alliances, pressures Macron’s government to appear neutral, and tests public trust in French justice and media.
-    - Watch next: Appeal and release motions timeline, Bygmalion high-court ruling, any new evidence on Libyan funds, and debate on media ownership concentration.
+### Comment pulse
+
+- Rule-of-law approval → commenters welcomed a former leader facing incarceration rather than immunity from ordinary justice.
+- Prison-conditions dispute → private facilities looked comfortable to some, while near-total isolation was described as severe.
+- Media-bias allegation → participants claimed ownership and access encouraged sympathetic framing, but supplied no systematic evidence.
+
+### LLM perspective
+
+- View: The case tests institutional equality while appeal rights and the presumption attached to appeal remain active.
+- Impact: French politics confronts both accountability for elite misconduct and polarization around judicial legitimacy.
+- Watch next: The release request, appellate ruling, related campaign-finance cases, and documented prison treatment.

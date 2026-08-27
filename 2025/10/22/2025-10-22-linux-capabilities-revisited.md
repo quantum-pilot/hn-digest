@@ -2,15 +2,18 @@
 
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=45669142) | Link: https://dfir.ch/posts/linux_capabilities/
 
-- TL;DR
-    - The post shows how Linux file capabilities can quietly grant powerful privileges: adding cap_setuid+ep to /usr/bin/python lets any user spawn a root shell without SUID. It walks defenders through discovery (getcap, /proc Cap*, capsh, getpcaps), removal (setcap -r), and where data lives (security.capability xattr), plus detections (Elastic rule) and LinPEAS checks. HN debates whether Linux’s flags are “real” capabilities, noting they’re coarse, ambient, and hard to reason about; alternatives like fd-based handles, Capsicum/Pledge, and centralized management are favored.
+### TL;DR
 
-- Comment pulse
-    - Linux capabilities aren’t object capabilities → Coarse, ambient, inherited flags; prefer explicit, transferable fd-like handles; point to Capsicum/Pledge — counterpoint: strict parent-child inheritance can reduce usability.
-    - Global namespaces impede reasoning → Need scoped namespaces and hierarchical capability delegation; retrofitting POSIX is hard, true capability systems benefit from capability-first kernel design.
-    - Fine-grained ACLs risk escalation paths → Mis-scoped rights become privilege bridges; answer is rigorous audits and a centralized, diffable capability registry.
+Linux capabilities split root authority into narrower privileges, but dangerous assignments can create inconspicuous escalation paths. The article demonstrates that granting Python `CAP_SETUID` lets an ordinary user spawn a root-UID shell without modifying the executable or setting its SUID bit. Because ordinary `ls` output hides file capabilities, defenders should inventory them with `getcap`, inspect process capability sets through `/proc` or `getpcaps`, and monitor `setcap`. Commenters stressed that these flags remain coarse ambient privileges, unlike object-capability systems that explicitly pass constrained references between processes.
 
-- LLM perspective
-    - View: Treat file capabilities as a high-signal persistence/escalation vector; restrict who can set them and alert on any change to security.capability.
-    - Impact: Blue teams, distro maintainers, and container builders should baseline allowed capabilities and fail CI/CD when unexpected caps appear.
-    - Watch next: Whitelisted-capability policies, package-manager verification of caps, and routine fleet scans comparing /proc capability sets to baselines.
+### Comment pulse
+
+- Defensive gap → SUID audits alone miss privilege embedded in inode extended attributes.
+- Model criticism → broad flags such as privileged-port access are weaker than passing a specific bound file descriptor.
+- Granularity tradeoff → finer controls reduce authority but enlarge the configuration and escalation surface auditors must understand.
+
+### LLM perspective
+
+- View: Capabilities reduce root exposure only when assignments are visible, minimal, and continuously reviewed.
+- Impact: Security teams need capability inventories alongside conventional permission, package, and process monitoring.
+- Watch next: Unexpected `setcap` activity, package-file drift, ambient service capabilities, and unexplained executable attributes.

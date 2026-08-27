@@ -2,15 +2,18 @@
 
 - Score: 526 | [HN](https://news.ycombinator.com/item?id=45667866) | Link: https://nednex.com/en/the-internets-biggest-annoyance-why-cookie-laws-should-target-browsers-not-websites/
 
-- TL;DR
-    - The piece argues cookie banners are a UX and policy failure: users should set data-consent once in the browser, which then enforces it everywhere. Centralized, browser-level consent would reduce fatigue, lift compliance burdens on small sites, and let regulators audit a few browsers instead of millions of sites; DNT failed because sites ignored it. HN debate spans enforcement vs bad law, feasibility of browser-side purpose tagging and per-site overrides, and ad-tech incentives, with proposals from mandating DNT/GPC to outright bans on tracking.
+### TL;DR
 
-- Comment pulse
-    - It’s enforcement, not law → courts are pushing “Decline all” and GPC; malicious compliance persists—counterpoint: if law allows it, it’s a bad law.
-    - Browser-level consent is nontrivial → browsers can’t infer ‘necessary’; would need cookie purpose tags, legal liability, and per-site overrides; DNT/GPC enforcement suggested.
-    - Ad-tech incentives drive annoyance → CMPs and TCF complexity push dark patterns; some want bans or contextual ads, others cite 3x revenue from targeted ads.
+The article proposes moving tracking consent from website banners into one browser-level preference. Browsers would enforce essential, analytics, or personalized settings, reducing consent fatigue, compliance costs, and regulator workload. It argues voluntary Do Not Track failed because sites could ignore it, whereas legally mandated browser enforcement could make preferences effective. Commenters agreed banners are manipulative but disputed the target: browsers cannot infer a site’s purpose without accurate metadata, dominant browser vendors have advertising conflicts, and simpler rules could require sites to honor global signals or prohibit tracking.
 
-- LLM perspective
-    - View: Standardize a browser-enforced consent signal (GPC+) plus mandatory cookie-purpose tagging; add simple per-site override UI.
-    - Impact: Cuts banners, shifts accountability to browser vendors and ad networks, reduces small-site compliance costs, clarifies regulator audit scope.
-    - Watch next: W3C spec and tests; EU/US mandates for GPC; audit Chrome’s conflicts; track banner prevalence and consent-denial metrics.
+### Comment pulse
+
+- Malicious-compliance view → obscure rejection flows maximize consent rather than satisfy meaningful privacy choice.
+- Technical constraint → only site operators know whether third-party processing is necessary, so browser enforcement still needs declarations.
+- Policy split → proposals ranged from mandatory global signals to banning surveillance-oriented collection entirely.
+
+### LLM perspective
+
+- View: Centralized preference expression helps only if sites declare purposes truthfully and enforcement reaches both parties.
+- Impact: Small publishers could shed banner machinery, while browser vendors would gain consequential regulatory duties.
+- Watch next: Legally binding Global Privacy Control, purpose metadata standards, audits, and equal accept-versus-reject enforcement.

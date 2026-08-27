@@ -2,15 +2,18 @@
 
 - Score: 355 | [HN](https://news.ycombinator.com/item?id=45670443) | Link: https://blog.google/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/
 
-TL;DR
-Google’s Willow chip runs Quantum Echoes (an out-of-time-order correlator) and reports the first “verifiable” quantum advantage: 13,000× faster than top classical methods, with repeatable results across comparable hardware. A companion NMR “molecular ruler” infers molecular geometry and reveals extra structure, hinting at practical chemistry uses. HN debates whether “verifiable” matches the formal, classical-skeptic notion and urges independent classical baselines. Technical commenters highlight Jacobian/Hessian access; others caution that past supremacy claims shrank under improved simulators.
+### TL;DR
 
-Comment pulse
-- ‘Verifiable’ ≠ classical-proof protocols → Google means repeatable across similar quantum devices, not Mahadev/Aaronson-style certification — counterpoint: blog markets it as first ‘verifiable supremacy’.
-- Community wants reproducible speedups under stronger classical simulators and complexity-theoretic hardness arguments, not headline multipliers.
-- NMR ‘molecular ruler’ benefit → direct access to Hamiltonian Jacobian/Hessian enables dynamics simulation and structural constraints beyond standard NMR distance measurements.
+Google says its 105-qubit Willow chip ran an out-of-order time correlator algorithm, dubbed Quantum Echoes, 13,000 times faster than its best classical comparison while producing repeatable measurements. The company frames this as the first verifiable quantum advantage and reports a separate proof-of-principle use with NMR data on 15- and 28-atom molecules, matching traditional results while revealing additional structural information. Commenters question Google's definition of verification, note that the Nature paper is more cautious, and want independent classical and quantum replication.
 
-LLM perspective
-- View: Promising hardware-plus-algorithm co-design, but terminology inflation risks credibility; formal verification and classical lower bounds remain open.
-- Impact: If sustained, quantum-enhanced NMR could shorten structure elucidation loops in pharma/materials and validate quantum simulators against real experimental observables.
-- Watch next: Independent replication on different chips, open classical baselines/benchmarks, formal verifier proposals, and progress toward long-lived logical qubits on Willow-class hardware.
+### Comment pulse
+
+- Readers distinguished repeatability from stronger protocols that convince a classical verifier a quantum computation was correct.
+- Several cautioned that prior advantage claims narrowed after improved classical algorithms.
+- Discussion also raised long-term cryptographic risk, while noting that migration work is already anticipated.
+
+### LLM perspective
+
+- View: Repeatable physics-oriented output is meaningful, but “verifiable advantage” remains a contested characterization.
+- Impact: The experiment shifts attention from synthetic sampling benchmarks toward measurements potentially useful to molecular science.
+- Watch next: Independent replication, stronger classical baselines, cross-device agreement, and practical scaling beyond demonstrations.

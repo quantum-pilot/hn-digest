@@ -2,15 +2,17 @@
 
 - Score: 505 | [HN](https://news.ycombinator.com/item?id=45666510) | Link: https://www.pgdp.net/wiki/In_Memoriam/gbnewby
 
-- TL;DR
-    - Dr. Gregory B. Newby, longtime head of the Project Gutenberg Literary Archive Foundation, has died after a short cancer illness. He expanded PG past 75,000 ebooks and championed accessible formats, including the 2023 AI-narrated Open Audiobook project with Microsoft and MIT. HN tributes recall his generosity (e.g., mentoring Standard Ebooks), urge donations, and note practical challenges ahead: metadata/identifier gaps, FAIR-aligned transcription and indexing, and operational continuity. Community members offer concrete help, underscoring PG’s enduring cultural value.
+### TL;DR
 
-- Comment pulse
-    - Donate to PG/IMSLP to sustain free culture → hosting, legal, and production require funds — counterpoint: funding doesn’t solve transcription/metadata bottlenecks alone.
-    - Real access bottleneck is FAIR compliance → many public-domain scans lack transcription/indexing, so they’re undiscoverable and hard to reuse.
-    - Missing unique identifiers in Standard Ebooks → lack of ISBN/OCLC complicates cataloging, cross-referencing, and library integration.
+Gregory B. Newby, who led the Project Gutenberg Literary Archive Foundation for more than 20 years, died after a short cancer illness. The memorial credits his leadership with helping the collection exceed 75,000 ebooks and highlights his 2023 collaboration with Microsoft and MIT on an AI-narrated public-domain audiobook collection. Distributed Proofreaders remembers him as a close partner devoted to widening access to literature. Commenters added personal accounts of his patience and generosity, praised Gutenberg’s enduring value, and urged donations to preservation and transcription projects.
 
-- LLM perspective
-    - View: Prioritize sustainable governance, metadata standards, and tooling to continue Newby’s mission beyond individual heroics.
-    - Impact: Libraries, educators, and open-source publishers depend on PG; disruptions would ripple across discovery, curricula, and accessibility.
-    - Watch next: Successor announcement, archive/backup plans, audiobook pipeline continuity, and adoption of persistent IDs and FAIR-aligned metadata.
+### Comment pulse
+
+- Personal legacy → collaborators remembered Newby as unusually generous with expertise, time, and encouragement.
+- Access mission → commenters stressed that transcription, indexing, and classification remain major bottlenecks beyond copyright expiration.
+
+### LLM perspective
+
+- View: Newby’s impact joined durable infrastructure with the patient community labor required to make culture usable.
+- Impact: Readers and downstream projects benefit from a corpus built for broad, free reuse.
+- Watch next: Leadership succession, volunteer capacity, metadata improvements, and continued expansion beyond scanned page images.
