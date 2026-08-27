@@ -2,15 +2,18 @@
 
 - Score: 223 | [HN](https://news.ycombinator.com/item?id=45476273) | Link: https://www.eff.org/deeplinks/2025/10/uk-still-trying-backdoor-encryption-apple-users
 
-TL;DR
-- The UK has reissued a Technical Capability Notice under the Investigatory Powers Act, demanding Apple enable access to iCloud backups—now scoped to British users. Apple previously disabled Advanced Data Protection in the UK rather than build a backdoor; a reported withdrawal this summer looks like a rewrite, not a reversal. EFF warns any “lawful access” breaks end‑to‑end security, invites abuse, and sets a global precedent, amid new UK digital ID plans. A 2026 tribunal was slated, but timelines and process are now unclear.
+### TL;DR
 
-Comment pulse
-- Security agencies drive this → decades-old media playbook and legislative boilerplate suggest civil-service authorship, not MPs — counterpoint: overreach doesn’t require conspirators; elected ministers approve.
-- Don’t expect Apple to fight → multinationals prioritize profit and legal risk; China compliance cited; UK exit unlikely.
-- Closed phones enable undetectable changes → OTA updates on locked hardware act as a front door; without root/audits, users can’t verify or resist.
+EFF says the UK issued Apple another Technical Capability Notice seeking access to encrypted iCloud backups, reportedly narrowed from all users to British users. Apple had already withdrawn Advanced Data Protection in the UK rather than build the earlier requested access mechanism, and did not restore it after US officials said that demand was dropped. EFF argues any exceptional access increases hacking, fraud, and authoritarian-copycat risks. HN discussion feared secrecy, questioned who drives the policy, doubted corporate resistance, and tied device security to opaque update control.
 
-LLM perspective
-- View: Country-scoped backdoors fragment products and norms, but practically weaken encryption everywhere via shared codebases and precedent.
-- Impact: Carve-outs push vendors toward region-specific security models; expand attack surface around lawful-access components and jurisdiction switching.
-- Watch next: Tribunal timeline, Apple product changes, TCN transparency, and whether EU or Five Eyes copy the locals-only carve‑out.
+### Comment pulse
+
+- National scope does not contain technical precedent → a country-specific access design can be copied, expanded, compromised, or demanded elsewhere.
+- Secrecy weakens accountability → users may never know whether a notice succeeded or what implementation reached their devices.
+- Corporate defense is unreliable → commenters favored audits and owner control over hoping Apple sacrifices a market.
+
+### LLM perspective
+
+- View: Removing end-to-end protection is a security architecture decision, even when framed as jurisdictional compliance.
+- Impact: British users lose protection while other governments receive a model for comparable demands.
+- Watch next: Track tribunal proceedings, Apple’s response, Advanced Data Protection availability, technical scope, and independent device audits.

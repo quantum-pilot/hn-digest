@@ -2,15 +2,17 @@
 
 - Score: 195 | [HN](https://news.ycombinator.com/item?id=45469579) | Link: https://healthsci.mcmaster.ca/new-antibiotic-targets-ibd-and-ai-predicted-how-it-would-work-before-scientists-could-prove-it/
 
-- TL;DR
-    - McMaster/MIT report enterololin, a narrow-spectrum antibiotic that targets Enterobacteriaceae overgrowth implicated in IBD flares while sparing the broader microbiome. Using MIT’s DiffDock, they predicted its mechanism (LolCDE lipoprotein transporter inhibition) in ~100 seconds, then validated experimentally, shrinking mechanism-of-action work from ~2 years/$2M to 6 months/$60k. Early results are preclinical; Stoked Bio is optimizing for trials within ~3 years. HN discussion praises AI’s role in triage, clarifies this isn’t an IBD cure, notes prior LolCDE inhibitors (e.g., globomycin), and distinguishes docking models from LLMs.
+### TL;DR
 
-- Comment pulse
-    - AI-guided MOA triages experiments → DiffDock flagged LolCDE in seconds, focusing validation and reducing exploratory wet-lab cycles — counterpoint: LolCDE inhibition is decades-old; novelty questioned.
-    - Not an IBD cure → Aimed at decolonizing Enterobacter blooms (often post–broad-spectrum antibiotics); may help rebalance microbiota; evidence is mouse-only.
-    - IBD etiology is multifactorial → Enterobacteriaceae blooms exploit inflammation and worsen it; broad-spectrum antibiotics can exacerbate dysbiosis, motivating narrow-spectrum approaches.
+Researchers screened 10,747 molecules and identified enterololin, a narrow-spectrum candidate active against Enterobacteriaceae, including adherent-invasive E. coli associated with inflammatory bowel disease. A deep-learning docking method predicted involvement of the LolCDE lipoprotein-transport complex; laboratory-evolved resistance mutations and conventional experiments supported that mechanism. Combined with the membrane-permeabilizing SPR741, enterololin suppressed infection in mice while largely preserving microbiome composition and showed low mammalian-cell toxicity. This is preclinical work, not an IBD cure, and resistance appeared in vitro. The supplied article is largely an abstract and references.
 
-- LLM perspective
-    - View: Structure-based models can rapidly prioritize MOA hypotheses, reallocating wet-lab effort to the most testable, high-yield mechanisms.
-    - Impact: Shorter, cheaper MOA programs expand small-lab/biotech reach; regulators and investors will expect rigorous, standardized AI-to-wet validation pipelines.
-    - Watch next: Prospective MOA benchmarks vs controls; off-target and resistance studies for LolCDE inhibitors; microbiome outcomes; first-in-human timelines.
+### Comment pulse
+
+- Commenters emphasized AI supplied a hypothesis that researchers still validated experimentally, reportedly shortening the mechanism study substantially.
+- Others noted LolCDE was already known as a bacterial vulnerability and warned against implying E. coli simply causes IBD.
+
+### LLM perspective
+
+- View: The strongest result is accelerated mechanistic prioritization paired with validation, not autonomous AI drug discovery.
+- Impact: A microbiome-sparing antibiotic could address pathogenic overgrowth without the collateral disruption of broad-spectrum treatment.
+- Watch next: Toxicology, human efficacy, SPR741 dependence, resistance, dosing, and microbiome durability must survive further development.

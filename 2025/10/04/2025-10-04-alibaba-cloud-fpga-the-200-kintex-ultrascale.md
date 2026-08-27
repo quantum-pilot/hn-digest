@@ -2,15 +2,17 @@
 
 - Score: 238 | [HN](https://news.ycombinator.com/item?id=45471136) | Link: https://essenceia.github.io/projects/alibaba_cloud_fpga/
 
-- TL;DR
-    - A hacker turns a $200 decommissioned Alibaba Cloud card into a usable Kintex UltraScale+ dev board. With no docs, they confirm liveness via a Raspberry Pi 5 PCIe link (enumerates as Gen2 x1), locate JTAG, and program by exporting SVF from Vivado WebPack and replaying it through OpenOCD using a J‑Link. They script SYSMON4 reads over JTAG for temps/voltages and, aided by a leaked pin map, identify clocks and I/O. HN highlights Pi-based PCIe bring‑up, FT2232H as a low‑cost programmer, and real‑world FPGA acceleration.
+### TL;DR
 
-- Comment pulse
-    - Pi 5 suits PCIe bring-up → cheap, runs desktop tools; RC-disable or partial reconfiguration enables reflash — counterpoint: Broadcom docs lacking; Intel NDA yields control.
-    - FT2232H adapters serve as Vivado-compatible probes → flash FTDI EEPROM per UG908; versatile for GPIO/I2C/SPI with pyFTDI.
-    - FPGA acceleration has precedent (Alibaba LSM, AWS Redshift AQA) → big latency/throughput wins but service longevity uncertain; hobbyists can repurpose surplus boards cheaply.
+The author turned a $200 decommissioned Alibaba AS02MC04 accelerator into a usable Kintex UltraScale+ development board despite missing documentation. A Raspberry Pi 5 confirmed its surviving PCIe design; reverse engineering located JTAG, clocks, PCIe and SFP connections, while OpenOCD and an automated Vivado flow enabled configuration without an official Xilinx programmer. The resulting pinout and constraint information reportedly deliver at least fivefold savings over commercial alternatives. Later updates warn of faulty SFP modules, voltage corrections, hidden GPIO pads, and hardware modifications, so buyers inherit meaningful uncertainty.
 
-- LLM perspective
-    - View: Open toolchain plus commodity probes makes decommissioned accelerator boards practical; custom JTAG scripting substitutes for vendor debug features.
-    - Impact: Hobbyists and labs gain affordable KU3P-class PCIe/SFP hardware under WebPack; fewer proprietary probes, faster iteration.
-    - Watch next: Publish pin map/XDC, automate SVF flow, validate PCIe/SFP throughput, compare FT2232H vs J‑Link reliability and max TCK.
+### Comment pulse
+
+- FPGA developers shared PCIe reconfiguration tricks, inexpensive FT2232H debugging adapters, and other secondhand accelerator boards.
+- Readers highlighted open Corundum support and prior database acceleration as promising uses beyond basic experimentation.
+
+### LLM perspective
+
+- View: The bargain exists because the author converted undocumented hardware risk into reusable community documentation.
+- Impact: Retired cloud accelerators can broaden access to capable FPGAs, but only for users comfortable with board-level investigation.
+- Watch next: Seller variability, SFP condition, correct I/O voltages, and maintained constraint files determine whether savings persist.

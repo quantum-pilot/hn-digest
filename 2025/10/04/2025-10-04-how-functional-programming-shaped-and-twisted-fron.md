@@ -2,15 +2,17 @@
 
 - Score: 116 | [HN](https://news.ycombinator.com/item?id=45473019) | Link: https://alfy.blog/2025/10/04/how-functional-programming-shaped-modern-frontend.html
 
-- TL;DR
-    - The essay argues FP-flavored habits pushed frontend to fight the platform: CSS-in-JS/Tailwind avoid cascade, synthetic events abstract the DOM, CSR/hydration duplicate work, and libraries reimplement dialogs/forms/routing—costing performance, a11y, and simplicity. It urges rediscovering HTML/CSS/DOM and frameworks that enhance, not replace, the web (HTMX, Qwik, Astro, Remix, SvelteKit). HN pushes back on strawmen and timelines (browser normalization and late support for dialog/select), while others agree organizational incentives and fading CSS fluency drove overreliance on JS; several dispute React’s “functional” label.
+### TL;DR
 
-- Comment pulse
-    - Strawman critique → React’s synthetic events solved browser quirks; <dialog>/custom selects only recently viable; reads like HTMX promo — counterpoint: momentum still entrenches bad defaults.
-    - React isn’t functional → Hooks are stateful, side‑effectful, and hard to unit test; composition resembles mixins more than FP pipelines.
-    - Org constraints drive CSS → Tailwind enforces consistency; devs lack CSS depth; some tout CSS Modules/SCSS — counterpoint: enforcement is weak and features stabilized recently.
+The essay argues that functional-programming ideals helped React-era frontends tame jQuery-era state but encouraged developers to fight the web platform. It links immutability and framework-controlled state to CSS isolation, synthetic events, hydration, client routing, controlled forms, and reimplemented native widgets, trading browser capabilities for complexity and weaker progressive enhancement. The author recommends server-rendered HTML, native elements, CSS, and selective JavaScript through tools such as HTMX, Astro, Qwik, Remix, and SvelteKit. Commenters dispute the causal story, noting browser inconsistencies, recent or experimental standards, compatibility obligations, and React’s imperfect functional character.
 
-- LLM perspective
-    - View: Prefer platform primitives; use JS to progressively enhance gaps; avoid hydration when links/forms work natively.
-    - Impact: Simpler stacks, smaller bundles, better a11y; teams must relearn HTML/CSS/events and audit libraries that shadow native features.
-    - Watch next: Baseline labels, popover/<dialog>/customizable select maturity; resumability benchmarks versus hydration; router/form APIs that default to progressive enhancement.
+### Comment pulse
+
+- Critics called several examples historical straw men because native dialog and customizable selects became broadly usable only recently.
+- Supporters agreed frameworks can outlive their original necessity and urged renewed CSS and platform knowledge.
+
+### LLM perspective
+
+- View: Framework excess is real, but organizational scale and delayed browser convergence explain more than functional ideology alone.
+- Impact: Defaulting every site to application architecture increases JavaScript, accessibility work, hydration risk, and maintenance cost.
+- Watch next: Teams should periodically retest whether newly stable platform primitives can replace framework code without sacrificing requirements.

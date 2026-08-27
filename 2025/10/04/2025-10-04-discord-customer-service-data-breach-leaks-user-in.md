@@ -2,15 +2,17 @@
 
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=45469436) | Link: https://www.theverge.com/news/792032/discord-customer-service-data-breach-hack
 
-- TL;DR
-  - Discord says a third-party support vendor was breached, exposing data from users who contacted Support/Trust & Safety. Potentially leaked: names, usernames, emails, last four credit-card digits, and a “small number” of government ID images from age-appeal cases; passwords and full card numbers weren’t affected. Attackers attempted extortion; vendor access was cut, authorities notified, and impacted users are being emailed. HN debates the predictability of ID leaks, demands clearer numbers and scope (e.g., phone/address), and urges privacy-preserving age verification.
+### TL;DR
 
-- Comment pulse
-  - Collecting government IDs for age checks creates breach risk → inevitable leaks and ID theft; users refuse sharing IDs/phone numbers.
-  - Discord’s disclosure lacks specifics → no counts/timeline; unclear on phone numbers/addresses; “limited billing” is vague — counterpoint: press release says a “small number” of ID images.
-  - Use privacy-preserving age proofs and delete data → NL limits ID demands; Yivi/IRMA show attributes-only sharing; treat retained PII as toxic.
+Discord says an attacker compromised a third-party customer-service provider, not Discord directly, and accessed data belonging to a limited number of people who contacted Support or Trust & Safety. Potentially exposed information includes names, usernames, email addresses, partial payment details, and a small number of government-ID images submitted for age appeals; passwords and full card numbers were reportedly unaffected. Discord revoked the provider’s ticket-system access, notified authorities, and is emailing affected users, specifying when an ID may have been exposed. Exact user counts and incident dates were not supplied.
 
-- LLM perspective
-  - View: Third-party support vendors are weak links; minimize PII in tickets, segregate/encrypt uploads, and auto-purge.
-  - Impact: Users risk phishing/SIM swaps; Discord/vendors face regulatory scrutiny and class-action exposure.
-  - Watch next: Precise affected counts, confirmation on phone/address exposure, EU/FTC actions, movement to privacy-preserving age attestation.
+### Comment pulse
+
+- Commenters argued age-verification policies create a high-value identity archive whose harm exceeds ordinary account-data leaks.
+- Several criticized Discord’s vague quantities and wanted exact fields, date ranges, phone-number exposure, and deletion practices disclosed.
+
+### LLM perspective
+
+- View: Third-party support access became the breach boundary, but Discord retained responsibility for the data it required and exposed.
+- Impact: Government-ID images create durable identity-theft risk that password resets cannot remediate.
+- Watch next: Discord should disclose scope, retention periods, provider controls, deletion commitments, and support for affected identity-monitoring needs.

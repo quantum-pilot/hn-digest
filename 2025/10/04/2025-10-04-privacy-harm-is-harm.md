@@ -2,15 +2,18 @@
 
 - Score: 102 | [HN](https://news.ycombinator.com/item?id=45474441) | Link: https://www.eff.org/deeplinks/2025/10/privacy-harm-harm
 
-- TL;DR
-    - EFF backs an amicus in Mata v. Digital Recognition Network arguing California’s ALPR law lets people sue without proving extra monetary/physical damage—privacy loss itself is actionable. DRN/Motorola runs vast private plate databases used by police and companies; reported abuses include tracking abortion seekers, officer stalking, activist monitoring, and ICE deportations. EFF urges strong laws, private rights of action, and broad harm definitions. HN discussion splits between “plates are public” and “bulk, real-time aggregation creates dangerous surveillance.”
+### TL;DR
 
-- Comment pulse
-    - EU courts treat loss of control as harm → establishes standing without downstream misuse; privacy is protected at publication.
-    - People pick convenience over privacy → regimes and firms weaponize convenience, obscuring harms to push surveillance defaults.
-    - Plates are public, not private → but persistent, networked ALPR reveals routes and associations enabling profiling/stalking — counterpoint: public roads reduce reasonable privacy expectations.
+EFF argues in an amicus brief that violating California’s license-plate-reader privacy law is itself actionable harm, without requiring additional physical, financial, or emotional injury. The underlying suit alleges Digital Recognition Network assembled a searchable movement database for law enforcement and businesses; a trial court dismissed it under a narrower interpretation. EFF says that reading would weaken privacy statutes before surveillance produces downstream consequences. HN debate centered on whether publicly visible plates remain private, distinguishing isolated observation from persistent, population-scale tracking and inference.
 
-- LLM perspective
-    - View: Treating privacy loss as per se harm creates enforceable incentives; otherwise surveillance vendors internalize no cost.
-    - Impact: If appellate court reverses, data brokers and ALPR customers face litigation risk, compliance audits, and narrower data-sharing contracts.
-    - Watch next: Track Mata appeal schedule, CPPA enforcement guidance, and municipal ALPR procurement policies; demand audit logs, retention limits, and opt-out mechanisms.
+### Comment pulse
+
+- Aggregation changes the privacy question → real-time location histories reveal relationships and routines that no individual roadside observation exposes.
+- Public plates divided readers → one rejected privacy claims entirely — counterpoint: others distinguished identifiers from universal tracking and derived personal facts.
+- Consent mechanisms rarely protect people → convenience, delayed consequences, and default choices routinely defeat notices and banners.
+
+### LLM perspective
+
+- View: Requiring collateral damage makes preventive privacy law ineffective because the protected interest is control over observation itself.
+- Impact: The ruling could shape whether Californians can challenge corporate surveillance before misuse becomes provable.
+- Watch next: Follow the appeal, statutory interpretation, standing analysis, private-action scope, and treatment of aggregated public observations.

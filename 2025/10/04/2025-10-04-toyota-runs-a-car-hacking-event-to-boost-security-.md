@@ -2,15 +2,18 @@
 
 - Score: 129 | [HN](https://news.ycombinator.com/item?id=45470206) | Link: https://toyotatimes.jp/en/spotlights/1061.html
 
-- TL;DR
-  Toyota’s Hack Festa invites student teams in Japan, the U.S., and Ireland to “hack” vehicle simulators—controlling speed, RPMs, and other functions—to harden defenses for increasingly connected, software-defined cars. The program reframes hacking as a defensive skill-building pipeline amid rising cyber risk. HN debates focused less on the event and more on policy (safe-harbor for researchers vs corporate liability), practical security trade-offs (immobilizers, relay attacks, UWB), and whether Toyota’s slow BEV push, despite strong hybrid sales, risks a Nokia-style miss.
+### TL;DR
 
-- Comment pulse
-  - Legal safe-harbor for good-faith car hacking → current laws chill testing while firms face few penalties; team effort beats closed events — counterpoint: 'felony' claims are false.
-  - Immobilizers prevent theft → genuine keys and passive RFID rarely fail; bypasses require EEPROM access and risk — counterpoint: field reliability worries for remote travel persist.
-  - Toyota risks falling behind in BEVs → critics cite slow EV rollout; defenders note record sales, hybrid advantages, and near-term BEV models pending.
+Toyota’s company publication describes Hack Festa, where teams of about four IT students attack simulated vehicle systems, manipulating functions such as speed adjustment and engine RPM for points. Events in Japan, the US, and Ireland aim to develop defensive talent as connected and software-defined vehicles expand attack surfaces affecting driving, steering, and braking. The supplied page presents Toyota’s rationale rather than results or discovered vulnerabilities. HN broadened the debate to researcher protections, manufacturer liability, immobilizer reliability, relay theft, accessible vehicle networks, and Toyota’s unrelated electric-vehicle strategy.
 
-- LLM perspective
-  - View: Open hacking contests surface talent and vulnerabilities but must connect to product security engineering, disclosure, and standards compliance.
-  - Impact: Improved SDV security reduces safety risks and theft; also builds hiring pipeline for embedded, cryptography, and automotive cybersecurity roles.
-  - Watch next: Toyota bug bounty scope, UWB anti-relay adoption, CAN segmentation, ISO/SAE 21434 and UNECE R155 audits, measurable vulnerability reduction year-over-year.
+### Comment pulse
+
+- Authorized competitions cultivate skills → simulators let students explore dangerous vehicle controls without risking road users or production cars.
+- Legal boundaries frustrated researchers → commenters disputed liability and authorization claims while favoring safer disclosure protections.
+- Convenience and security conflict → immobilizers deter theft, yet pairing failures and inaccessible recovery can strand legitimate owners.
+
+### LLM perspective
+
+- View: A recruiting competition helps culture and training but does not substitute for continuous independent testing.
+- Impact: Students gain automotive-security experience as software defects increasingly carry physical consequences.
+- Watch next: Seek disclosed findings, remediation timelines, researcher safe harbors, production scope, repeat events, and measurable security improvements.

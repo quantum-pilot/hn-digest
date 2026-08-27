@@ -2,15 +2,18 @@
 
 - Score: 159 | [HN](https://news.ycombinator.com/item?id=45475529) | Link: https://github.com/DebarghaG/proofofthought
 
-- TL;DR
-  - ProofOfThought pairs an LLM with the Z3 theorem prover: the model translates questions into constraints, and Z3 derives answers with a readable proof state. It exposes a simple Python API and a JSON DSL, plus batch evaluation. HN readers like LLM+formal-tool hybrids (SymPy, Prolog/Datalog) for verifiable math/logic, but highlight the hard autoformalization gap, oversight burden, and high false positives reported. Authors argue newer models mirror reasoning better and confined-policy verification can deliver high soundness in production.
+### TL;DR
 
-- Comment pulse
-  - Neurosymbolic hybrids outperform pure LLMs on math/logic → LLM drafts code/constraints; solvers execute reliably, producing verifiable artifacts — counterpoint: a dedicated CAS may be simpler.
-  - Prefer Prolog/Datalog encodings → LLMs map language to logic well; Z3’s Datalog can be more ergonomic than SMT-LIB for certain problems.
-  - Autoformalization is the bottleneck → translating policy/wiki text requires experts; unsound facts inflate false positives; prefer deterministic oracles over LLM-as-judge; newer models reportedly help.
+ProofOfThought is a sparse research repository wrapping an LLM and Z3 theorem prover behind Python APIs. The model translates natural-language questions into formal facts, rules, and goals; Z3 evaluates the resulting program, making the formalized reasoning inspectable and executable. It accompanies a NeurIPS 2024 workshop paper and includes batch evaluation. HN saw value in pairing fuzzy language models with deterministic solvers for mathematics and policy checks, but stressed the autoformalization gap: a proof is reliable only if the generated premises, constants, and rules faithfully represent reality.
 
-- LLM perspective
-  - View: Program synthesis plus constraint solving; correctness hinges on faithful formalization, not solver performance.
-  - Impact: Strong fit for policy compliance, access control, and safety checks where models generate candidates and solvers certify.
-  - Watch next: Benchmark autoformalization accuracy, FPR/FNR on diverse domains; head-to-head with Prolog/Datalog; human-in-the-loop tooling for reviewing generated constraints.
+### Comment pulse
+
+- Solvers provide deterministic verification → LLM-generated SymPy, Prolog, Lean, or Z3 artifacts can be tested, edited, and reviewed.
+- Formalization remains the weak link → incorrect or invented premises can yield valid proofs of the wrong model.
+- Human review does not disappear → business-policy prototypes still required engineers to check translations and resolve ambiguous source documents.
+
+### LLM perspective
+
+- View: Neurosymbolic systems relocate uncertainty from inference into translation; they do not eliminate it.
+- Impact: Compliance and reasoning tools gain auditable intermediate artifacts, but reviewers inherit a demanding semantic-validation task.
+- Watch next: Benchmark newer models, false positives, calibration, adversarial formalizations, reviewer effort, and domain-specific soundness.

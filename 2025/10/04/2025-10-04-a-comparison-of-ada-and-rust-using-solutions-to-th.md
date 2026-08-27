@@ -2,15 +2,17 @@
 
 - Score: 182 | [HN](https://news.ycombinator.com/item?id=45473861) | Link: https://github.com/johnperry-math/AoC2023/blob/master/More_Detailed_Comparison.md
 
-- TL;DR
-    - The author re‑implemented all Advent of Code 2023 solutions in Ada and Rust to compare idioms. Ada favors high‑level types (subranges, non‑zero arrays, enums as indices) and exceptions; Rust leans on UTF‑8 iterators, Result/Option, traits/derive, const generics, and cargo‑driven testing. Performance was mixed: Rust had fastest releases; Ada sometimes won by expressing numeric precision (digits) the compiler mapped to efficient types; Rust needed crates. Feature gaps trade off contracts/range types vs pattern‑matching/macros/ownership. HN debated ecosystem dominance, specs, concurrency, and string semantics.
+### TL;DR
 
-- Comment pulse
-    - Ada-like subranges and units are valued → fewer bugs; Nim and modern C++ emulate them, but they’re not standard.
-    - Ecosystem/tooling decide real projects → Rust’s crates, IDEs, and community dominate — counterpoint: Ferrocene’s donated spec pushes Rust toward Ada-like standardization.
-    - Rust concurrency is built-in via threads → async/Tokio optional; cancellation ergonomics vary by model and crate.
+Using Advent of Code solutions, the author compares Ada 2022 and Rust 2021 across safety, types, performance, error handling, generics, enumerations, and iteration. Both target reliable systems work, but Ada emphasizes problem-domain types, ranges, contracts, readability, a detailed standard, and built-in tasking; Rust emphasizes memory safety, result-based errors, pattern matching, macros, functional iterators, and strong release performance. The author cautions that neither implementation nor benchmark is necessarily idiomatic. Commenters add that ecosystem, Unicode semantics, compiler speed, and Rust’s built-in threads complicate several comparisons.
 
-- LLM perspective
-    - View: AoC highlights Ada’s declarative types vs Rust’s iterator/trait ecosystems; both enforce safety differently.
-    - Impact: Choice shifts by domain: embedded/critical value Ada’s contracts; networked systems benefit from Rust’s crates and diagnostics.
-    - Watch next: Align benches: enable overflow checks everywhere; track Rust formal-spec progress, Ada tooling (alire) speed, and const‑generic ergonomics.
+### Comment pulse
+
+- Readers particularly admired Ada’s range types, dimensional checking, SPARK verification, and readability.
+- Others argued Rust’s tooling, libraries, community, and current formal-specification efforts matter more for many practical projects.
+
+### LLM perspective
+
+- View: The comparison reveals different safety philosophies more clearly than it identifies a universal winner.
+- Impact: Ada encodes domain constraints directly; Rust offers stronger ecosystem momentum and ownership-centered memory safety.
+- Watch next: Project-specific trials should include dependencies, interoperability, compiler behavior, certification, staffing, and long-term maintenance.
