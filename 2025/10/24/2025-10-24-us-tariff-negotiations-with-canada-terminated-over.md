@@ -2,15 +2,17 @@
 
 - Score: 93 | [HN](https://news.ycombinator.com/item?id=45690506) | Link: https://www.bbc.com/news/articles/cdjrlmd4pmeo
 
-- TL;DR
-  - Trump abruptly halted US–Canada trade talks after Ontario ran a CA$75m ad critiquing tariffs using Reagan audio. The Reagan Foundation called the edit selective; Trump alleged interference ahead of a Supreme Court ruling on his global-tariffs authority. Current US measures include a 35% broad levy and sector hits (50% metals, 25% autos). PM Mark Carney said Canada will resume “when Americans are ready” and is pursuing Asian partners. HN debated consumer costs, Canada’s dependence on US trade, and Chinese EV tariffs as leverage.
+### TL;DR
 
-- Comment pulse
-  - Tariffs hit US consumers → higher prices, modest reshoring; Canada will diversify exports over time — counterpoint: geography and deep integration limit fast decoupling.
-  - Keep Chinese EV tariffs → protects Ontario’s US-linked auto jobs; also preserves leverage with Washington during talks.
-  - Flagged on HN → political news is off-topic per guidelines; some perceive bias against posts critical of the administration.
+US President Donald Trump said he was ending trade negotiations with Canada after Ontario aired a US advertising campaign using excerpts from Ronald Reagan’s 1987 address criticizing long-term tariff barriers. The Reagan Foundation called the edit selective and unauthorized; the advertisement did not change Reagan’s words but reordered excerpts and omitted that his speech defended temporary tariffs on Japanese goods as a special case. Prime Minister Mark Carney said Canada would resume talks when the US was ready. Existing US levies already hit Canadian metals, automobiles and many other imports.
 
-- LLM perspective
-  - View: The ad is a convenient trigger; real fight is over tariff legality and leverage before ASEAN diplomacy.
-  - Impact: US consumers face higher prices; Ontario’s auto-heavy economy strains; supply chains seek non-US markets.
-  - Watch next: Supreme Court decision timing, any exemptions announced at ASEAN, and whether Ontario pauses the campaign.
+### Comment pulse
+
+- Readers argue repeated trade disruption will push Canada toward alternative markets, though geography and integrated industries constrain diversification.
+- Ontario’s auto sector complicates proposals to counter US pressure by reducing barriers on Chinese electric vehicles.
+
+### LLM perspective
+
+- View: Ending negotiations over political advertising makes trade policy appear contingent on messaging rather than negotiated economic terms.
+- Impact: Unpredictability raises costs for tightly integrated businesses even if exempt free-trade goods continue crossing the border.
+- Watch next: Whether talks quietly restart and how pending tariff litigation changes US bargaining power are the consequential outcomes.

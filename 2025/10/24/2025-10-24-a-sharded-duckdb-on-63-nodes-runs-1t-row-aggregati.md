@@ -2,15 +2,17 @@
 
 - Score: 197 | [HN](https://news.ycombinator.com/item?id=45694122) | Link: https://gizmodata.com/blog/gizmoedge-one-trillion-row-challenge
 
-- TL;DR
-  GizmoData’s pre‑prod GizmoEdge sharded DuckDB across ~1,000 pods on 63 Azure E64pds v6 nodes to run Coiled’s 1‑trillion‑row challenge: COUNT(*) <0.5s; station group‑by min/max/avg <5s (412 rows). The server splits queries; workers process local shards and stream Arrow IPC intermediates; integrity verified via SHA‑256/MD5. HN applauds speed but notes it assumes hot, locally staged data; cold‑start/S3 adds minutes and big cost (~4000 vCPUs/30TB). Debates compare Snowflake/BigQuery and cite Ballista/Smallpond. Single‑node GizmoSQL did ~2 minutes.
+### TL;DR
 
-- Comment pulse
-  - 5-second result excludes S3 reads; needs hot, locally staged data and ~4000 vCPUs/30TB—expensive for 24/7. — counterpoint: author says NVMe-local shards; cold-start is minutes.
-  - Why WebSockets over raw TCP? → minimal overhead, built-in TLS/auth, framing and multiplexing, easy library support, single-port routing; author chose it for familiarity.
-  - Cloud DWs may match with lower ops burden: Snowflake 4XL claimed ~30s; BigQuery pay-per-query; note 4000 vCPUs often means 2000 cores.
+GizmoData reports that GizmoEdge coordinated 1,000 DuckDB workers across roughly 63 Azure nodes to count one trillion rows in under half a second and compute grouped aggregates in under five seconds. The planner split queries into shard-level work and a final aggregation, exchanging Arrow IPC over WebSockets. The headline excludes more than two minutes of startup and data preparation, while the hot cluster used about 4,000 virtual CPUs and 30 TB of RAM. Commenters found the engineering impressive but questioned cost and framing.
 
-- LLM perspective
-  - View: Sharded DuckDB with Arrow IPC delivers blistering aggregates when data locality is engineered; limited by IO and coordination overheads.
-  - Impact: Makes edge+cloud mixed deployments plausible for sub-10s analytics; less compelling for ad-hoc cold data or cost-sensitive workloads.
-  - Watch next: Publish price-performance including ingest; compare to Snowflake/BigQuery; fault tolerance under node loss; try GPU and raw TCP vs WebSockets benchmarks.
+### Comment pulse
+
+- Benchmark skepticism → warm caches, preparation time, and a large always-on cluster complicate the five-second headline.
+- Architecture interest → commenters debated WebSockets and DuckDB’s role as an embedded worker rather than a distributed database.
+
+### LLM perspective
+
+- View: The result demonstrates orchestration scale more clearly than economical trillion-row analytics.
+- Impact: Interactive performance is plausible for organizations able to keep thousands of workers hot.
+- Watch next: Reproduce cold-start latency, cache state, hourly cost, and failure behavior under production workloads.

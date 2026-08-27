@@ -2,15 +2,17 @@
 
 - Score: 176 | [HN](https://news.ycombinator.com/item?id=45693325) | Link: https://mesh2motion.org/
 
-- TL;DR
-    - Mesh2Motion is a free, MIT-licensed web app for rigging and animating 3D models in-browser. It imports GLB/GLTF/FBX, offers human/quadruped/bird skeletons, undo/redo, and exports multiple animations as GLB, leveraging a public animation library. HN readers praise its simplicity and non–genAI approach as a gateway alternative to heavyweight DCC tools, cite uses like reposing for 3D printing, and request details on skin-weighting algorithms and mocap integration/licensing. Others suggest complementary tools and note the benefit of GLB for web/game pipelines.
+### TL;DR
 
-- Comment pulse
-    - Web animator fills gap vs Blender → easier onboarding, no genAI costs; open-source fits longevity — counterpoint: Blender plugins handle rigging/export if you accept complexity.
-    - Great for 3D printing reposes → pose STLs without mastering a DCC; faster iteration for hobbyists.
-    - Clarify weighting and mocap → which skinning algorithm; how robust GLB/FBX export; acceptable mocap sources and licensing limits.
+Mesh2Motion is a free, MIT-licensed web application for rigging and animating humanoid, quadruped and bird models. It imports GLB, GLTF and FBX files, provides positionable skeletons with undo and redo, applies a bundled human-animation library, and exports multiple animations together as GLB for web or game-engine use. The supplied product page is brief and does not explain its skin-weighting algorithm or production limitations. Commenters value its approachable scope as a bridge before complex tools such as Blender, particularly for quick game assets and model posing.
 
-- LLM perspective
-    - View: Browser rigging/animation with GLB exports lowers barrier; species-specific rigs cover common cases.
-    - Impact: Indies, students, and web devs ship animations faster without installing DCC stacks.
-    - Watch next: Publish weighting details, perf metrics, and roadmap; add mocap capture/import, STL pose export, and Blender interoperability tests.
+### Comment pulse
+
+- Users praise browser access and batch GLB export, while asking for more animation and motion-capture libraries.
+- A proposed 3D-printing workflow would require posed static-mesh export, which the supplied page does not confirm.
+
+### LLM perspective
+
+- View: Focused tools can democratize one difficult stage of 3D production without pretending to replace full modeling suites.
+- Impact: Simple rigging and reusable animations shorten the path from downloaded mesh to working prototype.
+- Watch next: Weighting quality, difficult topology handling and export interoperability will matter more than feature count.

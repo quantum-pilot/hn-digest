@@ -2,15 +2,17 @@
 
 - Score: 236 | [HN](https://news.ycombinator.com/item?id=45697395) | Link: https://www.kenklippenstein.com/p/video-fbi-agents-visit-anti-ice-protester
 
-- TL;DR
-    - Ken Klippenstein publishes Ring-camera video of FBI agents questioning Tucson teacher Miles Serafini after a June anti-ICE protest. Agents probed sign production, organizers, and premeditation, showed photos, and asked for his phone—consistent with Trump’s NSPM‑7 and DOJ guidance prioritizing preemptive anti-ICE terrorism investigations and network mapping. Serafini wasn’t charged but skipped a later protest, illustrating a speech-chilling effect. HNers debate civil-liberty overreach, practical rights during questioning, and whether apolitical stances, moderation, or even strikes blunt or enable escalating crackdowns.
+### TL;DR
 
-- Comment pulse
-    - Do not talk to law enforcement without a lawyer → Fifth Amendment protects against self-incrimination; innocent statements can be reframed and weaponized.
-    - Protests feel ignored; strike instead → Work stoppages impose costs policymakers notice — counterpoint: strikes are risky, hard to coordinate, and illegal for many workers.
-    - HN politics get flagged → Users predict downranking as censorship, raising worries about complacent technologists — counterpoint: moderation enforces topic rules, not state suppression.
+Reporter Ken Klippenstein says FBI agents visited 26-year-old teacher Miles Serafini after a Tucson anti-ICE protest where objects were later thrown, property was damaged, and three people were arrested. According to Serafini and Ring footage, agents questioned him about organizers, signs, and whether violence was planned, despite his saying he was nonviolent and uncharged. The FBI declined comment. Serafini said the encounter deterred him from attending another protest, which the article presents as a chilling effect. Broader claims about similar visits remain unverified in the supplied account.
 
-- LLM perspective
-    - View: Preemptive extremism frameworks incentivize network-mapping of political activity, conflating protest logistics with terror planning.
-    - Impact: Fewer attendees, more risk-averse organizers; educators and public servants self-censor; agencies divert resources from crimes to intelligence gathering.
-    - Watch next: FOIAs on FBI assessments, DIOG updates, court challenges to NSPM‑7/DOJ directive, congressional/OIG oversight, and local non-cooperation ordinances.
+### Comment pulse
+
+- Civil-liberties alarm → commenters saw questioning an uncharged protester as intimidation with predictable effects on lawful participation.
+- Legal caution → discussion emphasized declining interviews without counsel rather than trying to explain oneself informally.
+
+### LLM perspective
+
+- View: Investigative outreach can chill protected activity even without arrest or formal accusation.
+- Impact: Protesters may withdraw while agencies face demands to distinguish evidence gathering from ideological scrutiny.
+- Watch next: Documented case counts, legal challenges, FBI guidance, and corroboration of alleged visits elsewhere.

@@ -2,15 +2,17 @@
 
 - Score: 119 | [HN](https://news.ycombinator.com/item?id=45692585) | Link: https://www.centauri-dreams.org/2025/10/23/interstellar-mission-to-a-black-hole/
 
-- TL;DR
-  Centauri Dreams highlights Cosimo Bambi’s proposal: reuse beamed‑sail infrastructure to send paired nanocraft to the nearest stellar‑mass black hole—perhaps within 20–25 light‑years—to test Kerr spacetime, probe fundamental constants, and even distinguish horizons from fuzzballs via redshift signatures. Locating isolated BHs may come from SKA/ALMA/JWST accretion signatures or microlensing; binaries via LIGO A+. HN readers like the science goals but press on hard bits: terminal maneuvering and comms for gram‑scale probes, uncertainty of a nearby target, and misconceptions about significant time dilation at 0.1c.
+### TL;DR
 
-- Comment pulse
-  - Steering/deceleration is the blocker → 1 g probes at 0.1–0.3c need infeasible onboard energy; sails steer, but capture remains unsolved — counterpoint: flybys still useful.
-  - Time dilation isn’t fatal at 0.1c → Lorentz factor ≈1.005; measurable but negligible for mission timelines.
-  - Maybe one is local → Asteroid-mass primordial BH could show via lensing, excess density, or faint accretion X-rays — counterpoint: tiny holes evaporate or hazard.
+A perspective paper sketches an extremely speculative mission to a hypothesized black hole 20–25 light-years away. Gram-scale laser-sail probes traveling near one-third light speed would take 60–75 years to arrive and another 20–25 years to return data. Multiple probes could test the Kerr metric, event-horizon behavior and possible changes in fundamental constants. None of the essential system exists today, no target that close is known, and communication, precision instruments, navigation and especially decelerating from an unbound trajectory into orbit remain formidable unsolved problems.
 
-- LLM perspective
-  - View: Beamed-sail astrophysics is a compelling dual-use path; prioritize detection and characterization of 10–30 ly BH candidates before committing mission design.
-  - Impact: If a nearby BH is confirmed, investment shifts from exoplanet flybys toward GR probes; sail infrastructure gains broader scientific justification.
-  - Watch next: Demonstrate wafer‑sat comms interplanetary, precision sail pointing beyond 1 AU, and multi-instrument searches for isolated accretors within 50 pc.
+### Comment pulse
+
+- Readers identify capture or useful steering at relativistic speed as the proposal’s central unclosed engineering gap.
+- A nearby undiscovered black hole is itself a statistical estimate, not a destination currently available for mission design.
+
+### LLM perspective
+
+- View: The paper is valuable as a requirements exercise, not evidence that such a mission is nearly executable.
+- Impact: It connects interstellar propulsion research with unusually direct strong-gravity experiments that remote astronomy cannot replicate.
+- Watch next: Finding a nearby target and demonstrating deceleration, navigation and interstellar downlink are prerequisite milestones.

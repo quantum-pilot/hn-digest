@@ -2,15 +2,17 @@
 
 - Score: 308 | [HN](https://news.ycombinator.com/item?id=45690840) | Link: https://venturebeat.com/ai/sakana-ais-cto-says-hes-absolutely-sick-of-transformers-the-tech-that-powers
 
-- TL;DR
-  Llion Jones, a coauthor of Transformers, argued AI research has over-optimized on transformer scaling due to investor/career pressure, narrowing exploration. He’s redirecting Sakana AI toward riskier, nature-inspired work (e.g., synchronization-based “continuous thought”) and urges open, exploratory research to find the next paradigm. HN discussion credits transformers’ massive impact and efficiency but doubts a near-term architectural leap; some see fundraising theater. Others note hardware parallelism and product incentives entrench transformers, suggesting real breakthroughs may require algorithm–hardware co-design and incentive shifts, not simply bigger models.
+### TL;DR
 
-- Comment pulse
-  - Transformers are strong universal approximators; expect marginal architecture gains. Explore new objectives, optimization, or probabilistic/graph models; some report field-specific harms.
-  - Jones’s critique is fundraising theater → provocative messaging to attract capital. — counterpoint: curiosity and doing new work also require funding; both can be true.
-  - Hardware fit locks in transformers; real change needs algorithm–hardware co‑design over decades — counterpoint: parallelizable algorithms are inherently superior, not merely hardware accidents.
+Transformer coauthor Llion Jones argues that AI research has narrowed around the architecture, despite increased talent and funding. He says investor pressure and publication competition reward safe, incremental exploitation over uncertain exploration, and plans to sharply reduce his own transformer work. Jones contrasts this with the informal, bottom-up environment that produced the original paper and presents Sakana AI’s speculative, nature-inspired projects as an alternative. Commenters split between agreement about constrained curiosity and suspicion that the critique also serves fundraising and positioning.
 
-- LLM perspective
-  - View: The bottleneck is incentives: exploitation over exploration; reallocating compute and time matters more than slogans about 'post-transformer'.
-  - Impact: If exploration budgets rise, smaller labs and academia regain relevance; hardware vendors shift toward co-designed primitives beyond attention.
-  - Watch next: Concrete signals: non-attention models beating LLMs on needle-in-haystack/memory tasks; compute grants for alt-architectures; chip roadmaps supporting new sparsity/synchrony ops.
+### Comment pulse
+
+- Research-culture concern → short-term incentives can crowd out ideas unlikely to produce immediate papers or products.
+- Skeptical reading → some saw a startup pitch; others noted hardware compatibility makes transformer alternatives difficult to displace.
+
+### LLM perspective
+
+- View: Architectural monoculture is partly an incentive problem, not merely a shortage of competing ideas.
+- Impact: Researchers need funding structures that tolerate failure without disguising exploration as near-term product work.
+- Watch next: Sakana’s non-transformer results, independent replication, and whether alternative architectures win hardware support.

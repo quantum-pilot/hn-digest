@@ -2,15 +2,17 @@
 
 - Score: 76 | [HN](https://news.ycombinator.com/item?id=45698930) | Link: https://www.tomsguide.com/computing/office-software/microsoft-teams-will-start-snitching-to-your-boss-when-youre-not-in-the-office-and-this-update-is-coming-in-december
 
-TL;DR
-Microsoft Teams will auto-mark employees as “in office” when devices connect to corporate Wi‑Fi, updating work location on Windows/macOS starting December 2025. It’s off by default, but tenant admins can enable it and require opt‑in. Detection likely uses IP/BSSID rather than spoofable SSIDs. HN debates its purpose: RTO enforcement and firing ammo vs. benign coordination. Skeptics cite Teams bloat and accuracy gaps (wired, VMs, VPNs) and note badges/backgrounds already indicate presence; others foresee broader surveillance creep.
+### TL;DR
 
-Comment pulse
-- It's about enforcement, not collaboration → creates a paper trail to justify RTO compliance and terminations. — counterpoint: Some see value for coworkers to find you onsite.
-- Teams bloat/accuracy concerns → unnecessary network probing; unclear for wired devices, VMs; history of buggy features and confusing shortcuts.
-- Easy to infer presence already → badges, backgrounds, and VPN use suffice; this feature suits smaller orgs lacking IT controls.
+Microsoft’s roadmap says Teams can set a user’s work location to the connected office building when the device joins organizational Wi-Fi. The Windows and macOS feature was scheduled for December 2025. Despite the article’s attendance-tracking framing, it is off by default; tenant administrators choose whether to enable it, and the roadmap says users must opt in. The supplied material does not specify its network-identification method or prove that managers receive a dedicated attendance report rather than the existing shared work-location status.
 
-LLM perspective
-- View: Auto-location can be useful; value hinges on purpose limitation, transparency, and opt-in verified by audit logs, not silent rollout.
-- Impact: HR/Legal get another RTO metric; IT must map BSSIDs to buildings; expect conflicts with unions and EU privacy laws.
-- Watch next: Admin controls granularity, spoofing resistance details, integration with badge systems, and whether reports feed Microsoft Viva/HRIS dashboards.
+### Comment pulse
+
+- Critics say organizations already have badges, VPNs and network logs, making another Teams signal unnecessary surveillance and complexity.
+- A charitable use is helping coworkers know whether to find someone in person or start a call.
+
+### LLM perspective
+
+- View: Automatic location can aid coordination, but “attendance tracking” overstates what the supplied roadmap actually describes.
+- Impact: Ambiguous workplace telemetry invites managerial misuse and employee distrust even when technically opt-in.
+- Watch next: Microsoft should document visibility, retention, network detection, consent and administrator reporting before rollout.

@@ -2,15 +2,18 @@
 
 - Score: 450 | [HN](https://news.ycombinator.com/item?id=45689241) | Link: https://www.polygon.com/counter-strike-cs-player-economy-multi-billion-dollar-freefall/
 
-- TL;DR
-  - Valve let Covert (red) skins be traded up into knives/gloves, flooding supply. Prices fell ~25% (~$1.8B) overnight; e.g., a $20k Butterfly knife sank to ~$12k amid sell-offs. HN frames it as Valve asserting control: curbing gray-market trading/scams, reducing gambling optics, and likely preempting regulators—while shifting value on-platform. Skeptics worry fewer “jackpots” could dent key/case demand. Many players welcome cheaper skins and less money-first toxicity; it’s a stark lesson in centralized economies’ fragility.
+### TL;DR
 
-- Comment pulse
-  - Valve aimed to curb off-platform trading/scams → wallet caps pushed high-value trades off Steam; modeling favored pain over leakage — counterpoint: jackpots drive key sales.
-  - Preempt regulation and reduce gambling optics → fewer money-first players, less kid extraction, less toxicity — counterpoint: move centralizes revenue capture via on-platform contract cases.
-  - Centralized virtual economies are fragile → one rules change vaporized ~$1.8B; gray markets and skin-as-currency use cases face headwinds.
+Valve changed Counter-Strike’s trade-up system so five top-tier Covert items can produce knives or gloves, abruptly increasing the potential supply of previously scarce cosmetics. Third-party trackers cited by the report estimated that the market lost roughly 25%, or $1.75–1.84 billion, overnight; individual prices also swung sharply, while Covert items rose. Those totals are model-dependent rather than audited losses. Commenters treated the episode as evidence that a closed digital economy ultimately depends on one rule-maker, while proposed motives involving fees, scams, or off-platform trading remained speculative.
 
-- LLM perspective
-  - View: Valve is trading short-term price shock for long-term control, risk reduction, and predictable monetization.
-  - Impact: Key/case sales vs. market-cut revenue will rebalance; third-party sites, influencers, and bot traders lose share.
-  - Watch next: Track case-open volumes, Steam Market knife indices, off-platform traffic, regulatory moves, and whether TF2/Dota adopt similar trade-up changes.
+### Comment pulse
+
+- Governance risk → scarcity and value can change instantly when Valve revises conversion rules.
+- Gambling criticism → commenters viewed paid cases and speculative resale as a harmful foundation for the economy.
+- Motive dispute → revenue capture and scam reduction were plausible theories, not established explanations.
+
+### LLM perspective
+
+- View: Platform-issued scarcity resembles policy exposure more than ownership of an independent asset.
+- Impact: Traders, marketplaces, and collectors must price unilateral rule changes alongside item rarity.
+- Watch next: Supply growth, price stabilization, off-platform volume, and Valve’s subsequent trade-up adjustments.

@@ -2,15 +2,17 @@
 
 - Score: 129 | [HN](https://news.ycombinator.com/item?id=45690679) | Link: https://eo4society.esa.int/2025/10/16/jupytergis-breaks-through-to-the-next-level/
 
-- TL;DR
-  - ESA’s JupyterGIS matures from demo to capable, collaborative, browser GIS on JupyterLab: new WASM-GDAL processing toolbox, richer vector-tile/PMTiles styling and identify, STAC browsing, GeoParquet/PMTiles support, better symbology/legends, UI polish, and an xarray tiler. A JupyterLite demo requires no install but is ephemeral, which sparked questions about “collaboration” and persistence. HN welcomes an open-source alternative to ESRI/Google Earth and notes ArcGIS/Jupyter usefulness, while some prefer Marimo-style executable apps over notebooks. One nit: the project page’s JS breaks scrolling.
+### TL;DR
 
-- Comment pulse
-  - Prefer Marimo-like workflows over notebooks for routines → notebooks mix state and UI; app-style UIs feel safer for production.
-  - Open-source browser GIS reduces ESRI/Google Earth dependence → avoids subscriptions and legacy lock-in — counterpoint: ArcGIS Pro notebooks remain highly productive for many.
-  - JupyterLite demo confusion → changes vanish on reload due to ephemeral storage; real-time collaboration/persistence needs a servered JupyterLab and shared backend.
+JupyterGIS has expanded its collaborative browser-based GIS environment with PMTiles vector support, feature inspection, richer symbology and a WebAssembly GDAL processing toolbox for operations including buffers, hulls, dissolves, bounds and centroids. It adds GeoParquet, improved GeoTIFF styling, generated legends and a STAC browser for discovering satellite assets, currently limited to the Geodes API. Interface refinements consolidate controls, while a tiler extension turns xarray variables into lazily evaluated layers. Planned work includes more processing tools, deeper QGIS integration, automation APIs and story maps.
 
-- LLM perspective
-  - View: WASM-GDAL in-browser narrows the gap between desktop GIS and notebooks without server-side dependencies for many vector operations.
-  - Impact: Simplifies teaching and reproducible geospatial workflows; lowers barriers where installations, licenses, or bandwidth are constraints.
-  - Watch next: Performance on large rasters; multiuser conflict resolution; STAC interoperability beyond Geodes; benchmarks vs QGIS/PostGIS and cloud runtimes.
+### Comment pulse
+
+- Readers welcome an open browser-and-notebook workflow outside proprietary desktop GIS subscriptions.
+- Some question notebook persistence and whether reactive tools might better support repeatable executable GIS routines.
+
+### LLM perspective
+
+- View: Keeping discovery, analysis, visualization and collaboration in one document can substantially reduce geospatial workflow friction.
+- Impact: In-browser GDAL lowers installation barriers while Jupyter kernels preserve access to programmable analysis.
+- Watch next: Broader STAC support, durable collaborative storage and reproducible execution will determine serious adoption.

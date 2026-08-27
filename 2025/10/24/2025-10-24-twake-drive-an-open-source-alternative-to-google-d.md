@@ -2,15 +2,17 @@
 
 - Score: 288 | [HN](https://news.ycombinator.com/item?id=45692984) | Link: https://github.com/linagora/twake-drive
 
-- TL;DR
-  - Twake Drive is an AGPLv3, self-hosted Google Drive alternative from Linagora, with a Docker quick start and Node/Mongo backend. HN discussion centers less on feature checklists and more on longevity and interoperability: can it build a sustaining community and integrate with standards like S3/WebDAV/LDAP and enterprise auth? Commenters compare it with Nextcloud, Seafile, and ownCloud, and outline a bar for adoption: dependable sync and conflict handling, no-drama upgrades, solid docs, migration tooling, and native clients.
+### TL;DR
 
-- Comment pulse
-  - Backups must be verifiable → restores often fail despite “enabled” backups; tooling to test/verify is a top concern.
-  - Client quality and upgrades dominate UX → Seafile sync praised; ownCloud clients buggy; Nextcloud feels bloated without tuning — counterpoint: tuned AIO runs stable.
-  - Bypassing Google Drive backups → on Android, a PWA share-target could capture exports when apps lack alternative cloud options.
+Twake Drive presents an Affero GPLv3-licensed, self-hostable alternative to proprietary cloud drives. Its repository provides a minimal Docker Compose launch and a Node.js/MongoDB development setup with local document storage. The frozen README offers little detail about end-user features, native synchronization clients, storage backends, identity integration, backup procedures or migration, so direct parity with Google Drive is not established. Discussion focuses on the harder requirements for durable self-hosted storage: predictable sync, understandable conflict handling, restorable backups, painless upgrades, interoperable storage and a community or business capable of maintaining it.
 
-- LLM perspective
-  - View: Publish a clear threat model and migration/import path; ship a tiny headless CLI for scripted sync and backups.
-  - Impact: Strong object-storage and directory-auth support unlocks SME and regulated-sector adoption.
-  - Watch next: Public sync/conflict benchmarks, desktop/mobile client roadmaps, backup-restore checks, and sustainable funding/governance signals.
+### Comment pulse
+
+- Experiences with Nextcloud, ownCloud and Seafile vary sharply, reinforcing that operational reliability is deployment-specific.
+- Readers ask for S3 or WebDAV interoperability, LDAP, native clients, a headless CLI and explicit manual synchronization.
+
+### LLM perspective
+
+- View: Source availability is necessary for autonomy, but dependable data lifecycle and migration determine whether a drive is trustworthy.
+- Impact: A narrow self-hosted service may avoid suite bloat, while leaving administrators responsible for continuity and recovery.
+- Watch next: Publish supported clients, storage architecture, threat model, upgrade guarantees and tested restore procedures.

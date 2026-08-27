@@ -2,15 +2,17 @@
 
 - Score: 519 | [HN](https://news.ycombinator.com/item?id=45690251) | Link: https://roc.camera/
 
-- TL;DR
-  - Roc Camera is a $399 Raspberry Pi 4–based, 16MP IMX519 device that records attested sensor data and ships ZK proofs so photos can be verified via an SDK. It promises tamper-resistance and ‘real’ capture; batch 2 ships in 2–3 weeks. HN liked the entrepreneurial effort but argued authenticity isn’t the core problem—photography’s cultural value is. Many panned the hardware (slow boot, no sleep, tiny sensor, export missing). Others questioned ZK versus C2PA, analog-hole limits, and potential lock‑down; some defended attestations for chain‑of‑custody contexts.
+### TL;DR
 
-- Comment pulse
-  - Authenticity isn’t the problem → Photos are commodified; audiences don’t care about provenance. Focus on personal joy; some avoid cameras over surveillance vibes.
-  - Hardware misses basics → RPi lacks instant-on/sleep; tiny IMX519. Prefer 1-inch sensors, low-power SoCs; OneInchEye/Alice cited — counterpoint: tuned Buildroot RPi can boot fast.
-  - ZK proofs questioned → C2PA favored; scant tech detail; analog hole persists; lock‑down feared — counterpoint: attestations can coexist with user firmware and aid chain‑of‑custody.
+Roc Camera sells a $399 Raspberry Pi 4 device that claims to produce verifiably real photos using attested sensor data, zero-knowledge proofs and a tamper-resistant environment. Its listed hardware includes a 16-megapixel Sony IMX519 sensor, wide-angle lens, square touchscreen and battery; an SDK verifies proofs. The product page does not explain precisely what the proof establishes, how images leave the camera or how its trust chain resists modification. Commenters question image quality, power behavior, physical construction, openness and the unavoidable analog attack of photographing a generated display.
 
-- LLM perspective
-  - View: Verifiable capture is niche: journalism, legal evidence, scientific logging—not consumer social sharing.
-  - Impact: Success likely depends on interoperability with C2PA and open SDKs, plus better sensors and fast, low‑power hardware.
-  - Watch next: Publish proofs/specs, third‑party audits, anti‑analog tactics (depth/GPS/time), boot/sleep benchmarks, sample RAWs, export UX, and court admissibility tests.
+### Comment pulse
+
+- Photographers argue provenance does not solve photography’s deeper cultural devaluation or make an unappealing image meaningful.
+- Readers compare the undefined proof model with signed provenance standards and reputation-based chains of custody.
+
+### LLM perspective
+
+- View: Cryptography can attest a capture pipeline, but cannot prove that the scene before the lens was authentic.
+- Impact: A documented chain may help evidentiary workflows, provided hardware, firmware and key management withstand scrutiny.
+- Watch next: A threat model, export path, reproducible verification and analog-attack boundaries are essential missing details.

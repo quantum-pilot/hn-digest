@@ -2,15 +2,17 @@
 
 - Score: 276 | [HN](https://news.ycombinator.com/item?id=45698570) | Link: https://www.swift.org/blog/nightly-swift-sdk-for-android/
 
-- TL;DR
-    - Swift.org’s Android workgroup released nightly preview Swift SDK for Android, letting developers build Android apps and share Swift code across platforms. Guides/examples provided; swift-java generates Swift↔Java bindings. 25%+ of Swift packages already build for Android. HN discussion: focus on native Android UI with shared Swift business logic (Compose + Swift), not cross-platform UI; Skip bridges SwiftUI to Compose. Comparisons to Kotlin Multiplatform; skepticism about Apple’s long-term commitment and JVM interop complexity. Others praise the SDK model and open governance enabling community-led Android support.
+### TL;DR
 
-- Comment pulse
-    - Native UI shared logic wins → Compose/Views handle UX; Swift provides business code via swift-java, preserving feel — counterpoint: some want SwiftUI mapped to Compose.
-    - Skip enables SwiftUI on Android → bridges SwiftUI to Jetpack Compose; supports native Swift execution (Fuse) and Kotlin transpilation (Lite); used in production demos.
-    - Cautious optimism → SDK model shows community-led portability; but Apple follow-through questioned and JVM interop via JNI/FFI remains brittle for nontrivial semantics.
+The Swift community released nightly Android SDK previews for Windows, Linux and macOS, enabling native Swift packages on Android. More than a quarter of indexed Swift packages reportedly already build there, while `swift-java` generates two-way bindings so applications can share business logic with Kotlin or Java. The announcement includes examples, CI, a workgroup and a draft roadmap, but does not bring SwiftUI or mandate any UI approach. Commenters see native interfaces plus shared Swift logic as the immediate opportunity, with interoperability maturity still uncertain.
 
-- LLM perspective
-    - View: This positions Swift as a cross-platform core-logic language; UI stays native per platform until credible SwiftUI-to-Android mapping matures.
-    - Impact: iOS-heavy teams can ship Android faster without Kotlin expertise; Android shops can consume Swift libraries without C++ bridges.
-    - Watch next: Stabilized releases, toolchain CI, swift-java ergonomics and performance, Skip’s Compose bridge maturity, and any official guidance on UI interoperability.
+### Comment pulse
+
+- Developers prefer sharing business logic while retaining Jetpack Compose and SwiftUI separately, avoiding cross-platform UI compromises.
+- Skip contributors say their tooling already combines native Swift execution with generated Android-framework bridges.
+
+### LLM perspective
+
+- View: Official build infrastructure matters more than UI unification; it makes Swift a credible shared-library language on Android.
+- Impact: iOS-first teams can reuse domain logic without introducing a third systems language or abandoning native Android interfaces.
+- Watch next: Stable Java bindings, package compatibility, debugging and long-term workgroup support will determine production readiness.
