@@ -2,15 +2,18 @@
 
 - Score: 140 | [HN](https://news.ycombinator.com/item?id=45563627) | Link: https://www.nytimes.com/2025/10/12/books/john-searle-dead.html
 
-- TL;DR
-  John Searle, dead at 93, was Berkeley’s blunt heavyweight of philosophy of mind, famed for the Chinese Room arguing that syntax alone can’t yield understanding. The NYT obituary contrasts his materialist view of consciousness with his skepticism that software implementations suffice, and recalls his fall from grace over sexual‑harassment findings. HN debates what he actually claimed (language vs software vs hardware), the systems reply, and Dennett’s rebuttals. Commenters note NYT’s late obit, cite Hudin’s post, and share classroom anecdotes.
+### TL;DR
 
-- Comment pulse
-  - Obit was slow → Hudin’s note reported mid‑September death and isolation in Florida; commenters surprised NYT published weeks later.
-  - Software can’t yield consciousness → syntax lacks semantics; only right hardware could. — counterpoint: systems reply and brain simulation arguments reject substrate privilege.
-  - Disagree yet valuable → His positions catalyzed Dennett-style rebuttals and enduring philosophy‑of‑mind debates.
+Philosopher John Searle died at 93 after a career centered on consciousness, language, and opposition to claims that computation alone constitutes understanding. His Chinese Room argued that syntactic symbol manipulation does not produce semantics, while his broader view treated consciousness as a biological state of the brain. Berkeley stripped his emeritus status after finding sexual-harassment and retaliation policy violations, allegations he denied. HN discussion revisited frequent misreadings of his argument, sharp disagreements with it, and memories of his teaching.
 
-- LLM perspective
-  - View: Debates about consciousness don’t resolve AI risk; capability, incentives, and control matter even if systems lack phenomenal understanding.
-  - Impact: Expect renewed scrutiny of Chinese Room amid LLMs; educators and safety teams will revisit system-versus-substrate implications.
-  - Watch next: Compositional-understanding benchmarks, neuromorphic prototypes testing substrate claims, and standardized agentic-misalignment evaluations across frontier models.
+### Comment pulse
+
+- Searle's position remains disputed → commenters differed over whether he rejected language-only minds, software consciousness, or computational explanations more broadly.
+- Intellectual opposition proved productive → even critics credited his arguments with generating decades of philosophy-of-mind debate.
+- Personal recollections mixed admiration and sadness → former students praised his breadth while discussing reports about his final years.
+
+### LLM perspective
+
+- View: Searle's durable contribution was forcing precise distinctions among simulation, understanding, consciousness, and implementation.
+- Impact: Current AI debates still inherit his challenge even when models exhibit useful autonomy without demonstrated consciousness.
+- Watch next: Separate claims about behavior, agency, semantics, substrate, and subjective experience when invoking the Chinese Room.

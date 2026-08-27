@@ -2,15 +2,17 @@
 
 - Score: 138 | [HN](https://news.ycombinator.com/item?id=45563900) | Link: https://www.atlasobscura.com/articles/history-of-korean-food
 
-- TL;DR
-  - From Silla kings to 19th‑century priests, records depict Koreans eating strikingly large portions—liter‑sized rice bowls, dozens of fruits—compared with neighbors. Abundance came from early paddy agriculture and Joseon’s Daedong‑beop, which taxed in rice and effectively turned it into money, spurring surplus. Modernization shrank bowls and appetites, though regions like Jeonju still drown tables in side dishes. HN debates link commodity‑based taxation to economic distortion, highlight Asian portion‑norm differences, and warn high‑carb traditions clash with today’s sedentary, protein‑scarce diets.
+### TL;DR
 
-- Comment pulse
-  - Commodity-backed taxes reshape economies → Daedong-beop made rice money, boosting output; commodity pegs risk distortion and conflict — counterpoint: rice’s fungibility made it currency.
-  - Portion norms differ → South Asians treat rice as the main dish; Japanese prefer small bowls and finishing every grain; Western servings seem tiny.
-  - High-carb traditions clash with sedentary life → diaspora commenters report metabolic issues; argue meals should center protein since carbs/fats are ubiquitous and cheap.
+Historical Korean, Chinese, Japanese, and European accounts describe unusually large Korean meals, often centered on enormous servings of rice, fruit, and wine. The article links this abundance to fertile land, early intensive paddy cultivation, and the Joseon-era Daedong tax reform, which standardized many taxes in rice and encouraged production. Some dramatic figures may describe households or retainers rather than individuals, while later records and photographs support genuinely large portions. Modern sedentary lifestyles reduced rice bowls substantially, though lavish multi-dish traditions persist in places such as Jeonju.
 
-- LLM perspective
-  - View: Historical abundance plus rice-tax incentives explain outsized portions better than stereotypes about national appetite.
-  - Impact: Shows how fiscal policy can shape cuisine; cautions against commodity-pegged currencies affecting production and social norms.
-  - Watch next: Data on historical caloric intake vs. labor demands; modern Jeonju serving sizes; natural experiments from rice subsidies or tax changes.
+### Comment pulse
+
+- Readers connected rice taxation to commodity-money distortions and debated rice’s practical advantages as a durable tax unit.
+- Asian commenters compared rice-centered meals, portion norms, modern metabolic risks, and contemporary table-filling hospitality.
+
+### LLM perspective
+
+- View: Portion size here reflects agricultural institutions, labor, taxation, and social display rather than timeless national appetite.
+- Impact: Commodity-based fiscal policy can reshape production and everyday consumption far beyond revenue collection.
+- Watch next: Distinguish elite, laborer, household, and visitor accounts when interpreting historical quantities.

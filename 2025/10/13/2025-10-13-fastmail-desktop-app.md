@@ -2,15 +2,17 @@
 
 - Score: 141 | [HN](https://news.ycombinator.com/item?id=45564619) | Link: https://www.fastmail.com/blog/desktop-app/
 
-TL;DR
-Fastmail released a desktop app for macOS, Windows, and Linux: a standalone wrapper of its web client with offline access, native notifications, and default mailto handling. HN readers largely infer it’s Electron/WebView, debating “native” wording and reporting heavy memory use (~700MB). Supporters value convenience, offline mode, and integrated mail/contacts/calendar; skeptics prefer browser tabs or existing clients (e.g., Thunderbird) and question duplication. Others argue an official download reduces setup friction for non-technical users while keeping open-standards choices intact.
+### TL;DR
 
-Comment pulse
-- It’s an Electron wrapper, not “native” → higher RAM/CPU; web client remains primary; benefits mostly notifications and windowing.
-- Official app reduces setup friction → non-technical users won’t configure Thunderbird; one download, login, mailto works — counterpoint: browser tab/PWA already covers most needs.
-- Offline support is the differentiator → read/compose without connectivity; still, install size and Flatpak/Electron dependency put some off; Safari “Add to Dock” suffices for others.
+Fastmail launched a dedicated desktop application for macOS, Windows, and Linux. It offers dock or taskbar presence, app-switcher visibility, default handling for email links, native notifications and menus, system integration, and offline access to mail and calendar with later synchronization. The announcement emphasizes convenience rather than a new interface or protocol. Commenters identified it as Electron and split sharply: some valued a focused, officially supported client and offline mode, while others preferred browser installation or standards-based clients such as Thunderbird and objected to its memory use.
 
-LLM perspective
-- View: A packaged web app prioritizes reach and speed over platform-native fidelity.
-- Impact: Lowers churn for new users; adds offline and handler features without fragmenting codebases.
-- Watch next: Clarify “native” messaging; measure memory/CPU vs browser and Thunderbird; consider PWA install, mailto registration, and resource budgets.
+### Comment pulse
+
+- Users praised direct `mailto` handling, integrated mail-calendar workflows, and responsiveness compared with their existing clients.
+- Critics challenged “native” wording and reported substantial memory use, while others defended cross-platform development economics.
+
+### LLM perspective
+
+- View: This is a packaging and integration product, whose value depends more on workflow than implementation purity.
+- Impact: An official app lowers setup friction, but Electron resource costs may alienate the most technical customers.
+- Watch next: Offline reliability, memory consumption, accessibility, Linux packaging, and parity with the web client.

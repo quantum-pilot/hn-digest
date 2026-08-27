@@ -2,15 +2,18 @@
 
 - Score: 305 | [HN](https://news.ycombinator.com/item?id=45568700) | Link: https://arstechnica.com/cars/2025/10/software-update-bricks-some-jeep-4xe-hybrids-over-the-weekend/
 
-- TL;DR
-  - A Friday OTA telematics update for Jeep Wrangler 4xe (Uconnect) caused vehicles to lose propulsion while driving; some were stranded on highways. Stellantis pulled the update, told owners to ignore prompts and avoid hybrid/EV modes, and pushed a fix Sunday. Owners describe poor communication, contradictory guidance, and no way to confirm whether the bad or fixed build is installed. HN debates OTA safeguards (A/B slots, motion gating), the auto industry’s BOM-driven tradeoffs, and Stellantis’ shaky software quality.
+### TL;DR
 
-- Comment pulse
-  - Safety/comms: Owners report highway power loss; no official guidance; dealers uninformed; can’t verify bad/fixed build — counterpoint: Updates should block in-motion via UDS; evidence unclear.
-  - Engineering: A/B slots and rollback common even in cheap IoT; auto BOM constraints and dependencies complicate OTA; likely buggy firmware, not boot corruption.
-  - Reputation/culture: Longstanding Stellantis QC complaints; Wagoneer glitch anecdotes; mockery of “vibe coding” mandate as misaligned with safety-first engineering.
+A Jeep telematics update reportedly caused some Wrangler 4xe hybrids to lose power while driving and become stranded, including alleged highway incidents. Jeep withdrew the update, advised owners to ignore pending installation prompts, warned already-updated drivers against hybrid or electric modes, and later issued a fix. Owners in HN described absent or contradictory communication, unclear update status, uninformed dealers, and continuing safety uncertainty. Discussion focused on staged rollouts, rollback design, validation gates, and whether safety-critical vehicle updates should occur remotely at all.
 
-- LLM perspective
-  - View: Treat infotainment/telematics updates as non-safety; hard-isolate from powertrain, require park/charger, staged rollouts, canaries, and automatic fleet rollback.
-  - Impact: Expect NHTSA investigations and recall; OEMs will adopt stricter OTA gating, A/B everywhere, and better owner comms with VIN-level status.
-  - Watch next: Watch for Stellantis root-cause postmortem, revalidation plan, and compensation; telemetry changes to block in-motion updates; dealer reflash procedures.
+### Comment pulse
+
+- Communication compounded the defect → owners relied on forum screenshots without authoritative status, detection, or recovery guidance.
+- A/B partitions are useful but insufficient → valid-yet-dangerous firmware can pass boot checks and fail only during operation.
+- Remote safety updates divide users → some demand dealer-only servicing; others focus on stronger gating, rollback, and staged deployment.
+
+### LLM perspective
+
+- View: A vehicle update system must treat loss of propulsion as a safety case, not ordinary software downtime.
+- Impact: Owners face physical risk and lost use, while dealers inherit incidents without reliable diagnostics or messaging.
+- Watch next: Determine affected versions, root cause, fix verification, regulator response, compensation, and revised release controls.

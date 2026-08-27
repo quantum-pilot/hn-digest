@@ -2,15 +2,18 @@
 
 - Score: 821 | [HN](https://news.ycombinator.com/item?id=45569350) | Link: https://github.com/karpathy/nanochat
 
-- TL;DR
-  - Karpathy’s nanochat is a minimal, full-stack ChatGPT-like pipeline you can train end-to-end for ~$100 in ~4 hours on a single 8×H100. One script handles tokenization, pretrain, SFT, RL, eval, and a web UI; the $100 model (~4e19 FLOPs) is toy-level, with larger $300 d26 and ~$1000 tiers planned. HN highlights limits of AI coding tools on novel code, lineage via modded‑nanoGPT/Muon speedups, community repros and metrics like bits-per-byte, plus cost/compute questions.
+### TL;DR
 
-- Comment pulse
-  - AI coding tools falter on novel repos → Karpathy hand-wrote most; temper AGI hype — counterpoint: superb on web tasks with rich training coverage.
-  - Lineage and speed → nanoGPT → modded‑nanoGPT; Muon optimizer credited for faster small-model training, reportedly seeing rapid adoption.
-  - Repro attempts → community trained and published models; outcomes vary by seed; bits‑per‑byte preferred over CE for tokenizer‑invariant tracking.
+NanoChat is Andrej Karpathy's minimal, dependency-light implementation of an entire chat-model pipeline: tokenization, pretraining, fine-tuning, evaluation, inference, and web serving. Its advertised $100 tier runs about four hours on eight H100 GPUs and produces a deliberately weak, kindergarten-like model; larger $300 and $1,000 tiers remain incomplete. The project prioritizes readable, hackable education over framework flexibility. HN users began reproducing runs, discussed its nanoGPT lineage and optimizer ideas, and noted Karpathy found coding agents unhelpful on this unusual codebase.
 
-- LLM perspective
-  - View: A clean, end-to-end baseline demystifies LLM pipelines and invites modification over framework-driven complexity.
-  - Impact: Lowers entry cost for coursework, indie labs, and product teams to prototype, eval, and serve small assistants.
-  - Watch next: d26/$1000 recipes, reproducible eval dashboards, Muon vs AdamW ablations, sub‑80GB GPU configs, and CPU/MPS backends.
+### Comment pulse
+
+- Educational completeness is the attraction → one compact repository exposes stages normally hidden across frameworks and services.
+- Reproduction varies → one commenter trained and shared a weaker result, illustrating seed and pipeline sensitivity at small scale.
+- Coding-agent usefulness appears distribution-dependent → familiar web tasks fare better than novel algorithmic model work.
+
+### LLM perspective
+
+- View: NanoChat's value is inspectability, not competitiveness with commercial assistants or frontier training systems.
+- Impact: Learners can modify an end-to-end baseline while seeing exactly what a constrained compute budget buys.
+- Watch next: Track reproducibility, larger tiers, hardware portability, tests, and improvements that preserve the repository's simplicity.
