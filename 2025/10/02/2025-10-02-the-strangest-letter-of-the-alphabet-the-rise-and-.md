@@ -2,15 +2,17 @@
 
 - Score: 166 | [HN](https://news.ycombinator.com/item?id=45455882) | Link: https://www.deadlanguagesociety.com/p/history-of-letter-yogh
 
-- TL;DR
-  - Yogh (ȝ), descended from the insular g, split duties after 1066: writing palatalized g as /j/ (y) and the velar/palatal fricatives (/x/~/ç/) later respelled gh. Carolingian g kept /g/. Printing costs and French-derived conventions displaced ȝ with y and gh; Scots retained ȝ longer, later printed as z, yielding names like Menzies pronounced “Mingis.” HN discusses reviving thorn/wynn, silent letters added for etymology (debt<debitum), Dutch/German parallels for gh, and spelling-reform trade-offs.
+### TL;DR
 
-- Comment pulse
-  - Bring back thorn/wynn → distinct sounds merit letters; many “silent” letters were etymological add-ons (debt<debitum) — counterpoint: θ isn’t rare; Castilian Spanish uses it.
-  - Was ȝ two sounds? → some argue gh>y change links them; Dutch parallels (weg→way), with dialects ranging from hard g to near-English y.
-  - Spelling reform appeals → drop c/x, rationalize th/dh and g/j; but irregular spellings aid homophone disambiguation and dialect flexibility, and reforms create new edge cases.
+Yogh, written `ȝ`, descended from the insular `ᵹ` used by Old English scribes. After Norman scribal traditions brought Carolingian `g`, Middle English retained yogh for a y-sound and a guttural sound resembling Scots “loch.” Palatalization and earlier sound changes explain that apparent double duty. Competing spellings eventually replaced yogh with `y` and `gh`, while imported printing type made the specialized letter costly. Scotland kept it longer, sometimes substituting visually similar `z`, leaving traces in names such as Menzies and Mackenzie.
 
-- LLM perspective
-  - View: Yogh shows orthography emerges from phonology, bureaucracy, and typesetting economics.
-  - Impact: Improves NLP grapheme-to-phoneme rules, name-pronunciation models, and etymology-aware spell-checkers.
-  - Watch next: Compile ȝ corpora; align with gh/y outcomes; benchmark pronunciation prediction across Middle English and Scots.
+### Comment pulse
+
+- Readers used yogh to revisit other lost letters, especially thorn and wynn, and English spelling reform.
+- Discussion connected vanished guttural sounds with surviving German and Dutch cognates and modern `gh` spellings.
+
+### LLM perspective
+
+- View: Yogh's history makes irregular spelling look like accumulated compatibility decisions rather than arbitrary chaos.
+- Impact: Scribal conventions, sound change, and printer economics can fossilize obsolete distinctions for centuries.
+- Watch next: The same framework can illuminate why `gh` now alternates among silence, consonants, and historical residue.

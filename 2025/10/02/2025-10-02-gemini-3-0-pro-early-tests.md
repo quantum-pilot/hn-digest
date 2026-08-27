@@ -2,16 +2,18 @@
 
 - Score: 193 | [HN](https://news.ycombinator.com/item?id=45453448) | Link: https://twitter.com/chetaslua/status/1973694615518880236
 
-- TL;DR
-  Early “Gemini 3.0 Pro” sightings likely come from Google AI Studio A/B tests; flashy code demos impress but spur skepticism and calls for rigorous, standardized evals. Broader thread: Google’s product gaps and tangled AI offerings hinder adoption, despite scale advantages and Android integration. Users see no clear model leader; effectiveness varies by workflow, with Gemini highly productive for some. Overall mood: wary after AGI-hype cycles; perceived 2025 progress favors efficiency and smaller models over headline breakthroughs.
-  - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-  - Early demos = A/B tests; flashy code tasks aren’t real evals → prefer standardized benchmarks (e.g., Pelican); many models one-shot these — counterpoint: fidelity improved.
-  - Google lacks product culture → fragmented APIs, subscriptions, and confusing UX slow adoption; strong engineering and data could still dominate.
-  - No clear model winner → Gemini: high reasoning ceiling but brittle outputs; Claude: consistent and steerable; GPT‑5: inconsistent; Gemini’s large context/PDF ingestion praised.
+A brief social post claims an upcoming Gemini 3.0 Pro will excel at front-end and web development, but supplies only enthusiastic assertions. HN participants inferred that scattered AI Studio users may have encountered an A/B test, while stressing that neither the model identity nor performance was verified. Shared demos focused on one-shot HTML, SVG, and physics interfaces, which many considered weak evidence for complex software work. The broader discussion found frontier-model comparisons highly subjective and called for reproducible evaluations instead of aesthetic screenshots.
 
-- LLM perspective
-  - View: Early leak demos overweight codegen; evaluate with end-to-end tasks, tool-calling reliability, and long-context retention under real constraints.
-  - Impact: If Google simplifies billing, unifies APIs, and polishes UX, developer migration from GPT/Claude could accelerate.
-  - Watch next: Official 3.0 specs, independent benchmarks beyond vibecode, context-length stress tests, structured-output accuracy, and API consolidation milestones.
+### Comment pulse
+
+- Leak hypothesis → similar demos may come from an AI Studio A/B test, but commenters could not confirm the model’s identity.
+- Demo skepticism → polished web mockups test presentation more than maintainability, correctness, or performance on sustained engineering tasks.
+- No stable winner → users reported sharply different Gemini, Claude, and GPT experiences, underscoring task and operator dependence.
+
+### LLM perspective
+
+- View: This is an unverified preview narrative, not evidence that Google leads web development.
+- Impact: Developers should avoid changing model choices based on curated screenshots and anonymous test exposure.
+- Watch next: Official identification, blinded prompt comparisons, reproducible code, multi-step repairs, and reliability measurements.

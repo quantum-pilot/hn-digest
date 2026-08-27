@@ -2,15 +2,18 @@
 
 - Score: 195 | [HN](https://news.ycombinator.com/item?id=45448839) | Link: https://www.theregister.com/2025/10/01/meta_ai_use_informs_ads/
 
-- TL;DR
-  - Meta will mine text and voice chats with Meta AI across Facebook, Instagram, WhatsApp, and Messenger to personalize feeds and ads starting Dec 16, 2025. No opt-out; EU, UK, South Korea excluded. Meta says sensitive topics won’t inform ads and offers limited preference controls. Watchdogs warn this creates a closed-loop, less-auditable ad system. HN worries focus on assistants becoming ad channels and predatory targeting; a minority expect privacy-centric alternatives (Proton, Apple) to differentiate. This aligns with Meta’s ad-heavy revenue and massive AI spend.
+### TL;DR
 
-- Comment pulse
-  - LLMs will become ad channels → monetization steers model outputs toward plugs and engagement — counterpoint: privacy-first AIs and Apple may resist.
-  - Predatory targeting risk → signaling hardship prompts payday loans, BNPL, scammy investments; engagement algorithms amplify vulnerability.
-  - Advertising now drives tech → data capture incentives overshadow utopian AI talk; the “torment nexus” dynamic feels unstoppable without regulation.
+Meta says that beginning December 16, 2025, interactions with Meta AI across its services will inform personalized posts, reels, and advertising, with user notifications starting October 7. The change has no opt-out and initially excludes the EU, UK, and South Korea. Meta says sensitive topics including health, politics, religion, and race will not drive ad personalization. Critics warn that chat-derived targeting creates another opaque, closed-loop data source. HN commenters expect advertising incentives to spread across consumer chatbots and enable predatory targeting.
 
-- LLM perspective
-  - View: First-party AI chat logs replace third-party cookies, strengthening Meta’s walled garden and measurement control.
-  - Impact: Marketers gain targeting signals; publishers lose share; users face broader surveillance; sensitive-inference policing becomes an enforcement hotspot.
-  - Watch next: Consent lawsuits, default opt-outs in regulated markets, ad-lift vs churn data, rivals copying vs pitching “private AI”.
+### Comment pulse
+
+- Advertising endgame → commenters expect assistants to become sales channels rather than neutral tools, extending an established platform business model.
+- Vulnerability risk → disclosures about financial hardship could invite payday-loan or debt ads rather than advantageous prices.
+- Alternatives remain possible → commenters cited privacy-focused assistants and hoped device vendors would resist chat-based advertising.
+
+### LLM perspective
+
+- View: Conversational data reveals intent more directly than likes, making its advertising use unusually sensitive.
+- Impact: Meta AI users must treat chats as behavioral signals even when messages avoid formally protected topics.
+- Watch next: Enforcement of sensitive-topic exclusions, regional regulatory responses, targeting transparency, and whether controls become opt-out capable.

@@ -2,15 +2,17 @@
 
 - Score: 210 | [HN](https://news.ycombinator.com/item?id=45450525) | Link: https://www.leadingsapiens.com/surviving-institutional-stupidity/
 
-- TL;DR
-    - The piece argues work isn’t school: merit is necessary but insufficient. Outcomes hinge on perception, timing, and proximity to power. Assume “stupidity” over malice; position your work, pick your game, cultivate frustration tolerance, focus on your controllables, and diversify identity beyond titles. HN discussion reinforces pyramid scarcity, debates politics vs delivering customer value, contrasts work’s flexibility with school, notes school’s own subjectivity, and stresses resilience amid layoffs.
+### TL;DR
 
-- Comment pulse
-    - Careers are pyramids → Scarcity at the top makes outcomes depend on timing, proximity, and luck; extra effort alone rarely overcomes geometry.
-    - Deliver customer value → In product-focused orgs, measurable impact brings promotions; politics is secondary — counterpoint: housing, incumbency, and layoffs cap rewards regardless.
-    - Work differs from school → More specialization, negotiation, and retries; grading can be subjective in both; consequences vary by class and sector.
+Leadership coach Sheril Mathews argues that workplace advancement does not follow school-like rules of transparent criteria and automatic reward for strong performance. Organizations also run on perception, timing, incentives, relationships, scarce senior roles, and imperfect human judgment. Her advice is to assume confusion before malice, make valuable work legible, understand informal influence without abandoning ethics, choose consciously which career game to play, focus on controllable actions, tolerate setbacks, and diversify identity beyond titles. It is practical coaching, not an empirical model of every workplace.
 
-- LLM perspective
-    - View: Treat your work like a product: craft narrative, choose channels, and target critical nodes; assume noise, not malice.
-    - Impact: Shifts from perfectionism to distribution: map the org graph, schedule campaigns, and document value to survive promotion and reorg cycles.
-    - Watch next: Track promotions vs network centrality, not just OKRs; watch performance-review redesigns; benchmark resilience training effects on retention and burnout.
+### Comment pulse
+
+- Readers contrasted schooling's conveyor belt with scarce organizational hierarchies, while noting that school itself is not consistently meritocratic.
+- Others emphasized work's flexibility: specialization, repeated attempts, clarification, reference use, and changing roles can reward different strengths.
+
+### LLM perspective
+
+- View: Performance needs translation and distribution, but treating all ambiguity as politics can become self-defeating.
+- Impact: Understanding subjective evaluation helps workers protect agency without mistaking promotion outcomes for personal worth.
+- Watch next: The advice should be adapted for job security, class, sector, management quality, and actual mobility options.

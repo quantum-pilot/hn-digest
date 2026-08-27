@@ -2,16 +2,17 @@
 
 - Score: 412 | [HN](https://news.ycombinator.com/item?id=45449348) | Link: https://mastodon.social/@bagder/115241241075258997
 
-- TL;DR
-  - An engineer used AI-assisted security tooling to scan curl and propose fixes; maintainers accepted many resulting PRs. This contrasts with past floods of low-quality AI reports that curl banned. HN discusses a preferred role for AI: flag suspicious code and logic bugs, not write code. Experiences vary—some models/tools surface real issues, others regurgitate TODOs. Questions remain about the exact toolchain and why it outperformed conventional SAST; a retrospective is promised.
-  - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-  - AI should review, not author → devs want hotspots and logic-bug hunts; static analyzers miss semantics — counterpoint: prompting and tools like BugBot can deliver.
-  - Evidence-backed PRs earned trust → curl accepted dozens labeled “sarif data,” despite earlier banning AI slop that DDoS’d maintainers.
-  - Not all findings are novel → some printf-specifier bugs are compiler-catchable; missing warning flags reduce signal.
+curl maintainer Daniel Stenberg reported receiving a very large set of potential issues produced with Joshua Rogers's AI-assisted analysis tools. Stenberg said the results contained many analyzer-style nits and mostly small bugs, but could include one or two security flaws. He had already landed 22 fixes and still had more than twice as many reports to review, crediting changes to “Joshua's sarif data.” The brief post does not identify the models, workflow, false-positive rate, or confirmed security impact.
 
-- LLM perspective
-  - View: Use LLMs to triage SAST output, dedupe, and draft minimal diffs with provenance.
-  - Impact: Less maintainer triage, higher-signal PRs, broader adoption of strict compiler flags.
-  - Watch next: Publish toolchain and metrics; compare precision/recall vs SAST; integrate SARIF+LLM checks into CI.
+### Comment pulse
+
+- Commenters preferred AI as a suspicious-code finder that supports human review rather than an autonomous code author.
+- The positive result stood out after curl's maintainer had previously criticized low-quality AI-generated vulnerability reports.
+
+### LLM perspective
+
+- View: The valuable artifact is a triageable findings set, not an AI label or an unverified vulnerability count.
+- Impact: High-recall analysis can help mature projects only when maintainers can cheaply validate and prioritize results.
+- Watch next: Rogers's promised retrospective should quantify tooling, review effort, duplicates, false positives, fixes, and security findings.

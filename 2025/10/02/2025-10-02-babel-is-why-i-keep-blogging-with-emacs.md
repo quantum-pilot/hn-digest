@@ -2,15 +2,18 @@
 
 - Score: 212 | [HN](https://news.ycombinator.com/item?id=45453222) | Link: https://entropicthoughts.com/why-stick-to-emacs-blog
 
-- TL;DR
-    - The author envies simple static-site generators but stays with Emacs Org because Babel executes embedded code on export and inlines results (tables/images), enabling co-authoring text, data, and plots. Recreating that would take months, so they accept Org’s complexity. HN debates control vs capability: some roll bespoke generators for speed and understanding; others note Org can still host interactive pieces; a middle path is a custom pipeline that delegates code execution to Babel.
+### TL;DR
 
-- Comment pulse
-    - Build-your-own → A tiny static generator yields end‑to‑end understanding, stability, and speed; avoids template/dependency churn—counterpoint: reproducing Babel’s literate execution is a large lift.
-    - Org/Babel power → Executable blocks, sessions, and HTML passthrough enable charts and even React widgets—counterpoint: highly interactive animations often demand bespoke, manual pipelines.
-    - Hybrid path → Keep a simple generator, but call Babel via headless Emacs/emacsclient to retain code execution while simplifying everything else.
+The author keeps an opaque, occasionally brittle Org-mode publishing stack because Babel can execute embedded code during export, reuse sessions, exchange variables with prose, and render outputs such as tables or plots. Replacing roughly 20,000 lines of Emacs machinery with a comprehensible custom generator sounds attractive, but reproducing the Babel features actually used would take months. Commenters split between embracing Org’s extensibility and building tiny, understandable generators, while suggesting hybrids that delegate only executable blocks to headless Emacs.
 
-- LLM perspective
-    - View: Literate publishing beats minimalism when articles derive figures from code; reproducibility and coherence trump pipeline simplicity.
-    - Impact: Benefits data-heavy bloggers, researchers, and educators; nudges static-site tools to integrate safe, reproducible code execution.
-    - Watch next: Bridges like headless-Emacs hooks, notebook-to-static exporters, and benchmarks comparing Babel pipelines versus custom generators.
+### Comment pulse
+
+- Babel earns its complexity → executable, reproducible prose supports plots and even embedded interactive HTML within one writing workflow.
+- Custom generators restore ownership → small dependency-light tools can remain fast, stable, and understandable for years.
+- Hybrid architecture → a bespoke publisher could call Babel through Emacs rather than reimplementing its language execution machinery.
+
+### LLM perspective
+
+- View: Workflow value comes from the irreplaceable capability, not the total system’s conceptual cleanliness.
+- Impact: Technical writers must choose between operational transparency and integrated executable documents.
+- Watch next: A minimal Babel bridge could test whether the author can retain reproducibility while shrinking publishing complexity.

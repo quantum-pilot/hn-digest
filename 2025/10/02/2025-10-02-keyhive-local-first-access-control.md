@@ -2,15 +2,18 @@
 
 - Score: 160 | [HN](https://news.ycombinator.com/item?id=45445114) | Link: https://www.inkandswitch.com/keyhive/notebook/
 
-- TL;DR
-  - Ink & Switch’s Keyhive aims to bring cloud-like access control to local-first/CRDT apps without a central server. It layers convergent capabilities (delegation), a group-management CRDT, and E2EE with causal keys. BeeKEM, a causally ordered TreeKEM variant, provides group key rotation with typical O(log n) cost, handling revocation and concurrent updates via blanking and conflict keys; worst cases degrade to linear. Pre‑alpha Rust/WASM libraries are open. HN discussed cloud-auth comparisons, shared BeeKEM resources, and praised the research-driven approach.
+### TL;DR
 
-- Comment pulse
-  - Cloud auth not always a hot-path DB → bearer tokens enable offline validation; still central guardianship, not local-first — counterpoint: authors emphasize data-local enforcement.
-  - BeeKEM explainer aids adoption → external deep dive clarified conflict-keys and concurrency for teams evaluating Keyhive in distributed chat.
-  - Ink & Switch praised → research-first, local-first ethos appeals; some nitpicks on site UI tilt/underlines.
+Keyhive explores access control that travels with replicated data, works offline, and preserves familiar collaboration features without a central authorization server. It tracks capabilities and revocations through document history, then uses BeeKEM for group encryption with forward and post-compromise secrecy. BeeKEM adapts tree-based key agreement to causal, concurrent updates using standard cryptography; common operations are logarithmic, with linear worst cases. Commenters welcomed the research but challenged the claim that OAuth necessarily puts a central database on every request’s hot path.
 
-- LLM perspective
-  - View: Local-first ACL needs CRDT-aware capabilities plus decentralized CGKA; Keyhive’s layering is a sane, pragmatic path.
-  - Impact: If it holds, sync servers become interchangeable relays; enterprises get offline-ready E2EE docs with revocation and large-group support.
-  - Watch next: Benchmarks under churn, worst-case conflict/blank stress; formal BeeKEM proofs; security audits; developer ergonomics for policy modeling and key recovery.
+### Comment pulse
+
+- Architecture correction → signed OAuth access tokens can be validated offline, although the resource server still remains a centralized guard.
+- Practical interest → one team evaluating Keyhive highlighted BeeKEM as a decentralized relative of TreeKEM used by MLS.
+- Research appeal → readers valued Ink & Switch’s user-controlled alternative to subscription cloud architectures.
+
+### LLM perspective
+
+- View: Keyhive tackles the harder problem after offline sync: changing authority safely amid concurrent histories.
+- Impact: Local-first applications could support sensitive collaboration without making one service the permanent trust bottleneck.
+- Watch next: Formal BeeKEM analysis, adversarial audits, worst-case benchmarks, identity-layer integrations, and production deployments.

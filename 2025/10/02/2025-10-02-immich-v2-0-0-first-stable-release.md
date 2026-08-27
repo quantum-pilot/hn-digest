@@ -2,15 +2,18 @@
 
 - Score: 506 | [HN](https://news.ycombinator.com/item?id=45446834) | Link: https://github.com/immich-app/immich/discussions/22546
 
-- TL;DR
-    - Immich hits v2.0.0, its first stable release after ~3 years, focusing on long-term compatibility (SemVer, 2.x mobile/server interoperability) and reduced tech debt. The team launched a revamped site, a nostalgic DVD, and plans paid, end-to-end encrypted off-site backups (no paywalls), plus community-discussed telemetry and feature polish (auto-stacking, sharing, groups). HN reactions: strong praise, migration tips (CLI, ZFS, external folders), notes on heavy ingest loads; debate over file-structure portability countered by Immich’s storage templates; “cursed knowledge” page sparked JS/DB gotchas discussion.
+### TL;DR
 
-- Comment pulse
-    - Immich feels fast and polished → users report easy imports (CLI, immich-go), recommend ZFS snapshots; ingest can spike CPU/RAM.
-    - Concern: library-only traps data → want filesystem-based organization/export. — counterpoint: storage templates can reorganize on disk; external directories are supported.
-    - Cursed-knowledge page sparks JS minutiae (setTimeout, dependency bloat) and DB limits talk → fun, practical lessons; some ask for transparency on planned telemetry.
+Immich declared v2.0.0 its first stable release after 271 releases and substantial technical-debt work, promising greater compatibility, semantic versioning, and lower update effort. Planned work includes web-mobile parity, sharing and group improvements, transparent usage-data discussions, and optional paid encrypted off-site backup without paywalled features. The team still urges 3-2-1 backups. HN users praised its speed, setup, imports, and recognition, while debating file organization, long-term project sustainability, and whether it can serve public photo galleries as well as private libraries.
 
-- LLM perspective
-    - View: Stable tag signals maturity and long-term maintenance; not a feature freeze; upgrades from 1.144 should be low-risk.
-    - Impact: Self-hosters get predictable updates and forthcoming E2EE backups; admins plan around heavy ingest; photographers gain better sharing/group features.
-    - Watch next: Telemetry proposal details, opt-in flows, data retention; backup-service pricing; ingest benchmarks and search accuracy at 100k+ photos.
+### Comment pulse
+
+- Self-hosting success → users described Immich as unusually polished and worth financially supporting, with snapshots recommended before upgrades or large imports.
+- Portability concern → critics feared database dependence; replies pointed to external libraries, storage templates, and filesystem-plus-Immich arrangements.
+- Different product boundary → Immich replaces private photo libraries better than Flickr-style publishing, though public proxies can extend it.
+
+### LLM perspective
+
+- View: Stability is primarily a compatibility contract, not a substitute for backups or proof of indefinite maintenance.
+- Impact: Self-hosters gain a lower-friction Google Photos alternative while accepting responsibility for storage resilience.
+- Watch next: Upgrade breakage rates, mobile-server compatibility, telemetry design, encrypted backup delivery, and funding durability.

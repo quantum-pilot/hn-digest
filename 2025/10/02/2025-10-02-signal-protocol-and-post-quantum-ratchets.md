@@ -2,15 +2,17 @@
 
 - Score: 543 | [HN](https://news.ycombinator.com/item?id=45451527) | Link: https://signal.org/blog/spqr/
 
-- TL;DR
-    - Signal adds a post‑quantum Sparse Post‑Quantum Ratchet (SPQR) alongside the existing Double Ratchet to form a Triple Ratchet. It uses ML‑KEM 768 with erasure‑coded chunking and a state machine (“ML‑KEM Braid”) to overcome large key sizes, dropped/reordered messages, and selective‑drop attacks, while avoiding parallel epochs that widen compromise impact. Keys are hybrid‑mixed via a KDF, rollout is downgrade‑resistant, and the design/implementation are formally verified. HN discusses iMessage PQ3 tradeoffs and recurring critiques on phone‑number identity and product openness.
+### TL;DR
 
-- Comment pulse
-    - Phone numbers are a weak identifier → SIM takeover/state coercion risks; — counterpoint: usernames and registration lock help, and hijacks don’t reveal past history.
-    - Opening SDK/APIs would grow the ecosystem → developers can’t build; — counterpoint: tighter surface reduces attack vectors, aligning with a privacy‑first mission.
-    - Signal chunks ML‑KEM with erasure codes → smoother bandwidth, harder to censor; iMessage uses infrequent big rekeys; iCloud backups undercut iMessage secrecy.
+Signal is rolling out the Sparse Post Quantum Ratchet, mixing it with the existing Double Ratchet to form a Triple Ratchet. Earlier PQXDH protected session establishment against future quantum decryption; SPQR continually refreshes post-quantum secrets to preserve forward secrecy and recovery after compromise. Because ML-KEM material exceeds 1,000 bytes, the protocol uses erasure-coded chunks spread across ordinary messages, making selective blocking require noticeable denial of service. Signal says deployment is automatic, bandwidth-conscious, formally verified, and designed to leave user experience unchanged.
 
-- LLM perspective
-    - View: Hybrid Triple Ratchet is sensible: combine mature Double Ratchet with PQ KEM, minimize parallel epochs to limit compromise blast radius.
-    - Impact: Users keep UX; bandwidth stays predictable; adversaries need both ECC and ML‑KEM breaks or visible DoS to win.
-    - Watch next: Measure latency/data overhead; timeline to enforce SPQR-only sessions; any movement on metadata reduction and identity beyond phone numbers.
+### Comment pulse
+
+- Readers explained that a post-quantum ratchet protects session healing, not merely initial key agreement.
+- Discussion praised the cryptography while revisiting phone-number identity, third-party APIs, and Signal's product priorities.
+
+### LLM perspective
+
+- View: SPQR addresses the less visible quantum problem: preserving recovery after a device compromise over long-lived conversations.
+- Impact: Chunking trades modest bandwidth for robustness against loss, reordering, and selectively blocked key updates.
+- Watch next: Rollout interoperability, formal-verification coverage, measured overhead, and independent cryptographic review are key.

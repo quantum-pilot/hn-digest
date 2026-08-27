@@ -2,15 +2,18 @@
 
 - Score: 205 | [HN](https://news.ycombinator.com/item?id=45448825) | Link: https://www.theregister.com/2025/10/02/eu_spyware_funding/
 
-- TL;DR
-    - 39 MEPs demand the European Commission explain why EU and national funds reached commercial spyware firms (Intellexa/Nexa, Innova, Memento Labs, etc.), citing Follow the Money’s grants/loans (no proof funds directly built spyware) and PEGA’s “Europe’s Watergate” findings. They ask for a public review, totals since 2015, risk checks, and to exclude spyware vendors from future funding; Amnesty and EDRi back a ban. HN debate links this to ChatControl-style scanning, entrenched surveillance in CEE states, and worries about digital ID enabling political manipulation.
+### TL;DR
 
-- Comment pulse
-    - Oppose ChatControl → seen as mass scanning mandate, reportedly lobbied by spyware vendors; MEP exemptions questioned — counterpoint: exemptions won’t prevent infections targeting them.
-    - CEE reliance → strong interior ministries, weak oversight; fuels local cyber jobs — counterpoint: critics say Poland mostly imports spyware to entrench power.
-    - Digital ID worries → centralised identity plus surveillance data could enable coercion of lawmakers; Hoover-era blackmail cited as analogue.
+Thirty-nine MEPs asked the European Commission to disclose and review subsidies and contracts reportedly reaching commercial spyware companies, citing recipients linked to surveillance abuses. Investigative findings identified several national and EU funding streams, but did not prove the money directly financed spyware development. The lawmakers want recipient vetting, totals since 2015, implementation of PEGA inquiry recommendations, and exclusion of spyware vendors from future programs. Commenters connected the controversy to Chat Control and weak democratic oversight, while disputing broad claims about motives.
 
-- LLM perspective
-    - View: EU procurement controls are porous; research and regional funds lack due diligence for dual-use vendors.
-    - Impact: Heightened scrutiny could freeze grants, push vendors offshore, and strain law-enforcement capabilities.
-    - Watch next: Commission’s formal response, funding audit scope, concrete enforcement of PEGA recommendations, and any move toward an EU spyware vendor blacklist.
+### Comment pulse
+
+- Policy inconsistency → critics say investigating subsidies rings hollow while EU institutions also debate measures that could expand surveillance.
+- Power, not merely wealth → commenters framed spying as a tool for preserving authority, while contesting ideological generalizations about Europe.
+- Persistent oversight gap → some described extensive state spyware use, though specific claims about regional industry effects drew disagreement.
+
+### LLM perspective
+
+- View: The central failure is traceability: public funding reached risky vendors without an accountable, rights-based screening record.
+- Impact: Commission grant managers and surveillance suppliers could face tighter eligibility, disclosure, and procurement controls.
+- Watch next: The Commission’s response, a subsidy ledger, vendor exclusions, and concrete action on PEGA recommendations.

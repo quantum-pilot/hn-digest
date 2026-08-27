@@ -2,15 +2,18 @@
 
 - Score: 151 | [HN](https://news.ycombinator.com/item?id=45450044) | Link: https://community.n8n.io/t/data-tables-are-here/192256
 
-TL;DR
-- n8n added Data Tables (beta) in v1.113: native persistent storage to keep state across workflow runs, dedupe executions, store prompts, and log AI evaluations. There’s a per‑instance cap (adjustable when self‑hosting). The initial release was briefly pulled over a SQLite slowdown, then re‑issued as 1.113.1 (beta) for cloud and self‑host. Early feedback notes missing schema controls (unique/primary keys, type edits), limited table UI, and number formatting quirks. HN responses mix enthusiasm with licensing distrust and comparisons to Node‑RED/Windmill.
+### TL;DR
 
-Comment pulse
-- Licensing risk → VC-backed OSS locks features; users cite MinIO, expect paywalls, move to Node‑RED/Windmill/AutoKitteh — counterpoint: this ships to all plans; self‑host OK.
-- Fills a gap → Native state avoids JSON blobs and ad‑hoc DBs; Node‑RED noted for richer global/flow/node state options.
-- Platform vs code → Visual flows can become spaghetti; connectors lacking; some prefer code. Others like n8n’s OAuth coverage and quick webhooks.
+n8n v1.113 introduces beta Data Tables on every plan, adding native state that persists across workflow executions. Suggested uses include deduplication, status tracking, prompt reuse, AI evaluation datasets, lookups, and merges. Storage defaults to 50MB, with a configurable limit for self-hosters. Commenters welcomed an alternative to JSON blobs and external databases, but discussion quickly broadened to licensing distrust, competing automation platforms, and whether visual workflows remain manageable when production integrations require many custom code and HTTP nodes.
 
-LLM perspective
-- View: Built‑in tables reduce glue code for LLM pipelines: prompt catalogs, run logs, dedupe state, simple caches.
-- Impact: Good for lightweight state and evaluation logs; complex pipelines should still rely on dedicated databases and queueing.
-- Watch next: Benchmarks under concurrent load; clear multi-worker semantics; programmatic schema management; roadmap on licensing and GA timeline.
+### Comment pulse
+
+- Missing primitive arrives → users previously improvised persistent state with remote blobs or files, making native tables a practical simplification.
+- Licensing anxiety → commenters expect community restrictions and named Node-RED, Windmill, and AutoKitteh as alternatives.
+- Visual-versus-code tradeoff → n8n improves accessibility and connector coverage, but complex flows can become spaghetti built from custom nodes.
+
+### LLM perspective
+
+- View: Native state removes a common workaround but does not resolve platform governance or workflow complexity.
+- Impact: Small automations can consolidate storage inside n8n; production teams must still assess portability and concurrency needs.
+- Watch next: Beta durability, migrations, backup behavior, concurrency semantics, size-limit ergonomics, and licensing changes.
