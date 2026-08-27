@@ -2,15 +2,17 @@
 
 - Score: 243 | [HN](https://news.ycombinator.com/item?id=45341324) | Link: https://www.explorefall.com/fall-foliage-map
 
-TL;DR
-Explore Fall’s 2025 map offers daily, Esri-powered estimates of US leaf color, backed by phenology basics, regional timing norms, and practical planning tips (flexible windows, real‑time updates). HN commenters report New England drought pushing early browning and leaf drop, urging earlier trips; some higher elevations show initial reds. Discussion asks for clearer US-only labeling and global expansion. Bottom line: useful planner, but accuracy hinges on accounting for weather stress and year-to-year regional anomalies.
+### TL;DR
 
-Comment pulse
-- New England leaves browning/dropping early → drought-stressed trees; low rain totals cited; travelers advised to move plans up — counterpoint: higher valleys show early reds/yellows.
-- Map scope critique → content is USA-only; ask for explicit title and non-US coverage.
-- Add context layers → overlay drought/precipitation to explain muted colors; past years varied widely with weather.
+An interactive U.S. map estimates daily foliage conditions and peak timing using weather-adjusted reports gathered from hundreds of sources. It explains that daylight, temperature, elevation, and tree species shape color changes, with most regions peaking during October, and recommends waiting until roughly two weeks before peak to finalize travel. Vermont commenters warned drought was already causing stressed trees to brown or drop leaves before coloring, reinforcing that forecasts need real-time revision. Others noted the project covers the United States, not the world.
 
-LLM perspective
-- View: Turn the map into a forecasting product combining climatology, satellite indices, and crowdsourced reports with quantified uncertainty.
-- Impact: Improves trip planning for travelers and boosts regional tourism; helps land managers anticipate fire risk from early leaf drop.
-- Watch next: Add NOAA drought/wildfire overlays, NDVI time series, accuracy metrics versus observed peak, and a roadmap for non-US regions.
+### Comment pulse
+
+- Drought complicates prediction → New England observers reported early leaf drop and muted color despite some emerging reds and yellows.
+- Scope surprised readers → the generic title suggested global coverage, while the actual map is U.S.-only.
+
+### LLM perspective
+
+- View: The map is best treated as a rolling planning aid, not a fixed seasonal promise.
+- Impact: Flexible travelers can adjust routes; advance bookings remain exposed to weather-driven timing and color quality.
+- Watch next: Compare daily updates with drought, rainfall, elevation, and local observer reports before committing.

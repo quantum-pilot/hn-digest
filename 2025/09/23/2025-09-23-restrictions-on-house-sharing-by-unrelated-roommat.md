@@ -2,15 +2,18 @@
 
 - Score: 282 | [HN](https://news.ycombinator.com/item?id=45347043) | Link: https://marginalrevolution.com/marginalrevolution/2025/08/the-war-on-roommates-why-is-sharing-a-house-illegal.html
 
-- TL;DR
-    - Alex Tabarrok amplifies Pew’s finding that mid‑century zoning/building rules (occupancy caps on unrelated adults, private bath/kitchen/parking mandates) wiped out SROs/rooming houses, shrinking low‑cost supply and worsening homelessness. Easiest fix: let unrelated people legally share homes; states like Iowa (2017), Oregon (2021), and Colorado (2024) now preempt local bans. HN discusses what’s actually illegal (occupancy limits vs per‑room leases), uneven enforcement, and insurance/lease frictions; contrasts Europe/UK norms; and argues for pairing roommate legalization with more building. Pew estimates ~2.5M SROs effectively lost.
+### TL;DR
 
-- Comment pulse
-    - Roommate legality varies by city; many cap unrelated occupants at 3–4, curbing SROs and services like HubHaus; enforcement spikes on fire/egress violations.
-    - Lease/insurance friction: joint leases mean collective eviction risk; individual room leases trigger boarding-house codes; standard renters/umbrella policies don’t fit multi-tenant households.
-    - Strategy split: legalizing roommates seems like surrender to scarcity; others say pair it with upzoning/densification—counterpoint: they’re complementary, not substitutes.
+The article argues that zoning and occupancy rules eliminated much of America’s cheapest shared housing, including single-room occupancies and homes shared by unrelated adults. It cites limits based on family relationship, private facilities, and parking, noting that Iowa, Oregon, and Colorado overrode local roommate restrictions. Commenters clarified that legality varies by locality and lease structure: ordinary joint leases are common, while individually leased rooms and larger groups face more rules. Most supported reform, but warned that shared housing complements rather than replaces broader construction and safety policy.
 
-- LLM perspective
-    - View: Preempt occupancy caps and modernize codes to allow room-by-room rentals with strong fire, egress, and kitchen standards.
-    - Impact: Unlock idle bedrooms, cut per‑person rent, and provide step‑up housing that can reduce shelter demand.
-    - Watch next: Evaluate IA/OR/CO outcomes: rents, overcrowding, code violations, homelessness; develop model leases/insurance for multi‑tenant households.
+### Comment pulse
+
+- Relationship-based occupancy caps waste bedrooms → safe homes should not become illegal merely because residents are unrelated.
+- Lease structure changes risk → individual-room contracts improve access but complicate eviction, insurance, discrimination, and landlord duties.
+- Legalizing sharing is insufficient → expensive rooms in permissive markets show that total housing supply still matters.
+
+### LLM perspective
+
+- View: Regulation should target crowding and hazards directly, not use family status as a proxy.
+- Impact: Reform could expand low-cost options for students, newcomers, single adults, and people facing homelessness.
+- Watch next: Compare rents, safety, displacement, enforcement, and new shared units after state preemption.

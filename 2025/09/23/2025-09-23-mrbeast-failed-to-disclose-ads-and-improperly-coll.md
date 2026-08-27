@@ -2,15 +2,18 @@
 
 - Score: 314 | [HN](https://news.ycombinator.com/item?id=45346950) | Link: https://bbbprograms.org/media/newsroom/decisions/mrbeast-feastables
 
-- TL;DR
-    - BBB National Programs’ Children’s Advertising Review Unit says MrBeast/Feastables had unlabeled ads in descriptions/pinned comments, made misleading taste‑test claims, pushed sweepstakes without clear no‑purchase entry, and collected kids’ data without parental consent—violating CARU guidelines and potentially COPPA. The team has cooperated but disputes parts of the decision, noting some practices changed. HN debates BBB’s non‑government role and past credibility, influencer marketing to children, and whether allegations are overblown or concrete; parents report using MrBeast to teach media literacy amid peers’ enthusiasm.
+### TL;DR
 
-- Comment pulse
-    - BBB/CARU lacks legal power; findings may still spur FTC or state actions; COPPA lacks private lawsuits — counterpoint: BBB’s history clouds credibility.
-    - Parents use MrBeast as a media-literacy lesson: influencers monetize attention; kids are credulous; social pressure from peers normalizes the brand.
-    - Undisclosed ads are common on YouTube; critics say MrBeast’s scale and child audience warrant higher standards and clearer sweepstakes disclosures.
+The Children’s Advertising Review Unit found that MrBeast and Feastables should improve disclosures, claims, sweepstakes, and data practices aimed at young audiences. It says pinned ads were not identifiable to children, a purported blind taste test looked misleadingly valid, and sweepstakes obscured free entry, ages, odds, and purchase-free participation while encouraging repeated chocolate purchases. CARU also found missing neutral age screening and possible collection of under-13 contact information without verified parental consent. Commenters agreed on accountability but noted CARU is a private self-regulator, not a court.
 
-- LLM perspective
-    - View: Self-regulatory scrutiny will push influencers toward explicit ad labels, neutral age gates, and conservative sweepstakes messaging.
-    - Impact: Creators with child audiences, DTC snack brands, and third-party martech receiving emails/phones face compliance work and liability exposure.
-    - Watch next: Look for FTC/state AG inquiries, updated Feastables rules with 18+ gating, and YouTube policies on pinned-comment ads and data collection.
+### Comment pulse
+
+- Children need conspicuous disclosures → adult-oriented fine print and pinned promotions may not communicate commercial intent to young viewers.
+- Sweepstakes design amplified pressure → purchase messaging, countdowns, and hidden free-entry routes encouraged consumption for uncertain odds.
+- Institutional weight is limited → CARU recommendations can prompt change or regulators, but are not themselves legal judgments.
+
+### LLM perspective
+
+- View: Influencer commerce needs child-specific safeguards because entertainment, endorsement, and retail are deliberately blended.
+- Impact: Creators and brands face pressure to redesign promotions, age gates, consent, and data sharing.
+- Watch next: Verify implemented changes, third-party data flows, parental consent, regulator action, and repeat compliance.

@@ -2,15 +2,17 @@
 
 - Score: 236 | [HN](https://news.ycombinator.com/item?id=45343449) | Link: https://www.scottsmitelli.com/articles/altoids-by-the-fistful/
 
-- TL;DR
-    - A bar-story metaphor—coworker eats cat turds masked by Altoids—frames modern knowledge work: contrived tasks, brittle tooling, and fading “care.” The narrator spots LLMs serving as office Altoids while wrestling with selective caring versus outsourcing pretend-care. He reckons with past gatekeeping and present burnout, closing on a note of numbness. HN readers echoed normalization-of-deviance in codebases, the dilemma of blocking hacky changes, and the misery of CI you can’t run locally.
+### TL;DR
 
-- Comment pulse
-    - Letting hacks slide compounds debt; enforce fixes now or tag tech-debt and escalate to business — counterpoint: “later” rarely comes; debt snowballs.
-    - CI you can’t run locally = surgery via claw machine; intermittent infra failures make debugging slow and demoralizing.
-    - Many confess past gatekeeping; aim for kindness without abandoning standards; organizations drift toward turds unless someone defends quality.
+Through a surreal story about masking unavoidable “cat turds” with Altoids, the essay examines burnout from meaningless technical work, accumulated complexity, and an inability to stop caring about craftsmanship. The narrator contrasts youthful enthusiasm with brittle pipelines, organizational compromises, and AI as a tempting “care about it for me” button. Commenters recognized the normalization of small hacks into entrenched debt, while debating whether reviewers should block poor code immediately, document it for later, or accept maintenance as software’s lifecycle.
 
-- LLM perspective
-    - View: Use LLMs as temporary painkillers for low-value work while prioritizing root-cause fixes that delete the work entirely.
-    - Impact: Management expectations shift to more output, faster; review quality degrades; individual “care” reallocates from craft to prompt-wrangling.
-    - Watch next: Track process changes, measurable quality gates, AI-use policies; compare rework/defect rates pre/post-LLM; invest in eliminating tasks vs automating them.
+### Comment pulse
+
+- Small compromises compound → deferred cleanup becomes unjustifiable once later work depends on the original hack.
+- Quality enforcement creates tension → conscientious reviewers can appear obstructive when organizations reward shipping over maintainability.
+
+### LLM perspective
+
+- View: Selective care is a sustainability skill, but teams must decide collectively where quality boundaries belong.
+- Impact: Engineers burn out when organizational incentives repeatedly convert craftsmanship into solitary resistance.
+- Watch next: Track whether debt tickets are scheduled, and measure review delays against later remediation costs.

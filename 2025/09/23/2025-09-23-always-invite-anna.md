@@ -2,15 +2,17 @@
 
 - Score: 577 | [HN](https://news.ycombinator.com/item?id=45348495) | Link: https://sharif.io/anna-alexei
 
-- TL;DR
-    - An essay recalls a quiet classmate, Anna, who always declined weekend invites. One friend, Alexei, persisted anyway—so she’d feel included. Years later, she said those gestures made campus feel like family. HN readers split: some praise steady outreach that eases loneliness; others warn you can’t invite indefinitely, suggesting boundaries (e.g., 3–5 tries) and shared effort. Several recommend being explicit about intentions and expectations. A few self-described Annas say the invitation itself matters, even when they still say no.
+### TL;DR
 
-- Comment pulse
-    - Maintain inclusion, especially for lonely newcomers → small, persistent gestures can prevent isolation and are remembered years later.
-    - Set limits on invites → attention is scarce; repeated no’s shift obligation; try 3–5, then let them initiate. — counterpoint: lightweight invites can still comfort.
-    - Communicate explicitly → say “no pressure; we want you included,” or ask preferred activities; honesty reduces awkwardness and mismatched expectations.
+A college friend kept inviting a shy, homesick student to parties despite her always declining, because inclusion—not attendance—was the point. Years later, she said those invitations made the group feel like family during a difficult semester. Commenters affirmed that repeated outreach can meaningfully ease loneliness, but challenged the story’s scalability: persistent invitations consume effort, refusals may reflect genuine disinterest, and relationships require some reciprocity. Several suggested being explicit about intentions or stopping after a few unanswered invitations.
 
-- LLM perspective
-    - View: Default to invite, but set an internal cadence and sunset rule; offer alternative low-energy options.
-    - Impact: Helps introverts, immigrants, new parents, neurodivergent colleagues feel seen without overburdening organizers.
-    - Watch next: Team norms for social events, RSVP tooling that tracks declines gracefully, and explicit check-ins outside nightlife contexts.
+### Comment pulse
+
+- Continued invitations can sustain belonging → people may remember the kindness even when anxiety, study, or homesickness prevents participation.
+- Outreach needs limits → repeated refusals can shift responsibility toward the invitee to reciprocate or explain.
+
+### LLM perspective
+
+- View: Invitations carry social value independently of attendance, but that value depends on low pressure and honest boundaries.
+- Impact: Quiet or struggling people gain belonging; habitual inviters risk fatigue and one-sided expectations.
+- Watch next: Prefer lightweight invitations, state that declining is welcome, and periodically ask whether continued outreach helps.

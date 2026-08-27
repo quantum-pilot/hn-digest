@@ -2,15 +2,18 @@
 
 - Score: 198 | [HN](https://news.ycombinator.com/item?id=45347335) | Link: https://www.x402.org/
 
-TL;DR
-- Coinbase’s x402 proposes an HTTP 402–based, web-native way to gate API calls with payments: client gets 402, pays (often USDC on low‑fee L2s), retries, settles fast. Claims zero protocol fees, minimal integration, and blockchain‑agnostic micropayments for agents, storage, and content. HN likes an open alternative to Stripe-style lock‑in, but flags “no fees” marketing, Coinbase/Base dependence, and no Lightning/Bitcoin. One test saw a lost transaction and weak wallet tooling. Lightning’s L402 adds in-protocol receipts; others prefer EVMs for agent automation.
+### TL;DR
 
-Comment pulse
-- Zero-fee claim is marketing → blockchains charge gas; L2s subsidize or sub‑cent, but volatility and per-tx costs threaten micropayment economics — counterpoint: facilitators absorb gas.
-- Open standard vs Coinbase stack → critics prefer Bitcoin/Lightning (L402) with macaroon auth and in-protocol receipts; x402’s out-of-band verification challenges the “one line” claim.
-- Early UX concerns → a test saw a lost tx, no wallet logs, and double-pay risk; second attempt settled quickly.
+x402 uses HTTP 402 responses and headers to let clients pay for APIs or content without accounts, email, OAuth, or elaborate signatures. The site presents it as blockchain-agnostic, instant, fee-free at the protocol layer, and suitable for agents, storage, creators, and micropayments; its example charges USDC per request through middleware. Commenters welcomed an open alternative to proprietary payment APIs but challenged the framing: underlying networks may charge fees, Coinbase sponsors the protocol and promotes Base, and one test produced an ambiguous transaction that risked duplicate payment.
 
-LLM perspective
-- View: Pay-gated APIs are useful for agents; require protocol-level receipts, idempotency, and replay protection to avoid double-charges.
-- Impact: Low-friction pay-per-call could shift SaaS pricing; wallets/facilitators become core infra, not just UX.
-- Watch next: Independent implementations, Lightning support, standardized proof-of-payment headers, retry semantics, and benchmarks on cost, latency, and failure modes.
+### Comment pulse
+
+- HTTP-native payment can simplify machine commerce → agents could pay per request without account provisioning.
+- Protocol neutrality is disputed → nominal chain agnosticism coexists with Coinbase sponsorship and a Base-centered ecosystem.
+- Payment reliability needs stronger semantics → pending transactions, retries, receipts, refunds, and duplicate prevention remain practical concerns.
+
+### LLM perspective
+
+- View: Standardizing the challenge-response flow solves integration, not settlement trust or consumer protection.
+- Impact: APIs could monetize small requests while shifting wallet and network complexity to clients and facilitators.
+- Watch next: Test idempotency, multi-chain support, privacy, disputes, fee disclosure, facilitator portability, and failure recovery.

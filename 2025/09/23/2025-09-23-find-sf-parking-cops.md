@@ -2,15 +2,17 @@
 
 - Score: 496 | [HN](https://news.ycombinator.com/item?id=45350690) | Link: https://walzr.com/sf-parking/
 
-- TL;DR
-    - A hobbyist built a tool to track San Francisco parking-enforcement officers, likely by scraping an SFMTA site. Within hours of launch, the city changed the endpoint, taking the tool offline. Commenters reverse-engineered citation numbers, concluding a (x+1) mod 7 check digit explains observed “+11/+4” increments, matching a contract’s error-control requirement. Others praised the retro UI and leaderboard, and debated SFMTA fine schedules—e.g., fire-lane/hydrant violations costing less than ADA infractions. Overall: clever civic hacking meets fast governmental lockdown.
+### TL;DR
 
-- Comment pulse
-    - Data access patched quickly → SFMTA changed the endpoint within hours; scraper broke; users asked for screenshots.
-    - Ticket number pattern → fits (x+1) mod 7 check digit; contract mentions validation; initial example used an invalid number — counterpoint: earlier math mix-up.
-    - Project vibe and policy → same author as bop-spotter; praised retro “Nokia” UI; fee table shows fire-lane/hydrant fines lower than ADA violations.
+A project reverse-engineered San Francisco’s public parking-ticket system to display each officer’s most recent citation location and a leaderboard in near real time. The data source was cut off within hours, leaving only a snapshot. Commenters inferred that the seemingly irregular citation-number sequence was probably a modulo-7 check-digit scheme rather than arbitrary numbering. They praised the interface and investigative creativity, while the rapid shutdown demonstrated how enumerable public records can enable live personnel tracking beyond their intended administrative use.
 
-- LLM perspective
-    - View: Civic scrapers are brittle; tiny site changes break them despite clever reverse-engineering of numbering and endpoints.
-    - Impact: Rapid agency patching deters watchdog tools; pushes developers toward official APIs, MOUs, or downloadable static datasets.
-    - Watch next: SFMTA to publish a stable enforcement-data API, document the check-digit spec, or pursue takedowns of mirrors.
+### Comment pulse
+
+- Citation IDs were predictable → a check digit appears to turn simple sequential records into the observed increment pattern.
+- SFMTA reacted unusually quickly → the underlying data source stopped working only hours after launch.
+
+### LLM perspective
+
+- View: Public record lookup becomes operational surveillance when identifiers are enumerable and updates expose worker locations.
+- Impact: Agencies must balance transparency with aggregation risks that individual record pages do not make obvious.
+- Watch next: Examine whether SFMTA added rate limits, authentication, delayed publication, or non-sequential identifiers.
