@@ -2,15 +2,17 @@
 
 - Score: 106 | [HN](https://news.ycombinator.com/item?id=45953977) | Link: https://github.com/francescopace/espectre
 
-- TL;DR
-  - ESPectre turns a €10 ESP32‑S3 into a camera‑free motion sensor by analyzing Wi‑Fi Channel State Information. It avoids ML, using DSP: moving‑variance segmentation on raw “spatial turbulence,” optional filtered features, and MQTT/Home Assistant integration. Setup ~30–45 minutes; works best 3–8 m from the router. The author stabilizes CSI with ICMP pings for predictable packet timing. HN discussion spans privacy/surveillance risks, “no‑ML” semantics, practical architecture tips, and throughput notes (two S3s can push ~6k CSI packets/s).
+### TL;DR
 
-- Comment pulse
-  - Architecture → Generate ICMP pings to the gateway for steady CSI; segment on raw spatial turbulence; filter only features → more reliable triggers than sniffing ambient traffic.
-  - No‑ML claim → rules are DSP, no training or labels — counterpoint: ML is applied math; the boundary is methodological, not mathematical.
-  - Surveillance risks → presence detection without cameras can monitor occupants invisibly; ethics require consent, disclosure, and secure data handling.
+ESPectre is an experimental GPLv3 motion sensor using a roughly €10 ESP32-S3, ordinary 2.4 GHz router traffic, and MQTT or Home Assistant. It analyzes Wi-Fi Channel State Information: raw subcarrier turbulence feeds a two-state moving-variance detector, while optional filters produce ten statistical, spatial, and temporal features. No trained model or labeled dataset is required. Detection is environment-dependent, needs calibration, works best three to eight meters away, and cannot distinguish people, pets, or objects. Commenters highlight both creative uses and surveillance risk.
 
-- LLM perspective
-  - View: Deterministic CSI‑based DSP is a strong baseline for presence; multi-room fusion and adaptive thresholds will matter more than model choice.
-  - Impact: Enables low-cost, privacy-preserving occupancy sensing for Home Assistant users; nudges router makers toward 802.11bf features.
-  - Watch next: Benchmark false alarm rates across homes; compare ping-driven vs dual‑ESP packet sources; publish datasets for pet/person disambiguation and multi-sensor tracking.
+### Comment pulse
+
+- The author is mapping continuous turbulence measurements to pitch for a Wi-Fi theremin running entirely on the ESP32.
+- Signal-processing discussion compared controlled ICMP traffic with passive ACK sniffing and dedicated transmitter-receiver pairs.
+
+### LLM perspective
+
+- View: Cheap device-free sensing is useful precisely because its low barrier also makes covert deployment easy.
+- Impact: Home automation gains camera-free occupancy signals, but privacy assumptions no longer follow from absent microphones or lenses.
+- Watch next: False-positive measurements, cross-room leakage, adversarial testing, 802.11bf hardware, and explicit consent controls.

@@ -2,15 +2,17 @@
 
 - Score: 163 | [HN](https://news.ycombinator.com/item?id=45955745) | Link: https://neuburger.substack.com/p/cities-panic-over-having-to-release
 
-- TL;DR
-  - Flock “license plate readers” capture far more than plates—vehicle features and often occupants—and a Washington judge ruled those images are public records. Facing mandatory disclosure, small cities like Sedro‑Woolley and Stanwood shut systems down, revealing a surveillance double standard: fine when police hold data, intolerable when everyone can. HN debates normalization of ALPR for tolls/parking (Nordics, US), FOIA burden as true cost, stalking risks vs body cams, and legal patchworks like Illinois’ FOIA exemption; users share tools mapping deployments.
+### TL;DR
 
-- Comment pulse
-  - Convenience normalization → Sweden/Iceland use ALPR for tolls/parking; US followed. Critics warn retention/scope creep. — counterpoint: Barrier‑less billing requires plate capture; governance is the problem.
-  - FOIA as cost center → Small cities lacked staff to process requests; compliance risk outweighed benefits. Fees don’t solve workload or liability exposure.
-  - Public release risk → Open access enables stalking and tracking officials; unlike body‑cams, fixed ALPRs map movements. Some states, e.g., Illinois, exempt raw ALPR from FOIA.
+An advocacy-oriented post describes Flock camera networks that capture vehicles and occupants and support searches by plates or visual characteristics. A Washington judge reportedly ruled that images held by Sedro-Woolley and Stanwood qualify as public records, after which both cities disabled their systems. The article argues officials tolerated police access until disclosure exposed everyone to retrospective tracking. The privacy dilemma is real in the supplied account, but motives attributed to officials are the author’s speculation, and comments note the municipalities are small and other states may exempt raw reader data.
 
-- LLM perspective
-  - View: Equal-access transparency undermines mass surveillance; when everyone can query, political support evaporates.
-  - Impact: Expect contract cancellations, shorter retention defaults, and vendor features gating sensitive queries and audit trails to mitigate FOIA exposure.
-  - Watch next: State bills carving FOIA exemptions, standardized retention caps, and public dashboards tracking ALPR deployments, misuse incidents, and request volumes.
+### Comment pulse
+
+- Readers debated whether public release democratizes surveillance or creates new stalking and privacy risks.
+- Several treated records handling as part of system cost, while others questioned the article’s broad “cities panic” framing.
+
+### LLM perspective
+
+- View: Surveillance retention and public-record obligations must be designed together before cameras are deployed.
+- Impact: Opening raw location history can check exclusive police power while exposing uninvolved people to secondary abuse.
+- Watch next: Appeals, redaction rules, retention limits, access controls, and whether more municipalities suspend deployments.

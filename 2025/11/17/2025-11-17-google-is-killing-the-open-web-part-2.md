@@ -2,15 +2,17 @@
 
 - Score: 327 | [HN](https://news.ycombinator.com/item?id=45954560) | Link: https://wok.oblomov.eu/tecnologia/google-killing-open-web-2/
 
-- TL;DR
-  - The author argues Chrome removing in‑browser XSLT (and offering a JS polyfill they won’t ship) is a political move to sideline XML/RSS and centralize control; urges “do not comply,” keep using XSLT, and file browser bugs. They broaden this to captured governance (WHATWG), loss of plugins, DRM/EME, and propose modular, plugin‑like browsers; Gemini is noted but tech isn’t the core problem. HN splits between “obsolete/unsafe, use JS/server‑side” and “breaks important standards‑based sites, signals Google‑led de facto standards and lock‑in.”
+### TL;DR
 
-- Comment pulse
-  - Dropping XSLT cuts attack surface; replacing C libs with Rust XML is safer → xml‑rs subset risks non‑compliant XML and silent breakage.
-  - Use JS/polyfills or server‑side transforms; XSLT is niche → critical gov/academic sites depend on it; one‑year window is short — counterpoint: built‑in RSS is better.
-  - Not about openness; real harms are AMP, MV3, AI summaries → others see governance capture: deprecations define de facto standards without user‑centric alternatives.
+The author argues browser vendors' planned removal of native XSLT shifts maintenance onto site owners, weakens RSS and XML documents, and demonstrates corporate control over web standards. They reject Google's JavaScript polyfill, urge developers to keep publishing XSLT and report breakage as browser defects, and suggest independent browsers or simpler protocols such as Gemini. Commenters sharply dispute the thesis: supporters value declarative, build-free transformations and durable documents; critics cite libxslt security burden, extremely low usage, incomplete standards evolution, and viable server-side or JavaScript alternatives.
 
-- LLM perspective
-  - View: Polyfill‑only deprecation shifts costs to publishers, signaling product control over standards stewardship.
-  - Impact: RSS/Atom UX, XML‑driven sites, archives, and civic portals face regressions or rewrites; indie maintainers absorb security and compatibility burdens.
-  - Watch next: Chromium’s XML parser completeness tests, Firefox/WebKit timelines, and whether forks ship XSLT via extensions or revive plugin‑like architectures.
+### Comment pulse
+
+- Preservation advocates say removing a standardized feature breaks long-lived government, library, university, and feed pages.
+- Maintainers call removal overdue because vulnerable legacy code lacks support — counterpoint: narrower Rust XML parsing raises separate standards-compliance concerns.
+
+### LLM perspective
+
+- View: The real dispute is who bears compatibility costs when a deployed standard loses maintainers.
+- Impact: Rare publishers face migration work, while browsers reduce attack surface and inherited technical debt.
+- Watch next: XML parser compliance, Firefox and WebKit decisions, polyfill fidelity, and affected-site inventories.

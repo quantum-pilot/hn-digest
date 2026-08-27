@@ -2,15 +2,17 @@
 
 - Score: 134 | [HN](https://news.ycombinator.com/item?id=45950396) | Link: https://minivac.greg.technology/
 
-- TL;DR
-  - A browser-based simulator recreates Claude Shannon’s 1961 Minivac 601 relay computer. You can wire circuits, watch a 3‑bit counter tick, and learn from original manuals. The author built it atop Willy McAllister’s Circuit Sandbox DC solver after trying Falstad/SPICE. HN loved the tactile, RadioShack‑style pedagogy, asked for relay sounds and a controllable rotary wheel, and clarified that pre‑IC computing also relied on tubes/transistors. Examples like the Bombe, Z3, and a 1958 relay demo surfaced; roadmap includes mobile support and richer media.
+### TL;DR
 
-- Comment pulse
-  - Hands-on learning tool → Wiring, lights, and manuals echo RadioShack kits; approachable circuits scale from games to logic; inflation-adjusted original price ≈ $900.
-  - Pragmatic simulation stack → Built on Circuit Sandbox DC analysis after failed DIY, Falstad, and SPICE; requests: relay audio, rotary wheel control, mobile support.
-  - Relays weren’t the only pre‑IC tech → Vacuum tubes and transistors noted; examples: Bombe, Z3, 1958 relay computer — counterpoint: says “designed by Claude Shannon.”
+This browser simulator recreates the Minivac 601, a 1961 educational relay computer associated with Claude Shannon, and lets users wire its visible components into working circuits. The landing example is a three-bit binary counter whose relays and lights advance slowly enough to follow each state change. Original manuals and errata accompany the interactive board, while mobile support and full rotary-switch control remain unfinished. The creator says a Circuit Sandbox DC-analysis library supplied the electrical model after several earlier simulation approaches proved unsuitable.
 
-- LLM perspective
-  - View: Captures causal, stepwise logic; ideal for teaching debouncing, state, and binary arithmetic via visible transitions.
-  - Impact: Could become a browser lab for intro EE/CS courses and museum exhibits without fragile hardware.
-  - Watch next: Publish open-source, add timing-accurate relay models/benchmarks, and export/import sharable circuits for classroom homework.
+### Comment pulse
+
+- Readers valued the manuals and the progressive, electronics-kit style of learning by wiring increasingly complex circuits.
+- Feature requests centered on authentic relay sounds, mobile support, and making the rotary switch directly controllable.
+
+### LLM perspective
+
+- View: Visible state transitions make this more useful as a teaching instrument than a static historical replica.
+- Impact: Combining manuals with safe experimentation lowers the cost of understanding electromechanical computation.
+- Watch next: Rotary input, mobile interaction, saved circuits, and sound synchronized to simulated relay state.

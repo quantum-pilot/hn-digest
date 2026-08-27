@@ -2,15 +2,17 @@
 
 - Score: 87 | [HN](https://news.ycombinator.com/item?id=45954638) | Link: https://blog.cloudflare.com/so-long-and-thanks-for-all-the-fish-how-to-escape-the-linux-networking-stack/
 
-- TL;DR
-  - Cloudflare tried to forward outbound traffic from shared IP/port “soft‑unicast” slices via TUN+SNAT while also letting apps open local sockets. Conntrack silently rewrote socket source ports outside assigned ranges, breaking flows. They tested fixes: pre-creating conntrack entries (slow/fragile), reserving 5‑tuples using TCP_REPAIR/TCP Fast Open plus routing rule hacks, and ultimately disabling tcp_early_demux to bypass early socket delivery. Despite minimal perf impact, they chose to terminate/proxy TCP for simplicity, visibility, and reliability; SLATFATF (“fish”) mostly handles ICMP.
+### TL;DR
 
-- Comment pulse
-  - Cloudflare should use userspace TCP/IP → promises fewer context switches and copies — counterpoint: kernel TCP with io_uring/zero-copy is competitive; Cloudflare previously justified kernel choice.
-  - Why Linux over FreeBSD → broader driver support, tooling, and Cloudflare's kernel expertise; article doesn't address it directly.
-  - Readers sought soft‑unicast explainer and enjoyed Hitchhiker references → background improves comprehension; SLATFATF name is a Douglas Adams nod.
+Cloudflare describes trying to forward packets through leased soft-unicast IP and port slices while ordinary sockets use the same space. Linux conntrack can silently rewrite a bound socket's source port after a collision, violating the assigned slice. Netlink reservations worked but were costly and fragile. Fake connected sockets created with TCP Fast Open blocked collisions, yet early demultiplexing then captured packets before custom routing. Disabling early demux had modest overhead, but terminating and proxying TCP ultimately proved simpler, observable, and fast enough; Fish now handles only ICMP.
 
-- LLM perspective
-  - View: Pick one authority for tuple ownership; bind phantom sockets or fully proxy, don’t mix SNAT with autonomous sockets.
-  - Impact: Disabling early demux is viable; expect small softirq increases; verify on your traffic mix, especially off-peak inefficiency.
-  - Watch next: Kernel-level features: per-interface demux toggles, conntrack tuple reservations, or documented socket-vs-forward precedence controls and observability hooks.
+### Comment pulse
+
+- Readers wanted more practical documentation on namespaces, veth pairs, bridges, macvlan, and the layer-two concepts underlying container networking.
+- Some expected a userspace TCP/IP stack; replies noted modern kernel async and zero-copy paths reduce that advantage.
+
+### LLM perspective
+
+- View: The best engineering result was abandoning a clever solution once the simpler proxy delivered operational benefits.
+- Impact: Cloudflare accepts minor proxy overhead in exchange for correct address leasing and better reachability telemetry.
+- Watch next: Future full-packet tunneling needs, early-demux costs at scale, and kernel support for mixed ownership.

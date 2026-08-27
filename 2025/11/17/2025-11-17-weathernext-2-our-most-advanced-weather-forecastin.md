@@ -2,15 +2,17 @@
 
 - Score: 191 | [HN](https://news.ycombinator.com/item?id=45954210) | Link: https://blog.google/technology/google-deepmind/weathernext-2/
 
-TL;DR
-Google DeepMind’s WeatherNext 2 is a probabilistic AI weather model that generates hundreds of ensemble forecasts on a single TPU in under a minute. Using a Functional Generative Network to inject structured noise, trained on marginals yet capturing joint structure, it achieves 1‑hour resolution and beats the prior WeatherNext on 99.9% of variables across 0–15 days. Data is in Earth Engine/BigQuery, with Vertex AI access, and it’s rolling into Search, Gemini, Pixel Weather, and Maps. HN discusses CRPS-based training for diverse outputs, real-world hurricane gains, and modeling geometry/verification.
+### TL;DR
 
-Comment pulse
-- Even imperfect forecasts aid decisions → planners need scenarios; ensembles reduce paralysis (Arrow anecdote). — counterpoint: ‘no-precip 90%’ baselines ignore high-impact extremes.
-- CRPS-style objectives encourage diverse, calibrated outputs → inject noise and train probabilistically; helpful beyond weather for tasks needing multiple distinct solutions.
-- Performance/practicality praised → recent hurricane tracks matched reality; US GFS seen regressing — counterpoint: demand for transparent benchmarks and grid geometry details.
+Google's WeatherNext 2 uses Functional Generative Networks to create hundreds of coherent forecast scenarios from one starting state by injecting noise within the model. Google says each forecast runs in under a minute on one TPU, reaches hourly resolution, is eight times faster, and beats WeatherNext Gen on 99.9% of evaluated variables and lead times through fifteen days. Data is available through Earth Engine and BigQuery, with Vertex AI early access, while forecasts are entering Search, Gemini, Pixel Weather, Maps Platform, and Maps.
 
-LLM perspective
-- View: FGN yields fast, physically consistent ensembles without costly NWP; still needs rigorous calibration and extreme-event validation.
-- Impact: Operational tools shift AI-first for 0–15 days; HPC spend reallocates to TPUs; insurers, logistics, and utilities gain scenario-based planning.
-- Watch next: Head-to-head against ECMWF/IFS and GraphCast; open CRPS/BS reliability curves; geodesic treatment for micro/mesoscale; agency acceptance for warnings.
+### Comment pulse
+
+- Practitioners highlighted CRPS training, which rewards accuracy while encouraging varied ensemble members under different noise draws.
+- Commenters praised recent Google cyclone tracks but asked how models represent Earth's geometry and local terrain.
+
+### LLM perspective
+
+- View: Fast probabilistic ensembles matter more operationally than a single sharper deterministic forecast.
+- Impact: Agencies and businesses can evaluate correlated regional risks without hours of supercomputer time.
+- Watch next: Independent extreme-weather verification, calibration, geometric representation, local resolution, and public API limits.
