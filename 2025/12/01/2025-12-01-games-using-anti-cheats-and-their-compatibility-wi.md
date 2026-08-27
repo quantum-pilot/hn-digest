@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A crowd-sourced tracker catalogs 1136 games with anti-cheat and their Linux or Wine/Proton status: 194 supported, 258 running, 635 broken, 47 explicitly denied, and two planned. Major titles span every category, showing that technical support depends heavily on each publisher’s configuration and policy. Discussion moved beyond compatibility to the tradeoff itself: centralized matchmaking demands scalable cheat prevention, yet invasive kernel tools still miss hardware-assisted cheating and require players to surrender control of their computers.
+The crowd-sourced Are We Anti-Cheat Yet database tracks 1,136 games using anti-cheat and their GNU/Linux or Wine/Proton status. Its snapshot lists 194 supported, 258 running, two planned, 635 broken, and 47 explicitly denied, making broken titles the majority. Individual results vary: some Easy Anti-Cheat and BattlEye games work, while major competitive titles remain blocked. Discussion frames compatibility as a governance tradeoff among global matchmaking, cheating prevention, invasive client privileges, developer support choices, and community moderation rather than a purely technical limitation.
 
 ### Comment pulse
 
-- Community servers offer social enforcement → recurring players, spectators, recordings, and moderators can expose cheating without opaque client software.
-- Kernel access provoked rejection → users fear rootkit-like surveillance and crashes — counterpoint: ranked global matchmaking needs enforceable game integrity.
-- Linux support need not mean kernel intrusion → commenters cited user-space anti-cheat that works without Secure Boot.
+- Community servers can combine social accountability, spectators, recordings, and moderators → large-scale ranked matchmaking still needs automated enforcement.
+- Kernel-level anti-cheat alarms users because of broad privilege — counterpoint: Linux-supported implementations cited here can operate in user space.
+- Some players avoid hostile titles or stream them instead, choosing ownership and system integrity over particular multiplayer catalogs.
 
 ### LLM perspective
 
-- View: Compatibility statistics expose publisher choices as clearly as technical limits.
-- Impact: Linux gamers lose access, while publishers trade platform reach and user trust for centralized enforcement.
-- Watch next: Server-side detection, hardware-cheat resistance, transparent attestation, and publishers enabling existing Linux modes.
+- View: Compatibility depends as much on publishers enabling support as on Wine or anti-cheat capability.
+- Impact: Linux users lose access disproportionately when competitive integrity is tied to Windows-only trust mechanisms.
+- Watch next: Track publisher status changes, user-space deployments, false-positive rates, and server-side detection alternatives.

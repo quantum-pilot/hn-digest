@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-DeepSeek’s new model combines sparse attention, heavier reinforcement learning, and synthesized agent tasks to narrow the gap with proprietary systems. Its selector attends to 2048 tokens per query, reducing core attention complexity while preserving 128K-context performance. Post-training consumed more than 10% of pretraining compute and used 1827 synthetic environments alongside real code, search, and notebook tools. Reported reasoning results approach GPT-5; the unconstrained Speciale variant scores higher but consumes substantially more tokens. Discussion focused on what strong public models mean for industry economics and concentration.
+DeepSeek presents V3.2 as an efficient open model combining sparse attention, expanded reinforcement learning, and synthesized agent training. DeepSeek Sparse Attention selects 2,048 key-value tokens per query within a 128K context, reducing core attention scaling while preserving reported long-context quality. Post-training compute exceeded 10% of pre-training cost, and 1,827 synthesized environments broadened tool use. The authors report reasoning performance comparable to GPT-5 and stronger results from a high-compute Speciale variant, but also acknowledge weaker world knowledge and poorer token efficiency than leading proprietary models.
 
 ### Comment pulse
 
-- Open access attracted support → competitive models may constrain corporate concentration — counterpoint: skeptics questioned strategic motives behind continued publication.
-- Commercial durability remained plausible → hosting, trust, integration, and cheap infrastructure can monetize models even without a unique capability moat.
-- Cost-effectiveness claims met skepticism → benchmark efficiency omits company finances and most users still cannot run the full model locally.
+- Readers welcomed public methods and competitive open weights → skeptics questioned how cost-effectiveness can be judged without complete economics.
+- Competitive models may commoditize raw capability → hosting, energy, trust, integration, and user experience could still sustain commercial services.
+- Consumer deployment remains difficult because the model’s scale exceeds ordinary single-GPU systems.
 
 ### LLM perspective
 
-- View: Sparse long-context inference and agent-data synthesis are more consequential than any single leaderboard comparison.
-- Impact: Open-model operators gain stronger reasoning and tool use but still need substantial serving infrastructure.
-- Watch next: Independent cost benchmarks, consumer-sized variants, tool-format interoperability, and token-efficiency improvements.
+- View: Sparse inference and agent-data synthesis matter more than benchmark rank because they target deployment cost and tool generalization.
+- Impact: Open-model providers gain a stronger base, while proprietary vendors must differentiate through systems rather than model access alone.
+- Watch next: Independent evaluations should test cost, long-context recall, tool reliability, contamination, and output-token efficiency.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Chromium changed its JPEG XL issue from obsolete to assigned and now welcomes a performant, memory-safe decoder, reversing its 2022 removal. Momentum includes Safari support, Firefox interest, a Rust implementation, and proposed PDF adoption for HDR images. The format offers lossless recompression of existing JPEG libraries at roughly 30% smaller size, progressive decoding, HDR, animation, alpha, and unusually large dimensions. Discussion remained guarded about implementation readiness and the governance of dominant browser engines.
+Chromium has changed its JPEG XL issue from “Obsolete” to “Assigned” and welcomed a performant, memory-safe decoder, reversing its 2022 removal stance but not yet shipping browser support. The reconsideration follows Safari adoption, Firefox interest, PDF Association plans, and development of the Rust jxl-rs decoder. The author highlights lossless JPEG recompression, HDR, progressive decoding, animation, alpha, large dimensions, and many channels as advantages. Commenters welcome renewed momentum while emphasizing decoder complexity, memory safety, and the risk of one browser vendor controlling web formats.
 
 ### Comment pulse
 
-- Decoder security remains the gate → substantial image-processing code in C++ creates attack-surface concerns, making Rust implementation central.
-- Chromium’s reversal split interpretation → readiness may explain the delay — counterpoint: critics recall explicit hostility despite broad ecosystem support.
-- Extreme dimensions invited caution → progressive and tiled decoding help practicality, but compact files could still create denial-of-service risks.
+- Memory-safe decoding is the practical gate → both Chromium and Firefox interest appears tied to a viable Rust implementation.
+- Supporters remain angry about the earlier “insufficient interest” rationale after extensive ecosystem feedback.
+- Extreme image dimensions enable specialized uses but raise resource-exhaustion and tiling concerns.
 
 ### LLM perspective
 
-- View: Assigned status signals intent, not shipped compatibility; implementation quality now matters more than format advocacy.
-- Impact: Broad Chromium support could make lossless JPEG migration and HDR delivery viable across the web.
-- Watch next: jxl-rs integration, security review, performance parity, release flags, and Firefox’s final position.
+- View: Reassignment signals a path back, not a commitment date or completed implementation.
+- Impact: Chromium support could unlock broad web deployment and make lossless migration from JPEG economically useful.
+- Watch next: Follow jxl-rs security review, performance, standards position, default enablement, and cross-browser interoperability.

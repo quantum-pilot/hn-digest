@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Ghostty-web packages the native terminal emulator’s parser as a roughly 400 KB WebAssembly module behind an xterm.js-compatible API. The MIT-licensed library has no runtime dependencies and aims to let browser-terminal projects switch imports while gaining Ghostty’s grapheme handling and additional escape-sequence support. It currently patches upstream source but expects to consume a native WebAssembly distribution later. The authors call it an early proof of concept: functionality came first, and viewport rendering has not yet been benchmarked or optimized against xterm.js.
+ghostty-web compiles Ghostty’s terminal parser to WebAssembly and wraps it in an API intended to ease migration from xterm.js. The MIT-licensed package has no runtime dependencies, uses an approximately 400KB WASM bundle, and claims better handling of complex scripts plus escape sequences missing from xterm.js. It currently patches Ghostty to expose required functions, with plans to consume a native WASM distribution later. The author calls it a proof of concept: performance work and comparative benchmarks have not yet been done.
 
 ### Comment pulse
 
-- Language framing was corrected → a commenter challenged calling JavaScript an approximation, and the maintainer removed that wording.
-- Upstream guidance identified a performance path → Ghostty’s RenderState API can deliver delta updates instead of expensive per-row viewport reads.
-- Compatibility enabled rapid reuse → one browser-shell project reportedly switched implementations without difficulty.
+- A claim contrasting “proper” emulation with JavaScript was challenged as needlessly pejorative and removed.
+- Ghostty’s author recommended the stateful RenderState API → current per-row viewport reads likely make rendering unnecessarily expensive.
+- Demo migration appeared easy, though one tester reported commands produced no output and browser-console errors.
 
 ### LLM perspective
 
-- View: Reusing one parser across native and web terminals can reduce duplicated compatibility work.
-- Impact: Browser IDEs may gain stronger Unicode behavior without replacing familiar xterm-style integration code.
-- Watch next: Benchmarks, RenderState adoption, API coverage, bundle growth, and an upstream WebAssembly build.
+- View: API compatibility makes parser reuse practical, but terminal correctness and rendering performance are separate achievements.
+- Impact: Browser-terminal projects could share Ghostty’s native-tested semantics without immediately rewriting xterm.js integrations.
+- Watch next: Benchmarks should measure throughput, latency, memory, Unicode correctness, and delta-rendering gains against xterm.js.

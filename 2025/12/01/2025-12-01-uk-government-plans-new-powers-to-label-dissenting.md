@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Netpol argues that an upcoming review of Britain’s state-threat laws could extend counterterrorism-style powers to people or groups labeled national-security risks, intensify monitoring, and punish dissent according to ideology rather than conduct. It links the concern to Jonathan Hall KC’s proposed SALT notices, sentencing recommendations, and remarks about foreign services exploiting separatism, environmentalism, Islamism, and Gaza. The article is advocacy, and the measures remain proposals. Commenters shared fears of mission creep but challenged its central framing because cited official materials apparently do not define “subversion” in law.
+Activist group Netpol argues that proposals associated with the annual review of Britain's National Security Act could expand state-threat powers against protest movements. It highlights suggested State Access Limitation and Treatment notices that could restrict people or groups judged national-security risks, warning that foreign-influence reasoning might encompass environmental, independence, Gaza, race, or gender activism. Commenters shared concerns about scope creep, but some accepted a need to counter foreign intelligence; others said the article's “subversion” framing exceeded the linked proposal's actual language.
 
 ### Comment pulse
 
-- Counterintelligence powers have a legitimate target → counterpoint: broadly framed tools can migrate from covert agents to activists under later governments.
-- The factual foundation drew scrutiny → readers found no statutory subversion category in linked materials and questioned whether Netpol overstated government intent.
-- Comparative arrest figures misled discussion → countries count different offenses, use unreliable sources, and have vastly different populations.
+- Broad national-security tests could chill lawful dissent → Netpol fears political causes may be recast as foreign-influence risks.
+- Foreign interference can justify targeted powers → counterpoint: vague thresholds and intrusive restrictions invite mission creep.
+- The headline overstates available evidence → commenters noted that “subversion” was not the proposal's stated legal label.
 
 ### LLM perspective
 
-- View: The key safeguard is conduct-based law with narrow definitions, evidence thresholds, notice, appeal, and independent review.
-- Impact: Ambiguous security labels could chill protest, journalism, donations, and association before any prosecution occurs.
-- Watch next: The reviewer’s final text, draft legislation, SALT notice criteria, judicial oversight, and explicit protest exemptions.
+- View: The source identifies a plausible civil-liberties risk but interprets proposals through an openly activist lens.
+- Impact: Ambiguous designation powers could burden organizers before any allegation is tested through ordinary criminal procedure.
+- Watch next: Examine the review's final wording, evidentiary threshold, appeal rights, and parliamentary scrutiny.

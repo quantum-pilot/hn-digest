@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Slop Evader is a Chrome and Firefox extension plus search interface that uses Google’s API to return results dated before November 30, 2022. Its creator presents the cutoff as temporary access to a less synthetic web across sites such as Reddit, Stack Exchange, YouTube, Pinterest, and Quora. Discussion called the date a blunt proxy: search degradation, SEO spam, and automated pages predate modern chatbots, while new human work is excluded and AI influence cannot be verified.
+Slop Evader is a browser extension and search tool that uses Google's search API to restrict results to material published before November 30, 2022, aiming to avoid content generated after ChatGPT's release. It can search sites including Reddit, Stack Exchange, YouTube, Quora, and Pinterest. Commenters noted that low-quality SEO material and generated text predate that cutoff, that users can add a before-date operator manually, and that publication date cannot establish whether a person actually created the content.
 
 ### Comment pulse
 
-- Search quality declined before generative AI → engagement features, advertising, scraped pages, and keyword soup already displaced precise results.
-- A human-only network seems unenforceable → authors can copy machine output or absorb its ideas without leaving a detectable provenance trail.
-- The extension may be unnecessary → date-qualified queries reproduce its core behavior without installation.
+- The cutoff is convenient, not proof of authorship → synthetic and low-value material existed before late 2022.
+- A dedicated interface reduces repeated query work → counterpoint: Google's manual date operator already supplies the core filter.
 
 ### LLM perspective
 
-- View: A cutoff is useful for historical sourcing, not a reliable classifier of human authorship or quality.
-- Impact: Researchers gain a quick corpus boundary while losing trustworthy post-2022 material.
-- Watch next: Date-metadata accuracy, configurable cutoffs, non-Google backends, and precision against known synthetic and preexisting spam pages.
+- View: The tool filters an era, using date as a practical proxy rather than detecting content provenance.
+- Impact: Researchers gain a fast historical corpus, but risk mistaking older SEO manipulation for trustworthy human work.
+- Watch next: Test result quality across sites and compare configurable cutoffs with provenance-based filtering.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-After five years running Synapse for fewer than ten active users, the author finds messaging and a WhatsApp bridge reliable but administration disproportionately burdensome. PostgreSQL is effectively required; attachments, departed rooms, append-only state, and undeletable accounts accumulate; federation is awkward to disable; and Element clients bring notification, verification, calling-compatibility, and onboarding problems. The seven-service, Kubernetes-based community suite feels excessive for a household, so the author favors Snikket. Discussion showed that configuration and software generation strongly shape whether the same ecosystem feels durable or untenable.
+After five years running Synapse for relatives and friends, the author finds Matrix reliable and its WhatsApp bridge useful, but maintenance remains awkward. Postgres is effectively required, cleanup leaves orphaned rooms or media, state data grows, federation is hard to disable, and user deletion is incomplete. Element clients add notification, onboarding, synchronization, and calling friction; the author considers switching to Snikket. Commenters reported both stable long-running servers and similar cleanup problems, while a Matrix representative described recent administration and encryption improvements.
 
 ### Comment pulse
 
-- Long-running operators converge on lifecycle gaps → media deletion, database growth, user management, and simple auditing still demand manual knowledge.
-- Client generations fractured calling → legacy one-to-one VoIP and MatrixRTC lack interoperability because maintainers prioritized the newer system under limited resources.
-- Experiences vary with configuration → counterpoint: newer encryption and sliding sync reportedly fix major failures, while some small servers run reliably.
+- Small Matrix deployments can run reliably → operators nevertheless encounter persistent media, state, and calling maintenance gaps.
+- Newer Element work addresses administration and synchronization → counterpoint: client transitions and incompatible calling still disrupt users.
+- Federation complicates permanent deletion → participants disagreed whether this is an inherent tradeoff or insufficient local tooling.
 
 ### LLM perspective
 
-- View: Federation’s ambition is undermined when basic household administration requires specialist cleanup and migration knowledge.
-- Impact: Small operators may consolidate on suites, remain on aging clients, or switch to simpler XMPP deployments.
-- Watch next: Element administration coverage, media retention defaults, VoIP interoperability, local-account onboarding, and ESS resource requirements.
+- View: Reliability alone is insufficient when routine lifecycle operations remain difficult for a small administrator.
+- Impact: Families and small groups may prefer simpler XMPP packaging despite Matrix's bridges and federation.
+- Watch next: Evaluate cleanup tooling, Element interoperability, resource use, and migration effort against Snikket on identical hardware.

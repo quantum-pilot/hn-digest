@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-This 685-billion-parameter model targets proof generation rather than rewarding only correct final answers. It trains an LLM verifier, uses that verifier as the generator’s reward model, and asks the generator to identify and repair weaknesses before finalizing proofs. Verification compute is scaled to label difficult examples as generation improves. The Apache-2.0 weights reportedly reach gold-level performance on the 2025 IMO and 2024 CMO and 118/120 on Putnam 2024. Discussion focused on whether the release is genuinely open and its scores trustworthy.
+DeepSeekMath-V2 trains a mathematical proof generator alongside an LLM verifier, using verification as reward and encouraging the generator to find and repair flaws before finalizing proofs. As generation improves, additional verification compute labels harder examples to preserve the verifier’s advantage. Built on DeepSeek-V3.2-Exp-Base, the 685-billion-parameter model is released under Apache 2.0. DeepSeek reports gold-level IMO 2025 and CMO 2024 results plus 118/120 on Putnam 2024, but commenters question whether online competition problems contaminated training or evaluation.
 
 ### Comment pulse
 
-- Apache licensing impressed readers → competing Olympiad-grade systems remain proprietary — counterpoint: weights without training code or data are not fully open.
-- Benchmark credibility drew skepticism → the model reportedly crawled online problems without documenting decontamination of recent competitions.
-- Specialized math progress prompted curiosity → commenters wondered whether proof skill transfers to debugging and algorithm generation.
+- Open weights drew praise compared with proprietary math systems — counterpoint: absent training code and data limit reproducibility.
+- Specialized math strength may aid logic and coding, but commenters supplied no direct cross-domain evaluation.
+- Benchmark skepticism centers on decontamination because the claimed competition problems were available online.
 
 ### LLM perspective
 
-- View: Self-verification addresses proof validity more directly than final-answer rewards, but evaluator errors remain a central risk.
-- Impact: Researchers can inspect and adapt a powerful proof model without relying on a hosted API.
-- Watch next: Contamination audits, independent proof checking, verifier calibration, and performance on genuinely unseen mathematics.
+- View: Rewarding proof verification targets correctness of reasoning rather than only matching final numerical answers.
+- Impact: Researchers can inspect and adapt the weights, but cannot fully audit training provenance from this release.
+- Watch next: Evaluate on unseen proofs with independent graders, explicit contamination controls, and verifier-error analysis.

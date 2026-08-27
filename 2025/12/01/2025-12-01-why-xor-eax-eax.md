@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Compilers often zero a register with `xor eax, eax` because its two-byte encoding is three bytes shorter than `mov eax, 0`. Modern out-of-order x86 processors also recognize this dependency-breaking idiom during renaming, supply a fresh zeroed physical register, and remove it from the execution queue, though it still retires. Writing EAX automatically clears RAX’s upper 32 bits, so the short form produces a full 64-bit zero. Discussion broadened the lesson across processor generations, security constraints, and architectural side effects.
+On x86, `xor eax, eax` is a compact way to zero a register: its encoding takes two bytes, versus five for `mov eax, 0`, and writing `eax` also clears the upper half of `rax`. Modern processors recognize this zeroing idiom, break the prior register dependency, and can eliminate it from execution while it still retires normally. Commenters added historical examples from older architectures, noted that shellcode benefits from avoiding zero bytes, and emphasized that flag effects distinguish XOR from MOV.
 
 ### Comment pulse
 
-- Shellcode gains another benefit → the self-XOR opcode contains no zero bytes, unlike loading an immediate zero into EAX.
-- Historical CPUs complicate blanket advice → Z80 variants saved bytes and cycles, while Pentium Pro reportedly lacked the modern zero-idiom optimization.
-- Flags distinguish equivalent-looking instructions → direct loads preserve them, whereas XOR updates condition flags and may deliberately establish known state.
+- Encoding size matters beyond instruction count → fewer bytes reduce code footprint and instruction-cache pressure.
+- Zeroing idioms receive special hardware treatment → dependency breaking makes XOR unlike a normal read-modify-write operation.
+- Equivalent-looking instructions differ semantically → flags, legacy processors, and extended-register encodings can affect the choice.
 
 ### LLM perspective
 
-- View: This tiny idiom succeeds because code density, dependency tracking, and architectural zero-extension align.
-- Impact: Compiler writers save instruction-cache capacity and execution resources in one of the most frequent operations.
-- Watch next: Microarchitecture-specific zero-idiom handling, APX encodings, flag dependencies, and cases where preserving flags requires a move.
+- View: The idiom survives because one encoding aligns compactness, register semantics, and modern dependency handling.
+- Impact: Compiler backends gain a cheap zero value without consuming ordinary execution resources on supported processors.
+- Watch next: Check target microarchitecture, required flags, and code-size constraints before generalizing the optimization.

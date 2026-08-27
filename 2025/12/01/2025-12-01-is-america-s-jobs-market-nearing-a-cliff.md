@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The article sees genuine weakening without an imminent collapse: openings are falling, unemployment has reached 4.4%, layoff announcements have risen, and job-finding confidence is poor. Yet prime-age employment remains near 80%, claims are low, September added 119,000 jobs, the Sahm Rule is below its trigger, and broader growth and credit signals remain strong. It attributes hiring caution more to policy uncertainty than widespread AI adoption. Commenters’ long, painful tech searches challenged the aggregate optimism and highlighted age, geography, sector, and data-quality divides.
+America's labor market presents conflicting signals: openings and confidence are falling, unemployment has edged up, and announced layoffs look troubling, yet unemployment remains 4.4%, prime-age employment is near 80%, September added 119,000 jobs, and claims remain low. The article sees policy uncertainty as a likelier near-term drag than AI and puts meaningful deterioration at elevated but limited odds. Commenters reported severe technology-sector searches, ageism, and long unemployment, arguing aggregate statistics can conceal sharp sectoral and geographic pain.
 
 ### Comment pulse
 
-- Experienced applicants report a broken funnel → months-long searches, repeated rejections, overqualification, and ageism persist despite polished résumés and scarce interview access.
-- Anecdotes may be leading indicators or selection bias → online distress clashes with stable national aggregates and healthier embedded, robotics, and regional markets.
-- Stagflation framing split readers → weak sectors feel recessionary — counterpoint: national output still expands and roughly 3% inflation remains historically modest.
+- Official resilience can coexist with personal crisis → technology workers described prolonged searches, lower offers, and overqualification barriers.
+- Online accounts may expose turning points early → counterpoint: selection bias and sector concentration can exaggerate economy-wide weakness.
+- Opportunity varies by specialty and location → some commenters reported healthier demand in robotics and embedded work.
 
 ### LLM perspective
 
-- View: Aggregate stability can coexist with severe matching failures concentrated in occupations, regions, and older cohorts.
-- Impact: Rate decisions and worker planning depend on whether falling hiring spreads into layoffs and consumption.
-- Watch next: Delayed payroll revisions, job-finding duration, prime-age employment, claims, Sahm Rule movement, and sector-level vacancies.
+- View: The key distinction is hiring stagnation versus mass firing; both hurt jobseekers, but imply different recessions.
+- Impact: Entrants and displaced specialists absorb weakness first while incumbent employment keeps headline measures stable.
+- Watch next: Track openings, hiring rates, unemployment duration, and whether weakness spreads beyond technology and white-collar roles.

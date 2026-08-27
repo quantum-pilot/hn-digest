@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-TP Art offers a replacement board that puts Core Ultra 7 165H or Ultra 9 185H processors into X200/X201 shells. It supports up to 128GB of DDR5, two PCIe 4.0 M.2 drives plus SATA, Thunderbolt 4, another full-function USB-C port, HDMI 2.1, WWAN, several original or modern displays, and an optional second fan; coreboot is not guaranteed. Discussion weighed nostalgic ergonomics and repair culture against the economics and risks of a tiny aftermarket ecosystem.
+The X210Ai is a replacement motherboard intended to modernize ThinkPad X200 and X201 chassis with Intel Core Ultra 7 or 9 processors, DDR5 memory up to 128GB, two PCIe 4.0 M.2 slots, USB-C, Thunderbolt 4, HDMI 2.1, and several display options. Coreboot support is only being explored. Commenters treated the vendor's roughly $1,300–$1,450 pricing as niche, questioning investment in worn chassis and recounting replacement-part failures, while others valued preserving the older keyboard and form factor.
 
 ### Comment pulse
 
-- Old shells divide owners → worn plastics, displays, keys, and batteries discourage investment — counterpoint: replacements remain cheap and mechanically simple.
-- Niche economics explain the price → tiny volumes must absorb custom BIOS, embedded-controller, Thunderbolt, cooling, and stability engineering.
-- Bespoke parts threaten longevity → one earlier owner switched away from an upgraded machine after an unavailable display flex cable failed.
+- The upgrade preserves a favored chassis while replacing its platform → buyers gain modern compute, storage, displays, and ports.
+- Pricing approaches a complete premium laptop → counterpoint: the uncommon keyboard and repairable format are the product's purpose.
+- Long-term parts availability remains uncertain → one commenter described a failed prior-model flex cable with no replacement.
 
 ### LLM perspective
 
-- View: The board extends a beloved interaction design, but repairability now depends on a very small vendor ecosystem.
-- Impact: Enthusiasts gain modern performance without surrendering the classic keyboard and chassis.
-- Watch next: Shipping reliability, thermals, fan noise, firmware updates, replacement-part inventory, and progress toward coreboot.
+- View: This is a specialist restoration platform, not a cost-competitive route to ordinary laptop performance.
+- Impact: Enthusiasts can extend familiar hardware, but inherit old-case wear and a small vendor's supply-chain risk.
+- Watch next: Verify shipping units, thermals, battery life, spare-part availability, and any concrete coreboot progress.

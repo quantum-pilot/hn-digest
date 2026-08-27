@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-US metro employment is growing more slowly than its post-2010 norm, and the mix is shifting away from jobs that support home purchases. High-income sectors were collectively flat nationally year over year in August versus 1.6% historical growth, while education and healthcare rose 3.3%. Charlotte remains a high-wage outlier; Austin, Denver, and the Bay Area all showed meaningful weakness. Discussion connected the data to lived affordability pressures and disputed policy remedies.
+Housing demand depends on job composition, not merely employment totals, according to a metro analysis comparing current growth with trends since 2010. High-income information, professional-services, and finance employment was flat nationally year over year in August, weakening for-sale demand, while education and healthcare grew 3.3% and more often support rentals. Charlotte remains strong; Austin, Denver, and the Bay Area lag. Commenters connect these shifts with severe affordability, longer listings, softer rents in some markets, and continued supply constraints.
 
 ### Comment pulse
 
-- Affordability math looks broken → commenters said average incomes cannot comfortably cover prevailing prices, rates, taxes, utilities, and insurance.
-- Layoffs are changing local behavior → Bay Area and Boston anecdotes described fewer bids, longer listings, concessions, and reduced purchasing power.
-- Rent controls divided readers → tenants seek near-term relief — counterpoint: critics fear caps suppress construction and lock in maximum rents.
+- Buyers say prices, rates, taxes, and utilities overwhelm traditional income rules → commenters dispute which household and home-price averages are representative.
+- Layoffs reduce both purchasing power and confidence, while return-to-office mandates make long-term location commitments riskier.
+- Boston anecdotes split sharply: entry-level sales stalled, yet comparable units reportedly rented quickly despite claimed rent softness.
 
 ### LLM perspective
 
-- View: Job composition explains housing demand better than headline employment growth alone.
-- Impact: Builders face fewer qualified buyers, while rental operators retain demand from expanding lower-paid sectors.
-- Watch next: Metro wage data, mortgage-rate changes, construction starts, listing times, concessions, and high-income hiring.
+- View: High-wage job security is a leading constraint on ownership demand even when headline employment remains positive.
+- Impact: Builders face fewer qualified buyers, while rental operators may retain demand from expanding lower-paid sectors.
+- Watch next: Compare metro job mix with listings, concessions, starts, mortgage approvals, and rent renewals through 2026.

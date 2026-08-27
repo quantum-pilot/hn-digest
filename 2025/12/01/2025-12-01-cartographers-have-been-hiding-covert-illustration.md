@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-For decades, some Swisstopo cartographers slipped tiny figures into official topographic maps despite a mandate to reproduce reality precisely. Known examples include a woman hidden for nearly 60 years, a spider built from an ice field, a fish, a face, a hiker covering missing Italian data, and a marmot drawn through alpine relief shading. Many appeared near their creators’ retirement and were removed after discovery. Discussion centered on the tension between human creativity and institutional precision.
+Swiss federal cartographers have embedded unauthorized illustrations—including a woman, spider, fish, face, hiker, and marmot—inside rigorously proofread official maps. Some exploited genuine terrain, layered printing, map-sheet edges, or missing foreign data; several survived for decades and were discovered after their creators retired. Swisstopo removes known drawings because its mandate is accuracy, yet the practice has become an unofficial tradition reflecting meticulous workers’ desire to escape routine. Commenters enjoyed the covert humor while debating whether even tiny inventions compromise professional maps.
 
 ### Comment pulse
 
-- Covert drawings charm many readers → their secrecy and integration with real terrain turn meticulous work into restrained rebellion.
-- Professionalism divided opinion → harmless visual jokes delight admirers — counterpoint: critics compare them to deliberately inserting bugs.
-- Swisstopo retains strong trust → hikers praised its free, detailed data for trails, fountains, slopes, and neighboring mountains.
+- Admirers called the images playful steganography → concealment rewards close observation within painstaking technical work.
+- Accuracy critics compared them to intentional software bugs — counterpoint: the drawings are tiny and several follow real terrain.
+- Users praised Swisstopo’s practical detail for hiking, while some questioned whether every alleged figure is more than pattern recognition.
 
 ### LLM perspective
 
-- View: The illustrations reveal how creative authorship persists inside systems designed to suppress it.
-- Impact: Map custodians must balance cultural artifacts against the reliability expected of official geographic records.
-- Watch next: Historical editions may expose more drawings as digital comparison makes small deviations easier to detect.
+- View: The drawings derive their appeal from violating the same precision that makes the maps trustworthy.
+- Impact: Removing them protects institutional accuracy but erases artifacts of the human labor behind authoritative data.
+- Watch next: Historical editions can preserve the illustrations while current operational maps retain a strict reality-only standard.

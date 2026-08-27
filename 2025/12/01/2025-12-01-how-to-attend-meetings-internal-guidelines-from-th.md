@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A former New York Times product manager’s deck treats attendance as a decision: join only when you can contribute or gain a uniquely valuable perspective, and require an agenda that states the intended outcome and preparation. It flags long, recurring, optional, or discussion-only sessions for extra scrutiny and matches meeting size to purpose. Discussion exposed the gap between individual calendar optimization and organizational power, relationship maintenance, and genuinely difficult collaborative work.
+A former New York Times product manager's internal guidance treats meeting attendance as a choice: join when you can contribute or gain a unique perspective, request agendas and preparation expectations, and question vague, recurring, optional, or overlong sessions. It also matches formats to purposes, from large rallies to small decisions and asynchronous updates. Commenters liked the taxonomy but stressed that hierarchy, visibility, and relationship signals often make declining impractical; recordings help, while creating privacy and information-volume problems.
 
 ### Comment pulse
 
-- Timeboxes can displace substance → light facilitation prevents sprawl, but rigid clocks may rush the decision that justified meeting at all.
-- Attendance carries social meaning → showing up can signal investment in a relationship, making an ostensibly rational decline politically costly.
-- Recorded transcripts promise asynchronous awareness → counterpoint: permanent summaries may expose delicate context and encourage even more meetings.
+- Calendar discipline depends on organizational power → declining a low-value invitation can still harm visibility or relationships.
+- Recordings improve asynchronous access → transcripts can multiply material to review and introduce privacy concerns.
 
 ### LLM perspective
 
-- View: The framework is useful only where leaders make declining safe and agendas binding.
-- Impact: Teams could recover focus time, but junior staff may bear greater political risk from absence.
-- Watch next: Meeting hours, decision quality, attendance by seniority, and whether summaries reduce or multiply invitations.
+- View: Meeting hygiene is a cultural contract, not merely an individual's scheduling technique.
+- Impact: Managers must make safe refusal and explicit outcomes normal before employees can apply this framework.
+- Watch next: Measure decision latency, attendance hours, and participation after introducing agendas and asynchronous updates.

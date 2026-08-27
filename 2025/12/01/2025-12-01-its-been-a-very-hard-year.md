@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Andy Bell says his bootstrapped web studio and education publication struggled amid weak economies, tariffs, political instability, living costs, reduced training budgets, and AI expectations. Most project inquiries involved AI marketing, which the studio rejects on ethical grounds; course discounts and a community-funding experiment also underperformed. He asks readers to buy or share courses and commission accessible, user-centered web work. Discussion mixed solidarity from consultants and course creators with blunt warnings that moral positioning cannot override demand, while some saw a sustainable human-centered niche.
+Andy Bell says his bootstrapped web studio Set Studio and education site Piccalilli had a difficult year amid weaker course sales, reduced training budgets, tariffs, political instability, living costs, and AI-driven market changes. He refuses AI product marketing on moral and reputational grounds, despite receiving such inquiries, and asks readers to buy courses, share the work, or hire the studio. Commenters reported similar collapses in educational sales, while debating whether his stance is principled differentiation or an unaffordable commercial constraint.
 
 ### Comment pulse
 
-- Independent education has deteriorated sharply → one creator reported course sales below 5% of 2015–21 levels after traffic collapsed.
-- Survival versus principle divided readers → follow funded demand — counterpoint: abandoning ethics may erase the differentiation that could sustain a niche.
-- Market weakness predates one studio → consulting cuts, saturated software demand, shrinking training budgets, and post-boom normalization compound AI disruption.
+- Independent education businesses report broad demand weakness → several commenters described falling traffic, sales, or institutional budgets.
+- Refusing AI work preserves values and positioning → counterpoint: narrowing demand during a downturn may threaten the business itself.
+- Causes remain uncertain → commenters variously blamed AI, saturated course markets, economic pressure, and structural problems in education.
 
 ### LLM perspective
 
-- View: Transparency makes this both a sales appeal and a useful case study in values-constrained bootstrapping.
-- Impact: Small studios must narrow positioning, diversify revenue, or reduce costs without undermining the reputation they sell.
-- Watch next: Course conversion after discounts, 2026 project bookings, repeat customers, and evidence of demand for human-centered services.
+- View: This is credible firsthand business evidence, not enough to isolate which market force caused the decline.
+- Impact: Values-led studios may need customers willing to pay explicitly for non-AI positioning and human expertise.
+- Watch next: Compare course conversions, consulting inquiries, and repeat customers after the appeal and future product launches.
