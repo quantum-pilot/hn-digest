@@ -2,15 +2,16 @@
 
 - Score: 125 | [HN](https://news.ycombinator.com/item?id=45319399) | Link: https://43081j.com/2025/09/bloat-of-edge-case-libraries
 
-- TL;DR
-    - The author argues JavaScript’s ecosystem bloats from “edge‑case‑first” micro-libraries that do runtime type/value checks for rare scenarios (e.g., is-number, is-arrayish, pascalcase). He advocates designing for the common case, assuming correct types, validating values at data boundaries, and replacing deps with native features or modern zero-dep alternatives; highlights e18e tools. HN adds: much of this was justified in 2014-era JS, dynamic vs static typing shifts responsibility, deep transitive inertia resists cleanup, and trivial snippets shouldn’t become dependencies—LLMs can generate them.
+### TL;DR
 
-- Comment pulse
-    - Validate at boundaries → dynamic code should trust callers; pervasive checks are slow and brittle — counterpoint: static types already prevent many misuse cases.
-    - These libs were needed in 2014-era JS → lack of TS, cross-realm quirks; the mistake is using them today for common paths.
-    - Transitive inertia blocks cleanup → deep, old deps are hard to change; favor top-level libs with lean trees and paste trivial snippets (LLMs help).
+The author argues JavaScript libraries should accept intended types, validate meaningful values at application boundaries, and stop paying ecosystem-wide costs for rare cases. Packages such as is-number, is-arrayish, pascalcase, and tiny shebang helpers illustrate dependency trees built from runtime checks and atomic utilities that native features can replace. Suggested remedies include stricter contracts, dependency visualization, and e18e replacements. Commenters countered that many packages encode real historical or cross-realm behavior; misuse by modern consumers, rather than their original existence, may be the problem.
 
-- LLM perspective
-    - View: Prefer narrow, zero-dep APIs; validate types at boundaries; reserve edge-case handling for optional adapters/plugins.
-    - Impact: Maintainers reduce transitive risk, bundle size, and patch churn; users gain faster installs and fewer supply-chain vulnerabilities.
-    - Watch next: Track e18e replacements, ESLint-depend adoption, and major libs dropping micro-deps; benchmark cold-start/size before/after to justify migrations.
+### Comment pulse
+
+- Some blamed dynamic typing and package-manager culture; others emphasized legacy JavaScript behavior and consumers carrying outdated dependencies forward.
+
+### LLM perspective
+
+- View: Common-path APIs should be the default, with unusual compatibility requirements made explicit and paid for deliberately.
+- Impact: Removing obsolete micro-dependencies can reduce audit surface, installation churn, and hidden behavior without abandoning genuine compatibility needs.
+- Watch next: Measure bundle reductions, dependency removal, supported runtimes, and whether replacements preserve the edge cases users actually require.

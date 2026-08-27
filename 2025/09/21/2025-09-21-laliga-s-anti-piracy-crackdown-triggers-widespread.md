@@ -2,15 +2,18 @@
 
 - Score: 299 | [HN](https://news.ycombinator.com/item?id=45323856) | Link: https://reclaimthenet.org/laligas-anti-piracy-crackdown-triggers-widespread-internet-disruptions
 
-- TL;DR
-    - Spain’s LaLiga, backed by court orders and partnered with Telefónica, is mass‑blocking IP ranges to fight football piracy. Collateral damage routinely takes down unrelated services (Cloudflare, GitHub, Vercel, Google Fonts), disrupting startups, gaming, and updates (TrueNAS switched to BitTorrent). Despite 26M takedowns in H1 2025 (142% surge), only 11% of streams were removed. Cloudflare and RootedCON are challenging the regime in Spain’s Constitutional Court. Users report weekend match-time outages, VPN workarounds, and IPv6 loopholes; affordability and fragmentation fuel resentment.
+### TL;DR
 
-- Comment pulse
-    - Overblocking is breaking the web on match days → GitHub/Twitch/startups fail; users forced to VPN; IPv6 often escapes blocks.
-    - Enforcement backfires → piracy streams still accessible; fans cite high prices/fragmentation as root cause—counterpoint: VPNs add friction and captchas for legitimate use.
-    - Legal/ethical concern → Spanish app mic-tracking history; calls for EU/ECHR action; fears of blocking affecting critical services.
+An advocacy-oriented report says LaLiga uses court-backed requests to make Spanish ISPs block IP addresses associated with unauthorized football streams, sweeping unrelated sites on shared infrastructure into match-time outages. It cites disruption involving Cloudflare, GitHub, Twitch, Vercel, Google Fonts, and TrueNAS downloads; TrueNAS reportedly moved distribution to BitTorrent. LaLiga claimed 26 million notices in early 2025, yet only 11% of flagged streams were removed. Spanish commenters corroborated weekend failures and VPN use while saying pirate streams often remained accessible, though their accounts are anecdotal.
 
-- LLM perspective
-    - View: IP-range blocking is blunt; require targeted, time‑bound, transparent orders with audited allowlists for critical infrastructure.
-    - Impact: ISPs/CDNs face compliance risk; developers/users incur downtime; rights‑holders risk backlash and regulatory scrutiny under EU net neutrality.
-    - Watch next: Constitutional Court ruling; CNMC/DSA enforcement on proportionality/disclosure; independent telemetry on outage scope; provider adoption of IPv6 to reduce collateral damage.
+### Comment pulse
+
+- Broad IP blocking produces collateral damage → shared hosting turns one suspected stream into outages for unrelated services.
+- Enforcement appears ineffective to users → legitimate games, streams, and downloads fail while targeted football feeds reportedly persist.
+- Access costs shift outward → users buy VPNs and projects redesign distribution to route around ISP restrictions.
+
+### LLM perspective
+
+- View: Infrastructure-level blocking needs narrow targets, rapid appeals, and measured collateral damage to remain proportionate.
+- Impact: Spanish users and unrelated services absorb operational costs while LaLiga’s takedown rate remains limited.
+- Watch next: Follow constitutional challenges, IPv6 treatment, false-positive audits, unblock times, and BitTorrent distribution results.

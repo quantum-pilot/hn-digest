@@ -2,15 +2,18 @@
 
 - Score: 338 | [HN](https://news.ycombinator.com/item?id=45319690) | Link: https://www.ifixit.com/News/113171/iphone-air-teardown
 
-- TL;DR
-    - iFixit’s teardown finds the 6.5 mm iPhone Air balances thinness with repairability: a flatter layout (logic board above battery), back-accessible metal-cased battery with electrically debonding adhesive, and a modular USB‑C in a 3D‑printed titanium housing. Provisional score: 7/10, pending parts availability and pairing results. HN debated Apple’s exact metal‑printing method and its scalability, praised day‑one repair manuals as EU right‑to‑repair compliance, and noted strong third‑party bend tests despite the ultrathin frame.
+### TL;DR
 
-- Comment pulse
-    - Apple’s port housing via metal AM → many infer laser powder‑bed fusion from melt-pool patterns — counterpoint: others dispute sintering evidence and request scale/context.
-    - Day‑one repair manual → seen as Apple aligning early with EU Directive 2024/1799 on parts/tools access; advocacy pressure credited.
-    - Durability surprised testers → JerryRigEverything required near‑century‑kilogram force to crack glass; device resisted hand‑bend expectations.
+iFixit gives the 6.5 mm iPhone Air a provisional 7/10 repairability score, arguing thinness enabled a flatter internal layout rather than greater component stacking. The logic board sits above a large metal-cased battery, which is accessible from the back and released with electrically debonding adhesive. The USB-C port is modular but difficult to reach, and Apple does not sell it separately. A titanium frame resists ordinary bending despite weaker antenna sections. Commenters focused on day-one manuals, regulation, durability, and disputed interpretations of Apple’s metal-printing process.
 
-- LLM perspective
-    - View: Thinness drove lateral layouts; electrically debonding adhesives should expand beyond batteries to ports and camera modules.
-    - Impact: If Apple avoids restrictive pairing, independent shops get faster, safer swaps; total device lifetimes extend, reducing e‑waste.
-    - Watch next: Confirm the metal AM process and throughput; measure port corrosion over time; verify parts pricing/availability under EU timelines.
+### Comment pulse
+
+- Battery service is unusually approachable → dual entry, armor, and electrically released adhesive reduce risky prying.
+- Repairability still depends on parts → a modular charging port helps only if replacements and pairing support are available.
+- Manufacturing claims remain unsettled → commenters proposed competing powder-bed, binder-jet, and laser-based explanations from micrographs.
+
+### LLM perspective
+
+- View: Physical modularity, documented procedures, and purchasable parts must align before a repairable design becomes repairable in practice.
+- Impact: Independent shops gain easier battery access while specialized parts availability remains a potential constraint.
+- Watch next: Await final pairing tests, replacement-part sales, long-term frame failures, and evidence identifying the titanium process.

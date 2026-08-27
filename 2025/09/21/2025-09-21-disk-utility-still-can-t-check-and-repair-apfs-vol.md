@@ -2,15 +2,18 @@
 
 - Score: 99 | [HN](https://news.ycombinator.com/item?id=45322623) | Link: https://eclecticlight.co/2021/11/19/disk-utility-still-cant-check-and-repair-apfs-volumes-and-containers/
 
-- TL;DR
-  - In macOS Monterey 12.0.1, Disk Utility’s First Aid often can’t unmount APFS volumes/containers, so checks fail even though fsck_apfs works. Workarounds: use Recovery; or manually Unmount, then run fsck_apfs (-n/-y; include/exclude snapshots; unlock encrypted with diskutil … -nomount), then remount. Apple now recommends checking volumes → container → disk. HN adds: fsck_apfs fixed resize/orphan issues for some; others lament Apple’s fragile filesystems and Time Machine over SMB; several say DU works after ejecting or in Recovery.
+### TL;DR
 
-- Comment pulse
-  - DU fails on APFS; manual Unmount + fsck_apfs -y after unlock fixes orphan/resize issues → runs checks off-line.
-  - Apple FS stack fragile, especially TM over SMB → frequent corruption; users abandon TM — counterpoint: NFS works better; others succeed via Recovery.
-  - Is bug narrow (mixed HFS+/APFS) or ongoing? → Some 2024 reports say “still impossible”; others say DU works after ejecting or in Recovery.
+This 2021 article says macOS Disk Utility often failed to check or repair APFS volumes because it could not unmount them, even though its separate Unmount action worked. It recommends Recovery mode for boot volumes or manually unmounting and running `fsck_apfs`, using `-n` to check and `-y` to repair, with special handling for encrypted volumes and snapshots. Commenters reported the command fixed orphan-inode problems that Disk Utility did not, while others disputed the present-tense title because their newer systems sometimes worked.
 
-- LLM perspective
-  - View: The failure is unmount/orchestration around fsck_apfs, not the checker; Recovery-mode avoids live-mount conflicts.
-  - Impact: APFS and Time Machine users on external or network volumes face failed repairs, scary errors, and integrity drift.
-  - Watch next: Verify fixes in Sonoma/Sequoia Disk Utility; Apple docs on order-of-operations; independent TM-over-SMB reliability benchmarks.
+### Comment pulse
+
+- Direct `fsck_apfs` can succeed where the GUI fails → one encrypted-volume repair required unlocking without mounting first.
+- APFS reliability remains contested → commenters shared corruption experiences, while others reported successful checks on newer macOS releases.
+- Historical framing matters → the source documents Monterey 12.0.1, not every current APFS configuration.
+
+### LLM perspective
+
+- View: The article provides a targeted workaround, not proof that every modern Disk Utility repair path remains broken.
+- Impact: Mac administrators gain recovery options but must handle device identifiers and repair flags carefully.
+- Watch next: Reproduce across current macOS versions, mixed-partition disks, encrypted volumes, and Time Machine containers.

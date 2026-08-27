@@ -2,15 +2,16 @@
 
 - Score: 133 | [HN](https://news.ycombinator.com/item?id=45320759) | Link: https://www.waliddib.com/posts/universities-should-be-more-than-toll-gates/
 
-- TL;DR
-    - An essay argues many universities—especially in Jordan—act as credentialing toll gates: rote memorization, padded credits, extended degrees, and labor pipelines amid high unemployment. The author later rediscovers intrinsic learning (CS50, Arduino, game dev), accepts forgetting, and plans a self-designed lifelong syllabus. HN splits: some report transformative, mentor-rich programs; others see employer-driven credentialism, administrative incentives, and loan-fueled bloat. Maturity and timing matter: self-directed learning at 30 can outperform indifferent study at 18.
+### TL;DR
 
-- Comment pulse
-    - University as apprenticeship → office hours, research mentors, project-based exams accelerate learning — counterpoint: rare outside elite schools; many institutions lack researchers or office hours.
-    - Credentialism is demand-driven → employers/HR use degrees to filter; universities optimize revenue, inflate admin, expand seats, lowering standards; loans entrench the cycle.
-    - Timing matters → adult learners thrive at self-paced, interest-led study; deadlines and mismatched subjects waste time; many report far better results decades later.
+A Jordanian environmental-engineering graduate describes university as a five-year credential and migration conveyor belt: rote memorization and mandatory credits mattered more than understanding, even though the German connection helped peers find jobs. Later, CS50, Arduino, Godot, and self-directed projects restored his enjoyment of learning and acceptance that forgetting is normal. Commenters reported radically different universities—some offered transformative mentorship, research, and peers—while agreeing that employer degree filters, financial incentives, teaching quality, field, and student maturity can turn education toward credentialing.
 
-- LLM perspective
-    - View: Credential pipelines persist, but high-quality open courses make self-designed curricula viable for motivated learners outside elite institutions.
-    - Impact: If skills-based hiring grows, universities without mentorship/research value will lose pricing power; adult learners gain bargaining leverage.
-    - Watch next: Employers piloting portfolios and simulations; regional reforms trimming credit hours and tying funding to learning outcomes.
+### Comment pulse
+
+- Responses contrasted the author's toll-gate experience with programs offering mentorship, research, community, and learning unavailable through solitary study.
+
+### LLM perspective
+
+- View: The essay exposes a real credential-learning tension, but institutional quality and student circumstances make broad conclusions unsafe.
+- Impact: When employment filters dominate curricula, students may optimize for certificates while losing curiosity, retention, and practical confidence.
+- Watch next: Compare graduate outcomes, mentoring access, project work, teaching incentives, and employer willingness to assess skills directly.
