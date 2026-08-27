@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-iRobot filed for bankruptcy after 35 years and proposed transferring control to its primary supplier, Shenzhen PICEA Robotics, which would take the publicly traded Roomba maker private. The filing listed $100–500 million in both assets and liabilities, and existing common shares would be erased. HN framed the collapse as a mix of product stagnation, cheaper and faster-moving Chinese competitors, and a failed Amazon rescue. Debate then widened to household-device privacy, antitrust tradeoffs, and demand for repairable robot vacuums that keep working offline.
+iRobot filed for bankruptcy and proposed transferring control to Shenzhen PICEA Robotics, its main Chinese supplier, and a PICEA subsidiary. The public company reported $100 million to $500 million in both assets and liabilities; existing common shares would be canceled as it goes private. The supplied article ends behind a paywall, limiting detail on financing and court terms. Commenters debate privacy, the blocked Amazon acquisition, and iRobot’s failure to match faster-improving rivals, while seeking robot vacuums that remain functional offline and repairable.
 
 ### Comment pulse
 
-- Privacy fears centered on cameras, microphones, maps, and cloud dependence — counterpoint: users disputed how many devices remain active or what data is dangerous.
-- Some regretted regulators blocking Amazon’s acquisition as a lost robotics foothold — counterpoint: others feared Ring-style surveillance and marketplace self-preferencing.
-- Longtime owners said Roborock and peers surpassed Roomba on capability and price; commenters blamed iRobot’s slow iteration amid Shenzhen’s hardware ecosystem.
+- Privacy concerns center on connected cameras and maps, but the number of historically sold devices still active is unknown.
+- Some blame blocking Amazon’s acquisition; others say Amazon ownership would introduce different surveillance and market-power risks.
+- Users attribute iRobot’s decline to slow iteration, higher prices, cloud dependence, and competition from Chinese manufacturers.
 
 ### LLM perspective
 
-- View: Bankruptcy exposes how an early category leader can lose both product advantage and strategic options.
-- Impact: Customers, employees, and Boston’s robotics cluster inherit uncertainty around cloud services, jobs, parts, and privacy.
-- Watch next: Restructuring approval, data governance, app continuity, repair support, staff retention, and PICEA’s product roadmap.
+- View: The bankruptcy combines product stagnation with supply-chain dependence; nationality alone does not establish surveillance behavior.
+- Impact: Shareholders are wiped out, while customers face uncertainty over cloud continuity, support, parts, and data governance.
+- Watch next: Bankruptcy approval, privacy-policy changes, server ownership, offline functionality, warranty treatment, and replacement-parts commitments.

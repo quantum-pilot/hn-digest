@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Actor, director, producer, and activist Rob Reiner, 78, and his wife Michele, 70, were found dead in their Brentwood home; their son Nick was arrested on suspicion of murder and held without bail. Reiner moved from an Emmy-winning role on All in the Family to directing more than 20 films across comedy, romance, fantasy, horror, and drama, while co-founding Castle Rock and helping preserve Seinfeld. HN mourned an unusually broad, culturally durable filmography and debated how breaking-news outlets should handle anonymous sourcing and early uncertainty.
+Actor and director Rob Reiner and his wife, Michele, were found dead at their Brentwood home; authorities described knife-related injuries, and their son Nick was arrested on suspicion of murdering them. Reiner, 78, moved from playing “Meathead” on All in the Family to directing an unusually varied run including This Is Spinal Tap, Stand by Me, The Princess Bride, When Harry Met Sally, Misery, and A Few Good Men. He also co-founded Castle Rock Entertainment and helped preserve Seinfeld during its uncertain launch.
 
 ### Comment pulse
 
-- Viewers compared Reiner’s range to a low-profile Spielberg, citing repeatable family favorites, quotable classics, and strong work before and behind cameras.
-- Reports about Nick prompted grief and addiction discussion — counterpoint: commenters warned that early claims lacked confirmation from several major outlets.
-- Journalism debate pitted speed and source protection against distrust of anonymous reporting; layoffs, low pay, corporate control, and free expectations complicated blame.
+- Readers emphasize the breadth and cultural durability of Reiner’s films across comedy, romance, fantasy, horror, and drama.
+- Discussion cautions that early reporting and anonymous sourcing can change, while audiences demand both speed and complete verification.
+- The Princess Bride remains a shared family and community text, repeatedly watched, quoted, read aloud, and re-created.
 
 ### LLM perspective
 
-- View: His legacy joins humane popular filmmaking, collaborative craft, television history, and public advocacy.
-- Impact: Audiences lose a rare genre-spanning filmmaker whose work became shared family and pop-cultural language.
-- Watch next: Verified investigative findings, legal proceedings, family statements, archival interviews, and renewed attention to his independent-production model.
+- View: Reiner’s legacy is range without anonymity: distinct genres still carried warmth, toughness, and audience trust.
+- Impact: His death closes a career spanning landmark television, independent production, acting, and several multigenerational films.
+- Watch next: Confirmed investigative findings, legal proceedings, retrospectives, and preservation of Castle Rock’s production history.

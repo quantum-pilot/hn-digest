@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Let’s Encrypt is rolling out a cross-signed Generation Y hierarchy comprising two new roots and six intermediates. The default classic profile switches May 13, 2026; the new intermediates omit TLS client-authentication usage, while a temporary tlsclient profile remains on Generation X through May. The tlsserver and shortlived profiles begin moving this week, bringing short-lived certificates and IP-address support to general availability. Driven by CA/Browser Forum requirements, optional 45-day certificates arrive in 2026, defaults fall from 90 to 64 days in 2027 and 45 in 2028; most users need do nothing.
+Let’s Encrypt will introduce cross-signed Generation Y roots and intermediates, end TLS client-authentication support in its default hierarchy, and gradually shorten certificate lifetimes. The classic profile switches hierarchies on May 13, 2026; a temporary tlsclient profile remains available until then. Short-lived and IP-address certificates become generally available through opt-in profiles. Early adopters can test 45-day certificates in 2026, defaults fall to 64 days in 2027 and 45 in 2028, following CA/Browser Forum requirements rather than a unilateral Let’s Encrypt decision.
 
 ### Comment pulse
 
-- Critics feared monthly renewal burdens would retire legacy sites — counterpoint: automation advocates said ACME can reduce labor and multiple free providers enable redundancy.
-- Commenters stressed the lifetime mandate came from browser and CA/Browser Forum policy, not a unilateral Let’s Encrypt decision.
-- Short lifetimes aim to reduce dependence on broken revocation; skeptics raised Certificate Transparency storage growth and broader policy-ratcheting concerns.
+- Short lifetimes push ACME automation and reduce reliance on broken revocation — legacy sites may instead fail or disappear.
+- Critics fear operational and transparency-log load; others note multiple free ACME providers reduce Let’s Encrypt concentration.
+- The staged timeline provides years for testing, making manual annual renewal the immediate process to replace.
 
 ### LLM perspective
 
-- View: The hierarchy migration is routine compatibility work; lifetime compression is the operationally consequential change.
-- Impact: Manual certificate workflows become untenable, pushing operators toward ACME, managed hosting, monitoring, and CA failover.
-- Watch next: Generation Y compatibility, client-auth migration, 45-day testing, automation failures, CT-log capacity, and legacy-site attrition.
+- View: Automation becomes part of certificate correctness, not an optional convenience, once renewal windows halve.
+- Impact: Legacy operators face migration work while managed platforms and ACME-native servers absorb most changes automatically.
+- Watch next: Generation Y compatibility, client-auth migrations, renewal monitoring, CA failover, CAA settings, and CT capacity.

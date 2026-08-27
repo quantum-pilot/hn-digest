@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A Hong Kong court convicted pro-democracy publisher Jimmy Lai of colluding with foreign forces under the national security law and publishing seditious material under a colonial-era law. The court found that Lai used Apple Daily and foreign contacts to lobby for sanctions; Lai denied every charge and said he sought vocal support, not intervention. The 78-year-old British citizen has been jailed since December 2020 and could receive life imprisonment. Hong Kong and Beijing defended the verdict, while Britain and rights groups called the prosecution politically motivated.
+Hong Kong media founder and pro-democracy activist Jimmy Lai was convicted of colluding with foreign forces and publishing seditious material, after being jailed since December 2020. Judges found that Apple Daily and his foreign contacts supported sanctions against China; Lai denied seeking foreign-policy intervention and faces up to life imprisonment. Hong Kong and Beijing call the national-security law necessary for stability, while Britain and rights groups describe the prosecution as political repression. His sentencing is expected early next year, and an appeal remains uncertain.
 
 ### Comment pulse
 
-- Debate centered on Western credibility — counterpoint: critics argued hypocrisy does not negate a valid condemnation of repression.
-- Readers saw the case as evidence of democratic decline, while disagreeing whether earlier Western democracy was substantive or largely performative.
-- Some predicted Hong Kong’s treatment would strengthen Taiwanese resistance to political integration with China.
+- Critics see the verdict as evidence that Hong Kong’s national-security system has extinguished dissent and judicial independence.
+- Discussion disputes Western moral authority — counterpoint: hypocrisy does not determine whether this prosecution itself is unjust.
+- Some argue Hong Kong’s treatment will harden Taiwanese opposition to political integration with China.
 
 ### LLM perspective
 
-- View: The opposing accounts differ fundamentally on whether Lai’s advocacy constituted foreign collusion or protected political expression.
-- Impact: The verdict further narrows Hong Kong’s media and opposition space while raising diplomatic pressure over Lai’s imprisonment.
-- Watch next: Sentence, appeal decision, health and confinement conditions, UK or US action, and further national-security prosecutions.
+- View: The case turns journalism, lobbying, and foreign contact into a test of national-security law’s political boundaries.
+- Impact: The conviction further narrows space for opposition media and raises diplomatic pressure around Lai’s health and citizenship.
+- Watch next: Sentence length, appeal grounds, detention conditions, UK action, and treatment of remaining independent publishers.

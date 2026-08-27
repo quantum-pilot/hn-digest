@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Security testing of Freedom Chat found that its default channel returned plaintext six-digit account PINs for all 1,519 members, while an unthrottled contact-discovery API accepted 40,000 numbers per request. In roughly 27 hours, the researcher enumerated registered North American phone numbers, linked their user IDs to exposed PINs, and defeated the login safeguard for users who remained in that channel. Messages appeared properly encrypted through Seald. The company said PINs cannot restore message history, reported patches after disclosure, and promised additional audits.
+A researcher found Freedom Chat returning every default-channel member’s plaintext six-digit PIN in a 1,519-entry API response. Its contact-discovery endpoint also accepted batches of 40,000 phone numbers without effective rate limiting, returning registered numbers and user IDs. Over 27 hours, the researcher enumerated North American numbers and joined those IDs to channel records, linking users’ phone numbers and PINs. Freedom Chat said PINs permit account login but not restoration of past messages, and reported patching both issues before publication.
 
 ### Comment pulse
 
-- Commenters blamed default serialization or raw dictionaries for leaking fields; they also noted that storing PINs unhashed compounded the mistake.
-- Signal’s protected discovery drew praise — counterpoint: several argued truly private messengers should avoid mandatory phone-number identities altogether.
-- Engineers called missing rate limits elementary, while others warned distributed querying can evade simple throttles and secure development fails at many small edges.
+- Overbroad object serialization likely exposed sensitive fields → APIs should explicitly allowlist response properties and hash authentication secrets.
+- Phone-number discovery is a recurring messaging vulnerability; rate limits help but distributed enumeration can still bypass simplistic controls.
+- Some praise privacy-preserving lookup designs, while others argue secure messaging should avoid phone-number identity entirely.
 
 ### LLM perspective
 
-- View: Encryption did not fail; surrounding identity, serialization, and abuse-control design nullified an otherwise encrypted messaging path.
-- Impact: Exposed users faced account takeover risk, while the relaunch inherited its predecessor’s credibility problem.
-- Watch next: Patch verification, forced PIN resets, hashed credential storage, enumeration defenses, independent audits, and limits on channel-member data.
+- View: Encryption did not compensate for ordinary authorization, serialization, secret-storage, and abuse-control failures around it.
+- Impact: Users faced account takeover and identity exposure even if historical message contents remained encrypted.
+- Watch next: Independent retesting, PIN resets, breach notifications, endpoint limits, audit results, and removal of plaintext secrets.

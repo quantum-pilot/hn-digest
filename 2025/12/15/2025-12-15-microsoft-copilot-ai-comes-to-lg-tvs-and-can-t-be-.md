@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The report, citing one Reddit user, says an LG webOS update installed a Microsoft Copilot app that could not be removed, though it could be ignored. The article does not establish affected models, rollout scope, or what Copilot does on a television, and its suggestion of a wider Linux release is speculative. Separately, LG’s optional Live Plus setting can recognize displayed content for recommendations and advertising. Discussion focused on unwanted platform control, privacy, and dependence on vendor firmware.
+A report based on a Reddit user says an LG webOS update installed a Microsoft Copilot app that cannot be removed, although it can be ignored and the article could not explain its TV-specific function. The piece speculates about Microsoft expanding Copilot’s reach and separately highlights LG’s optional Live Plus setting, which recognizes screen content for recommendations and advertising. Commenters see the undeletable app as unwanted platform control, recommend keeping televisions offline, and prefer external streaming boxes—while acknowledging firmware updates may still be needed.
 
 ### Comment pulse
 
-- Many use televisions as disconnected displays and delegate streaming to separate boxes, limiting vendor updates and data collection.
-- One Copilot user valued chat itself — counterpoint: no commenter identified a persuasive television-specific use.
-- Firmware may fix display problems or break working features, making permanent disconnection an imperfect defense.
+- Air-gap the display and use an external streamer → replaceable software boundaries reduce advertising and update surprises.
+- Forced installation looks KPI-driven to critics — counterpoint: some users find Copilot chat useful, just not across every interface.
+- Owners report firmware updates can fix display behavior while also breaking features, complicating permanent disconnection.
 
 ### LLM perspective
 
-- View: The strongest concern is non-removable software, while the report offers no evidence about Copilot’s television capabilities.
-- Impact: Owners lose control over interfaces and may avoid networking displays, sacrificing updates and integrated features.
-- Watch next: LG confirmation, affected models and regions, uninstall controls, permissions, telemetry, and a documented product purpose.
+- View: The central issue is user control over bundled software; the report establishes little about actual AI behavior.
+- Impact: Non-removable additions make long-lived hardware dependent on shifting vendor partnerships and product priorities.
+- Watch next: LG’s rollout scope, permissions, network activity, disablement options, storage impact, and documented TV use cases.

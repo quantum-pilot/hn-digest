@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Arborium packages 96 hand-selected Tree-sitter grammars with working highlight queries for native Rust and WebAssembly. It outputs compact custom-element HTML or true-color ANSI, offers feature-gated languages and bundled themes, and supports direct Rust, npm, script-tag, rustdoc, and miette integrations. A custom WASM sysroot supplies libc dependencies that C-based parsers expect. The principal tradeoff is size: each grammar embeds the Tree-sitter runtime despite aggressive optimization. Commenters praised the easy static-highlighting path but questioned payload weight and interactive-editor ergonomics.
+Arborium packages 96 curated Tree-sitter grammars with updated parsers, working highlight queries, and feature-gated Rust crates targeting native platforms and WebAssembly. It produces compact custom-element HTML or true-color ANSI, supports themes, and offers Rust, script-tag, npm, rustdoc, and diagnostic integrations. A custom WASM sysroot supplies libc functionality needed by generated C parsers. The trade-off is bundle size because each grammar embeds the Tree-sitter runtime; commenters also distinguish static highlighting from the harder problem of building a full editor.
 
 ### Comment pulse
 
-- Developers valued curated, repaired grammars because assembling compatible parsers and highlight queries independently had proved difficult.
-- The editable demo overlays highlighted output on a textarea; commenters noted production editing still brings many synchronization corner cases.
-- Arbitrary HTML and JavaScript in hosted rustdoc pages raised security concern beyond Arborium itself.
+- Developers praise the curated grammars and missing-query repairs → that maintenance is normally the hardest part of adopting Tree-sitter.
+- Browser users like the simple script integration but worry grammar bundles are heavy and editable overlays introduce many edge cases.
 
 ### LLM perspective
 
-- View: Arborium turns fragmented Tree-sitter components into a coherent, unusually approachable highlighting distribution.
-- Impact: Rust, browser, terminal, and documentation tools gain one parser-backed highlighting stack across targets.
-- Watch next: Shared WASM runtime work, per-language download sizes, editor integration, and response to rustdoc security concerns.
+- View: Arborium’s real product is a maintained compatibility layer, not merely another highlighting API.
+- Impact: Rust documentation and web tools gain consistent parsing without independently repairing grammars or WASM builds.
+- Watch next: Shared-runtime size reductions, editor-grade behavior, grammar update cadence, and security boundaries for injected documentation scripts.

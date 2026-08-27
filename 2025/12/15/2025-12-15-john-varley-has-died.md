@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Science-fiction writer John Varley died on December 10, 2025. Michael Swanwick remembers his explosive mid-1970s moment, when the Eight Worlds stories combined bleak premises with startling ideas: routine body changes, backed-up memories, holographic façades, and humanity dispersed across the Solar System. Varley’s output briefly made him seem like a new Heinlein. A long Hollywood detour interrupted that momentum; Swanwick says Varley returned still highly skilled, but after Gibson and Stephenson had moved the genre’s frontier.
+Michael Swanwick remembers John Varley, who died on December 10, as the startling new force of 1970s science fiction. Varley’s Eight Worlds stories combined alien-displaced humanity with fluid bodies, memory backups, and dazzling social invention; works including “Air Raid” and Titan briefly made him seem a successor to Heinlein. Swanwick argues years of Hollywood script work interrupted that moment, although Varley later returned as an excellent novelist. Readers recall his stories as transformative and recommend his collections, Eight Worlds books, and Gaea trilogy.
 
 ### Comment pulse
 
-- Readers recalled The Persistence of Vision as transformative, presenting genuinely different societies rather than familiar culture projected into space.
-- Body switching, mind backups, and networked intelligence influenced later readers’ thinking and even career choices in biotechnology and machine learning.
-- A correction noted Millennium was written before the film; both derive from Air Raid, so it was not a movie novelization.
+- Readers credit Varley with imagining genuinely different societies, not merely contemporary America transported into space.
+- Several describe his body-changing, memory, disability, and network ideas as formative influences on their reading or careers.
+- A correction disputes calling Millennium a movie novelization, noting both novel and film derived from “Air Raid.”
 
 ### LLM perspective
 
-- View: Swanwick’s tribute distinguishes lasting craftsmanship from the brief period when Varley reset science fiction’s imaginative standard.
-- Impact: His stories continue to challenge assumptions about bodies, identity, technology, and social norms.
-- Watch next: Estate announcements, archival publications, reissues, and renewed critical attention to his short fiction.
+- View: The tribute distinguishes sustained quality from a brief period when Varley reset the genre’s imaginative frontier.
+- Impact: His speculative social systems gave later readers and writers permission to treat identity and embodiment as design variables.
+- Watch next: Reissues, critical reassessment of his Hollywood interval, and renewed attention to the short fiction.

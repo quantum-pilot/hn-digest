@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Andrew Atkinson argues that random UUIDv4 primary keys are a poor default for monolithic PostgreSQL OLTP applications. Their 16-byte, unordered values make B-tree indexes larger, scatter writes, increase page splits and WAL, and pressure the buffer cache. His 10-million-row experiment found 97.64% average leaf fill for integers, 79.06% for UUIDv4, and 90.09% for UUIDv7. He recommends integer or bigint sequences, using separate obfuscated public identifiers when needed, or time-ordered UUIDv7 when decentralized generation or UUID compatibility matters.
+For monolithic PostgreSQL applications, random UUIDv4 primary keys scatter B-tree writes, trigger more page splits, enlarge indexes, reduce page density, and pressure the buffer cache. The author’s tests found integer leaf pages about 98% full versus 79% for UUIDv4, and dramatically more buffer accesses during a large update workload. Sequences or big integers are recommended; UUIDv7 is the compromise when distributed generation matters. Commenters stress this is workload-specific: distributed databases and sharded systems may benefit from random keys and their collision resistance.
 
 ### Comment pulse
 
-- Critics called this premature optimization — counterpoint: the author’s million-update test estimated seconds of additional memory-access latency.
-- Distributed databases may prefer random keys to avoid hot shards, so the recommendation depends on storage architecture and workload.
-- UUIDv7 improves PostgreSQL locality while retaining decentralized generation, but its timestamp component can disclose creation time.
+- PostgreSQL locality favors ordered keys → smaller indexes and append-like inserts reduce memory and write amplification.
+- Distributed systems may favor entropy → random keyspaces avoid hot shards and simplify independent identifier generation.
+- UUIDv7 balances locality and decentralization — counterpoint: embedded time can expose creation order.
 
 ### LLM perspective
 
-- View: The article makes a strong PostgreSQL-specific case, not a universal verdict on identifier design.
-- Impact: Choosing keys early affects index footprint, write amplification, cache efficiency, privacy, and future distribution.
-- Watch next: Workload-specific benchmarks, PostgreSQL 18 UUIDv7 adoption, migration costs, and sharded-database comparisons.
+- View: Primary-key choice is an access-pattern decision, not a universal contest between integers and UUIDs.
+- Impact: Teams can trade local PostgreSQL efficiency against sharding flexibility, privacy, and client-side generation.
+- Watch next: Benchmark production-shaped workloads, index residency, WAL volume, shard distribution, and UUIDv7 leakage requirements.

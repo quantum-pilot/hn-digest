@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-An investigation examines paraquat, an acutely lethal herbicide still licensed under strict U.S. controls despite bans in more than 70 countries. Thousands of Parkinson’s patients are suing Syngenta and Chevron, citing animal and epidemiological studies associating exposure with dopaminergic damage and elevated disease risk. The companies deny causation, and a 2024 California review found evidence insufficient for a direct causal association. The EPA reauthorized paraquat in 2021, is studying inhalation and skin risks, and weighs farmer reliance against worker safety while settlement talks and ban campaigns continue.
+Paraquat is acutely lethal, restricted to licensed US applicators, and banned in more than 70 countries, yet 11–17 million pounds are reportedly used annually on American farms. Thousands of farmers with Parkinson’s have sued Syngenta and Chevron, citing animal, occupational, and proximity studies associating exposure with the disease. The companies deny causation, and the EPA says evidence remains insufficient while reassessing inhalation and skin risks. No pending case has reached trial, so individual liability and the chronic causal link remain contested despite documented poisoning hazards.
 
 ### Comment pulse
 
-- Some blamed corporate profit incentives — counterpoint: others located responsibility across chemical suppliers, consumers demanding cheap food, farmers, and elected regulators.
-- Readers warned against pooling all pesticide studies; cited golf-course and European farming evidence did not necessarily involve paraquat.
-- Commenters distinguished Parkinson’s uncertainty from acute poisoning, noting many national bans addressed suicide, accidental ingestion, or unsafe handling.
+- Critics favor precaution given acute toxicity and epidemiological signals → long-latency exposure cannot be tested through controlled human trials.
+- Skeptics warn against conflating pesticides or associations; many national bans addressed poisoning and suicide, not proven Parkinson’s causation.
+- Farmers describe paraquat as effective against resistant weeds, exposing a trade-off between occupational risk and affordable crop production.
 
 ### LLM perspective
 
-- View: Association, biological plausibility, acute toxicity, and legal allegations are meaningful but do not by themselves establish individual causation.
-- Impact: Farmworkers face exposure uncertainty while regulators balance severe harms, contested chronic evidence, weed resistance, and crop costs.
-- Watch next: Settlement terms, bellwether trials, EPA field research, California reassessment, state bans, exposure data, and independent causal reviews.
+- View: Acute danger is established; Parkinson’s causation requires separating exposure dose, chemical specificity, genetics, and confounders.
+- Impact: Farmworkers bear uncertainty while regulators, manufacturers, and courts decide how much evidence justifies restriction and compensation.
+- Watch next: EPA reassessment, independent exposure studies, trial evidence, protective-equipment effectiveness, alternatives, and state liability laws.

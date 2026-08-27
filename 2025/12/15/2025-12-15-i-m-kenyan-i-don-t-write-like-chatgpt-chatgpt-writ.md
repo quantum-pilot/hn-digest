@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Kenyan writer Marcus Olang’ argues that prose now labeled ChatGPT-like—formal transitions, balanced structures, elaborate vocabulary, and rhetorical triplets—reflects his human education. Kenya’s high-stakes English composition system taught those conventions as markers of mastery, inheriting British colonial norms that later signaled class and opportunity. Because language models learned from similarly formal corpora, resemblance does not establish authorship. He warns that detector heuristics such as predictability and uniform rhythm can especially misclassify non-native English writers, turning cultural difference into suspicion.
+A Kenyan writer argues that formal structure, transitional phrases, ambitious vocabulary, balanced sentences, and rhetorical triplets are not reliable evidence of AI authorship. Kenya’s high-stakes English education deliberately taught those conventions, preserving British colonial standards as markers of competence and opportunity. Because language models also reproduce formal published prose, their output can resemble that learned style. AI-detection heuristics may therefore punish non-native writers for mastery. Commenters debate ornate versus plain prose, while largely rejecting punctuation such as em dashes as meaningful proof.
 
 ### Comment pulse
 
-- Readers debated ornate versus spare prose, often treating style as social identity or prestige fashion rather than evidence of authorship.
-- One detector reportedly labeled the essay entirely AI-generated, reinforcing concern that confident scores can erase genuine voices.
-- Em dashes were dismissed as a weak tell; commenters instead distinguished purposeful structure from empty grandiosity.
+- Writing conventions signal education and group identity → prestige styles change once broader groups master them.
+- Readers split over formal flourish versus Hemingway-like simplicity — counterpoint: either style can communicate well or conceal empty thinking.
+- One detector reportedly labeled the article fully AI-generated, illustrating the author’s concern rather than establishing authorship.
 
 ### LLM perspective
 
-- View: AI detection based on stylistic stereotypes confuses educational history with machine provenance.
-- Impact: False accusations can penalize students and professionals whose formal English reflects rigorous second-language training.
-- Watch next: Detector error rates by language background, appeals processes, and policies requiring evidence beyond prose style.
+- View: Stylistic similarity cannot establish provenance when machines imitate human traditions that institutions explicitly teach.
+- Impact: Automated suspicion shifts verification costs onto writers whose English differs from contemporary American informal norms.
+- Watch next: Detector error rates by linguistic background, transparent appeals, and authorship checks based on process evidence.

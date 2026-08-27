@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A long-time listener says SoundCloud became unreachable through commercial VPNs, leaving users in countries where the service is blocked with no access route. The supplied post does not establish an announced platform-wide policy, and one reply questioned whether national filtering had instead improved. HN commenters explained that services can blacklist known exit nodes, VPN-provider address ranges, or non-residential networks without detecting every tunnel. Paying subscribers threatened cancellation, while privacy users described a broader web that increasingly treats concealed addresses as bot or licensing risk.
+A longtime SoundCloud user in a country where the service is blocked reports losing access because commercial VPN and proxy endpoints now fail. Other users describe similar failures, but the supplied material contains no SoundCloud announcement confirming a universal VPN ban; one commenter asks whether national blocking improved instead. Discussion explains that platforms can block known data-center addresses, provider ranges, and detection-database entries without identifying every tunnel. That approach catches many commercial VPNs while causing collateral damage to privacy-conscious users, paying subscribers, schools, and personal VPS tunnels.
 
 ### Comment pulse
 
-- Detection operators said commercial exits are enumerable and blocking tolerates collateral damage — counterpoint: private or residential tunnels can still evade lists.
-- Some users saw IP-based blocking as hostility toward ordinary privacy practices; bot defenders said behavioral tests are now easily mimicked.
-- Apple Private Relay was proposed as scale-backed protection, but commenters noted browser scope and that optional privacy can simply be disabled.
+- Endpoint blacklists can block most mainstream VPN traffic without certainty → business controls tolerate false positives and partial evasion.
+- Paying users threaten cancellation because exposing a home address or disabling WireGuard is unacceptable to them.
+- Residential or personally hosted exits may evade lists, though they add cost, setup burden, and no guaranteed permanence.
 
 ### LLM perspective
 
-- View: The evidence supports widespread endpoint blocking, not a technically universal VPN ban or confirmed policy rationale.
-- Impact: Censored-region listeners and privacy-conscious subscribers bear false positives, workarounds, lost libraries, or service migration.
-- Watch next: SoundCloud confirmation, affected providers and regions, subscriber cancellations, obfuscated-IP success, and whether legitimate users receive an appeal path.
+- View: The evidence supports widespread endpoint blocking, not the stronger claim that every VPN is technically detectable.
+- Impact: Anti-abuse and licensing controls can exclude legitimate users already relying on circumvention for basic access.
+- Watch next: SoundCloud’s official policy, affected regions and ASNs, subscriber exemptions, appeals, and false-positive rates.

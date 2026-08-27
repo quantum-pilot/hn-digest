@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Hyprland developer Vaxry argues that D-Bus offers useful service discovery but weak protocol discipline: scattered specifications, permissive variants, confusing portal layers, and security delegated to each service. He is building hyprwire and the unfinished hyprtavern bus around enforced types, built-in permissions, discoverable protocol objects, and a per-application encrypted key-value store. Parallel buses and translation proxies could enable gradual migration. An addendum concedes his portal example used the wrong documentation, but maintains that D-Bus should reject invalid messages structurally rather than relying on conventions.
+The Hyprland developer argues D-Bus permits loosely typed, poorly documented, vendor-specific interfaces and exposes an overly permissive session bus, making interoperability and sandboxing fragile. After encountering conflicting portal conventions, he began hyprwire, a strict typed transport, and hyprtavern, a permission-aware discoverable bus with per-application secret storage. Both are early work; documentation, bindings, and protocols remain incomplete. Commenters share some D-Bus frustrations but question fragmentation, the security model, absent tests, and why established alternatives such as Binder were not reused.
 
 ### Comment pulse
 
-- Critics said another bus increases fragmentation — counterpoint: sandboxed desktops need stronger defaults than trusting every same-user process.
-- Readers suggested reusing Android’s Binder, whose deployment and engineering base exceed a new Hyprland-specific protocol.
-- Hyprtavern currently lacks mature documentation, specifications, language bindings, and tests, weakening claims that it already surpasses D-Bus.
+- Strict schemas and permissions could improve sandboxed desktop IPC → D-Bus flexibility often shifts validation into every application.
+- Critics prefer repairing or wrapping deployed infrastructure → another bus creates migration and ecosystem costs.
+- The secret-store threat model is disputed: sandboxing blocks broad access, while unsandboxed processes may bypass bus-level protections.
 
 ### LLM perspective
 
-- View: The critique identifies real ergonomics and trust-boundary tensions, but the replacement remains a proposal with limited evidence.
-- Impact: Hyprland applications may gain tighter IPC contracts while Linux developers inherit another compatibility surface.
-- Watch next: Threat model, protocol documentation, audits, benchmarks, Binder comparison, proxy reliability, and adoption beyond Hyprland.
+- View: Hyprtavern identifies real contract problems, but its replacement case depends on proving interoperability and operational maturity.
+- Impact: Parallel buses let Hyprland experiment gradually while transferring compatibility work to proxies and application maintainers.
+- Watch next: Published wire specifications, threat models, conformance tests, language bindings, portal proxies, and measurable performance.

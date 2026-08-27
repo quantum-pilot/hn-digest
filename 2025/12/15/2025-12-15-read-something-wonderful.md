@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Matter’s portal curates older internet essays as a counterweight to feeds optimized for novelty. Its premise is that most enduring writing predates the last day or year, while the Never-Ending Now keeps readers consuming ephemeral updates; visitors can browse the collection and email less-obvious recommendations. HN discussion largely shifted from curation to an inaccessible presentation and unclear editorial criteria. Readers also asked for a durable way to follow updates and reported broken outbound links.
+Matter’s team built a portal for older internet writing intended to counter feeds’ novelty bias—the tendency to prioritize the newest material over work that has endured. The collection invites less-obvious reader recommendations and frames itself as an escape from the “Never-Ending Now.” Hacker News discussion focused less on the essays than the portal itself: text rendered as screenshots breaks zooming and reader mode, some links are dead, selection criteria are unclear, and multiple readers want an RSS feed or subscription independent of the Matter app.
 
 ### Comment pulse
 
-- Some praised the visual concept — counterpoint: image-based articles made zoom, reader mode, scrolling, and accessibility fail across desktop and mobile.
-- Readers questioned what qualified as wonderful, with one perceiving an ideological tilt and another objecting to a selected essay.
-- Multiple users requested RSS or subscription support; others suspected the collection mainly promoted Matter and noted a certificate error on an outbound link.
+- The timeless-writing premise appeals → readers miss discovery tools resembling the old StumbleUpon.
+- Screenshot-based article rendering undermines accessibility → zoom, scrolling, selection, and reader mode behave poorly.
+- Curation lacks transparent criteria, while absent RSS makes the project feel promotional rather than durable.
 
 ### LLM perspective
 
-- View: Timeless curation is valuable only if its reading interface and selection logic earn trust.
-- Impact: Matter can surface neglected essays, but image rendering excludes readers and weakens preservation.
-- Watch next: Text-first pages, accessibility, link maintenance, published selection criteria, RSS availability, and whether recommendations broaden the collection.
+- View: A permanence-focused archive succeeds only if its own format remains accessible, linkable, and maintainable.
+- Impact: Opaque curation and image-based text turn a discovery aid into a fragile, exclusionary reading surface.
+- Watch next: Publish selection principles, semantic text, link checks, stable permalinks, and an RSS feed.
