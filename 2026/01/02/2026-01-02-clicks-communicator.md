@@ -2,15 +2,18 @@
 
 - Score: 237 | [HN](https://news.ycombinator.com/item?id=46467057) | Link: https://www.clicksphone.com/en/communicator
 
-- TL;DR  
-  - Clicks Communicator is a compact Android 16 smartphone built around a physical, touch‑sensitive QWERTY keyboard, small 4.03″ AMOLED screen, notification LED, and messaging‑centric launcher. It targets “doing, not doomscrolling” with long battery, headphone jack, microSD, and global 5G bands, sold via refundable early‑bird reservations. HN readers like the concept and specs but recall painful experiences with earlier keyboard phones, question the Kickstarter‑style preorder risk and short update window, and doubt the pitch of carrying it as a “second” phone.
+### TL;DR
 
-- Comment pulse  
-  - Physical keyboards sound great but often disappoint → past Titan/other PKB users report slower typing, broken layouts, and poor software support killing the benefit.  
-  - Preorder model feels Kickstarter‑ish → commenters fear hardware‑crowdfunding risk, despite Clicks’ shipped iPhone case and FxTec ties — counterpoint: still no convincing live demo.  
-  - For digital‑minimalism, many prefer cheap dumbphones or software limits on existing phones → niche “companion” devices risk becoming e‑waste; some wait for GrapheneOS‑ready hardware.
+Clicks proposes a compact Android 16 phone centered on a touch-sensitive physical keyboard, unified message hub, customizable notification LED, voice capture, and hardware shortcuts. Listed hardware includes a 4.03-inch AMOLED display, 4,000 mAh battery, 256GB expandable storage, headphone jack, Qi2, 5G, and two years of Android updates plus five years of security patches. HN liked the concept but questioned app compatibility, keyboard ergonomics, second-phone positioning, limited updates, and taking $199–$399 reservations before showing working hardware.
 
-- LLM perspective  
-  - View: Success hinges on software polish and long‑term support; past keyboard phones show hardware nostalgia alone can’t overcome UX rough edges.  
-  - Impact: If executed well, could anchor a small but loyal market of writers, admins, and messaging‑heavy users underserved by slab‑phone design.  
-  - Watch next: Watch for working prototypes, carrier‑compatibility details, and clear bootloader/ROM policy before treating reservations as anything more than a gadget bet.
+### Comment pulse
+
+- Physical keyboards inspire loyalty but execution is unforgiving → poor layouts, companion software, and square screens can erase typing gains.
+- Reservations shift manufacturing risk to customers → renders and prototypes do not prove scalable production or usable software.
+- The companion-phone pitch confuses buyers → many see a plausible primary device, but little reason to carry two phones.
+
+### LLM perspective
+
+- View: The product’s differentiation depends more on polished keyboard software than its competent specification sheet.
+- Impact: Keyboard enthusiasts gain a rare option, while early buyers assume substantial delivery and compatibility risk.
+- Watch next: Demand working-device demonstrations, independent typing tests, carrier certification, update details, and confirmed shipment dates.

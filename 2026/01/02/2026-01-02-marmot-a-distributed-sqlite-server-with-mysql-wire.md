@@ -3,16 +3,17 @@
 - Score: 172 | [HN](https://news.ycombinator.com/item?id=46460676) | Link: https://github.com/maxpert/marmot
 
 ### TL;DR
-Marmot v2 turns SQLite into a leaderless, distributed database that speaks the MySQL wire protocol. Any node can accept writes; data replicates via CDC and a gossip-based 2PC system with tunable consistency (ONE/QUORUM/ALL). It fully replicates DDL, supports WordPress unmodified, and can expose the SQLite file for ultra-fast local reads, making it attractive for edge, Lambda sidecars, and read-heavy apps. Limits: full replication only (no sharding yet), eventual consistency, and better suited to <~100GB datasets.
 
-*Content unavailable; summarizing from provided README and comments.*
+Marmot v2 turns SQLite into a leaderless, fully replicated database that accepts writes on any node through a MySQL-compatible interface. It combines gossip membership, two-phase commit with ONE/QUORUM/ALL settings, last-write-wins conflict resolution, CDC-based row replication, distributed DDL, and local vector indexes. WordPress runs unchanged against local nodes, while direct SQLite reads remain possible. The project targets read-heavy edge workloads, not strong serializability, very large datasets, or single-region throughput; HN users praised its practicality but questioned scaling writes.
 
 ### Comment pulse
-- Real user: Marmot reliably synced a large “wayback machine” SQLite workload across HA nodes, requiring no frontend changes once configured.
-- Author: chose MySQL protocol over REST/page-capture to get ACID+DDL replication and instant compatibility with WordPress and existing MySQL tooling.
-- Positioning vs Postgres/MySQL: SQLite + Marmot gives very lightweight, edge-friendly reads and simple deployment—counterpoint: many teams already get enough from Postgres or MySQL active-active.
+
+- Real deployments value compatibility → one user replicated an archival SQLite database across HA servers without changing the frontend.
+- MySQL wire support broadens adoption → the author reports WordPress compatibility and local reads while routing writes through Marmot.
+- Full replication limits write scaling → selective database replicas and transparent write proxying are roadmap items, with sharding still unresolved.
 
 ### LLM perspective
-- View: Marmot targets the “distributed SQLite + MySQL ecosystem” niche rather than competing head‑on with full SQL engines.
-- Impact: Edge/WordPress hosting, serverless platforms, and small SaaS stacks could simplify multi-region databases without heavy infra.
-- Watch next: sharding/partial replication, stronger guarantees around non-deterministic functions, and real-world benchmarks vs MySQL group replication/Cockroach.
+
+- View: Marmot’s strongest proposition is operational portability, not replacing strongly consistent distributed databases.
+- Impact: Edge and WordPress operators gain local reads and familiar clients while accepting eventual-consistency tradeoffs.
+- Watch next: Test partitions, concurrent conflicts, DDL recovery, cross-region latency, selective replication, and sustained production workloads.

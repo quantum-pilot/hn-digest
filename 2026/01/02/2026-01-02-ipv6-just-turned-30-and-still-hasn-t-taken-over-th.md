@@ -2,26 +2,18 @@
 
 - Score: 223 | [HN](https://news.ycombinator.com/item?id=46465327) | Link: https://www.theregister.com/2025/12/31/ipv6_at_30/
 
-## TL;DR
+### TL;DR
 
-IPv6 was created 30 years ago to prevent IPv4 address exhaustion by expanding addresses from 32 to 128 bits, but its rollout stalled. NAT, bolted‑on IPv4 features, legacy hardware, training costs, and lack of backward compatibility removed most short‑term incentives to migrate. Yet IPv6 quietly underpins mobile, broadband, cloud, and large IoT networks, and in some regions carries most traffic. The future looks like a long dual‑stack era, with IPv6 adoption driven mainly by IPv4 scarcity and pricing rather than technical superiority.
+Thirty years after RFC 1883, IPv6 supplies effectively inexhaustible addresses but remains below half of global user adoption. Its incompatibility with IPv4, migration cost, limited new functionality, and NAT’s extension of IPv4 made perpetual dual-stack operation cheaper than replacement. Supporters say IPv6 still absorbed growth in mobile, broadband, and cloud networks; critics argue DNS, QUIC, and NAT reduced globally unique addressing’s importance. HN debated weak education, uneven regional deployment, and whether incomplete adoption constitutes failure.
 
----
+### Comment pulse
 
-## Comment pulse
+- Skills scarcity prolongs migration → curricula and operators often treat IPv6 as optional, while France demonstrates that policy and default deployment can normalize it.
+- Dual-stack is the failure mode → partial adoption never removes IPv4, preserving complexity indefinitely — counterpoint: extending IPv4 addresses faced similar hardware replacement.
+- Deployment is substantial but invisible → some networks report dominant IPv6 traffic, while hotels, ISPs, and enterprise environments remain IPv4-only.
 
-- Education and culture → Many CS/networking programs barely cover IPv6; older engineers prefer familiar IPv4/NAT tricks—counterpoint: countries like France show painless deployment is possible at scale.  
+### LLM perspective
 
-- “IPv6 failed” vs design reality → Critics say 30 years without near‑universal use proves failure; others argue any IPv4+ extension would hit the same hardware and rollout barriers.  
-
-- Patchy adoption and economics → Some enterprises see 75%+ IPv6 traffic, but hotels/VoIP/US ISPs often lack it; rising IPv4 address markets may eventually push laggards toward IPv6.
-
----
-
-## LLM perspective
-
-- View: IPv6 isn’t a flop, it’s an incomplete transition burdened by no‑compromise design and weak near‑term incentives.  
-
-- Impact: Operators with strong IPv6 skills and tooling gain cost and scalability advantages as IPv4 addresses become financial assets.  
-
-- Watch next: Cloud and ISP pricing for IPv4 vs IPv6, government mandates, and better IPv6 defaults in consumer routers will decide how far deployment goes.
+- View: IPv6 succeeded as capacity relief but failed to create a clean, time-bounded transition.
+- Impact: Operators bear permanent dual-stack costs while public IPv4 addresses become increasingly scarce and financialized.
+- Watch next: Compare mandate-led adoption, cloud IPv4 pricing, IPv6-only deployments, and practical DNS64/NAT64 reliability.

@@ -3,15 +3,17 @@
 - Score: 564 | [HN](https://news.ycombinator.com/item?id=46461563) | Link: https://old.reddit.com/r/confession/comments/1q1mzej/im_a_developer_for_a_major_food_delivery_app_the/
 
 ### TL;DR
-An anonymous Redditor claiming to be a developer at a major food-delivery app alleges dark patterns like “priority” delivery that simply delays non-priority orders to create an illusion of speed and maximizes fees. Hacker News debates whether the story is authentic or Reddit fanfic, scrutinizing the queueing logic, NDA/burner-laptop theatrics, and business incentives. Discussion broadens to how gig platforms, banks, and AI tools normalize exploitative behavior through KPIs and abstraction, and whether blame lies with capitalism’s structure or individual decision-makers.  
-*Content unavailable; summarizing from title/comments.*
+
+An anonymous Reddit poster claiming to be a food-delivery backend engineer alleges that priority fees do not accelerate orders, standard deliveries were deliberately delayed, driver pay reflects a hidden “desperation” score, benefit fees fund anti-union lobbying, and predicted tips reduce base pay. No evidence or company identity accompanies the claims. HN split between seeing familiar incentive-driven exploitation and identifying credibility problems, including conspicuous operational-security mistakes, questionable system mechanics, and the poster’s failure to approach reporters first.
 
 ### Comment pulse
-- Corporate harm is banal → KPIs and sprints abstract engineers from people, so manipulative features and worker-squeezing tools feel like neutral optimization.  
-- Whistleblower story seems fanfic → NDA theatrics, burner laptop, and dubious delayed-order mechanics strain credibility — counterpoint: burned-out leakers sometimes still manage decent operational security.  
-- Platforms squeeze drivers and couriers → large fare–payout gaps and low bargaining power reflect broader market-maker dominance, not just one rogue company.
+
+- The allegations feel institutionally plausible → KPI language can distance engineers from human consequences across delivery, banking, defense, and workplace automation.
+- The account reads like fiction → resignation timing, burner-device theatrics, unsupported internals, and disputed dispatch logic undermine credibility.
+- Market power enables worker extraction → others stressed weak bargaining power, large platform cuts, regulation, unions, and individual accountability.
 
 ### LLM perspective
-- View: Regardless of this post’s veracity, the described tactics match known dark patterns in gig and fintech platforms.  
-- Impact: Publicizing implementation-level tricks pressures regulators, journalists, and workers to demand audits of algorithms, pay formulas, and A/B tests.  
-- Watch next: Look for corroborating leaks, lawsuits, or discovery documents revealing internal experiments on priority fees, delays, and compensation splits.
+
+- View: Plausibility is not verification; serious allegations need documents, reproducible behavior, and protected reporting.
+- Impact: Drivers and customers cannot make informed choices when pricing, prioritization, and compensation algorithms remain opaque.
+- Watch next: Look for corroborating employees, internal records, regulator inquiries, lawsuits, or measurable changes in dispatch outcomes.

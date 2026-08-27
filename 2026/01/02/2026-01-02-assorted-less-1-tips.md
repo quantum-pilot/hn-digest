@@ -2,21 +2,18 @@
 
 - Score: 164 | [HN](https://news.ycombinator.com/item?id=46464120) | Link: https://blog.thechases.com/posts/assorted-less-tips/
 
-## TL;DR
-- A tour of lesser-known `less` features: opening and managing multiple files in one session, precise navigation by line/percentage, powerful search modifiers, and inline filtering.  
-- It highlights bookmarks, bracket matching, toggling options from inside `less` (`-S`, `-R`, `-N`, etc.), running shell commands, and setting defaults via `$LESS`.  
-- HN comments expand with “follow” mode (`+F`), screen-preserving `-X`, auto-exit `-E`, preprocessing control `-L`, literal searches, and syntax-highlighting via `lesspipe`.
+### TL;DR
 
----
+The guide treats `less` as an interactive workspace rather than merely a pipeline terminator. It covers opening and managing multiple files, percentage and line jumps, cross-file searches, regex filtering with `&`, global bookmarks, bracket matching, runtime option toggles, external commands, editor handoff, and saving piped input. HN readers added follow mode with `F`, screen-preserving and quick-exit options, literal searches, preprocessing bypasses, and `lesspipe`, while warning that interrupting follow mode inside pipelines can terminate upstream producers.
 
-## Comment pulse
-- `less +F` as a smarter `tail -f` → can follow, then pause to scroll/search, then resume following—counterpoint: pipelines make stopping follow (`Ctrl-C`) awkward.
-- Option combos matter → `-X` keeps the screen, `-E` exits on short output, `-L` skips slow preprocessors; `Ctrl-R` starts a literal (non-regex) search.
-- Inline tools reduce pipeline complexity → `&` / `&!` interactive log filtering; `lesspipe` adds syntax highlighting and file-type rendering while staying script-safe.
+### Comment pulse
 
----
+- Follow mode can replace many `tail` sessions → pause with an interrupt, inspect history, then resume using `F`.
+- Interactive filtering shines during debugging → operators can discover useful exclusions without restarting expensive pipelines.
+- Defaults materially change usability → screen preservation, short-output exit, colors, numbering, and preprocessing deserve deliberate configuration.
 
-## LLM perspective
-- View: `less` is a full-screen file navigator with lightweight IDE-like features, not just “a better `more`.”
-- Impact: Power-users of logs, manpages, and large codebases gain speed by staying inside a single `less` session.
-- Watch next: Shell distributions could ship curated `$LESS` and `lesspipe` defaults, making these advanced behaviors the out-of-the-box experience.
+### LLM perspective
+
+- View: `less` is most powerful when treated as a stateful terminal viewer with reversible transformations.
+- Impact: Operators can inspect large or live outputs faster while avoiding reruns of costly commands.
+- Watch next: Test pipeline interrupt behavior, distro-specific preprocessors, and portable `$LESS` settings before standardizing workflows.

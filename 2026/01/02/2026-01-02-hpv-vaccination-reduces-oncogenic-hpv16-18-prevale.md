@@ -3,18 +3,16 @@
 - Score: 483 | [HN](https://news.ycombinator.com/item?id=46463315) | Link: https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2025.30.27.2400820
 
 ### TL;DR
-Danish registry data from 8,600+ women vaccinated with the quadrivalent HPV vaccine at 14 and followed at screening age (2017–2024) show HPV16/18—the two main cancer‑causing types—at only 0.2–0.4% in repeated cervical samples, versus historical rates around 16%. Protection appears durable; infections with other high‑risk HPV types remain common (~30%). Researchers conclude cervical screening for vaccinated cohorts can be safely made less intensive. Hacker News discussion focused on vaccinating men, real‑world access barriers, digital public‑health systems, and cost‑effectiveness nuance.
 
----
+A Danish cohort study followed 8,659 women born in 1994 through up to three cervical samples. Among vaccinated women, HPV16/18 prevalence was 0.4% at first screening, versus 6% among unvaccinated women; vaccinated-cohort prevalence fell below 1% by 2021 from 15–17% before vaccination. Roughly one-third still carried other high-risk HPV types, supporting continued but potentially less-intensive screening. HN discussion emphasized vaccinating men, adult access barriers, and Denmark’s effective public-health delivery systems.
 
 ### Comment pulse
-- Vaccinate broadly, including men → HPV is ubiquitous, types 16/18 drive many cervical and throat cancers; vaccine still useful in adults even if previously exposed.  
-- Access is messy in the US → Some pharmacies refuse older men despite FDA approval to 45; workarounds include Planned Parenthood, certain pharmacies, or going abroad.  
-- Denmark shows system-level drivers → High coverage reflects trust, national registries, and routine childhood schedules—counterpoint: similar outcomes exist without Denmark’s specific digital inbox system.
 
----
+- Broaden vaccination → HPV is common and causes cancers in every sex, while older adults report inconsistent pharmacy access and insurance coverage.
+- Digital reminders aid delivery → commenters disputed whether Denmark’s success comes from e-Boks or stronger registries, trust, and routine childhood vaccination.
 
 ### LLM perspective
-- View: These data strongly validate HPV vaccination as long‑term primary prevention, not just a marginal risk reducer.  
-- Impact: Screening policies, insurers, and clinicians should treat HPV vaccination as standard for all genders, not an optional add‑on.  
-- Watch next: Outcomes in 9‑valent–vaccinated cohorts, evidence on type replacement, and revised global screening guidelines aligned to vaccinated populations.
+
+- View: Near-elimination of targeted strains validates vaccination without implying elimination of all cervical-cancer risk.
+- Impact: Screening programs can reduce intensity carefully, while preserving surveillance for non-vaccine high-risk types.
+- Watch next: Track cancer incidence, nine-valent cohorts, screening intervals, and equitable vaccination access across ages and sexes.

@@ -2,26 +2,18 @@
 
 - Score: 295 | [HN](https://news.ycombinator.com/item?id=46468600) | Link: https://indieweb.org/POSSE#
 
-## TL;DR
+### TL;DR
 
-POSSE (Publish on your Own Site, Syndicate Elsewhere) is an IndieWeb pattern: you publish first on a domain you control, then push copies or links to social platforms. This keeps canonical URLs, avoids platform lock‑in, and still meets people where they are. The article details reasons (ownership, searchability, backfeed of replies/likes) and implementation patterns (server- or client-driven cross‑posting, tools, and examples). HN discussion adds that RSS remains a powerful discovery and traffic channel, especially for blogs.
+POSSE—Publish on your Own Site, Syndicate Elsewhere—keeps the canonical copy and URL on a domain you control, then distributes linked copies to social platforms. This preserves ownership, searchability, and publishing independence while still reaching friends where they already gather; backfeed can return external responses. Implementations range from automatic server posting to manual, destination-specific previews, but shifting APIs create maintenance costs. HN participants strongly recommended RSS, citing durable readership, nonprofit accessibility, and protection against platforms closing accounts or suppressing reach.
 
----
+### Comment pulse
 
-## Comment pulse
+- RSS remains valuable distribution → readers, newsletters, and aggregators can surface independent work without requiring social-platform accounts.
+- Organizations gain resilience → canonical single-topic posts improve linking, search, and community access while social copies broaden reach.
+- Silo restrictions reverse content flow → Facebook’s removal of RSS publishing pushed creation inside its platform and weakened the open web.
 
-- RSS is “not dead” → Many sites see RSS/Atom as their largest traffic source; readers value control, consistency, and freedom from engagement/ads. — counterpoint: some suspect crawler hits inflate numbers.  
+### LLM perspective
 
-- Organizations use POSSE for resilience → Publishing on their own site first avoids lock‑in, account requirements, and makes it easier to link a single, focused post when answering questions.  
-
-- Platforms shape the flow → Tools like EchoFeed ease syndication, while moves like Facebook dropping RSS inputs are seen as deliberate attacks on the open web to force in‑platform creation.
-
----
-
-## LLM perspective
-
-- View: Treat your site (+RSS) as origin, and social networks as disposable distribution edges you can rewire over time.  
-
-- Impact: Indie creators, nonprofits, and small projects gain durability, coherent archives, and independence from algorithm or API changes.  
-
-- Watch next: Growth of ActivityPub/Mastodon, health of bridging tools (Bridgy, EchoFeed), and how aggressively big platforms restrict external syndication.
+- View: POSSE treats platforms as replaceable distribution channels rather than repositories of identity and history.
+- Impact: Creators retain durable archives but inherit hosting, syndication, formatting, and API-maintenance work.
+- Watch next: Favor RSS-first tools, rel-canonical support, dependable cross-posting, and portable backfeed across emerging networks.

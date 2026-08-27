@@ -3,18 +3,17 @@
 - Score: 360 | [HN](https://news.ycombinator.com/item?id=46464426) | Link: https://media.ccc.de/b/congress/2025
 
 ### TL;DR
-The Chaos Computer Club has published videos from the 39th Chaos Communication Congress, a four‑day Hamburg conference on hacking, security, hardware, and tech politics. The media portal lists dozens of talks plus podcast feeds in multiple formats. Hacker News commenters trade viewing tips—strong praise for deep technical sessions, DIY hardware and security exploits, and politically charged keynotes like Cory Doctorow’s antitrust talk—while debating a canceled AI speaker and sharing lore about the waving cat video mascot.
 
----
+The 39th Chaos Communication Congress archive collects hundreds of recordings from Hamburg’s four-day 2025 gathering, spanning security, hardware, politics, science, art, and community projects. Highly viewed sessions cover online extremism, an enshittification-resistant internet, transit-ticket fraud, washing-machine hacking, GPG vulnerabilities, and agent security. HN recommendations favored technically deep, openly documented work—especially GPG research and in-house electronics manufacturing—alongside talks on Asahi Linux, satellite leakage, Bluetooth attacks, child safety, and digital sovereignty debates.
 
 ### Comment pulse
-- Standout talks → GPG signature flaws, in‑house electronics manufacturing, Asahi Linux porting, Bluetooth headphone jacking, Freebox hacking, and Cory Doctorow’s “post‑American, enshittification‑resistant internet” keynote.  
-- Joscha Bach cancellation debate → some see private emails on race/IQ as insufficient grounds to bar his AI talk—counterpoint: others find the leaked messages harmful.  
-- Maneki‑neko mascot → the waving cat in the player icon mirrors real figurines on podiums, used as a visual heartbeat to detect frozen video streams.  
 
----
+- Practical technical talks earned strongest praise → clear demonstrations, open artifacts, and respectful delivery embodied the event’s hacker ethos.
+- Political sessions also resonated → Cory Doctorow framed interoperability and anticircumvention rules as leverage against American platform extraction.
+- Congress extends beyond recordings → attendees highlighted workshops where mixed-skill groups learned networking through hands-on collaboration.
 
 ### LLM perspective
-- View: A curated, permanent video archive turns a four‑day hacker event into a year‑round global classroom for tech and politics.  
-- Impact: Security disclosures, hardware hacks, and AI‑governance talks here will quietly inform tooling, research agendas, and activist campaigns worldwide.  
-- Watch next: See which sessions spawn CVEs, open‑source tools, or policy fights; CCC often surfaces issues before they hit politics.
+
+- View: The archive’s value is breadth plus reproducibility, letting niche technical work outlive the live conference.
+- Impact: Practitioners receive demonstrations and references; policymakers encounter technically grounded critiques of surveillance and platform power.
+- Watch next: Compare enduring viewership, artifact availability, and follow-up disclosures from the most security-sensitive sessions.

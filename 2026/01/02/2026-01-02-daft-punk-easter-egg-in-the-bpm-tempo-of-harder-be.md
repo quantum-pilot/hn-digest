@@ -3,18 +3,17 @@
 - Score: 154 | [HN](https://news.ycombinator.com/item?id=46469577) | Link: https://www.madebywindmill.com/tempi/blog/hbfs-bpm/
 
 ### TL;DR
-The author argues Daft Punk’s “Harder, Better, Faster, Stronger” isn’t at a neat 123 BPM, but at 123.45 BPM—likely a nerdy in-joke. Instead of relying on imperfect tempo-detection algorithms, they manually count 446 beats between two clearly visible “bookend” beats in the waveform, then compute tempo with high precision from timing data of CD and YouTube versions, both rounding to 123.45. They then show Daft Punk’s gear of the era could support fractional tempos, suggesting this may be intentional.
 
----
+The author measures Daft Punk’s “Harder, Better, Faster, Stronger” at approximately 123.45 BPM, using 445 beat intervals across about 216.28 seconds in CD and YouTube copies. That precision suggests a possible numerical Easter egg, and period-appropriate Logic software supported four decimal places, though the specific sequencer used remains unknown. HN readers connected the number to the song’s mechanized themes and other album wordplay, but alternative measurements near 123.47 and real hardware timing jitter weaken certainty about intent.
 
 ### Comment pulse
-- 123.45 suits the story: the song/film segment depicts roboticized pop production, so a manager typing “12345” into a sequencer fits thematically—counterpoint: could still be numerology overreach.  
-- Some users measure closer to 123.47 in Reaper and note Discovery’s other jokes (e.g., “Veridis Quo” ≈ “very disco”), reinforcing Daft Punk’s love of hidden gags.  
-- Discussion on BPM tools: modern algorithms are precise but may snap to round values; others note sequencer jitter means “perfectly steady” electronic tempos are rarer than claimed.  
 
----
+- The number fits the work’s robotic theme → a mechanically entered sequence complements its depiction of industrialized pop production.
+- Independent measurements disagree slightly → bookend selection, source processing, and timing jitter affect extreme precision claims.
+- Fractional tempo was technically possible → Logic supported four decimals, while cited hardware sequencers exposed only one.
 
 ### LLM perspective
-- View: This highlights how simple, transparent measurements can reveal details commercial audio tools often hide or quantize away.  
-- Impact: Audio developers and DJs might care more about true underlying tempos, not just rounded values, for tight long-form mixes.  
-- Watch next: Reproducible community measurements of classic tracks’ exact tempos could form a shared benchmark for DSP and DJ software.
+
+- View: The measured tempo is compelling evidence of a pattern, but not proof of authorial intent.
+- Impact: Producers and fans gain a reproducible technique for testing tempo folklore against source recordings.
+- Watch next: Compare lossless masters, disclose beat markers, quantify uncertainty, and locate session files or creator testimony.

@@ -3,18 +3,17 @@
 - Score: 124 | [HN](https://news.ycombinator.com/item?id=46463635) | Link: https://shkspr.mobi/blog/2025/12/a-small-collection-of-text-only-websites/
 
 ### TL;DR
-The post celebrates a tiny “text-only web” movement: sites that deliberately expose a `text/plain` version of their content for ultra-fast, distraction-free reading. Terence Eden lists blogs and personal sites where you can append `.txt`, `.text`, `.md`, or a query flag to get pure UTF‑8 text, with a strict rule of no HTML or styling. Hacker News commenters add more lightweight news and “brutalist” examples, reminisce about printer-friendly and crisis-era text sites, and share their own text-mode blog setups.
 
----
+Terence Eden catalogs sites offering genuine `text/plain` versions, typically through suffixes such as `.txt`, `.text`, or `.md`, or content negotiation. The appeal is deliberate simplicity: fast loading, readable UTF-8, and freedom from banners, autoplay, prompts, and elaborate styling. HN readers expanded the idea beyond strict MIME compliance with lightweight news editions, recalled printer-friendly pages and CNN’s stripped-down September 11 site, and noted that text variants can improve resilience, archival workflows, and constrained-device browsing.
 
 ### Comment pulse
-- More examples → text.npr.org, lite.cnn.com, and brutalist.report show mainstream and indie news can be fast and mostly text-only.
-- Old web parallels → printer-friendly views and CNN’s 9/11 text-only redesign handled load and readability—counterpoint: print views died partly because they nuked ads.
-- DIY text modes → commenters expose `.txt`/RFC-style outputs or Markdown endpoints; some sacrifice image support and mobile ergonomics to keep navigation and layout purely textual.
 
----
+- Lightweight editions remain useful without strict plain text → NPR and CNN demonstrate low-overhead news delivery.
+- Printer-friendly pages were a practical predecessor → they reduced clutter, though publishers disliked their implicit ad blocking.
+- Text-only design trades presentation for resilience → direct addresses and explicit navigation can remain surprisingly functional.
 
 ### LLM perspective
-- View: Adding `text/plain` alternates is trivial for most blogs and drastically improves performance, accessibility, and scriptability.
-- Impact: Benefits low-bandwidth users, screen readers, archivists, and people who print or save articles to PDF/offline.
-- Watch next: CMS plugins and themes shipping text-mode by default, plus clearer conventions for `rel="alternate"` text/plain endpoints.
+
+- View: Plain-text endpoints are a cheap interoperability layer, not a replacement for the visual web.
+- Impact: Readers, archives, scripts, and low-bandwidth devices gain stable access with minimal rendering assumptions.
+- Watch next: Monitor adoption of Markdown negotiation, discoverable alternate links, and consistent text endpoint conventions.

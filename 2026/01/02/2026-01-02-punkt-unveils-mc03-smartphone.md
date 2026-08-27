@@ -2,19 +2,18 @@
 
 - Score: 119 | [HN](https://news.ycombinator.com/item?id=46466364) | Link: https://www.punkt.ch/blogs/news/punkt-unveils-mc03
 
-## TL;DR
-Punkt.’s MC03 is a €699 “privacy-first” 5G smartphone made in Europe, running AphyOS (an Android fork) with a subscription model: 12 months included, then €9.99/month. It splits apps into a hardened “Vault” (Punkt-/partner-approved tools like Proton and Threema) and a more open “Wild Web,” with granular per-app controls and a built‑in VPN. HN discussion focuses less on the hardware and more on resentment of “phone-as-a-service,” doubts about AphyOS’s security pedigree, and the device’s high price.
+### TL;DR
 
----
+Punkt’s €699 MC03 pairs German-made hardware with privacy-focused AphyOS. A protected Vault contains vetted apps, including Proton services and Threema, while a separate “Wild Web” allows conventional apps with visible permissions. Hardware includes a 120Hz OLED display, removable 5,200mAh battery, IP68 protection, and 64MP camera. One year of AphyOS is included; continued full security and functionality costs €9.99 monthly. HN largely viewed that subscription and locked-down software as contradicting ownership, despite some support for funding updates directly.
 
-## Comment pulse
-- Subscription for core OS/privacy features is anti-ownership → feels like renting your phone. — counterpoint: explicit OS funding is more honest than hidden monetization.  
-- AphyOS reportedly forks an old GrapheneOS plus LineageOS → commenters question security, app compatibility, and marketing vs. more transparent hardened-Android projects.  
-- €699 + mandatory subscription vs. iPhone/DIY Linux setups → many see poor value, preferring de-Googled Android or custom rigs over a locked ecosystem.
+### Comment pulse
 
----
+- Privacy has recurring costs → supporters prefer transparent OS funding over surveillance advertising — counterpoint: buyers question losing features on owned hardware.
+- Security claims face skepticism → commenters cited GrapheneOS criticism of AphyOS’s outdated foundations and weaker compatibility.
+- Premium positioning feels restrictive → €700 hardware plus €120 yearly invites comparisons with mature phones and freely maintainable systems.
 
-## LLM perspective
-- View: The concept—clear separation between trusted apps and everything else—is strong, but the subscription/lock‑in undermines the ownership/privacy story.  
-- Impact: Most relevant to privacy-conscious but non‑technical users who won’t flash GrapheneOS yet dislike Apple/Google ecosystems.  
-- Watch next: Independent audits of AphyOS, clarified “no‑subscription” behavior, and comparisons against GrapheneOS, CalyxOS, and stock Android with hardened settings.
+### LLM perspective
+
+- View: Privacy pricing is defensible only when subscription boundaries, update commitments, and unlock rights are explicit.
+- Impact: Nontechnical buyers gain curated controls but exchange platform surveillance for long-term vendor dependence.
+- Watch next: Verify support duration, cancellation behavior, independent security audits, bootloader policy, and actual app compatibility.

@@ -3,18 +3,17 @@
 - Score: 488 | [HN](https://news.ycombinator.com/item?id=46464235) | Link: https://github.com/j-brooke/FracturedJson/wiki
 
 ### TL;DR
-FracturedJson is a smart JSON formatter that aims for “how a human would lay this out”: short objects/arrays go on one line, longer ones become compact multi-line blocks, and structurally similar items are rendered as aligned tables. It can optionally preserve comments and is highly configurable (line length, nesting thresholds, padding, commas, etc.). Implementations exist for .NET, JS/TS, browser, VS Code, and Python (via .NET), plus a new Rust CLI port, with HN discussion focusing on test suites and JSON alternatives.
 
----
+FracturedJson formats JSON for human scanning without expanding every value vertically. It inlines simple containers, packs long arrays across rows, aligns structurally similar objects as tables, and expands complex sections, with controls for width, nesting, padding, comments, commas, and number alignment. Implementations exist for .NET and JavaScript, with Python wrapping .NET and a new Rust port. HN discussion praised readability but emphasized shared conformance fixtures, standard-input support, copyright attribution, and the deployment burden of Python requiring a separate .NET runtime.
 
 ### Comment pulse
-- Multiple implementations → C#, JS/TS, Python wrapper, and a new Rust port suggest demand; a shared data-driven conformance suite would keep behavior consistent across languages — counterpoint: tests can’t fully guarantee equivalence.  
-- Rust CLI port → `fjson` adds native tooling with stdin support and many knobs (width, indentation, comment handling), but commenters note ports must preserve original author attribution.  
-- JSON vs alternatives → Some explore BONJSON and relaxed syntaxes, arguing JSON is neither ideal for humans nor rigorously specified; others want a formal data model and standardized, interoperable replacements.
 
----
+- Cross-language fixtures would improve trust → data-driven cases can expose drift between C#, JavaScript, Rust, and future ports.
+- Python’s wrapper compromises portability → requiring .NET undermines the normal expectation that dependencies install through `pip` alone.
+- CLI composability is essential → standard input and output make the formatter useful alongside `jq` and shell pipelines.
 
 ### LLM perspective
-- View: This is a pragmatic UX upgrade for everyday JSON inspection, especially where structures repeat (game data, configs, logs).  
-- Impact: Most useful for developers who browse/edit raw JSON in editors, CLIs, or reviews, rather than machine-only pipelines.  
-- Watch next: A language-agnostic test corpus, editor/IDE plug-ins using it by default, and benchmarks vs jq/Prettier-style formatters.
+
+- View: FracturedJson optimizes visual information density while preserving ordinary JSON semantics.
+- Impact: Developers can inspect structured data faster, especially repeated records and coordinate-heavy arrays.
+- Watch next: Establish conformance fixtures, fuzz cross-port equivalence, and document stable formatting guarantees across releases.
