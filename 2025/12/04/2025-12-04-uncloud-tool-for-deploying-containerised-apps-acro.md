@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Uncloud targets self-hosted fleets with a Docker Compose workflow spanning machines, a WireGuard mesh, service discovery, Caddy HTTPS, rolling deployments, and peer-synchronized state instead of a central control plane. Its CLI can build and distribute images without an external registry, then scale replicas across providers or on-premises hardware. The project says it is not yet production-ready. Commenters like the space between Compose and Kubernetes but question root-level bootstrap commands, secrets, network isolation, engineer onboarding, CI access, and advantages over k3s, Swarm, Kamal, or Ansible.
+Uncloud aims to run Docker Compose applications across ordinary Linux servers without Kubernetes. It provides a Docker-like CLI, direct image distribution, rolling deployments, Caddy HTTPS, DNS service discovery, load balancing, and a WireGuard mesh with peer-synchronized cluster state instead of a central control plane. The creator targets small deployments needing several machines but not Kubernetes scheduling overhead, and says the agent uses under 150 MB RAM. Commenters liked the Compose-to-multihost niche but questioned installation safety, secrets, isolation, onboarding, CI access, and why k3s or simpler automation is insufficient.
 
 ### Comment pulse
 
-- Control-plane absence simplifies tiny clusters → counterpoint: Kubernetes users consider reconciliation and scheduling the core benefit, especially when managed.
-- Current gaps affect trust → secrets lack encrypted-at-rest support, stacks share network reach, and onboarding documentation appears incomplete.
-- The practical niche is narrow but real → operators with two to seven nodes want more than Compose without Kubernetes administration.
+- Supporters saw useful territory between single-host Compose and Kubernetes, especially for mixed cloud, bare-metal, and NATed machines.
+- Skeptics preferred k3s, Podman with Ansible, Kamal, or Swarm and questioned abandoning declarative reconciliation.
+- Root-level `curl | bash` installation and incomplete secrets or network isolation blocked some early adopters.
 
 ### LLM perspective
 
-- View: Its value depends on operational simplicity surviving the distributed-state and security complexity it absorbs.
-- Impact: Small teams could gain multi-host resilience without adopting a full scheduler or external registry.
-- Watch next: Audit installer privileges, partition behavior, recovery, secret handling, tenant isolation, and production-readiness milestones.
+- View: Uncloud trades scheduler sophistication for a smaller mental and operational model tailored to known services.
+- Impact: Small teams could gain multi-host resilience without maintaining etcd or a managed control plane.
+- Watch next: Harden installation, document partitions, add secrets and isolation, benchmark recovery, and clarify CI onboarding.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The author proposes transparent leadership: coach methodical problem-solving, expose organizational goals, connect people directly, delegate leadership, train successors, and become a technically useful spare once coordination needs fall. He argues misapplied servant leadership can turn managers into overloaded gatekeepers who shield teams from context, while acknowledging Greenleaf’s original model also seeks autonomy. Commenters strongly reject making managers redundant when reports need authority exercised, but endorse sharing strategic context without passing every disruption through to the team.
+The author proposes “transparent leadership”: coach problem solving, explain organizational values, connect people directly, share responsibility, train replacements, and become a technically capable spare rather than an information bottleneck. The argument targets a practiced version of servant leadership where managers silently remove obstacles until they become overworked single points of failure. The author concedes Greenleaf’s original formulation also seeks autonomous, capable followers. Commenters strongly challenged the straw man, warning that “empowerment” often means delegating managerial burdens without authority and that teams still need managers to intervene.
 
 ### Comment pulse
 
-- Empowerment can become abandonment → reports describe managers returning authority-dependent problems to people unable to solve them.
-- Information and protection can coexist → teams need priorities and politics explained, with leaders filtering unstable demands.
-- The terminology is disputed → counterpoint: critics say genuine servant leadership already develops autonomy, careers, and successors.
+- Critics said coaching becomes abandonment when reports need organizational authority, conflict resolution, or a specific obstacle removed.
+- Managers favored a transparent “umbrella”: explain organizational pressure while filtering needless churn and direct impact.
+- Others argued authentic servant leadership already combines support, growth, autonomy, and accountability.
 
 ### LLM perspective
 
-- View: Leadership is transparent only when context travels downward and accountable authority still travels upward.
-- Impact: Managers remain valuable as conflict resolvers, resource brokers, coaches, and temporary shields—not permanent intermediaries.
-- Watch next: Measure decision latency, escalation success, burnout, succession readiness, and technical contribution after adopting this model.
+- View: Transparency and service are complementary; the operational question is when to coach versus intervene.
+- Impact: Miscalibration creates either dependent teams or exhausted employees carrying responsibility without power.
+- Watch next: Evaluate manager bus factor, decision authority, escalation outcomes, team context, and career growth.

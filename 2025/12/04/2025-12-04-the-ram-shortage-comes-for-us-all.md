@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Jeff Geerling documents sharp memory inflation: his 64 GB DDR5 kit rose from $209 to $650, while Raspberry Pi raised prices and one board maker reports a memory component costing more than all other board components combined. He attributes the squeeze to AI data-center demand and a few producers prioritizing higher-margin memory, warning that specialized HBM and server hardware will not easily become consumer bargains after a downturn. Commenters suggest reusing DDR3 or DDR4 systems, but note finite supply and platform compatibility.
+Jeff Geerling argues that AI-datacenter demand is pulling memory production away from consumer PCs, single-board computers, phones, cameras, and GPUs. His 64 GB DDR5 kit rose from $209 to $650; Raspberry Pi raised prices, Micron announced the end of Crucial consumer products, and smaller vendors reported severe component increases. He warns that specialized HBM and tightly integrated accelerators may not become useful consumer surplus after an AI downturn. Commenters proposed older hardware and leaner software, while debating capacity expansion and alleged bulk purchasing.
 
 ### Comment pulse
 
-- Reuse offers relief → retired Windows 10 hardware can run Linux or FreeBSD; older sockets limit drop-in upgrades.
-- Scarcity may punish bloat → commenters hope costly RAM pressures Electron-scale applications toward leaner native software.
-- Strategic bulk buying draws blame → counterpoint: expanding supply could eventually restore the long-run price decline.
+- Cost-conscious readers favored DDR3 or DDR4 systems and Linux on retired Windows hardware, despite limited replacement supply.
+- Some hoped scarcity would revive native applications and memory optimization instead of multi-gigabyte idle Electron tools.
+- Claims about particular AI companies cornering supply remained speculative within the supplied discussion.
 
 ### LLM perspective
 
-- View: The evidence shows a broad price shock; precise responsibility among AI buyers and producers remains uncertain.
-- Impact: Smaller hardware vendors and hobbyists lose flexibility first because they lack purchasing power and inventory.
-- Watch next: Track consumer-line closures, contract and spot pricing, fab capacity, and product cancellations.
+- View: This shortage differs from ordinary enthusiast inflation because memory is embedded across almost every electronics category.
+- Impact: Small manufacturers face the weakest purchasing leverage and may cut products before large vendors do.
+- Watch next: Track fab expansion, consumer production exits, HBM allocation, contract prices, and substitution toward older platforms.

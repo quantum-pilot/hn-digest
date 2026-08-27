@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The supplied page describes Surreal Engine, an Unreal Engine 1 reimplementation currently focused on Unreal Gold and UT99—not the 2004 game named by the submission. It requires original game copies and modern Windows, macOS, or Linux, with nightly builds plus Arch and Nix packages. Players add a game folder and launch it through a graphical selector. Discussion is largely nostalgic, praising mutators, easy scripting, self-hosted modded servers, native Linux support, and enduring LAN play while asking Epic to release legacy source.
+Despite the submission title, the supplied project page does not establish that Unreal Tournament 2004 is back. Surreal Engine currently reimplements Unreal Engine 1 and focuses on running Unreal Gold and Unreal Tournament 1999 across modern Windows, macOS, and Linux systems, using original game copies. It offers nightly builds and Linux packages. The comments mostly celebrate classic Unreal Tournament’s mutators, community servers, Linux support, and enduring multiplayer design, while asking why Epic has not open-sourced older engines. UT2004 support is not described.
 
 ### Comment pulse
 
-- Mutators sustained replayability → server owners could alter gravity, weapons, character size, and other rules without replacing the game.
-- Native Linux builds were formative → several commenters remember the original releases working when Wine support was weak.
-- Preservation remains constrained → community reimplementation helps, but original assets are required and upstream source licensing may involve multiple contributors.
+- Players credited mutators, UnrealScript, self-hosted servers, and unusual modes with exceptional replayability.
+- Linux users remembered official native releases as unusually accessible for their era.
+- Readers wanted source releases like Doom and Quake, while noting third-party ownership may complicate licensing.
 
 ### LLM perspective
 
-- View: This is a compatibility project for UE1 titles, not evidence that the named sequel has returned.
-- Impact: Owners of original releases gain a modern path across three desktop platforms.
-- Watch next: Check game-compatibility status, networking, mod and mutator support, release stability, and clarification of the submission mismatch.
+- View: The preservation value comes from recreating a runnable engine boundary without claiming unsupported game compatibility.
+- Impact: UE1 titles gain a modern cross-platform path while still requiring legitimately owned assets.
+- Watch next: Clarify the title mismatch and track compatibility, networking, packaging, and any eventual UE2 or UT2004 scope.

@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Multivox provides software for two Raspberry Pi 4 volumetric displays built from pairs of HUB75 LED panels spinning around a vertical axis. Rotovox favors vertical resolution and horizontal density; Vortex favors brightness and refresh rate, with printable Vortex parts available. A driver synchronizes panel scans to rotation and exposes a shared voxel buffer that local clients fill with games and demos. The repository also includes Bluetooth controls, point-cloud streaming, diagnostics, a compatible OpenGL simulator, and a cartridge-style launcher for self-contained operation.
+Multivox is software for two Raspberry Pi 4-powered volumetric displays that spin paired HUB75 LED panels around a vertical axis. A rotation-synchronized driver scans a shared-memory voxel buffer, while client programs render games, models, point clouds, and demos. Rotovox favors vertical resolution and density; Vortex favors brightness and refresh rate, with printable Vortex parts available. The project includes hardware profiles, calibration tools, a launcher styled as a cartridge console, and an X11 simulator exposing the same voxel interface for development without the physical display.
 
 ### Comment pulse
 
-- Viewers thought the moving display could feel more magical in person and suit cutaway scenes or spacecraft radar interfaces.
-- Commenters compared rotating panels with static glass etching and touchable oscillating-band projection, noting each approach has different fabrication constraints.
-- Several praised the creator’s broader experiments, including solid-state displays and a tiny LEGO-format Doom device.
+- Viewers noted that lacking a known viewing position limits backface culling, making cutaway-style scenes especially suitable.
+- Suggested uses included cockpit radar, while links highlighted contrasting static and physically touchable volumetric techniques.
 
 ### LLM perspective
 
-- View: The shared-buffer architecture neatly separates timing-critical scanning from playful content generation.
-- Impact: Printable parts and simulation lower the barrier to experimenting with unusual volumetric interfaces.
-- Watch next: Front-end redesign, improved color depth, and applications exploiting true multi-view geometry.
+- View: A shared voxel buffer cleanly separates timing-critical mechanics from experiments in volumetric content.
+- Impact: The simulator lowers the development barrier even though reproducing the physical hardware remains specialized.
+- Watch next: New content should exploit all-angle visibility instead of importing assumptions from conventional perspective displays.

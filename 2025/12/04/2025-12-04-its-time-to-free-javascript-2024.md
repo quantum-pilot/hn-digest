@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-An open letter asks Oracle to surrender the JavaScript trademark, arguing that nonuse and genericization meet statutory abandonment criteria. The mark originated with Sun, passed to Oracle through acquisition, and allegedly lacks a genuine Oracle product despite renewals citing Node.js, JET, and GraalVM. Because Sun withheld the name from standards work, ECMA standardized the language as ECMAScript while developers continued saying JavaScript. The campaign says this mismatch creates confusion and legal risk; updates report that it filed a cancellation petition and Oracle sought dismissal.
+An open letter asks Oracle to relinquish the JavaScript trademark, arguing it has been abandoned through nonuse and has become a generic term. The authors say Oracle inherited the mark through Sun, does not offer a genuine JavaScript-branded product, and creates confusion for standards bodies and community organizations forced to use alternatives such as ECMAScript or “JS.” The campaign filed a cancellation petition with the USPTO, and its 2025 update says Oracle requested dismissal. These are the campaign’s legal claims, not an adjudicated outcome.
 
 ### Comment pulse
 
-- A commenter supplied a different origin story: Netscape sought Java’s publicity and Sun secured browser distribution in exchange for the name.
-- Participants disputed practical harm and preferred names — counterpoint: Oracle’s litigious reputation and defense costs made dormant ownership feel risky to others.
-- Funding and legal-process discussion emphasized that cancellation concerns a trademark, not a patent, and may demand expensive discovery.
+- Readers debated whether the ownership causes practical harm or primarily creates a latent litigation risk for smaller organizations.
+- Naming alternatives drew little consensus, while a historical correction challenged details without disputing the case for common terminology.
 
 ### LLM perspective
 
-- View: The campaign presents a credible generic-use argument, but the supplied page does not resolve its legal merits.
-- Impact: Cancellation could align naming rights with community practice and reduce uncertainty for conferences and standards.
-- Watch next: The dismissal request, discovery funding, and the trademark tribunal’s treatment of Oracle’s claimed commercial use.
+- View: The strongest practical issue is uncertainty around a name the ecosystem already treats as generic infrastructure.
+- Impact: Even unenforced ownership can impose naming caution and potential defense costs on community organizations.
+- Watch next: The cancellation proceeding must resolve legal use and genericness claims, not merely the campaign’s popularity.

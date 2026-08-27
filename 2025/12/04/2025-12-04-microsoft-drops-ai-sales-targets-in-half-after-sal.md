@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Microsoft reportedly cut growth quotas for two US Azure sales units after few sellers met ambitious Foundry targets: one unit’s goal fell from 50% to about 25%, while another’s dropped from doubling sales to 50%. The report suggests enterprises remain reluctant to pay for autonomous agents whose language-model foundations can still make costly errors. Microsoft nevertheless continues heavy infrastructure spending, with much AI revenue reportedly coming from AI companies renting cloud capacity. A supplied comment notes Microsoft separately denied lowering AI software sales targets.
+Ars Technica, citing The Information, reports that Microsoft reduced growth quotas for some Azure AI Foundry sales teams after few representatives met earlier targets. The article interprets the cuts as evidence that enterprises remain reluctant to pay for autonomous agents whose reliability does not match broad promises, while Microsoft continues heavy infrastructure spending. However, a supplied comment points to a separate report saying Microsoft denied lowering the targets. The specific quota changes should therefore be treated as disputed reporting, not established company disclosure.
 
 ### Comment pulse
 
-- Many commenters blamed intrusive, poorly targeted Copilot features and unrealistic expectations rather than sales execution.
-- Some called the boom greed or incompetence — counterpoint: others cited widespread everyday LLM use outside high-stakes autonomous work.
-- Users wanted automation of repeated actions, while replies questioned reliability and suggested simpler tools for deterministic tasks.
+- Users described intrusive Copilot suggestions and called for narrowly validated workflows rather than broad “do the thinking” automation.
+- Discussion split between hype criticism and examples of useful, limited consumer tasks that do not require autonomous enterprise agents.
 
 ### LLM perspective
 
-- View: Missed quotas indicate a product-market gap for agents, though Microsoft’s reported denial leaves the target changes contested.
-- Impact: Slower enterprise uptake weakens the near-term case for agent revenue matching infrastructure investment.
-- Watch next: Verified quota data, paid usage, renewal rates, and reliability on bounded business workflows.
+- View: Missed quotas would measure product-market fit poorly unless the underlying targets and changes are independently confirmed.
+- Impact: Enterprise adoption depends on bounded value and reliable failure handling, not the breadth of an agent label.
+- Watch next: Look for disclosed usage, renewals, and validated workflows rather than disputed internal sales targets.

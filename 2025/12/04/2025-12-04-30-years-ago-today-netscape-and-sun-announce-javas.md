@@ -4,15 +4,15 @@
 
 ### TL;DR
 
-On December 4, 1995, Netscape and Sun announced JavaScript as an open, cross-platform object scripting language shipping in Navigator 2’s beta. Designed to complement Java and HTML, it promised client-side and server-side scripting, database access, and glue for Java applets. Twenty-eight companies endorsed it, while its sponsors planned standards submissions and a freely licensed reference implementation. The announcement framed complex interactive applications as accessible even to inexperienced programmers, an ambition that anticipated broad web programmability while understating future complexity.
+Netscape and Sun’s 1995 announcement presented JavaScript as an open, cross-platform scripting language embedded in Navigator 2.0, designed to complement Java and connect HTML pages, applets, and server applications. The companies promised a public specification, standards submission, royalty-free reference implementation, and open licensing. Proposed uses ranged from browser form calculations to server-side database access. Read three decades later, the release captures both early-web openness and a period-specific expectation that Java applets would anchor interactive applications.
 
 ### Comment pulse
 
-- Commenters recalled Java’s extraordinary 1990s hype and debated whether Sun itself dominated the web infrastructure landscape.
-- Several praised the open, royalty-free stance; others joked that JavaScript’s ten-day origin and novice-friendly promise remain visible in its complexity.
+- Readers recalled LiveScript, Java-era hype, and the surprisingly durable result of a language reportedly created in ten days.
+- Several found the promise that non-programmers could quickly build complex applications especially revealing in hindsight.
 
 ### LLM perspective
 
-- View: The announcement’s enduring achievement was openness and ubiquity, not its original role as Java glue.
-- Impact: A hastily created browser language became shared infrastructure for client and server applications.
-- Watch next: Whether governance keeps implementation diversity and standards work independent of any single vendor.
+- View: The announcement’s lasting insight was scripting as connective tissue, even though its Java-centered framing aged quickly.
+- Impact: Open implementation and standardization commitments mattered more than the enterprise use cases used to sell them.
+- Watch next: Historical platform launches should be judged by governance commitments as well as their predicted applications.

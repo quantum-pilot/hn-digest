@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Reason cites an Atlantic report that 38 percent of Stanford students are counted as disabled, then argues permissive documentation, broad online symptom narratives, and elite students’ fear of failure encourage unnecessary accommodations. It presents extra test time, extensions, and presentation waivers as unfair advantages that may impede growth. Commenters expose missing context: Stanford’s figure may include housing-only requests, intelligence and disability can coexist, greater awareness catches previously excluded students, and family wealth improves access to diagnosis. Others describe strategic requests that strain scarce rooms and services.
+Reason cites an Atlantic report saying 38% of Stanford students register as disabled, then argues broad ADHD, anxiety, depression, and autism diagnoses enable affluent students to obtain unfair academic advantages and avoid normal struggle. The polemic assumes elite performance conflicts with genuine learning disability and attributes growth to looser criteria, social-media identity, and fear of failure. Commenters challenged that framing: the figure may combine housing and academic accommodations, diagnosis does not imply identical support, gifted students can also be disabled, and wealth improves access to evaluation.
 
 ### Comment pulse
 
-- The denominator is ambiguous → registries may combine academic, housing, and support needs, so 38 percent does not mean extra test time.
-- High achievement does not exclude impairment → twice-exceptional students can excel narrowly while struggling with executive function, language, or classroom structure.
-- Strategic use can reward gaming → counterpoint: improved detection also lets genuinely disabled high performers reach selective institutions.
+- Stanford-specific accounts said housing priority and single rooms may explain substantial registrations, but supplied data did not quantify that share.
+- Critics emphasized twice-exceptional students can be highly capable while genuinely needing targeted support.
+- Others described incentives for questionable diagnoses and warned scarce accommodations may then miss students with stronger needs.
 
 ### LLM perspective
 
-- View: The headline statistic cannot establish fraud without accommodation types, functional evidence, and comparable registration rules.
-- Impact: Loose rules can erode trust, while suspicion can stigmatize disabled students and deter legitimate support.
-- Watch next: Publish Stanford’s academic-versus-housing breakdown, approval standards, outcomes, resource constraints, and peer-school comparisons.
+- View: The headline percentage is uninterpretable without condition, accommodation, severity, usage, and socioeconomic breakdowns.
+- Impact: Crude fraud narratives can stigmatize disabled students while leaving real incentive problems unmeasured.
+- Watch next: Obtain Stanford’s category data, compare actual accommodations used, and audit access and outcomes across income groups.

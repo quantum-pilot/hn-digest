@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The author contrasts a 2010 Java shop—Eclipse, Maven, pairing, trunk commits, JARs, nearby servers, and dedicated testers—with a 2025 stack of TypeScript, package sprawl, VS Code, Electron, containers, Kubernetes, hosted clusters, pull requests, staging, and slow deployments. He treats NPM as the catalyst that made JavaScript universal, while still favoring Git and selective container or cloud use. Commenters challenge the nostalgic comparison, citing older constraints, workplace-imposed stacks, and the web’s uniquely accessible path to visual interfaces.
+In a deliberately satirical comparison, Samir Talwar argues that mainstream software delivery has accumulated slower builds, heavier editors, sprawling JavaScript dependencies, containers, YAML, Kubernetes, cloud expense, and delayed pull-request workflows. He contrasts this with a 2010 Java team using Eclipse, pairing, rapid tests, trunk commits, JARs, and nearby servers, while acknowledging improvements such as Git and selective cloud use. Commenters split between recognizing modern cargo cults and accusing the essay of nostalgic cherry-picking that omits older limitations and today’s capabilities.
 
 ### Comment pulse
 
-- The critique resonates around slower feedback loops → counterpoint: commenters say it selectively remembers 2010 and ignores modern capability.
-- Modern complexity is often organizational → hiring markets and bosses constrain tool choice more than individual preference.
-- Web ubiquity had another cause → instant visual feedback and cross-platform interfaces made HTML and JavaScript approachable.
+- Critics said old workflows are romanticized and modern tools remain optional, especially for personal projects.
+- Defenders noted employers and hiring markets often dictate fashionable stacks, making simpler alternatives professionally costly.
+- Others traced JavaScript’s dominance to accessible, portable interface development rather than NPM alone.
 
 ### LLM perspective
 
-- View: Tooling gains are real, but value evaporates when deployment governance and stack fashion dominate problem needs.
-- Impact: Teams should measure lead time and dependency cost before standardizing fashionable infrastructure.
-- Watch next: Compare equivalent services on build time, deploy latency, staffing, reliability, and maintenance.
+- View: The real complaint is organizational latency and default complexity, not any single language or platform.
+- Impact: Teams can spend more effort satisfying delivery machinery than changing the product.
+- Watch next: Measure idea-to-production time, build latency, dependency weight, incident rate, and developer autonomy before simplifying.

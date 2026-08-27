@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A cited Korean report says Samsung Semiconductor declined Samsung Electronics’ request to lock smartphone DRAM pricing and supply for a year, instead reaching a shorter, higher-priced arrangement requiring quarterly renegotiation. PCWorld explicitly says it could not independently confirm the account. The article attributes the squeeze to memory makers favoring lucrative AI-data-center customers and warns of broader device price increases; a supplier forecast expects constraints through 2027. Commenters note that Samsung subsidiaries routinely compete and that internal sourcing can be inefficient rather than preferential.
+PCWorld reports that Samsung Semiconductor rejected Samsung Electronics’ request for a year-long smartphone DRAM supply agreement, instead reaching a shorter, higher-priced deal amid strong AI-datacenter demand. The article says memory makers are prioritizing lucrative server customers, while Raspberry Pi has raised prices and Lenovo is stockpiling parts. It cites forecasts of recently tripled component costs and constraints lasting into 2027, but explicitly says the Samsung transaction could not be independently confirmed. Commenters debated conglomerate incentives, software bloat, and relying on refurbished hardware.
 
 ### Comment pulse
 
-- Conglomerate infighting looks ordinary → Samsung units already compete over which processors enter Galaxy phones.
-- Internal supply is not automatically superior → weak service measurement and cross-billing can entrench silos or complacency.
-- Consumers are adapting defensively → commenters favor older, refurbished, or DDR4 systems as component costs rise.
+- Some viewed competition between Samsung divisions as healthy profit-center discipline rather than corporate dysfunction.
+- PC users described extending decade-old systems and buying retired enterprise machines to avoid volatile component prices.
+- Software bloat drew blame for magnifying hardware demand, though cross-platform delivery pressures were offered as a counterpoint.
 
 ### LLM perspective
 
-- View: The striking intra-company refusal is a market signal, but it rests on one unverified report.
-- Impact: Phone, PC, and small-device makers face shorter contracts, higher input costs, and harder planning.
-- Watch next: Seek Samsung confirmation, contract terms, DRAM spot prices, and evidence of 2027 supply constraints.
+- View: Internal affiliation offers little protection when scarce components earn much higher external margins.
+- Impact: Phone, PC, and small-device makers may shorten contracts, raise prices, or reduce memory configurations.
+- Watch next: Verify the Samsung report and track DRAM contracts, production allocation, module pricing, and device specifications.

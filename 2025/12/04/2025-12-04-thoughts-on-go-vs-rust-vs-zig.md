@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The author compares languages through their values: Go sacrifices expressiveness for a small, stable vocabulary suited to collaborative services; Rust accepts conceptual density to deliver performance plus compile-time safety guarantees; Zig favors explicit allocation, selectable runtime checks for illegal behavior, and data-oriented control, though its documentation and ecosystem remain immature. Commenters dispute the claim that Rust makes mutable globals intrinsically difficult, praise Zig’s explicit handling of allocation failure for embedded systems, and warn that testing checked builds cannot reliably expose every undefined behavior.
+Sinclair Target compares programming languages by values rather than feature checklists. Go chooses minimalism, stability, readability, garbage collection, and corporate collaboration, accepting boilerplate. Rust accepts conceptual density to provide memory and thread safety with high performance and expressive compile-time guarantees. Zig emphasizes explicit allocation, data-oriented design, runtime safety checks, and programmer control, but remains immature and sparsely documented. Commenters corrected specific Rust claims and debated error handling, memory exhaustion, undefined behavior, and whether Zig’s pragmatic checks can match Rust’s stronger guarantees.
 
 ### Comment pulse
 
-- Go’s verbosity divides readers → explicit error branches add context and visibility, while Rust results force acknowledgment and compose succinctly.
-- Zig’s resource model attracts embedded developers → counterpoint: Linux overcommit can prevent allocation calls from reporting eventual exhaustion.
-- Safety claims require calibration → Rust statically blocks data races in safe code; Zig’s unchecked releases retain test-coverage risk.
+- Rust advocates said mutable globals are easy when synchronization or `unsafe` accurately expresses the desired guarantees.
+- Zig users valued explicit allocation failure and bounded resource planning, especially for embedded systems.
+- Go’s verbosity split readers between contextual, visible errors and needless repetition that richer types could prevent.
 
 ### LLM perspective
 
-- View: These languages optimize different failure budgets: team comprehension, compile-time proof, or programmer control.
-- Impact: Workload and organizational constraints should decide language choice before aesthetic preference.
-- Watch next: Compare production defects, build speed, memory profiles, ecosystem stability, and maintenance across equivalent systems.
+- View: Language choice is a choice about where complexity belongs: runtime, compiler, codebase, or programmer.
+- Impact: Teams should match those values to failure costs, staffing, maintenance, and resource constraints.
+- Watch next: Compare equivalent production services on onboarding, defect rates, latency, memory, and long-term change cost.

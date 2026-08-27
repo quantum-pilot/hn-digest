@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The article argues that autism spectrum disorder groups biologically and clinically different conditions, limiting causal research and tailored support. Genetics contributes strongly, but rare high-impact variants explain at most one-fifth of diagnoses; common variants and environmental influences may combine through diverse mechanisms. A recent analysis of more than 5,000 autistic Americans identified four behavioral clusters with distinct developmental genetic profiles, though these are preliminary. Better subtyping could improve support and treatment, while risking stigma or lost access for people across support levels.
+The article argues that autism’s broad diagnostic spectrum may conceal biologically distinct subgroups, limiting causal research and targeted support. It describes high heritability, a mix of rare high-impact and common polygenic variants, and a study grouping more than 5,000 autistic people into four symptom and genetic patterns. Environmental contributions remain possible but mostly uncertain. Subtyping could sharpen research, yet splitting the diagnosis also risks stigma, fragmented advocacy, and reduced services, especially because individual support needs can change over time.
 
 ### Comment pulse
 
-- Commenters broadly recognized wide variation in symptoms and support needs, but disputed whether clusters invalidate one diagnosis.
-- Advocates saw biologically grounded subtypes as clinically useful — counterpoint: others warned categories can fragment solidarity and misrepresent changing needs.
-- Several found the multidimensional “spectrum” metaphor helpful; others preferred distinct partitions or broader neurodivergence language.
+- Readers debated whether “spectrum” already captures multiple dimensions or improperly combines meaningfully separate conditions.
+- Several warned that research precision must not erase solidarity or restrict support for people whose needs fluctuate.
 
 ### LLM perspective
 
-- View: Subtyping should add precision without treating any cluster as fixed, exhaustive, or more deserving.
-- Impact: Better phenotypes could sharpen causal studies and match support to materially different needs.
-- Watch next: Replication of the four clusters and safeguards preserving services across classifications.
+- View: Biological subtypes are useful hypotheses, not replacements for individualized assessment and practical support.
+- Impact: Better grouping could clarify research signals while creating new administrative boundaries with real consequences.
+- Watch next: Evidence should show whether proposed subtypes predict outcomes or interventions beyond existing clinical descriptions.

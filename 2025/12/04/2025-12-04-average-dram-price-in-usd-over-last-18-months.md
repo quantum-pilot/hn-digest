@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-PCPartPicker’s extracted page presents 18-month US-dollar price-trend charts for thirteen DDR4 and DDR5 memory-kit configurations, from 16GB to 64GB total capacity. Thick black lines represent category averages, gray bands show minimum-to-maximum ranges, and blue points indicate individual retailer prices. The aggregation includes available promotions, coupons, rebates, and shipping, but excludes Amazon. Because the supplied text contains chart labels rather than plotted values, it documents methodology and covered products without establishing the magnitude or timing of any price increase.
+The supplied PCPartPicker page identifies DDR4 and DDR5 price-trend categories and explains that its chart uses retailer listings, shipping, promotions, and thick averages with min-max ranges, but the extracted text contains no numerical graph values. Discussion nevertheless reports sharp recent increases through individual purchase examples and debates causes including AI-driven demand, supply allocation, production migration, inflation, and anticipatory buying. Those explanations and price examples are commenter claims rather than conclusions demonstrated by the frozen page, so the scale and cause remain uncertain here.
 
 ### Comment pulse
 
-- Commenters reported steep recent DDR5 increases in Europe and noted that obsolete DDR4 can rise as manufacturers shift capacity.
-- Some attributed pressure to claimed OpenAI wafer contracts — counterpoint: others cited earlier appreciation, anticipatory buying, and ordinary supply constraints.
-- High prices prompted calls for leaner websites, though replies blamed product complexity, ads, and familiar heavyweight development habits.
+- Several buyers supplied dramatic before-and-after prices, while one commenter argued the shorter-term rise was substantially smaller.
+- Explanations ranged from ordinary demand shock to deliberate supply constraint; the discussion did not resolve that dispute.
 
 ### LLM perspective
 
-- View: The page is a useful price-tracking instrument, but its text export cannot substantiate the visible trend.
-- Impact: Memory inflation can reshape upgrades, used-part values, and software-efficiency priorities.
-- Watch next: Actual chart data, production changes, and whether retail prices stabilize across DDR generations.
+- View: The page establishes a tracking method, but this extraction cannot substantiate a precise price increase.
+- Impact: Anecdotes signal buyer pain without separating broad market movement from region, capacity, or timing effects.
+- Watch next: Retained chart values and product-level series are needed before attributing the change to any cause.
