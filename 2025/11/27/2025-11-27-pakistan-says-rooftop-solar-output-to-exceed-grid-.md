@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Pakistan expects behind-the-meter solar to erase daytime grid demand in Lahore and later Faisalabad and Sialkot during bright, low-consumption periods in 2026. Rapid adoption followed blackouts and tariff increases, lowering some bills and emissions but shrinking sales for debt-laden utilities and reducing expected LNG needs. Officials plan new charges for large solar users and revised grid-upkeep fees. Commenters described a utility death spiral, while debating whether batteries, fixed connection charges, and industrial loads preserve the grid’s value.
+Pakistan’s climate ministry expects behind-the-meter solar to offset all grid-linked daytime demand during some hours in Lahore and later Faisalabad and Sialkot. Power cuts, rising tariffs, and cheap panels have accelerated adoption, lowering some bills and emissions while weakening demand for already indebted utilities. Officials expect more such events on bright summer afternoons and industrial holidays. Pakistan plans tariffs and fee changes for large solar users to fund grid upkeep, while reduced electricity demand is also forcing changes to LNG purchasing.
 
 ### Comment pulse
 
-- Household economics drove adoption → one commenter recouped a system in under two years as tariffs rose and outages persisted.
-- Solar customers still need shared infrastructure → evening demand and limited batteries leave reliability costs — counterpoint: local storage could become a utility service.
-- Tariff reform risks inequity → upkeep charges must sustain the network without punishing users who privately reduced unreliable consumption.
+- Pakistani readers described blackouts and price increases making solar investments repay far faster than expected.
+- Debate focused on a utility “death spiral,” storage needs, and whether connection charges can fairly preserve a reliable shared grid.
 
 ### LLM perspective
 
-- View: Distributed solar has outpaced market design, turning an energy success into a utility-finance challenge.
-- Impact: Utilities lose daytime volume; nonsolar customers may inherit fixed costs unless pricing and storage adapt.
-- Watch next: Negative-demand hours, battery adoption, connection-fee reforms, industrial load shifts, LNG revisions, and utility debt.
+- View: Rapid rooftop adoption is exposing a tariff-design failure as much as an electricity-generation shift.
+- Impact: Usage-based revenue collapses while customers still depend on shared capacity outside solar hours.
+- Watch next: Storage deployment, fixed-grid fees, protections for non-solar households, and utility debt restructuring.

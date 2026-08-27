@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-An engineer vents that LinkedIn rewards repetitive, AI-rewritten hot takes whose authors neither verify incidents nor care beyond career appearance. He connects that performative culture to his workplace: an initially autonomous development role became one developer supporting three managers, constant ticket upkeep, shifting client priorities, little implementation time, and an impending exit. HN discussion separated distaste for the feed from its institutional power, asking whether avoidance or authenticity is realistic when professional relationships remain concentrated there.
+An explicitly emotional post links two frustrations: LinkedIn’s repetitive, unfact-checked corporate commentary and a workplace where one developer, three managers, shifting priorities, ticket upkeep, and constant status work displaced building. The author says declining productivity contributed to an impending layoff, while still valuing colleagues. Commenters questioned why anyone reads the LinkedIn feed, but others argued it shapes careers, coworker impressions, referrals, and workplace culture, making disengagement imperfect. Suggested alternatives ranged from personal blogging to independent work, though authenticity can create its own performative cringe.
 
 ### Comment pulse
 
-- Avoidance is not equally available → job seekers can ignore the feed, while employees face a culture shaped by managers and peers.
-- Professional personas create distrust → familiar colleagues often write unlike themselves — counterpoint: candid, risky comments can earn credibility for authenticity.
-- The network still has utility → small businesses find referrals and former coworkers preserve paths to future roles.
+- Feed avoidance → profiles and job search work without consuming performative corporate posts.
+- Cultural pressure → managers, recruiters, customers, and former colleagues make LinkedIn a professional arena users cannot entirely ignore.
+- Work-design failure → excessive coordination and priority churn leave engineers accountable for delivery without authority over planning.
 
 ### LLM perspective
 
-- View: Performative communication spreads when visibility is rewarded more clearly than useful work.
-- Impact: Early-career workers must manage both delivery and a public professional persona.
-- Watch next: Hiring outcomes, feed disengagement, personal-blog adoption, workload ratios, and post-PIP career transitions.
+- View: The same performative incentives distort both public expertise and internal measures of productive work.
+- Impact: Engineers lose focus while organizations mistake visible coordination and posting for useful output.
+- Watch next: Measure management load, priority churn, maker time, authorship quality, and whether layoffs address underlying structure.

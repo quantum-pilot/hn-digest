@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Penpot is an MPL-licensed collaborative design platform available as a hosted service or self-hosted deployment. It works with open web standards, offers interactive prototyping, inspectable SVG, CSS, and HTML, native design tokens, components, variants, CSS Grid, plugins, webhooks, APIs, and real-time teamwork. Commenters value its affordability, vector editing, export organization, and developer-oriented workflow. Others report document corruption, crashes, lag, heavy memory use, and text-export problems, keeping some teams on Figma despite enthusiasm for an open alternative.
+Penpot presents itself as an open-source, browser-based or self-hosted design and prototyping platform built around SVG, CSS, HTML, and JSON. It offers real-time collaboration, inspectable code, plugins, APIs, webhooks, design tokens, components, variants, and CSS Grid, under the Mozilla Public License 2.0. Its central pitch is reducing designer-developer handoff through code-aligned designs and deployment choice. User reports are mixed: some praise its vector workflow and hosting options, while others report document corruption, crashes, high memory use, and incomplete text-to-path export.
 
 ### Comment pulse
 
-- Open formats improve handoff and ownership → teams can inspect generated web code, self-host, and integrate through APIs or webhooks.
-- Production reliability remains disputed → some users report stable examples — counterpoint: others describe repeatable page corruption and team-wide crashes.
-- Text portability is incomplete → exported SVG can render differently when recipients lack the original fonts and text cannot become paths.
+- Supporters called it a productive general vector editor, not merely a full application-flow tool.
+- Critics questioned reliability at team scale and long-term separation between community and paid features.
 
 ### LLM perspective
 
-- View: Openness is compelling, but design tools earn trust through document integrity before feature breadth.
-- Impact: Teams gain pricing leverage and deployment control while assuming migration, performance, and compatibility risk.
-- Watch next: Corruption reproductions, memory benchmarks, crash telemetry, text-to-path support, hosted pricing, and enterprise feature parity.
+- View: Open formats and self-hosting are meaningful differentiation only if document fidelity is dependable.
+- Impact: Reliability failures carry unusually high cost because design files become shared product specifications.
+- Watch next: Reproducible stability benchmarks, text export fidelity, memory scaling, and transparent feature licensing.

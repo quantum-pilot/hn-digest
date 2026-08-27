@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A WebGL demo renders stylized 2D shadows from a distance field. For each pixel, ray marching advances toward the light by the known safe distance to the nearest glyph, avoiding slow one-pixel steps and missed obstacles. Softness comes from minimizing the ratio between scene distance and ray progress, then applying quadratic light falloff; the result is attractive rather than physically exact. Commenters praised the interactive explanation, suggested clearer affordances, and discussed cone tracing, gradients, blur, banding, and mobile noise.
+The tutorial builds fast 2D shadows from a distance field, which tells each pixel how far it is from the nearest shape. A ray can safely advance by that distance, avoiding both one-pixel stepping and missed obstacles. Hard shadows become soft by tracking the minimum ratio of shape distance to ray progress, then applying quadratic light falloff. The effect is deliberately nonphysical but visually effective. A fixed step limit prevents pathological cost, while improved distance estimates and randomized shorter steps trade banding for grain.
 
 ### Comment pulse
 
-- Gradient-aware stepping may reduce samples → surface orientation helps, but curved geometry can require higher derivatives to preserve safe bounds.
-- Softness trades accuracy for aesthetics → jitter reduces banding but adds grain — counterpoint: post-processing blur might hide both artifacts cheaply.
-- Interactive figures need signposting → readers missed that several images could be dragged or touched.
+- Readers noted that several illustrations are interactive but insufficiently labeled, particularly on mobile.
+- Discussion suggested gradients might permit larger safe steps, though curved surfaces require more information to preserve correctness.
 
 ### LLM perspective
 
-- View: The tutorial succeeds by exposing an intuitive approximation and its visible compromises rather than claiming physical realism.
-- Impact: Game and web developers gain a compact shader technique for typography, lighting, antialiasing, or depth-of-field effects.
-- Watch next: Gradient-aware stepping, cone coverage, adaptive limits, artifact comparisons, mobile performance, and clearer demo captions.
+- View: The tutorial succeeds by exposing the approximation and its aesthetic goal instead of claiming physical accuracy.
+- Impact: Distance fields turn expensive visibility checks into adaptive steps suitable for responsive visual effects.
+- Watch next: Better artifact suppression, clearer interactive affordances, and performance comparisons across mobile hardware.

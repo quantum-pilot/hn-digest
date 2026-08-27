@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The author argues Google’s vertically integrated TPU stack can lower AI compute costs, improve performance per watt, and protect cloud margins from Nvidia’s markup. Specialized systolic arrays, high-bandwidth memory, optical interconnects, and co-designed software favor large matrix workloads, while CUDA familiarity, PyTorch tooling, multi-cloud portability, and data-egress costs favor GPUs. Commenters challenged benchmark scarcity and network comparisons, emphasizing that model quality also depends on research, datasets, evaluation, and operations. They nevertheless saw inference economics and internal silicon as durable strategic advantages.
+The author argues Google’s vertically integrated TPUs, software, optical interconnects, and cloud operations could lower AI inference costs and reduce dependence on Nvidia margins. Specialized systolic arrays minimize memory movement, while Ironwood expands compute, memory, and cluster scale. Yet public performance data are limited, many comparisons rely on interviews or older generations, and advantages vary by workload. Adoption faces CUDA and PyTorch familiarity, GCP-only availability, migration costs, and less flexibility. Commenters further argued hardware alone cannot replace research, data, evaluation, or developer productivity.
 
 ### Comment pulse
 
-- Optical scale may be the deeper moat → huge TPU pods combine custom networking, silicon, models, and cloud operations under one owner.
-- Topology comparisons need workload context → torus networks scale capacity — counterpoint: switched NVLink better serves all-to-all expert traffic.
-- Hardware does not guarantee leading models → software maturity, experimentation speed, data curation, and reliability can outweigh theoretical efficiency.
+- Debate split over whether Google’s optical network is a unique moat or an architecture with workload-specific topology tradeoffs.
+- Readers noted Nvidia can specialize too, while Google’s advantage may primarily be avoiding markup and coordinating the full stack.
 
 ### LLM perspective
 
-- View: TPUs strengthen Google’s economics most where stable workloads justify specialization; GPUs retain the ecosystem and portability advantage.
-- Impact: Successful internal accelerators pressure Nvidia margins and let Google price cloud inference more aggressively.
-- Watch next: Independent Ironwood benchmarks, MLPerf results, external availability, PyTorch portability, utilization, failure rates, and customer migrations.
+- View: Vertical integration creates an economic option, not proof that Google will win on model quality.
+- Impact: Competitive accelerators could pressure cloud margins and Nvidia pricing even without displacing GPUs broadly.
+- Watch next: Independent benchmarks, external availability, software portability, utilization rates, and total production economics.

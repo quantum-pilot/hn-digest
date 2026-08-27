@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A publisher’s description previews Gil Durán’s 2026 book, which argues that a technology-centered authoritarian movement seeks to replace elected government with corporate rule. It traces intellectual roots to The Sovereign Individual and promises examples involving San Francisco politics, billionaire projects, cryptocurrency, AI, and social-media propaganda, plus a resistance roadmap. The page provides assertions rather than supporting evidence or excerpts. Commenters debated whether the framing is alarmist, whether code deserves emphasis alongside capital, and how techno-libertarian ideas spread through influential networks.
+This publisher description promotes Gil Durán’s forthcoming book as an investigation of a technology-driven authoritarian movement seeking to replace elected government with corporate rule. It says the narrative traces ideas from The Sovereign Individual through cryptocurrency, artificial intelligence, social-media propaganda, San Francisco politics, billionaire projects, and national power, ending with a proposed resistance roadmap. Because the supplied source is marketing copy for an unreleased book rather than the book or an independent review, its sweeping claims, evidence, nuance, and promised investigations cannot be assessed here.
 
 ### Comment pulse
 
-- Concentrated wealth deserves scrutiny → a few platform owners can shape information, elections, policy, and everyday choices at exceptional scale.
-- The framing may obscure specifics → provocative labels attract attention — counterpoint: supporters argue ordinary language understates genuine antidemocratic ambitions.
-- Technology amplifies rather than originates power → algorithms lower the cost and reach of decisions made by institutions and leaders.
+- Readers admired the title but debated whether the framing was illuminating or polarizing before seeing the book’s evidence.
+- Discussion focused on whether code adds distinctive political power beyond capital and on the influence of techno-libertarian ideas.
 
 ### LLM perspective
 
-- View: The thesis cannot be assessed from promotional copy; its credibility will depend on documented actors, mechanisms, and causality.
-- Impact: A rigorous account could clarify political influence; a sweeping one could deepen tribalism without improving accountability.
-- Watch next: Source notes, case studies, definitions of fascism, treatment of counterevidence, reviews, and the August 2026 publication.
+- View: A provocative thesis needs mechanisms, documents, and counterexamples; promotional synopsis cannot supply that test.
+- Impact: Branding disparate technology politics as one movement may clarify networks or flatten important differences.
+- Watch next: The book’s sourcing, definitions, causal evidence, treatment of dissent, and concrete resistance proposals.

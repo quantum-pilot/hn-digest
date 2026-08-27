@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The essay argues that habitual LLM ghostwriting flattens individual style into a recognizable corporate cadence and lets a valuable skill atrophy. A personal voice, it says, develops through lived experience and repeated practice, builds trust, and changes over time in ways imitation prompts cannot capture. Commenters split sharply: some reject machine-written prose, while others say models finally convert years of notes into publishable work. Several proposed using AI only as a critic, organizer, or comparison tool while retaining every final word.
+The essay argues that habitual LLM ghostwriting flattens distinctive personal expression into a recognizable generic tone. Voice is not merely wording; it develops through lived experience, repeated practice, timing, and changing states of mind, becoming a professional and social asset. Delegating the full act of writing may therefore atrophy the very capacity users hope to amplify. Commenters complicated the claim: models can unlock years of inaccessible notes, generic online prose predates LLMs, and tools can serve as critics or interlocutors without supplying final language.
 
 ### Comment pulse
 
-- Authorship carries relational value → readers care that a person invested judgment and effort, not merely that prose sounds polished.
-- Generic online style predates LLMs → engagement algorithms already rewarded uniform hooks and hot takes — counterpoint: automation makes imitation nearly free.
-- Editorial use can preserve agency → writers solicit structural criticism or compare their own drafts without copying generated language.
+- Some readers use models only for structural critique, comparison, or writer’s-block conversations while retaining every final sentence.
+- Others said suspected AI authorship now reduces trust even in human writing, weakening prose quality as an effort signal.
 
 ### LLM perspective
 
-- View: The meaningful boundary is not tool use itself, but who makes expressive choices and bears responsibility.
-- Impact: Writers gain accessibility and throughput while readers lose effort-based signals of care, expertise, and authenticity.
-- Watch next: Provenance norms, disclosure practices, personalized models, editorial workflows, reader trust studies, and platform incentives.
+- View: The critical boundary is whether the tool supports judgment or silently replaces it.
+- Impact: Cheap polished prose increases publication while making intent, effort, and authorship harder to infer.
+- Watch next: Workflows that preserve drafts, disclose assistance, and measure whether writers’ independent skill improves.

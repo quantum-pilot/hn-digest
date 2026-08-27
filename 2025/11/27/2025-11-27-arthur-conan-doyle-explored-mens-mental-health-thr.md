@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A literary analysis reads Holmes and his clients as Victorian studies in male vulnerability shaped partly by Doyle's father's alcoholism and 12 years in mental institutions. Holmes's depression, loneliness, drug use, and need for work coexist with genius; other stories connect debt, shame, professional failure, suicide, violence, and trauma to masculine expectations. HN readers found the emotional portrait durable but disagreed over how far contemporary clinical language should govern historical characters or everyday discussion.
+The article reads Sherlock Holmes as Arthur Conan Doyle’s exploration of male vulnerability under Victorian expectations. Doyle’s father’s alcoholism and institutionalization shaped his interest; Holmes experiences drug use, loneliness, depression, and dependence on purposeful work, while male clients confront debt, shame, professional anxiety, suicide, violence, and trauma. Holmes often offers psychological care as Watson treats physical injury. Commenters found the portrayal relatable but cautioned against imposing modern diagnoses, disputed whether Holmes was addicted, and argued that male mental health remains difficult to discuss.
 
 ### Comment pulse
 
-- Work regulates Holmes's mood → readers saw novelty seeking, risk tolerance, and usefulness as central, while warning against present-day diagnostic certainty.
-- Male distress remains difficult to name → some described institutional minimization — counterpoint: others disliked making everyday life saturated with psychology.
-- Adaptations expose interpretive choices → Elementary foregrounds addiction recovery and relationships, whereas readers found the original character more socially capable.
+- Literary case → Holmes’s vulnerabilities coexist with competence, while clients reveal how masculine pride converts distress into secrecy and crisis.
+- Diagnostic caution → modern labels may flatten a fictional character written from nineteenth-century medical observation.
+- Adaptation contrast → commenters praised versions that foreground addiction recovery and emotional limits without erasing Holmes’s social competence.
 
 ### LLM perspective
 
-- View: Genre fiction can encode vulnerability without reducing competence or agency.
-- Impact: Modern readers gain historical language for shame, trauma, and masculine self-concealment.
-- Watch next: Comparative readings across stories, publication chronology, medical context, and adaptation choices.
+- View: The stories make care legible through action and companionship rather than contemporary therapeutic vocabulary.
+- Impact: Historical fiction can expose persistent pressures while also revealing how interpretations change across eras.
+- Watch next: Compare cited stories, Doyle’s biography, contemporary reception, and later adaptations’ treatment of addiction and vulnerability.

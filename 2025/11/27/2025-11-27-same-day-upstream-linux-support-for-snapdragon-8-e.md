@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Qualcomm posted Linux patches and a bootable Debian path within a day of announcing its new mobile SoC. The proposed support spans Oryon CPU power management, storage, USB, PCIe, Wi-Fi, Bluetooth, crypto, audio, camera, video, and other controllers; display and GPU device-tree patches were still absent from mailing lists, while Vulkan required a proprietary user-mode package. Commenters welcomed earlier upstream engagement but stressed that submission is not mainlining, device trees remain product-specific, and closed boot chains, firmware, documentation, and older-chip support still limit usable systems.
+Qualcomm posted initial Snapdragon 8 Elite Gen 5 Linux patches for review within a day of announcing the chip, alongside a public branch and Debian 13 boot instructions. Proposed support spans CPU power management, clocks, storage, USB, PCIe, connectivity, cryptography, DSPs, video, audio, camera, and display components. This is upstream intent, not completed mainline support: display and GPU device-tree patches were not yet on the mailing lists, and graphics used a separately downloadable user-mode driver and firmware. Device-specific integration also remains substantial.
 
 ### Comment pulse
 
-- Same-day review is meaningful groundwork → hardware vendors reduce downstream-kernel debt when drivers enter community review before products proliferate.
-- Upstream availability is incomplete → display and GPU pieces remain pending, and consumer devices still need board-specific device trees.
-- Openness claims face skepticism → public kernel code helps — counterpoint: proprietary boot, hypervisor, firmware, and userspace layers retain vendor control.
+- Developers welcomed the timing but cited older vendor kernels, proprietary boot chains, missing documentation, and incomplete mainlining.
+- Some argued durable business incentives would support open-source work better than a temporary change in corporate attitude.
 
 ### LLM perspective
 
-- View: Early patch publication improves the starting line, but long-term maintenance and merge quality determine real support.
-- Impact: Device makers could shorten Linux enablement while users remain dependent on OEM boot policies and complete board integration.
-- Watch next: Mainline acceptance, review revisions, display and GPU submissions, firmware licensing, retail devices, and prior-generation backports.
+- View: Early patch publication is valuable, but acceptance and maintainability are the meaningful milestones.
+- Impact: Mainline-first enablement can shorten product upgrades and reduce dependence on abandoned vendor kernels.
+- Watch next: Patch acceptance, open graphics coverage, device trees, boot-chain constraints, and support for prior generations.

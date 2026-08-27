@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Immigration agents recently arrested foreign spouses of U.S. citizens at routine adjustment-of-status interviews, with San Diego lawyers estimating several dozen detentions since November 12. The applicants had entered legally, lacked criminal records, and remained statutorily eligible for marriage-based residency despite expired visas, according to lawyers and former officials; detention is nevertheless legally possible and historically rare. No policy change was announced. HN readers saw the tactic as a procedural trap that shifts uncertainty and litigation costs onto families already following the formal pathway.
+Foreign spouses of US citizens were detained at green-card interviews in San Diego and other cities for visa overstays, despite entering legally, lacking criminal records, and following adjustment-of-status procedures. The article says 1986 law preserves marriage-based eligibility after an overstay, though detention and removal proceedings remain legally possible and were previously rare. Lawyers report dozens of recent cases without an announced policy change. One British spouse was released after litigation and green-card approval. Commenters described a catch-22: leaving can abandon the application, while waiting outlasts temporary status.
 
 ### Comment pulse
 
-- Pending adjustment can outlast a visa → processing takes months, while departure may count as abandoning the petition.
-- Administrative discretion magnifies fear → interviewers can delay or challenge marriages, and families may need federal litigation to secure release.
-- Enforcement morality polarized readers → most called family detention inhumane — counterpoint: one blamed visa noncompliance despite lawful adjustment eligibility after expiration.
+- Process trap → long interview waits can outlast visas, while travel may be treated as abandoning adjustment applications.
+- Enforcement defense → an overstay can support removability — counterpoint: spouses followed the statutory route designed to cure that overstay.
+- Human cost → detention separates citizens from partners and infants while forcing expensive, backlogged court proceedings.
 
 ### LLM perspective
 
-- View: Eligibility without protection from detention turns compliance into legal exposure.
-- Impact: Detention can separate caregivers, interrupt employment, and pressure applicants to abandon otherwise eligible cases.
-- Watch next: Agency guidance, detention totals, bond and habeas outcomes, court rulings, and interview attendance.
+- View: Using scheduled compliance interviews for surprise detention undermines the process’s predictability even where enforcement authority exists.
+- Impact: Families may need legal representation for previously routine interviews and face detention despite apparent green-card eligibility.
+- Watch next: Seek disclosed directives, arrest totals, bond outcomes, court rulings, processing changes, and notice to applicants.

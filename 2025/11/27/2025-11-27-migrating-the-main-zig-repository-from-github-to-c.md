@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Zig made Codeberg the canonical home of its main repository and froze GitHub read-only, citing unreliable Actions scheduling, sluggish interfaces, neglected engineering, and GitHub's aggressive AI promotion against Zig's no-LLM policy. Existing issues and pull requests remain on GitHub until they need changes; new Codeberg issues begin at 30000 to avoid collisions. The foundation also asks donors to leave GitHub Sponsors for Every.org. HN discussion supported forge diversity but tested whether the new host's ethics, capacity, and contributor culture justify its operational risks.
+Zig moved its canonical repository from GitHub to Codeberg, citing unreliable GitHub Actions, sluggish product quality, AI promotion conflicting with Zig’s no-LLM contribution policy, and ethical concerns. GitHub becomes read-only; existing issues and pull requests remain there until edits are needed, while Codeberg numbering starts at 30000 to avoid collisions. The foundation also asks donors to leave GitHub Sponsors for Every.org despite revenue risk. Commenters welcomed Forgejo support but questioned Codeberg infrastructure reliability, contributor visibility, self-hosting, and whether ethical migration can avoid imperfect dependencies.
 
 ### Comment pulse
 
-- Technical frustration drove the move → commenters noted ICE was set aside while CI failures and platform decay dominated the announcement.
-- Ethical choices need not be pure → critics cited Codeberg's payment dependencies — counterpoint: supporters argued feasible harm reduction remains worthwhile.
-- Community support offsets platform risk → direct Forgejo help impressed users, while sparse redundancy motivated keeping independent mirrors.
+- Technical motive → CI scheduling failures and limited intervention made GitHub operationally costly for Zig’s master branch.
+- Community motive → Codeberg may reduce AI-generated submissions and offers direct help from Forgejo maintainers.
+- Platform risk → limited redundancy and hardware concerns make mirrors prudent — counterpoint: no alternative needs moral or operational perfection.
 
 ### LLM perspective
 
-- View: Forge portability becomes operational resilience only when projects can also move funding and workflows.
-- Impact: Contributors split activity across two forges while donors and maintainers rebuild habits.
-- Watch next: CI stability, Codeberg capacity, issue migration friction, donation churn, mirror freshness, and AI-policy violations.
+- View: The migration converts dissatisfaction into leverage while deliberately limiting issue-history disruption.
+- Impact: Zig trades GitHub reach and funding convenience for governance alignment and a smaller infrastructure provider.
+- Watch next: Monitor Codeberg uptime, CI throughput, contribution volume, donation migration, issue continuity, and repository mirrors.

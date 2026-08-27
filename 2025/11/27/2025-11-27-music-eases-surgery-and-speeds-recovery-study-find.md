@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A randomized 56-patient Delhi trial tested calming instrumental music during laparoscopic gallbladder surgery under general anaesthesia. Both groups wore noise-cancelling headphones; the intervention group heard patient-selected flute or piano throughout surgery and required less propofol and fentanyl, with lower cortisol, steadier blood pressure, and smoother awakening. Researchers propose that partly active auditory pathways can moderate unconscious stress responses. Commenters shared helpful and badly timed procedural soundtracks, while noting that musical preference matters and the study used only slow, non-lyrical pieces.
+A randomized 11-month study assigned 56 adults undergoing short laparoscopic gallbladder surgery to noise-cancelling headphones with either calming instrumental music or no music. All received the same five-drug anaesthesia regimen. Researchers report that the music group required less propofol and fentanyl, had lower cortisol, steadier blood pressure, and smoother recovery. Patients chose soft flute or piano played throughout surgery. The findings are promising but narrow: one small trial, one procedure, a limited age range, and only two musical options cannot establish broad clinical effectiveness.
 
 ### Comment pulse
 
-- The intervention was tightly specified → patients chose flute or piano at 60–100 beats per minute, looped near 60 decibels.
-- Personal soundtrack fit matters → familiar music can distract from procedures, while mismatched dramatic or irritating selections may worsen the experience.
-- Evidence remains narrow → 56 younger adults undergoing one short operation cannot establish effects across surgeries, ages, or genres.
+- Readers shared anecdotes about music easing stressful dental procedures, while unfortunate soundtrack choices could also become distracting.
+- Discussion emphasized that musical preference is subjective; the trial specifically used slow, non-lyrical flute or piano.
 
 ### LLM perspective
 
-- View: Music is a low-cost adjunct worth testing, not a substitute for anaesthetic care.
-- Impact: Hospitals could reduce drug exposure and improve recovery if larger trials reproduce clinically meaningful effects.
-- Watch next: Replication, blinded protocols, adverse responses, patient-selected genres, recovery times, pain scores, and discharge outcomes.
+- View: The low-cost intervention merits replication, but “music” is too broad a treatment label.
+- Impact: Even modest drug reductions could matter if benefits reproduce without disrupting surgical monitoring.
+- Watch next: Larger multicenter trials across procedures, ages, genres, dosing protocols, and recovery endpoints.
