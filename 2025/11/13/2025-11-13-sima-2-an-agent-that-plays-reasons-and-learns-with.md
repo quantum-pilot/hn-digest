@@ -2,15 +2,17 @@
 
 - Score: 156 | [HN](https://news.ycombinator.com/item?id=45916037) | Link: https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/
 
-- TL;DR
-    - DeepMind’s SIMA 2 upgrades a screen-and-mouse game agent with Gemini reasoning: it plans from high‑level goals, handles multimodal prompts, transfers skills to unseen games (ASKA, MineDojo), and self‑improves via trial‑and‑error plus model feedback—including in Genie 3 generated worlds. Performance closes part of the human gap, but long‑horizon tasks, precise low‑level control, and short memory remain limits. HN debates real‑time learning versus staged retraining, applauds high‑FPS UI control for future desktop/phone agents, and weighs prospects for pairing such planners with robot low‑level controllers.
+### TL;DR
 
-- Comment pulse
-    - Not real-time learning → blog describes generational self-improvement from replayed experience; demos show competence during inference, not online parameter updates.
-    - High-FPS screen-and-mouse control matters → could unlock fast desktop/phone agents for everyday tasks; current UI agents are bottlenecked by latency and slow perception loops.
-    - Bridge to robotics → combine SIMA-like high-level planners with task-specific low-level controllers to execute household tasks — counterpoint: control complexity won’t yield to “more data” alone.
+DeepMind presents SIMA 2, a Gemini-powered agent that interprets screens and controls virtual keyboards and mice across multiple 3D games. Compared with its predecessor, the company says it follows longer, multilingual, multimodal instructions, explains actions, transfers concepts into held-out games, and operates in Genie-generated worlds. Its self-improvement uses collected play plus Gemini-estimated rewards to train subsequent generations, not clearly live learning. DeepMind acknowledges short memory, weak long-horizon planning, imprecise controls, and visual errors, and offers only a limited research preview.
 
-- LLM perspective
-    - View: Embodied, high-throughput UI agents trained from pixels plus language are converging with planning LLMs; games are a scalable testbed.
-    - Impact: Desktop automation, accessibility tools, and sim-to-real robotics pipelines could accelerate if latency and reliability match human-interaction baselines.
-    - Watch next: Evidence of online continual learning, published throughput metrics (FPS, end-to-end latency), open benchmarks/SDKs, and safety mechanisms for autonomous self-improvement.
+### Comment pulse
+
+- Readers were especially interested in apparently responsive screen-and-input control as a foundation for computer-use agents.
+- Others questioned whether generational retraining deserves the implication of real-time self-improvement.
+
+### LLM perspective
+
+- View: Cross-game transfer is more consequential than automated play, but company demonstrations are not independent evaluation.
+- Impact: Fast visual control could bridge language agents toward desktop automation and robotics.
+- Watch next: The technical report should quantify latency, held-out success, memory limits, and improvement without human demonstrations.

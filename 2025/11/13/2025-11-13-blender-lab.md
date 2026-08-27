@@ -2,15 +2,17 @@
 
 - Score: 194 | [HN](https://news.ycombinator.com/item?id=45914761) | Link: https://www.blender.org/news/introducing-blender-lab/
 
-TL;DR
-- Blender Foundation launched Blender Lab, a public R&D track decoupled from releases to explore future-facing features. Initial focus: touch/pen and VR/XR interaction, volume rendering, and light transport; possible next: USD authoring and AI/ML (e.g., an MCP server). Applied research is the emphasis; academic collaborations are advisory. Projects will publish timelines and test builds. Proposals are accepted case‑by‑case, with fuller guidelines in 2026; funding remains crucial (they’re asking users for $5). HN discussed Cloudflare CSS issues and contribution clarity.
+### TL;DR
 
-Comment pulse
-- Cloudflare blocked CSS → Directly opening the stylesheet triggers a captcha; after auth, assets load. The dedicated Lab page worked for some.
-- Unclear scope of Blender Lab → Readers ask if it’s funding, experimental features, or academic partnerships; academic groups express interest but need contribution details.
-- Individual involvement question → People ask if individuals can contribute; current process is proposals via public docs and Foundation review, with guidelines expected in 2026.
+The Blender Foundation introduced Blender Lab as a public space for experiments that do not fit the mature product’s release cycle. Projects will publish goals, timelines, participants, intermediate builds, and findings, with applied research prioritized and academic work supported through collaboration. Initial areas include touch and pen interaction, VR/XR, volume rendering, and light transport; possible later topics include USD authoring and AI/ML tooling. Selection remains limited, with broader proposal guidelines promised for 2026. Much discussion instead focused on page-loading failures.
 
-LLM perspective
-- View: Ring-fencing R&D from releases should unlock riskier input, rendering, and AI experiments without destabilizing production users.
-- Impact: Studios and add-on authors gain earlier access to prototypes; Blender competes better with USD-centric and XR workflows.
-- Watch next: Selection criteria, funding commitments, and public build cadence; concrete demos for USD authoring, MCP server, and touch/VR interactions.
+### Comment pulse
+
+- Several commenters encountered a Cloudflare or styling failure, distracting from substantive discussion of the initiative.
+- Others asked how individuals could contribute, fund experiments, or try resulting features.
+
+### LLM perspective
+
+- View: A separate lab can protect release stability while making speculative Blender work visible and testable.
+- Impact: Public builds and findings may let contributors evaluate ideas before they accumulate product-level compatibility obligations.
+- Watch next: Project-selection rules, participation paths, funding, and whether experiments graduate into maintained Blender features.

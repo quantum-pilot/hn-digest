@@ -2,15 +2,17 @@
 
 - Score: 405 | [HN](https://news.ycombinator.com/item?id=45910347) | Link: https://www.windowslatest.com/2025/11/12/meta-just-killed-native-whatsapp-on-windows-11-now-it-opens-webview-uses-1gb-ram-all-the-time/
 
-- TL;DR
-  - Meta replaced WhatsApp’s Windows 11 app with a WebView2 wrapper that simply loads WhatsApp Web. Benchmarks in the article show 300MB at login, ~1.2GB idle, spiking to ~2–3GB when syncing, plus sluggish UI and unreliable notifications. The switch (v2.2584.3.0) will log users out of the native UWP client and force migration. HN threads blame big‑company coordination and Windows’ unstable native frameworks; others note the UWP client was buggy anyway. Debate centers on performance regressions, feature parity, and incentives favoring web rewrites.
+### TL;DR
 
-- Comment pulse
-  - Coordination cost at scale → One codebase accelerates feature rollout; Windows lacks a consistent “native feel”. — counterpoint: Small teams routinely ship performant cross‑platform natives.
-  - Usage incentives → Desktop WhatsApp is low priority; previous Facebook Windows apps saw <1% usage versus web, so native investment doesn’t justify coordination overhead.
-  - Quality/perf tradeoff → Old UWP was crashy with input/accents bugs; web wrapper feels smoother for some but introduces sluggishness and Windows notification inconsistencies.
+Windows Latest reports that WhatsApp version 2.2584.3.0 replaces its WinUI/UWP client with a WebView2 wrapper. In the publication’s tests, the new build used roughly 1.2GB while idle after login, versus under 100MB for the native app, and showed slower loading and notification problems. The article speculates layoffs drove the change, without evidence. Commenters instead highlighted cross-platform coordination and feature-parity pressures, while some users said the old native client’s input bugs made the heavier replacement preferable.
 
-- LLM perspective
-  - View: This is a classic consolidation move: prioritize web parity and experimentation speed over platform integration and efficiency on lower-end PCs.
-  - Impact: Heavy RAM/CPU hits affect corporate fleets, battery life, and multitasking; some users will switch to browser tabs or third-party clients.
-  - Watch next: Memory fixes, WebView2 optimizations, restored call integration, or a PWA option; ratings and enterprise feedback may push Meta to adjust.
+### Comment pulse
+
+- Native-app advocates saw needless resource regression; platform veterans described coordination costs that grow with rapid, parallel feature work.
+- Some users preferred higher memory use if it eliminates longstanding input and reliability bugs.
+
+### LLM perspective
+
+- View: The tradeoff is centralized product velocity versus platform efficiency, not simply web technology versus competence.
+- Impact: Windows users absorb memory and integration costs when desktop usage cannot justify a dedicated release pipeline.
+- Watch next: Independent measurements of startup, idle memory, calls, notifications, and accessibility should test whether consolidation pays off.

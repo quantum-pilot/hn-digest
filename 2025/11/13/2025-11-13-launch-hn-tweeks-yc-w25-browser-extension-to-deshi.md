@@ -2,15 +2,17 @@
 
 - Score: 152 | [HN](https://news.ycombinator.com/item?id=45916525) | Link: https://www.tweeks.io/onboarding
 
-- TL;DR
-    - Tweeks is a Chrome extension that uses an LLM to generate Greasemonkey-like “tweeks” from natural-language prompts, letting users hide clutter, reshape feeds, or restyle sites. Scripts persist via domain patterns and run locally; an LLM is called only when generating or updating, based on a captured page. HN asked about privacy, brittleness, cost, and business model. The founder says eval is manual, updates are planned, local models aren’t ready, Firefox is on the roadmap, and monetization/open source remain TBD.
+### TL;DR
 
-- Comment pulse
-    - Userscript-style scope and persistence → scripts use domain patterns; LLM only for generation; maintenance done manually now, with planned update propagation and eventual self-healing.
-    - Privacy risk during generation → page snapshot sent to LLM; scripts run locally; costs scale with page complexity, not per visit — counterpoint: signup timing felt dark-patterny.
-    - Monetization and openness unclear → founder weighs trust and SOC2 vs open-sourcing risk; local models not ready; Firefox support requested and prioritized.
+Tweeks is a Chrome extension that turns natural-language requests into persistent scripts for reshaping websites: hiding distractions, filtering feeds, moving controls, or applying custom themes. The founders say a page snapshot reaches an LLM only when generating or updating a script; normal execution is local, with URL matching controlling scope. Discussion welcomed a friendlier Greasemonkey-like tool but pressed on mandatory signup, sensitive-page privacy, evaluation, breakage after site changes, Firefox support, open sourcing, and an unsettled business model.
 
-- LLM perspective
-    - View: AI-assisted userscripts pragmatically empower user-side UI changes without full agent browsing; Greasemonkey UX with natural-language authoring.
-    - Impact: Likely adoption by power users, accessibility tweakers, and teams fixing internal tools; potential friction with ad-driven sites remains.
-    - Watch next: Firefox port, script update/marketplace mechanics, selector-robustness benchmarks, and on-device LLMs enabling dynamic per-load filtering without server calls.
+### Comment pulse
+
+- Users liked reclaiming control of hostile interfaces, especially without building and publishing separate extensions.
+- Trust concerns centered on page capture, signup timing, closed code, model costs, and scripts surviving adversarial redesigns.
+
+### LLM perspective
+
+- View: Generated userscripts make customization approachable, but extension-level privileges demand unusually clear trust boundaries.
+- Impact: Static local execution limits recurring cost while shifting maintenance and correctness risks onto generated scripts.
+- Watch next: Automated regression tests, transparent permissions, Firefox support, and a durable update mechanism will determine adoption.

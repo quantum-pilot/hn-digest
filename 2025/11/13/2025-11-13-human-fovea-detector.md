@@ -2,16 +2,18 @@
 
 - Score: 460 | [HN](https://news.ycombinator.com/item?id=45909059) | Link: https://www.shadertoy.com/view/4dsXzM
 
-- TL;DR
-    - An interactive ShaderToy visualization makes peripheral motion effectively disappear, letting you “map” your fovea where motion remains visible during fixation. Discussion highlights eye-movement physiology (saccades vs smooth pursuit), wide variability across users and glasses prescriptions, and reports of migraine/aura triggers from high-contrast flicker. Longtime users recall the shader previously overwhelming ShaderToy and praise its creator’s non-monetized stance.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-    - Eyes move in saccades; smooth pursuit only while tracking a target → the shader’s dot enables smooth tracking and makes the foveal zone apparent.
-    - Perceived circle size varies with optics and pathology → stronger minus lenses shrink retinal image; mild strabismus/amblyopia distort tracking, altering the motion-detection boundary.
-    - Can trigger visual aura/migraine-like sensations → high-contrast flicker and enforced fixation are known provokers — counterpoint: hard to pre-screen migraine/seizure risk for web content.
+This Shadertoy experiment uses rotating procedural patterns to make the viewer’s sharply perceived central region appear visible: fixating on a point should reveal motion clearly only around the gaze center, with apparent size changing by viewing distance. Its creator notes that display density may require scale adjustment and that smooth gradients help avoid peripheral detection. Commenters reported substantial variation with displays, glasses, and eye movement. Several migraine sufferers described discomfort or aura-like aftereffects, but these are personal reports rather than a safety assessment.
 
-- LLM perspective
-    - View: Neat demo of human temporal sensitivity and foveal acuity; not a diagnostic tool but an engaging perceptual experiment.
-    - Impact: Raises awareness of eye-movement mechanics and individual variation; may surface undiagnosed issues when experiences deviate significantly.
-    - Watch next: Add user-adjustable speed/contrast, color channels, and a guided protocol; publish aggregated anonymized measurements versus age, refractive error, and binocular status.
+### Comment pulse
+
+- Commenters discussed saccades and said tracking a moving object can enable smoother eye motion.
+- Results reportedly varied with prescriptions, display scaling, blur, resolution, and viewing distance.
+- Multiple users warned of migraine-like discomfort, while others questioned how such risk could be tested.
+
+### LLM perspective
+
+- View: The shader is an evocative perceptual demonstration, not a calibrated measurement of foveal anatomy or safety.
+- Impact: Hardware, optics, gaze behavior, and susceptibility can materially change the experience and limit comparisons between viewers.
+- Watch next: Clearer sensitivity warnings and controlled testing across displays, viewing distances, and visual conditions.

@@ -2,15 +2,17 @@
 
 - Score: 240 | [HN](https://news.ycombinator.com/item?id=45919067) | Link: https://blog.kagi.com/slopstop
 
-- TL;DR
-    - Kagi Search launched SlopStop, a community-driven system to flag AI “slop.” Reports plus internal signals label pages, downrank slop-heavy domains, and tag/downrank AI images/videos; users can filter them. It pairs with Kagi’s Small Web to amplify verified human creators and will seed a public slop dataset for broader detection. HN welcomed the move and asked other platforms to copy it, while skeptics warned of SEO 2.0, false positives, and adversarial learning; Kagi’s ML lead emphasized source- and behavior-based signals. Others noted large audiences still enjoy AI content.
+### TL;DR
 
-- Comment pulse
-    - Add slop flags platform-wide → Users want safe havens from polished junk; some wish HN would adopt similar reporting.
-    - AI spam is worse than old SEO → It looks good, buries substance, and helps engines control the front door of content.
-    - Futility and collateral damage → AI will match average bloggers; labels teach spammers — counterpoint: Kagi cites source-level and linking signals to reduce false positives.
+Kagi’s SlopStop lets users report deceptive or low-value AI-generated pages, images, and videos in search results. Kagi says it verifies reports with internal signals, downranks domains mainly devoted to generated content, labels isolated generated pages without penalizing mixed domains, and can filter confirmed synthetic media entirely. The company plans to use the resulting community-curated dataset for automated detection. Commenters welcomed relief from search spam but disputed whether generation itself signals low value and warned about false positives as outputs become harder to identify.
 
-- LLM perspective
-    - View: Hybrid crowdsourcing + provenance signals can work if review throughput, abuse prevention, and appeals are resourced.
-    - Impact: Differentiates paid search; pressures content farms; incentivizes human attestation and clearer AI disclosure across media.
-    - Watch next: Publish precision/recall and appeal rates; dataset access terms; evasion tactics; cross-engine adoption; media watermarks and cryptographic provenance integrations.
+### Comment pulse
+
+- Supporters compared AI content farms to SEO spam at greater volume and with more convincing presentation.
+- Skeptics argued source behavior and usefulness matter more than whether prose or media was generated.
+
+### LLM perspective
+
+- View: Domain behavior, publication velocity, and affiliate patterns are stronger signals than stylistic AI detection alone.
+- Impact: Community reports can improve ranking quickly, but mistaken labels could suppress legitimate creators.
+- Watch next: Kagi should publish appeal procedures, reviewer agreement, false-positive rates, and dataset governance before automating enforcement.

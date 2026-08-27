@@ -2,15 +2,17 @@
 
 - Score: 432 | [HN](https://news.ycombinator.com/item?id=45909667) | Link: https://www.jenn.site/my-dad-could-still-be-alive-but-hes-not/
 
-- TL;DR
-  - Personal account: a 57-year-old in Toronto has crushing chest pain; family waits 30 minutes for an ambulance after being told to stay put. They finally drive; he collapses and dies on the hospital steps. The author indicts institutional scripts that say “wait for EMS.” HN readers report wildly variable response times, from sub‑5‑minute community responders to multi‑hour waits, and debate self‑transport versus paramedic care. Practical themes: chew aspirin immediately, know local EMS realities, use fire/volunteers, and weigh driving if ETA is long and safe.
+### TL;DR
 
-- Comment pulse
-  - Response times vary widely; volunteers and fire-first response can halve delays; Melbourne averages ~13 minutes; rural US 15–30+, UK reports hours.
-  - Protocols: chest pain → call 911, chew 160–325 mg aspirin, prepare for CPR/AED; self-transport if ETA long and safe—counterpoint: moving unstable patients risks deterioration.
-  - Dispatch gaps: call-takers may lack ETA visibility; some regions auto-dispatch fire; scripts prioritize liability and averages, missing edge cases.
+In a personal account, the author describes her 57-year-old father developing severe chest pain in Toronto and waiting 30 minutes for an ambulance after a dispatcher advised the family not to drive. They eventually drove him; he collapsed outside the emergency room and died. She believes misplaced trust in official guidance cost critical time, while acknowledging uncertainty about conditions that night. The supplied account cannot establish the counterfactual. Commenters described uneven response systems and debated transport risks, triage, and institutional judgment under uncertainty.
 
-- LLM perspective
-  - View: Ambulance-wait orthodoxy needs nuance; decisions should consider local response times, proximity to cath labs, and immediate bystander actions.
-  - Impact: Households, dispatch, and hospitals; more aspirin-at-home, AED awareness, and proactive dispatcher guidance could shave life-or-death minutes.
-  - Watch next: Publish real-time ETAs, auto-dispatch nearest fire/volunteers, track door-to-balloon times, teach “call, chew aspirin, decide transport” in public training.
+### Comment pulse
+
+- Responders described community first-aid networks as valuable bridges when ambulances are delayed.
+- Others cautioned that ambulances provide care during transport, making hindsight-based universal rules unsafe.
+
+### LLM perspective
+
+- View: The failure described is not merely delay, but guidance delivered without a usable arrival estimate.
+- Impact: Families cannot make informed emergency choices when dispatch systems expose neither uncertainty nor fallback thresholds.
+- Watch next: Response-time transparency and locally validated escalation protocols need evaluation without generalizing from one tragedy.

@@ -2,15 +2,17 @@
 
 - Score: 248 | [HN](https://news.ycombinator.com/item?id=45916146) | Link: https://www.popularmechanics.com/cars/hybrid-electric/a69384091/cybertruck-lightbar-recall/
 
-- TL;DR
-  - Tesla recalled 6,197 Cybertrucks—about 10% of those on the road—because an incorrect primer used to glue the dealer-installed windshield lightbar can let it detach and become a projectile. NHTSA describes the fix: inspect, add a mechanical attachment, and in some cases reattach with tape plus hardware, free of charge; owner letters go out Dec 26, 2025, service timing unclear. HN discussion widens to build quality, “design-by-glue” tradeoffs, and U.S. pedestrian-safety gaps compared to Europe—echoing earlier adhesive-related issues.
+### TL;DR
 
-- Comment pulse
-  - US vehicle safety ignores pedestrians → angular trucks pass while posing external risk — counterpoint: Cybertruck’s lower hood may be less lethal than F-150s.
-  - Persistent quality issues → rigid stainless panels glued to aluminum structure plus thermal expansion and vibration lead to parts detaching and poor fit/finish.
-  - Customer trust eroding → refund delays and unmet exoskeleton promises, while Musk’s projections outpace reality as Cybertruck sales decline.
+Tesla voluntarily recalled 6,197 Cybertrucks equipped with a dealer-installed off-road light bar after an incorrect primer could weaken its adhesive bond to the windshield, according to the article and NHTSA material it cites. A detached bar could become a road hazard. Tesla service will inspect affected vehicles and add a mechanical attachment, replacing or retaping the bar when needed, at no charge. Discussion treated this as another Cybertruck quality-control failure, while broad claims about pedestrian safety and vehicle design remained contested.
 
-- LLM perspective
-  - View: Adhesive-only exterior accessories are brittle-by-design; add mechanical retention upfront and validate primers against OEM specs.
-  - Impact: Service centers face backlogs; NHTSA may widen scrutiny to aftermarket/dealer installs and pedestrian protection metrics.
-  - Watch next: Track remedy durability, failure rates post-fix, and whether USDOT advances EU-style pedestrian safety tests for trucks.
+### Comment pulse
+
+- Critics saw another adhesive-related recall as evidence of weak Cybertruck design and manufacturing discipline.
+- Debate broadened to pedestrian risk, with commenters disagreeing whether its shape is worse than conventional large pickups.
+
+### LLM perspective
+
+- View: The narrow defect is straightforward; repeated attachment failures create the larger reputational damage.
+- Impact: Owners face service delays while Tesla absorbs scrutiny over validation of dealer-installed hardware.
+- Watch next: Completion rates and subsequent detachment reports will show whether mechanical redundancy resolves the issue.

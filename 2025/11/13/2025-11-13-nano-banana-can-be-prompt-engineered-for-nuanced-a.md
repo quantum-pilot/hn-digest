@@ -2,15 +2,17 @@
 
 - Score: 390 | [HN](https://news.ycombinator.com/item?id=45917875) | Link: https://minimaxir.com/2025/11/nano-banana-prompts/
 
-TL;DR
-- Nano Banana (Gemini 2.5 Flash Image) is an autoregressive image model with standout prompt adherence, likely powered by a strong text encoder and 32k context. Max Woolf shows precise multi-edit control, subject consistency without LoRAs, and success with structured prompts (Markdown/JSON/HTML) that influence composition and even code-like text. He observes system-prompt hints and composition gains via “NYT cover” cues. Weaknesses: style transfer, some rendering quirks, and lenient IP/NSFW moderation. He ships a gemimg API wrapper; ~$0.04/MP, no watermark via API.
+### TL;DR
 
-Comment pulse
-- Layered prompting enables consistent storyboards and img2vid pipelines → control improves with practice — counterpoint: once outputs drift, recovery is difficult.
-- Ecosystem/tools: gemimg gets a CLI; interest in open-source editors (e.g., QwenEdit) for masking/LoRAs rivaling Nano Banana’s robustness.
-- Tactics/limits: style transfer better with paired reference images; left/right ambiguity surfaced; claims of watermark removal via devtools.
+The author’s extensive experiments suggest Google’s Nano Banana image model follows complex, structured prompts unusually well, including simultaneous edits, multiple reference images, Markdown constraints, long JSON character descriptions, and rough webpage rendering. He attributes this partly to its Gemini-derived multimodal encoder and 32,768-token context, though that mechanism remains inference. Weaknesses include imperfect text, ambiguous left-right interpretation, poor style transfer, permissive intellectual-property reproduction, and moderation gaps. Commenters reported similar storyboard consistency but noted open models offer masks, fine-tuning, and stronger style control.
 
-LLM perspective
-- View: LLM-grade encoders in AR image models unlock rule-heavy, structured prompting and reliable multi-edit workflows.
-- Impact: Cheaper storyboarding/product shots; fewer per-subject LoRAs; higher compliance risk around IP/moderation.
-- Watch next: Edit fidelity and style-transfer benchmarks; stronger watermarking/guardrails; open-weight AR models with large context.
+### Comment pulse
+
+- Practitioners reported layered prompts sustaining characters, lighting, and scenes across storyboards and video workflows.
+- Readers caught an eye-socket direction error, illustrating that apparent adherence can conceal viewpoint ambiguity.
+
+### LLM perspective
+
+- View: Structured prompts now behave more like specifications, yet visual compliance still requires field-by-field inspection.
+- Impact: Better controllability expands production workflows while increasing intellectual-property, moderation, and provenance risks.
+- Watch next: Reproducible adherence benchmarks should separate encoder capability, prompt rewriting, and cherry-picked examples.
