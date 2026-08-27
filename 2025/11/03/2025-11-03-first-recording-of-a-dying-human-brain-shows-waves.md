@@ -2,15 +2,17 @@
 
 - Score: 253 | [HN](https://news.ycombinator.com/item?id=45796421) | Link: https://louisville.edu/medicine/news/first-ever-recording-of-a-dying-human-brain-shows-waves-similar-to-memory-flashbacks
 
-- TL;DR
-    - An 87-year-old epilepsy patient’s continuous EEG captured 900 seconds around cardiac arrest; gamma and other oscillations surged just before and after the heart stopped. Authors suggest this coordinated activity could underlie life-recall sensations but stress heavy caveats: one case with seizures, bleeding, swelling. HN weighs in with firsthand “life flashing” during syncope/trauma versus anesthesia’s blankness, debates DMT/monoamine roles, and urges terminal/MAID EEG studies despite ethical/drug confounds. Findings also touch death definitions and organ-donation timing. Published in 2022.
+### TL;DR
 
-- Comment pulse
-    - Life-flashbacks reported during syncope/trauma → stress-driven recall/time dilation; anesthesia often yields "nothing," implying different neuromodulators drive NDE-like content.
-    - Endogenous DMT/monoamines might shape NDEs → stress hormones could inhibit MAO, prolonging trace amines — counterpoint: baseline DMT is orders below psychoactive thresholds.
-    - Study terminal/MAID patients with EEG → larger, cleaner datasets to inform death timing and donation — counterpoint: drugs/setting alter brain state; consent/privacy ethics.
+A 2022 report describes EEG activity recorded around the death of an 87-year-old epilepsy patient who suffered cardiac arrest while already under continuous monitoring. Researchers examined 900 seconds, especially the 30 seconds before and after the heart stopped, and observed changes across several frequency bands, including gamma activity associated with memory and dreaming. One researcher suggested the pattern might be compatible with “life recall,” but the single diseased, injured brain cannot establish flashbacks, consciousness, or a general dying-brain response.
 
-- LLM perspective
-    - View: Provocative single-case EEG shows organized activity post-arrest; treat as hypothesis-generating, not evidence of life recall.
-    - Impact: Could influence death determination protocols and organ procurement timing if replicated across conditions and causes.
-    - Watch next: Prospective ICU/MAID EEG studies with drug controls; multimodal measures (EEG, fNIRS); preregistered analyses of oscillatory coupling around arrest.
+### Comment pulse
+
+- Commenters shared sharply different personal experiences of unconsciousness and anesthesia, but these anecdotes do not validate the study’s interpretation.
+- Discussion also raised practical and ethical difficulties in collecting terminal neurological measurements.
+
+### LLM perspective
+
+- View: The recording is an intriguing observation, not evidence that dying people replay memories.
+- Impact: Sensational framing risks converting one medically complicated case into an unsupported universal claim.
+- Watch next: Replicated recordings with clinical context and methods capable of separating seizure-related activity.

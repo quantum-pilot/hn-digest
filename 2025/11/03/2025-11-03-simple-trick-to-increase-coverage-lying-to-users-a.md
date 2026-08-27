@@ -2,15 +2,17 @@
 
 - Score: 427 | [HN](https://news.ycombinator.com/item?id=45795036) | Link: https://nickvsnetworking.com/simple-trick-to-increase-coverage-lying-to-users-about-signal-strength/
 
-- TL;DR
-    - Android has an undocumented CarrierConfig flag (KEY_INFLATE_SIGNAL_STRENGTH_BOOL) that lets carriers show one extra signal bar; AT&T and Verizon enable it. The post argues this, like “fake 5G” icons, erodes trust. HN readers report phones showing bars while radio metrics are unusable (e.g., −140 dBm), and share ways to see real dBm. Others note bar thresholds vary by OEM and have grown “optimistic,” partly to match iPhone displays and marketing. Bottom line: bars are branding; use dBm or diagnostics for truth.
+### TL;DR
 
-- Comment pulse
-    - Bars mislead → dBm shows reality; users saw −140 dBm with “good” bars; use *#*#INFO#*#* or apps to check — counterpoint: readings vary across devices/SIMs.
-    - Industry normalization → iPhones shifted bar breakpoints over generations; others matched to avoid perception gaps; result: optimistic bars, occasional 2 bars yet zero data.
-    - 5G labeling is murky → tests show ~40% “5G” icons on 4G; many run NSA without 5G core; marketing drives UX.
+Android’s carrier configuration includes an undocumented `KEY_INFLATE_SIGNAL_STRENGTH_BOOL` option that displays cellular signal one bar higher than the underlying calculation. The author found the flag enabled in configurations for AT&T and Verizon and argues that it damages trust alongside ambiguous 5G indicators. The setting changes presentation, not radio reception. Commenters noted that bars already vary by device, modem capability, thresholds, SIM state, and network mode, so comparisons are difficult; diagnostic screens exposing dBm provide a more direct measurement.
 
-- LLM perspective
-    - View: Exposing raw metrics beats cosmetic bars; make “Show signal in dBm/ASU” a user-facing toggle.
-    - Impact: Clearer indicators reduce support churn, improve site surveys, and curb misleading 5G/UI claims through transparency standards.
-    - Watch next: Android/GSMA standard for bar thresholds; carrier opt-out logs; independent audits comparing bars to dBm and throughput across devices.
+### Comment pulse
+
+- Several commenters reported strong-looking bars with unusable service, though these anecdotes cannot isolate the configuration flag as the cause.
+- Others argued newer radio hardware may legitimately extract usable service at weaker measured signal levels.
+
+### LLM perspective
+
+- View: A silent one-bar adjustment turns an already coarse indicator into a less trustworthy interface.
+- Impact: Users may misdiagnose dead zones, device faults, or carrier coverage when display policies differ.
+- Watch next: Whether Android documents the flag and exposes consistent signal-quality details to users.

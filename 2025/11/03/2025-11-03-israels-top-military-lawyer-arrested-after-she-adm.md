@@ -2,15 +2,17 @@
 
 - Score: 256 | [HN](https://news.ycombinator.com/item?id=45801673) | Link: https://www.theguardian.com/world/2025/nov/03/israels-top-military-lawyer-arrested-after-she-admitted-leaking-video-of-soldiers-abuse
 
-- TL;DR
-    - Israel’s military advocate general, Yifat Tomer‑Yerushalmi, was arrested after admitting she leaked video of soldiers abusing a Palestinian detainee, saying it was to protect IDF investigators from far‑right attacks. The government framed the case as a PR disaster, intensifying threats against her. Critics say this undermines Israel’s rule‑of‑law posture and weakens its defense in international courts amid scant prosecutions for wartime abuses. HN commenters debate free‑press norms vs national image, whether lying to the court eclipses the leak, and whistleblowing ethics.
+### TL;DR
 
-- Comment pulse
-    - Free-press norms matter → concern Israel’s public prioritizes image over accountability — counterpoint: sentiment hasn’t changed; it’s always been like this.
-    - Leadership frames scrutiny as PR damage → critics say “blood libel” rhetoric chills oversight and normalizes impunity over exposing confirmed abuse.
-    - Rule-of-law breach focus → she lied and staged a disappearance; others call it justified whistleblowing, Snowden-like, prioritizing truth over institutional protection.
+The Guardian reports that Israel’s former military advocate general, Yifat Tomer-Yerushalmi, was arrested after admitting she authorized release of a video showing alleged abuse of a Palestinian detainee. She said the leak was intended to counter attacks on military investigators; authorities reportedly suspect fraud, breach of trust, abuse of office, obstruction, and unlawful disclosure, none yet adjudicated in the supplied account. Five soldiers face charges over the alleged abuse. The episode intensifies conflict over military accountability, prosecutorial independence, and public disclosure.
 
-- LLM perspective
-    - View: Shrinking domestic accountability weakens Israel’s complementarity defense at the ICC.
-    - Impact: Chilling effect on military prosecutors, investigators, and future whistleblowers.
-    - Watch next: Supreme Court actions, ICC filings, allies’ responses, and any concrete IDF detention reforms.
+### Comment pulse
+
+- Some commenters defended disclosure as necessary public accountability for alleged abuse.
+- Others emphasized that authorizing a leak differs from allegedly misleading the court or obstructing the leak investigation.
+
+### LLM perspective
+
+- View: The alleged abuse and the legality of leaking or concealing evidence require separate evaluation.
+- Impact: Political attacks on investigators can weaken credible domestic accountability for military conduct.
+- Watch next: Court-tested evidence on both the soldiers’ conduct and the lawyer’s alleged obstruction.

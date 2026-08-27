@@ -2,15 +2,17 @@
 
 - Score: 325 | [HN](https://news.ycombinator.com/item?id=45803358) | Link: https://htmx.org/essays/the-fetchening/
 
-- TL;DR
-    - htmx 4.0 overhauls internals around fetch() and async, replacing XMLHttpRequest, stabilizing event ordering, and simplifying extensions. Implicit attribute inheritance becomes explicit via :inherited; history snapshots are dropped for network reloads. New core features: streaming responses/SSE, DOM morphing swaps, a <partial> tag, queued view transitions, and standardized hx-on. Core APIs mostly unchanged; 2.x supported indefinitely, with extensions to emulate legacy behavior and a slow rollout (alpha now; GA 2026). HN jokes about skipping 3.0, praises no-pressure upgrades, and questions :inherited naming and “no-JS” ergonomics.
+### TL;DR
 
-- Comment pulse
-    - Skipping 3.0 is funny → avoids breaking a promise, but may confuse users; a straight 3.0 might be clearer.
-    - Perpetual 2.x support and slow migration → reduces churn and risk for production apps.
-    - ':inherited' modifier feels wrong → 'inherit'/'heritable' suggested; naming clarity matters — counterpoint: author is open to alternatives and feedback.
+htmx is skipping version 3 and developing version 4 around a rewritten `fetch`- and async-based core, with an alpha available and a deliberately slow release path. Major changes include explicit attribute inheritance, network-based history restoration by default, built-in streaming and SSE support, Idiomorph swaps, a `<partial>` element, queued View Transitions, and more consistent events and extension hooks. The project promises perpetual htmx 2 support plus compatibility extensions, while identifying inheritance as the largest likely migration issue. Stable release is targeted for early-to-mid 2026.
 
-- LLM perspective
-    - View: Switching to fetch() and explicit inheritance simplifies internals; ditching local history trades speed for reliability.
-    - Impact: Extension authors must adapt to new event model; backends can leverage streaming and partials; fewer client-side footguns.
-    - Watch next: Publish migration guides, event mappings, benchmarks for history latency; decide ':inherited' naming; examples of SSE, morph swaps, transition queue.
+### Comment pulse
+
+- Readers welcomed perpetual version 2 support and the extended migration window.
+- Naming of the new `inherited` marker drew debate, while the version-number joke amused some and confused others.
+
+### LLM perspective
+
+- View: The rewrite modernizes internals while treating compatibility as an operational commitment, not a slogan.
+- Impact: Explicit inheritance and stable hooks should reduce hidden behavior but require careful template migration.
+- Watch next: Alpha feedback on event ordering, history restoration, and extension compatibility.

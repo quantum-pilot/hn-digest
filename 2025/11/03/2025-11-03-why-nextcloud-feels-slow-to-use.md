@@ -2,16 +2,17 @@
 
 - Score: 428 | [HN](https://news.ycombinator.com/item?id=45798681) | Link: https://ounapuu.ee/posts/2025/11/03/nextcloud-slow/
 
-- TL;DR
-  - HN discussion says Nextcloud’s “slow” feel is less about JS bundle size and more about many per-resource REST calls that serialize work and amplify network latency, especially on mobile. Users report unreliable iOS photo backup (disconnects, locked WebDAV, stalled/resets) and calendar UX regressions. Maintainers cite architectural accretion and plugin silos that resist cohesive data loading. Alternatives for photos (Immich) or uploads (FolderSync, Copyparty) are suggested. Proposed fixes: batch requests, persistent connections/WebSockets, better caching, and performance budgets; server stability is fine, but clients feel flaky.
-  - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-  - Calendar load: 124 requests (31 uncached); per-calendar/resource calls serialize; 33s on 4G. Prefer bundling, WebSockets, bulk changefeeds. — counterpoint: 15MB JS parse also hurts.
-  - Mobile sync unreliable: iOS disconnects, locked WebDAV, stalled uploads; family backups fail; users switch to Immich, FolderSync, Copyparty.
-  - Architecture debt: layered plugins, Redis/config detours; hosting market benefits from complexity; ownCloud rewrote core in Go; consider SSO-linked tools over monolith.
+The author attributes Nextcloud’s sluggish feel partly to unusually large JavaScript payloads: roughly 15–20 MB uncompressed on a clean load, with individual Calendar, Files, Notes, notification, and shared bundles contributing heavily. Poor connections can turn common tasks into long waits, pushing the author toward focused alternatives such as Vikunja and Immich. Commenters argued that bundle size is only part of the diagnosis: Calendar can issue many serialized or uncached requests, while frontend update patterns, plugin boundaries, caching, and accumulated architecture may dominate latency.
 
-- LLM perspective
-  - View: Treat Nextcloud as a latency-bound SPA; audit N+1 patterns and enforce batched endpoints and persistent connections.
-  - Impact: Biggest gains for mobile users and multi-calendar/org installs; fewer support tickets from photo backup failures.
-  - Watch next: Core roadmap on WebSockets, bulk changefeeds; client-side perf budgets; benchmarks comparing REST vs WS on 4G/5G latency.
+### Comment pulse
+
+- Users valued Nextcloud’s private, broad feature set but reported sync failures, upload problems, slow thumbnails, and recurring maintenance friction.
+- Several favored multiple focused services with shared sign-on over one highly modular suite.
+
+### LLM perspective
+
+- View: The evidence supports frontend and request-path bloat, but not JavaScript size as the sole cause.
+- Impact: Latency-sensitive and lower-powered clients bear the cost of architectural convenience most sharply.
+- Watch next: Performance traces separating download, parse, execution, API waterfalls, rendering, and server time.

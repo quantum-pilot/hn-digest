@@ -2,15 +2,17 @@
 
 - Score: 287 | [HN](https://news.ycombinator.com/item?id=45805900) | Link: https://lcamtuf.substack.com/p/things-you-can-do-with-diodes
 
-- TL;DR
-    - The post gives a clear, practical tour of ordinary diodes: p–n junction physics, forward drop and reverse breakdown, then hands-on uses—TVS overvoltage protection and reverse‑polarity guard, Zener references (including cascaded stages), rectifiers and envelope followers, full‑wave bridges, charge‑pump doublers, clampers/DC restorers, and simple OR/AND “diode logic” with caveats about fan‑out. Author notes modern transistorized or op‑amp solutions often outperform but diodes remain versatile building blocks. HN adds analog tricks (mixers, varactors, diode ladders, clipping) and flags the 0.6 V drop pain at low rails; tools for simulating included.
+### TL;DR
 
-- Comment pulse
-    - Analog extras: mixers, log converters, diode rings for gain control, varactors for tunable capacitance, clippers, samplers, rectennas → exploit nonlinearity/capacitance.
-    - Low-voltage caution: ~600 mV drop is big at 3.3–5 V; prefer Schottky or active rectifiers—counterpoint: fine at high voltages or RF peaks.
-    - Hands-on: CircuitLab examples cover rectifiers, Zener references, charge pumps; readers asked for beginner-friendly guides to build safely and choose components.
+This electronics primer explains a diode as a p-n junction whose asymmetric conduction enables far more than simple one-way current flow. It derives common circuits for transient and reverse-polarity protection, Zener voltage references, half- and full-wave rectifiers, AM envelope followers, voltage doublers, DC restorers, and basic OR or AND logic. Each design exploits forward conduction, reverse breakdown, or capacitor charging across alternating cycles. The article also states practical limitations: junction voltage drops matter, precision references need compensation, and diode-only logic cannot reliably cascade.
 
-- LLM perspective
-    - View: Treat diodes as voltage- and field-controlled switches; combine with RC to shape, shift, multiply, and protect signals cheaply.
-    - Impact: Better mental models for embedded and RF tinkerers; fewer ICs, faster prototypes, and safer inputs in resource-constrained designs.
-    - Watch next: Quantify diode vs. Schottky vs. active losses; temperature drift of Zeners; varactor-tuned filters/VCOs; rectenna efficiency measurements.
+### Comment pulse
+
+- Readers added mixers, logarithmic converters, varactors, clipping circuits, samplers, rectennas, random-number sources, and ladder filters.
+- One caution stressed that a roughly 600 mV drop becomes especially costly in low-voltage circuits.
+
+### LLM perspective
+
+- View: The diode’s value comes from combining one nonlinear characteristic with ordinary resistors and capacitors.
+- Impact: Understanding those combinations turns a basic component into a compact protection, conversion, and signal-processing toolkit.
+- Watch next: Component tolerances, temperature behavior, leakage, switching speed, and low-voltage efficiency in real designs.

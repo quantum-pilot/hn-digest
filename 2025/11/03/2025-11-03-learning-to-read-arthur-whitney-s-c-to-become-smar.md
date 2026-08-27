@@ -2,15 +2,17 @@
 
 - Score: 316 | [HN](https://news.ycombinator.com/item?id=45800777) | Link: https://needleful.net/blog/2024/01/arthur_whitney.html
 
-- TL;DR
-    - A patient, line-by-line tour of Arthur Whitney’s ~50-line K-like C interpreter: macros, GCC extensions, atom/vector representation, lifted ops, and a right-to-left evaluator. The author praises compact, composable primitives and one-screen locality, but flags non-semantic typing, code-golfing, portability warnings, and heavy implicitness. Takeaway: this density suits “finished” designs; model first, then code. HN links the style to APL/K (and J), debates macro “war crimes,” and weighs best-practice tradeoffs with nods to Bourne’s Algol-flavored C.
+### TL;DR
 
-- Comment pulse
-    - Understanding needs APL/K → Style mirrors APL’s terse arrays; yet macros/ternaries/type‑punning aren’t APL, so APLers find it alien — counterpoint: J is an easier on‑ramp.
-    - Macro style is hazardous → GCC-only extensions, implicit globals, and missing braces risk bugs and unreadability; one commenter called it “war crime” territory.
-    - Break “best practices” selectively → Density keeps the whole program visible; tradeoffs hit maintainability, onboarding, and portability; historic parallel: Bourne’s Algol-like C.
+The author spends eight hours unpacking Arthur Whitney’s roughly 50-line C interpreter for a small K-like array language. Dense macros, one-character names, implicit arguments, type punning, GCC extensions, and nested ternaries initially obscure the design, yet line-by-line reading reveals carefully composed primitives for atoms, vectors, errors, operators, and right-to-left evaluation. The exercise leaves the author valuing compact, well-modeled building blocks and less scrolling, while rejecting semantic ambiguity and gratuitous code golf. The deeper lesson is to model problems before coding them.
 
-- LLM perspective
-    - View: Dense C can model array semantics; pre-modeling yields cleaner primitives than iterative refactoring.
-    - Impact: Individual hackers gain speed and insight; teams risk unreadability, undefined behavior, toolchain lock-in, and brittle APIs.
-    - Watch next: Prototype a typed variant, longer vectors, multi-digit numbers, and GC; compare readability, bugs, and portability to the 50-line baseline.
+### Comment pulse
+
+- Commenters debated whether APL or K familiarity explains the style, with some APL users saying much remains distinctly Whitney’s.
+- Others praised the analysis while warning that macro shortcuts can undermine safety and team maintainability.
+
+### LLM perspective
+
+- View: Density becomes instructive when it exposes a coherent model, but terseness alone does not create clarity.
+- Impact: Studying extreme code can sharpen reading skills without making its conventions suitable for production teams.
+- Watch next: Whether extending the interpreter preserves its compact primitives or reveals their maintenance limits.

@@ -2,15 +2,17 @@
 
 - Score: 397 | [HN](https://news.ycombinator.com/item?id=45798827) | Link: https://www.agwa.name/blog/post/google_suspended_sslmates_cloud_account_again
 
-- TL;DR
-  - SSLMate’s GCP access was suspended three times without notice, breaking customer integrations built per Google’s guidance (service‑account impersonation). Recovery involved contradictory, automated emails and no root cause; full access returned only after HN attention. The author now faces a forced trade‑off: insecure long‑lived keys, complex and fragile OIDC setup, or recurring suspension risk. HN frames this as platform‑scale liability optimization with scarce human support; some advocate smaller providers, others argue Big Tech could fund review but chooses margins.
+### TL;DR
 
-- Comment pulse
-  - Hyperscale defaults to automated bans → lowers liability/support cost; false positives tolerated — counterpoint: Giants can fund human review; choosing not to protects margins.
-  - Don’t rely on Google for core ops → users cite arbitrary account losses across YouTube/Cloud; recommend smaller vendors with human support.
-  - Centralized moderation risks expanding to AI APIs → a client’s misuse could nuke provider accounts; enable built‑in moderation and isolation.
+SSLMate’s author says Google suspended the company’s Cloud account for a third time, initially providing little explanation and disabling resources needed to manage the appeal. The account existed mainly to create service accounts for customer integrations, following Google’s documented pattern; repeated suspensions nevertheless made that dependency a reliability risk. After the latest post reached Hacker News, most access returned without a clear cause. The author is considering customer-created keys or OIDC, trading easier setup against security, operational independence, and substantially more configuration.
 
-- LLM perspective
-  - View: Mitigate platform risk via architectural isolation: per-customer projects, least-privilege, and multi-cloud fallbacks; assume sudden revocation.
-  - Impact: Complex OIDC onboarding depresses adoption; simplifying pools/providers and first-class issuer bindings would boost secure, keyless integrations.
-  - Watch next: Google policy/roadmap on OIDC parity; clearer suspension appeal SLAs; tooling to auto-provision minimal OIDC with Terraform/CLI.
+### Comment pulse
+
+- Commenters treated automated enforcement and weak appeal channels as recurring platform risks, often citing their own unverified incidents.
+- Smaller providers were suggested for human support, though commenters noted moderation failures are not exclusive to large platforms.
+
+### LLM perspective
+
+- View: Administrative control-plane dependence deserves the same failure planning as a technical service dependency.
+- Impact: A suspended provider account can break customer integrations even when the underlying product behaves correctly.
+- Watch next: Whether direct OIDC principals can replace provider-owned service accounts without burdening customers.

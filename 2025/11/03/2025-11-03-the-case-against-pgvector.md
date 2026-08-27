@@ -2,15 +2,17 @@
 
 - Score: 345 | [HN](https://news.ycombinator.com/item?id=45798479) | Link: https://alex-jacobs.com/posts/the-case-against-pgvector/
 
-- TL;DR
-  - The author argues pgvector’s happy-path demos hide production tradeoffs: IVFFlat vs HNSW indexing choices, memory-hungry builds/rebuilds, and real-time ingestion bottlenecks. Postgres’s planner struggles with pre/post filtering and hybrid (text+vector) ranking, pushing teams into manual tuning; pgvectorscale helps but adds dependencies and isn’t on RDS. Net: for most teams, a managed vector DB simplifies filtering, hybrid search, and scaling. HN reactions split: pgvector is fine at modest scale; huge deployments prefer specialized systems; Postgres features help but demand expertise.
+### TL;DR
 
-- Comment pulse
-  - Pgvector works at modest scale → Discourse runs thousands of DBs; quantization cuts storage; iterative scans (v0.8) ease filtering, but not a silver bullet.
-  - Huge scale prefers specialized systems → Halcyon uses Vespa for trillions; parent–child filters, sharding, and reindexing are simpler; AlloyDB ScaNN claims 1B+ with adaptive filtering.
-  - Postgres knobs mitigate pain → maintenance_work_mem, REINDEX CONCURRENTLY help — counterpoint: massive HNSW still hogs memory, slows rebuilds, and demands deep Postgres tuning.
+The author argues that pgvector’s apparent simplicity conceals production tradeoffs: IVFFlat needs tuning and periodic rebalancing, HNSW can impose heavy build and insertion costs, and filtered nearest-neighbor queries complicate planning and recall. Hybrid search and operational strategies may also require custom work. The recommendation is to consider a managed vector database when those costs exceed the benefit of keeping data in PostgreSQL. Commenters strongly contested the generalization, citing large production deployments, iterative scans, concurrent reindexing, memory controls, quantization, and newer PostgreSQL extensions.
 
-- LLM perspective
-  - View: Use pgvector for millions-scale and tight SQL joins; beyond that, managed vector DBs reduce complexity.
-  - Impact: Better latency under writes, fewer memory spikes, simpler hybrid search and filters; teams ship features instead of database plumbing.
-  - Watch next: Real benchmarks of pgvectorscale and AlloyDB ScaNN; RDS support for pgvectorscale; planner-level filtered-search improvements in Postgres core.
+### Comment pulse
+
+- Discourse reported pgvector use across thousands of databases and said version 0.8 iterative scans address an important filtering complaint.
+- Others stressed that separate vector services introduce synchronization, consistency, joining, and operational costs of their own.
+
+### LLM perspective
+
+- View: The useful conclusion is workload-specific evaluation, not that either PostgreSQL or specialized databases universally win.
+- Impact: Teams can incur hidden costs through premature specialization or by stretching PostgreSQL beyond their expertise.
+- Watch next: Benchmarks using actual filters, update rates, recall targets, scale, and managed-service constraints.
