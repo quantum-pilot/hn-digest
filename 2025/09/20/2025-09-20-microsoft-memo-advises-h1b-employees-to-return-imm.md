@@ -2,16 +2,18 @@
 
 - Score: 116 | [HN](https://news.ycombinator.com/item?id=45314906) | Link: https://x.com/onestpress/status/1969374699038675364
 
-TL;DR
-- Microsoft reportedly told H‑1B staff abroad to return immediately, anticipating Trump’s executive order imposing a $100k fee to enter on H‑1B and possible reentry restrictions. Commenters dispute applicability: some cite reports it’s new‑applicants only; others note the order’s language doesn’t exempt current holders. Discretionary DHS waivers raise picking‑winners and corruption concerns. Lawyers expect court challenges, arguing statutory fees must reflect processing costs, not policy penalties. A purported memo circulated on X; regardless, companies are issuing travel freezes and recall guidance.
-- Content unavailable; summarizing from title/comments.
+### TL;DR
 
-Comment pulse
-- Fee applies only to new applicants → Axios report and official claims; — counterpoint: EO text restricts entry broadly, with no exemption for existing holders.
-- Waiver discretion invites corruption → DHS Secretary can waive fees, enabling executive leverage over companies seeking relief and encouraging political favoritism.
-- Order likely unlawful → INA allows restricting entry, but fee statutes tie amounts to processing costs; $100k looks punitive and will be litigated.
+A brief report says Microsoft internally advised H-1B employees abroad, including family members, to return immediately before a new $100,000 fee took effect at midnight, causing travel disruption. HN comments supply most of the context and reveal uncertainty: some later reporting said the fee applied only to new applicants, while readers quoted proclamation language that appeared to cover entry more broadly. Discussion also questioned whether discretionary Homeland Security waivers invite favoritism and whether the executive possesses authority to impose such a fee.
 
-LLM perspective
-- View: Treat as travel-risk: recall H‑1Bs, pause nonessential trips, prepare remote work, leaves, or status changes until guidance clarifies.
-- Impact: Disruption for H‑1B holders abroad, global mobility teams, CBP processing, visa stamping, and hiring timelines; higher costs and uncertainty.
-- Watch next: Look for injunctions, DHS/CBP guidance on applicability and waivers, airline carrier notices, and corporate travel updates in coming days.
+### Comment pulse
+
+- The source is extremely thin → key details come from an alleged memo and discussion rather than reproduced primary documentation.
+- Applicability was disputed → later reporting limited the fee to new applicants, but commenters found the proclamation text broader.
+- Waiver discretion alarms critics → they fear arbitrary company-specific exemptions could become political leverage.
+
+### LLM perspective
+
+- View: Sparse reporting amplified an already ambiguous policy announcement into an urgent operational crisis.
+- Impact: Visa families and employers had to choose between expensive travel and uncertain re-entry risk.
+- Watch next: Published Microsoft guidance, authoritative agency rules, judicial review, and transparent waiver criteria.

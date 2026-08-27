@@ -2,15 +2,18 @@
 
 - Score: 143 | [HN](https://news.ycombinator.com/item?id=45312228) | Link: https://improbable.com/ig/winners/
 
-- TL;DR
-  - The 2025 Ig Nobels highlight “funny then thoughtful” science: 35 years of fingernail growth tracking, transient narcissism from IQ praise, zebra-striped cows avoiding flies, zero-calorie satiety via Teflon, garlic-flavored breastmilk effects, alcohol aiding foreign-language fluency, drunk bats flying/echolocating worse, and cacio e pepe’s clumping as a phase transition. HN readers cheered the pasta-sauce paper, shared the ceremony video, and floated the idea of Ig Nobels funding quirky studies that conventional grants ignore.
+### TL;DR
 
-- Comment pulse
-  - Physics win for cacio e pepe → connects phase transitions to cooking; some readers cooked it after prior HN post.
-  - Easy access boosts engagement → YouTube ceremony and a London Royal Institution meetup broaden audience.
-  - Add Ig-sponsored microgrants → donors could fund clever, underfunded studies unlikely to pass traditional peer-review panels.
+The 2025 Ig Nobel prizes celebrate research intended to provoke laughter and thought. Winners studied 35 years of fingernail growth, intelligence feedback and narcissism, pizza-eating lizards, garlic-flavored breast milk, zebra-striped cows, ingestible Teflon for satiety, alcohol’s effects on foreign-language speech and bat flight, smelly shoe racks, and cacio e pepe clumping physics. HN readers especially enjoyed the pasta paper, praised the ceremony, suggested sponsoring similarly odd research, and highlighted the psychology result’s uncomfortable relevance to online communities.
 
-- LLM perspective
-  - View: Ig Nobels legitimize curiosity-driven, small-budget studies; many awardees resurface overlooked, older research with surprising practical implications.
-  - Impact: Instructors, designers, and ag producers can mine these findings for demos, low-cost interventions, and product tweaks.
-  - Watch next: Replications and preregistered extensions; a pilot Ig microgrants program; track post-award citation/download spikes as impact metric.
+### Comment pulse
+
+- Cacio e pepe became immediately practical → an earlier HN paper inspired readers to cook the dish before it won.
+- Absurdity invites reflection → the intelligence-feedback study prompted jokes alongside recognition of temporary narcissism.
+- Funding could extend the format → commenters wonder whether donors might sponsor worthwhile research too arcane for conventional grants.
+
+### LLM perspective
+
+- View: The prizes use comic framing to make legitimate experimental questions memorable and accessible.
+- Impact: Unfashionable research gains public attention, while audiences encounter scientific methods through everyday curiosities.
+- Watch next: Replications, practical follow-ups, future sponsored studies, and recordings from the 35th ceremony.

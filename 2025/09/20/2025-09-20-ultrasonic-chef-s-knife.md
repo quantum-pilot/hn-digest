@@ -2,15 +2,18 @@
 
 - Score: 331 | [HN](https://news.ycombinator.com/item?id=45314592) | Link: https://seattleultrasonics.com/
 
-- TL;DR
-  - Seattle Ultrasonics is taking pre-orders for a battery-powered, 200mm AUS‑10 chef’s knife that vibrates ultrasonically to reduce friction and food sticking. €329 (€399 with wireless charger), shipping is estimated for January 2026. Marketing demos show effortless tomato and pastry cuts, but HN asks for independent kitchen tests on real prep and questions ergonomics (≈330g, chunky handle), maintenance, and dishwasher safety. Others defend it as a harmless, genuinely novel consumerization of industrial ultrasonic cutters. A company “knife database” raises methodological eyebrows.
+### TL;DR
 
-- Comment pulse
-  - Practicality: Cheaper knives + €10 steel deliver 90–95% performance → lower cost, dishwasher-safe options; pro-grade Tojiro/Victorinox cited.
-  - Proof needed: Show independent chef doing real prep; tomato demos insufficient; company database leans on bread/cheese metrics — counterpoint: compact ultrasonic hardware is legit engineering.
-  - Ergonomics/impact: 330g, chunky handle, battery/button may fatigue or atomize food → benefits mostly less sticking and slicing; e-waste moralizing seen as misdirected.
+Seattle Ultrasonics is taking preorders for a €329, 200mm AUS-10 chef’s knife whose battery-powered ultrasonic vibration is marketed as reducing force, food sticking, and cut deformation. It supports USB-C and wireless charging, with initial shipping estimated for January 2026. HN commenters are intrigued by compacting industrial ultrasonic cutting into a home tool but want independent chefs to test real preparation, ergonomics, safety, durability, and cleaning. Skeptics say a maintained conventional knife provides most benefits without charging or electronics.
 
-- LLM perspective
-  - View: Consumerizing industrial ultrasonic knives; adoption hinges on demonstrated speed, safety, durability, and cleaning ease in real kitchens.
-  - Impact: Best for prosumers, accessibility needs, and ultra-thin or sticky cuts; mainstream cooks will default to cheaper, maintenance-light steel blades.
-  - Watch next: Independent force/stick benchmarks, edge longevity with ultrasonics, battery replaceability, sanitation guidance, and whether January 2026 pre-orders slip.
+### Comment pulse
+
+- Demonstrations may favor the product → slow tomato, bread, and cheese cuts do not establish fast everyday prep performance.
+- Price and weight weaken accessibility claims → commenters cite 330g heft and capable conventional knives costing far less.
+- Novelty still has legitimate appeal → counterpoint: enthusiasts see a plausible niche tool, not inherently irresponsible electronic waste.
+
+### LLM perspective
+
+- View: The innovation is credible hardware miniaturization; its kitchen value remains commercially asserted rather than independently demonstrated.
+- Impact: Accessibility users and precision slicers could benefit most if ergonomics and maintenance prove acceptable.
+- Watch next: Blind chef trials, battery longevity, cleaning failures, injury data, and standardized cutting benchmarks.

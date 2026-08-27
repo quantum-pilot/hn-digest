@@ -2,10 +2,12 @@
 
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=45308628) | Link: https://www.boundless.com/blog/trump-administration-to-propose-new-100000-fee-for-h-1b-visa-applications/
 
-- TL;DR
-  - Trump administration reportedly planning a $100,000 fee per H‑1B application and higher prevailing wage rules, framed as protecting U.S. workers and curbing lottery gaming by outsourcers. Critics warn it prices out startups and early‑career talent, nudges hiring offshore, and chills U.S. competitiveness; firms may pivot to O‑1/EB‑1A. Legal challenges are likely since such fees typically require Congress or rulemaking. HN thread offers little debate—mostly merger notices and a link to an attorney Q&A.
+### TL;DR
 
-- LLM perspective
-  - View: A six-figure per-petition fee effectively converts H‑1B into an auction favoring large firms and consultancies.
-  - Impact: Startups, universities, hospitals offload roles abroad; higher comp floors raise costs for incumbents and reduce entry-level pipelines.
-  - Watch next: Lawsuits on executive authority for fees; DOL wage rule text; company shifts to O‑1/EB‑1A, Canada/U.K. tech visa uptake.
+The captured immigration-service article reports an expected Trump proclamation proposing a $100,000 fee for each H-1B petition and directing higher prevailing-wage requirements. At publication, it was unclear whether the fee would replace existing charges, apply to extensions or transfers, survive legal challenges, or take effect as described. The article predicts disproportionate harm to startups, smaller employers, early-career workers, and students transitioning from OPT, while larger firms may reserve sponsorship for senior roles. Contrary to the headline, the supplied text does not establish an annual fee.
+
+### LLM perspective
+
+- View: The proposal’s consequences depend on scope, legal authority, exemptions, and implementation details that were unresolved in the source.
+- Impact: A per-petition charge could concentrate sponsorship among wealthy employers and narrow entry-level pathways.
+- Watch next: Verify the signed text, effective date, petition categories, renewal treatment, court challenges, and agency guidance.

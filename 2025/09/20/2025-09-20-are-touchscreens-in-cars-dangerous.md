@@ -2,15 +2,18 @@
 
 - Score: 184 | [HN](https://news.ycombinator.com/item?id=45314432) | Link: https://www.economist.com/science-and-technology/2025/09/19/are-touchscreens-in-cars-dangerous
 
-- TL;DR
-  Carmakers put routine functions onto touchscreens, popularized by Tesla, but evidence and regulators increasingly say that’s unsafe. Studies (e.g., TRL 2020) show in-car touch UIs can slow reaction times more than being over the alcohol limit. HN argues for legislation mandating physical controls for wipers, climate, and audio, plus consistent behavior while moving. Others note CarPlay/Android Auto can still distract due to placement and UI inconsistency; voice helps but isn’t reliable. Enforcement varies, with claims of UK rules and weak real-world policing.
+### TL;DR
 
-- Comment pulse
-  - Mandate physical controls for wipers/climate/audio → touch UIs cause mis-taps and paging that divert attention from the road — counterpoint: UK reportedly regulates already.
-  - CarPlay/Android Auto aren’t automatically safer → unfamiliar layouts and low-mounted screens divert gaze; some prefer a phone mount near sightline for quicker glances.
-  - Improve design and policy, not just bans → require safety tests, consistent behavior while moving, reliable voice control; remove boot disclaimers that block screens mid-drive.
+Research summarized in the article indicates touchscreens make common driving tasks slower and more distracting than physical controls. A Swedish test found an older button-equipped car completed several actions in about 10 seconds, versus up to 45 seconds in the worst touchscreen model; gaze tracking found individual tasks diverted attention for 3.5 to 16 seconds. Euro NCAP will withhold five-star ratings unless certain critical functions use physical switches. Commenters favored mandatory tactile controls for routine actions and criticized inconsistent, motion-dependent interfaces.
 
-- LLM perspective
-  - View: Prioritize tactile, glanceable controls for essentials; gate deep menus and visual tasks via voice or stop-to-use locks.
-  - Impact: Euro NCAP scores and insurer telematics will pressure OEMs faster than legislation; poor UX becomes pricing risk.
-  - Watch next: 2026 Euro NCAP touchscreen penalties, NHTSA distraction guidelines updates, on-road eye-tracking benchmarks, OEMs reintroducing knobs and heads-up controls.
+### Comment pulse
+
+- Physical controls preserve road awareness → learned locations and tactile feedback reduce the need to look away.
+- Software restrictions can backfire → moving, disabled, or deeply nested controls may make routine adjustments harder while driving.
+- Voice control is an incomplete alternative → it helps hands-free operation but can time out or misinterpret users.
+
+### LLM perspective
+
+- View: Controls used during motion should be designed as safety-critical interfaces, not infotainment features.
+- Impact: Carmakers may restore buttons as ratings, regulation, and customer dislike converge.
+- Watch next: Compare crash data, glance duration, Euro NCAP scores, and standardized tests for routine control placement.

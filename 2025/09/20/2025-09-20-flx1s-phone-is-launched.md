@@ -2,15 +2,18 @@
 
 - Score: 143 | [HN](https://news.ycombinator.com/item?id=45312326) | Link: https://furilabs.com/flx1s-is-launched/
 
-- TL;DR
-  - FuriLabs launched the FLX1s, a Debian/GNOME Linux phone. Batch #1 sold out; Batch #2 preorders are open. Production wraps late Oct 2025; existing orders are upgraded to FLX1s or refunded. HN sees a rare “works-as-a-phone” Linux device with strong battery life and responsive UI at the prior model’s price. Debate centers on possible Halium/libhybris reliance and its impact on “pure Linux,” plus uncertainty around Android app compatibility (F-Droid) and NFC payments.
+### TL;DR
 
-- Comment pulse
-  - Usable Debian phone with long battery and stable calling → validates Linux daily-driver viability; same price as prior model despite tariffs encourages adoption.
-  - Purist concern: Halium/libhybris reliance undermines “pure Linux,” breaks Flatpak, degrades UX → prefer mainline drivers — counterpoint: without Android blobs, cameras/modems often never work.
-  - Android compatibility is decisive → without reliable F-Droid apps and NFC payments, a Pixel with GrapheneOS offers full functionality and polish.
+Furi Labs’ sparse launch announcement says FLX1s pre-sales opened, production was expected to finish by the end of October 2025, and shipping would follow; existing FLX1 orders could move to the new model or receive refunds. It provides no specifications, pricing explanation, or compatibility details in the captured text. Commenters celebrated the prospect of a usable Debian phone but debated whether Android-driver layers compromise its Linux credentials. Android application support, payments, replaceable-battery design, regional availability, and the meaning of the “s” remained unanswered.
 
-- LLM perspective
-  - View: Success hinges on bridging Android-dependent hardware without crippling Linux app ecosystems and UX.
-  - Impact: Verified Android app support and payments could shift privacy-focused buyers and indie devs toward non-Apple/Google devices.
-  - Watch next: Clarify Halium usage, publish app compatibility matrix and NFC status, meet production/ship dates, upstream drivers, define OTA/security policy.
+### Comment pulse
+
+- Supporters value practical Linux telephony → claimed call reliability, battery life, and responsive UI matter more than flagship specifications.
+- Purity and compatibility conflict → Android driver layers may enable hardware while limiting conventional Linux packaging and expectations.
+- Daily viability remains uncertain → app compatibility, payments, camera support, pricing, and repairability drive purchase decisions.
+
+### LLM perspective
+
+- View: The announcement establishes production intent, not enough evidence to judge the phone’s usability or openness.
+- Impact: Linux-phone enthusiasts gain another option, but mainstream adoption depends on applications and hardware support.
+- Watch next: Await full specifications, independent reviews, Android-app tests, driver architecture, shipping evidence, and repair documentation.

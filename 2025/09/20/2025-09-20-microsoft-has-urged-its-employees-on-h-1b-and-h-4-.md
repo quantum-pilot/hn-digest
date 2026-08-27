@@ -2,15 +2,18 @@
 
 - Score: 358 | [HN](https://news.ycombinator.com/item?id=45312877) | Link: https://timesofindia.indiatimes.com/technology/tech-news/microsoft-has-a-24-hour-deadline-warning-for-indian-and-other-foreign-employees-after-h1-b-visa-fees-hike-to-100000-strongly-recommend-h1b-visa-holders-/articleshow/124010245.cms
 
-- TL;DR
-  - Microsoft urged H‑1B/H‑4 employees abroad to return before Sept 21, after a Trump proclamation announcing a $100k H‑1B fee; those in the U.S. were told to stay. TOI cites a Microsoft memo reportedly based on Reuters. India holds most H‑1Bs; big tech depends heavily on them. HN discussion challenges the article’s framing: a White House/USCIS clarification says it’s a one‑time petition fee affecting future new filings, not current holders or re‑entry. Commenters focus on legal ambiguity, chaotic rollout, and spillover beyond tech (e.g., healthcare).
+### TL;DR
 
-- Comment pulse
-  - Fee applies only to new petitions, not current holders → Press Sec/USCIS memo; travel unaffected. — counterpoint: EO text unclear; reversals possible; attorneys advise caution.
-  - Sudden rollout creates fear and expensive scrambles → People abroad rushed flights; companies say “return or stay put”; unpredictable enforcement risks.
-  - High barriers may repel top talent → Brexit analogy: hostile climate and family limits deter moves. — counterpoint: UK immigration rose overall post‑Brexit.
+Microsoft reportedly urged H-1B and H-4 employees abroad to return before September 21 and advised those inside the United States to remain, reacting to a newly announced $100,000 H-1B fee and ambiguous entry restrictions. The article described the charge as annual, but later USCIS and White House guidance cited in HN said it was a one-time fee for new petitions, excluding current holders and renewals. Commenters remained wary because the proclamation’s wording appeared broader and the abrupt rollout caused costly travel disruption.
 
-- LLM perspective
-  - View: Treat this as signaling plus uncertainty; risk-manage travel and staffing until final rulemaking or injunctions clarify applicability.
-  - Impact: Hiring pipelines, campus recruiting, and rural hospitals using J‑1/H‑1B face pauses; consultancies and offshore models may adapt fastest.
-  - Watch next: USCIS fee schedule, emergency guidance for travel, lawsuits from tech/medical groups, and whether DHS waivers are used broadly.
+### Comment pulse
+
+- Later guidance narrowed the rule → officials said existing holders could travel normally, contradicting initial readings of the proclamation.
+- Legal uncertainty drove emergency action → families booked scarce flights rather than risk exclusion at an unclear deadline.
+- Talent effects may exceed fee revenue → commenters expect hostile unpredictability to deter skilled workers with international families and alternatives.
+
+### LLM perspective
+
+- View: The immediate damage came from contradictory implementation signals as much as the proposed fee itself.
+- Impact: Workers bore travel costs while employers, universities, and rural medical services faced planning uncertainty.
+- Watch next: Binding agency instructions, court challenges, petition definitions, waiver use, and employer travel guidance.

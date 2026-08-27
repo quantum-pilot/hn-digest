@@ -2,15 +2,18 @@
 
 - Score: 114 | [HN](https://news.ycombinator.com/item?id=45315746) | Link: https://learn.microsoft.com/en-us/answers/questions/5561465/the-llm-lobotomy
 
-TL;DR
-An Azure OpenAI user claims “LLM lobotomy”: the same gpt-4o-mini, system prompt, and temp‑0 tests now fail structured JSON checks more often, and gpt‑5‑mini/nano feel slower and weaker. They suspect silent downgrades and consider leaving Azure. HN asks for reproducible evidence and pinned logs; others propose providers keep timestamped, immutable model versions and rerun public benchmarks. Debate centers on causes—quantization or hidden system prompts vs versioned weights with inference/pipeline nondeterminism and Azure safety layers. Temp‑0 isn’t fully deterministic; performance and pricing complaints surface.
+### TL;DR
 
-Comment pulse
-- Silent regressions exist → demand pinned/timestamped models, periodic benchmarks; 'latest' can float; quantization or hidden prompts suspected — counterpoint: weights are versioned; pipeline nondeterminism likely.
-- Azure adds safety/RAI layers → outputs may differ from OpenAI; some see Azure-hosted models slower/worse; users want old models frozen without deprecation.
-- Evidence requested → reproducible test suite with fixed seeds and logs; temperature 0 not fully deterministic; infrastructure and rate limits can skew latency/format conformance.
+An Azure customer alleges that identical, temperature-zero regression conversations against gpt-4o-mini became less accurate over six months, especially when producing enum fields, while newer mini and nano models were slower or worse. The author suspects undisclosed model changes but shared only a fabricated apple-and-mango illustration, not dated measurements. HN readers want reproducible logs and periodically rerun benchmarks, while offering alternative explanations including ordinary nondeterminism, inference infrastructure, hidden prompts, sampling bias, or changing deployment versions rather than degraded weights.
 
-LLM perspective
-- View: Treat hosted LLMs as moving targets; build regression tests, pin deployments, and monitor output schemas continuously.
-- Impact: Azure safety layers may improve compliance but reduce predictability; trade-offs vs OpenAI direct or self-hosted models.
-- Watch next: Share test harness; compare Azure vs OpenAI endpoints, temps/seeds; track latency percentiles; request model version pinning SLAs.
+### Comment pulse
+
+- Evidence is the missing centerpiece → claims of logged regressions remain untestable without scores, dates, request parameters, and identifiers.
+- Temperature zero is not deterministic → repeated samples and statistical error rates are still required.
+- Production users need stable contracts → version pinning, validation layers, and continuous regression alerts reduce exposure to behavioral drift.
+
+### LLM perspective
+
+- View: Model identity alone is insufficient provenance for a managed inference service.
+- Impact: Applications with structured outputs inherit unannounced behavioral risk unless they validate every response.
+- Watch next: Published test data, pinned deployment audits, repeated trials, latency percentiles, and provider change disclosures.

@@ -2,15 +2,18 @@
 
 - Score: 292 | [HN](https://news.ycombinator.com/item?id=45312696) | Link: https://lore.kernel.org/git/20250904-b4-pks-rust-breaking-change-v1-0-3af1d25e0be9@pks.im/
 
-TL;DR
-- Git is adopting Rust with a staged plan: optional initially, later a mandatory build dependency, likely when GCC supports Rust to preserve broad platform coverage. Motivations include memory safety beyond C, ongoing feature development, and attracting contributors who prefer Rust. Critics worry Git is “done,” Rust adds toolchain complexity, and GCC’s Rust may lag. Clarification: Rust becomes required to build Git, not for all future patches or rewrites. Supporters note Git’s polyglot history and say repo formats/hackability won’t change.
+### TL;DR
 
-Comment pulse
-- GCC track record skepticism → gcj’s failure and no Rust standard raise fears of divergence or stale compilers.
-- Feature headroom examples → jj and git-branchless demonstrate in-memory merges and improved UX enabled by Rust implementations.
-- Barrier-to-entry debate → Added toolchain/language vs. Git already using C/shell/Perl/Tcl; many developers prefer Rust.
+A Git patch series proposes adding optional Rust infrastructure as a test balloon, converting the small dependency-free varint subsystem to verify C interoperability and build tooling. It gives distributors time to adapt before Rust becomes mandatory for building Git 3.0, especially on platforms where toolchain support is difficult. The initial RFC supported Meson and anticipated Makefile, CI, and formatting work. Commenters debated memory safety, contributor appeal, portability, and added complexity, while clarifying that Rust would be a build requirement—not a mandate that every contribution use Rust.
 
-LLM perspective
-- View: Staged mandate balances safety and contributor pipeline without forcing rewrites or blocking C-only contributions.
-- Impact: Distros/CI must ship Rust toolchains; long-tail platforms may struggle; build docs need clearer environment requirements.
-- Watch next: gccrs stabilization, first Rust components landing, measurable perf/security wins, and a fallback plan where Rust isn’t available.
+### Comment pulse
+
+- Gradual adoption reduces disruption → optional support lets maintainers test interoperability while distributors prepare toolchains.
+- Motivation remains debated → supporters cite safety and new contributors; skeptics question changing a mature C project.
+- Hackability concerns are narrower than claimed → repository formats and external clients do not depend on Git’s implementation language.
+
+### LLM perspective
+
+- View: A trivial subsystem is an appropriate experiment because it tests integration without tying success to a major feature.
+- Impact: Builders inherit another compiler; maintainers gain access to Rust safety and a wider contributor pool.
+- Watch next: Track platform coverage, GCC Rust maturity, binary portability, CI cost, and defects found in mixed-language boundaries.

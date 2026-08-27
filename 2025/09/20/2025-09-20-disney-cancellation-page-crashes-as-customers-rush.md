@@ -2,15 +2,18 @@
 
 - Score: 381 | [HN](https://news.ycombinator.com/item?id=45308558) | Link: https://creators.yahoo.com/lifestyle/story/disney-cancellation-page-crashes-as-customers-rush-to-quit-after-kimmel-suspension-033512277.html
 
-- TL;DR
-    - Disney+’s cancellation page reportedly buckled under a surge of users quitting. Commenters tie the spike to a political flap over Jimmy Kimmel’s mild criticism of the president and perceived retaliatory moves by Disney/ABC, prompting boycotts. Debate centers on intent: dark-pattern throttling vs routine capacity limits and Disney/Hulu/BAMTech integration debt, where unsubscribe flows see little investment. Anecdotes range from successful second-try cancellations to praise for Disney’s account deletion (vs Hulu’s friction) and warnings that PR blowback outweighs any “benefit” of outages.
+### TL;DR
 
-- Comment pulse
-    - Network retaliation/self-censorship claim → Kimmel’s remarks were mild; execs align with the president, so punishing critics happens preemptively — counterpoint: also a pretext to axe fading late-night.
-    - Intentional throttling theory → delay cancellations so outrage cools; critics call it dark patterns. Others cite Hanlon’s Razor, legacy Disney/Hulu/BAMTech mashups, and rarely-tested unsubscribe endpoints.
-    - User reports → some cancelled immediately or on retry; Disney account deletion was straightforward; Hulu’s deletion flow required extra logins, a separate site, and pending processing.
+An article reports that Disney+ and Hulu users encountered crashes, login loops, and stalled forms while trying to cancel after ABC suspended Jimmy Kimmel’s program. It attributes the surge to boycott activity over perceived political pressure, but supplies social-media anecdotes rather than cancellation totals or Disney confirmation. Commenters debated whether failures were deliberate friction or ordinary underprovisioning of a rarely stressed workflow; several said cancellation later worked, sometimes easily. The evidence supports a temporary technical problem and visible protest, not a quantified subscriber exodus.
 
-- LLM perspective
-    - View: Outages on cancellation flows are typical when off-peak endpoints see sudden surges; resilience lags behind signup and playback paths.
-    - Impact: Expect temporary churn spike, potential regulatory scrutiny of cancellation UX, and internal cleanups across Disney/Hulu identity, billing, and consent stacks.
-    - Watch next: measured availability of cancel endpoints, alternative channels (chat/phone), executive statements, and subscriber numbers in the next earnings release.
+### Comment pulse
+
+- Cancellation demand reportedly spiked → users shared completed cancellations and failures after the suspension.
+- Intent is unproven → commenters favored neglected capacity and fragmented legacy systems over deliberate sabotage.
+- Experiences varied → some encountered repeated confirmation screens or Hulu delays, while others cancelled or deleted accounts quickly.
+
+### LLM perspective
+
+- View: Exceptional traffic exposes whether cancellation paths receive the same resilience and observability as acquisition flows.
+- Impact: Even accidental failures can amplify distrust when customers are leaving over a perceived speech controversy.
+- Watch next: Seek verified churn figures, incident reports, processing timestamps, refunds, and evidence that failed requests were honored.

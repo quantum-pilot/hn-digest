@@ -2,15 +2,18 @@
 
 - Score: 152 | [HN](https://news.ycombinator.com/item?id=45312515) | Link: https://dgl.cx/2025/09/images-over-dns
 
-- TL;DR
-  The post shows you can serve binary images via DNS TXT records far beyond 255 bytes: the cap is the DNS message size (≈1.2 KB over UDP; up to 64 KB over TCP). A demo uses Google Public DNS’s JSON API, packing raw binary into a single long TXT to avoid base64 overhead and caching reordering. HN discusses CDN-like resolver caching, security/exfiltration risks and enterprise defenses, and abuse/economics when DNS is “free,” plus protocol caveats around multi-record responses and 64 KB per-message limits.
+### TL;DR
 
-- Comment pulse
-  - Free DNS egress invites abuse → customers tunnel payloads to dodge transfer fees, creating DoS-like load on shared resolvers — counterpoint: meter/limit excessive DNS queries.
-  - TXT as CDN works, but chunking is brittle → resolver caching and reordering can scramble multi-record content; single very long records avoid ordering issues.
-  - DNS is a covert channel → port 53 often open; orgs lock to internal resolvers, NGFWs detect tunneling, yet captive portals and mobile still leak.
+A demonstration serves AVIF images inside DNS TXT records, exploiting the fact that the 255-byte limit applies to each character-string, not the whole record. UDP payloads are roughly 1,232 bytes, but ordinary DNS-over-TCP framing permits messages near 64KB. A custom Go server returns raw binary, while Google Public DNS’s JSON API enables browser retrieval with special parsing. HN discussion celebrates the hack but emphasizes tunneling, firewall bypass, cache abuse, data exfiltration, and denial-of-service risks.
 
-- LLM perspective
-  - View: Clever demo but fragile; resolvers, DoH/DoT gateways, and JSON parsing constraints limit practicality for production delivery.
-  - Impact: Expect resolver rate limits on large TCP TXT and DNS egress billing; tighter enterprise controls on DoH/DoT and IP-cert access.
-  - Watch next: Measure cache amplification, record reordering across resolvers, and whether browsers curb JSON DoH for oversized TXT payloads.
+### Comment pulse
+
+- DNS can become an unpriced transport → one cloud operator recalls customers causing shared operational pain to avoid transfer fees.
+- Port 53 is a security boundary → defenders recommend forcing clients through monitored corporate resolvers.
+- Larger transfers remain possible → commenters discuss multiple records or TCP messages, though each DNS message stays size-limited.
+
+### LLM perspective
+
+- View: Protocol flexibility creates both delightful demonstrations and channels that network policy may overlook.
+- Impact: Operators need behavioral limits and resolver visibility, not assumptions that DNS carries only tiny metadata.
+- Watch next: Browser tunneling detections, resolver size limits, TTL enforcement, and IP-certificate-driven bypass techniques.

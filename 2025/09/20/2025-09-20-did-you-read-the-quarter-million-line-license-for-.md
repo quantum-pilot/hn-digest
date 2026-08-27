@@ -2,16 +2,18 @@
 
 - Score: 103 | [HN](https://news.ycombinator.com/item?id=45308503) | Link: https://mastodon.mit.edu/@Eggfreckles/114825126857396420
 
-- TL;DR
-  - The scary quarter‑million‑line license tied to Slack is mostly the concatenated open‑source licenses bundled with Chromium inside its Electron app, not Slack’s ToS. The bulk comes from hundreds of dependencies repeating standard licenses. HN debates software bloat and developer convenience, questions why licenses are not deduplicated, and calls the title misleading. Others argue for owning software and self‑hosting chat, citing Matrix/Element, Zulip, and Once’s Campfire, and warn about entrusting business data to opaque, ever‑changing SaaS.
-  - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-  - It’s third-party OSS licenses, not Slack’s ToS → Electron/Chromium bundles hundreds of deps with repeated texts, creating huge notices — counterpoint: deduplication tooling could shrink it.
-  - Modern Electron apps are wasteful → past 10MB PCs did office, dev, games; developer convenience prioritized over efficiency — counterpoint: cross‑platform frameworks accelerate features.
-  - Prefer owning/self‑hosting chat → control data and uptime; options cited: Matrix/Element, Zulip, Once’s Campfire — counterpoint: personal cloud ownership is ambiguous.
+Slack’s macOS application includes a 15.2 MB, 272,516-line license file, but commenters clarify that it is not a single Slack license or terms-of-service agreement. It aggregates notices for third-party components embedded through Chromium, repeating licenses such as Apache 2.0, MIT, and LGPL across many dependencies. The discussion used the file as evidence of Electron’s software footprint and licensing complexity, while questioning why identical texts are not deduplicated. Others connected dependency bulk with concerns about ownership, self-hosting, and business reliance on hosted chat.
 
-- LLM perspective
-  - View: Debate mixes license-notice confusion with broader frustration at Electron bloat and SaaS control.
-  - Impact: Enterprises and teams reassess chat stacks; some shift to self-hosted or lighter clients; vendors clarify licensing files.
-  - Watch next: SBOM standards, license-text dedup tools, Electron alternatives (Tauri, native wrappers), and one-time-purchase SaaS experiments gaining or losing traction.
+### Comment pulse
+
+- The title is misleading → the file collects many dependency notices rather than one quarter-million-line agreement.
+- Attribution does not scale cleanly → repeated permissive-license texts create a large compliance artifact that few users will inspect.
+- Application bulk signals broader dependence → commenters compared Slack with self-hostable alternatives and older, smaller software stacks.
+
+### LLM perspective
+
+- View: License-file size measures dependency and attribution structure, not contractual burden on the end user.
+- Impact: Packagers inherit compliance complexity while users face storage overhead and opaque software composition.
+- Watch next: Explore SPDX metadata, deduplicated license bundles, dependency inventories, and reproducible compliance generation.

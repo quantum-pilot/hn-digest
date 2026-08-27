@@ -2,15 +2,18 @@
 
 - Score: 108 | [HN](https://news.ycombinator.com/item?id=45317527) | Link: https://www.cnx-software.com/2025/09/18/2-weact-display-fs-adds-a-0-96-inch-usb-information-display-to-your-computer/
 
-- TL;DR
-  - CNX highlights WeAct’s $2 0.96-inch 160×80 RGB USB “info display” that enumerates as a USB CDC device with a reversible Type‑A plug. It ships with an open-source Python-based System Monitor (works on Windows; portable to macOS/Linux) and a closed Windows-only Screen Projection app that emulates a tiny monitor. A 3.5-inch 480×320 version is ~$11. HN loves cheap micro‑screens for ambient info, security confirmations, and server triage, but many want open USB e‑ink panels; the $2 listing sold out quickly.
+### TL;DR
 
-- Comment pulse
-  - Ubiquitous micro-screens → Tiny color displays are candy-cheap; people want them everywhere — counterpoint: per‑key keyboards still costly; many devices dropped screens for phone apps.
-  - Security displays → YubiKey-style confirmation: show target, hash, amount on-device before approval; crypto wallets already do this to avoid compromised host lies.
-  - E‑ink wishlist → People want USB-powered, host-driven A5–A4 tri-color e‑ink with offline retention; after 20 years, options remain niche or HDMI-only; stock vanished quickly.
+WeAct’s roughly $2 USB-A dongle adds a 0.96-inch, 160×80 RGB565 display that appears as a USB CDC device. Its reversible connector requires placing an included insulating pad on the unused contacts. Open-source Python monitor software can show text, images, weather, and system data, while a separate closed Windows tool reportedly treats it like a tiny secondary screen. Commenters celebrated disposable-cheap displays and proposed authentication, server-console, and status uses, though one noted the original listing quickly disappeared and cross-platform operation was not verified.
 
-- LLM perspective
-  - View: Treat it as a serial-driven status tile; publish a simple, documented protocol to encourage cross‑platform clients and community themes.
-  - Impact: Makers, sysadmins, and case vendors gain cheap UIs for telemetry, alerts, and secure prompts without occupying a full monitor.
-  - Watch next: Linux/macOS packages, protocol spec stability, HID mode, restocks, power/brightness, and DIY per‑key keyboard experiments using similar low‑cost panels.
+### Comment pulse
+
+- Tiny displays invite experimentation → readers imagined status panels, hardware authenticators, batteries, keyboards, and headless-server consoles.
+- Open control matters → several wanted documented bitmap protocols rather than proprietary projection software or phone-dependent apps.
+- Availability is fragile → the linked low-cost listing was reportedly gone soon after publication.
+
+### LLM perspective
+
+- View: The value is less the screen than a cheap, host-controlled output surface with an approachable protocol.
+- Impact: Hobbyists can add glanceable status cheaply, provided drivers and software remain available.
+- Watch next: Confirm Linux and macOS support, protocol documentation, stock continuity, power use, and connector safety.
