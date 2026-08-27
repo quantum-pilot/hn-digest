@@ -2,15 +2,18 @@
 
 - Score: 74 | [HN](https://news.ycombinator.com/item?id=46415488) | Link: https://www.newstatesman.com/business/companies/2023/05/ceos-salaries-expensive-automate-robots
 
-- TL;DR  
-The article argues that if firms are happy to automate thousands of lower‑paid workers, ultra‑expensive CEOs should be prime candidates too. It notes that much “CEO work” is already outsourced to cheaper assistants and suggests decision-intelligence software could make more rational, auditable strategic choices than biased humans—at a fraction of the cost. Hacker News commenters push back that CEO roles are mostly persuasion, politics and relationships, with scarce training data, so current AI can at best augment, not replace, them.
+### TL;DR
 
-- Comment pulse  
-  - CEOs hard to automate → role is intangible persuasion, networking, leadership; an AI would regurgitate mediocre advice, like wooden salespeople or pickup bots.  
-  - Target CEOs with AI hype → some enjoy flipping the script on executives who claim engineers are replaceable, arguing CEO work may be no simpler.  
-  - Data and oversight limits → training data on good CEO decisions is scarce, and automating only vacuous comms is easy but not transformative.
+The essay uses soaring executive compensation to invert the usual automation debate: if one CEO can cost as much as thousands of workers, why automate only lower-paid roles? It argues that strategic decisions are vulnerable to bias, widely reviewed inside companies, and increasingly amenable to decision software, citing Hong Kong transit maintenance scheduling. HN commenters mostly rejected full replacement because leadership centers on persuasion, networks, boards, and human legitimacy. Still, many welcomed applying the same replacement scrutiny executives direct toward developers and other staff.
 
-- LLM perspective  
-  - View: AI can assist CEOs with forecasting, scenario analysis, and comms, but full replacement ignores politics, psychology, and accountability.  
-  - Impact: Pressure may grow to justify executive pay with measurable value-add, or to flatten orgs and distribute strategic decisions more widely.  
-  - Watch next: Empirical studies comparing AI-generated strategic options versus human executive choices in simulated markets, plus shareholder experiments with algorithmic advisory votes.
+### Comment pulse
+
+- CEO work is socially intensive → vision-selling, negotiation, and executive alignment depend on trust and context difficult to encode.
+- Automation rhetoric cuts both ways → executive roles deserve the same cost-based scrutiny applied to engineers and frontline workers.
+- Training data is a core obstacle → private strategic decisions lack the abundant labeled examples available for code, images, or text.
+
+### LLM perspective
+
+- View: Decision support will automate executive analysis sooner than it replaces the accountable human representative.
+- Impact: Boards can demand measurable evidence for strategy while reducing dependence on intuition and ceremonial communication.
+- Watch next: Compare AI-assisted leadership outcomes, accountability structures, and compensation changes against conventional executive teams.

@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-The piece dissects the proposed Trump‑class “battleship” USS Defiant and concludes it’s neither a battleship nor a good idea: it’s an oversized, 35k‑ton “large missile cruiser” with roughly Ticonderoga‑level VLS capacity, gimmicky railgun/laser add‑ons, and unclear roles. The design seems driven by aesthetics, ego, and buzzword tech rather than coherent requirements or cost‑effectiveness versus more Burkes or DDG(X). A parallel “minimum‑change” frigate (FF(X)) based on a Coast Guard cutter is likewise criticized as under‑sensed and under‑armed for serious modern combat.
-
----
+The proposed Trump-class “battleship” is better described as an oversized missile cruiser: it lacks armor and gun-primary armament, while carrying 128 VLS cells, hypersonic missiles, lasers, and a speculative railgun. The author sees a 35,000-ton grab bag offering little over smaller Burkes or DDG(X), while consuming scarce shipbuilding capacity and concentrating capability in one hull. HN discussion largely agreed it is an ego-driven, probably unbuilt project, but stressed that design work alone can waste money and derail decade-scale fleet planning.
 
 ### Comment pulse
 
-- “Battleship” framing is nostalgic hype → big surface ships are sitting ducks for coastal missiles, drones, and submarines near China—counterpoint: armor/stability still offer some niche advantages.  
-
-- Many expect Defiant never to be built → but billions can still vanish into studies, prototypes, and misdirected planning, distorting the fleet for a decade.  
-
-- Project seen as symptom of USN malaise → aging hull designs, troubled shipyards, contractor capture, and ego‑driven requirements producing spectacle instead of resilient, massed combat power.
-
----
+- Size lacks a mission case → comparable missile capacity fits far smaller hulls, while coastal missiles and submarines threaten concentrated assets.
+- Cancellation is not costless → abandoned procurement can consume billions and delay the destroyers and antisubmarine ships actually needed.
+- Some scale benefits exist → steadier sensors, range, damage tolerance, and power margins improve — counterpoint: additional hulls usually deliver greater availability.
 
 ### LLM perspective
 
-- View: This is prestige‑platform thinking; capability per dollar and fleet numbers matter more than one giant “flagship” in a missile age.  
-
-- Impact: Misallocation could hollow out escort numbers, stressing deployments and allies who rely on credible US blue‑water presence.  
-
-- Watch next: Follow DDG(X) and Constellation funding, any Trump‑class line‑items in budgets, and real at‑sea demos of railguns/lasers versus marketing slides.
+- View: The decisive flaw is opportunity cost, not whether historical terminology technically permits a missile battleship.
+- Impact: Shipyards and planners could lose years while China expands forces and existing American designs age.
+- Watch next: Funding, 2028 keel ambitions, DDG(X) disposition, propulsion choice, and railgun maturity will expose seriousness.

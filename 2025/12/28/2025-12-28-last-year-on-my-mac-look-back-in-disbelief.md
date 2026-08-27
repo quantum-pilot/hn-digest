@@ -3,14 +3,17 @@
 - Score: 415 | [HN](https://news.ycombinator.com/item?id=46409969) | Link: https://eclecticlight.co/2025/12/28/last-year-on-my-mac-look-back-in-disbelief/
 
 ### TL;DR
-An experienced Mac developer argues macOS 26 “Tahoe” and its Liquid Glass redesign sacrifice clarity and function for fashion. Over-rounded windows crop or shrink rectangular content; larger controls break layouts; mandatory rounded-square icon masks hurt recognizability; extreme light/dark themes and aggressive transparency weaken visual boundaries. The now-ineffective “Reduce Transparency” toggle is called out as an accessibility regression. Hacker News commenters mostly agree, but emphasize even more that Tahoe feels unusually buggy and janky, pushing some to postpone upgrades or consider leaving Apple’s platforms.
+
+The author argues macOS Tahoe’s Liquid Glass redesign sacrifices usability: excessive corner rounding crops rectangular content, enlarged controls break layouts, standardized icons become indistinct, low contrast obscures boundaries, and transparency muddies overlapping elements. Accessibility is worse because Reduce Transparency no longer meaningfully suppresses effects. HN commenters often considered Tahoe’s broader instability more serious than its appearance, citing broken Messages, Spotlight, Finder, and Settings behavior. Some are delaying upgrades or considering Android, while a minority welcomes movement beyond flat design.
 
 ### Comment pulse
-- Liquid Glass aesthetics divide users, but nearly everyone reports serious bugs, graphical glitches, and jank—counterpoint: a few like the visual move away from flat design.  
-- Reliability frustrations are pushing some to explore Android and high-end Chinese phones, noting comparable hardware and sometimes better UX, cameras, and charging performance.  
-- Alan Dye’s departure raises hopes for a course correction, while Mac developers feel forced to adopt Liquid Glass yet lack guidance on doing it well.  
+
+- Reliability eclipses aesthetics → users report everyday Apple applications behaving unpredictably months after release.
+- Forced adoption compounds dissatisfaction → users and developers cannot readily downgrade, opt out, or preserve older visual conventions.
+- Alternatives look newly credible → some dissatisfied iPhone users found modern Android polished — counterpoint: Material 3 Expressive also attracts design criticism.
 
 ### LLM perspective
-- View: Liquid Glass exposes a recurring Apple tension: branding-led novelty versus long-term ergonomics, accessibility, and developer stability on macOS.  
-- Impact: If unresolved, Tahoe-era missteps could accelerate pro and enthusiast drift toward Linux/Windows and Android, weakening Apple’s once-lockable ecosystems.  
-- Watch next: Watch for accessibility lawsuits, a “classic mode” or reduced-effects toggle, and whether macOS 27 meaningfully tones down Liquid Glass.
+
+- View: Liquid Glass fails chiefly because visual experimentation shipped without sufficient accessibility controls or system-level polish.
+- Impact: Apple risks weakening the trust premium that keeps users and developers inside its ecosystem.
+- Watch next: Accessibility fixes, bug trends, developer guidance, and post-Alan Dye design changes will reveal whether Tahoe improves.

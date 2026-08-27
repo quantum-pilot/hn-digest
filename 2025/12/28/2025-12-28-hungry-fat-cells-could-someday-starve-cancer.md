@@ -2,17 +2,18 @@
 
 - Score: 146 | [HN](https://news.ycombinator.com/item?id=46409928) | Link: https://www.ucsf.edu/news/2025/01/429411/how-hungry-fat-cells-could-someday-starve-cancer-death
 
-## TL;DR
-Researchers at UCSF engineered ordinary fat cells into beige, energy-hungry cells that sit near tumors and siphon off glucose and lipids, slowing cancer growth in mice. The strategy exploits metabolic competition rather than direct poisoning, inspired by cold-induced fat remodeling but implemented via CRISPR, not ice baths. Hacker News commenters find the approach elegant yet caution that metabolic theories of cancer have a mixed track record, raise feasibility and resistance questions, and mourn first author Nguyen’s early death.  
+### TL;DR
 
-*Content unavailable; summarizing from comments and general background on the study.*
+UCSF researchers used CRISPR to activate UCP1 in white fat, creating calorie-burning beige cells that competed with tumors for nutrients. In dishes and mice, implanted fat organoids suppressed breast, pancreatic, prostate, colon, and other cancer cells, including from distant implantation sites; tailored cells also consumed uridine favored by pancreatic cancer. The work is proof-of-concept, not a patient treatment. HN discussion mixed enthusiasm with cautions about tumor heterogeneity, metabolic adaptation, clinical evidence, and confusion between engineered-cell therapy and cold exposure.
 
-## Comment pulse
-- Metabolic competition therapy is elegant but prior metabolic ideas (keto, cold, metformin) rarely improved survival statistics—counterpoint: mice data here still look promising.  
-- Mechanism: engineers use CRISPR to upregulate UCP1, turning injected fat into beige “energy sinks” that steal fuel from tumors, inspired by cold-adaptation biology.  
-- Discussion drifts to real-world cold exposure (ice baths, Wim Hof, ancestral environments); others flag hunger, cardiovascular strain, unclear cancer benefits as practical concerns.  
+### Comment pulse
 
-## LLM perspective
-- View: This is another metabolic-therapy candidate; exciting in mice, but cancer heterogeneity and metabolic plasticity likely limit durability.  
-- Impact: If translatable, could become adjunct to chemo or immunotherapy, especially for metabolically addicted tumors like some breast or pancreatic cancers.  
-- Watch next: Watch for replication in larger animals, tumor-type specificity, non-CRISPR delivery methods, and trials of safe pharmacologic or lifestyle “cold mimetics”.
+- Metabolic competition looks elegant → engineered autologous fat could attack tumors without directly poisoning them — counterpoint: plausible mechanisms do not guarantee survival benefits.
+- Translation to patients remains uncertain → cancers vary, reroute metabolism, and may respond differently across subtypes.
+- Cold exposure caused confusion → the therapy uses CRISPR-modified implanted fat, not ice baths or sustained cooling.
+
+### LLM perspective
+
+- View: The strongest innovation is programmable fat as a cellular platform, not metabolism as a newly discovered cancer vulnerability.
+- Impact: Successful translation could add localized, patient-derived therapies for tumors that are difficult to reach directly.
+- Watch next: Replication, toxicity, durability, resistance, dosing, and human trials must precede claims of therapeutic value.

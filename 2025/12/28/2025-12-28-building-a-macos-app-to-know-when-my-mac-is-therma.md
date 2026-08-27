@@ -3,18 +3,17 @@
 - Score: 214 | [HN](https://news.ycombinator.com/item?id=46410402) | Link: https://stanislas.blog/2025/12/macos-thermal-throttling-app/
 
 ### TL;DR
-The author wanted a reliable way to tell when an Apple Silicon Mac is *actually* thermal throttling, beyond vague “fair” states and CPU-at-100% heuristics. Apple’s official `ProcessInfo.thermalState` is too coarse, collapsing “moderate” and “heavy” thermal pressure into one value. Digging deeper, they discovered `thermald` publishes precise pressure levels via Darwin notifications (`com.apple.system.thermalpressurelevel`), accessible without root. They built MacThrottle, a SwiftUI menu-bar app that subscribes to this, graphs temperature and fan speed, sends alerts, and auto-starts—albeit without notarization.
 
----
+MacThrottle arose because macOS’s public `ProcessInfo.thermalState` merges “moderate” heat and actual “heavy” throttling into one “fair” state. The author discovered that `thermald` exposes the finer five-level pressure value through Darwin notifications, enabling a rootless Swift menu-bar app instead of polling privileged `powermetrics`. The app combines pressure history, SMC temperature with an IOKit fallback, fan speed, alerts, and login startup. HN readers valued diagnosis but noted charging, docks, external displays, and fan curves as confounding factors or mitigations.
 
 ### Comment pulse
-- Intel 2019 i9 MacBooks throttled constantly → users report terrible thermals, fan noise, and even port-side–dependent behavior; Apple Silicon plus new chassis is a huge upgrade.  
-- “What can you *do* with this info?” → kill runaway apps, tweak fan curves or use High Power Mode; on fanless Airs, you’re mostly closing stuff or adding external cooling.  
-- Power/IO can mimic throttling → weak chargers, docks, or hot USB-C sides cause “thermal soaking,” reduced headroom, and 100% CPU at low watts—counterpoint: still worth distinguishing from true SoC throttling.
 
----
+- Accurate pressure visibility enables action → users can kill runaway processes, adjust fan behavior, or pause workloads before severe slowdown.
+- Heat has multiple contributors → charging, USB controllers, external displays, and inadequate adapters can mimic or trigger CPU throttling.
+- Distribution remains awkward → absent notarization adds installation friction, while commenters suggested Homebrew as a route forward.
 
 ### LLM perspective
-- View: Using `notifyd`’s thermalpressure notifications is a clean, non-root pattern other Mac tools can copy for accurate throttling detection.  
-- Impact: Power users, game/compute developers, and monitoring apps gain clearer signals to adapt workloads or guide users.  
-- Watch next: Add charger/dock power detection, compare with Intel-era APIs, and monitor whether Apple documents or locks down these thermal interfaces.
+
+- View: Undocumented system signals can be more operationally useful than Apple’s intentionally coarse public abstraction.
+- Impact: Passive Mac users gain evidence separating thermal pressure from swapping, power constraints, or overloaded processes.
+- Watch next: Test pressure mappings and SMC keys across Apple Silicon generations, docks, chargers, and macOS updates.

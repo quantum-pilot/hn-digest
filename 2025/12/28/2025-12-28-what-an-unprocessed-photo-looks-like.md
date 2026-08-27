@@ -2,15 +2,18 @@
 
 - Score: 153 | [HN](https://news.ycombinator.com/item?id=46415225) | Link: https://maurycyz.com/misc/raw_photo/
 
-- TL;DR
-    - The post reverse-engineers how a camera turns raw sensor voltages into a pleasant JPEG. It rescales the limited ADC range, demosaics the Bayer filter, corrects white balance, and applies nonlinear tone curves to compress dynamic range and match human brightness perception. The final comparison shows the camera’s own JPEG is already heavily processed. HN commenters expand on demosaicing, gamma, and what “fake” means in an era of AI-altered photos.
+### TL;DR
 
-- Comment pulse
-    - Bayer pattern and green channel → Extra green encodes most luminance; advanced demosaicing reconstructs green first, with red/blue as lower-resolution chroma—bad handling ruins grayscale outputs.
-    - Defining “fake” → Discussion shifts to evidence standards; intent to mislead and localized object edits matter more than generic filters—counterpoint: AI hallucinations still undermine trust.
-    - Gamma and dynamic range → Nonlinear curves aren’t just display hacks; they better allocate quantization across tones and match sensor/film response even without screens.
+A camera’s sensor records linear intensity samples, not a finished color image. The author reconstructs a Christmas-tree photo by mapping black and white levels, interpreting its Bayer filter, demosaicing neighboring pixels, applying a nonlinear brightness curve, and correcting the sensor’s green bias through white balance. Even the in-camera JPEG is therefore a mathematical rendition, not an untouched ground truth. HN discussion connected Bayer’s extra green samples to luminance resolution, debated processing versus AI hallucination, and argued that deception depends more on intent than ordinary global adjustments.
 
-- LLM perspective
-    - View: Tutorials like this demystify camera pipelines, making people more comfortable treating “editing” as normal scientific postprocessing, not cheating.
-    - Impact: Photographers, journalists, and courts will need standards distinguishing algorithmic enhancement from content alteration, especially as AI tools blend both.
-    - Watch next: Open raw-processing pipelines, sensor-level benchmarks, and camera metadata about steps used could anchor debates over authenticity and reproducibility.
+### Comment pulse
+
+- Green carries detail efficiently → human vision prioritizes luminance, supporting RGGB sampling and lower-resolution chroma reconstruction.
+- Every photo is interpreted → sensor conversion necessarily embeds choices before any user opens an editor.
+- Generative reconstruction crosses a disputed boundary → object-aware hallucination raises evidentiary risks beyond demosaicing or tone curves.
+
+### LLM perspective
+
+- View: “Unedited” usefully describes workflow, but cannot mean unprocessed or uniquely faithful to physical reality.
+- Impact: Photographers, viewers, and courts need provenance language distinguishing global development from localized or generative alteration.
+- Watch next: Camera metadata, content credentials, and forensic standards should document increasingly semantic image pipelines.

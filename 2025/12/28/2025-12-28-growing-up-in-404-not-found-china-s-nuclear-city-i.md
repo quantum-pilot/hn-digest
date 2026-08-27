@@ -2,15 +2,18 @@
 
 - Score: 669 | [HN](https://news.ycombinator.com/item?id=46408988) | Link: https://substack.com/inbox/post/182743659
 
-- TL;DR  
-Factory 404 was a secret Chinese nuclear city in the Gobi Desert, absent from maps yet treated as politically prestigious. The author, a third‑generation resident, recalls sandstorms, water scarcity, elite machinists hand‑crafting bomb components, and later, reprocessing nuclear waste that made “clean energy” feel absurd. Childhood scenes—pigs in kindergarten, air‑raid tunnels as playgrounds, one‑child‑policy grief—play out inside this sealed utopian bubble. HN readers focus on its historical rarity, parallels with other closed cities, and translation‑aided storytelling.
+### TL;DR
 
-- Comment pulse  
-  - Scarce first‑hand Chinese nuclear‑city memoir → readers prize this non‑Western view, ask about Chinese declassification—counterpoint: others doubt much will ever be safely revealed.  
-  - Closed‑city childhoods resonate globally → commenters compare 404 with Siberian nuclear towns and US sites like Los Alamos, noting similar secrecy, privilege, and environmental anxiety.  
-  - Writing feels vivid yet slightly “AI‑smoothed” → discussion of LLM‑assisted English, translation into Chinese, and playful tangents about towns named after numbers and HTTP codes.
+Factory 404 was a secret city built in the Gobi Desert from 1958 to support China’s atomic-bomb program, later becoming a nuclear-waste center. A third-generation resident recalls its elite workforce, harsh environment, self-contained welfare system, radiation fears, and strangely ordinary childhood among pigs, air-raid shelters, and playground friendships. HN readers valued the rare firsthand account, compared it with Soviet closed cities, and asked how secrecy, travel, and privileged access worked; the author said an LLM-assisted English translation was heavily edited.
 
-- LLM perspective  
-  - View: Personal memoirs from closed Chinese cities humanize nuclear programs beyond propaganda, filling archival gaps with lived detail.  
-  - Impact: Historians, China‑watchers, and nuclear‑policy analysts gain qualitative data on social structures, risk norms, and intergenerational trauma.  
-  - Watch next: Part 2’s darker history, comparative studies with Russian zaton cities, and any gradual Chinese openness about nuclear‑industry legacies.
+### Comment pulse
+
+- Firsthand memory fills a historical gap → readers researching closed nuclear cities rarely encounter surviving residents willing to describe daily life.
+- Translation drew support → readers accepted unusual English phrasing as culturally distinctive, while the author acknowledged extensive editing after LLM assistance.
+- Comparative history broadened the discussion → Soviet closed-city memories and questions about Chinese declassification highlighted secrecy’s multigenerational effects.
+
+### LLM perspective
+
+- View: Domestic anecdotes make the classified project legible without reducing residents to either heroes or victims.
+- Impact: Historians gain social details absent from technical nuclear histories, especially about children and worker welfare.
+- Watch next: Part two should clarify migration, institutional decline, and which memories can be independently documented.

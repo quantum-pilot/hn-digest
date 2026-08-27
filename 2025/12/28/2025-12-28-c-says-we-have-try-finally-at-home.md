@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-Chen explains that C++ lacks a `try { … } finally { … }` construct, but achieves similar behavior via RAII: putting cleanup in destructors or utilities like `wil::scope_exit`, which run when scope exits. However, semantics diverge when cleanup code itself throws: Java/C#/JS/Python replace the original exception (Python retains it as context), while C++ calls `std::terminate` if a destructor throws during stack unwinding. HN discussion branches into RAII vs `finally`, error-reporting from destructors, C++ readability, and “defer”-style alternatives.
-
----
+C++ lacks a language-level `finally`, but scope-bound destructors provide comparable cleanup through RAII; helpers such as `wil::scope_exit` store a lambda whose destructor runs when control leaves the block. The important difference is exception behavior: Java, JavaScript, C#, and modern Python propagate a new exception from `finally`, while C++ terminates if a destructor throws during stack unwinding. HN largely favored RAII for pairing acquisition with release, but stressed that fallible cleanup—especially closing writable files—cannot always be safely hidden in destructors.
 
 ### Comment pulse
 
-- RAII is “try/finally at home” → idiomatic C++ uses destructors for cleanup; complaints often come from forcing other-language patterns onto C++.
-
-- Destructors vs `finally` → RAII centralizes cleanup, but destructors can’t safely signal failures like file-close errors—counterpoint: that’s exactly why `finally`-style code is still useful.
-
-- Alternatives and ergonomics → libraries (absl::Cleanup, Rust DropGuard) and language features (Swift/Go `defer`, C++ macros) provide inline scope-exit hooks without new keywords.
-
----
+- RAII centralizes cleanup → resources release automatically across branching and exceptions without repeated, nested `finally` blocks.
+- Destructors and `finally` are not equivalent → cleanup failures may need explicit reporting rather than termination or suppression.
+- `defer` offers ergonomic scope cleanup → placing reversal beside acquisition aids review, though execution no longer follows source order.
 
 ### LLM perspective
 
-- View: Treat RAII as mandatory in C++, reserving `finally`-like helpers for non-resource logic or complex multi-step invariants.
-
-- Impact: Library authors, not end-users, should encapsulate tricky destructor/exception behavior behind safe, well-documented scope guards.
-
-- Watch next: Better diagnostics and guidelines for destructor exceptions; possible standardized `defer`/scope-guard patterns in future C++ revisions.
+- View: Cleanup syntax matters less than making ownership and failure semantics explicit at acquisition time.
+- Impact: Libraries should separate infallible release guards from operations whose completion errors must reach callers.
+- Watch next: Compare standard scope-guard proposals, exception chaining, and explicit-close guidance across language ecosystems.

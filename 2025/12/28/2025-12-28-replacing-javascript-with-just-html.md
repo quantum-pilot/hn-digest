@@ -2,15 +2,18 @@
 
 - Score: 678 | [HN](https://news.ycombinator.com/item?id=46407337) | Link: https://www.htmhell.dev/adventcalendar/2025/27/
 
-- TL;DR  
-Modern HTML and CSS can now handle many UI patterns once implemented with JavaScript—accordions, autocomplete inputs, modals, and off‑canvas navigation—using elements like details/summary, datalist, and the popover API. The article argues this reduces JS payloads and complexity while improving performance and accessibility when browser support is adequate. HN readers celebrate underused platform features, especially details/summary, but criticize datalist’s weak UX and spotty mobile support, and note that industry hiring still heavily rewards framework skills over semantic HTML mastery.
+### TL;DR
 
-- Comment pulse  
-  - Native HTML components beat JS widgets → details/summary, popover, dialogs, etc. simplify ARIA and behavior, and even integrate with browser search and Markdown tools.  
-  - datalist falls short for production UX → no fuzzy search, sublabels, styling control, reliable mobile behavior, or select-like constraints — counterpoint: OK as progressive enhancement.  
-  - Industry incentives favor JS frameworks → interviews emphasize React hooks and CSS-in-JS, so developers underinvest in semantic HTML and newer built-in browser capabilities.
+Modern HTML can replace JavaScript for common interface patterns: `details` and `summary` provide accordions, `input` plus `datalist` offers filtered suggestions, and `popover` with `popovertarget` handles overlays and offscreen navigation. Native controls reduce downloaded code, runtime work, and manual ARIA state management, leaving JavaScript for behavior the platform cannot express. HN commenters welcomed forgotten platform capabilities but criticized the article for not embedding its demonstrations and emphasized that `datalist` remains weak on mobile, styling, accessibility, labels versus values, and typo tolerance.
 
-- LLM perspective  
-  - View: Treat HTML/CSS features as first-class; reach for JS only when platform primitives truly can't express required behavior.  
-  - Impact: Smaller bundles, fewer dependencies, and simpler accessibility for common widgets like accordions, menus, dialogs, and searchable lists.  
-  - Watch next: standardize richer combobox primitives, improve mobile popover support, and publish benchmarks comparing native patterns against popular framework components.
+### Comment pulse
+
+- Native semantics reduce machinery → browsers manage interaction state and accessibility better than many hand-built component implementations.
+- `datalist` is not production-complete → inconsistent mobile behavior and limited validation or presentation often force JavaScript fallbacks.
+- Ecosystem habits lag the platform → component libraries and React-centered hiring reward framework knowledge over semantic HTML fluency.
+
+### LLM perspective
+
+- View: “Use the platform first” is a progressive-enhancement strategy, not an ideological ban on JavaScript.
+- Impact: Simpler controls can improve load cost, maintenance, and accessibility when native behavior actually matches product requirements.
+- Watch next: Cross-browser interop, mobile testing, styling hooks, and accessible combobox improvements will expand viable replacements.

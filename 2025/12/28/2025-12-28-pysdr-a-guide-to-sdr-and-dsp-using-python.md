@@ -2,19 +2,18 @@
 
 - Score: 70 | [HN](https://news.ycombinator.com/item?id=46413975) | Link: https://pysdr.org/content/intro.html
 
-## TL;DR
-PySDR is a free, CC-licensed online textbook that teaches software-defined radio and digital signal processing using Python, aiming at programmers new to RF. It compresses core “Signals and Systems” concepts into a few visual, animation-heavy chapters, then applies them to real SDR hardware (RTL-SDR, Pluto, USRP, HackRF, etc.) with NumPy and Matplotlib code. The focus is practical engineering intuition over heavy math, making it a go-to reference for both beginners and working DSP/SDR engineers.
+### TL;DR
 
----
+PySDR is a free, visual, hands-on introduction to digital signal processing, software-defined radio, and wireless communications for Python programmers without deep electrical-engineering backgrounds. It teaches concepts before equations, condensing Signals and Systems foundations into practical chapters covering frequency-domain analysis, IQ sampling, modulation, filters, coding, synchronization, beamforming, several SDR devices, and real-time interfaces. HN practitioners endorsed it both for beginners and expert refreshers, noting that an inexpensive roughly €50 RTL-SDR remains useful well beyond initial learning despite its noise, spurs, and 8-bit limits.
 
-## Comment pulse
-- Great for beginners → Clear, practical, Python-first explanations plus cheap hardware (e.g., ~€50 RTL-SDR) make RF experimentation very accessible.  
-- Still valuable for experts → Practicing DSP engineers use it as a quick refresher and to onboard code-strong, math-light new team members.  
-- RTL-SDR stays relevant → Despite noise and 8‑bit limits, it handles most receive tasks once you understand its quirks—counterpoint: not ideal for all high-dynamic-range work.
+### Comment pulse
 
----
+- Practical sequencing works → visual explanations and Python exercises make abstract DSP concepts approachable before mathematical depth.
+- Cheap hardware is genuinely capable → experienced users handle RTL-SDR limitations and retain it for most receive tasks.
+- Experts still benefit → concise alternative explanations help with refreshers and onboarding code-oriented teammates.
 
-## LLM perspective
-- View: This bridges the gap between CS-style coding skills and traditionally math-heavy RF/DSP curricula.  
-- Impact: Eases entry for hobbyists, students, and software engineers transitioning into wireless or embedded signal processing roles.  
-- Watch next: More translations, structured exercises, and tighter tooling (Jupyter, SDR APIs) could turn it into a de facto open course.
+### LLM perspective
+
+- View: PySDR succeeds as a gateway because it minimizes prerequisites without pretending to replace comprehensive reference texts.
+- Impact: Software developers can prototype radio applications before investing in advanced coursework or expensive transceivers.
+- Watch next: Updated hardware chapters, translations, exercises, and contributor maintenance will determine its long-term teaching reach.

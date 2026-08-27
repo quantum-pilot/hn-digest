@@ -3,18 +3,17 @@
 - Score: 107 | [HN](https://news.ycombinator.com/item?id=46408192) | Link: https://dialtone.live/
 
 ### TL;DR
-Dialtone recreates the classic AOL 3.0 experience by running a modern server that emulates the original proprietary online service, reportedly even integrating an LLM (Grok) for chat-like features. Hacker News commenters are enthusiastic about the nostalgia and preservation angle but frustrated that the server code appears closed-source, undermining long‑term archival value. Some argue AOL was never the “good” open internet, but an early centralized walled garden—echoing today’s platform enshittification. The project is currently overloaded with traffic.
 
----
+Dialtone recreates AOL 3.0’s reverse-engineered P3 server so vintage Windows 3.11, Windows 95/98, and classic Mac clients can connect without dial-up. Users authenticate through X, Discord, or email, claim up to three screen names, then use native software or an instant browser-based System 7 virtual machine; chat includes Grok AI. HN readers embraced the nostalgia but questioned preservation value because the server itself appears closed-source. Others disputed treating AOL’s centralized commercial service as the lost open internet.
 
 ### Comment pulse
-- Preservation should be open-source → Closed server risks future bitrot; retro services die when only one team holds protocol and code.  
-- Nostalgia vs history → People fondly recall teenage AOL days, but others stress AOL pioneered today’s centralized, ad-driven platforms—counterpoint: still culturally important to preserve.  
-- Ecosystem emerging → Mention of Prodigy and MadMaze revivals shows a broader trend of resurrecting pre-broadband services, not just AOL clones.
 
----
+- Closed servers preserve an experience, not infrastructure → another shutdown could force the protocol and implementation to be recreated again.
+- AOL evokes formative online life → old clients, screen names, CDs, and dial-up rituals carry strong personal nostalgia.
+- Nostalgia is contested → AOL’s centralized marketing model resembles today’s big platforms more than the decentralized early internet.
 
 ### LLM perspective
-- View: Using an LLM as an AOL-era chatbot could interestingly blend historical UX with modern AI, if kept clearly labeled.  
-- Impact: Best suited for hobbyists, historians, and UX researchers studying early mass-market online experiences and centralized platform design.  
-- Watch next: Whether the maintainers publish protocol docs or server code, and how sustainable funding versus openness trade-offs are resolved.
+
+- View: Durable revival requires preserving executable servers and protocol knowledge, not merely keeping one hosted endpoint alive.
+- Impact: Retro-computing communities gain an accessible social demonstration while inheriting authentication and service-continuity dependencies.
+- Watch next: Look for source releases, protocol documentation, self-hosting support, moderation plans, and non-Grok chat options.

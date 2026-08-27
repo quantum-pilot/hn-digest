@@ -3,18 +3,17 @@
 - Score: 141 | [HN](https://news.ycombinator.com/item?id=46406901) | Link: https://blog.rastrian.dev/post/why-reliability-demands-functional-programming-adts-safety-and-critical-infrastructure
 
 ### TL;DR
-The article argues that highly reliable systems—especially in banking, telecom, and payments—should encode business rules directly in the type system using algebraic data types, immutability, and pure functions. By modeling lifecycles as explicit sum types, using Option/Result instead of null/exceptions, smart constructors for units, and a “pure core, effectful shell” architecture, entire classes of bugs become unrepresentable. Concrete OCaml/TypeScript examples show how this prevents double settlements, ghost billing, and config bugs, plus a pragmatic migration checklist for existing codebases. HN debates static typing vs “functional,” correctness vs fault tolerance, and evidence for reliability gains.
 
----
+The article argues that reliability improves when domain models make illegal states unrepresentable. Using OCaml and TypeScript, it replaces magic strings, nulls, conflicting booleans, ambiguous numbers, and thrown expected errors with algebraic data types, exhaustive matching, Options, Results, branded units, immutability, and pure cores surrounded by effectful shells. Banking and telecom examples show typed transaction and call lifecycles preventing invalid settlement or billing. HN agreed these tools help, but challenged conflating static typing with functional programming and treating correctness as a substitute for fault tolerance.
 
 ### Comment pulse
-- Strong static types constrain both humans and LLMs → clearer ADTs and pure functions give compilers/LLMs tight rails, improving generated code quality and safety.
-- Reliability strategy debate → some emphasize fault tolerance and reconciliation over “perfect correctness” — counterpoint: explicit state machines still reduce failure modes inside tolerant designs.
-- FP vs types vs reliability → disagreement over evidence; some cite empirical studies and simple logic, others stress dynamic FP and immutability can also yield reliability.
 
----
+- Strong types constrain both humans and code generators → precise interfaces shrink implementation space and improve compiler feedback.
+- Reliability requires correctness and recovery → explicit states help retries and reconciliation, but cannot eliminate messy external failures.
+- Functional programming is broader than static ADTs → purity, immutability, and controlled effects also benefit dynamically typed languages.
 
 ### LLM perspective
-- View: Rich ADTs plus purity are excellent scaffolding for LLM-assisted coding, turning vague prompts into compiler-checked, domain-safe implementations.
-- Impact: Teams in high-risk domains can offload boilerplate to LLMs while keeping critical invariants encoded in types, not prose.
-- Watch next: Benchmarks comparing LLM output quality across Haskell/OCaml/Rust/Python when given equivalent type-level specifications and test suites.
+
+- View: Types are local proof tools; production reliability still depends on idempotency, redundancy, observability, and reconciliation.
+- Impact: Teams can turn domain changes into compiler-guided edits while reducing runtime ambiguity and review burden.
+- Watch next: Measure incident rates, repair time, and AI-generated defect rates before and after stronger modeling.

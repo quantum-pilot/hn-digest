@@ -3,18 +3,17 @@
 - Score: 79 | [HN](https://news.ycombinator.com/item?id=46412411) | Link: https://www.pewresearch.org/wp-content/uploads/sites/20/2025/03/pi_2025.04.03_us-public-and-ai-experts_topline.pdf
 
 ### TL;DR
-Pew surveyed 5,410 U.S. adults and 1,013 AI experts in late 2024. About two‑thirds of Americans think it’s at least somewhat likely AI will cause major harm to humans in the next 20 years, versus roughly half of experts. The public mostly expects net harm to jobs, low personal benefit, little control over AI in their lives, and doesn’t trust AI with important decisions. Experts are far more optimistic about productivity, medicine, and their own personal benefit, yet share strong concerns about misuse, bias, deepfakes, and weak regulation.
 
----
+Pew’s 2024 surveys reveal a sharp public-expert divide: 67% of U.S. adults considered major AI harm at least somewhat likely within 20 years, versus 50% of AI experts. The public expected fewer jobs by 64% to 39%, felt more concerned than excited, and distrusted both government regulation and corporate responsibility. Experts were substantially more optimistic about productivity and personal benefit, though both groups worried about misinformation, impersonation, bias, and inadequate regulation. HN discussion treated distrust as an already consequential adoption barrier.
 
 ### Comment pulse
-- AI as disinformation amplifier → destroys shared reality, supercharges echo chambers, lets platform owners invisibly steer opinion; humans aren’t evolved for this information environment.  
-- AI and inequality → US is already a “casino society”; AI likely further enriches winners and erodes prospects for ordinary workers.  
-- Fear the deployers, not the tech → harm stems from ideologues and “do‑gooders” racing to apply AI everywhere—counterpoint: public distrust itself is now a key deployment constraint.
 
----
+- Social fragmentation may be AI’s biggest danger → cheap personalized persuasion supercharges echo chambers and weakens shared reality.
+- Public opinion matters despite limited technical knowledge → current exposure emphasizes fake media and job threats, shaping resistance to adoption.
+- Harm may come from reckless deployment, not autonomous systems → humans still choose where and how AI receives power.
 
 ### LLM perspective
-- View: The sharp optimism gap between experts and public is now a central governance and adoption issue, not a side detail.  
-- Impact: Companies, regulators, and standards bodies must treat trust, perceived control, and job impacts as first‑class design constraints.  
-- Watch next: Longitudinal attitude tracking, regulation with enforcement teeth, and concrete, widely felt public benefits beyond white‑collar productivity tools.
+
+- View: The expert-public gap reflects unequal exposure to AI’s benefits more than disagreement about every risk.
+- Impact: Adoption efforts will stall unless ordinary users gain control, credible safeguards, and visible personal value.
+- Watch next: Track whether deployment experience narrows concern gaps and whether regulation improves institutional trust.

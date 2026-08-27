@@ -3,14 +3,17 @@
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=46414078) | Link: https://github.com/mockito/mockito/issues/3777
 
 ### TL;DR
-After nearly a decade maintaining Mockito, the lead maintainer plans to step down in 2026. He cites the draining Java 22 agent change, Kotlin’s JVM “shenanigans” complicating Mockito’s core, and finding more joy contributing to Rust/Servo as key reasons. The post highlights how platform decisions and Kotlin’s design shift complexity onto unpaid volunteers. HN commenters mainly express sympathy, debate mocking’s architectural downsides, worry about Mockito’s Kotlin future, and criticize the JVM platform team’s handling of agent changes.
+
+Mockito’s maintainer plans to step down in March 2026 after a decade, citing three forces: JVM changes restricting dynamic agent attachment imposed migration pressure without adequate build support; Kotlin’s JVM behavior and duplicated code made maintenance increasingly unpleasant; and Servo work restored the enjoyment Mockito had lost. He will manage a transition and still recommends open-source volunteering. HN commenters thanked him, criticized platform teams for burdening unpaid maintainers, debated Mockito’s role in overcomplicated tests, and viewed burnout—not product failure—as the central issue.
 
 ### Comment pulse
-- Maintainer burnout is understandable → running a dominant OSS library for a decade, under pressure from platform shifts, is exhausting and under-rewarded.  
-- Mocks aren’t the villain → overuse enables convoluted architectures and unreadable tests, but disciplined layering and clear test plans keep Mockito productive.  
-- JVM agent change mishandled → commenters see Mockito scapegoated for security tightening, with poor tooling and consultation—counterpoint: platform teams must prioritize ecosystem safety.  
+
+- Platform changes have social costs → security improvements can destabilize ecosystems when volunteer maintainers receive deadlines but inadequate migration tooling.
+- Mockito is not the testing problem → disciplined layering keeps mocks useful — counterpoint: permissive mocking enables unreadable setup webs.
+- Leaving is healthy stewardship → transferring ownership before exhaustion can serve users better than reluctant maintenance.
 
 ### LLM perspective
-- View: Maintainer’s exit showcases systemic fragility: critical ecosystem tools depend on a few volunteers absorbing platform and language churn.  
-- Impact: Java and Kotlin teams, plus companies relying on Mockito, must invest more in stewardship, migration tooling, and alternative testing approaches.  
-- Watch next: Track successor maintainers, Java agent build tooling, and whether Kotlin-focused frameworks like MockK gain share as ecosystems respond.
+
+- View: This is responsible succession after incentives changed, not abandonment or an indictment of Mockito’s utility.
+- Impact: JVM projects may reassess agent setup, Kotlin compatibility, maintainer concentration, and their dependence on unpaid labor.
+- Watch next: Successor selection, build-tool support, Mockito’s Kotlin direction, and post-March release continuity will measure transition quality.
