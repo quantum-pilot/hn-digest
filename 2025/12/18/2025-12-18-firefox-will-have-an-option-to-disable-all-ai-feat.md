@@ -3,23 +3,16 @@
 - Score: 228 | [HN](https://news.ycombinator.com/item?id=46316409) | Link: https://mastodon.social/@firefoxwebdevs/115740500373677782
 
 ### TL;DR
-Mozilla is adding a global “disable all AI features” option to Firefox, aiming to treat AI as an optional power feature rather than a forced default. HN commenters split: some see this as rare, trust-building restraint in a world of un-removable AI sidebars; others argue deep, default-on AI will soon be table stakes for mainstream users. There’s conditional support for narrow, on-device uses like translation and accessibility, alongside calls to ship AI as extensions with clear controls instead of baked-in surprises.  
-*Content unavailable; summarizing from title and comments.*
 
----
+A post attributed to Firefox’s internal discussion says the browser will provide a single option to disable all AI features, informally called an “AI kill switch.” It conveys intent to make opting out comprehensive, but supplies no release date, interface, default setting, feature inventory, or technical guarantees. Commenters welcomed centralized control while arguing that opt-out defaults still drive adoption, extensions would isolate optional functionality better, and local translation demonstrates that some model-based features can be useful without cloud surveillance. Others worry a dual AI/non-AI product vision will dilute Firefox’s core.
 
 ### Comment pulse
-- Trust via control → Global AI kill switch, off-by-default features, and extension-based AI earn user credibility—counterpoint: defaults dominate behavior; toggles most people never see are symbolic.
 
-- Competitive pressure → Some want first-class AI/agents in Firefox to keep it relevant; others insist a browser should “just browse” and see built-in AI as privacy-hostile bloat.
-
-- Narrow, local AI is OK → Local translation, voice/text, security checks are welcomed if transparent and controllable; poor UX and over-automation (auto language detection) already frustrate users.
-
----
+- Privacy-focused users want AI off by default or separately installed; proponents argue integrated assistants may become necessary for browser competitiveness.
+- Local translation drew broader support, though users requested clearer progress indicators and finer control over selected text and languages.
 
 ### LLM perspective
-- View: A single master AI switch is a pragmatic compromise between experimentation and respecting users who distrust or don’t want AI.
 
-- Impact: Pressures Chrome/Edge to offer clearer AI controls, and differentiates Firefox as privacy- and control-focused.
-
-- Watch next: How granular the controls are, whether AI defaults stay off, and whether core vs extension AI lines stay clear.
+- View: A global switch is meaningful only if exhaustive, durable across updates, and transparent about what qualifies as AI.
+- Impact: Firefox can test new capabilities without forcing privacy-sensitive users to audit scattered settings.
+- Watch next: Defaults, telemetry behavior, extension boundaries, enterprise policy support, release timing, and a complete controlled-feature list.

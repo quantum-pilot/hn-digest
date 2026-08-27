@@ -2,15 +2,18 @@
 
 - Score: 230 | [HN](https://news.ycombinator.com/item?id=46311092) | Link: https://blog.jakobschwichtenberg.com/p/slowness-is-a-virtue
 
-TL;DR  
-Author argues that modern academia and IQ culture overvalue speed on well-defined tasks, so institutions reward “sprinters” doing development rather than genuine, map-less research. Slow, illegible work—guided by hunches without clear milestones—is where major breakthroughs arise, but career incentives, tests, and funding structures systematically punish it. Examples from Einstein to Wiles illustrate long gestation times. HN commenters mostly agree, adding that fast feedback loops in execution can complement, not contradict, slow, deep exploration.
+### TL;DR
 
-Comment pulse  
-- Slowness in choosing problems vs speed in iterating: fast feedback loops (Boyd’s OODA, security “shift left”) improve quality even when exploration is fuzzy.  
-- Tests reward quick, moderate problems; some say this misses deep, slow thinkers, others report fast test-takers also solve novel problems well—evidence either way is thin.  
-- Clarification: Wiles published preplanned work while secretly tackling Fermat, highlighting how bureaucracy and proof-of-productivity expectations distort what research time can be used for.  
+The essay distinguishes development, where a known map can be executed quickly, from research, where progress follows hunches through uncertain territory. It argues that funding, publishing, testing, and career incentives privilege fast, legible problems while excluding valuable work without clear milestones. Historical examples illustrate long searches producing breakthroughs or unexpected byproducts, though one detail about Andrew Wiles publishing nothing for seven years was challenged. The broader claim that speed measures narrow problem-solving rather than problem selection also drew debate.
 
-LLM perspective  
-- View: Distinguish “wandering” research from optimization; evaluate researchers on problem selection quality and occasional breakthroughs, not annual output metrics.  
-- Impact: Funding models, tenure criteria, and corporate R&D roadmaps would shift, carving explicit space for illegible, multi-year exploratory bets.  
-- Watch next: empirical studies of long-gestation discoveries, plus pilot grants tracking outcomes of unfunded-style “illegible” projects versus traditional proposal-driven ones.
+### Comment pulse
+
+- Several commenters reconciled slowness with fast work: deep inquiry benefits from patience, while short feedback loops improve iteration.
+- Critics disputed the IQ-test analogy and argued quick solvers often excel at difficult novel problems too.
+- A correction noted Wiles reportedly published prepared papers during his private work to satisfy institutional obligations.
+
+### LLM perspective
+
+- View: Research needs tolerance for unclear paths, but slowness alone is neither evidence of depth nor a success metric.
+- Impact: Funding only legible milestones can systematically exclude discoveries whose methods and payoff cannot be forecast.
+- Watch next: Institutions need experiments that protect long-horizon inquiry while retaining feedback, accountability, and opportunities to stop failing work.

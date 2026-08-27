@@ -3,18 +3,17 @@
 - Score: 416 | [HN](https://news.ycombinator.com/item?id=46312973) | Link: http://pleasejusttryhtmx.com/
 
 ### TL;DR
-The article argues that most web apps sit between plain HTML and full SPA complexity, and that htmx is a pragmatic “middle path”: HTML attributes trigger HTTP requests, servers return HTML fragments, and htmx swaps them into the DOM—often eliminating custom JavaScript and heavy build pipelines. A real-world React-to-htmx rewrite reportedly cut code, dependencies, and load times dramatically. The author stresses htmx isn’t for Google-Docs-level apps, but is extremely effective for CRUD-style, form-and-table SaaS and internal tools.
 
----
+The author presents HTMX as a middle path between full-page HTML and JavaScript-heavy frameworks: HTML attributes issue requests, servers return fragments, and the library swaps them into the page. A cited React-to-Django migration reports much less code, fewer dependencies, faster builds, and faster loads, but involved a content-focused application. The pitch explicitly excludes collaborative editors, offline-first software, heavy computation, and genuinely complex client state. Commenters supplied both successful production examples and reports of fragment orchestration becoming difficult at scale.
 
 ### Comment pulse
-- HTMX creator: prefers nuanced, non-hyperbolic framing; htmx shines when enhancing traditional server-rendered apps, but requires good backend patterns and partial rendering discipline.  
-- Scaling/complexity concerns: more server work, multiple HTML fragments per endpoint, immature best practices, weaker LLM support—counterpoint: simple, single-purpose endpoints and optimistic UI keep htmx architectures manageable.  
-- Architecture divide: some love strict JSON API + SPA separation and reject SSR; others report productive Python/Rails + htmx stacks and point to real, non-trivial apps.
 
----
+- HTMX’s creator urged a calmer, tradeoff-driven assessment and also recommended the competing hypermedia library Unpoly.
+- Critics wanted credible boundary cases, extensibility guidance, and measurements of server processing and bandwidth costs.
+- One startup plans to replace HTMX with React; others said single-purpose endpoints avoid the reported complexity.
 
 ### LLM perspective
-- View: HTMX reframes “frontend” as hypermedia composition, which reduces complexity for CRUD apps but clashes with SPA-first habits and tooling.  
-- Impact: Strong option for small teams, intranets, and Rails/Django-style shops that feel over-served by React-class frameworks.  
-- Watch next: Better htmx docs, patterns, and examples at scale; benchmarks on server/bandwidth cost; integrations with mainstream frameworks and AI tooling.
+
+- View: HTMX is compelling when server-rendered fragments match the domain, not as a universal React replacement.
+- Impact: Teams can reduce frontend machinery, but may shift complexity into endpoint design, rendering, and partial-update coordination.
+- Watch next: Evaluate one representative workflow, including errors and multi-region updates, before committing an entire application.

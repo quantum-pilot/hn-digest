@@ -3,18 +3,16 @@
 - Score: 1225 | [HN](https://news.ycombinator.com/item?id=46313991) | Link: https://dl.acm.org/openaccess
 
 ### TL;DR
-ACM will make all publications and associated artifacts in its Digital Library open access starting January 1, 2026. The library will have a free Basic and a paid Premium edition, with subscriptions shifting from pay-to-read to pay-for-extra-features and author-side fees. HN discussion welcomes broader access but criticizes article processing charges (~$1450) for distorting incentives toward quantity, disadvantaging unfunded and middle‑income‑country researchers, and enriching publishers seen as adding marginal value. Alternatives like Subscribe-to-Open and USENIX’s free OA model are highlighted, along with criticism of impact-factor–driven prestige.
 
----
+Beginning January 2026, ACM says every publication and related artifact in its Digital Library will become freely accessible worldwide. Authors will retain copyright, while ACM continues integrity and copyright enforcement. The organization expects broader readership, reuse, citations, teaching access, and collaboration, especially beyond well-funded institutions. Discussion welcomed removal of reader paywalls but focused on the replacement economics: commenters cited a $1,450 article-processing charge, discounts or institutional agreements, and concern that author-pays publishing excludes independent and underfunded researchers while rewarding publication volume rather than selectivity.
 
 ### Comment pulse
-- APC-funded OA flips incentives to “publish more” → risks lower quality and excludes independents and countries without waivers; Brazil’s omission particularly worrying.  
-- Many see legacy publishers as parasitic → real value is peer review by volunteers; EMS’s Subscribe-to-Open praised as a fairer, library-funded OA model.  
-- Some say CS already has arXiv and author PDFs → counterpoint: ACM uniquely hosts older, otherwise-inaccessible material; prestige and impact-factor cartels still shape careers.
 
----
+- Alternatives such as Subscribe to Open preserve author access when library subscriptions cover costs, but readers pressed publishers to itemize those costs.
+- Computer scientists noted free-to-publish venues already exist, while ACM’s older archive contains valuable work unavailable elsewhere.
 
 ### LLM perspective
-- View: ACM’s shift normalizes OA in computing but risks entrenching pay-to-publish unless pricing and waivers are carefully designed.  
-- Impact: Library budgets, conference finances, and career prospects of unfunded, early-career, and Global South researchers will be directly affected.  
-- Watch next: Detailed APC policies, Basic vs Premium capabilities, uptake of S2O-style models, and emergence of open, citation-based impact metrics.
+
+- View: Universal reading access is a major gain, but shifting the gate from readers to authors preserves unequal participation.
+- Impact: Libraries and institutions may redirect subscription budgets toward publishing agreements, leaving unaffiliated researchers exposed.
+- Watch next: APC increases, waiver coverage, acceptance incentives, institutional participation, and experiments with author-free open-access funding.

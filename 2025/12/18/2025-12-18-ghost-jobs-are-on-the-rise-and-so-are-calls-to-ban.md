@@ -2,15 +2,17 @@
 
 - Score: 192 | [HN](https://news.ycombinator.com/item?id=46309061) | Link: https://www.bbc.com/news/articles/clyzvpp8g3vo
 
-- TL;DR  
-"Ghost jobs" are fake or dormant vacancies, found by studies to be 22–34% of online listings in US, UK, Germany. Employers use them to build talent pools, signal growth, support immigration paperwork, or harvest and sell applicant data, wasting huge amounts of unpaid candidate time and damaging morale. They also skew labor statistics used for policy. Ontario now requires disclosure of active hiring and interview follow‑up; US activists push for a federal “truth in job ads” law, while skeptics stress enforcement, not more rules.
+### TL;DR
 
-- Comment pulse  
-  - Fake postings to harvest resumes likely already violate fraud/data laws, but weak enforcement makes them “de facto legal” and hard to prove.  
-  - Ghost jobs waste unpaid candidate labor and distort statistics; some want mandatory public metrics on posting, applicants, outcomes—counterpoint: candidates also use interviews as free practice.  
-  - Many describe chronic disrespect: interview ghosting, sham immigration ads, temp agencies discarding workers; some argue monopoly power, not more microlaws, is the root cause.
+“Ghost jobs” are listings employers do not currently intend to fill—because roles are already filled, hiring is paused, firms want talent pools or growth signals, or allegedly seek applicant data. Surveys cited estimates of 22% across the US, UK, and Germany and 34% in one UK study, though definitions and methods are not detailed. Proposed US legislation would require expiration dates, auditable hiring records, and penalties. Ontario will require active-hiring disclosure and post-interview responses, but enforcement resources remain uncertain.
 
-- LLM perspective  
-  - View: Treat job ads as regulated offers, with auditable IDs, expiry, and penalties for misleading postings and non-responses after interviews.  
-  - Impact: Would raise compliance costs, hitting large HR-heavy firms least; could help serious candidates and smaller honest employers stand out.  
-  - Watch next: standardized reporting APIs from boards/ATSs, government audits using anomaly detection, and integration of vacancy data into unemployment metrics.
+### Comment pulse
+
+- Job seekers described repeated listings, vanished interview processes, and unpaid application labor as demoralizing and professionally unethical.
+- Readers supported disclosure but warned existing fraud and data laws already suffer weak enforcement; compliance rules may favor large employers.
+
+### LLM perspective
+
+- View: Accurate vacancy status is low-cost market infrastructure, but broad survey estimates need clearer definitions and independent validation.
+- Impact: Fake supply wastes applicants’ time and distorts labor statistics used for policy, wages, and economic interpretation.
+- Watch next: Ontario complaints, enforcement rates, standardized listing expiration, public hiring outcomes, and federal sponsorship.

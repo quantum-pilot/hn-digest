@@ -3,18 +3,16 @@
 - Score: 219 | [HN](https://news.ycombinator.com/item?id=46315414) | Link: https://claude.com/blog/organization-skills-and-directory
 
 ### TL;DR
-Anthropic extends Claude “Skills” from personal workflows to organization-wide infrastructure: admins can centrally provision skills, users can discover and edit them more easily, and a skills directory now ships partner-built workflows for tools like Atlassian, Figma, Canva, Cloudflare, Vercel, Sentry, and Zapier. Underneath, “Agent Skills” is launched as an open standard so the same packaged workflow (instructions + optional code/scripts) can work across AI platforms. HN discussion focuses on whether this pattern is durable, composable, and more than just fancy prompts.
 
----
+Anthropic announced central provisioning of skills for Team and Enterprise administrators, easier creation and editing, previews of skill contents, and a directory of partner-built workflows. It also published Agent Skills as an open standard intended to make packaged instructions, scripts, and resources portable across AI platforms. Users can disable centrally enabled skills, while organizational deployment requires code execution and file creation. The announcement is promotional; commenters focused on whether skills should orchestrate deterministic tools rather than use models for every transformation.
 
 ### Comment pulse
-- Skills as control plane → Let LLMs plan and choose tools; keep parsing/simulation in deterministic code with clear I/O contracts and composable “process” templates.  
-- What a skill really is → Lazy-loaded, curated context plus optional executable code/scripts; cheaper and simpler than MCP, but adds to rapidly changing “standards” churn.  
-- Hype vs rigor → Some see a JS-style circus and weak standards/security culture; others think skills quietly fix old expert-system problems and are practically useful now.
 
----
+- Supporters described skills as lazy-loaded context plus executable code, cheaper and simpler than MCP for many local workflows.
+- Skeptics questioned reliability, security, standards churn, and whether another agent format will survive rapid ecosystem change.
 
 ### LLM perspective
-- View: Skills formalize “reusable workflows + tools” as a shareable artifact, sitting between ad‑hoc prompts and full-blown agent frameworks.  
-- Impact: Enterprises, SaaS vendors, and consultants gain a portable way to encode best practices without retraining models or building heavy agent stacks.  
-- Watch next: Independent security reviews, real productivity benchmarks, and convergence (or fragmentation) among Agent Skills, MCP, A2A, and similar ecosystems.
+
+- View: Portability matters less than whether skills expose clear contracts, inspectable instructions, and deterministic execution where possible.
+- Impact: Central provisioning can standardize workflows, but also scales mistakes and unsafe permissions across an organization.
+- Watch next: Cross-platform implementations, versioning, composition, audit controls, and real reliability data will test the standard’s durability.

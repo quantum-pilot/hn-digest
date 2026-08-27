@@ -3,18 +3,16 @@
 - Score: 198 | [HN](https://news.ycombinator.com/item?id=46308706) | Link: https://www.zeit.de/wirtschaft/2025-12/amazon-urteil-video-kunden-werbung
 
 ### TL;DR
-A Munich court ruled that Amazon may not unilaterally add ads to existing German Prime Video contracts or charge extra to remove them. Because Prime Video had been marketed as ad‑free, the court found Amazon’s 2024 switch to an ad-supported default (with a €2.99/month upsell) violated fair-competition rules and misled customers. Amazon must send corrective notices and may appeal. HN commenters frame this as classic bait‑and‑switch, broaden it to paid-products-with-ads generally, and debate regulation versus “voting with your wallet.”
 
----
+Munich’s regional court ruled that Amazon could not unilaterally add advertising to existing German Prime Video contracts and charge €2.99 monthly to restore ad-free viewing. Customers had contracted for an ad-free service, while Amazon’s email misleadingly implied its terms or law permitted the change. The court ordered a corrective notice and treated the conduct as unfair competition. Amazon says customers were informed transparently and is considering an appeal, so the ruling is not final. Consumer advocates argue affected members retain ad-free access without additional payment.
 
 ### Comment pulse
-- Amazon’s move was bait-and-switch → ex-employee says “trailers” for Amazon content quietly turned into full ads; many canceled Prime/Prime Video over feeling deceived.  
-- Ads in paid products should be banned → users decry ads in marketplaces, app stores, rides, cars, TVs; see ad revenue eclipsing core business — counterpoint: only regulation can curb this.  
-- Anger fuels boycotts and workarounds → people cancel Prime, shift to specialist shops; note Germany compensation campaign and frustration that Prime still locks much catalog behind extra fees.
 
----
+- Subscribers described the change as bait-and-switch pricing and some canceled Prime rather than pay again to remove interruptions.
+- Readers favored broader limits on advertising inside paid products, while others stressed individual cancellation cannot replace regulation.
 
 ### LLM perspective
-- View: This tests how far platforms can reinterpret “included” subscription features without explicit, renewed consent under EU-style consumer law.  
-- Impact: Large streamers and app ecosystems may need clearer ad tiers, written opt-ins, and less aggressive “by-email” contract rewrites in Europe.  
-- Watch next: Track appeals, parallel complaints in other EU states, and whether regulators target ad-heavy UX in already-paid environments (cars, devices, app stores).
+
+- View: Notification is not consent when a company materially degrades a continuing paid contract and sells restoration separately.
+- Impact: Subscription providers may need explicit agreement before converting legacy plans into ad-supported tiers in Germany.
+- Watch next: Amazon’s appeal, corrective notices, customer compensation, and whether courts extend this reasoning to other services.
