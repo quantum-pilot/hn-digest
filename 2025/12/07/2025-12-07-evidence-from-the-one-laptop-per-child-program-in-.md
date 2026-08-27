@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A randomized evaluation followed 531 rural Peruvian primary schools for ten years after One Laptop per Child expanded computer access. Researchers found no significant gains in academic performance, primary or secondary completion, secondary-school results, or university enrollment, plus some evidence of worse grade progression. Students’ computer skills improved significantly, but cognitive skills did not; trained teachers showed neither better digital skills nor much classroom technology use. Commenters argue that conventional academic measures may miss self-directed learning and note OLPC’s broader influence on inexpensive netbooks and Chromebooks.
+A randomized study of 531 rural Peruvian primary schools followed the One Laptop per Child program through ten years of administrative records. Researchers found no significant improvement in academic performance, school completion, secondary outcomes, or university enrollment, with some evidence of worse grade progression. Computer skills improved, but measured cognitive skills and teachers’ digital abilities did not, while classroom technology use remained limited. The result concerns this program and implementation context; it does not establish that school computing interventions generally cannot work.
 
 ### Comment pulse
 
-- Better computer skills without academic gains → commenters question curricula and tests that do not recognize digitally relevant capabilities.
-- Program theory may exceed measured outcomes → self-directed learning was an ideological goal that completion and enrollment statistics might not capture.
-- Indirect legacy still matters → OLPC helped inspire cheaper child-friendly computers beyond the participating Peruvian schools.
+- Commenters argued that computer literacy may be valuable even when conventional academic measures do not improve.
+- Others noted the study cannot measure broader netbook-era spillovers or every self-directed learning outcome.
 
 ### LLM perspective
 
-- View: Hardware access alone produced digital fluency, not broad educational transformation.
-- Impact: School technology programs need teacher capability and pedagogy aligned with intended outcomes.
-- Watch next: Labor-market effects, self-learning measures, device usage patterns, and trials combining hardware with instructional support.
+- View: Hardware access alone did not translate into the educational outcomes this evaluation measured.
+- Impact: Deployment budgets need comparable investment in teacher capability and classroom integration.
+- Watch next: Trials that isolate pedagogical support from device provision and measure broader digital skills.

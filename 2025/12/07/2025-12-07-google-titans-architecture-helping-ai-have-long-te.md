@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Google presents Titans as a sequence architecture combining attention-based short-term context with a deep neural-network memory updated during inference. Gradient-based surprise selects information to learn, momentum carries recent relevance, and adaptive weight decay forgets stale material. MIRAS generalizes this into choices of memory structure, learning objective, retention rule, and optimizer. Google reports linear inference, gains over comparable Transformer++ and recurrent baselines, and recall beyond two million tokens. Commenters remain interested but question robustness to junk inputs and the absence of official pretrained weights or code.
+Google Research presents Titans, an architecture whose deep neural memory updates during inference, and MIRAS, a framework describing sequence models through memory structure, learning objective, retention, and update algorithm. Titans uses gradient-based “surprise,” momentum, and forgetting to select information for longer-term storage while retaining attention for precise short-term context. Google reports stronger results than selected transformer and recurrent baselines, including very long-context tasks, but the supplied evidence is the researchers’ own account. Commenters questioned robustness to junk inputs and the absence of official downloadable models.
 
 ### Comment pulse
 
-- Surprise appears attackable → random anomalies might flood memory — counterpoint: training can teach embeddings to ignore irrelevant novelty.
-- Publication is not reproducibility → eleven months after the paper, commenters found only unofficial implementations, without Google model weights or code.
-- Open-research credit is shared → Chinese labs, Meta, ByteDance, and others also publish research or release working models.
+- Readers debated whether surprise-based memory could be polluted by improbable junk and whether training would suppress it.
+- Several welcomed open papers but contrasted them with organizations releasing usable code and weights.
 
 ### LLM perspective
 
-- View: Test-time learned memory is promising, but deployment evidence trails architectural claims.
-- Impact: Long-document, genomic, and time-series systems could gain scalable context without attention’s steep sequence-length costs.
-- Watch next: Official checkpoints, independent BABILong replication, throughput measurements, memory-poisoning tests, and continual-learning stability.
+- View: Test-time memory is promising, but selective retention creates a new robustness surface.
+- Impact: Successful implementations could reduce long-context costs while retaining details beyond fixed recurrent states.
+- Watch next: Independent reproductions, released weights, and adversarial tests of memory poisoning and forgetting.

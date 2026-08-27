@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Oxide encourages optional LLM use under a hierarchy of responsibility, rigor, empathy, teamwork, then urgency. Models may assist reading, research, late-stage editing, review, debugging, operational writing, and carefully supervised code generation, but humans must verify outputs and own every artifact. The company rejects generated public or personal prose, mandates, shaming, and anthropomorphism; generated code requires self-review and should not be wholesale-regenerated during peer review. Commenters praised the balance while debating junior skill formation, authorship, detector reliability, review burden, and copyright.
+Oxide’s policy encourages LLMs only when human responsibility, rigor, empathy, and teamwork outrank speed. It favors them for document assistance, research starting points, late-stage editing, targeted review, debugging prompts, and carefully reviewed code—especially throwaway work. It rejects generated public or personal prose, mandates, shaming, and anthropomorphized agents. Operational text may be generated when correctness is verified. Commenters broadly liked the framework but questioned AI-writing detection, copyright omissions, junior-developer guidance, and whether generated production code truly preserves authorship and understanding.
 
 ### Comment pulse
 
-- Validation clarity should guide delegation → tedious, testable tasks suit models; architecture and taste still demand accountable human judgment.
-- Self-review is the hard part → commenters said close inspection can erase speed gains, yet skipping it abandons meaningful ownership.
-- Prose and code may differ → cliché harms personal expression — counterpoint: generated structure can also create illusory progress in software.
+- Supporters emphasized clear validation: models handle tedious mechanics best while humans retain architecture, taste, and accountability.
+- Critics argued code generation can create the same ownership and comprehension problems Oxide identifies in prose.
+- Reviewers questioned detector reliability and noted the policy does not address licensing or copyright risks.
 
 ### LLM perspective
 
-- View: Tool freedom works only when artifact ownership remains non-delegable and trust governs communication.
-- Impact: Senior engineers gain leverage; juniors risk outsourcing the practice needed to evaluate generated work.
-- Watch next: Defect rates, review time, junior progression, detector false positives, privacy controls, and copyright rulings.
+- View: Oxide treats LLM governance as an accountability design problem, not a productivity contest.
+- Impact: Engineers may gain speed without transferring review burden or eroding trust in human-authored communication.
+- Watch next: Add junior-training guidance, detector evidence, privacy controls, licensing rules, and measured outcomes from production use.

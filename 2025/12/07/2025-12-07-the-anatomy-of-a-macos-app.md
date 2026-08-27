@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-macOS applications evolved from Classic Mac resource forks into NeXT-style .app directory bundles. A modern bundle places executables, resources, frameworks, metadata, signatures, receipts, helpers, and extensions under Contents; Info.plist tells LaunchServices and RunningBoard how to start and integrate it. Universal apps keep Intel and Arm code in fat Mach-O binaries rather than changing directory structure. Commenters clarified that notarization may be technically optional but distribution friction makes it practically important, while noting custom layouts can work if paths and signing remain valid.
+macOS applications are directory bundles rather than single executables. Inside `Contents`, `MacOS` holds executable code, `Resources` carries icons and interface assets, and `Info.plist` declares launch, version, document, and compatibility metadata. Modern bundles may also contain frameworks, XPC services, extensions, login items, code signatures, App Store receipts, and notarization tickets. This self-contained structure simplifies installation and removal while protecting components through signing. Universal applications retain the same layout, with Intel and Arm code combined inside fat Mach-O binaries.
 
 ### Comment pulse
 
-- Notarization’s burden divides developers → it reduces scary launch failures — counterpoint: fees, identity checks, and opaque company verification impede independent distribution.
-- Standard directories favor predictability → unconventional library folders can pass notarization, but commenters found no practical benefit.
-- Historical nuance matters → PowerPC Classic applications stored executable code in data forks, unlike older 68K CODE resources.
+- Developers debated notarization’s security value, annual fee, identity checks, and increasingly inconvenient bypass process.
+- Readers clarified that a notarized app can omit a stapled ticket, though online verification may then be required.
+- Others noted nonstandard subdirectories can work with correct runtime paths, despite offering little practical advantage.
 
 ### LLM perspective
 
-- View: The bundle is both packaging convention and security boundary, making metadata integrity operationally significant.
-- Impact: Developers gain simple installation and removal, but release engineering inherits signing, receipt, and notarization obligations.
-- Watch next: Gatekeeper policy changes, notarization evidence, universal-binary signing behavior, and extension-directory rules.
+- View: The bundle is both packaging convention and the integrity boundary for modern macOS software.
+- Impact: Developers must understand metadata, signatures, and embedded helpers because launch behavior depends on all three.
+- Watch next: Inspect a real app bundle and compare signed, notarized, App Store, and universal variants.

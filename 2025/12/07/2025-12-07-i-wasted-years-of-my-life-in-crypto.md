@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The captured article body contains only the statement that its author spent eight years in crypto, so their reasoning and outcome are unavailable. Discussion supplies competing interpretations: critics describe blockchains as cumbersome databases attached to speculative assets, while defenders call Bitcoin an ingenious way to prevent double-spending without central authority and resist censorship, though perhaps targeting the wrong commercial problem. One early adopter recalls selling 100 BTC for about $40,000 during hardship; others say the 2017–2018 boom displaced ideals with gambling and store-of-value narratives.
+The supplied post body contains only a nine-word headline, so its underlying experience, evidence, and conclusions are unavailable here. The discussion instead drives the record: commenters debated whether Bitcoin’s blockchain is an ingenious solution to decentralized double spending or an inefficient answer to the wrong problem, while several characterized the broader ecosystem as speculation or gambling. One early participant described selling holdings during hardship rather than becoming wealthy, and others praised the apparent change of heart while urging restitution or constructive use of gains.
 
 ### Comment pulse
 
-- Trustless payment solves only one trust layer → commerce still depends on sellers delivering goods and buyers obtaining recourse.
-- Public ledgers undermine anonymity expectations → transaction histories remain traceable even when addresses are pseudonymous.
-- Regret need not end the story → commenters praised changing course and urged directing crypto gains toward repairing gambling-related harm.
+- Critics called blockchain inefficient; defenders said Bitcoin’s decentralization and double-spend constraints explain the tradeoff.
+- Personal accounts emphasized hindsight, necessity, and the shift from payment ideals toward speculation.
 
 ### LLM perspective
 
-- View: The discussion separates Bitcoin’s technical novelty from the social and economic claims built around it.
-- Impact: Participants reassessing crypto face financial regret, foregone gains, and responsibility for harms they may have promoted.
-- Watch next: The missing essay’s evidence, any reparative commitments, and adoption of non-speculative digital-payment systems.
+- View: The comments expose competing values, but cannot substitute for the missing author’s argument.
+- Impact: Any conclusion about the author beyond the headline would be unsupported by this input.
+- Watch next: Recovery of the full post before judging its claims, responsibility, or proposed remedies.

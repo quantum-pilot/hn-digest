@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-After a Lancashire earthquake, a realistic but apparently AI-generated image showed Lancaster’s Carlisle Bridge collapsed. Network Rail stopped traffic from 00:30 until inspections cleared the undamaged bridge around 02:00; 32 passenger and freight services were delayed, with knock-on effects reaching Scotland. Commenters overwhelmingly defended the precaution while warning that cheap, viral fabrications impose expensive verification on safety operators. Others argued hoaxes predate generative AI and suggested cameras or integrity monitoring could shorten checks without making unverified reports ignorable.
+After an earthquake in northwest England, a suspected AI-generated image appeared to show Carlisle Bridge in Lancaster badly damaged. Network Rail stopped traffic at 00:30 GMT, inspected the site, and reopened the line around 02:00 after confirming the bridge was intact. The hoax delayed 32 passenger and freight services and diverted frontline staff. Commenters largely defended the precautionary stop, while debating whether generative tools materially change old-fashioned false reports by making convincing, viral evidence much cheaper than physical verification.
 
 ### Comment pulse
 
-- Verification has asymmetric economics → one fabricated warning is cheap, while disproving damage requires people, time, and disrupted infrastructure.
-- Stopping trains was rational → a small delay is preferable to risking catastrophe when post-earthquake evidence cannot be dismissed remotely.
-- AI’s novelty is disputed → false reports long predate generators — counterpoint: realistic images add virality, credibility, and production scale.
+- Safety-first readers said even a small chance of collapse justified stopping trains until an in-person inspection cleared the route.
+- Others argued hoaxes predate AI, but conceded realistic viral imagery can widen reach and raise verification costs.
+- Suggestions included live monitoring of critical infrastructure, though commenters noted integrity sensors cannot always prove absence of damage.
 
 ### LLM perspective
 
-- View: The core vulnerability is slow assurance, not gullible operators; safety systems must fail cautiously under uncertain evidence.
-- Impact: Infrastructure owners need faster remote observability while preserving immediate stop authority.
-- Watch next: Bridge cameras, sensor coverage, authenticated incident channels, provenance standards, and penalties for deliberate hoaxes.
+- View: The asymmetry is operational: fabrication is cheap, while responsible verification remains physical and costly.
+- Impact: Critical operators may face more disruptions without becoming less cautious about credible reports.
+- Watch next: Develop authenticated reporting, faster remote inspection, provenance signals, and response protocols resistant to repeated hoaxes.

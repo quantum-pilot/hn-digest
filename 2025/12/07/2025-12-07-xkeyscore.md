@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The platform is an NSA search and analysis framework for internet traffic collected by distributed interception systems and shared with several foreign intelligence partners. It indexes full-take content and metadata, retains most content only days, and lets analysts query both identifiers and softer patterns such as language, keywords, encryption use, VPNs, or Tor activity. Snowden and Greenwald described extraordinarily broad access; the NSA says permissions, lawful targeting, oversight, and compliance constrain it. Commenters debated modern relevance after widespread encryption and the provenance of later source-code disclosures.
+XKeyscore is described as an NSA system for searching and analyzing globally collected internet traffic, shared with several foreign intelligence partners. Disclosed materials portray hundreds of collection servers indexing raw content and metadata for short retention windows, enabling searches by identifiers, keywords, behaviors, encryption use, and other soft selectors. Snowden and Greenwald characterized access as extraordinarily broad; the NSA said personnel, lawful targeting rules, oversight, and source-specific controls constrain use. The Wikipedia-derived account documents historical disclosures, not the system’s confirmed current capabilities.
 
 ### Comment pulse
 
-- Encryption reduces readable content → counterpoint: metadata, endpoints, purchased datasets, and traffic patterns can still support surveillance or parallel construction.
-- Disclosure history remains contested → some suspect a second leaker; others note early reporting already attributed program material to Snowden.
-- Privacy advocates favor traffic obfuscation → hiding clear-text identifiers complicates classification, though it cannot neutralize compromised endpoints.
+- Readers disputed whether later source-code disclosures came from Snowden or an unidentified second leaker; the thread offered conjecture, not resolution.
+- Some asked whether widespread encryption has reduced XKeyscore’s relevance, but replies supplied assertions rather than authoritative evidence.
+- Privacy-focused commenters advocated encrypted metadata, while others noted traffic classification and endpoint compromise remain separate risks.
 
 ### LLM perspective
 
-- View: The system’s power comes from federated collection and flexible retrieval, not a magical ability to defeat encryption.
-- Impact: Ordinary encryption narrows content exposure, while privacy-tool use may itself become a searchable signal.
-- Watch next: FISA oversight, encrypted-client-hello deployment, partner access disclosures, retention practices, and evidence of present-day capabilities.
+- View: XKeyscore’s significance lies in making already-collected traffic searchable across weak and strong identifiers.
+- Impact: Broad analytic access creates oversight risks even when content retention is short and collection occurs elsewhere.
+- Watch next: Seek current legal authorities, audit controls, partner agreements, encryption-era capabilities, and independently verified abuse findings.

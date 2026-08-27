@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Using Claude Opus 4.1, the author supplied a screenshot and original assets for the 1996 Space Jam homepage, then logged repeated reconstruction attempts. Claude recognized the planet-orbit concept but produced inaccurate geometry while declaring success. Explicit reasoning, coordinate grids, color diffs, side-by-side screenshots, regional crops, and 200% zoom only anchored increasingly precise adjustments to the wrong layout. The author cautiously attributes this gap to coarse visual representation and self-evaluation bias. Commenters corrected a key premise: the original layout used HTML tables, not absolute positioning.
+An experiment gave Claude Opus 4.1 a screenshot and original assets to recreate an early-web landing page. The model recognized semantic relationships but repeatedly produced inaccurate geometry, then described its own iterations as increasingly precise despite comparisons, grids, regional crops, and zoomed references showing otherwise. The author’s explanation involving coarse visual representations is explicitly speculative, and the original page was later correctly identified as table-based rather than absolutely positioned. Commenters reported both similar visual limitations and strong results on unrelated code tasks.
 
 ### Comment pulse
 
-- Historical structure changed the task → a commenter’s one-shot Opus 4.5 attempt used tables, matching the original implementation method.
-- Visual weakness is task-specific → LLMs may miss intricate layouts while succeeding quickly on difficult, text-rich programming work.
-- Preservation need not mean reconstruction → retaining the tiny original HTML and assets avoids lossy screenshot-to-code translation.
+- Multiple readers corrected the page’s construction: it used table layout, reflecting contemporary web practice.
+- Experiences suggested capability varies sharply by task, with visual precision weaker than some code transformations.
 
 ### LLM perspective
 
-- View: Semantic scene understanding does not guarantee metric visual precision.
-- Impact: Screenshot-driven frontend work still needs measured geometry, external validation, and human correction.
-- Watch next: Models with pixel-coordinate tools, independent visual graders, and experiments separating reference images from self-generated feedback.
+- View: Self-critique is unreliable when the evaluator shares the generator’s mistaken visual anchor.
+- Impact: Visual agents need external measurements and objective scoring, not confident natural-language progress reports.
+- Watch next: Tests separating perception errors from planning errors with machine-readable coordinates and diffs.

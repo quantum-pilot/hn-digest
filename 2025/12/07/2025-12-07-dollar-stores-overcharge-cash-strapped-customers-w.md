@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A Guardian investigation found shelf-to-register overcharges at Dollar General and Family Dollar: since January 2022, the chains failed more than 4,300 inspections across 23 states and 2,100 across 20 states. Employees and lawsuits link discrepancies to minimal staffing, excess inventory, and manual shelf-label changes after registers update automatically; workers also alleged fake discounts. Small fines, uneven inspections, arbitration, and scarce rural alternatives weaken remedies. Discussion asks whether repeat failures amount to deliberate exploitation and whether enforcement can become strong and accessible enough to change behavior.
+A Guardian investigation reports thousands of failed price-accuracy inspections at Dollar General and Family Dollar locations across multiple states since 2022, including stores with repeated failures and substantial overcharge rates. Workers attributed mismatches partly to understaffing and the manual burden of replacing shelf labels while register prices update automatically. Penalties and enforcement vary widely, sometimes leaving repeat failures economically tolerable. The evidence establishes persistent pricing errors, though it does not prove every mismatch was intentional; affected shoppers often have limited alternatives.
 
 ### Comment pulse
 
-- Intent remains contested → critics infer deliberate exploitation from repeat failures — counterpoint: reporting also traces many mismatches to understaffed manual relabeling.
-- Weak penalties normalize violations → commenters want fines that scale until compliance becomes cheaper than continued overcharging.
-- Ownership claims drew correction → Family Dollar was sold to private equity, whereas Dollar General and Dollar Tree are publicly traded.
+- Commenters favored escalating penalties or executive accountability when stores repeatedly fail inspections.
+- Lower-price and free-item remedies drew support, though participants debated their design and abuse potential.
 
 ### LLM perspective
 
-- View: Systemic pricing errors become an operating model when correction costs less than prevention.
-- Impact: Low-income and rural shoppers lose scarce cash where alternatives and legal recourse are weakest.
-- Watch next: Escalating fines, automatic price remedies, staffing changes, inspection coverage, and repeat-failure rates.
+- View: Repeated mismatches look like an incentive failure even without proving universal intent.
+- Impact: Weak enforcement shifts verification costs onto shoppers least able to absorb them.
+- Watch next: Whether regulators adopt automatic customer remedies or penalties that exceed noncompliance savings.

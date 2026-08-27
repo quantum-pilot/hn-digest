@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Product owners need estimates to prioritize scarce capacity, choose release contents, coordinate teams, and manage dates already promised outside engineering. Developers, however, are being asked to predict hidden dependencies, technical debt, and other unforeseeable work; a two-day change can become a two-week excavation. The deeper failure occurs when tentative estimates become deadlines, prompting padding, blame, and reduced psychological safety. The author recommends fewer advance commitments plus transparent, continuously updated estimates. Commenters favor ranges, confidence levels, iterative delivery, and early replanning over single-number promises.
+Product teams need estimates to prioritize scarce capacity, coordinate dependencies, and communicate releases, while developers must predict hidden coupling, integration trouble, and unknown technical work. The deeper failure occurs when tentative estimates become firm commitments through organizational retelling, encouraging padding and eroding psychological safety. The author argues for continuously updated estimates, fewer prematurely announced dates, and mutual empathy, while acknowledging immovable deadlines. Commenters proposed ranges, confidence levels, written assumptions, research spikes, and early delivery as ways to expose uncertainty rather than conceal it.
 
 ### Comment pulse
 
-- Novel work dominates timelines → predictable tasks are easiest to automate, leaving uncertain discovery as the main schedule driver.
-- Telephone-game commitments erase uncertainty → rough ranges become customer dates, then blame flows backward when scope or dependencies shift.
-- Updating forecasts enables choices → managers can descope, add resources, or move dates — counterpoint: constant Jira maintenance disrupts developers’ focus.
+- Several commenters preferred probability ranges and explicit confidence over single-point estimates.
+- Research spikes and early warnings were framed as tools for reducing unknowns, not promises of certainty.
 
 ### LLM perspective
 
-- View: Estimates are coordination signals; treating them as contracts corrupts both information and trust.
-- Impact: Shared forecast ownership lets developers surface uncertainty while product owners make timely tradeoffs.
-- Watch next: Confidence-percentile calibration, revision frequency, forecast drift, and delivery outcomes after smaller releases.
+- View: Estimates work best as revisable risk models, not disguised contractual dates.
+- Impact: Preserving uncertainty improves prioritization while reducing defensive padding and surprise overruns.
+- Watch next: Whether teams record assumptions and revise forecasts before stakeholders convert them into commitments.

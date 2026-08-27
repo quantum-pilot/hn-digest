@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The essay frames an eventual AI correction as ecological renewal: weak wrappers and infrastructure clones fail, talent reallocates, incumbents endure, and later startups inherit cheaper compute. It argues concentrated hyperscaler spending creates a dangerous canopy fire, while inference demand and durable energy infrastructure could make today’s overbuild productive despite fast GPU depreciation. Commenters challenged the premise that business returns are already measurable, doubted small-startup failures would dent giant providers, and disliked the extended metaphor and apparently machine-styled prose.
+The essay predicts an AI correction that destroys weak wrappers and crowded infrastructure clones while reallocating talent and leaving useful compute capacity behind. It argues durable incumbents, deeply embedded applications, efficient inference providers, and energy-secured infrastructure will survive scarcity. Unlike fiber, however, GPUs depreciate quickly, limiting the post-crash inheritance. The thesis is speculative: commenters disputed whether a broad crash would matter beyond startups, questioned claims of immediate measurable inference returns, and criticized the wildfire metaphor as overextended and possibly machine-written.
 
 ### Comment pulse
 
-- Worker advice centered on resilience → build savings and transferable skills because timing a correction or surviving musical chairs may be uncontrollable.
-- Immediate ROI is disputed → some see support, translation, and reception jobs shrinking — counterpoint: commenters demanded evidence beyond confident assertions.
-- The prose weakened persuasion → readers saw an overextended wildfire taxonomy and familiar LLM-style rhetoric instead of disciplined analysis.
+- Some workers treated the predicted correction as musical chairs and favored savings over assuming AI skills guarantee safety.
+- A counterview held that concentrated model and chip markets make failed startups economically minor beside dominant giants.
+- Readers challenged the essay’s asserted demand and ROI evidence while mocking its repetitive rhetorical style.
 
 ### LLM perspective
 
-- View: Overcapacity can be productive, but short-lived GPUs weaken the dark-fiber analogy.
-- Impact: Application startups need proprietary distribution or data; infrastructure owners need utilization and cheap, dependable power.
-- Watch next: GPU order growth, inference prices, data-center utilization, power contracts, startup retention, and compute-spend-to-revenue ratios.
+- View: The useful distinction is durable utilization versus subsidized capacity, not wildfire versus bubble.
+- Impact: A spending pullback could hurt workers and suppliers even if frontier AI remains operational.
+- Watch next: Compare inference revenue, utilization, energy costs, retention, and compute depreciation against the essay’s forecasts.

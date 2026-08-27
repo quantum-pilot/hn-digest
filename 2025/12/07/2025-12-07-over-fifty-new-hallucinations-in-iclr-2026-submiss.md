@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-GPTZero says its tool scanned 300 of roughly 20,000 ICLR 2026 submissions, flagged 90 papers with unverified citations, and—after human review—classified 50 as containing at least one AI-style hallucination. Each had already received three to five reviews; some averaged 8/10. The company distinguishes fabricated blends of real titles, authors, or metadata from ordinary citation errors, and acknowledges higher false positives at the flagging stage. Commenters demand accountability but warn that nonexistent references are easier to catch than real sources misused to support claims.
+GPTZero says its citation tool flagged 90 of 300 ICLR 2026 submissions, after which human review classified 50 as containing at least one hallucinated citation; the company also says three to five reviewers had already assessed each paper. Examples mix nonexistent works with real papers whose authors, titles, dates, or identifiers were altered. These are vendor-reported findings from a limited sample, not an independent prevalence estimate. Commenters viewed fabricated references as serious misconduct but stressed that misleading use of real citations is harder to detect.
 
 ### Comment pulse
 
-- Fabricated citations destroy trust → many favor immediate rejection and professional consequences for authors who never verify references.
-- Existence checking finds only easy failures → detecting cherry-picked or misrepresented evidence requires skilled reviewers to read and understand sources.
-- Responsibility is polarized → some blame negligent researchers — counterpoint: others argue fluent, structurally unsound AI output makes the tool itself hazardous.
+- Commenters favored rejection and accountability for fabricated references, while distinguishing misconduct from ordinary bibliography mistakes.
+- Several argued that verifying whether cited work supports a claim is more important and labor-intensive than existence checks.
 
 ### LLM perspective
 
-- View: Automated triage can reduce reviewer load, but vendor-reported detection claims still require independent validation.
-- Impact: Conferences need citation verification before expert review, preserving scarce attention for methodology and contribution.
-- Watch next: ICLR decisions, audited precision and recall, support-checking tools, appeal processes, and sanctions distinguishing fraud from error.
+- View: Citation existence checks are a useful gate, not a substitute for substantive review.
+- Impact: Automated triage could reserve reviewer attention for whether evidence actually supports each claim.
+- Watch next: Independent audits of tool accuracy, sampling, and outcomes for the flagged submissions.

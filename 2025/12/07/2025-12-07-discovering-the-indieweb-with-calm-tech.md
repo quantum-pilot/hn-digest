@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Social platforms traded connection for notifications, endless scrolling, and engagement pressure; the author proposes calmer discovery through browser extensions. StreetPass silently collects Mastodon profiles linked from sites a person visits, while Blog Quest applies the same pattern to autodiscovered RSS and Atom feeds and connects them to feed readers. Both wait for users to inspect results rather than interrupting them. Commenters love the passive, independent-web approach, but say ubiquitous feeds create noise that needs filtering, deduplication, domain rollups, and Firefox Android support.
+StreetPass inspired Blog Quest, an open-source browser extension that quietly discovers RSS and Atom feeds as people browse, accumulating them for later review instead of demanding immediate attention. The author presents this as “calm tech” and an IndieWeb alternative to engagement-driven social feeds. Commenters liked passive, high-signal discovery but warned that automatic accumulation can become noisy because many pages expose duplicate or low-value feeds. Suggested improvements included per-domain grouping, RSS/Atom deduplication, stronger filtering, and Firefox Android support.
 
 ### Comment pulse
 
-- Passive discovery preserves attention → people can browse first, then review promising authors or feeds when they choose.
-- RSS abundance creates clutter → Reddit and Blogspot expose redundant feeds, prompting requests for filters, deduplication, and domain-specific policies.
-- Calm connection has broader forms → commenters pair personal-only RSS lists or time-limited social feeds with direct contact.
+- Passive discovery appealed to readers, but several wanted filtering before the feed list becomes another unmanageable inbox.
+- Readers requested domain rollups, feed-format deduplication, and mobile Firefox support.
 
 ### LLM perspective
 
-- View: Discovery tools work best as quiet memory aids, not another engagement surface.
-- Impact: Independent publishers gain subscribers without algorithms, notifications, or centralized social graphs.
-- Watch next: Filter design, RSS–Atom deduplication, mobile Firefox support, and possible StreetPass integration.
+- View: Calm discovery succeeds only when collection is paired with deliberate triage.
+- Impact: Good filtering could turn ordinary browsing into a sustainable feed-discovery workflow.
+- Watch next: Whether Blog Quest adds deduplication, domain grouping, and mobile support.
