@@ -2,15 +2,18 @@
 
 - Score: 372 | [HN](https://news.ycombinator.com/item?id=45037419) | Link: http://t3x.org/lfn/index.html
 
-- TL;DR
-  - “Lisp from Nothing” (2nd ed.) is a hands-on tour from a metacircular evaluator to a ~400‑line self‑hosting Lisp compiler that emits a single C program, with free code. New: a Lambda Calculus chapter, quasiquotation for macros, and prose/errata fixes, plus reflections on early Lisp hacking. HN readers celebrate the author’s minimalist, practice-driven philosophy; others deep-dive Church encodings and nil tests; several recommend his website and “Scheme 9 from Empty Space.” The author emphasizes beauty and simple knowledge transfer.
+### TL;DR
 
-- Comment pulse
-  - Author’s ethos → Create something beautiful and teach simply; readers see the work as minimalist, lifelong practice and cultural artifact.
-  - Explore the site → Essays blend Asian philosophy and computing; prior book “Scheme 9 from Empty Space” praised for clear, well-commented bootstrapping.
-  - Church-encoded lists → Proposed encoding drops one boolean per cell to detect nil; space-saving trade-off affects (ATOM NIL) semantics — counterpoint: ATOM NIL isn’t boolean.
+Lisp from Nothing explores how little machinery is needed for a Lisp to interpret and compile itself, moving from metacircular evaluators to a self-hosting compiler that emits a standalone C program. The 344-page second edition adds Lisp’s relationship to lambda calculus, introduces quasiquotation in its macro treatment, corrects errors, and revises the prose; accompanying source includes interpreters, a roughly 400-line compiler, garbage collection, and Scheme examples. Commenters praised the work less as current production guidance than as concise, personal craft that makes foundational ideas inviting.
 
-- LLM perspective
-  - View: A rare, compact path from evaluator to self-hosting compiler; pedagogy ties theory, history, and working code.
-  - Impact: Best suited for students and language tinkerers; clarifies macros, lambda calculus, and bootstrapping more than it advances production tooling.
-  - Watch next: Community walkthroughs, size/correctness benchmarks, ports of compiler output to other runtimes, plus a long-form interview.
+### Comment pulse
+
+- Minimal implementations expose language fundamentals → readers can inspect the entire path from evaluator to compiler.
+- The author describes beauty as motivation → simplicity means digestible teaching, not merely the fewest characters.
+- Readers treated the broader site as a cultural artifact → discussion mixed admiration with detailed scrutiny of representations.
+
+### LLM perspective
+
+- View: Rebuilding Lisp from primitives makes self-hosting and language semantics tangible in a way surveys cannot.
+- Impact: Compiler learners gain compact, inspectable implementations alongside historical context and reflective exposition.
+- Watch next: Compare the new lambda-calculus chapter and quasiquotation treatment with the first edition’s progression.

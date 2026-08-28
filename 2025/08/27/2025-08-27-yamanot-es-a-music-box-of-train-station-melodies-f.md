@@ -2,15 +2,17 @@
 
 - Score: 337 | [HN](https://news.ycombinator.com/item?id=45045307) | Link: https://yamanot.es/
 
-- TL;DR
-    - Yamanot.es is a playful “music box” cataloging the departure/door-closing jingles for every JR Yamanote Line station, letting you explore the loop by sound. Commenters describe these earcons as cultural markers—some drawn from classic songs or local brands (e.g., Ikebukuro’s Bic Camera)—note repeated tunes between nearby stops, and flag JR East’s shift toward a standardized melody. The thread includes AI remixes built from field recordings and argues other transit systems should adopt similar sonic identities to add small daily joy.
+### TL;DR
 
-- Comment pulse
-    - Melodies serve as local identity → Some reference pop standards; others are corporate tie-ins (Ikebukuro’s Bic Camera), triggering nostalgia—or fatigue for ex-employees.
-    - Not every station is unique → Nearby stops reuse tunes; JR East is standardizing melodies — counterpoint: this site preserves the pre-standardization set.
-    - Spread the idea globally → Low-cost civic joy; run school contests for 5-second jingles; Taipei Metro uses line-specific themes.
+Yamanot.es is a minimal interactive “music box” organized around the stations of Tokyo’s JR Yamanote Line, from Tokyo through Kanda, Shinjuku, Shibuya, Shinagawa, and back toward Yūrakuchō. The captured page primarily provides station controls rather than explanatory prose, so its audio behavior is not represented in the text packet. Commenters nevertheless describe the station melodies as memorable, joyful features of travel, while noting repeated tunes, replacements, and local commercial or cultural associations that may make the collection historical rather than current.
 
-- LLM perspective
-    - View: A tidy auditory atlas of Tokyo transit; UX that turns utilitarian alerts into place-making.
-    - Impact: Archival value rises as standardization spreads; inspires creators, tourism micro-moments, and community-brand collaborations.
-    - Watch next: Track JR East’s rollout, licensing of pop/corporate jingles, and whether other metros pilot localized earcons.
+### Comment pulse
+
+- Visitors recalled listening for departure melodies and debated whether repeated tunes on nearby stations were accurate.
+- Commenters said some melodies have changed, including Ikebukuro’s, and one claimed standardization is replacing older station-specific tunes.
+
+### LLM perspective
+
+- View: The project works as an ambient map whose emotional value comes from place-specific sound rather than extensive explanation.
+- Impact: Preserving small transit cues can document everyday cultural memory even when operators later replace or standardize them.
+- Watch next: Add dates and sources for each recording so visitors can distinguish current melodies from archived station history.

@@ -2,15 +2,17 @@
 
 - Score: 290 | [HN](https://news.ycombinator.com/item?id=45039075) | Link: https://www.space.com/space-exploration/private-spaceflight/spacex-launches-starship-flight-10-critical-test-flight-video
 
-- TL;DR
-    - SpaceX’s 10th Starship test hit key milestones: clean stage separation, Super Heavy’s controlled Gulf splashdown, eight dummy Starlink deployments, and an in‑space Raptor relight. The Ship endured intentionally harsh reentry with missing/alternative tiles, suffered skirt/fin damage, yet executed a precise Indian Ocean splashdown. After earlier losses (Flights 7–9), SpaceX applied fixes (pressurization diffuser redesign, lower booster AoA, stricter COPV checks). HN debates whether this “nails it,” the real demand for ultra‑cheap lift, and how transformative sub‑$300/kg could be.
+### TL;DR
 
-- Comment pulse
-    - Breakthrough if launch costs fall to $10–$300/kg → new markets, cheaper science. — counterpoint: ecosystem already vibrant; bigger risks are geopolitics and climate.
-    - Demand skepticism → Starlink soaks capacity; economies‑of‑scale hinge on self‑payloads. Others: dogfooding funds iteration; HLS timing still uncertain.
-    - “Nailed it” disputed → skirt/fin damage and small explosion seen. Pro‑view: objectives achieved; in‑space relight is the orbital gate.
+SpaceX’s tenth Starship flight completed the company’s stated major objectives after several recent failures. Super Heavy made a controlled Gulf splashdown, while Ship reached its intended suborbital trajectory, deployed eight dummy Starlink satellites, and relit a Raptor engine in space. The deliberately stressed heat shield and fins suffered visible damage, including part of the aft skirt breaking away, yet Ship completed its landing burn and splashed down within view of a buoy camera about 66.5 minutes after launch.
 
-- LLM perspective
-    - View: Gating tests passed; program shifts from demos toward payload delivery and iterative reusability.
-    - Impact: Lower lift costs reshape satellite economics, government exploration, and enable in‑space manufacturing pilots.
-    - Watch next: First orbital payloads, booster catch, heat‑shield qualification, on‑orbit refueling, FAA cadence, operational Starlink deployments.
+### Comment pulse
+
+- Readers disputed whether “nailed it” fits a flight with substantial reentry damage, despite completion of its planned tests.
+- Debate broadened to demand for huge payload capacity, launch economics, Starlink, and speculative Mars ambitions.
+
+### LLM perspective
+
+- View: Completing the test plan despite induced damage is meaningful progress, though it does not demonstrate routine vehicle durability.
+- Impact: Deployment and in-space relight reduce uncertainty around two capabilities needed beyond simply reaching trajectory.
+- Watch next: Repeated flights must show controlled reentry, rapid refurbishment, and comparable results without relying on experimental damage tolerance.

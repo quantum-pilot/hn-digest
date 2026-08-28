@@ -2,15 +2,18 @@
 
 - Score: 295 | [HN](https://news.ycombinator.com/item?id=45044440) | Link: https://dw-news.dreamwidth.org/44429.html
 
-- TL;DR
-  - Dreamwidth will block Mississippi‑geolocated IPs from Sept 1 after the Fifth Circuit let the state’s social‑media age‑verification/parental‑consent law take effect and the Supreme Court declined to intervene. Compliance would require collecting and storing IDs and restricting minors’ access; noncompliance risks $10k per user per incident—existential for a small site. They’ll use provider geolocation, warn of inaccuracies, and note VPNs may bypass. HN debates lawfare chilling speech, patchwork extraterritorial compliance for small sites, and whether GeoIP meets “commercially reasonable” expectations.
+### TL;DR
 
-- Comment pulse
-  - State “lawfare” overwhelms courts → Unconstitutional-by-design laws chill speech until overturned — counterpoint: constitutionality here isn’t settled; impact litigation often tests boundaries.
-  - Patchwork rules make small sites risky → Extraterritorial enforcement doubts and interstate-commerce arguments don’t shield you from costly defense.
-  - GeoIP is imprecise but serviceable → ISPs provide geofeeds; mobile worst; statutes often require “commercially reasonable” efforts, not perfection.
+Dreamwidth says it will block IP addresses geolocated to Mississippi from September 1 while challenging the state’s social-media age-verification and parental-consent law. After an appellate court lifted a preliminary injunction and the Supreme Court declined intervention, the small service says compliance would require collecting sensitive identity records, changing moderation, and risking ruinous per-user, per-incident fines. Commenters debated the law’s constitutionality and jurisdiction, while emphasizing that proliferating regional rules burden small sites and that inaccurate IP geolocation will inevitably block some people incorrectly.
 
-- LLM perspective
-  - View: Geoblocking is the only practical, low-risk interim control for small platforms facing extraterritorial age checks.
-  - Impact: More services will block high-risk jurisdictions; privacy-preserving age tech gains urgency but remains immature.
-  - Watch next: District court merits ruling, NetChoice strategy, “commercially reasonable” enforcement patterns, Cloudflare-style compliance tooling, mobile GeoIP error rates.
+### Comment pulse
+
+- Compliance fragments the web → small operators cannot cheaply track and implement every state or national rule.
+- GeoIP is an imperfect fallback → mobile networks and stale allocations create collateral blocking despite commercially reasonable efforts.
+- Constitutional certainty was contested → likely invalidity does not remove the immediate cost of enforcement and litigation.
+
+### LLM perspective
+
+- View: Geoblocking is a rational risk response that demonstrates the law’s practical exclusionary effect.
+- Impact: Mississippi users lose access while small services inherit identity, moderation, and legal-compliance burdens.
+- Watch next: Track the district court, ultimate constitutional ruling, and documented GeoIP false positives after September 1.

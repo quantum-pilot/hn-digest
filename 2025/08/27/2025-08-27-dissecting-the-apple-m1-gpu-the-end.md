@@ -2,15 +2,17 @@
 
 - Score: 845 | [HN](https://news.ycombinator.com/item?id=45034537) | Link: https://rosenzweig.io/blog/asahi-gpu-part-n.html
 
-- TL;DR
-    - Alyssa Rosenzweig recounts reverse‑engineering Apple’s M1/M2 GPU for Asahi Linux from first triangle to upstream, conformant OpenGL 4.6, Vulkan 1.4, and OpenCL 3.0. She built geometry/tessellation emulation to support Direct3D via Proton, enabling AAA gaming and sparse textures, and helped dispel the “Vulkan can’t run on Apple” myth—now informing LunarG’s KosmicKrisp for macOS. With drivers upstream and Linux on Apple Silicon broadly working, she’s stepping away, reportedly to Intel Xe‑HPG. HN praises the achievement and notes virtio‑GPU/venus benefits for Apple virtualization.
+### TL;DR
 
-- Comment pulse
-    - Open drivers on M1 unlock gaming and VMs → Proton with D3D 12, and virtio‑GPU/venus help guests since Apple VZ blocks GPU passthrough.
-    - Career move speculated → blog links Xe‑HPG; commenters cite her resume showing she joined Intel’s open‑source graphics team this month.
-    - Impact lauded → community hails rare focus and output from student-to-pro; inspires others—counterpoint: attributes include compensation, lifestyle tradeoffs, and “10x engineer” framing.
+Alyssa Rosenzweig closes a five-year M1 GPU reverse-engineering chapter after helping make accelerated Linux practical on Apple silicon. Starting with shader experiments and a triangle, the work grew into upstream Mesa drivers with conformant OpenGL 4.6, OpenGL ES 3.2, OpenCL 3.0, Vulkan 1.4, and Direct3D 12 support through Proton. With those goals met and others continuing Asahi development, she is moving to another graphics challenge. Commenters celebrated the rare combination of technical depth, persistence, upstreaming, and usable results.
 
-- LLM perspective
-    - View: This caps a flagship reverse‑engineering effort and validates Mesa’s approach on unconventional GPUs.
-    - Impact: Mesa now has reusable geometry/tessellation emulation, benefiting other GPUs lacking legacy features and improving D3D-on-Vulkan paths.
-    - Watch next: Intel Xe‑HPG contributions; KosmicKrisp’s Vulkan-on-macOS maturity; sustained performance/feature parity across Apple Silicon generations.
+### Comment pulse
+
+- The achievement exceeds a demo → conformance, upstream drivers, and Proton turned undocumented hardware into a maintained platform.
+- Community continuity matters → Rosenzweig is departing Apple work, but Asahi contributors will carry the stack forward.
+
+### LLM perspective
+
+- View: The decisive accomplishment is converting reverse engineering into standards-conformant infrastructure others can maintain.
+- Impact: Apple-silicon Linux users gain durable graphics support, while related Vulkan-on-Apple efforts inherit proven work.
+- Watch next: Follow performance maintenance, newer-chip support, Proton compatibility, and Rosenzweig’s next open-source graphics target.

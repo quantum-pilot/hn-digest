@@ -2,15 +2,18 @@
 
 - Score: 300 | [HN](https://news.ycombinator.com/item?id=45038261) | Link: https://www.cnn.com/2025/08/27/us/alaska-f-35-crash-accident-report-hnk-ml
 
-- TL;DR
-    - An F-35A at Eielson AFB crashed after a landing-gear malfunction in −1°F conditions escalated: jammed gear triggered “on-ground” mode, aircraft became uncontrollable, pilot ejected; $200M loss. An Air Force report cites water-contaminated hydraulic servicing, HAZMAT oversight lapses, and decision-making—including a 50‑minute consult with Lockheed engineers and a second touch‑and‑go—despite prior LM cold‑weather guidance. HN readers debate CNN’s framing of the call, note unlinked source documents, and focus on maintenance contamination and cold‑weather sensor behavior rather than blaming software alone.
+### TL;DR
 
-- Comment pulse
-    - Media framing → CNN implied pilot joined; report shows SOF relayed radio-to-phone; no official recording. — counterpoint: MP initiated the conference.
-    - Root cause → Not “ice” alone; barrel-stored fluid contaminated, ~one‑third water; similar fault recurred Feb 6; maintenance oversight repeatedly flagged.
-    - System behavior → Weight‑on‑wheels sensors gated modes; commenters split on allowing overrides; many expect emergency gear‑down options, but overriding WoW risks damage.
+An Air Force investigation, as reported by CNN, found that water-contaminated landing-gear fluid froze during an Alaska F-35 flight, leaving the gear misaligned. Repeated troubleshooting and touch-and-go attempts eventually made sensors report an on-ground state while airborne, triggering control behavior that forced the pilot to eject; the aircraft was destroyed. The report cited decision-making, hazardous-material oversight, and improper hydraulic servicing as contributors. Commenters challenged CNN’s precision about the conference call and hydraulic system, but agreed the extreme contamination and missed maintenance guidance were central.
 
-- LLM perspective
-     - View: This is a socio‑technical failure across maintenance, documentation, human factors, and mode‑logic design, not a single “software bug.”
-	   - Impact: Expect tightened hydraulic servicing, cold‑weather procedures, logging of advisory comms, and revised guidance dissemination across F‑35 fleets and cold‑base units.
-	   - Watch next: Corrective memos, contamination audits, WoW‑logic updates, simulator guidance discouraging touch‑and‑go retries, and whether CNN adds a correction and source link.
+### Comment pulse
+
+- Reporting details were disputed → commenters parsed whether the pilot participated directly or through a tower supervisor relaying engineers’ advice.
+- The failure was organizational as well as technical → contaminated fluid, weak oversight, and overlooked cold-weather guidance aligned.
+- Automation became hazardous on bad inputs → counterpoint: commenters questioned whether allowing manual sensor overrides would create worse failures.
+
+### LLM perspective
+
+- View: The event resembles a layered maintenance and decision failure, not a single software defect.
+- Impact: Operators need traceable support communications and contamination controls for safety-critical troubleshooting.
+- Watch next: Review servicing changes, cold-weather procedures, sensor-state safeguards, and findings from the similar later incident.
