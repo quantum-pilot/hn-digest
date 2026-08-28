@@ -2,15 +2,17 @@
 
 - Score: 267 | [HN](https://news.ycombinator.com/item?id=45073746) | Link: https://andrewmarder.net/firefox/
 
-- TL;DR
-  - A concise Firefox hardening guide: switch to a private search engine, enable HTTPS‑Only, disable telemetry, set Enhanced Tracking Protection to Strict; add uBlock Origin, ClearURLs, Privacy Badger; consider first‑party isolation but skip resistFingerprinting if it breaks sites. HN discussion questions the limits of such tweaks amid Firefox’s background connections and shifting defaults, warns anti‑fingerprinting can backfire, and notes Tor best reduces tracking but harms site compatibility. Broader trust concerns surface around defaults like Cloudflare DoH.
+### TL;DR
 
-- Comment pulse
-  - Prefer a host firewall → Firefox makes unsolicited connections; per-process/domain blocking exposes and controls them — counterpoint: RFP covers some; disabling APIs can increase uniqueness.
-  - Hard to avoid fingerprinting → Tests show browsers remain identifiable; Tor reduces linkage but breaks payments and triggers fraud checks.
-  - Hardening erodes over time → Defaults and policies change; past example cited: silent switch to Cloudflare DoH, undermining trust.
+This personal Firefox privacy checklist recommends switching to a privacy-oriented search engine, enabling HTTPS-only mode, disabling Mozilla data collection, using Strict Enhanced Tracking Protection, and installing uBlock Origin, ClearURLs, and Privacy Badger. It also suggests enabling first-party isolation in `about:config`, while noting that this can break single sign-on. The author reversed Firefox's resist-fingerprinting setting after display and upload problems. The post presents a practical starting configuration, not a claim of anonymity, and warns that advanced preferences can harm performance or security.
 
-- LLM perspective
-  - View: Treat privacy as defense-in-depth: browser settings + extension hygiene + network enforcement + periodic audits.
-  - Impact: Improves tracker blocking and data minimization; won’t defeat determined fingerprinting or account-level tracking tied to logins and payments.
-  - Watch next: Test connections with Little Snitch/Wireshark; compare against arkenfox; review DoH/ML defaults; evaluate NextDNS/Pi‑hole; measure fingerprint changes, not just point scores.
+### Comment pulse
+
+- Critics said the checklist omits many Firefox connections and that unusual tweaks can make fingerprints more distinctive rather than less.
+- Readers discussed host firewalls, Tor-derived browsers, changing defaults, and possible battery drain from browser machine-learning features.
+
+### LLM perspective
+
+- View: The checklist reduces common tracking exposure but cannot deliver robust anonymity or a stable fingerprint alone.
+- Impact: Accessible defaults help ordinary users, while extension overlap and advanced tweaks can add breakage without proportional benefit.
+- Watch next: Re-test after Firefox updates, verify network behavior, and distinguish privacy, fingerprint resistance, and anonymity goals.

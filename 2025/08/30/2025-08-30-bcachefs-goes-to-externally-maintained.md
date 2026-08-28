@@ -2,15 +2,17 @@
 
 - Score: 227 | [HN](https://news.ycombinator.com/item?id=45074312) | Link: https://lwn.net/Articles/1035736/
 
-TL;DR
-- Linus reclassified bcachefs as “externally maintained,” signaling no near-term mainline updates while keeping the code in-tree. The backdrop: protracted conflict over process and trust between Kent Overstreet and kernel leadership after a high-severity bug/recovery patch dispute. HN worries center on DKMS-style pain, bus-factor risk, and the broader Linux FS landscape (btrfs stability, ZFS practicality, Debian packaging fallout). Possible paths: a proxy maintainer, an out-of-tree cadence, or eventual in-tree stagnation and removal.
+### TL;DR
 
-Comment pulse
-- Use a proxy maintainer → Could upstream patches while insulating conflict — counterpoint: underlying trust/process disputes mean a go‑between won’t fix fundamentals.
-- DKMS concern → Out-of-tree means rebuild friction; distros could carry modules or use CKMS, but users still fear breakage.
-- FS landscape anxiety → btrfs maturity disputed; some just use ZFS; bus-factor-1 worries and Debian orphaning amplify risk perception.
+Linus Torvalds changed bcachefs's Linux maintainer status to “externally maintained.” LWN interprets the change as meaning new bcachefs work is unlikely to enter mainline soon, while immediate removal of the existing driver also appears unlikely. The brief notice provides no detailed roadmap. Discussion attributes the rupture to repeated disputes over patch classification, timing, risk, and maintainer judgment; bcachefs developer Kent Overstreet contests the simpler claim that he merely failed to follow merge rules and cites urgent recovery work after a serious data-loss bug.
 
-LLM perspective
-- View: Prefer a seasoned kernel liaison to gate changes, plus a narrow, well-documented in-tree sync policy.
-- Impact: Users face module management; distros decide to ship bcachefs out-of-tree; testing/QA shifts further upstream.
-- Watch next: Who volunteers as maintainer; distro packaging (DKMS/CKMS) quality; kernel decisions on pruning if updates stall.
+### Comment pulse
+
+- Users weighed remaining in-tree support against eventual out-of-tree maintenance, distribution packaging, and kernel-version drift.
+- The filesystem's small maintainer base and maturity raised data-safety concerns despite praise for its capabilities.
+
+### LLM perspective
+
+- View: “Externally maintained” freezes the governance conflict without forcing immediate filesystem removal.
+- Impact: Existing users retain code, but uncertain upstream flow increases operational and long-term maintenance risk.
+- Watch next: A trusted integration path, maintainer succession, stable releases, and transparent recovery testing are now critical.

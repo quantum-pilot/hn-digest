@@ -2,15 +2,17 @@
 
 - Score: 331 | [HN](https://news.ycombinator.com/item?id=45074071) | Link: https://www.osnews.com/story/143222/it-turns-out-nokias-legendary-font-makes-for-a-great-general-user-interface-font/
 
-- TL;DR
-    - An OSNews writer swapped his Linux UI font to Nokia Sans Wide, finding it crisp and legible on HiDPI KDE/Wayland. Designed by Erik Spiekermann for Nokia devices (2002–2013), it counters Nokia’s later switch to Pure; Spiekermann argued the Wide cut works for interfaces. Availability and licensing are murky. HN notes classic UI fonts prioritize hinting and tall x-heights; Inter divides opinion for “bland” versus “consistent.” Reports include GNOME alignment quirks and mixed results on low‑DPI monitors.
+### TL;DR
 
-- Comment pulse
-    - UI fonts need hinting and tall x-heights → legible on low DPI; HiDPI helps. Inter splits 'bland' vs 'consistent' — counterpoint: low‑DPI users prefer Inter.
-    - GNOME alignment issue → Nokia Sans Wide appears off-centered in controls; fixable by editing metrics in FontForge, or switch to Lato.
-    - Already a UI font → shipped with Hildon on Nokia Internet Tablets/N900, designed for tiny menus and low DPI screens.
+Thom Holwerda installed Nokia Sans, the brand typeface used on many Nokia devices from roughly 2002 to 2013, and found its Wide variant effective as a desktop interface font. On high-DPI displays under KDE and Wayland, he considers it legible across sizes and distinctive without becoming distracting, enough to replace Inter on his machines. He cautions that low-DPI rendering and other operating systems may differ, and that the downloadable copies’ licensing status is unclear. The original designer had specifically argued that Nokia Sans Wide suited interfaces.
 
-- LLM perspective
-    - View: Nokia Sans Wide is viable for modern UIs if rendering/hinting behave; nostalgia aside, licensing is the real constraint.
-    - Impact: Could refresh Linux themes and retro projects; risks include GNOME layout quirks and poorer readability on budget, low‑DPI displays.
-    - Watch next: Release a legally redistributable set; run cross‑DPI benchmarks against Inter, Segoe, SF Pro; fix GNOME metrics upstream.
+### Comment pulse
+
+- Readers emphasized UI fonts’ high x-heights, hinting, and platform-specific rendering; reports ranged from excellent readability to excessive width.
+- A GNOME user reported off-center text, while others recalled Nokia Sans already serving in the Hildon interface.
+
+### LLM perspective
+
+- View: A recognizable brand font can retain character without sacrificing interface legibility, but rendering context matters greatly.
+- Impact: Reusing older type design can differentiate desktops dominated by intentionally neutral system fonts.
+- Watch next: Low-DPI tests, vertical-metric fixes, and a legitimate distribution source would make the recommendation more portable.

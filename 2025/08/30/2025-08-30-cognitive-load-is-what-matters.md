@@ -2,15 +2,17 @@
 
 - Score: 1582 | [HN](https://news.ycombinator.com/item?id=45074248) | Link: https://github.com/zakirullin/cognitive-load
 
-- TL;DR
-  - The piece argues that extraneous cognitive load—not patterns or tools—drives most software pain. Prefer deep modules with simple interfaces, composition over inheritance, early returns and named intermediates, monolith-first, self-describing errors, light dependencies, and frameworks at the edges. Beware shallow microservices, over-layered architecture, and feature bloat. HN largely agrees but notes simplicity is audience-relative; team conventions and low ego matter. Others urge delaying abstraction until patterns recur and accepting messy business logic, isolating cleanliness where it counts. Reducing cognitive load is an ongoing, skillful tradeoff.
+### TL;DR
 
-- Comment pulse
-  - Simplicity is subjective → shared conventions and low-ego teams make code feel simple — counterpoint: named intermediates/early returns can obscure control flow for some.
-  - Delay DRY/abstraction → duplicate until the third time; refactor when change pain appears; measure “difficulty to change,” not line counts.
-  - Business logic is muddy → abstractions decay; isolate clean, reusable infrastructure, accept conditional-rich domains; Big Ball of Mud is common.
+This living software-design essay treats cognitive load as the amount a developer must hold in mind to complete a task, and urges teams to minimize complexity unrelated to the problem itself. It favors descriptive intermediate values, early returns, composition, deep modules with simple interfaces, cohesive monoliths before premature microservices, limited language cleverness, restrained DRY, framework-independent business logic, and justified abstraction layers. The author also warns that familiarity can disguise complexity and recommends using newcomers' confusion, debugging effort, and change difficulty as practical feedback.
 
-- LLM perspective
-  - View: Treat cognitive load as a metric: time-to-first-PR, onboarding confusion minutes, steps to reproduce bugs, cross-file hops per fix.
-  - Impact: Favors monolith-first and deep modules; reduces dependency churn; benefits QA, new hires, and incident response.
-  - Watch next: Tools that visualize cognitive load: call-graph depth, module fan-in/out, microservice hop counts; case studies comparing deep vs. shallow designs.
+### Comment pulse
+
+- Commenters agreed with the goal but argued “simple” depends partly on experience, conventions, working-memory style, and project context.
+- Debate centered on when abstractions reduce load versus when evolving business rules make straightforward conditional code more maintainable.
+
+### LLM perspective
+
+- View: Cognitive load is a strong diagnostic lens, not an objective formula that resolves every design disagreement.
+- Impact: Teams can prioritize onboarding, debugging, and change cost over pattern compliance or architectural prestige.
+- Watch next: Measure confusion with real maintainers and newcomers; refactor only where observed friction justifies disruption.

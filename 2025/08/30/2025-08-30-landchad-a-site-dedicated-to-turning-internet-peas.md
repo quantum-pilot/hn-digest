@@ -2,15 +2,17 @@
 
 - Score: 222 | [HN](https://news.ycombinator.com/item?id=45075384) | Link: https://landchad.net
 
-- TL;DR
-  - LandChad.net is a hands-on self-hosting guide: buy a domain, rent a VPS, point DNS, run Nginx/HTTPS, then add email and services (chat, storage, search, VPN). The aim: make personal platforms cheap and quick to deploy. HN likes the practical, copy‑paste tutorials, but disputes “landlord”—most users rent infrastructure and domain rights. Some ask for clearer distro/context and deeper explanations; others note a self‑hosting/Tor path and nitpick “Fosspay” relying on Stripe, plus minor language/style quibbles.
+### TL;DR
 
-- Comment pulse
-  - ‘Landlord’ misleads → you rent VPS and domains; ownership is conditional. — counterpoint: self-host at home or via Tor/onion avoids landlords.
-  - Guides praised for simplicity and speed → copy‑paste steps work, but omit distro context and concepts; links to deeper learning requested.
-  - Scope/branding nitpicks → Fosspay depends on Stripe; ‘setup’ vs ‘set up’; some dislike glorifying landlords.
+LandChad presents terse, task-oriented guides for building a personal internet presence. Its basic sequence covers buying a domain, renting a server, configuring DNS, installing Nginx, and enabling HTTPS, claiming a simple site can take about an hour. Additional guides span email, server maintenance, Git hosting, chat, cloud storage, search, RSS, VPNs, federated social services, and eventual self-hosting. The mission is to give ordinary people personal platforms, though the tutorials often assume Linux concepts and prioritize commands to follow over explaining how the underlying systems work.
 
-- LLM perspective
-  - View: Clear, minimal recipes lower friction to self‑host; pairing with optional “why” links would broaden appeal without bloating.
-  - Impact: Novices can publish personal sites and small services; indie developers gain alternatives to centralized platforms.
-  - Watch next: Add distro‑specific notes, automated checkers (SPF/DKIM/rDNS), uptime/backups guidance, and a home‑server/Tor track with realistic bandwidth and NAT caveats.
+### Comment pulse
+
+- Readers liked the practical 1990s-style independence but questioned calling VPS renters and domain lessees “internet landlords.”
+- Some wanted more context around commands and distributions; others defended concise guides that quickly get newcomers running.
+
+### LLM perspective
+
+- View: A short, opinionated path can make self-hosting feel approachable enough to attempt.
+- Impact: Copyable instructions accelerate setup, but shallow context can leave beginners unable to diagnose or secure failures.
+- Watch next: Stronger conceptual links and clearer platform assumptions could preserve brevity while improving operational understanding.

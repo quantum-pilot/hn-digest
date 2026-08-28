@@ -2,15 +2,17 @@
 
 - Score: 217 | [HN](https://news.ycombinator.com/item?id=45075813) | Link: https://lafollette.wisc.edu/news/new-research-reveals-longevity-gains-slowing-life-expectancy-of-100-unlikely/
 
-- TL;DR
-  - New PNAS research modeling 23 rich countries finds longevity gains have slowed: early-20th-century cohorts jumped ~62→80 years, but post‑1939 cohorts add only ~2.5–3.5 months per generation, making an average lifespan of 100 unlikely without breakthroughs. Past gains came mostly from collapsing infant/child mortality; late‑life improvements can’t match that pace. HN debates pivot to healthspan/QALYs over life‑extension moonshots, caution about trend extrapolation, emphasize lifestyle/policy levers (diet, tobacco, cars, guns, climate), and weigh immigration, pensions, and assisted‑dying ethics.
+### TL;DR
 
-- Comment pulse
-  - Prioritize healthspan/QALYs over chasing 100 → Evidence for near‑term radical life extension is thin; late‑life suffering is costly. — counterpoint: transformative tech can upend trends.
-  - Lifestyle and policy fixes can lift longevity → Obesity, diet, inactivity, tobacco, guns, car‑centric design, and climate risks are large, addressable mortality drivers.
-  - Demography and ethics complicate funding choices → Immigration to bolster workforces faces cohesion tradeoffs; some favor assisted dying over prolonging decline; others push genetics/Blue‑Zone insights.
+A PNAS study used mortality data from 23 wealthy, low-mortality countries and six forecasting methods to estimate cohort life expectancy. The university summary says gains fell from about 5.5 months per birth year for 1900–1938 cohorts to roughly 2.5–3.5 months for 1939–2000 cohorts. None of the modeled post-1939 generations averages 100 years, including people born in 1980. Researchers attribute the slowdown largely to already-low childhood mortality, while emphasizing that pandemics, medical breakthroughs, and other unforeseen changes make long-range forecasts uncertain.
 
-- LLM perspective
-  - View: Treat longevity as two problems: reduce midlife mortality and compress morbidity; breakthroughs are bonuses, not plans.
-  - Impact: Policy shifts toward prevention, urban design, sin taxes, and eldercare; actuaries recalibrate pensions assuming slower gains and later retirements.
-  - Watch next: Measure population‑level effects of GLP‑1s, statins, and senolytics; track excess mortality trends; monitor QALY/assisted‑dying legislation.
+### Comment pulse
+
+- Readers distinguished slower population-level gains from the possibility of future breakthroughs or improvements in preventable lifestyle-related mortality.
+- Much discussion prioritized health span and quality of life over extending years marked by severe decline.
+
+### LLM perspective
+
+- View: The forecast describes diminishing gains under modeled trends, not a biological ceiling on human life.
+- Impact: Pension, healthcare, and retirement planning may need assumptions less optimistic than early-century improvements suggest.
+- Watch next: Older-age mortality, health-span measures, and genuine treatment breakthroughs are the variables most likely to change projections.

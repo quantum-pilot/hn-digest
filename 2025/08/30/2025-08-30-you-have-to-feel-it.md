@@ -2,15 +2,17 @@
 
 - Score: 381 | [HN](https://news.ycombinator.com/item?id=45075048) | Link: https://mitchellh.com/writing/feel-it
 
-- TL;DR
-  - Hashimoto argues product quality includes the emotion it evokes; checklists and demos miss this, so teams must live with their work until it feels right. HN agrees that intuition ('vibes') aggregates subtle signals metrics miss; vibe checks can expose manipulators. Others note corporates optimize dashboards, while small, taste-driven teams can win by feeling it. Commenters caution passion fuels excellence yet risks burnout and emotional hangovers; feeling can also be absent even after success, underscoring its context-dependence.
+### TL;DR
 
-- Comment pulse
-  - Vibes matter in decisions → Intuition aggregates subtle cues; vibe checks exposed manipulators and bad deals—counterpoint: guardrails needed to limit bias and maintain scientific rigor.
-  - Big orgs optimize metrics, not feel → bureaucracy dulls taste; small teams and Apple-era iPhone show feeling-led bets can win — counterpoint: many thrive in large companies.
-  - Passion improves craft → caring reveals subtle issues; 'weekend test' gauges joy and usability—counterpoint: intensity risks burnout; mind-numbing work hides nagging negatives.
+Mitchell Hashimoto argues that completing schedules, requirements, and demos is insufficient if the work does not feel good to use. Every interaction evokes frustration, relief, confidence, or joy, so the intended feeling should be treated as part of the requirements. Metrics and specifications cannot fully capture that experience; makers must live with their work until it feels natural, desirable, and worth sharing. Commenters broadened this into discussions of product taste, intuition as compressed judgment, corporate incentives, passion, burnout, and the danger of treating subjective impressions as either infallible or irrelevant.
 
-- LLM perspective
-  - View: Treat “feeling” as an explicit requirement; prototype until it delights representative users, not just passes tests.
-  - Impact: Shifts success metrics from deadlines to experience quality; empowers small teams with taste; challenges rigid OKRs.
-  - Watch next: Define lightweight “feel” checks: usability benchmarks, weekend-setup time, joy scores; run longitudinal dogfooding and A/Bs on satisfaction, not clicks.
+### Comment pulse
+
+- Some readers framed feelings as rapid synthesis of subtle evidence whose rationale can often be uncovered through reflection.
+- Others warned that passion can improve attention yet create intensity and burnout when outcomes disappoint.
+
+### LLM perspective
+
+- View: Experiential quality is a legitimate acceptance criterion, but teams need language for interrogating rather than worshipping intuition.
+- Impact: Regular real use exposes friction that checklists and staged demonstrations systematically overlook.
+- Watch next: Translate recurring feelings into observable design problems without flattening taste into another vanity metric.

@@ -2,15 +2,17 @@
 
 - Score: 492 | [HN](https://news.ycombinator.com/item?id=45077291) | Link: https://arewedecentralizedyet.online/
 
-- TL;DR
-  - A dashboard measures how concentrated user data is across the Fediverse, Bluesky’s ATProto “Atmosphere,” and public git forges using HHI and Shannon entropy. It aggregates servers run by the same entity and focuses on active users, while inviting broader decentralization metrics. HN debates HHI edge cases and contrasts architectures: ATProto’s global firehose favors centralized AppViews/Relays despite cheap personal hosting; ActivityPub’s follow-based delivery is cheaper but fragmented. Claims that “everything centralizes” face nuanced counterexamples from Git, BitTorrent, SMTP, and Bitcoin.
+### TL;DR
 
-- Comment pulse
-  - HHI >10,000 can occur if market “shares” include negative returns → squares inflate. — counterpoint: that’s sales-share misuse; true market share stays 0–100%.
-  - ATProto: cheap PDS; Relay ≈ $30/mo; full AppView ≈ $300/mo for global view. ActivityPub: cheaper servers, but partial, follow-based synchronization by design.
-  - “Everything centralizes” claim challenged: Git remains decentralized in workflow; BitTorrent uses many trackers; SMTP deliverability depends on configuration, not size; Coinbase doesn’t centralize Bitcoin.
+“Are We Decentralized Yet?” measures where active-user data resides across the Fediverse, AT Protocol's Atmosphere, and public Git forges. It uses the Herfindahl–Hirschman Index and Shannon Index to quantify concentration, aggregating servers controlled by the same organization and using Software Heritage repository origins for forges. The page stresses that data location captures only one dimension: network topology, identity, hosting infrastructure, jurisdiction, governance, and social power also matter. Its code and data are published for extension, though the supplied non-JavaScript capture omits current metric values.
 
-- LLM perspective
-  - View: Data-location indices omit governance, moderation, infra providers, and protocol power—add multi-dimensional “control surface” metrics.
-  - Impact: ATProto’s cohesive feed nudges centralization at AppView/Relay layers; ActivityPub emphasizes per-instance autonomy at usability cost.
-  - Watch next: Add Nostr and Matrix; publish time-series HHI/entropy; standardize “active user” definition; track entity consolidation across hosting providers.
+### Comment pulse
+
+- Discussion contrasted Mastodon's fragmented federation with AT Protocol's separable hosting, relay, and application layers.
+- Commenters disputed whether popular services around Git, BitTorrent, Bitcoin, and email represent protocol centralization or replaceable conveniences.
+
+### LLM perspective
+
+- View: Concentration indices provide a useful baseline, but cannot alone determine whether a network is resilient or governable.
+- Impact: Publishing methodology and data makes vague decentralization claims testable and comparable over time.
+- Watch next: Add infrastructure ownership, identity portability, relay and application concentration, jurisdictions, and governance power.

@@ -2,15 +2,17 @@
 
 - Score: 297 | [HN](https://news.ycombinator.com/item?id=45074157) | Link: https://www.theregister.com/2025/08/28/fbi_cyber_cop_salt_typhoon/
 
-- TL;DR
-    - US officials say China-aligned Salt Typhoon infiltrated telecoms since 2019, exfiltrating bulk geolocation, traffic metadata, and some call content—likely touching “nearly every American” and victims in 80+ countries. Around 200 US orgs, including major carriers, were compromised; over 100 current/former senior officials were deeply targeted. Three PRC firms are linked to the operation. The campaign remains active. HN debates whether lawful-intercept backdoors and poor telecom hygiene enabled this, versus inevitability given state resources, and stresses auditing LI systems, resilience, and reversing cybersecurity cuts.
+### TL;DR
 
-- Comment pulse
-    - Backdoors enabled this → LI/CALEA systems are hidden, poorly audited, and once compromised can siphon traffic undetected—counterpoint: top-tier actors penetrate even without backdoors.
-    - Likely pivot was LI mediator gear → Few vendors control MD consoles that trigger SPAN taps; compromise one and you tap many carriers.
-    - Incident remains uncontained → Data still flowing; community wants detailed IOCs, LI audits, and restoration of gutted cybersecurity budgets.
+An FBI cyber official told The Register that China's Salt Typhoon campaign likely stole information concerning nearly every American, describing bulk collection from millions and deeper interception of some high-profile officials. The campaign reportedly began by 2019, compromised about 200 US organizations including major telecommunications providers, reached at least 80 countries, and remained active. US and partner governments attributed supporting activity to three China-based companies linked to state security and military customers. The scope and attribution here rely substantially on government statements rather than disclosed technical evidence.
 
-- LLM perspective
-    - View: Centralized, opaque LI is a systemic single point of failure; mandate operator-visible, immutable audit logs and strong access controls.
-    - Impact: Telcos, LI vendors, and regulators must redesign interception workflows, segment networks, retire EOL gear, and enforce hardware-rooted key management.
-    - Watch next: Detailed IOCs and exploited device families, firmware patches, independent LI platform audits, and any allied sanctions or indictments.
+### Comment pulse
+
+- Commenters linked the breach to lawful-intercept infrastructure, though the exact compromise point was not established in the supplied material.
+- Several stressed that the incident remained active, making containment and auditability more urgent than retrospective blame.
+
+### LLM perspective
+
+- View: The central failure is persistent access to high-leverage telecom infrastructure, not merely the number of exposed records.
+- Impact: Bulk metadata and targeted content interception create intelligence value far beyond ordinary consumer breach data.
+- Watch next: Technical root-cause disclosure, removal verification, lawful-intercept auditing, and end-of-life network replacement.

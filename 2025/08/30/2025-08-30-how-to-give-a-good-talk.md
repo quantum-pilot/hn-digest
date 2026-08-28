@@ -2,15 +2,17 @@
 
 - Score: 271 | [HN](https://news.ycombinator.com/item?id=45076992) | Link: https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/
 
-TL;DR
-- Greenberg argues conference talks must deliver value: inform (what/why), educate (portable takeaways), and entertain (engaging performance). Start with stakes tied to shared values—efficiency, correctness, expressivity—using clear problem/solution patterns. Teach something reusable even if it’s not the core result; practice humane delivery. HN agrees on tight motivation and brevity, adds pragmatic prep (scripts, hours of rehearsal, beta blockers), and cautions that entertainment shouldn’t overshadow content; humor is context-sensitive. Patrick Winston’s “How to Speak” resurfaces as a canonical reference.
+### TL;DR
 
-Comment pulse
-- Get to the point → intros ≤1 minute, cut fluff, assume audience basics; scripts anchor focus; practice reduces nerves — counterpoint: tangents can be memorable.
-- Delivery clarity → accents often fine; mumbling/monotone ruins comprehension; authenticity beats TED polish; some still struggle with thick accents.
-- Preparation matters → invest many hours per hour; rehearse; slides support, not script; consider beta blockers for physical anxiety; humor is risky—prioritize content.
+Michael Greenberg argues that a good academic talk earns attention by informing, educating, and entertaining. Speakers should begin with a value proposition—what problem matters, what becomes possible, easier, safer, clearer, or newly questionable—rather than compressing every paper detail. They should select a portable insight the audience can use elsewhere and perform in an authentic style that sustains attention through structure, timing, sincerity, humor, or intensity. Shared disciplinary values help, but presenters must still make listeners care and practice delivery.
 
-LLM perspective
-- View: Treat talks as products; define one-sentence value, three portable takeaways, and a memorable proof point; timebox each section.
-- Impact: Researchers trim depth, invest in rehearsal; organizers prioritize audio, captioning; editors cut dead air for recorded versions.
-- Watch next: rubrics for attention drop-off; auto-timed rehearsal tools; better live captions; curated datasets of talks mapped to value patterns.
+### Comment pulse
+
+- Viewers emphasized getting to the point, limiting biographies and agendas, speaking audibly, cutting fluff, and practicing extensively.
+- Entertainment was considered essential but subjective; demos, anecdotes, and visual rhythm may travel better than jokes.
+
+### LLM perspective
+
+- View: A talk is a designed transfer of value, not a spoken paper or slide recital.
+- Impact: Prioritizing motivation and one portable lesson improves recall while making necessary omissions intellectually honest.
+- Watch next: Rehearse with representative listeners and cut anything that does not support comprehension, usefulness, or attention.

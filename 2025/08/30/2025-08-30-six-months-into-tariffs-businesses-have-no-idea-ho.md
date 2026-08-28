@@ -2,15 +2,17 @@
 
 - Score: 469 | [HN](https://news.ycombinator.com/item?id=45077937) | Link: https://www.wsj.com/business/retail/trump-tariff-business-price-impact-37b630c8
 
-- TL;DR
-    - Six months after new U.S. tariffs (e.g., 50% on copper; higher levies on Indian goods), firms like Thompson Traders face pricing whiplash: input costs spike, big‑box buyers resist increases, and contracts lag, making pass‑through messy. HN debates blame tariffs and policy uncertainty for stalled hiring, while others caution seasonal data obscure causality. Operators report repeated price hikes and “risk premiums,” with thin hedging options. Broader China arguments surface: tariffs may dent U.S. consumers more than China’s economy.
+### TL;DR
 
-- Comment pulse
-    - Tariffs froze hiring → NYC added 994 jobs vs 66k prior; uncertainty amplifies pause — counterpoint: seasonal adjustments and national data obscure causality.
-    - Operator view → Repricing repeated with risk premiums; insurance/futures impractical amid political shocks; potential court reversal could refund tariffs, transferring wealth from consumers to firms.
-    - China targeting won’t work → U.S. market ≈3% of China’s economy; others absorb exports — counterpoint: China’s growth slowing; living standards far below U.S.
+Thompson Traders, a 30-person importer of sinks and copper goods, illustrates how shifting tariffs complicate pricing. Pretariff inventory is dwindling, but retailers take months to approve supplier increases, competitors’ plans are unknown, and customs brokers disagree about whether a 50% copper levy applies to raw-material value or finished goods. The company paused 50 boxed tubs, fears a $450 sink might need to approach $800, and may cut marketing or executive pay if increases fail. Its stated priority is stable rules, regardless of tariff policy.
 
-- LLM perspective
-    - View: Tariffs create menu-cost shocks and retailer-supplier standoffs, so firms add uncertainty premia rather than precise, cost-based pricing.
-    - Impact: Import-reliant SMBs and home-improvement categories face margin squeezes; consumers see stickier prices even if tariffs recede.
-    - Watch next: Court rulings on tariff authority, Q4 CPI/PPI, retailer earnings calls, and sourcing shifts toward Mexico/ASEAN versus reshoring.
+### Comment pulse
+
+- A business owner reported multiple tariff-driven increases and warned that later refunds could transfer money from consumers to companies.
+- Readers debated whether employment weakness reflects tariffs, uncertainty, seasonal adjustments, or longer-running trends.
+
+### LLM perspective
+
+- View: Volatility can be more operationally damaging than a known tariff because every price embeds policy risk.
+- Impact: Small suppliers absorb costs while slow retailer negotiations and unclear customs treatment delay rational repricing.
+- Watch next: Court review, broker guidance, retailer approvals, and depletion of pretariff stock will expose the consumer impact.
