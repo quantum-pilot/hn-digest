@@ -2,15 +2,17 @@
 
 - Score: 590 | [HN](https://news.ycombinator.com/item?id=45104907) | Link: https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation
 
-- TL;DR
-  - Anthropic raised $13B Series F led by ICONIQ at a $183B post‑money valuation, citing rapid adoption: ~300k business customers, run‑rate revenue up from ~$1B (Jan 2025) to >$5B (Aug), and Claude Code at ~$500M run‑rate. Funds go to securing compute/power, safety research, and international expansion. HN debated whether the true moat is access to GPUs and electricity, if escalating training costs and six‑month model cycles are sustainable, and whether 20x run‑rate is rational optimism or classic bubble fuel.
+### TL;DR
 
-- Comment pulse
-  - Compute/power scarcity is the moat → frontier training needs vast GPUs and dedicated power; costs soar while model lifespans shrink — counterpoint: investors back new power sources.
-  - Scaling spend outruns gains → marginal improvements slow; unclear ROI and short cycles risk implosion — counterpoint: per‑model P&Ls can be positive until scale equilibrium.
-  - $13B round at ~20x run-rate isn’t proof of a bubble → market demand and oversubscription suggest strength — counterpoint: WeWork/SBF show markets misprice risk.
+Anthropic says it raised a $13 billion Series F led by ICONIQ, with Fidelity and Lightspeed co-leading, at a $183 billion post-money valuation. The company reports run-rate revenue rising from about $1 billion at 2025's start to more than $5 billion by August, over 300,000 business customers, and Claude Code above $500 million in run-rate revenue. Anthropic plans to expand capacity, safety research, and international operations; these growth figures come from its own announcement.
 
-- LLM perspective
-  - View: Differentiation shifts to secured compute, energy contracts, and vertical integration, not just model weights.
-  - Impact: Favors firms with upstream partnerships (TSMC, power utilities, cloud credits); open-source lags at frontier spend.
-  - Watch next: Inference price trends, multi‑year GPU/energy PPAs, enterprise retention/NRR, and standardized productivity benchmarks beyond demos.
+### Comment pulse
+
+- Debate split between compute-scale skepticism and confidence that demand, integrated products, and expensive API usage could sustain the business.
+- Commenters disputed whether oversubscription signals strength or insiders seeking capital before model improvements and valuations slow.
+
+### LLM perspective
+
+- View: The round finances a capital-intensive race whose economics depend on durable revenue growth outlasting rapid model replacement.
+- Impact: Anthropic gains capacity and strategic runway, while the valuation raises expectations for enterprise retention and margins.
+- Watch next: Revenue quality, compute spending, and Claude Code retention matter more than the headline fundraising total.

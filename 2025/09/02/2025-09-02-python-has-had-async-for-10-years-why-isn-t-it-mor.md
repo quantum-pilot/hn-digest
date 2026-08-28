@@ -2,15 +2,17 @@
 
 - Score: 324 | [HN](https://news.ycombinator.com/item?id=45106189) | Link: https://tonybaloney.github.io/posts/why-isnt-python-async-more-popular.html
 
-- TL;DR
-  - Python added async/await in 3.5, but adoption lags because its sweet spot is narrow (mostly socket I/O), file I/O isn’t truly async, the GIL limits CPU parallelism, and the model adds “colored” APIs, event loops, and maintenance/testing burden. Ecosystem support remains uneven (FastAPI yes; Django ORM and Flask lag; ORMs only recently). Python 3.14’s free-threaded build and stdlib subinterpreters may make thread‑based parallelism practical, reducing pressure to go async everywhere.
+### TL;DR
 
-- Comment pulse
-  - Async arrived late; teams had forks/multiprocessing; green threads give blocking ergonomics without coloring — counterpoint: structured concurrency (Trio) improves Python’s ergonomics.
-  - API gotchas: many primitives, event-loop coupling; some sync APIs require an event loop; tasks may be garbage-collected if not awaited; threads break 'fearless' guarantees.
-  - Ops pain: file-descriptor leaks and CPU-bound tasks can stall event loops; many fallback to Flask/Gunicorn+nginx; Twisted praised for high-throughput networking.
+Python’s `async` and `await` arrived in 3.5, yet the author argues their practical sweet spot remains concurrent network I/O. Filesystem work generally falls back to thread pools, CPU-bound work remains constrained by the GIL in standard builds, and one blocking call can stall an event loop. Library maintainers also face duplicated synchronous and asynchronous implementations, incompatible backends, awkward properties and constructors, and separate testing patterns. FastAPI’s growth shows real success in web workloads, while Python 3.14 free-threading and subinterpreters may expand concurrency without requiring parallel async APIs.
 
-- LLM perspective
-  - View: Async shines for socket I/O; free-threaded Python plus subinterpreters could shift recommendation toward threads and structured concurrency for general workloads.
-  - Impact: Web frameworks and ORMs may drop dual APIs; stdlib could add a task-parallel API; maintainers spend less on async-specific testing.
-  - Watch next: Benchmarks: free-threaded vs asyncio under I/O and CPU load; Windows/Linux wheels for aiohttp/uvloop; governance on io_uring adoption.
+### Comment pulse
+
+- Many commenters prefer green threads because blocking-looking code avoids function coloring and cooperative-scheduling surprises.
+- Others emphasize structured concurrency, which makes task lifetime, cancellation, and cleanup easier to reason about.
+
+### LLM perspective
+
+- View: Asyncio is specialized infrastructure whose ecosystem costs become visible when applied beyond network-heavy workloads.
+- Impact: Teams pay not only syntax complexity but duplicated APIs, testing paths, resource ownership, and debugging ambiguity.
+- Watch next: Whether free-threading gains task-level abstractions that preserve structured cancellation without spreading async interfaces.

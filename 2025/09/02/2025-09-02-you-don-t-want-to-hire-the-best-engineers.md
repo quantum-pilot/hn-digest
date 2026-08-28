@@ -2,15 +2,17 @@
 
 - Score: 393 | [HN](https://news.ycombinator.com/item?id=45103646) | Link: https://www.otherbranch.com/shared/blog/no-you-dont-want-to-hire-the-best-engineers
 
-- TL;DR
-    - Startups shouldn’t chase “the best engineers.” That pool is tiny, pricey, and rarely engages with standard, inflexible hiring. Hiring is a negotiation; time lost is existential. Define must‑have traits, trade comp/policy for speed, and hire great now rather than wait months for mythical perfect. HN discussion stresses multiplicity of “excellence,” the need to align traits with stage, and warns both against pedigree worship and the morale hit from settling for true mediocrity.
+### TL;DR
 
-- Comment pulse
-    - There’s no universal “best” → hire for specific strengths; prioritize execution discipline and high‑agency generalists; filter out genuinely poor performers first.
-    - Embrace dissent → top engineers challenge architecture and deadlines; build culture to harness pushback—counterpoint: needing “the best” may indicate unnecessary complexity.
-    - Fix evaluation → junior teams mis-assess seniors; resume pedigree is weak; many greats skip standard funnels; many products only require competent engineers.
+A recruiter argues that startups wanting “the best engineers” often demand the same scarce profile as competitors without offering matching compensation, flexibility, autonomy, hours, or appeal. Months waiting for a perfect founding hire trade away the resource startups value most: time. The alternative is not lower quality, but explicit prioritization—decide which traits matter now, widen the funnel, then choose among strong candidates whose compromises are understood. Commenters add that “best” has no single metric: prototyping, deep problem solving, execution, mentoring, communication, and generalism suit different needs.
 
-- LLM perspective
-    - View: Treat hiring like product-market fit: define must-haves, relax nice-to-haves, price competitively, and shorten time-to-hire.
-    - Impact: Startups shift from pedigree filters to capability screens; expect more remote, mid-level, and nontraditional candidates in core teams.
-    - Watch next: Track time-to-fill, first-90-days output, and retention by policy changes (comp bands, remote/hybrid, interview simplification) to calibrate tradeoffs.
+### Comment pulse
+
+- Readers agree senior talent may challenge architecture, schedules, and product assumptions rather than simply execute a founder’s plan.
+- Others warn the author is a recruiter advocating a wider viable pool and that mediocre early hires can repel stronger teammates.
+
+### LLM perspective
+
+- View: Hiring quality is contextual optimization under market constraints, not a search for one universally ranked engineer.
+- Impact: Explicit tradeoffs can shorten vacancies while preserving standards tied to the startup’s actual bottleneck.
+- Watch next: Whether companies measure vacancy cost, retention, and team outcomes instead of relying on pedigree and interview convention.

@@ -2,15 +2,17 @@
 
 - Score: 408 | [HN](https://news.ycombinator.com/item?id=45098722) | Link: https://github.com/woheller69/FreeDroidWarn
 
-- TL;DR
-  - FreeDroidWarn is a tiny Android library that shows users a deprecation warning: from 2026/27, apps on certified Android devices will require Google-verified developer identities; maintainers refusing verification say their apps will stop working. The README frames this as a hit to developer privacy, user ownership, FOSS, safety, and easy forking. HN debates practical fallout—banking apps and “certified OS” lock‑in—versus legislative fixes; questions the utility of a dependency for a dialog; and notes the project switching to an Apache license after pushback.
+### TL;DR
 
-- Comment pulse
-  - Mobile payments create lock-in → banks/apps require certified OS; some accept GrapheneOS, others mandate app-only payments, raising exclusion and surveillance concerns.
-  - Legislation over hacks → advocate antitrust, right-to-repair, and repealing DMCA 1201 to restore ownership rights. — counterpoint: open source already suffices; users prioritize anti-scam controls.
-  - Utility questioned → a dependency for a dialog feels overkill; code duplication noted; however, translations and visibility may spread the warning; license changed to Apache.
+FreeDroidWarn is a small Android library that displays a warning about Google's announced developer-verification requirements for apps distributed outside Play. Its author says they will not submit identity details, so affected apps may stop working on certified Android devices in 2026 or 2027. The project frames verification as a threat to developer privacy, device ownership, volunteer FOSS, at-risk developers, and easy forks. Integration uses JitPack and one call on upgrade; its license was changed to Apache 2.0.
 
-- LLM perspective
-  - View: A lightweight, in-app notice builds user awareness and consent before policy breaks apps; it’s pressure, not protection.
-  - Impact: Indie Android devs, F-Droid ecosystem, forks, and custom ROM users; also banks and eID providers dictating “certified” device requirements.
-  - Watch next: Scope of enforcement for sideloading and package IDs, OEM certification rules, alternative store policies, and device-ownership legislation.
+### Comment pulse
+
+- Supporters see the dialog as user education and political pressure; critics say legislation, not a dependency, is the meaningful remedy.
+- Several commenters called the library excessive for a dialog, though localization and symbolic visibility were offered as benefits.
+
+### LLM perspective
+
+- View: FreeDroidWarn is primarily an advocacy artifact packaged as code, with distribution more important than technical complexity.
+- Impact: Repeated in-app warnings could make an abstract platform-policy change visible to affected users before enforcement.
+- Watch next: Google's final verification exemptions and whether maintainers actually discontinue builds will define the practical stakes.

@@ -2,15 +2,17 @@
 
 - Score: 294 | [HN](https://news.ycombinator.com/item?id=45107891) | Link: https://www.reuters.com/legal/government/amazon-must-face-us-nationwide-class-action-over-third-party-sales-2025-09-02/
 
-- TL;DR
-  - A federal judge certified a nationwide class of 288 million U.S. consumers alleging Amazon used price‑parity rules on third‑party sellers that inflated prices. The class covers buyers of 5+ new third‑party items since 2017. Amazon denies wrongdoing, says the program ended in 2019, and has appealed class certification as unmanageable. HN debate focuses on what “manageability” really means, seller workarounds via coupons and perpetual “sales,” and broader concerns about copied products and review moderation.
+### TL;DR
 
-- Comment pulse
-  - Manageability critique → Courts worry heterogeneous harms make one class unworkable; not “too many victims” — counterpoint: still reads like dodging accountability.
-  - Workarounds/enforcement → Sellers use coupons, “spin wheels,” constant sales to dodge parity; an insider says Amazon enforced via a crawler boosting ~$8M/month.
-  - Trust issues → Claims Amazon deletes critical reviews and copies hit products (Amazon Basics), distorting ratings and competition.
+A federal judge certified a nationwide class covering consumers who bought at least five new products from third-party Amazon sellers since May 2017. The lawsuit alleges Amazon restricted sellers from offering lower prices elsewhere, enabling higher fees and consumer prices. Certification lets the case proceed collectively but does not establish liability. Amazon denies wrongdoing, has appealed, and argues individual pricing effects make the class unmanageable; it also says the challenged pricing program ended in 2019.
 
-- LLM perspective
-  - View: Certification pressure means damages models over billions of transactions will decide viability; parity policy scope and causation are pivotal.
-  - Impact: Potentially curbs Amazon’s parity clauses and fee structures; could unlock broader price competition for sellers and lower consumer prices.
-  - Watch next: Ninth Circuit ruling on certification; expert econometrics on overcharge; discovery into algorithms, Buy Box, and review moderation policies.
+### Comment pulse
+
+- Commenters corrected an early caricature: Amazon's objection concerns individualized harm and class manageability, not merely the number of customers.
+- Sellers described alleged pricing pressure and workarounds, but those anecdotes do not establish class-wide effects.
+
+### LLM perspective
+
+- View: Certification converts a broad allegation into tractable litigation without resolving whether Amazon actually raised prices.
+- Impact: Discovery may expose how marketplace rules, fees, and cross-platform prices interacted across an enormous class.
+- Watch next: The appeal and plaintiffs' method for proving common consumer harm will determine the case's reach.

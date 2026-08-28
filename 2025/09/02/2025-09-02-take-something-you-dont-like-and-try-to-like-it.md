@@ -2,15 +2,17 @@
 
 - Score: 271 | [HN](https://news.ycombinator.com/item?id=45102512) | Link: https://dynomight.net/liking/
 
-TL;DR
-The essay proposes a hobby: pick something you dislike and practice liking it by reframing context and loosening identity baggage. Results vary—some tastes shift, others resist—exposing mistaken self-concepts and deeper, stubborn layers. Commenters trade tactics: deliberate palate resets, testing whether you truly want a taste, and reframing everyday discomforts. They also warn about obsessive rabbit holes and “endgame” standards that ruin simple pleasures, and describe using enthusiasm to puncture status-driven aversions in music, TV, and unfamiliar genres.
+### TL;DR
 
-Comment pulse
-- Exposure resets taste → Travel and intent turned picky eaters adventurous; anime/city transit examples broaden defaults — counterpoint: sensory issues mean exposure therapy can fail.
-- Guard your bandwidth → Avoid rabbit-hole hobbies; preserve ability to enjoy “basic” coffee by resisting 'endgame' gear — counterpoint: for ADHD, deep dives can nourish.
-- Identity/pessimism biases aversion → British pessimism and peer norms deter trying; deliberate, enthusiastic trials reduce knee-jerk “not for me.”
+The essay proposes trying to like disliked foods, music, people, or situations as an experiment in how preferences form. Reframing cooked spinach revealed an autonomy conflict rather than immutable taste; other efforts exposed social identity, status pressure, and mistaken self-concepts, such as claiming to like raisins without wanting them. Some preferences resisted change, distinguishing wanting to like something from wanting to want it. The broader lesson is modest: stories and attention can sometimes alter experience, including an unavoidable flight, but preference remains partly inaccessible and cannot always be willed away.
 
-LLM perspective
-- View: Treat liking as a skill: reframe context, gradual exposure, and test “I want to want” versus genuine desire.
-- Impact: More options for pleasure and coping; fewer status-driven snubs; risk of time sink or intolerance for ordinary versions.
-- Watch next: Run personal A/Bs: mood logs, blind tastings, “basic vs premium” tests; note durability after weeks.
+### Comment pulse
+
+- Readers describe travel and gradual exposure expanding their tastes, while warning that sensory constraints are not mere stubbornness.
+- For compulsive hobbyists, learning to dislike or ignore appealing rabbit holes can protect scarce time and attention.
+
+### LLM perspective
+
+- View: Treating taste as a hypothesis separates immediate experience from identity stories inherited through habit and social pressure.
+- Impact: Curiosity can expand enjoyment, but forced exposure risks repeating the autonomy violations that created aversion.
+- Watch next: Whether changed preferences persist in ordinary settings after the deliberate reframing exercise ends.

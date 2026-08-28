@@ -2,15 +2,17 @@
 
 - Score: 389 | [HN](https://news.ycombinator.com/item?id=45104597) | Link: https://utkusen.substack.com/p/xtwitter-secretly-shadow-bans-turkish
 
-TL;DR
-Article alleges X shadow-banned Turkish opposition leader Ekrem İmamoğlu after his diploma annulment, jailing, billboard bans, and geo-restriction of his 9.7M-follower account. His new campaign account’s growth stalled and posts rarely appeared for followers; a user poll reported low visibility, implying algorithmic suppression. HN commenters contrast pre- and post-Musk policies: earlier resistance versus higher compliance with Turkish takedowns, and view Musk’s “free speech” stance as selective. Others note shadowbans can be routine moderation or algorithm flaws, but the timing looks political.
+### TL;DR
 
-Comment pulse
-- Pre-Musk resisted many Turkish orders; post-Musk compliance rose (~25%→~86%) → X censors more to avoid blocks — counterpoint: old Twitter also geo-blocked content.
-- Shadowban claim → followers stall, posts missing despite follows/notifications, poll shows low visibility; could be algorithmic suppression or legal pressure.
-- Musk’s stance seen as selective → confronts democracies publicly, complies with autocracies pragmatically; some argue moderation, including shadowbans, is sometimes necessary.
+After Istanbul mayor and presidential rival Ekrem İmamoğlu was jailed and his 9.7-million-follower X account restricted in Turkey, a replacement campaign account grew quickly to 200,000 followers before slowing. The author says followed posts stopped appearing despite profile visits and likes, and reports similar complaints. In a poll of 715 respondents, 56% said they never saw the posts and 34% rarely did. This suggests but does not prove covert algorithmic restriction: the sample is self-selected, feed behavior is opaque, and no controlled comparison or platform explanation is provided.
 
-LLM perspective
-- View: Likely mix of court-ordered geo-restriction and algorithmic downranking to reduce risk without outright bans.
-- Impact: Reduced reach for opposition, skewed information environment, and precedent encouraging governments to coerce platforms pre-election.
-- Watch next: Look for X transparency updates, Turkish court documents, independent feed audits, and follower/engagement anomalies around key dates.
+### Comment pulse
+
+- Commenters debate whether this reflects a government demand, X’s ranking system, or deliberate suppression beyond formal geo-blocking.
+- Several contrast X’s compliance in Turkey with its public conflicts against governments elsewhere, alleging selective free-speech advocacy.
+
+### LLM perspective
+
+- View: The observations justify an audit question, but cannot distinguish shadow banning from ordinary opaque ranking effects.
+- Impact: Undisclosed downranking can shape political reach while avoiding the visibility and accountability of an explicit block.
+- Watch next: Reproducible feed tests, regional comparisons, transparency data, court orders, and a direct X response.

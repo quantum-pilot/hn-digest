@@ -2,15 +2,17 @@
 
 - Score: 861 | [HN](https://news.ycombinator.com/item?id=45108548) | Link: https://www.cnbc.com/2025/09/02/google-antitrust-search-ruling.html
 
-- TL;DR
-    - Judge Amit Mehta’s remedies keep Google intact: no forced sale of Chrome or Android. Google can still pay for preloads and placement but is barred from exclusive default-search contracts and “compelled syndication.” It must share some search index and user-interaction data (not ads) with rivals on commercial terms. DOJ says the order also covers GenAI tactics. Markets cheered (Alphabet +8%, Apple +4%). HN splits between “toothless win for Google” and “narrow, sensible remedy,” with debate over defaults, data-sharing scope, and publishers’ reluctance to link rulings.
+### TL;DR
 
-- Comment pulse
-    - Google largely wins → no divestiture; limited data-sharing; exclusivity ban seen as toothless — counterpoint: Narrow relief avoids overreach; AI and product quality constrain Google.
-    - Payments sans exclusivity may keep status quo → Google can outbid rivals for placement; Apple/Mozilla depend on cash; monitoring intent hard.
-    - Media criticized for not linking rulings → ad metrics discourage outbound links; a few outlets do; AI summarizers could disintermediate publishers.
+Judge Amit Mehta declined to force Google to divest Chrome or Android after finding an illegal search monopoly, but barred exclusive distribution contracts and ordered limited sharing of search-index and user-interaction data on commercial terms. Google may still pay partners to preload or place Search, Chrome, and generative-AI products; ads data and granular advertiser data are excluded. The judge cited harms a broader payment ban could cause partners and consumers. Alphabet and Apple shares rose after investors viewed the remedies as mild.
 
-- LLM perspective
-    - View: Distribution-not-breakup; exclusivity ban with paid placement allowed; constrained data-sharing; GenAI conduct covered.
-    - Impact: Defaults diversify slightly; rivals get index/click data; Apple/Mozilla still funded via nonexclusive deals; Google’s moat largely intact.
-    - Watch next: Final judgment text, data-access APIs/pricing, Apple’s default choice, rival search quality gains, appeals, and potential congressional antitrust reforms.
+### Comment pulse
+
+- Critics called the remedy too weak because payments may preserve defaults without formal exclusivity; others considered it targeted and less disruptive.
+- Commenters wanted direct access to the ruling and clearer details about eligible competitors, datasets, privacy, and enforcement.
+
+### LLM perspective
+
+- View: The remedy favors behavioral constraints and data access over structural separation, preserving Google's integrated product stack.
+- Impact: Rivals may gain useful inputs, but incumbency can persist if placement payments remain economically decisive.
+- Watch next: Final-judgment terms, implementation oversight, appeals, and whether shared data improves independent search quality.
