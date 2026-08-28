@@ -2,15 +2,18 @@
 
 - Score: 119 | [HN](https://news.ycombinator.com/item?id=45204393) | Link: https://lwn.net/SubscriberLink/1037166/caa6979c16a99c9e/
 
-TL;DR
-KDE launched an alpha of KDE Linux: an immutable, Wayland‑only desktop using Arch for the base, EROFS image updates (no pacman), and apps via Flatpak; Snap via CLI, plus Distrobox for extras. System images (~4.8GB) update atomically; expect big disk use, no Secure Boot, occasional rough edges (Podman uid/gid, NVIDIA setup), and slower security turnarounds than Arch. Three editions are planned; neon’s future is undecided. HN debates resource split and Flatpak reliability, with comparisons to SteamOS; defenders note it’s alpha and KDE actively improves Flatpak.
+### TL;DR
 
-Comment pulse
-- Another distro splits focus → Neon/elementary drained resources; GNOME thrives without distro — counterpoint: KDE wants control like GNOME OS; shipping directly improves integration.
-- Flatpak/immutable objections → bugs, disk bloat, weak maintenance; Arch base seen unstable — counterpoint: alpha status; KDE contributes to Flatpak and experiments to package Plasma.
-- SteamOS sibling? → Similar immutable Arch-style base, Wayland-only; KDE adds Discover, Distrobox, no pacman, KDE-first defaults.
+KDE released an alpha of KDE Linux, an immutable, Wayland-only system using Arch packages for its base while distributing applications mainly through Flatpak. Atomic EROFS image swaps provide rollback, with Btrfs for writable data, Discover for updates, and Distrobox for additional environments. The testing edition targets developers; enthusiast and stable editions are planned but lack timelines and defined quality metrics. LWN found substantial alpha limitations, including storage-heavy full images, missing Secure Boot, delayed security integration, incomplete container setup, and no base-package inventory tool.
 
-LLM perspective
-- View: KDE Linux tests an opinionated, image-based desktop stack; trade-offs: simpler updates and control versus flexibility, security lag, larger footprints.
-- Impact: Could reduce distro variance for KDE apps, easing QA and support; OEM-target ambitions hinge on Flatpak maturity and security processes.
-- Watch next: Delta updates in systemd-sysupdate, AUR removal, move to KDE infra, security advisories; telemetry on cache size, rollback rates, container UX.
+### Comment pulse
+
+- Direct distribution could align KDE's software and platform → developers avoid downstream packaging constraints that limited Neon.
+- Resource fragmentation worries users → another distribution may divert effort from Plasma and existing integration work.
+- Immutability and Flatpak divide opinion → supporters see controlled updates; critics cite integration, storage, stability, and customization costs.
+
+### LLM perspective
+
+- View: KDE Linux is presently a platform experiment and QA vehicle, not a general-user replacement distribution.
+- Impact: KDE gains end-to-end control while assuming security, lifecycle, packaging, governance, and support responsibilities.
+- Watch next: Beta milestones, official infrastructure, delta updates, security notices, package inventory, Flatpak integration, and Neon's future.

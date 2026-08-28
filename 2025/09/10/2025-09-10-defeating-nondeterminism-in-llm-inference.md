@@ -2,15 +2,18 @@
 
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=45200925) | Link: https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
 
-TL;DR
-Most “temperature 0” nondeterminism isn’t GPU randomness; it’s batch-size–dependent numerics. Kernels in LLM forward passes are run-to-run deterministic yet not batch-invariant, so varying server load changes reduction order in RMSNorm, matmuls, and attention. The authors implement batch‑invariant kernels (fixed reduction orders, fixed split-size attention, consistent KV layout) via FlexAttention/torch.Library, yielding identical outputs and enabling true on-policy RL, with ~1.6× overhead. HN notes practical limits (context/paraphrase variance), prior art (JAX), and regulatory motivations for determinism.
+### TL;DR
 
-Comment pulse
-- Determinism helps debugging and compliance, but doesn’t solve context- or paraphrase-variance → same input should repeat; context is input — counterpoint: desire invariance misreads LLMs.
-- Known issue in JAX/XLA: batch variance and reduction-order effects documented; this write-up systematizes and demonstrates an end-to-end deterministic path.
-- Real-world gotchas: UIs set temperature to epsilon; regulated domains require reproducibility and audit trails, making nondeterminism costly or unacceptable.
+Thinking Machines Lab argues that temperature-zero LLM variability primarily comes from kernels lacking batch invariance, not inherently random GPU execution. Changing server load changes batch size, selecting different reduction orders or kernel strategies; floating-point non-associativity then alters logits enough to change greedy tokens. The team built batch-invariant RMSNorm, matrix multiplication, and attention operations for vLLM. Its Qwen experiment produced 80 outputs normally versus one deterministic output, with a substantial speed penalty. Commenters debated practical scope but highlighted bug reproduction and regulated uses.
 
-LLM perspective
-- View: Batch-size variation, not GPU randomness, drives user-visible nondeterminism; enforce batch-invariant reductions across RMSNorm, matmul, attention.
-- Impact: Deterministic inference enables precise bug repro, stable evals, and true on-policy RL; cost is ~20–60% throughput loss today.
-- Watch next: Upstream fixed-split attention, vendor deterministic modes, and benchmarks across GPUs/models to quantify trade-offs versus cuBLAS/FlashInfer at low batch.
+### Comment pulse
+
+- Determinism is narrower than semantic stability → identical execution does not make paraphrases or changed contexts behave equivalently.
+- Reproducibility still matters → stable outputs simplify debugging, auditing, evaluation, and reconstruction of regulated decisions.
+- The mechanism was familiar to some → JAX users said batch-dependent numerics had been documented previously.
+
+### LLM perspective
+
+- View: Separating batch invariance from run-to-run kernel determinism turns a vague problem into an engineering target.
+- Impact: Researchers can align sampling and training numerics, while serving operators must trade throughput for reproducibility.
+- Watch next: Optimized kernels, broader model tests, hardware portability, distributed reductions, and independent reproduction of RL gains.

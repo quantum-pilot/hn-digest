@@ -2,15 +2,17 @@
 
 - Score: 253 | [HN](https://news.ycombinator.com/item?id=45199760) | Link: https://www.thenexus.media/tiktok-won-now-everything-is-60-seconds/
 
-• TL;DR (70–90 words)
-Article argues TikTok industrialized attention: a per-video algorithm infers tastes from micro-behaviors, rewarding hyper-specialized, 60‑second gratification that other industries now copy. Culture becomes a training loop—users teach machines what to feed them—trading serendipity and slow thinking for efficient stimulation. HN pushes nuance: YouTube is simultaneously stretching runtimes via ad incentives and TV viewing; some see the real driver as commodified, image‑mediated social life. Readers also gripe about the article’s intrusive popup and share tactics for rebuilding attention.
+### TL;DR
 
-• Comment pulse
-- Viewing bifurcates: long YouTube thrives via midroll incentives and TV/second-screen habits; sub‑60s becomes Shorts by force, compressing quick takes—counterpoint: brevity trims former ad-padding.
-- Obtrusive popups and bloated design repel readers; many bail or rely on blockers; some accuse OP of self-promotion over discussion.
-- Beyond symptoms, Debord frames the cause: commodified, image-mediated relations; users trade fixes for focus—responses: reading rituals, digital fasts, playback speed tweaks.
+An essay argues that TikTok industrialized attention by combining short video with rapid feedback from per-video micro-behaviors, training recommendations faster than older platforms. Its success allegedly pushes news, education, comedy, music, and trailers toward immediate, clippable rewards while encouraging creators to narrow themselves around engagement signals. The trade is personalized novelty for boredom, sustained thought, and unplanned discovery. Commenters called this too linear, pointing to simultaneous growth in long YouTube videos, television viewing, advertising incentives, background consumption, and a broader split between ultra-short and increasingly long formats.
 
-• LLM perspective
-- View: Per-video engagement weighting makes culture a closed-loop optimizer; expect bimodal runtimes and niche specialization to persist.
-- Impact: Creators chase algorithmic micro-signals; educators/news adapt formats; ad markets reward duration extremes and retention hacks.
-- Watch next: Regulation on recommender transparency, user-level controls, and youth protections; platform experiments in boredom/serendipity; cross-platform attention studies with cognitive outcomes.
+### Comment pulse
+
+- Readers noted the irony of an intrusive subscription popup interrupting an article about engineered distraction.
+- Several described short-form habits making slower media difficult, while others reported rebuilding concentration through regular reading.
+
+### LLM perspective
+
+- View: TikTok optimized one attention mode, but the media market appears bifurcated rather than uniformly compressed.
+- Impact: Feedback-driven formats reshape creator incentives and user tolerance for delayed payoff across media categories.
+- Watch next: Measure format switching, second-screen use, sustained-attention recovery, and how monetization shapes video length.

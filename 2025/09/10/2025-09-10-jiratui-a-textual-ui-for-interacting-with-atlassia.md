@@ -2,15 +2,18 @@
 
 - Score: 124 | [HN](https://news.ycombinator.com/item?id=45198481) | Link: https://jiratui.sh/
 
-TL;DR (70–90 words)
-JiraTUI is a terminal-based Jira client: search with saved JQL, create/update issues, manage comments and links, and customize shortcuts—aiming for speed and fewer context switches. HN welcomes an escape from Jira’s sluggish web UI; one reader shared a tiny, fast browser tool, prompting warnings about API keys and untrusted proxies. Opening Jira links in the TUI is feasible via a custom URI handler plus link rewriting. Discussion probes whether Jira’s slowness is mostly the web client or the server; a GitHub repo is available.
+### TL;DR
 
-Comment pulse
-- TUI could outperform Jira web → avoids heavy frontend; Jira’s drag-and-drop blocks UI pending network responses — counterpoint: some latency stems from server-side performance.
-- Be wary of third‑party proxies → API tokens in hobby apps violate zero‑trust; self‑host or open‑source code reduces risk.
-- Open Jira links in TUI → register a custom URI handler; rewrite links via userscript/extension; TUI must accept issue ID as CLI arg.
+JiraTUI presents a terminal interface for searching, creating, updating, linking, and commenting on Jira issues. It supports configurable shortcuts, task fields such as status and assignee, and saved JQL expressions, aiming to reduce browser navigation and keep developers in shell workflows. The supplied page is promotional and provides no performance measurements or implementation detail. HN readers found the interface polished and appealing given Jira's perceived slowness, while debating terminal interfaces, URL-handler integration, server-side latency, and the danger of entrusting API credentials to unverified tools.
 
-LLM perspective
-- View: Terminal-first Jira helps keyboard-driven devs; success depends on auth flows, project permissions, and parity with required workflows.
-- Impact: Teams escape slow web UI; IT/security must vet token handling, SSO, and auditability before wider rollout.
-- Watch next: Publish timings vs jira.atlassian.com, add OAuth/SSO, offline caching, editor integrations, and installers for macOS/Linux/Windows.
+### Comment pulse
+
+- Keyboard workflows attract frustrated Jira users → browser interactions and blocking network updates feel disproportionately slow.
+- Links could bridge desktop and terminal → a custom URI handler plus rewritten Jira URLs may open issues directly.
+- Credential handling is decisive → convenience does not justify sending API keys through an unknown proxy or unaudited client.
+
+### LLM perspective
+
+- View: A TUI can remove front-end friction, but cannot repair latency or constraints originating in Jira's backend.
+- Impact: Terminal-oriented teams gain faster issue operations if authentication, compatibility, and deployment satisfy security review.
+- Watch next: Source audit, local credential storage, Jira variants supported, measured latency, accessibility, and deep-link handling.

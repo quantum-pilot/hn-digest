@@ -2,15 +2,17 @@
 
 - Score: 141 | [HN](https://news.ycombinator.com/item?id=45196437) | Link: https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/
 
-TL;DR (70–90 words)
-“Kerberoasting” abuses AD’s Kerberos: attackers request service tickets (TGS) encrypted under service-account secrets. If admins used human passwords and legacy RC4/NT-hash, tickets are cracked offline at billions guesses/second—around 1000× faster than AES+PBKDF2. This persists because Microsoft still supports RC4 for legacy systems; guidance urges strong/managed passwords and disabling RC4, but defaults and enforcement lag. HN adds protocol corrections (TGS vs TGT), notes AES defaults since 2022, provides detection scripts, and argues gMSA/keytabs, least privilege, and monitoring RC4 requests. Ascension’s 2024 ransomware illustrates impact.
+### TL;DR
 
-Comment pulse
-- Clarifications: Kerberoasting targets TGS, not TGT; Kerberos “salt” is domain+principal; RC4 can be disabled via Group Policy—legacy apps keep it alive.
-- Mitigations: prefer gMSA or keytabs, least privilege; disable RC4; monitor RC4 via 4768 events; audit msDS-SupportedEncryptionTypes with PowerShell; PingCastle misses RC4.
-- Hashing vs “cracking” stats: 4.18B/s is hash rate; long random service passwords resist offline attacks — counterpoint: rotation windows rarely limit fast cracks.
+Kerberoasting lets any low-privilege Active Directory user request a service ticket and attempt to recover a weak service-account password offline. The danger rises when services use human passwords, excessive privileges, or legacy RC4 with fast unsalted NT-hash derivation rather than managed random keys and AES. The author connects the technique to the Ascension Health ransomware incident and criticizes Microsoft for preserving unsafe compatibility. Commenters corrected ticket terminology and cracking-rate language, explained legacy constraints, and recommended managed service accounts, least privilege, strong passwords, AES enforcement, and monitoring.
 
-LLM perspective
-- View: Legacy-compatibility defaults expose offline attack surfaces; ban RC4-by-default and require non-password service keys.
-- Impact: Enterprises running old apps, hospitals, manufacturing; IAM teams must audit service accounts and migrate to gMSA/keytabs.
-- Watch next: Microsoft enforcement timelines, per-account RC4 exemptions, telemetry for RC4 requests, and public metrics on environment RC4 usage.
+### Comment pulse
+
+- Several specialists corrected TGS versus TGT terminology while agreeing that the described attack chain remains valid.
+- Administrators shared account queries and event-based auditing approaches for identifying explicitly configured legacy encryption.
+
+### LLM perspective
+
+- View: Kerberoasting converts weak credential policy into an offline computation problem with no rate limiter.
+- Impact: A single overprivileged service password can turn an initial endpoint compromise into domain-wide damage.
+- Watch next: Inventory service accounts, disable RC4 where possible, rotate managed keys, and monitor unusual ticket requests.

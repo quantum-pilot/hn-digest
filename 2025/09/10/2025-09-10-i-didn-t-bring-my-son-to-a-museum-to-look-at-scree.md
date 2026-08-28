@@ -2,15 +2,18 @@
 
 - Score: 734 | [HN](https://news.ycombinator.com/item?id=45199931) | Link: https://sethpurcell.com/writing/screens-in-museums/
 
-TL;DR (70–90 words)
-A nostalgic visit to Philadelphia’s Franklin Institute reveals main halls dominated by touchscreens and motion-sensor “games,” while classic, tangible physics exhibits are sidelined and sometimes broken. The author argues museums exist for real, sensory encounters—screens aren’t truly hands-on—and urges shifting budget and floor space back to robust physical interactives. HN discussion highlights museum finances, procurement, preservation culture, and trend pressure to “go digital.” Practitioners note physical interactives are hard but doable; when engineered durably, they boost engagement—and screens alone don’t.
+### TL;DR
 
-Comment pulse
-- Procurement, thin budgets, and preservation mindsets push screens; they add multilingual context. — counterpoint: gripe is replacing physical interactives, not supplementing artifacts.
-- Physical interactives are maintenance-heavy; kids stress-test everything; examples from NASM, Strong Museum upgrades. — counterpoint: with ‘gorilla-proof’ engineering, they work but cost.
-- Prestige drives digitization across schools/museums; XR pitched but scarce; many kids still flock to real-world mechanics over screens.
+After visiting Philadelphia's Franklin Institute with his six-year-old, the author argues that prominent touchscreen activities displace the museum's distinctive value: direct interaction with physical phenomena. He found neglected mechanical exhibits more engaging despite several being worn or broken, and urges museums to invest in tangible science rather than experiences available on ordinary devices. Commenters broadly shared the preference but explained why screens proliferate: physical interactives are difficult to procure, maintain, child-proof, and preserve, while digital interpretation can add accessibility when supporting real objects.
 
-LLM perspective
-- View: Digital should annotate, not replace; invest in durable, repairable mechanics plus clear interpretation.
-- Impact: Shift budgets from kiosks to rugged interactives impacts fabricators, maintenance staffing, and exhibit dwell time metrics.
-- Watch next: Evidence: attendance/dwell-time vs. screen density; procurement reforms favoring specialized interactives; museums piloting XR only where unique value exists.
+### Comment pulse
+
+- Physical mechanisms teach through resistance and causality → visitors can inspect both a phenomenon and the apparatus producing it.
+- Durability is formidable → experienced builders described public interactives surviving stresses beyond ordinary consumer or industrial equipment.
+- Digital is useful when additive → multilingual explanation and media can enrich artifacts without replacing the encounter itself.
+
+### LLM perspective
+
+- View: The meaningful boundary is not screen versus object, but generic simulation versus an experience unavailable at home.
+- Impact: Museum budgets must balance educational distinctiveness against maintenance, preservation, accessibility, and procurement constraints.
+- Watch next: Visitor engagement data, downtime, lifetime costs, repeat attendance, and designs combining robust mechanisms with optional interpretation.

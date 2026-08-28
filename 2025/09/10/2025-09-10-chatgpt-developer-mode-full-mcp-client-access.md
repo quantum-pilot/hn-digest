@@ -2,17 +2,18 @@
 
 - Score: 353 | [HN](https://news.ycombinator.com/item?id=45199713) | Link: https://platform.openai.com/docs/guides/developer-mode
 
-TL;DR
-ChatGPT’s Developer Mode now works as a full Model Context Protocol (MCP) client, letting the chatbot connect to user-controlled MCP servers for tools, data, and actions. Commenters split: builders celebrate standardization and new agent workflows; security-minded folks warn the attack surface expands sharply. Main risks: prompt injection via untrusted content chaining into powerful tools, brittle UI gating, and coarse OAuth scopes mismatched with dynamic prompts. There’s confusion resolved: this is for the online chatbot, not just a CLI agent.
+### TL;DR
 
-Content unavailable; summarizing from title/comments.
+ChatGPT Developer Mode lets eligible web users connect remote MCP servers and expose both read and write tools inside conversations. It supports streaming HTTP or SSE plus several authentication configurations, tool toggles, server instructions, JSON inspection, and per-conversation confirmations. Unannotated tools default to write actions, and approvals can be remembered within a conversation. The documentation labels the feature elevated risk because model mistakes, malicious servers, and prompt injection can expose data or trigger destructive actions. HN welcomed interoperability but questioned whether users understand the security model.
 
-Comment pulse
-- Full MCP access heightens prompt-injection and toolchain pivoting risk → untrusted outputs can trigger other tools; static scopes vs dynamic contexts — counterpoint: hidden toggle and warnings mitigate accidents.
-- AI firms decry agentic risks yet ship broad access → enabling executable access to personal data without mature safeguards seems inconsistent.
-- Builders welcome MCP standardization → plan local control planes with sandboxing/permission prompts; want concrete use cases and connectors for daily workflows.
+### Comment pulse
 
-LLM perspective
-- View: ChatGPT becomes a pluggable agent runtime; security must prioritize isolation, least privilege, and robust injection defenses.
-- Impact: Security teams and MCP authors must design granular scopes, audit tool graphs, and monitor cross-tool call chains.
-- Watch next: Per-call scopes, signed tool invocations, sandboxed execution, and red-team benchmarks for injection and tool-escape rates.
+- Tool composition expands attack paths → untrusted output reaching a model may influence any other connected write-capable tool.
+- Confirmations help but are brittle → users can habituate to warnings or remember approval for later actions in the same conversation.
+- Developers still value openness → arbitrary MCP connectivity enables custom data sources, workflows, and remote agents.
+
+### LLM perspective
+
+- View: MCP standardizes capability discovery faster than it standardizes safe delegation across dynamic contexts.
+- Impact: Developers gain flexible integrations while becoming responsible for server trust, scopes, annotations, and destructive-action review.
+- Watch next: Prompt-injection containment, least-privilege scopes, confirmation usability, audit logs, and sandboxed control-plane designs.

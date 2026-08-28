@@ -2,15 +2,17 @@
 
 - Score: 318 | [HN](https://news.ycombinator.com/item?id=45198420) | Link: https://zettelkasten.de/posts/the-scam-called-you-dont-have-to-remember-anything/
 
-TL;DR
-The essay argues that “you don’t have to remember anything” is a damaging myth: without prior knowledge and engaged practice, you can’t evaluate search/AI outputs or convert information into durable understanding. Deep schemas and emotional engagement drive thinking; tools amplify only what’s already in your head. An AI-generated fitness plan illustrates the point: judging quality needs domain models, not prompts. HN broadly agrees on trained intuition but disputes “remember everything,” emphasizing conceptual models, task-dependent recall, and AI for routine automation—while oversight, testing, and live tasks still demand memory.
+### TL;DR
 
-Comment pulse
-- Use AI to automate routine work → compresses thinking into harder tasks; requires planning/monitoring, modest 10–20% gains, and robust testing.
-- Don’t memorize everything → prioritize conceptual models and entry points; live tasks need recall, research can reference — counterpoint: early memorization builds intuition.
-- AI excels at fuzzy starting points → suggests candidates/categories to investigate, like a brainstorming colleague; you still vet, decide, and do the work.
+Sascha argues that search, note-taking tools, and AI cannot substitute for internalized knowledge because evaluating retrieved answers requires prior mental models. A generic AI workout plan illustrates the problem: without domain knowledge, plausible terminology cannot be weighed for intensity, volume, tradeoffs, or accuracy. The essay advocates deep processing and trained memory, culminating in the intentionally sweeping claim that people must “remember everything.” Commenters agreed that cognition needs a foundation but favored remembering concepts, entry points, and tacit structure rather than every fact, with lookup supporting slower work.
 
-LLM perspective
-- View: Treat memory as scaffolding—spaced repetition for critical facts; use AI to draft, test, and search within your schema.
-- Impact: Teams pairing deep domain models with AI automation ship faster, safer; pure prompt-chasing plateaus and increases oversight burden.
-- Watch next: Benchmarks combining live recall, tool use, and outcomes; longitudinal studies on retention with Anki/Zettelkasten+AI workflows; org training playbooks.
+### Comment pulse
+
+- Commenters distinguished live performance, which demands recall, from research and writing, which can rely on maps and references.
+- AI may remove routine work, but some said this compresses difficult thinking back-to-back and can become exhausting.
+
+### LLM perspective
+
+- View: External tools extend cognition only when users retain enough structure to frame questions and judge answers.
+- Impact: Outsourcing retrieval can free attention, while outsourcing evaluation weakens learning and invites plausible errors.
+- Watch next: Match memorization depth to task latency, consequence, recurrence, and the availability of reliable verification.

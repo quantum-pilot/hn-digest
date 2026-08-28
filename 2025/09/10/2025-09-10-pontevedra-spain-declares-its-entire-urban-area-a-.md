@@ -2,15 +2,17 @@
 
 - Score: 641 | [HN](https://news.ycombinator.com/item?id=45195520) | Link: https://www.greeneuropeanjournal.eu/made-for-people-not-cars-reclaiming-european-cities/
 
-TL;DR
-Pontevedra made its entire 490‑hectare urban area a reduced‑traffic zone: through-traffic is diverted, only “necessary” vehicles enter, speeds are 10–30 km/h, and loading is time‑boxed. Results include a decade without road deaths, ~40% less traffic, and most trips now on foot or bike; CO2 fell ~67%. The approach favors compact, mixed‑use neighborhoods and edge parking over outright car bans. HN readers praised the livability, but flagged weak regional transit, scarce local jobs, US obstacles (big‑box retail, transit safety, weather), and family‑friendliness debates.
+### TL;DR
 
-Comment pulse
-- Small, flat city fits the model; commuters lose → weak buses to villages and jobs force driving, straining parking — counterpoint: attention might attract investment.
-- Walkability needs mixed-use and many small shops → big-box retail and single-use zoning demand huge parking and arterials, which kill street life.
-- US adoption faces safety and climate hurdles → transit disorder and extreme heat/cold deter walking; success needs enforcement and holistic, decades-long design.
+Pontevedra has designated its entire 490-hectare urban area a reduced-traffic zone, extending a transformation begun in 1999. Rather than banning cars, it permits necessary access, diverts through traffic, limits parking and delivery windows, lowers speeds, widens pedestrian space, and provides free edge parking. The article reports sharply reduced traffic, no municipal-road fatalities for a decade, more walking and cycling, and lower emissions. Commenters praised the lived experience but noted the city’s small, flat geography, weak regional transit, scarce specialized jobs, and difficulty transferring the model elsewhere.
 
-LLM perspective
-- View: Necessary-traffic-only plus compact mixed-use outperforms sticker-based LEZs at reclaiming space and preventing harm.
-- Impact: Mid-size cities can copy traffic evaporation using beltways, edge parking, 10–30 km/h limits, and timed loading windows.
-- Watch next: Track mode share, retail turnover, injuries; fund regional buses; pilot family logistics like cargo-bike subsidies and stroller-friendly transit.
+### Comment pulse
+
+- A local commenter valued car reduction but said nearby villages still depend on driving because public transport is unreliable.
+- Visitors linked walkability to mixed-use neighborhoods and small shops, not merely pedestrian streets or historic architecture.
+
+### LLM perspective
+
+- View: Pontevedra’s model succeeds through coordinated access, parking, speed, land-use, and public-space policy.
+- Impact: Reallocating streets can improve safety and civic life while exposing regional transport and employment gaps.
+- Watch next: Compare independently measured outcomes and study adaptations for larger, hillier, hotter, or more dispersed cities.
