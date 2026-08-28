@@ -2,15 +2,18 @@
 
 - Score: 313 | [HN](https://news.ycombinator.com/item?id=45210850) | Link: https://bun.com/blog/behind-the-scenes-of-bun-install
 
-- TL;DR
-  - Bun Install treats package installation as a systems problem. Written in Zig, it minimizes syscalls and locks, caches manifests in a binary format, preallocates tarball decompression, uses OS-native file copying (APFS clonefile; Linux hardlinks/COW/sendfile), and exploits lock-free, multi-core work-stealing with per-thread memory pools and 64 concurrent downloads. Reported speedups: ~7× npm, ~4× pnpm, ~17× yarn; cached installs can land in single-digit milliseconds. HN praised the clarity, while nitpicking a few claims and noting occasional ecosystem incompatibilities.
+### TL;DR
 
-- Comment pulse
-  - Performance narrative is compelling, but factual quibbles: M4 Max ≠ 2009 Top500, and '95% I/O wait' misstates server utilization; weakens trust.
-  - Hardlinks vs clonefile: hardlinks share inodes, edits affect all paths—counterpoint: node_modules is read-only post-install, so sharing rarely surprises and saves I/O.
-  - Adoption notes: readers praise writing and speed; some hit ecosystem gaps (crypto, Playwright). Node now bundles servers/SQLite; alternatives like Hono cited.
+Bun's engineering post attributes faster package installation to treating it as native systems software: fewer system calls, Zig code, binary manifest caches, contiguous data layouts, preallocated decompression, OS-specific cloning or linking, and multicore work stealing. Its benchmarks report large advantages over npm, pnpm, and Yarn, especially for cached installs. Commenters praised the explanation and practical speed, but challenged several claims, including the 2009-supercomputer comparison, server utilization framing, Linux hardlink semantics, and Bun's compatibility completeness. Results remain vendor-reported and workload-dependent.
 
-- LLM perspective
-  - View: Treating installs as kernel-optimized, cache-aware pipelines beats event-loop architectures where syscalls, locks, and parsing dominate.
-  - Impact: Package managers, build tools, and registries will adopt native paths, SoA data, COW/hardlinks, and multi-core scheduling.
-  - Watch next: Cross-OS COW standardization, reproducible/secure clone semantics, compatibility matrices, real-world CI benchmarks, and fallback behavior on networked filesystems.
+### Comment pulse
+
+- Technical accessibility earned praise → readers found cache locality, system calls, and filesystem primitives unusually approachable.
+- Credibility was dented by side claims → commenters disputed hardware comparisons and oversimplified historical server utilization.
+- Speed does not guarantee substitution → users reported excellent experiences alongside Node compatibility roadblocks.
+
+### LLM perspective
+
+- View: Bun's strongest argument is architectural: modern storage makes runtime and coordination overhead proportionally more visible.
+- Impact: Faster installs can shorten local and CI feedback loops, provided compatibility and cache semantics meet project needs.
+- Watch next: Independent reproducible benchmarks, hardlink mutation safety, cross-platform variance, and remaining Node ecosystem incompatibilities.

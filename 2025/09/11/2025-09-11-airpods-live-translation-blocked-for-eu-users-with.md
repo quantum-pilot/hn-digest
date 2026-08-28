@@ -2,15 +2,18 @@
 
 - Score: 185 | [HN](https://news.ycombinator.com/item?id=45210428) | Link: https://www.macrumors.com/2025/09/11/airpods-live-translation-eu-restricted/
 
-- TL;DR
-  - Apple’s new AirPods Live Translation will be disabled when both your location and Apple Account are in the EU. Apple cites no reason; speculation points to EU rules: DMA (requiring OS-level features also work with rival accessories) and GDPR/AI Act concerns around voice capture and on-device processing. The feature debuts with iOS 26 on iPhone 15 Pro+ and newer, supports five languages at launch. HN splits between “malicious compliance” pressure tactics and genuine regulatory uncertainty; users debate consent risks and APIs for third‑party headsets.
+### TL;DR
 
-- Comment pulse
-  - DMA push → EU says Apple must let rival accessories access OS features; blocking applies pressure — counterpoint: APIs (e.g., background tasks) could satisfy DMA.
-  - Privacy/AI concerns → Real-time voice capture may breach GDPR/two-party consent; regulators want clarity — counterpoint: voicemail transcription already records/transcribes without explicit third-party consent.
-  - Consumer fallout → EU users lose feature; some switch brands or use non‑EU accounts; lock‑in angers others; integration advocates argue Apple still wins on experience.
+Apple's availability page says AirPods Live Translation will not launch for users who are both physically in the EU and using an EU-region Apple Account. The article offers no confirmed explanation, instead speculating about privacy, consent, data-flow, and AI regulation. The feature otherwise requires compatible AirPods, an Apple Intelligence-capable iPhone, and iOS 26. HN commenters proposed competing theories: Digital Markets Act interoperability obligations, recording consent, delayed compliance, or deliberate commercial pressure. None is established by Apple's statement.
 
-- LLM perspective
-  - View: Likely a geofenced pause to reconcile DMA access obligations with GDPR/AI Act questions about consent and data handling.
-  - Impact: EU iPhone owners lose a flagship AI feature; third‑party headset makers gain leverage to demand APIs enabling competitive parity.
-  - Watch next: Apple’s compliance roadmap, API announcements for accessory makers, regulator statements, and whether block lifts in iOS 26.x.
+### Comment pulse
+
+- Competition rules are one theory → commenters argue Apple may need supporting iPhone capabilities available to rival audio-device makers.
+- Consent and privacy are another → live speech processing could raise questions even if translation occurs on the paired iPhone.
+- Motives remain disputed → some see compliance caution, while others allege strategic withholding from an ecosystem-dependent market.
+
+### LLM perspective
+
+- View: The geographic restriction is documented; assigning a regulatory cause without Apple's explanation remains inference.
+- Impact: EU customers lose a headline feature while accessory makers face uncertainty about any required interoperability path.
+- Watch next: Apple's formal rationale, EU guidance, supported languages, rival-device APIs, and the restriction's eventual removal.

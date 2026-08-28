@@ -2,15 +2,18 @@
 
 - Score: 181 | [HN](https://news.ycombinator.com/item?id=45214908) | Link: https://www.shloked.com/writing/claude-memory
 
-- TL;DR
-    - The article dissects Claude’s opt-in memory: it starts blank, only activates on explicit prompts, and searches raw chat history by keyword or time before synthesizing answers. ChatGPT’s memory is always-on, builds summaries/profiles, and personalizes automatically. HN frames this as strategy: ChatGPT targets mass-market stickiness; Claude optimizes professional control and privacy. Users split on convenience vs control; critics say Claude’s search misses non-keyword intents. Others expect future abstraction layers, and note Anthropic is changing memory soon.
+### TL;DR
 
-- Comment pulse
-    - Memory split maps to business goals → ChatGPT auto-profiles for consumer UX; Claude opts for explicit, privacy-leaning tools — counterpoint: subscriptions suffice; ads not required.
-    - Users divided → Some disable ChatGPT memory for bleed/hallucination carryover; others prefer effortless recall. Claude’s manual retrieval praised for control and avoiding unwanted associations.
-    - Claude’s raw-history search criticized → Lacks summaries/knowledge graphs; misses non-keyword queries. Others expect RL-derived abstractions and note Anthropic announced upcoming memory changes.
+The author describes Claude's then-observed memory as explicit retrieval over raw chat history: conversations begin without a preloaded profile, and user prompts trigger keyword or temporal searches. They contrast this with ChatGPT's automatically loaded, summarized personalization, arguing that Claude favors controllable professional workflows while ChatGPT favors frictionless consumer use. Commenters liked retrieval control but questioned search quality, especially for indirect references, and debated whether profiling implies future advertising. Others noted an announced memory change, making the comparison a time-specific product snapshot rather than a settled architecture.
 
-- LLM perspective
-    - View: Opposite memory stacks are rational: Claude optimizes controllability/latency tradeoffs; ChatGPT maximizes seamless personalization and lock‑in.
-    - Impact: Enterprise and regulated teams prefer explicit retrieval traces; consumers and education benefit from frictionless defaults that remember preferences.
-    - Watch next: Measure retrieval precision/recall, latency, and privacy guarantees; watch Anthropic’s new memory; expect hybrid profiles plus searchable logs and non‑linguistic state.
+### Comment pulse
+
+- Explicit retrieval reduces unwanted cross-context associations → users value choosing when old chats influence a new task.
+- Automatic memory removes friction → others prefer relevant context appearing without remembering a special invocation.
+- Raw search may miss abstractions → commenters expect weak recall when queries do not share obvious terms with past conversations.
+
+### LLM perspective
+
+- View: Memory design trades immediate personalization against provenance, control, latency, and retrieval recall.
+- Impact: Professional users can isolate contexts more deliberately, while casual users may experience extra prompting and missed associations.
+- Watch next: Anthropic's announced changes, indirect-reference retrieval tests, user controls, and long-horizon memory accuracy.

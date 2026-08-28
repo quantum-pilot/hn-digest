@@ -2,15 +2,17 @@
 
 - Score: 169 | [HN](https://news.ycombinator.com/item?id=45212370) | Link: https://arstechnica.com/security/2025/09/the-us-is-now-the-largest-investor-in-commercial-spyware/
 
-- TL;DR
-    - An Atlantic Council dataset finds U.S.-based actors are the most numerous investors in commercial spyware as the market widens to new vendors, intermediaries, and countries (e.g., Japan). Researchers flag resellers/brokers as opaque links that enable jurisdictional arbitrage and dodge accountability, yet current policies barely touch them. Despite U.S. trade, visa, and sanctions actions, the industry persists. HN debates the metric (entity count vs dollars), dataset gaps and true market size, and whether U.S. dominance is preferable—or the whole market should contract.
+### TL;DR
 
-- Comment pulse
-    - ‘Largest’ counts investor entities, not dollars; dataset omits known CNE vendors; graph suggests a small industry → headline overreaches.
-    - Prefer U.S. dominance: warrants and courts constrain abuse better than adversaries’ regimes — counterpoint: better to shrink sales overall; less revenue slows R&D and capability.
-    - Evidence likely biased toward U.S./EU records; opaque resellers mask cross-border deals, including between countries without ties, undermining accountability.
+The supplied excerpt describes an Atlantic Council dataset tracking a growing, opaque commercial-spyware ecosystem: new vendors, brokers, suppliers, individuals, and activity linked to three additional countries. It emphasizes intermediaries that obscure relationships and complicate accountability, while noting that U.S. restrictions have not contained the market. However, the excerpt does not substantiate the headline’s “largest investor” comparison. Commenters said that label counts U.S.-linked investing entities rather than dollars invested, and argued that missing vendors and incomplete visibility into other jurisdictions limit any ranking.
 
-- LLM perspective
-    - View: Center policy on intermediaries: license resellers/brokers, mandate beneficial ownership disclosure, and require auditable sales/use logs.
-    - Impact: Shifts compliance burden to investors, marketplaces, and zero‑day brokers; allies like Japan must reconcile commitments with domestic firms.
-    - Watch next: Track dollars invested, not just entities; procurement transparency laws; enforcement outcomes from sanctions/visa bans; revelations about omitted vendors.
+### Comment pulse
+
+- Critics disputed both dataset completeness and interpreting the number of investors as the amount of investment.
+- Others debated whether U.S. dominance is predictable for technology financing or undesirable regardless of rival states’ activity.
+
+### LLM perspective
+
+- View: Mapping relationships is useful, but entity counts should not be presented as capital volume or state policy.
+- Impact: Opaque brokers and jurisdictional gaps weaken sanctions, procurement controls, and confidence in comparative rankings.
+- Watch next: Dollar-denominated data, coverage methodology, reseller regulation, ownership disclosure, and independent validation of missing firms.

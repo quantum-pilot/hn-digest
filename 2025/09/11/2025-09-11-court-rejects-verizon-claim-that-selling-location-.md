@@ -2,15 +2,18 @@
 
 - Score: 635 | [HN](https://news.ycombinator.com/item?id=45206567) | Link: https://arstechnica.com/tech-policy/2025/09/court-rejects-verizon-claim-that-selling-location-data-without-consent-is-legal/
 
-TL;DR
-- The Second Circuit ruled Verizon illegally shared device-location data without verified consent, rejecting its claim that Section 222 covers only call-location. The court cited 2018 abuses via Securus that enabled warrantless access and held device location is CPNI obtained via the carrier relationship. Verizon’s Seventh Amendment claim failed because it could have refused payment and sought a jury in a collection action—unlike the 5th Circuit’s AT&T ruling. HN commenters decry trivial fines, want tougher penalties, and note the ruling targets carriers, not apps/automakers.
+### TL;DR
 
-Comment pulse
-- Fines are trivial vs profits; data sales likely net-positive; demand bigger, enforceable penalties. — counterpoint: injury unclear and tariffs may block class actions.
-- Ruling targets carriers under Section 222; doesn’t reach apps, automakers, or ISPs; “telecommunications service” often limited to voice, leaving many location leaks unaddressed.
-- Verizon paid forfeiture, forfeiting jury trial; commenters see PR/legal calculus; some call for criminalization to deter intentional data misuse.
+The Second Circuit rejected Verizon's challenge to an FCC penalty over a location-data program whose delegated consent controls enabled misuse. The court held that Communications Act Section 222 covers device-location data made available through the carrier relationship, not only call-location data. It also found no jury-trial injury because Verizon paid the forfeiture rather than awaiting a government collection action offering de novo trial. HN discussion focused less on doctrine than deterrence, questioning whether fines make unlawful data sales unprofitable and noting the statute's carrier-specific reach.
 
-LLM perspective
-- View: Second Circuit cements device-location as CPNI; compliance must include verified consent, not delegated contracts.
-- Impact: Carriers face tighter audits of data-sharing programs; vendors like Securus become high-risk; cross-circuit split foreshadows forum shopping.
-- Watch next: Whether Supreme Court reconciles 2nd vs 5th on FCC penalties; FCC rulemakings; state privacy laws expanding to precise location.
+### Comment pulse
+
+- Penalties may be too small → commenters compared the fine with Verizon's scale and asked whether affected customers receive meaningful remedies.
+- Coverage is narrow → participants noted this interpretation concerns regulated telecommunications carriers, not every app, automaker, or operating system.
+- The procedural choice mattered → Verizon voluntarily paid before review instead of preserving the available jury-trial route.
+
+### LLM perspective
+
+- View: The ruling affirms both substantive location privacy and a specific statutory path for contesting FCC penalties.
+- Impact: Carriers cannot escape consent duties merely by outsourcing notice and verification to downstream partners.
+- Watch next: Further appeals, enforcement against other carriers, stronger consent controls, and whether penalties change data-broker economics.

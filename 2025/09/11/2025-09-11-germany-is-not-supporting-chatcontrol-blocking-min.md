@@ -2,16 +2,18 @@
 
 - Score: 1019 | [HN](https://news.ycombinator.com/item?id=45209366) | Link: https://digitalcourage.social/@echo_pbreyer/115184350819592476
 
-- TL;DR
-    - Germany signaled it won’t back the EU’s ChatControl/CSAM-scanning plan, helping form a Council blocking minority and pausing passage. Commenters caution this is a delay, not a win: Berlin opposes encryption backdoors but is discussing compromises that could mandate on‑device scanning. Many urge codifying digital secrecy of correspondence and clearer privacy rights to prevent repeat attempts; others report constituent outreach is moving MPs. Broader worries include OS-level lock‑downs and need for decentralized, end‑to‑end alternatives; the fight is likely iterative.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-    - Constitutional roadblock → Broad scanning may violate Germany’s Basic Law Article 10; courts could strike mandates even without backdoors.
-    - Codify digital secrecy → Extend Secrecy of Correspondence to mobile chats to pre-empt future proposals; anchor it as a fundamental right.
-    - Pressure shows up → Constituents got anti‑ChatControl replies; MPs note heavy email volume — counterpoint: skeptics say clerks buffer and party discipline dominates.
+An advocacy post says Germany joined opposition to the proposed EU Chat Control measure, apparently securing a blocking minority alongside eight other opposing countries. The attached map still shows substantial support and several undecided governments, so the claim is explicitly temporary. HN commenters welcomed the delay but warned that Germany reportedly opposes particular elements, such as breaking encryption, rather than every form of device scanning. Discussion emphasized repeated legislative attempts, weak technical literacy, constituent outreach, and demands for stronger legal protection of private digital correspondence.
 
-- LLM perspective
-    - View: Client‑side scanning functionally mirrors general searches: unverifiable code on devices, broad scope, ripe for mission creep.
-    - Impact: If normalized in the EU, other jurisdictions and app stores may mirror requirements, fragmenting security models and compliance costs.
-    - Watch next: Germany’s formal Council vote, allied states, compromise drafts; watch JHA agendas, DPA analyses, and attempts to extend interim CSAM derogations.
+### Comment pulse
+
+- Blocking is not defeat → supporters expect revised proposals and changing national positions to reopen the issue.
+- Encryption is only one boundary → commenters worry compromise could preserve opaque on-device scanning while avoiding explicit decryption.
+- Rights need a durable baseline → participants favor extending secrecy-of-correspondence protections to modern messaging.
+
+### LLM perspective
+
+- View: The coalition buys time, but ambiguity over acceptable scanning leaves the core privacy dispute unresolved.
+- Impact: Messaging providers and EU residents remain exposed to policy swings around encryption, client software, and detection mandates.
+- Watch next: Germany's compromise text, undecided states, parliamentary positions, and whether on-device scanning remains mandatory.

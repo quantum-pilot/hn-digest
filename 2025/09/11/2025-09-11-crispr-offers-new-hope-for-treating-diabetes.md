@@ -2,15 +2,18 @@
 
 - Score: 157 | [HN](https://news.ycombinator.com/item?id=45211596) | Link: https://www.wired.com/story/no-more-injections-crispr-offers-new-hope-for-treating-diabetes/
 
-TL;DR
-- First-in-human: CRISPR-edited “hypoimmune” donor islet cells implanted into a person with type 1 diabetes secreted insulin for months without immunosuppressants and no serious cell-related events. It was a low-dose, single-patient study; the participant still needed insulin, and some labs haven’t replicated the immune-evasion method. More trials begin next year. HN reactions: excitement about a human, immunosuppressant-free result; caution on safety, costs, and timelines; potential relevance to LADA/misdiagnosed T2 and awareness of other non-immunosuppressed approaches.
+### TL;DR
 
-Comment pulse
-- Human, immunosuppressant-free islet grafts are a major step beyond mouse studies → suggests translational feasibility and safety signals without systemic drugs.
-- Commercialization will be slow and costly → immune-evasive cells pose safety risks; cell-therapy markets weak—counterpoint: allogeneic products could scale and attract payers if outcomes improve.
-- Potential for LADA/misdiagnosed T2 → partial beta-cell restoration could help; calls for earlier diagnostics beyond A1c/fasting glucose.
+Researchers implanted CRISPR-Cas12b-edited donor pancreatic islet cells into one man with type 1 diabetes. The cells were engineered to evade immune detection, produced glucose-responsive insulin, and showed no rejection after 12 weeks without immunosuppressive drugs; a company update reported evasion at six months. However, the low dose did not eliminate insulin injections, follow-up was short, and independent groups reportedly have struggled to reproduce the immune-evasion method. Commenters welcomed a human result while stressing safety risks, development cost, and the long path to treatment.
 
-LLM perspective
-- View: If durable hypoimmune stem-cell islets work, T1D shifts from lifelong insulin to periodic grafting and monitoring.
-- Impact: Alters CGM/pump demand; boosts GMP cell manufacturing, immune surveillance assays, and retrieval protocols for failed or rogue grafts.
-- Watch next: Multi-patient trials tracking C‑peptide, insulin independence, off-target edits, tumorigenicity, immune escape durability over 12–24 months.
+### Comment pulse
+
+- Avoiding immunosuppression is the central advance → conventional donor-cell therapies carry infection, toxicity, and long-term complication risks.
+- Human evidence is encouraging but minimal → one low-dose participant cannot establish durability, efficacy, or broad safety.
+- Engineered immune evasion creates its own uncertainty → commenters want careful monitoring before cells designed to escape surveillance scale.
+
+### LLM perspective
+
+- View: This is a proof of biological function, not evidence that type 1 diabetes has been cured.
+- Impact: Successful replication could make donor or stem-cell replacement therapies feasible without chronic immune suppression.
+- Watch next: Larger trials, insulin-independence rates, long-term rejection, abnormal cell growth, and independent replication.

@@ -2,15 +2,17 @@
 
 - Score: 143 | [HN](https://news.ycombinator.com/item?id=45209389) | Link: https://www.cnbc.com/2025/08/16/samsungs-us-market-share-apple-rivalry-foldable-phones.html
 
-TL;DR
-- Samsung’s U.S. shipments jumped to 31% in Q2 (Apple 49%, Canalys), helped by buzz around new foldables, a wider price ladder, and tariff-driven channel shifts. Foldables appear to be maturing (durability, strong preorders) and showcase AI features on Android, while Apple is rumored to launch a slimmer iPhone now and a foldable in 2026. HN debate centers on whether foldables actually drove the share gain, with mixed experiences: many praise reading/multitasking and pocketable flips; others cite fragility, cost, and repairs.
+### TL;DR
 
-Comment pulse
-- Attribution skepticism → Foldables ~1–2% of U.S. units; Q2 shifts likely from tariffs and Samsung’s low-end range, not foldables — counterpoint: halo buzz helps.
-- Use-case fans → Reading, PDFs, split-screen multitasking, compact flips, and visibility for seniors cited as transformative; detractors dislike extra unfolding and awkward video aspect ratios.
-- Durability economics → Reports of creases, protector bubbles, hinge wear; sand risk; warranty swaps advised; cost/status factor pushes some back to iPhone or cheap slabs.
+Canalys data showed Samsung’s second-quarter U.S. shipment share rising from 23% to 31%, while Apple’s fell from 56% to 49%. The article links renewed competition to Samsung’s broad price range and maturing foldables, but also says tariffs and low-end models drove much of the quarterly shift. Samsung reported stronger Fold 7 preorders and sales than prior generations without disclosing unit totals. Commenters therefore challenged the headline’s causal implication, even as foldable owners praised reading, multitasking, compactness, and flexible camera use.
 
-LLM perspective
-- View: Foldables are a high-margin halo attracting attention, but Samsung’s share lift blends channel tactics with portfolio breadth.
-- Impact: Apple’s delay risks ceding mindshare on UX innovation and AI features, even if unit share holds due to ecosystem lock-in.
-- Watch next: US sell-through, not shipments; foldable failure rates and warranty costs; Apple’s slim model uptake; 2026 foldable pricing and app optimizations.
+### Comment pulse
+
+- Owners described foldables as transformative for books, documents, split-screen tasks, and carrying a pocketable tablet.
+- Reliability, hinge damage, screen protectors, dust exposure, battery life, price, and warranty dependence remained recurring concerns.
+
+### LLM perspective
+
+- View: Foldables provide real differentiation, but the supplied figures do not establish them as Samsung’s main growth driver.
+- Impact: A broader lineup lets Samsung capture price segments and experimentation that Apple currently leaves open.
+- Watch next: Foldable unit sales, durability over years, tariff effects, repeat purchases, and Apple’s eventual response.

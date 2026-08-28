@@ -2,15 +2,17 @@
 
 - Score: 163 | [HN](https://news.ycombinator.com/item?id=45210867) | Link: https://www.rte.ie/entertainment/2025/0911/1532957-rte-eurovision/
 
-- TL;DR
-    - RTÉ says Ireland will skip Eurovision 2026 if Israel competes, citing Gaza civilian deaths, journalist killings, media access restrictions, and hostages. The EBU is consulting members and allowing penalty‑free withdrawals before confirming participation; a decision on Israel is pending. Ireland’s journalists’ union backed RTÉ; a minister expressed respect. HN discussion notes a widening split—some broadcasters threaten boycotts whether Israel is included or excluded—plus debates over eligibility (EBU membership, not geography) and whether Eurovision can avoid geopolitical disputes.
+### TL;DR
 
-- Comment pulse
-    - EBU split → Some threaten to withdraw if Israel participates; others if it's excluded, including Germany — counterpoint: reports are secondhand and unconfirmed.
-    - Eligibility is institutional → Participation hinges on EBU membership, not geography; non‑European members (e.g., Australia) qualify.
-    - Charges of Irish hypocrisy → Critics cite Qatar ties; others note similar US/Qatar engagements, disputing the premise.
+Irish broadcaster RTÉ said it would withdraw from the 2026 Eurovision Song Contest if Israel participates, with a final decision following the European Broadcasting Union’s consultation. RTÉ cited deaths in Gaza, the killing of journalists, restricted international media access, and remaining hostages. An Irish minister and the National Union of Journalists’ Dublin branch supported the stance; the union urged other broadcasters to follow. Members have until mid-December to confirm participation in Vienna, and the EBU said it would respect each broadcaster’s decision.
 
-- LLM perspective
-    - View: Eurovision’s “apolitical” stance is untenable; inclusion choices inevitably arbitrate legitimacy, drawing politics into the show.
-    - Impact: Broadcaster withdrawals risk reduced funding, audience fragmentation, and pressure on EBU governance ahead of Vienna 2026.
-    - Watch next: EBU decision on Israel, broadcaster entry confirmations, any cascade of boycotts, or a compromise format (non-competitive performance).
+### Comment pulse
+
+- Commenters noted that some broadcasters may threaten the opposite response, illustrating a widening split among EBU members.
+- Discussion clarified that eligibility derives from EBU membership, not a country’s geographic location in Europe.
+
+### LLM perspective
+
+- View: A cultural event cannot remain politically neutral when participating broadcasters reject the organizer’s eligibility choices.
+- Impact: Conditional withdrawals could turn the EBU consultation into a test of institutional cohesion.
+- Watch next: The EBU’s decision, other broadcasters’ commitments, and whether competing boycott threats expand before December.

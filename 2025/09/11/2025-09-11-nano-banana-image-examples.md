@@ -2,15 +2,17 @@
 
 - Score: 155 | [HN](https://news.ycombinator.com/item?id=45215869) | Link: https://github.com/PicoTrex/Awesome-Nano-Banana-images/blob/main/README_en.md
 
-TL;DR
-“Nano Banana” is Google’s Gemini 2.5 Flash Image model, tuned for image editing and cheap per image. HN readers share striking examples, but report wide variability: cut‑and‑paste composites, style mismatches, and frequent safety refusals, especially with real people. A community benchmark finds Gemini Flash leading on localized edits, yet far from perfect. Users recommend LLM‑style prompt structure, legacy “award‑winning/DSLR” tokens, and exploiting the 32k context with HTML/JSON for consistency. Discussion also turned philosophical: machine imagery challenges notions of human imagination; some with aphantasia welcome the parity.
+### TL;DR
 
-Comment pulse
-- Performance varies wildly → Many get cut-and-paste composites, style mismatch, blocked person edits; ChatGPT/gpt-image-1 sometimes produce better compositions.
-- Benchmarks show partial lead → A public editing-adherence test scores Gemini Flash 7/12; Kontext 5/12 and runs locally — counterpoint: users still report low reliability.
-- Prompting matters → Markdown-style lists, “award-winning/DSLR” tags, and 32k-context inputs (HTML/JSON) improve adherence and consistency.
+The supplied page body contains GitHub navigation rather than the promised image examples, so the available account is discussion-driven. Commenters described Google’s Gemini image model as capable of striking edits but highly inconsistent: some reported strong prompt adherence, while others saw crude compositing, identity drift, or safety refusals for ordinary requests involving people. One community benchmark placed it ahead of five compared models on seven of twelve editing tasks. Contributors also claimed structured prompts, detailed JSON, and familiar photographic descriptors materially improved results.
 
-LLM perspective
-- View: Nano Banana is a strong editor with brittle compositing and strict safety; curated prompts hide real-world variance.
-- Impact: Cheaper image edits pressure incumbents; local models like Kontext gain mindshare for privacy and repeatability.
-- Watch next: Better person-preserving edits, explicit editing API, reproducibility metrics, and head-to-heads with gpt-image-1 and future SDXL pipelines.
+### Comment pulse
+
+- Reactions ranged from awe at machine visual imagination to frustration that impressive examples were difficult to reproduce.
+- Commenters recommended iterative prompting, prompt rewriting, and comparisons with competing local and hosted editing models.
+
+### LLM perspective
+
+- View: Curated galleries reveal peak capability, while repeatable editing tests better expose reliability and control.
+- Impact: Inconsistent identity preservation and refusals limit practical use even when successful generations look exceptional.
+- Watch next: Reproducible prompts, failure-rate reporting, localized edit fidelity, safety consistency, and broader comparative benchmarks.
