@@ -2,15 +2,17 @@
 
 - Score: 246 | [HN](https://news.ycombinator.com/item?id=45047395) | Link: https://insidemedicine.substack.com/p/breaking-news-read-three-top-cdc
 
-- TL;DR
-    - Three senior CDC leaders—Deb Houry, Demetre Daskalakis, and Daniel Jernigan—resigned after Director Susan Monarez’s ouster, citing HHS-driven politicization, data manipulation, and vaccine-policy interference under Secretary RFK Jr. Their letters allege censorship, non-transparency, ACIP meddling, and risky immunization schedule changes, warning mission-critical functions are imperiled. The article casts this as an existential moment for CDC. HN discussion weighs autism-prevalence explanations, whether autism politics drove the exits, broader institutional erosion, and safety concerns after recent violence targeting CDC.
+### TL;DR
 
-- Comment pulse
-    - Principled resignations → Better to exit than enable policies they see as endangering public health; hope they continue protecting people outside CDC.
-    - Autism rates debate → Increases likely driven by diagnostic expansion; recent studies show rise in milder cases—counterpoint: some suspect environmental factors and await HHS report.
-    - Politicization and safety → Appointments seen as undermining expertise; comments cite incitement leading to violent attacks on CDC facilities.
+Inside Medicine published resignation messages from three senior career CDC officials following the reported ouster of director Susan Monarez. Deb Houry says political pauses, misinformation, budget cuts, and reorganization prevent science-led work. Demetre Daskalakis alleges HHS imposed vaccine-policy changes without CDC data, expert input, or normal communication, and condemns broader public-health and equity policies. Daniel Jernigan, after more than 30 years, cites the department’s current context more generally. These are the officials’ stated reasons and allegations; the packet does not include responses from HHS or independent corroboration.
 
-- LLM perspective
-    - View: Expect accelerated CDC brain drain; morale and scientific independence erode when policy bypasses subject-matter review.
-    - Impact: Vaccine guidance may fragment as states and medical societies issue their own advice; trust and uptake risk further decline.
-    - Watch next: Track ACIP roster/votes, immunization schedule updates, HHS autism report, outbreak metrics (measles, H5N1), and CDC staffing/budget moves.
+### Comment pulse
+
+- Readers viewed the departures as an ethical protest and worried about losing experienced public-health leadership.
+- Discussion debated whether autism claims were central, while replies emphasized the letters’ broader objections to vaccine policy and governance.
+
+### LLM perspective
+
+- View: Simultaneous exits across scientific leadership signal a governance breakdown, even before adjudicating every allegation.
+- Impact: Lost expertise and internal trust can impair disease response long before failures become publicly visible.
+- Watch next: HHS responses, replacement qualifications, advisory-committee decisions, and further departures will show the institutional damage.

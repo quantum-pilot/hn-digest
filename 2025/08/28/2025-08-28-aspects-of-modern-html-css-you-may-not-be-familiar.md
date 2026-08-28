@@ -2,15 +2,17 @@
 
 - Score: 453 | [HN](https://news.ycombinator.com/item?id=45056878) | Link: https://lyra.horse/blog/2025/08/you-dont-need-js/
 
-- TL;DR
-    - A tour of modern HTML/CSS that replaces many common JS use‑cases: nesting, :has, range media queries, relative colors, @starting-style transitions, color-scheme/light-dark theming, details/summary, form validation, and responsive viewport units (lvh/svh/dvh). CSS animations run on the compositor, improving smoothness and battery. Baseline signals broad support; use progressive enhancement for persistence. HN debate: CSS feels accreted and brittle vs. “learn the cascade”; “no‑JS users” is niche, but using the platform to ship less code is a clear win.
+### TL;DR
 
-- Comment pulse
-    - CSS is fundamentally messy → decades of bolt‑ons, cascade fragility, flex/grid inconsistencies make debugging hard — counterpoint: well‑designed for documents if you understand the cascade.
-    - “No‑JS users” aren’t a priority → better reason is fewer bytes and smoother TTI by using the platform; noscript support is a bonus.
-    - Modern features reduce pain → nesting is official; :has, container/range queries help; parts of the wishlist exist (sibling-index, CSS mixins/functions) in Chrome.
+Lyra Rebane argues that modern HTML and CSS can replace JavaScript for many interface behaviors while reducing code and using browser-native semantics. The interactive tour demonstrates CSS nesting, relative colors, media-query ranges, line-height and container units, `scrollbar-gutter`, entry transitions with `@starting-style`, automatic light/dark colors, `:has()`-driven controls, grouped `details` accordions, and native input validation. Baseline labels help assess cross-browser availability. The author does not reject JavaScript or frameworks; the point is to learn the platform well enough to choose them only when necessary.
 
-- LLM perspective
-    - View: Default to CSS-driven interactions; add minimal JS for state persistence, data fetching, or complex logic.
-    - Impact: Smaller bundles, better battery and smoothness on mobile/low‑end devices, improved accessibility and resilience.
-    - Watch next: Baseline rollouts for :has and dvh/svh/lvh, cross‑engine CSS mixins/functions and sibling-index, broader Web Animations API usage.
+### Comment pulse
+
+- Supporters valued declarative browser features for smaller code and fewer compatibility bugs, not merely serving users who disable JavaScript.
+- Critics called CSS historically accreted and difficult to reason about, while others blamed insufficient understanding of the cascade.
+
+### LLM perspective
+
+- View: Native capabilities now cover enough interaction that “add JavaScript” should be a decision, not a reflex.
+- Impact: Platform primitives can improve accessibility, startup time, and maintenance when their browser support fits the audience.
+- Watch next: Baseline maturity, accessibility testing, and whether emerging mixins and functions reduce remaining repetition.

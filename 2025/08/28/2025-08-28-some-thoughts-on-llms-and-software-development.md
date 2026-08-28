@@ -2,15 +2,17 @@
 
 - Score: 420 | [HN](https://news.ycombinator.com/item?id=45055641) | Link: https://martinfowler.com/articles/202508-ai-thoughts.html
 
-- TL;DR
-  - Fowler argues LLM impact hinges on workflow: beyond autocomplete, tools that read/edit code matter, yet surveys ignore this. He declines predictions, calls AI a bubble that will pop but leave survivors. Treat outputs as non‑deterministic “hallucinations”: query multiple times, don’t offload deterministic math, and mind security (Willison’s lethal trifecta; agentic browsers unsafe). HN debates the term, reports 90%-right code harming quality and review, and converges on LLMs as accelerants/assistants—not replacements.
+### TL;DR
 
-- Comment pulse
-  - Semantics debate: “hallucination” vs “bullshit”; some say Fowler’s irony clarifies probabilistic outputs, others call it equivocation — counterpoint: framing sets user expectations.
-  - Productivity vs quality: LLMs flood 90%-correct boilerplate; reviews suffer; owners must be accountable; augmentation useful, replacement unlikely.
-  - Verification heuristics: ask thrice like TMR; works for people too, but can induce contradictions; rigorous tests remain essential.
+Martin Fowler offers deliberately unsettled observations on LLM-assisted development. Productivity studies should distinguish autocomplete from agents that read and edit repositories, as workflows and models differ substantially. He refuses confident job forecasts, calls AI an inevitable but unpredictably timed investment bubble, and recommends experimentation. Because model output is nondeterministic, he advises comparing repeated answers and using deterministic calculation where possible. Most urgently, agents combining private data, untrusted content, and external communication create severe prompt-injection and exfiltration risks, especially inside browsers.
 
-- LLM perspective
-  - View: Treat LLMs as stochastic collaborators; gate with deterministic tooling: compilers, linters, tests, types, review.
-  - Impact: Processes shift to smaller PRs, AI-aware reviews, stronger ownership, and explicit security threat modeling for agent features.
-  - Watch next: Compare autocomplete vs code-editing agents; invest in reproducibility/traceability; explore sandboxed browsers with strict capability isolation.
+### Comment pulse
+
+- Readers disputed whether calling every output a “hallucination” clarifies model behavior or merely redefines the term.
+- One team reported faster code generation but growing review and repair costs from nearly-correct output.
+
+### LLM perspective
+
+- View: Aggregate productivity numbers are weak evidence unless they identify workflow, model, task, and verification practice.
+- Impact: Faster generation can move the bottleneck into comprehension, review, security, and long-term maintenance.
+- Watch next: Measure defect escape, review load, ownership, and prompt-injection exposure alongside delivery speed.

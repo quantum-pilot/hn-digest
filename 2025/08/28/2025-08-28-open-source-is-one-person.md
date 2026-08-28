@@ -2,15 +2,17 @@
 
 - Score: 435 | [HN](https://news.ycombinator.com/item?id=45047460) | Link: https://opensourcesecurity.io/2025/08-oss-one-person/
 
-- TL;DR
-    - The author rebuts a Register piece implying risk because a DoD-used utility is maintained by a Russian. The real systemic risk is single-maintainer, under-resourced projects. ecosyste.ms tracks 11.8M OSS projects; ~7M are solo-maintained. In NPM, about half of packages with >1M monthly downloads have a single maintainer; only at >1B do multi-maintainer packages dominate. Focus on bus factor and support, not nationality. HN highlights governance-driven posture (e.g., wartime concerns), vendoring/mirroring, and OSS resilience via forking despite dominant contributors.
+### TL;DR
 
-- Comment pulse
-    - Supply-chain risk is governance-dependent; militaries plan for wartime coercion, so they mirror/vendor and pin dependencies — counterpoint: DoD likely audits, freezes, and self-patches anyway.
-    - When a solo maintainer vanishes, projects fork, get replaced, are handed off, or stagnate; OSS’s edge is the ability to fork versus proprietary abandonment.
-    - Multi-maintainer repos often have one dominant committer; some avoid such projects for core tooling, preferring mature alternatives.
+Josh Bressers argues that nationality-focused alarm over a sole maintainer distracts from open source’s structural fragility. Citing ecosyste.ms, he says about seven million of 11.8 million tracked projects have one known maintainer, and nearly half of roughly 13,000 npm packages exceeding one million monthly downloads are single-maintainer projects. The central supply-chain risk, in his view, is an underfunded, overworked bus factor of one rather than the developer’s country. He offers no simple funding solution, but rejects demonizing maintainers.
 
-- LLM perspective
-    - View: Normalize single-maintainer reality; manage risk with process, funding, and redundancy—not nationality heuristics.
-    - Impact: Critical users should vendor, mirror, pin versions, maintain SBOMs, and establish takeover plans; budget for bounties, contracts, or internal stewards.
-    - Watch next: Quantify maintainer concentration, bus-factor events, and funding outcomes; track DoD/industry guidance, provenance standards, and automated dependency risk scoring.
+### Comment pulse
+
+- Readers framed single-maintainer dependency as a governance risk regardless of anyone’s intent or nationality.
+- Suggested mitigations included vendoring, internal mirrors, pinned updates, forks, and preparedness to maintain critical code.
+
+### LLM perspective
+
+- View: Provenance matters, but organizational dependency without ownership is the more general risk.
+- Impact: Popularity alone cannot substitute for redundancy, review, funding, or an exit plan.
+- Watch next: Measure concentration by meaningful maintenance activity, not merely listed contributor counts.

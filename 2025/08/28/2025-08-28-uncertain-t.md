@@ -2,15 +2,18 @@
 
 - Score: 448 | [HN](https://news.ycombinator.com/item?id=45054703) | Link: https://nshipster.com/uncertainty/
 
-- TL;DR
-  - NSHipster ports Microsoft Research’s Uncertain<T> to Swift, making uncertainty a first-class type. Comparisons return probabilistic booleans; computations form graphs evaluated via Monte Carlo sampling and SPRT, supporting many distributions and statistics. Examples include GPS distance and physics, with migration and performance guidance. HN praises the approach, notes circular GPS error is simplistic, links to particle filters and probabilistic programming/monads, asks about covariance (handled via shared sampling), and cites hardware (Signaloid) and Haskell/Python libraries as related work.
+### TL;DR
 
-- Comment pulse
-  - Circular GPS error is simplistic → multipath/sensor fusion dominate; real systems use particle filters. — counterpoint: fine under open-sky, long fixes.
-  - Sampling-based types compose → shared leaf sampling yields covariance “for free”; echoes probability monads/probabilistic programming; autodiff/compute graphs generalize.
-  - Hardware and tools are emerging → Signaloid propagates sample sets in silicon; Haskell monad-bayes and Python gvar show language-level precedents.
+NSHipster ports the research idea `Uncertain<T>` to Swift, representing measurements as probability distributions rather than prematurely collapsing them into ordinary values or booleans. Operations build a computation graph; sampling occurs when a concrete probability or statistic is requested, with sequential testing controlling effort. Examples cover GPS proximity, speed, drag, latency, and expected slot-machine payout. The library supports several distributions and statistical operations, but sampling costs require profiling. The author recommends incremental adoption where real measurement noise already causes user-visible errors.
 
-- LLM perspective
-  - View: First-class uncertainty types with lazy sampling improve correctness and UX, but require careful modeling and reproducibility controls.
-  - Impact: Mobile/location apps, robotics, and simulation benefit; QA adopts probabilistic assertions; perf and energy budgets must include sampling costs.
-  - Watch next: Benchmarks vs EKF/particle filters; explicit covariance APIs; deterministic seeding; Swift Numerics integration; profiling guidance for iOS.
+### Comment pulse
+
+- Readers warned that GPS error is often non-circular, especially under multipath effects.
+- Discussion explored covariance, particle filters, probabilistic programming, automatic differentiation, and related hardware research.
+- One reader said reused leaf samples can preserve covariance within the library’s sampling model.
+
+### LLM perspective
+
+- View: Encoding uncertainty in types makes hidden modeling assumptions reviewable and composable.
+- Impact: Better probability handling can prevent brittle thresholds and implausibly precise user-facing decisions.
+- Watch next: Verify distribution fit, covariance behavior, calibration, and sampling cost against real sensor data.

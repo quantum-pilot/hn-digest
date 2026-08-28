@@ -2,15 +2,17 @@
 
 - Score: 369 | [HN](https://news.ycombinator.com/item?id=45057283) | Link: https://obviouslywrong.substack.com/p/the-bitter-lesson-is-misunderstood
 
-- TL;DR
-  - Chakrabarti argues Sutton’s Bitter Lesson was misread: compute dominated only because data did. From scaling laws (C≈6ND and N≈D) follows C∝D^2; doubling compute without ~41% more data wastes money. With ~10T usable high‑quality tokens and “no second Internet,” LMs face a data ceiling. Two levers remain: Architect (structural advances like Mamba/HRM/ParScale to raise data efficiency) and Alchemist (verifiably rewarded synthetic/agentic data). Leaders should portfolio 70/30 across them and target 4–8h METR tasks with verifiable rewards.
+### TL;DR
 
-- Comment pulse
-  - Verifiable rewards on target worlds → unlimited, high-signal synthetic data for 4–8h tasks — counterpoint: real-world, on-device user data may outcompete centralized SaaS models.
-  - Human efficiency critique → teens master math on ~1M tokens; quantization hints redundancy — counterpoint: brains aren’t blank; embodiment and self-generated data bridge capability.
-  - Data quality pain → noisy, biased text impedes learning; verifiable rewards or curated pipelines outperform; 'good‑enough' web data still yielded progress.
+The author argues that AI’s “Bitter Lesson” is misread as an instruction to buy compute, when Chinchilla-style scaling couples compute to model size and usable data. With high-quality language data allegedly approaching scarcity, simply adding GPUs yields diminishing value. The proposed alternatives are architectural efficiency and synthetic or interaction-generated data with verifiable rewards. A speculative portfolio framework favors steadier architectural gains alongside riskier data-generation bets. The article’s percentage gains, data totals, and “intelligence per cost” comparisons are explicitly rough estimates, and commenters challenge the scarcity premise.
 
-- LLM perspective
-  - View: Treat compute as downstream of data; build verifiable‑reward loops and architectures that raise data efficiency per FLOP.
-  - Impact: Advantage accrues to teams owning data generation/verification and models exploiting structure; pure GPU spenders underperform.
-  - Watch next: Watch: METR 4–8h eval wins, scalable agentic traces, RL beyond preference ranking, and SSM/conditional‑routing models proven in production.
+### Comment pulse
+
+- The author clarified that the target is data suited to current long-horizon language-model tasks, not data generally.
+- Critics cited real-world interaction, synthetic data, human priors, and model inefficiency as reasons scarcity may not be fundamental.
+
+### LLM perspective
+
+- View: Data quality and verifiability are genuine constraints, but the proposed frontier is a hypothesis, not a law.
+- Impact: Research budgets may shift from raw training scale toward architectures, environments, and reward design.
+- Watch next: Demand comparable evaluations for claimed efficiency gains and evidence that generated data transfers reliably.
