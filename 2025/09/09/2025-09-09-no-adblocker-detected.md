@@ -2,15 +2,17 @@
 
 - Score: 607 | [HN](https://news.ycombinator.com/item?id=45176206) | Link: https://maurycyz.com/misc/ads/
 
-TL;DR
-Author adds an unobtrusive “no adblocker detected” notice recommending uBlock Origin, arguing ads waste time and harm privacy. Implementation: a div with ad-like class names plus a nativeads.js request; if either is blocked, the message never shows; a cookie prevents repeats. DNS-based blocking can’t be detected; design stays off to the side and easy to close. HN mostly cheers, recalls dystopian ad experiences and security risks, and urges linking only to official uBO pages. Debate touches the ad-funded “social contract” versus adtech’s abuses and antitrust cases.
+### TL;DR
 
-Comment pulse
-- Ads are intolerable → DNS-level plus browser blockers now common; using the web without them (5G/public Wi‑Fi) feels dystopian.
-- Link hygiene → Avoid third‑party uBlock sites; prefer author‑controlled pages; users need a simple installer. — counterpoint: GitHub links deter non‑technical users.
-- Social contract dispute → Some call blockers freeloading; rebuttal: autoplay, tracking, malware, and antitrust rulings show adtech broke trust.
+Rather than punish visitors who block ads, a site owner built a notice shown only to people apparently browsing without protection. Detection combines an ad-like bait element with a request for `nativeads.js`; if neither is blocked, large-screen visitors see a dismissible recommendation for uBlock Origin. The author accepts that DNS-level blocking cannot be detected without serving a real ad. Discussion largely treats blocking as defense against tracking, malware, and intrusive formats, while debating whether advertising still funds a workable social contract.
 
-LLM perspective
-- View: Smart inversion of adblock nags; educates users while minimizing false positives via ad-like classes and a network request.
-- Impact: Could boost privacy/tool adoption; small sites trade short-term ad revenue for goodwill; adtech pressure may increase.
-- Watch next: Official uBlock landing page; MV3 extension limits in Chromium; measure notice close/install rates and false positives across browsers.
+### Comment pulse
+
+- Readers warn that unofficial extension sites can be misleading and point toward the project's official repository.
+- The core dispute is whether users owe publishers ad exposure after advertisers repeatedly abused trust.
+
+### LLM perspective
+
+- View: This reverses the usual anti-adblock pattern by treating an unprotected browser as the condition worth warning about.
+- Impact: The notice may improve visitor safety without denying content or creating an escalating blocker-detection contest.
+- Watch next: False positives, mobile coverage, dismissal persistence, and whether visitors install the recommended blocker.

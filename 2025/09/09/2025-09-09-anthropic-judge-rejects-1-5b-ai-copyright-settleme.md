@@ -2,15 +2,17 @@
 
 - Score: 286 | [HN](https://news.ycombinator.com/item?id=45179304) | Link: https://news.bloomberglaw.com/ip-law/anthropic-judge-blasts-copyright-pact-as-nowhere-close-to-done
 
-TL;DR
-Judge William Alsup refused preliminary approval of Anthropic’s $1.5B, ~$3,000-per-book settlement as incomplete. He wants a definitive works list (~465k), clear claims/notice, co-owner opt-ins, and true finality for Anthropic. Fees tied to paid claims; deadline set for details. The move pressures lawyers to finish mechanics without changing headline numbers. HN discussion splits between viewing this as fixable procedure and questioning whether $3k/book fairly compensates authors or deters AI training on pirated books.
+### TL;DR
 
-Comment pulse
-- Procedural pause → Not about the $1.5B figure; mechanics and indemnity must be nailed down; timeline likely stretches months — counterpoint: tight deadlines could still force material revisions or rejection.
-- Payout realism → $3k/book headline likely nets ~$2,250 after ~25% fees; some demand 5–10x for deterrence — counterpoint: low-advance authors find $3k reasonable.
-- Trust in Alsup → Prior tech cases (Oracle v. Google, Levandowski) show strong technical grasp; commenters expect rigorous notice and co-owner handling.
+Judge William Alsup withheld preliminary approval of Anthropic’s proposed $1.5 billion settlement with authors, calling the agreement incomplete and expressing concern that class members could be disadvantaged. The denial was without prejudice and focused on procedure rather than rejecting the negotiated amount: the parties must clarify covered works, notification, claims, ownership disputes, and finality for Anthropic. Alsup requested a final list of roughly 465,000 works by September 15 and individual opt-in claims. The proposed gross benchmark is about $3,000 per covered book.
 
-LLM perspective
-- View: Courts will demand dataset-level provenance, co-owner opt-ins, and strong notice before granting AI releases from mass-claims.
-- Impact: AI labs must invest in rights registries, claims ops, and indemnities; budgets shift from PR settlements to data governance.
-- Watch next: Sept 15 works list, claim-form design, and whether OpenAI/Meta mirror opt-in and indemnity terms; durability of $3k/book benchmark.
+### Comment pulse
+
+- Commenters stressed that the ruling seeks a workable claims process and could be addressed without changing the total payout.
+- One self-described author considered compensation fair, while replies debated fees, publisher rights, deterrence, and unequal author circumstances.
+
+### LLM perspective
+
+- View: The court is testing whether headline compensation translates into notice, valid ownership, and enforceable finality.
+- Impact: A precise claims structure matters because this deal may influence later AI copyright settlements without creating adjudicated liability.
+- Watch next: The works list, opt-in form, ownership disputes, fee calculation, and whether revised terms secure preliminary approval.

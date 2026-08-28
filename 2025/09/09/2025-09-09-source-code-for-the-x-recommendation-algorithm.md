@@ -2,15 +2,17 @@
 
 - Score: 244 | [HN](https://news.ycombinator.com/item?id=45183039) | Link: https://github.com/twitter/the-algorithm
 
-• TL;DR (70–90 words)
-X open-sourced the architecture behind its recommendation stack: shared data/services, candidate sources (search ~50% in-network, GraphJet/UTEG out-of-network), light/heavy rankers, Home/Push mixers, visibility filters, and ML models (SimClusters, TwHIN). No model weights, datasets, or prod build path; contributions invited. HN readers say this helps understand system design, not actual feed behavior, citing redactions and likely non-prod parity. Noted signals: screenshot events, NSFW/soft-NSFW, “slop” score, tweet-length bins. Recommended Notifications stack is also included.
+### TL;DR
 
-• Comment pulse
-- Unverifiable prod parity → ex-employees say this is a grab-bag, not what's running; heavy redactions limit auditability — counterpoint: open source rarely ensures prod parity.
-- Politics/Elon labels controversy → earlier author_is_elon/democrat/republican removed; replaced by Grok topic tags marked metrics-only, not used for ranking.
-- Telemetry and heuristics intrigue → screenshot events tracked; 'slop' author score; length buckets; hardcoded top-level topics (e.g., Anime); unknown impact on virality.
+X published a repository describing services, data signals, models, and frameworks behind surfaces including For You and recommended notifications. The documented pipeline draws roughly half its candidates from in-network search, supplements them with out-of-network and graph sources, then applies ranking and visibility filters. However, the repository lacks a top-level build configuration, trained weights, and proof that the published code matches production. Commenters therefore treat it as architectural documentation and selective transparency, not a reproducible release of the live recommendation system.
 
-• LLM perspective
-- View: Understanding real ranking requires A/B logs, training corpora, and policy configs; architecture alone is insufficient.
-- Impact: Best for teaching recsys patterns and comparing pipelines; minimal value for accountability without datasets and evaluation harnesses.
-- Watch next: Look for reproducible offline ranking tasks, public eval sets, and third-party audits diffing repo behavior against live timelines.
+### Comment pulse
+
+- Readers noticed metrics for Grok-derived categories, political neutrality, low-quality content, screenshots, and safety signals.
+- Discussion cautions that tracked metrics do not by themselves prove those fields directly influence recommendations.
+
+### LLM perspective
+
+- View: Code disclosure is useful, but operational transparency requires deployable artifacts, weights, data lineage, and version correspondence.
+- Impact: Researchers can inspect vocabulary and architecture while remaining unable to reproduce or audit actual ranking behavior.
+- Watch next: Buildability, model releases, production-version attestations, and experiments showing how documented signals affect reach.

@@ -2,16 +2,17 @@
 
 - Score: 416 | [HN](https://news.ycombinator.com/item?id=45182111) | Link: https://www.barrons.com/articles/jobs-report-revisions-bls-fed-3d88c77b?st=u8mw75
 
-TL;DR
-An annual BLS benchmark revision shows the U.S. added 911k fewer jobs in the year through March than initially reported, implying a cooler labor market. Commenters split: some see normal revisions; others worry recent overstatements and large downward adjustments resemble 2008–09. Several flag stagflation risk if tariffs lift prices while unemployment rises, reviving Volcker-style rate hikes and housing lock-in dynamics. Others cite “gray rhino” headwinds—tariffs, automation, immigration limits, offshoring—pressuring hiring. Podcasts and economists note persistent measurement challenges in monthly jobs data.
-- Content unavailable; summarizing from title/comments.
+### TL;DR
 
-Comment pulse
-- Stagflation risk → Tariffs’ price shock + rising unemployment could force Fed hikes, hurting growth; Volcker-era playbook ended inflation but caused recessions.
-- Revisions routine, but bias feared → BLS revises monthly/annually; lately initial prints skew high, with big downward moves like 2008–09 — counterpoint: standard forecast-to-actual alignment.
-- Structural “gray rhino” headwinds → Tariffs, AI automation, tight immigration, small-business strain, offshoring dampen hiring and investment.
+The frozen packet is internally mismatched: its title reports that US employment through March was revised downward by 911,000 jobs, while the supplied article instead profiles BLS commissioner nominee E.J. Antoni, his deleted social-media posts, limited government experience, and criticism of federal statistics. Comments provide context that annual benchmark revisions are routine but argue this one's direction and scale deserve attention. They also debate stagflation and possible causes, but those causal claims are speculative and unsupported by the supplied article body.
 
-LLM perspective
-- View: The revision signals slower labor momentum; not a collapse, but weak enough to constrain rate cuts amid tariff-driven inflation risks.
-- Impact: Higher-for-longer rates lock homeowners, suppress transactions, pressure small firms; safe-yield cash benefits if real rates positive.
-- Watch next: BLS benchmark details, unemployment trend, wage growth vs CPI, tariff implementation timeline, and NFIB hiring plans.
+### Comment pulse
+
+- Commenters stress that estimates are regularly revised as fuller data arrive, while disagreeing on whether this revision is exceptional.
+- Political discussion centers on trust in BLS independence after Trump fired the prior commissioner and nominated Antoni.
+
+### LLM perspective
+
+- View: The packet supports a warning about statistical trust and a revision headline, not a detailed explanation of the revision.
+- Impact: Mixing two stories risks turning uncertainty about jobs data into unsupported conclusions about causes or institutional integrity.
+- Watch next: A correctly matched source, the benchmark methodology, confirmation outcome, and evidence about BLS independence.

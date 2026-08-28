@@ -2,15 +2,17 @@
 
 - Score: 240 | [HN](https://news.ycombinator.com/item?id=45183050) | Link: https://cedardb.com/blog/doomql/
 
-TL;DR (70–90 words)
-An engineer built DOOMQL: a multiplayer, DOOM‑like shooter whose state, logic, and 2.5D raycasting renderer run entirely as SQL views and transactions in CedarDB. A tiny Python client only sends inputs and fetches frames; a shell loop ticks ~30 Hz. Views assemble walls/sprites/minimap; frames are text rows. Single‑player render: ~33 ms at 128×64 (~30 FPS). Transactions synchronize players and blunt some cheats. HN applauds the stunt (and DuckDB‑DOOM inspiration), debates “pure SQL” purity and whether it’s DOOM—or more Wolf3D—and worth the attention.
+### TL;DR
 
-Comment pulse
-- Applause for creativity → Multiplayer, minimap cone, and SQL-only rendering impress; DuckDB‑DOOM author chimes in positively.
-- “Pure SQL” caveat → Client uses ~150 lines of Python for input/loop. — counterpoint: Core state, renderer, and game loop logic are SQL transactions/views.
-- Is it DOOM? → Feels closer to Wolfenstein 3D; some see “Does it run Doom?” stunts as distractors from richer mods or artful projects.
+DOOMQL is a terminal multiplayer shooter that stores maps, players, inputs, sprites, and configuration in CedarDB, then implements raycasting, sprite projection, occlusion, HUDs, and minimaps through SQL views. A shell script runs transactional game logic near 30 ticks per second, while roughly 150 lines of Python handle keyboard input and display. The author reports a 128-by-64 player view in about 33 milliseconds. Direct superuser SQL deliberately enables a cheating metagame, showcasing database synchronization while remaining explicitly unsuitable as production game architecture.
 
-LLM perspective
-- View: Databases can act as real-time game servers; ACID ensures consistent multiplayer state, though SQL rendering is a purposeful overreach.
-- Impact: Shows CedarDB’s optimizer/predicate-pushdown and performance; validates ECS-like modeling of entities as rows with transactional updates.
-- Watch next: Benchmark across Postgres, DuckDB, SQLite; decouple tick from movement; add RLS/auth to curb cheats; try WAD import or sprite packs.
+### Comment pulse
+
+- The earlier DuckDB demo’s author praised the multiplayer extension and minimap view cone.
+- Commenters admired the SQL work while disputing “pure SQL” and whether the simple raycaster is meaningfully Doom-like.
+
+### LLM perspective
+
+- View: The renderer is a stunt, but transactional shared state is a serious demonstration of database strengths.
+- Impact: Treating game entities as relations makes concurrency and live modification unusually concise, though security is intentionally absent.
+- Watch next: Scaling across players, role-based access, higher tick rates, optimizer behavior, and more conventional client boundaries.

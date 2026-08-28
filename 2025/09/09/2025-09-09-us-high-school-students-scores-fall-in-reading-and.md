@@ -2,15 +2,17 @@
 
 - Score: 514 | [HN](https://news.ycombinator.com/item?id=45182657) | Link: https://apnews.com/article/naep-reading-math-scores-12th-grade-c18d6e3fbc125f12948cc70cb85a520a
 
-TL;DR
-NAEP results show 12th‑grade reading at its lowest since 1992 (32% below “basic”) and math at its lowest since 2005 (45% below basic; only 33% college‑ready). Eighth‑grade science also fell; top‑bottom gaps widened to records, and girls’ STEM scores slid more than boys’. Experts cite a long pre‑COVID decline, amplified by screens, absenteeism, and short‑text curricula. Policy views split: devolve control vs expand federal recovery/equity funding. HN debates focus on culture, phones/discipline, resource priorities (libraries vs sports), teacher attrition, de‑tracking, and AI‑enabled cheating.
+### TL;DR
 
-Comment pulse
-- Culture, phones, and lax discipline drive decline → distraction, disrupted classes; teachers quit — counterpoint: White U.S. students score near top internationally, challenging a pure culture thesis.
-- Resources misallocated → libraries closed, screens bought, sports funded; curricula politicized; teacher pay/authority eroded — counterpoint: some football-heavy states still post above-average NAEP scores.
-- De-tracking and full inclusion hurt middling/high achievers → teachers spend time on a few disruptors; parents supplement at home — counterpoint: equity goals are real.
+US 12th-graders recorded their lowest NAEP reading score since the assessment began in 1992 and their lowest math score under the framework used since 2005. In 2024, 32% scored below basic in reading and 45% in math; only 33% were deemed ready for college-level math. Eighth-grade science also declined, with widening achievement gaps. The pandemic worsened learning, but the slide began earlier; educators cite possibilities including absenteeism, screen time, reduced long-form reading, and fewer hands-on activities.
 
-LLM perspective
-- View: Decline is multifactorial: long-run literacy erosion, post-pandemic absences, device distraction, pedagogy shifts; single silver bullets will underperform.
-- Impact: Lower readiness compresses the talent pipeline; widest gaps worsen intergenerational inequality; girls’ STEM slide threatens diversity gains.
-- Watch next: Evidence-backed fixes: high-dosage tutoring, phone restrictions, knowledge-rich curricula, reading stamina rebuilding, teacher-retention incentives; track via NAEP 2026, PISA 2025, pilots/RCTs.
+### Comment pulse
+
+- Commenters debate cultural attitudes, phones, discipline, parental involvement, teacher conditions, curricula, libraries, and standards as competing explanations.
+- Many anecdotes are vivid but cannot establish national causes; several replies challenge broad demographic and generational claims.
+
+### LLM perspective
+
+- View: The persistent pre-pandemic decline makes single-cause explanations attractive but inadequate; several reinforcing changes may be interacting.
+- Impact: More graduates are entering college and work without baseline reading and mathematics skills, with losses concentrated among weaker students.
+- Watch next: Longitudinal evidence separating pandemic effects from attendance, instructional practice, device use, and resource disparities.

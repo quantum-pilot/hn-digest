@@ -2,15 +2,17 @@
 
 - Score: 263 | [HN](https://news.ycombinator.com/item?id=45182770) | Link: https://go.dev/blog/jsonv2-exp
 
-TL;DR (70–90 words)
-Go 1.25 ships an experiment: encoding/json/v2 and a lower-level jsontext. v2 adds options to Marshal/Unmarshal, streaming interfaces (MarshalJSONTo/UnmarshalJSONFrom), and stricter defaults: valid UTF‑8, no duplicate keys, nil slices/maps as []/{}. It reimplements v1 for gradual migration and reports large Unmarshal speedups. HN discussion: early adopters see mostly drop‑in behavior, debate omitempty vs new omitzero semantics, and compare against Sonic/goccy’s unsafe/JIT speed. Maintainers ask folks to run workloads to catch perf/allocation regressions.
+### TL;DR
 
-Comment pulse
-- Real-world tests mostly pass under GOEXPERIMENT=jsonv2 → some saw big perf wins, one found allocation regression; jsontext enables streaming and custom parsers.
-- omitempty vs omitzero → omit after JSON encoding vs omit by Go zero-ness; omitzero customizable via IsZero; omitempty useful for foreign types.
-- High-performance libs like Sonic/goccy → speed from JIT/unsafe; auditability and portability suffer; arm64 slower; benchmarks often ignore v2 — counterpoint: measure on your workload.
+Go 1.25 adds experimental `encoding/json/v2` and `encoding/json/jsontext` packages to address compatibility-locked flaws in the original API. The new design separates syntax from Go-value semantics, supports true token and value streaming, passes options through calls, and enables caller-defined conversions. Safer defaults reject invalid UTF-8 and duplicate names, use case-sensitive field matching, and encode nil maps or slices as empty objects or arrays. The team reports roughly comparable marshaling and substantially faster unmarshaling, but seeks broader testing before possible Go 1.26 adoption.
 
-LLM perspective
-- View: Clear separation of syntax vs semantics plus streaming interfaces modernizes Go's JSON without breaking v1 users.
-- Impact: Strict defaults (UTF-8, duplicate keys, case-sensitive) reduce footguns; nil map/slice normalization eases interop.
-- Watch next: Track Unmarshal speedups across architectures, memory regressions, and adoption of MarshalerTo/UnmarshalerFrom in major libraries.
+### Comment pulse
+
+- One user’s large suite passed except for an error-message change; another found major speedups alongside a memory-allocation regression.
+- Commenters welcomed `jsontext` while debating tag semantics, API complexity, unsafe optimizations, and third-party benchmark quality.
+
+### LLM perspective
+
+- View: A parallel API is justified when compatibility guarantees preserve defaults that now carry correctness and security costs.
+- Impact: Shared internals and configurable semantics offer migration without permanently maintaining two independent implementations.
+- Watch next: Production regressions, allocation behavior, streaming adoption, final tag semantics, and the Go 1.26 stability decision.

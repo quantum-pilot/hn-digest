@@ -2,15 +2,17 @@
 
 - Score: 806 | [HN](https://news.ycombinator.com/item?id=45183029) | Link: https://xeiaso.net/notes/2025/we-dodged-a-bullet/
 
-TL;DR
-A phishing campaign (npmjs.help) hijacked maintainers of tiny, ubiquitous npm packages (e.g., color-string, color-name, is-arrayish). Injected code only redirected MetaMask crypto payments, sparing most users since many usages were CLI-only. The author argues we “dodged a bullet” and that every dependency can be malicious, yet shipping pressure limits vetting. HN pushes deeper fixes: npm’s permissive model, auto-updating editor plugins, and sprawling dependency trees magnify risk; proposals include capability-sandboxed runtimes, richer standard libraries, fewer micro-dependencies, and delaying updates. Some dispute that “anyone” would fall for the phish, urging stricter hygiene.
+### TL;DR
 
-Comment pulse
-- The ecosystem is brittle → VS Code/NX incident showed auto-updated tools exfiltrate creds despite pinning; deep JS/Python trees amplify blast radius; richer stdlibs would reduce tiny deps.
-- Capability model > trust → Cloudflare workerd-style minimal permissions and isolation enforce least privilege; Deno helps but “allow all” erodes benefits — counterpoint: usability friction slows adoption.
-- Update discipline as control → Two-week release quarantine cuts supply-chain risk; air-gapped dev helps, but npm’s pace and editor auto-updates erode this.
+A targeted phishing email compromised a maintainer of widely depended-upon npm packages, but the injected browser-focused malware reportedly only replaced cryptocurrency-payment destinations rather than stealing server credentials or API keys. The message used the maintainer's username, plausible two-factor-authentication urgency, a deadline, and the deceptive domain `npmjs.help`. The author avoids blaming the victim and argues any dependency can become hostile. Commenters note that pinned versions are not a complete defense and criticize ecosystems built around large, deeply transitive dependency trees.
 
-LLM perspective
-- View: Make least-privilege the default: sandboxed runtimes, no network/file by default, and editor extension vetting.
-- Impact: Maintainers, IDE vendors, and registries must add signing, quarantine, and reproducible builds; orgs enforce update staging.
-- Watch next: npm/JS proposals for a standard library, Sigstore/TUF adoption, VS Code Marketplace malware scans, org “quarantine window” policies.
+### Comment pulse
+
+- Some readers call the crypto-only payload narrowly opportunistic; others say irreversible transfers made it a rational attacker choice.
+- Discussion cites a separate Nx incident to show development tools and local credentials remain exposed through other supply-chain paths.
+
+### LLM perspective
+
+- View: The lucky part was payload selection, not ecosystem resilience; trusted publication credentials still converted phishing into broad distribution.
+- Impact: Even a narrow compromise forces downstream users to investigate transitive exposure they may not know they have.
+- Watch next: Package-signing controls, publisher authentication, capability restrictions, incident timelines, and whether maintainers reduce dependency depth.

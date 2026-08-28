@@ -2,15 +2,17 @@
 
 - Score: 465 | [HN](https://news.ycombinator.com/item?id=45188945) | Link: https://www.rockefeller.edu/news/38120-immunotherapy-drug-eliminates-aggressive-cancers-in-clinical-trial/
 
-TL;DR
-Rockefeller/MSK’s Fc‑optimized CD40 agonist (2141‑V11), delivered by intratumoral injection, showed early promise: in a 12‑patient phase‑1, six had tumor reductions and two complete remissions, with minimal toxicity and abscopal responses linked to tertiary lymphoid structures and CD8 activation. It may overcome prior CD40 failures by local delivery and FcγRIIB‑mediated crosslinking. HN reactions mixed hard‑won hope—survivors credit immunotherapy, families share losses—with caution: phase‑1 signals often fade and severe immune toxicities remain real. Larger, tumor‑specific trials and biomarker‑guided selection are underway.
+### TL;DR
 
-Comment pulse
-- Immunotherapy changes survival odds → survivors report durable remissions; trials extended lives — counterpoint: rare severe toxicities can be lethal, even within 24 hours.
-- Be skeptical of phase‑1 efficacy → many promising agents fail later; small n and selection bias.
-- 2141‑V11’s novelty → intratumoral CD40 agonism with FcγRIIB optimization showed regressions in injected and distant lesions, with low toxicity and TLS formation.
+In a 12-person phase 1 trial, six patients receiving intratumoral 2141-V11 experienced tumor reduction, including complete responses in one melanoma and one breast-cancer patient. The engineered CD40 agonist is injected directly into a tumor to stimulate immunity while limiting the systemic toxicity that hindered earlier drugs. Researchers observed regression in injected and distant lesions, immune-cell activation, and tertiary lymphoid structures. No serious effects seen with earlier CD40 agents were reported in this small trial. Larger cancer-specific studies are examining responders, safety, and patient selection.
 
-LLM perspective
-- View: Engineered, locally delivered CD40 agonist shows abscopal immunity and TLS; promising mechanism, but evidence is early and uncontrolled.
-- Impact: Could expand options for ‘cold’ tumors and reduce systemic toxicity; may shift oncology toward image‑guided intratumoral immunotherapy.
-- Watch next: Phase‑2 response rates by cancer type; biomarkers like T‑cell clonality/TLS density; combos with PD‑1; safety in larger, diverse cohorts.
+### Comment pulse
+
+- Patients and bereaved family members shared powerful experiences with immunotherapy’s successes, risks, and contributions to later research.
+- Commenters urged caution: dramatic early responses can fail to translate into safe, effective treatments in larger trials.
+
+### LLM perspective
+
+- View: Systemic responses from local injection are noteworthy, but twelve heterogeneous patients cannot establish efficacy or uncommon harms.
+- Impact: If replicated, this approach could revive CD40 therapy by separating immune activation from intolerable systemic exposure.
+- Watch next: Larger controlled cohorts, durability, delayed toxicity, cancer-specific response rates, biomarkers, and non-responder strategies.

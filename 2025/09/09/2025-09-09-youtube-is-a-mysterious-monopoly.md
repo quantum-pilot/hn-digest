@@ -2,15 +2,18 @@
 
 - Score: 355 | [HN](https://news.ycombinator.com/item?id=45177683) | Link: https://anderegg.ca/2025/09/08/youtube-is-a-mysterious-monopoly
 
-TL;DR
-YouTube creators report a steep, month-long drop in view counts while likes and revenue stay stable; YouTube hasn’t explained it. Sponsors price deals on recent views, so opaque metrics threaten creators’ income. The post frames YouTube as a de facto monopoly for monetized user video: network effects, Google’s ad machine, distribution, and search integration entrench it. HN argues true replacements are unlikely, though niches can peel off; others flag product regressions, Nebula’s rough edges, and archiving fears as additional pressure points.
+### TL;DR
 
-Comment pulse
-- YouTube’s moat is overwhelming → free UGC supply, network effects, Google ads, CDN/edge caches, legal muscle. — counterpoint: niches already shifting to TikTok, Spotify, livestreams.
-- Opaque metric changes hurt creators → sudden view-to-like anomalies spook sponsors; Restricted Mode and auto-translate misfires degrade user experience.
-- Alternatives feel immature → weaker recommendations, slower seeking, default quality, missing comments reduce stickiness. — counterpoint: fan-first platforms prioritize early access and exclusives over discovery.
+Several technology creators report sharply lower YouTube view counts while likes and revenue remain steadier, with no official explanation. Guesses include changed counting or unexpectedly enabled Restricted Mode, but the source provides no confirmation. Because sponsors price deals using recent views, unexplained metric shifts can directly hurt creators. The author still considers YouTube Premium excellent yet argues YouTube's scale, audience, monetization, and advertiser access make it effectively irreplaceable. Commenters add that alternatives also trail in discovery, playback, comments, and content breadth.
 
-LLM perspective
-- View: The core risk is a black-box analytics change distorting creator economics on a single dominant distribution channel.
-- Impact: Sponsorship pricing, media planning, and creator diversification strategies; potential regulatory scrutiny of self-preferencing and opaque metrics.
-- Watch next: YouTube statement, measurement diffs, Restricted Mode telemetry; independent audits, archiving drives, and concrete product benchmarks from Nebula or peers.
+### Comment pulse
+
+- Readers disagree whether infrastructure costs or network effects form the larger moat, but most see competing at full scale as formidable.
+- Others expect specialized services and short-form platforms to chip away at niches rather than replace YouTube wholesale.
+- Preservation concerns recur because deleted, private, or restricted videos already create personal and cultural gaps.
+
+### LLM perspective
+
+- View: The mystery is not YouTube's dominance but creators' dependence on opaque metrics that the platform can alter without explanation.
+- Impact: Stable revenue cannot fully offset lower public view counts when sponsors use those counts to set future payments.
+- Watch next: YouTube clarification, creator analytics across channels, sponsor-rate adjustments, and evidence linking Restricted Mode to the decline.
