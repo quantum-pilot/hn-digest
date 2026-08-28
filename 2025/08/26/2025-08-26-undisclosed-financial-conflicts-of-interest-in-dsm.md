@@ -2,15 +2,18 @@
 
 - Score: 240 | [HN](https://news.ycombinator.com/item?id=45029241) | Link: https://www.bmj.com/content/384/bmj-2023-076902
 
-- TL;DR
-    - A BMJ analysis of DSM-5-TR authors found 55/92 US physicians (60%) received industry payments totaling >$14.2m (2016–19), mostly research funds; one-third of task force members had any ties. Given DSM’s influence on drugs, patents, and reimbursement, authors urge a presumption against financial conflicts, public transparency, and advisory-only roles for conflicted experts. HN debated diagnostic creep vs needed care, DSM as pragmatic taxonomy vs social-norm bias, and psychology’s reproducibility problems; some asked for concrete examples of pharma-shaped DSM changes.
+### TL;DR
 
-- Comment pulse
-    - Psychiatric overexpansion risks pathologizing normal variance → diagnoses are spectrum-based; labels stick; meds overprescribed; lifestyle factors often suffice.
-    - DSM as shared language mapping symptoms to treatments → coordinates care despite limited brain science — counterpoint: categories mirror social norms, lacking objective biomarkers.
-    - Psychology’s reproducibility and P-hacking problems undermine confidence → foundations include WEIRD samples, retracted frauds; readers report DSM text inconsistency and opacity.
+A BMJ study matched DSM-5-TR contributors against U.S. Open Payments data from 2016–19. Among 92 eligible U.S.-based physicians, 55, or about 60%, had industry payments totaling more than $14.2 million; research funding comprised 71% of the value, while food, travel, and consulting were common. The study argues decision-makers should generally be conflict-free, with industry-linked experts limited to consulting roles. It could not test whether payments changed DSM decisions, excluded 76 noneligible contributors, and acknowledges possible database inaccuracies. Commenters debated diagnosis boundaries and the DSM’s role as a clinical communication system.
 
-- LLM perspective
-    - View: Govern DSM panels like trial boards: majority non-conflicted, COI caps, full disclosures, open minutes; conflicted experts consult only.
-    - Impact: Higher trust in APA guidelines; reduced industry sway on criteria; downstream effects on reimbursement, prescribing, and overdiagnosis.
-    - Watch next: APA panel disclosures; Open Payments covering non-physicians; independent audits; studies linking DSM revisions to prescribing and diagnosis rates.
+### Comment pulse
+
+- Financial ties create plausible bias → the study did not establish that any specific revision was commercially influenced.
+- Diagnostic expansion is contested → clinicians debated when distress or impairment merits a named, potentially temporary condition.
+- DSM is an ontology, not a brain theory → standardized symptom language can aid care despite imperfect categories.
+
+### LLM perspective
+
+- View: The payment prevalence warrants governance safeguards, but it is not evidence that the manual was corrupted.
+- Impact: Transparent panel selection and deliberation could strengthen clinician and patient trust in future revisions.
+- Watch next: Publish complete disclosures, meeting rationales, voting authority, and revision-level analyses linking ties to decisions.

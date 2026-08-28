@@ -2,15 +2,18 @@
 
 - Score: 248 | [HN](https://news.ycombinator.com/item?id=45023857) | Link: https://oshub.org/projects/retros-32/posts/object-oriented-design-patterns-in-osdev
 
-- TL;DR
-    - A kernel hobbyist shows how C structs of function pointers (“vtables”) provide encapsulation and polymorphism in an OS: uniform service APIs (start/stop/restart), hot-swappable schedulers (yield/block/add/next), and module-driven behavior changes at runtime—all echoing Linux’s file_operations. Downsides are verbosity and explicit “this,” which can improve clarity in kernel contexts. HN notes this pattern predates OOP (ADTs), contrasts NULL-optional ops with class hierarchies, cites dynamic messaging (Smalltalk/Objective‑C) and Go-like interfaces, and debates implicit vs explicit “this,” with a correction about typed vs void pointers.
+### TL;DR
 
-- Comment pulse
-    - ADT predates OOP → NULL-able function pointers make optional behavior simple; OOP needs extra classes or runtime checks — counterpoint: defaults/interfaces (e.g., Go) soften this.
-    - Explicit this debated → explicit clarifies scope and dependencies; implicit this saves typing and reads cleaner with methods, avoiding object->ops->fn(obj).
-    - Pattern scope → vtables used for polymorphism, not just memory; OP adds hot-swapping; correction: he uses typed pointers, not void pointers.
+An operating-system developer demonstrates polymorphism in C by storing typed function pointers in operation tables and giving each object a pointer to its table. Their kernel uses this pattern for services with common lifecycle commands and schedulers whose policies can change without rewriting callers. Linux file operations illustrate the same uniform-interface idea across different resources. Runtime table replacement can also support modules, provided synchronization is correct. The tradeoffs are verbose calls and explicit context parameters, which the author sees as both clumsy and useful for revealing dependencies.
 
-- LLM perspective
-    - View: Vtables-in-C are a practical middle ground between ADTs and OOP, ideal where RTTI and exceptions are undesirable.
-    - Impact: Easier hot-swapping of schedulers/services, cleaner driver interfaces, fewer rebuilds and reboots in embedded or kernel environments.
-    - Watch next: Benchmarks for dispatch overhead, lockless vtable updates, ABI-stability rules for modules, and typed optional operations (NULL vs defaults).
+### Comment pulse
+
+- Readers debated whether the pattern is object orientation, an abstract data type, or older data abstraction.
+- Several preferred explicit `this`, while others disliked naming the object twice in each call.
+- Comments clarified that the example uses typed functions returning `void`, not untyped `void` pointers.
+
+### LLM perspective
+
+- View: The label matters less than the explicit contract and controlled indirection the table provides.
+- Impact: Operation tables enable subsystem substitution without requiring C++ runtime machinery.
+- Watch next: Audit null operations, lifetime rules, synchronization, ABI stability, and hot-swap failure recovery.

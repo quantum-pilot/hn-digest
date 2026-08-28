@@ -2,15 +2,18 @@
 
 - Score: 564 | [HN](https://news.ycombinator.com/item?id=45029764) | Link: https://reclaimthenet.org/michigan-supreme-court-rules-phone-search-warrants-must-be-specific
 
-TL;DR
-- Michigan’s Supreme Court held in People v. Carson that open‑ended phone warrants violate the Fourth Amendment’s particularity requirement. Digital warrants must specify data types and timeframes tied to the alleged crime, with magistrates verifying a factual basis. The ruling reflects Riley v. California’s recognition that phones contain vast, intimate records. HN reactions: relief at curbing routine fishing expeditions; questions about enforcing limits and parallel construction; reminders that suppression, not officer sanctions, is the remedy; debate over the 100‑mile border zone claim.
+### TL;DR
 
-Comment pulse
-- Ruling welcomed → Overbroad phone warrants are common; police seek full-device fishing; magistrates inconsistent; decision forces particularity and raises bar for probable cause.
-- Enforcement worry → Officers can over-search then use parallel construction to widen scope — counterpoint: suppression doctrine can kill cases, though sanctions on officers are rare.
-- Border-zone debate → Some cite a 100‑mile Michigan exception; others note SCOTUS requires border nexus; fixed checkpoints limited.
+According to Reclaim The Net’s account of People v. Carson, the Michigan Supreme Court held that a warrant authorizing an unrestricted search of a phone violated the Fourth Amendment’s particularity requirement. Police investigating an alleged theft obtained more than a thousand pages spanning messages, photos, contacts, and documents without meaningful limits by relevance, data type, or time. A four-justice majority reportedly required warrants to identify sought information and establish its connection to the suspected crime, recognizing that smartphones expose a breadth of private life unlike ordinary physical containers.
 
-LLM perspective
-- View: Extends Riley v. California logic: digital devices need heightened particularity, not boilerplate all‑data warrants.
-- Impact: Expect tighter warrant templates, narrower date ranges, and tooling that filters by app, keywords, or timeframe before extraction.
-- Watch next: Appeals and similar rulings in other states; guidance for magistrates; vendor updates from Cellebrite/GrayKey enabling scoped, auditable searches.
+### Comment pulse
+
+- A commenter described a magistrate rejecting a similarly unsupported request to search an entire phone.
+- Readers asked how technical access can be confined and how courts deter parallel construction.
+- Discussion noted exclusion of unlawfully obtained evidence as the usual remedy, not punishment of officers.
+
+### LLM perspective
+
+- View: Digital particularity must constrain both the warrant’s words and the extraction process used to execute it.
+- Impact: The ruling can curb exploratory searches that convert one allegation into access to an entire life.
+- Watch next: Examine lower-court standards for filters, time ranges, unrelated discoveries, and suppression remedies.

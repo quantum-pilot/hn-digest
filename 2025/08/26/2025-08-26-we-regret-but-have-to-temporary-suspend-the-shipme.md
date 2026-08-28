@@ -2,15 +2,18 @@
 
 - Score: 647 | [HN](https://news.ycombinator.com/item?id=45029579) | Link: https://olimex.wordpress.com/2025/08/26/we-regret-but-have-to-temporary-suspend-the-shipments-to-usa/
 
-- TL;DR
-    - Olimex halted direct US shipments after Aug 29 rules required sellers to pre-collect US taxes/tariffs without working tools; DHL/UPS lack solutions, leading to customs holds and demands for Certificates of Analysis to quantify aluminum/copper/steel—sometimes treated as 100% tariffable—making small orders impractical. HN debates the chaotic, abrupt rollout under Trump, the rationale for taxing metal content via HTS codes to prevent loopholes, widespread postal suspensions, and reports that skipping CoA by paying a higher flat rate still means steep costs and delays.
+### TL;DR
 
-- Comment pulse
-    - Abrupt rollout → little guidance, weeks’ notice; carriers unprepared; parcels held and returned — counterpoint: some say paying higher rate avoids CoA.
-    - Metal-content tariffs needed → otherwise imports dodge raw-material tariffs; applied via expanded HTS lists — counterpoint: no thresholds makes trace amounts onerous.
-    - Postal suspensions ripple → Swiss, Japan, Norway paused parcels; shippers push to pricier express; consumers report duties approaching item cost.
+Bulgarian electronics maker Olimex says it suspended U.S. shipments after carriers reported no workable way to satisfy new August 29 import requirements. According to the company, sellers must collect taxes and tariffs in advance and quantify steel, copper, and aluminum content; without analysis, customs may treat an entire product as tariffed metal. PCB traces make precise declarations awkward, and pending parcels were delayed. U.S. customers were directed to Mouser or Digi-Key. Commenters criticized the abrupt rollout, while some explained why finished goods must include metal content to prevent tariff avoidance.
 
-- LLM perspective
-    - View: This is a DDP/DDU gap: no reliable landed-cost tools for complex content-based tariffs.
-    - Impact: Small exporters pause US sales; buyers consolidate via Mouser/Digi-Key; postal throughput drops; customs backlog lengthens.
-    - Watch next: Carrier calculators, CBP guidance on CoA/trace thresholds, HTS revisions; data on clearance times and de minimis policy changes.
+### Comment pulse
+
+- Implementation uncertainty halted trade → carriers and exporters lacked calculators, documentation paths, and preparation time.
+- Content-based tariffs prevent importing cheap metal inside finished goods → counterpoint: trace amounts need practical thresholds.
+- The disruption extends beyond one seller → commenters cited postal suspensions and individual shipments stuck or heavily charged.
+
+### LLM perspective
+
+- View: Even coherent tariff goals fail operationally when classification and collection mechanisms arrive after obligations.
+- Impact: Small exporters pause U.S. sales while distributors and larger compliance operations gain an advantage.
+- Watch next: Look for carrier calculators, de minimis rules, trace-material exemptions, customs guidance, and resumed direct shipping.

@@ -2,15 +2,18 @@
 
 - Score: 405 | [HN](https://news.ycombinator.com/item?id=45020685) | Link: https://daringfireball.net/2025/08/macos_26_tahoes_dead_canary_utility_app_icons
 
-- TL;DR
-  - John Gruber slams macOS 26 Tahoe’s new utility icons: a generic wrench-and-bolt motif crams app identifiers into a tiny bolt, enforced squircle shapes, and even a misaligned AppleScript scroll. Disk Utility no longer depicts storage; Expansion Slot Utility shows vague sockets; the wrench is drawn unrealistically. He frames them as “dead canaries,” signaling slipping craft in Apple’s software design. HN echoes broader decline—from Aqua/Aero to flat sameness—debates Gruber’s Apple proximity, cites lost scripting/accessibility polish, and notes Script Editor previously used a tilted scroll.
+### TL;DR
 
-- Comment pulse
-  - Skeuomorphic Aqua/Aero era felt crafted; today’s flat squircles erase meaning and delight → icons no longer visually explain tools — counterpoint: some preferred pre-Aero minimalism.
-  - Gruber isn’t newly critical; he’s long championed an ‘ideal Apple’ and pushes back when reality drifts → discontent intensified under Dye’s Liquid Glass direction.
-  - Bigger worry: Apple’s polish for power users wanes → scripting support thinned, keyboardable notifications removed; macOS feels less central—and less cared for—inside Apple.
+John Gruber argues that four macOS 26 Tahoe utility icons expose a broader decline in Apple’s design discipline. Tahoe forces applications into a squircle, while these utilities add a repeated wrench-and-bolt frame that leaves little space to communicate each tool’s purpose. He finds Disk Utility especially unrecognizable, Expansion Slot Utility vague, and AppleScript Utility’s scroll awkwardly tilted. The icons themselves are minor, he says, but their generic concept, weak execution, and overlooked details act as “dead canaries” suggesting diminished care across Apple software.
 
-- LLM perspective
-  - View: Visual metaphors that don’t map to function raise cognitive load; generic motifs waste pixels and teach users nothing.
-  - Impact: Signal of weakened design review and HIG enforcement; erodes trust and discoverability, especially for infrequent, high-stakes tools like Disk Utility.
-  - Watch next: Next betas: icon revisions, updated HIG examples, or squircle jail rollback; user studies on icon recognition vs. prior versions.
+### Comment pulse
+
+- Readers nostalgically compared Tahoe with more distinctive Aqua, Aero, and skeuomorphic icon systems.
+- Some argued the AppleScript tilt already existed, complicating its value as evidence of new decline.
+- Power users cited reduced scripting and keyboard accessibility as more consequential warning signs.
+
+### LLM perspective
+
+- View: The critique matters less as icon taste than as a test of semantic clarity and review rigor.
+- Impact: Uniform branding can erase affordances when visual consistency outranks identifying an application’s purpose.
+- Watch next: Compare release icons with later betas and assess whether the same shortcuts affect core interactions.

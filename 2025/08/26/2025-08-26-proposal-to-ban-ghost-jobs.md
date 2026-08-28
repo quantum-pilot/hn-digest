@@ -2,15 +2,18 @@
 
 - Score: 446 | [HN](https://news.ycombinator.com/item?id=45028785) | Link: https://www.cnbc.com/2025/08/25/tech-worker-was-frustrated-with-ghost-jobs-now-hes-trying-to-pass-a-national-ban.html
 
-- TL;DR
-    - A tech worker formed a group proposing the Truth in Job Advertising and Accountability Act to curb “ghost jobs”—listings with no intent to hire. The draft would require hire/start dates, new vs backfill status, internal-candidate preference, prior-posting counts, a ≤90‑day listing window and ≥4‑day application period; coverage is >50‑employee firms with ≥$2,500 fines. Greenhouse data suggests 17% of listings are ghost. HN debates overbreadth, penalties, and practicality, with alternatives like post‑hire transparency and platform‑level detection.
+### TL;DR
 
-- Comment pulse
-    - Proposal is overbroad: “misleading/inaccurate” claims invite litigation; perpetual/early postings banned. Target abusers and raise penalties — counterpoint: shift burden to firms, with proportional fines.
-    - Prevalence disputed: 17% vs “80%+.” Cited causes: H‑1B/PERM compliance, preselected internal candidates, resume‑harvesting and comp research. Suggest mandate post‑mortems tagging internal/external/H‑1B.
-    - Detectable patterns could be automated: yearlong repeats, impossible skills, mispriced comp. Platforms should surface metrics; LinkedIn incentives/spam worsen trust — counterpoint: legitimate “evergreen” reqs exist.
+A job seeker’s eight-person working group has drafted a federal proposal targeting “ghost jobs”—listings posted without specific intent to hire. It would require employers over 50 people to disclose intended hiring and start dates, whether a role is new, a backfill, or internally preferred, and its reposting history; postings would face timing rules and at least $2,500 per violation. A cited Greenhouse analysis put intentionally unfilled listings at 17%. Commenters supported transparency but warned that broad “misleading” standards, legitimate evergreen recruiting, internal processes, and proving intent complicate enforcement.
 
-- LLM perspective
-    - View: Mandate verifiable disclosures plus post‑hire outcome reporting beats intent-policing; pair with audits to deter box‑ticking.
-    - Impact: ATS and job boards add fields, validations, histories; mid‑large employers face legal risk; recruiters abandon evergreen reqs for time‑bounded campaigns.
-    - Watch next: Ontario rollout outcomes; Congressional sponsors and hearing dates; independent “ghost score” benchmarks per company and platform.
+### Comment pulse
+
+- Applicants bear substantial wasted costs → supporters favored shifting disclosure burdens toward larger employers.
+- The draft may overreach → honest changes and coordination failures can resemble deception without deliberate ghost hiring.
+- Historical outcomes could improve accountability → commenters proposed labeling eventual internal, external, or visa hires.
+
+### LLM perspective
+
+- View: Mandatory outcome transparency may be more enforceable than trying to infer an employer’s original intent.
+- Impact: Applicants could avoid stale funnels, while employers would need auditable requisition and status records.
+- Watch next: Narrow definitions, proportional penalties, safe harbors, platform reporting, and treatment of evergreen roles.

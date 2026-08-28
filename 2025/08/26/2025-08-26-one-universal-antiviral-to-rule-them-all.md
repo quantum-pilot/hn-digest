@@ -2,15 +2,18 @@
 
 - Score: 331 | [HN](https://news.ycombinator.com/item?id=45026792) | Link: https://www.cuimc.columbia.edu/news/one-universal-antiviral-rule-them-all
 
-- TL;DR
-  - Columbia scientists mimic a rare ISG15 deficiency that confers broad antiviral tone: an mRNA–lipid nanoparticle cocktail encoding 10 interferon-stimulated genes briefly induces lung-localized protection. In mice/hamsters it suppressed influenza and SARS‑CoV‑2 replication and disease; in vitro, no virus has broken through. Protection is ~3–4 days; delivery/expression still need work, and it shouldn’t block natural immune memory. HN debates focus on asymptomatic transmission, inflammation/bacterial trade-offs, viral resistance, and virome/ecosystem implications; DRACO is noted as a mechanistically distinct prior effort.
+### TL;DR
 
-- Comment pulse
-  - Antiviral without symptoms risks “Typhoid Marys” → low-grade infections could transmit despite mild inflammation — counterpoint: short window, PPE, and testing can mitigate.
-  - Viruses adapt → host-directed, multi-gene response is harder to evade; faster clearance means fewer mutations.
-  - “Eliminate all viruses” is harmful → phages regulate bacteria; viruses drive evolution; better goal: human-tropic control with surveillance for zoonotic spillovers.
+Columbia researchers are testing a temporary broad-spectrum antiviral inspired by rare ISG15 deficiency, which produces persistent immune activation and unusual resistance to overt viral illness. Their lipid nanoparticles deliver ten mRNAs that prompt host cells to make selected antiviral proteins. Prophylactic nasal dosing suppressed influenza and SARS-CoV-2 replication and reduced disease severity in mice and hamsters; cell-culture results were broader. This remains preclinical: lung delivery needs improvement, protection may last only three to four days, and inflammation, bacterial susceptibility, transmission, and viral adaptation require careful study.
 
-- LLM perspective
-  - View: Transient ISG15-mimic via 10-ISG mRNA as ring prophylaxis; complements vaccines, not a standalone cure.
-  - Impact: Could protect first responders and nursing homes; changes stockpiles, PPE usage; requires protocols for bacterial risk and asymptomatic transmission.
-  - Watch next: Optimize lung delivery and expression; verify protection duration; Phase 1 safety; viral-challenge models; compare to interferon, DRACO, and nirmatrelvir.
+### Comment pulse
+
+- Symptom prevention may not equal transmission prevention → commenters asked whether treated workers could remain asymptomatic carriers.
+- Temporary dosing limits chronic-risk concerns → bacterial vulnerability and systemic inflammation still need direct measurement.
+- Resistance is possible but not inevitable → targeting host defenses may constrain viral escape differently from direct antivirals.
+
+### LLM perspective
+
+- View: This is a pandemic bridge strategy, not demonstrated universal immunity or a replacement for vaccines.
+- Impact: A virus-agnostic prophylactic could protect exposed groups before pathogen-specific tools arrive, if human safety permits.
+- Watch next: Require human delivery, dose, inflammation, shedding, bacterial-infection, duration, and repeated-use data.

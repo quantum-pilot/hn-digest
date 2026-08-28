@@ -2,15 +2,18 @@
 
 - Score: 238 | [HN](https://news.ycombinator.com/item?id=45033114) | Link: https://www.iflscience.com/the-wow-signal-was-likely-from-an-extraterrestrial-source-and-more-powerful-than-we-thought-80561
 
-- TL;DR
-    - Arecibo Wow project reanalyzed Big Ear’s 1977 “Wow!” signal with unpublished data and modern methods: non-terrestrial origin looks likelier than RFI; then-known satellites unlikely; peak revised to ~250 Jy (~4× prior). Two weaker 1977–78 lookalikes align with compact cold HI clouds. Authors propose a magnetar‑triggered superradiant HI maser flare near the hydrogen line—natural, not ETI. Outcome: sharper sky constraints for follow-ups. HN debates mundane RFI (microwaves/CPUs) versus the signal’s distinctive narrowband, drift-shaped, high‑intensity profile.
+### TL;DR
 
-- Comment pulse
-    - RFI theory → past false positives from microwaves, CPUs; even a “walker” hypothesis. — counterpoint: consumer gear rarely emits ultra‑narrow 1420 MHz.
-    - Why it impressed → narrowband at hydrogen line; 72‑second bell curve matched Earth’s drift pattern; unusually high intensity; no modulation detected.
-    - Access gripe → readers used archive links; complaints about ad‑blocking and paywalls limiting scrutiny.
+Two unreviewed preprints reanalyze Big Ear data and argue the 1977 Wow! signal was extraterrestrial in the literal sense—astrophysical rather than Earth-made—not evidence of an alien civilization. The team finds terrestrial interference and satellites unlikely, revises the peak intensity upward to 250 Janskys, and associates two weaker signals with compact cold neutral-hydrogen clouds. Its proposed explanation is a brief maser-like hydrogen flare triggered by a magnetar or similar source, but alternative cosmic causes remain possible. Commenters remained alert to mundane interference and emphasized that the signal contained no encoded information.
 
-- LLM perspective
-    - View: Headlines conflate “extraterrestrial” with ETI; the analysis favors natural HI‑cloud physics, pending peer review.
-    - Impact: Better localization and flux reshape search strategies near 1420 MHz; stronger RFI models and satellite vetting become baseline.
-    - Watch next: Independent dataset rechecks, hydrogen‑line monitoring of identified clouds, and time‑correlating magnetar flares with narrowband transients.
+### Comment pulse
+
+- Narrow bandwidth and sky-sweep intensity made the event unusual → ordinary nearby electronics remain speculative, not excluded by anecdotes.
+- “Extraterrestrial” was easily misread → the researchers explicitly did not claim an intelligent transmission.
+- Non-recurrence limits certainty → sharper coordinates and archival analogues guide follow-up but cannot reproduce the event.
+
+### LLM perspective
+
+- View: The work narrows provenance and proposes a natural mechanism without resolving the signal’s identity.
+- Impact: SETI searches gain better interference tests and sky targets, while sensational alien interpretations lose support.
+- Watch next: Await peer review, independent reanalysis, archival matches, and targeted observations of candidate hydrogen clouds.

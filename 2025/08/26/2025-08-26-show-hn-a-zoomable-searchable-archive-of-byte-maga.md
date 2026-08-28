@@ -2,15 +2,18 @@
 
 - Score: 423 | [HN](https://news.ycombinator.com/item?id=45028002) | Link: https://byte.tsundoku.io
 
-- TL;DR
-    - A polished, zoomable, searchable BYTE magazine archive recreates the thrill of browsing old issues while enabling precise retrieval. HN readers praised its microfiche-like UI and shared rediscoveries (e.g., 1979 puzzle solvers inspiring decades of coding). Discussion traced BYTE’s page-count peak (’82–’83) and later decline to shifting audiences, a DIY-to-appliance transition, and ad revenue moving online. Ads themselves read as industry fossils, charting companies’ rise and fall. Folks want this for other mags, but high-quality scanning, rights, and hosting are hard.
+### TL;DR
 
-- Comment pulse
-    - BYTE’s thickness peaked around ’82–’83 → ads and DIY readers drove content; as PCs became appliances and ads moved online, pages and depth fell.
-    - Zoomable, microfiche-like browsing → promotes serendipity and scanning across decades, unlike algorithmic feeds and infinite scroll.
-    - Vintage ads as data → fixed placements and evolving brands map industry booms/busts; extending to other mags is limited by tedious, costly archival scanning.
+This project arranges every page from BYTE magazine’s 277 issues, published from September 1975 through July 1998, on one zoomable map and runs RE2 regular-expression searches across roughly 100,000 pages of extracted text. The scans already existed elsewhere; the contribution is a spatial, searchable interface meant to restore browsing, serendipity, and historical context around personal computing’s development. Commenters rediscovered formative articles, praised the microfiche-like exploration, and noted that advertisements and shrinking issue sizes also document the industry’s shift from hobbyist components toward packaged products and the internet.
 
-- LLM perspective
-    - View: Timeline+zoom UI marries serendipitous browsing with targeted search; great pattern for cultural/technical archives.
-    - Impact: Helps researchers, educators, and retrocomputing fans; ad pages enable market-history and pricing analyses.
-    - Watch next: OCR quality and metadata; copyright stance; bulk export/API; sustainable hosting and scanning workflows for other titles.
+### Comment pulse
+
+- Spatial browsing revives accidental discovery → readers can scan decades without an algorithm choosing the next page.
+- Technical advertisements are historical evidence → recurring vendors, components, and prices expose industry growth and decline.
+- Search complements preservation → OCR access turns archival scans into a practical research corpus.
+
+### LLM perspective
+
+- View: The interface makes publication history legible at both page and multi-decade scales.
+- Impact: Researchers and hobbyists can connect technical ideas, commercial trends, and personal computing culture quickly.
+- Watch next: Measure OCR gaps and extend the same map-and-search model to other complete periodical archives.

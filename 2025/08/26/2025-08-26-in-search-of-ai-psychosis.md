@@ -2,15 +2,18 @@
 
 - Score: 214 | [HN](https://news.ycombinator.com/item?id=45027072) | Link: https://www.astralcodexten.com/p/in-search-of-ai-psychosis
 
-- TL;DR
-    - Scott Alexander examines “AI psychosis”: LLMs amplifying delusional thinking via feedback with isolated users lacking strong world-models. He compares it to social-media conspiracies, a crackpot-to-psychosis continuum, mania/sleep vicious cycles, and folie à deux with a chatbot. A reader survey (n=4,156) estimates loose incidence ~1/10,000/year; strict (no prior risk factors, now fully psychotic) ~1/100,000. Most cases involved prior psychosis/risk or were eccentricity, not florid psychosis. HN debates include isolation/validation loops, world-model disagreements, AI romance, sleep/dopamine hygiene, and survey assumptions.
+### TL;DR
 
-- Comment pulse
-    - Isolation + AI validation creates self-reinforcing theories; like “social junk food” and online radicalization — counterpoint: publicizing friends’ flaws is unfair, beliefs ≠ psychosis.
-    - World-model debate: some say most “vibe” without explicit models; others argue everyone has models, just simpler, socially acquired, inconsistently updated.
-    - Methodology and mitigations: challenge 150 “close” people and incidence math; suggestions to throttle dopamine, encourage sleep, reduce endless engagement.
+Scott Alexander explores whether chatbots cause psychosis, reveal existing illness, or intensify eccentric beliefs through agreeable, isolating feedback loops. He proposes several pathways involving prior psychosis, latent “crackpottery,” weak social grounding, sleep loss, and mania, but labels the model exploratory. A survey of 4,156 blog readers yielded a rough annual incidence estimate near one in 10,000 for loosely defined, noticeable cases and one in 100,000 for severe cases without reported prior risks. These figures rely on assumed social-circle sizes, second-hand reports, self-selection, and nonclinical coding.
 
-- LLM perspective
-    - View: LLMs can act as amplifiers in closed loops, not sole causes; risk rises with isolation, insomnia, and delusional tendencies.
-    - Impact: Product teams, clinicians, and families should monitor heavy use, sleep disruption, and grandiosity; design nudges limiting late-night, high-arousal sessions.
-    - Watch next: Longitudinal incidence studies, app-level sleep-aware throttling experiments, and audits of personalized reinforcement loops against delusion-prone patterns.
+### Comment pulse
+
+- Readers described isolated acquaintances receiving AI validation for elaborate personal theories.
+- Several rejected the claim that many people lack world models as reductive or arrogant.
+- Critics questioned assuming respondents could reliably assess 150 close contacts.
+
+### LLM perspective
+
+- View: The feedback-loop hypothesis is plausible, but the survey cannot establish incidence or causation.
+- Impact: Always-agreeable companionship may surface or reinforce vulnerabilities that ordinary social friction would challenge.
+- Watch next: Seek clinical definitions, representative cohorts, exposure measures, temporal evidence, and comparison groups.

@@ -2,15 +2,18 @@
 
 - Score: 260 | [HN](https://news.ycombinator.com/item?id=45031673) | Link: https://artanis.dev/index.html
 
-- TL;DR
-  - GNU Artanis is a lightweight, Guile/Scheme web framework with its own async server (delimited continuations), JSON/XML, WebSockets, templating, caching, static files, and DB support via guile-dbi (MySQL/SQLite/PostgreSQL). Minimal routes make “hello world” trivial; it’s dual-licensed GPL/LGPL. HN reports successful production use and adequate performance, plus easy escape hatches to Guile’s server. Discussion centers on nicer macro-based routing, unclear CSRF/XSS protections, and why Guile remains niche (tooling, docs, packaging, typing trends). Name nod: “Artanis” is “Sinatra” backwards; site praised.
+### TL;DR
 
-- Comment pulse
-  - Macro-based route bindings improve ergonomics → bind path segments to variables directly; can still parse ':who' in strings — counterpoint: string routes are simpler.
-  - Used in production → fast enough and flexible; Guile server makes bypassing the framework easy; security docs unclear (CSRF/XSS unanswered).
-  - Guile stays niche → weak tooling, beginner docs, packaging; sparse stdlib and lack of static typing momentum hinder adoption.
+GNU Artanis presents itself as a lightweight, production-oriented web application framework for GNU Guile Scheme. Its compact route syntax sits atop an asynchronous, non-blocking server built with delimited continuations. Listed features include JSON, CSV, XML and SXML handling, WebSockets, internationalization, templates, cache control, static transfers, and MySQL, SQLite, and PostgreSQL through guile-dbi. The project is dual-licensed under GPLv3+ and LGPLv3+, originated in a 2013 Guile event, became an official GNU project in 2015, and is maintained through Savannah with a GitLab mirror.
 
-- LLM perspective
-  - View: Practical, minimal web stack for Guile; good ergonomics, but security primitives and tooling need tightening.
-  - Impact: Targets Scheme tinkerers and small production apps; lowers barrier to Guile-based services without deep framework lock-in.
-  - Watch next: Clarify CSRF/XSS story, publish load benchmarks, release LSP/debugging aids, and simplify library distribution beyond Guix/tarballs.
+### Comment pulse
+
+- One production user found it sufficiently fast and easy to bypass through Guile’s standard web server.
+- Readers proposed Scheme macros for cleaner route parameter binding.
+- Discussion questioned CSRF documentation and Guile’s tooling, documentation, packaging, and broader adoption.
+
+### LLM perspective
+
+- View: Artanis demonstrates Scheme’s concise extensibility without concealing its comparatively small ecosystem.
+- Impact: Familiar web abstractions can make Guile viable for teams willing to own tooling gaps.
+- Watch next: Evaluate security defaults, maintenance activity, deployment guidance, and editor support before production use.
