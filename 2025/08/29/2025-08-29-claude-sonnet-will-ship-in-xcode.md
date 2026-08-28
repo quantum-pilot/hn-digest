@@ -2,15 +2,17 @@
 
 - Score: 489 | [HN](https://news.ycombinator.com/item?id=45058688) | Link: https://developer.apple.com/documentation/xcode-release-notes/xcode-26-release-notes
 
-- TL;DR
-  - Apple’s Xcode 26 adds a coding assistant that connects to ChatGPT (GPT-5 default, with “reasoning” option) and Anthropic’s Claude Sonnet 4 via user accounts, also supporting any Chat Completions API provider or local models on Apple silicon; predictive completion runs on-device. Beyond AI, it includes compilation caching and new performance Instruments. HN debates: Copilot’s first-mover vs rivals’ native IDE integrations; lack of agentic capabilities; privacy risks when sending code to providers; practical limits—LLMs need context for niche tasks.
+### TL;DR
 
-- Comment pulse
-  - Copilot first-mover ≠ lock-in → rivals ship native AI; MS has OpenAI stake, Azure, VSCode — counterpoint: past platform misfires haunt execution.
-  - No agentic workflows yet → perceived as a toy until Claude Code/Codex-like agents integrate with file edits and tools.
-  - Remote models by default → code snippets leave devices; compelled logging and shifting provider policies undermine confidentiality.
+Xcode 26 adds coding-assistant access through ChatGPT and Claude accounts, API-compatible model providers, and local models on Apple silicon; it does not bundle Claude’s model weights. The IDE can gather project context, attach files, explain or edit selected code, generate documentation, and retain conversations, while predictive completion remains local and faster. Commenters welcomed provider choice but found the integration less agentic than command-line tools, reported uneven results on niche stacks, and raised confidentiality concerns for remote model use.
 
-- LLM perspective
-  - View: Useful bridge to external models plus on-device options; still shallow without tool-use orchestration or repository-wide planning.
-  - Impact: Xcode users gain sanctioned Claude/GPT access; enterprise teams must enforce proxies, model allowlists, and data-handling policies.
-  - Watch next: Agentic code actions, local fine-tuned models, telemetry controls, and benchmarks versus Copilot/JetBrains on complex refactors and multi-file fixes.
+### Comment pulse
+
+- Better context can rescue niche-stack results → examples and iterative plans may outperform unsupported one-shot requests.
+- Provider flexibility broadens choice → remote services still require careful review of code-handling policies.
+
+### LLM perspective
+
+- View: Xcode is becoming a model-neutral assistant surface, not committing developers to one vendor.
+- Impact: Apple developers gain integrated help while retaining local-model and external-provider trade-offs.
+- Watch next: Compare agentic depth, local-model quality, and provider-specific data controls in the final release.

@@ -2,15 +2,17 @@
 
 - Score: 671 | [HN](https://news.ycombinator.com/item?id=45062614) | Link: https://www.washingtonpost.com/technology/2025/08/29/tesla-autopilot-crashes-evidence-testimony-wrongful-death/
 
-- TL;DR
-  - Washington Post: In a 2019 Key Largo fatal crash, Tesla told plaintiffs it lacked critical Autopilot data; a hacker later unearthed it, helping a jury find Tesla partially liable. Court records say crash “snapshots” auto-upload to Tesla, then the car marks its local copy for deletion. HN debates: pervasive infotainment tracking, whether log deletion is design vs. malice, Autopilot’s filtering/object permanence failures shown in annotated footage, and discovery fights where judges threaten sanctions to force telemetry disclosure.
+### TL;DR
 
-- Comment pulse
-  - Automakers control nonstandard logs → owners sue for access; Tesla publicizes telemetry to defend itself — counterpoint: limiting access can protect privacy and investigation integrity.
-  - Tesla uploads crash snapshots, then marks local logs for deletion; a server copy may have been deleted, swaying jurors toward liability.
-  - Autopilot detected obstacles but planned a path through them → critiques of fixed-object filtering and poor object permanence; overtrust amplifies risk.
+The frozen article body is unavailable, so this account is necessarily discussion-driven and limited to the headline and excerpts commenters quoted. Those excerpts allege that, after a fatal 2019 crash, a collision snapshot uploaded to Tesla and received an acknowledgement before its local copy was unlinked or marked for deletion; they also raise the possibility of server-side deletion. Commenters say data was later recovered and debate what it showed about detection and planned motion. None of those technical or procedural claims can be independently established from this packet.
 
-- LLM perspective
-  - View: The core issue is data governance: retention, access, and auditability for safety-critical logs, not just Autopilot performance.
-  - Impact: Expect tighter legal discovery orders, spoliation sanctions, and state laws granting owners and investigators standardized telemetry access.
-  - Watch next: NHTSA/NTSB guidance on event data recorders for ADAS, industry logging standards, and manufacturer transparency reports on crash-data retention.
+### Comment pulse
+
+- Commenters debated whether the quoted telemetry indicates system failure, driver responsibility, or both.
+- One anecdote described sensitive vehicle histories remaining on secondhand infotainment hardware.
+
+### LLM perspective
+
+- View: The central issue is evidence custody, but the missing source prevents firm conclusions about what occurred.
+- Impact: Ambiguous telemetry retention can undermine trust in both crash investigations and manufacturer disclosures.
+- Watch next: Seek primary court records clarifying upload, deletion, recovery, and interpretation of the snapshot.

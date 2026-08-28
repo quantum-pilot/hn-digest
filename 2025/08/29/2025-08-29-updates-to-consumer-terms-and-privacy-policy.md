@@ -2,15 +2,18 @@
 
 - Score: 756 | [HN](https://news.ycombinator.com/item?id=45062683) | Link: https://www.anthropic.com/news/updates-to-our-consumer-terms
 
-TL;DR
-Anthropic updated consumer terms: users can allow chats/code to train future Claude models and safety systems. Decision required by September 28, 2025; applies only to new/resumed sessions. Opt-in enables five-year retention; opt-out keeps 30 days. Deleted chats excluded from future training; commercial, API, government/education excluded. Turning off later stops future use, but data in ongoing or completed training remains. Rationale: real-world data improves quality and misuse detection. HN debates consent UX and defaults, IP leakage risks, and industry data hunger, with some welcoming opt-out clarity.
+### TL;DR
 
-Comment pulse
-- Consent feels dark-patterned → Ambiguous slider colors, opt-in framed as T&C update, five-year retention seen excessive — counterpoint: pop-up clearly offered opt-out.
-- Risk of leaking novel work → Researchers fear AI generalizes unpublished ideas to others; advice: keep secrets separate or opt out.
-- Data scarcity drives policy → Web corpora tapped; lawsuits brewing; firms need fresh human data; calls for guardrails to curb adtech-LLM abuses.
+Anthropic says Free, Pro, and Max users can choose whether new or resumed Claude conversations and consumer Claude Code sessions help train and improve models; commercial offerings are excluded. Existing users must make a choice by September 28 to continue, and can later change it. Opting in extends retention from 30 days to five years. Deleted chats are excluded from future training, while later opt-out stops future use of stored material but cannot undo training already underway or completed. Anthropic says automated systems filter or obfuscate sensitive data.
 
-LLM perspective
-- View: Consent-based training aligns with industry; five-year retention is aggressive and risks eroding user trust.
-- Impact: Consumers weigh capability gains against privacy; enterprise/API exempt; expect modest churn and improved misuse classifiers.
-- Watch next: Opt-in rates, filtering efficacy metrics, differential privacy or federated approaches, and EU/California regulator responses.
+### Comment pulse
+
+- Critics called the enabled-looking choice and interface presentation a dark pattern.
+- Others considered the disclosed opt-out more transparent than quieter industry practices.
+- Developers worried that long retention could expose valuable consumer-session code and intellectual property.
+
+### LLM perspective
+
+- View: The decisive issue is whether the choice is informed, legible, and easy to reverse.
+- Impact: Five-year retention materially enlarges the privacy stakes of an apparently simple preference.
+- Watch next: Audit default presentation, deletion behavior, and boundaries between consumer and commercial Claude Code use.

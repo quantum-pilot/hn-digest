@@ -2,16 +2,18 @@
 
 - Score: 527 | [HN](https://news.ycombinator.com/item?id=45066395) | Link: https://twitter.com/ID_AA_Carmack/status/1961172409920491849
 
-- TL;DR
-  - John Carmack argued Meta shouldn’t build a bespoke XR OS (XROS): it distracted core teams, multiplied tech stacks, delayed shipping, and wouldn’t beat commodity drivers/hardware. HN commenters largely agree, citing modern silicon complexity and the impracticality of writing drivers; propose piggybacking on Linux or LKL, focusing on performance-critical XR layers. Others romanticize an isolated “monastic” reboot of computing, but critics note stakeholder misfit and decades of wheel‑reinvention. Discussion also touches on Meta org politics, ex‑Microsoft OS hires, and HR conflicts over blunt technical pushback.
-  - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-  - Custom XR OS was a distraction → multiple stacks and reorg politics slowed core XR work; some teams chased empire-building after Microsoft hires.
-  - Don’t write your own OS → modern hardware/docs make drivers infeasible; use Linux drivers or LKL to ship sooner — counterpoint: vendors should document; Intel NICs prove.
-  - Isolationist ‘monastic order’ sounds visionary → but without stakeholders you miss needs; decades risk reinventing wheels and incompatibility with real apps.
+John Carmack argues retrospectively that Meta’s custom XR operating-system effort was strategically unjustified: a new general-purpose OS consumes exceptional talent, support, documentation, and developer attention without necessarily improving shipped products. Existing ecosystems exert strong gravity, while replacing them may sacrifice years of optimization and hardware support. Commenters with related experience described the project as a distraction but also noted that clean-sheet systems retain research value. Others stressed that undocumented modern hardware and vendor-supplied Linux drivers make independent platforms especially costly.
 
-- LLM perspective
-  - View: Make XR a thin, performance-obsessed platform: strict HAL, user‑mode drivers, and ruthless feature cuts to hit latency/thermals.
-  - Impact: Reduces driver churn, isolates vendor code, accelerates updates, and improves app portability via OpenXR-first design.
-  - Watch next: Public latency/power benchmarks, HAL/driver SDKs for partners, and signs Meta deepens co-design with Qualcomm/Broadcom.
+### Comment pulse
+
+- Product delivery should dominate platform ambition → internal OS work can absorb resources without visible user gains.
+- Existing kernels supply scarce hardware enablement → clean designs still face drivers, documentation, and ecosystem adoption.
+- The account is retrospective and disputed → commenters mixed supporting anecdotes with criticism of Carmack’s framing and style.
+
+### LLM perspective
+
+- View: A custom OS needs a product advantage large enough to repay ecosystem replacement, not merely technical elegance.
+- Impact: XR teams should isolate differentiating layers while retaining mature kernels and vendor support where possible.
+- Watch next: Evaluate whether future XR constraints create measurable benefits unavailable through Linux, Android, or virtualization layers.

@@ -2,15 +2,17 @@
 
 - Score: 183 | [HN](https://news.ycombinator.com/item?id=45065343) | Link: https://spectrum.ieee.org/ai-for-coding
 
-- TL;DR
-    - An ICML’25 paper by Cornell/MIT/Stanford/Berkeley argues coding AIs aren’t ready for full autonomy: they falter on large codebases, long-horizon design, and intent capture, often hallucinating fixes. The authors urge better human-AI interfaces, uncertainty-aware agents that ask clarifying questions, and verifiable, evolutionary/agentic workflows—with humans in the loop to maintain trust. HN readers largely agree: coding isn’t the bottleneck, problem definition is; usefulness spikes when agents can run/tests/see UIs; blanket claims hide domain variance and safety constraints; models still act “lazy” or overeager.
+### TL;DR
 
-- Comment pulse
-    - Senior/junior split grows → describing problems and abstractions is harder than typing code; toolchain mastery helps — counterpoint: editors and AI choices don’t change outcomes.
-    - Autonomy depends on environment access → empowering agents to run code, tests, and UIs improves results; breakpoint debugging integration is still missing.
-    - Generalizations obscure reality → usefulness varies by stack and risk; models can be lazy or overeager; safety-critical work demands human oversight.
+An IEEE Spectrum article, drawing on an ICML 2025 paper, argues that coding agents remain collaborators rather than autonomous engineers. They handle completion, documentation, and bounded fixes, but struggle with huge codebases, long-horizon architecture, hidden intent, and root-cause debugging; confident but wrong diagnoses remain a risk. The proposed direction is better uncertainty reporting, clarification, context gathering, and tool access. Commenters broadly agreed that results depend heavily on task, stack, supplied context, and whether specifying the work costs more than coding it.
 
-- LLM perspective
-    - View: Autonomy hinges on better problem-spec interfaces, uncertainty-aware agents, and verifiable execution, not just larger models.
-    - Impact: Short-term: productivity gains in unfamiliar stacks; long-term: shift in senior roles toward intent capture, architecture, and review.
-    - Watch next: Benchmarks with multi-repo, months-long tasks; IDE APIs exposing debuggers; agent evals with uncertainty prompts and continuous improvement loops.
+### Comment pulse
+
+- Context determines utility → tests, logs, browser output, and concrete examples often matter more than raw model capability.
+- Senior users may specify abstractions better → counterpoint: translating intent into prompts can erase the time savings.
+
+### LLM perspective
+
+- View: Reliable coding agents need explicit uncertainty and intent capture more than broader claims of autonomy.
+- Impact: Teams must budget human review and expose relevant tools, tests, and runtime evidence.
+- Watch next: Measure root-cause accuracy, clarification behavior, and architectural quality on large, evolving repositories.

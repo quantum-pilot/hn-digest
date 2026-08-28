@@ -2,15 +2,17 @@
 
 - Score: 377 | [HN](https://news.ycombinator.com/item?id=45065705) | Link: https://cse.buffalo.edu/faculty/atri/courses/coding-theory/book/web-coding-book.pdf
 
-- TL;DR
-  - A free, updated (2025) textbook by Guruswami, Rudra, and Sudan surveying coding theory from first principles to modern advances: linear and Reed–Solomon codes, classic bounds, Shannon capacity, list decoding, concatenation, expander and polar codes, locally recoverable codes, algorithms, and applications (hashing, group testing, complexity). Emphasis: redundancy vs. error-correction tradeoffs with efficient decoding. HN highlights foundations via Shannon’s accessible paper, links to compression/ML thinking, and pointers to companion texts; readers are enthusiastic about studying it.
+### TL;DR
 
-- Comment pulse
-  - Start with Shannon → entropy derived from axioms; accessible intro to information theory; he set the framework, not constructions.
-  - ML as compression → lossy representations enable generalization; lossless-compression thesis noted — counterpoint: unclear near-term payoff for current LLMs.
-  - Further reading → Erickson’s Algorithms; Peterson–Weldon for codes; Zariski–Samuel for algebra; commenters plan to read.
+This freely available 2025 edition of Essential Coding Theory develops error-correcting codes from foundations through constructions, decoding algorithms, and applications. Its progression covers Hamming and linear codes, probability and bounds, Reed–Solomon, list decoding, concatenated and expander codes, polar codes, locally recoverable codes, hashing, fuzzy vaults, group testing, and complexity, with exercises and bibliographic notes throughout. Commenters praised it as a substantial long-term study resource and suggested adjacent reading on Shannon, compression, algorithms, and classic coding-theory texts.
 
-- LLM perspective
-  - View: Coding theory formalizes redundancy, distance, and decoding; aligns with embeddings, regularization, and model compression.
-  - Impact: Better storage/network reliability and ML systems that communicate or compress intermediate representations robustly.
-  - Watch next: Practical list decoders, wider polar/LRC deployment, ML objectives explicitly tied to coding-theoretic distances and rates.
+### Comment pulse
+
+- The textbook rewards sustained study → readers highlighted its breadth, exercises, and accessible path into an established subject.
+- Compression invites modern connections → commenters debated lossless versus lossy interpretations of machine learning.
+
+### LLM perspective
+
+- View: Its value is the connected curriculum, linking mathematical limits, explicit constructions, algorithms, and applications.
+- Impact: Students can use one coherent reference instead of assembling fragmented notes across subtopics.
+- Watch next: Track edition updates and whether future chapters deepen compression-related applications.

@@ -2,15 +2,17 @@
 
 - Score: 345 | [HN](https://news.ycombinator.com/item?id=45063037) | Link: https://aresluna.org/the-day-return-became-enter/
 
-- TL;DR
-  - Return began as a physical lever; electrification turned it into a key. Teletypes split carriage return and line feed, creating CR/LF. Word processors added reflow, soft/hard returns, and Insert. Screen terminals/forms needed a submit action—Enter—while Apple stuck with Return and IBM PCs popularized Enter. PCs codified both names, but software now overloads behavior: newline vs submit varies by context (Shift/Ctrl/Alt+Enter). The essay shows how overlapping eras and standards left lasting ambiguity in one oddly shaped key.
+### TL;DR
 
-- Comment pulse
-  - IBM PC “Enter” wasn't a rename → many Model F/AT keys carried both ↵ (Return) and Enter; earlier terminals had separate keys and Tab/Back‑Tab symbols.
-  - Use FS/RS instead of TAB/CRLF → sounds neat, but FS/RS came from polled teletypes; editing semantics would be worse — counterpoint: could simplify drivers.
-  - Legacy practice persists → some networks mandated CR CR LF; mainframes distinguished newline vs hard Submit, echoed by Excel’s Enter vs Alt+Enter.
+Marcin Wichary traces how a physical typewriter carriage-return lever became a keyboard command with overlapping meanings. Electrification reduced the required effort; teletypes split carriage return from line feed because the carriage moved slowly, leaving today’s line-ending legacy. Word processors then separated automatic text wrapping from deliberate paragraph or line breaks, while interactive computers needed another action to submit data. “Return” and “Enter” consequently accumulated different labels and functions across IBM, Apple, terminal, and PC designs rather than changing on one identifiable day.
 
-- LLM perspective
-  - View: Ambiguity is now UX, not hardware: one key maps to newline or submit; modifiers vary across apps.
-  - Impact: Impacts editors, chat clients, terminals, and accessibility; inconsistent behavior slows users and causes costly mistakes in forms or chats.
-  - Watch next: Standardize per‑app toggles (“Enter sends” vs “adds newline”), expose keypad Enter separately, and normalize line endings in tools by default.
+### Comment pulse
+
+- Readers refined the history with IBM PC key overloading and slow-teleprinter CR/CR/LF behavior.
+- Discussion noted that numeric-keypad Enter can remain technically distinct from the main Return key.
+
+### LLM perspective
+
+- View: The key’s ambiguity is layered compatibility, not merely inconsistent terminology.
+- Impact: Messaging and form interfaces still inherit a hardware-era collision between newline and submission.
+- Watch next: Interface designers should make modifier behavior and destructive submission consequences visibly predictable.

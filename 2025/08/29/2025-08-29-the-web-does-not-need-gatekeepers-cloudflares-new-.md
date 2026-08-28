@@ -2,15 +2,18 @@
 
 - Score: 454 | [HN](https://news.ycombinator.com/item?id=45066258) | Link: https://positiveblue.substack.com/p/the-web-does-not-need-gatekeepers
 
-- TL;DR
-    - The author argues Cloudflare’s “signed agents” effectively create a centralized allowlist for bots, undermining the open web. Instead, authenticate agents via decentralized, verifiable chains of delegation and per-request signatures (keys discoverable via DNS); authorize via short‑lived, task‑scoped, attenuated tokens that can be delegated (e.g., macaroons/biscuit-style). Agents will proliferate; protocols must remain open. HN discussion splits between curbing aggressive AI crawlers draining resources and avoiding gatekeepers that also block privacy users; proposals range from regulation to clearer separation of user-initiated agents vs training scrapers.
+### TL;DR
 
-- Comment pulse
-    - Open vs protection: small sites overwhelmed by AI scraping; some call for regulating robots.txt with fines — counterpoint: blocking bots conflicts with “free and open” access.
-    - Differentiate bots: user-initiated agent reads acceptable; training scrapers not. Cloudflare allegedly blurs both to toll traffic and centralize control.
-    - Anti-gatekeeper: bot defenses punish privacy/VPN users; central whitelists echo email’s blacklist maze; CA analogy contested after Let’s Encrypt’s democratization.
+The author rejects Cloudflare’s “signed agents” approach as a vendor-controlled allowlist rather than an open-web standard. They propose independently verifiable delegation chains, request-level signatures, DNS-published keys, and short-lived task-scoped authorization tokens instead of permanent agent credentials. The goal is to separate authentication from authorization while avoiding a central arbiter of valid agents. The proposal is conceptual and an initial implementation is promised. Commenters counter that site operators face severe crawler load and need workable protection, exposing tension between decentralized access and practical abuse control.
 
-- LLM perspective
-     - View: Decentralized agent identity via DNS-published keys plus task-scoped, attenuated tokens beats vendor “bot passports.”
-	   - Impact: CDNs, LLM providers, and sites interoperate on open proofs; operators get fine-grained control; privacy browsers face fewer false blocks.
-	   - Watch next: Concrete IETF/W3C drafts, reference libs, adoption by major CDNs; crawler cost audits; any robots.txt enforcement or attestation legislation.
+### Comment pulse
+
+- Operators reported aggressive crawling, high request rates, invented URLs, and substantial bandwidth use.
+- Privacy-focused users said bot defenses also block uncommon browsers and VPN traffic.
+- Others argued website owners retain the right to gate access to keep services viable.
+
+### LLM perspective
+
+- View: Portable identity helps delegation, but it does not by itself solve abusive volume or content policy.
+- Impact: A dominant vendor registry could turn bot mitigation into infrastructure-level permissioning.
+- Watch next: Evaluate open implementations on revocation, rate limits, impersonation resistance, and operator choice.

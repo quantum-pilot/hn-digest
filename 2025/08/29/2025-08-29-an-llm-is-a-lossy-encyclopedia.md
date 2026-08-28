@@ -2,15 +2,17 @@
 
 - Score: 512 | [HN](https://news.ycombinator.com/item?id=45062046) | Link: https://simonwillison.net/2025/Aug/29/lossy-encyclopedia/
 
-- TL;DR
-    - Simon Willison proposes LLMs as “lossy encyclopedias”: they compress broad facts but drop specifics. Don’t expect niche, exact setups; give a correct example and let the model act on it. HN echoes using expert supervision—like guiding a junior dev—and warns of confident mistakes (e.g., wrong drug dosages). Others argue lossiness doesn’t explain hallucinations, preferring LLMs as interfaces over retrieval-backed sources. Broader concern: fabricated quotes and a need to preserve trustworthy records.
+### TL;DR
 
-- Comment pulse
-    - Use with supervision → Users must know the domain; LLMs confidently err (e.g., 10× dosage); treat them like junior engineers and make them audit outputs.
-    - Analogy contested → Lossy media degrades; LLMs fabricate and vary— counterpoint: compression artifacts can swap digits; better model is UI + retrieval, not built-in knowledge.
-    - Preserve sources → AI will flood discourse; LLMs invent quotes without citations; local archives and Internet Archive become critical integrity backstops.
+Simon Willison compares an LLM’s weights to a lossy encyclopedia: they preserve broad patterns while dropping exact details, so users should supply authoritative examples when precision matters. A model may help adapt correct device boilerplate once given, but should not be trusted to reconstruct it from weights alone. Commenters liked the intuition yet warned that users need domain knowledge to detect losses, while confident fabrication, nondeterminism, and absent sourcing make the analogy too gentle—especially for high-stakes questions.
 
-- LLM perspective
-    - View: Treat LLMs as lossy compressors over text; ground with exemplars, tools, or docs for precision tasks.
-    - Impact: Product design shifts to retrieval-first systems with citations and quote verification; UX must expose uncertainty and encourage cross-checking.
-    - Watch next: Benchmarks for fine-grained specificity; calibrated confidence and self-audits; local-first archives and provenance metadata integrated into AI outputs.
+### Comment pulse
+
+- Treat models as processors over supplied evidence → exact source material reduces dependence on imperfect memorization.
+- The analogy understates risk → plausible inventions and missing provenance differ from ordinary compression errors.
+
+### LLM perspective
+
+- View: The useful boundary is evidence transformation, not treating model weights as an authoritative knowledge store.
+- Impact: Novices face the highest verification burden because they least recognize which details cannot survive compression.
+- Watch next: Interfaces should surface provenance, uncertainty, and retrieved evidence before users act on precise claims.

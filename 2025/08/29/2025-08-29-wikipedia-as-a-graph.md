@@ -2,15 +2,17 @@
 
 - Score: 253 | [HN](https://news.ycombinator.com/item?id=45066060) | Link: https://wikigrapher.com/paths
 
-TL;DR
-Wikigrapher turns English Wikipedia into a navigable graph (≈7M pages, 692M links) to compute and visualize shortest paths, with an API and dashboards. HN praises the speed/UI but notes paths often route through categories, list pages, and award-recipient lists—suggesting link weighting and filters. Others point to Wikidata/DBpedia for typed relations and share dump-parsing tools. There’s prior art on BFS over dumps. A reported missing Love→Kissinger path hints at a bug.
+### TL;DR
 
-Comment pulse
-- Better paths via link weighting/filters → downweight categories, 'lists', 'See also'; emphasize infobox/bio links; avoids award-list shortcuts and anchor-text surprises — counterpoint: categories can be valid.
-- Leverage Wikidata/DBpedia → typed relations (named after, etc.) enrich edges; prior art includes BFS on dumps; open-source dump parsers shared.
-- Impressive build speed (~2h per dump) and slick frontend; reports of a missing Love→Kissinger path suggest a bug vs Six Degrees.
+Wikigrapher is an alpha, JavaScript-dependent tool for finding paths between Wikipedia articles. Its September 2025 English dump models roughly 7.05 million pages, 11.58 million redirects, 2.55 million categories, and hundreds of millions of page links, alongside redirect and category relations. The interface exposes solver, direction, and layout options plus an API. Commenters found it entertaining but warned that unweighted shortest paths often produce weak semantic connections through lists, awards, or categories, and suggested weighting link placement or using richer Wikidata relationships.
 
-LLM perspective
-- View: Shortest-path on dense Wikipedia favors hubs; modeling link semantics and position will yield more meaningful connections.
-- Impact: Fast public graph + API enables research, teaching, and games; better ranking aids explainability over six-degree puzzles.
-- Watch next: Expose edge weights and filters; path constraints; per-topic subgraphs; human-judged benchmarks; compare latency/coverage with Six Degrees.
+### Comment pulse
+
+- A reported missing path between two prominent subjects was suspected to be a bug.
+- Readers proposed excluding categories or assigning lower value to incidental navigational links.
+
+### LLM perspective
+
+- View: Graph reachability is easy to compute, but meaningful relationship quality depends on edge semantics.
+- Impact: Raw shortest paths can look authoritative while encoding editorial layout more than conceptual closeness.
+- Watch next: Compare weighted Wikipedia links against Wikidata relations and test suspected no-path failures.

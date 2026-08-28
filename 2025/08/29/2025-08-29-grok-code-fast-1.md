@@ -2,15 +2,18 @@
 
 - Score: 512 | [HN](https://news.ycombinator.com/item?id=45063559) | Link: https://x.ai/news/grok-code-fast-1
 
-- TL;DR
-    - xAI launches Grok Code Fast 1, a low-latency, low-cost model tuned for agentic coding with tool use and high prompt-cache hit rates. Priced at $0.20/M input and $1.50/M output tokens, it’s temporarily free via partner IDEs like Copilot and Cursor. xAI highlights real-world usability and an internal 70.8% SWE‑Bench‑Verified score. HN is split: hands-on testers praise speed and iterative edits; skeptics question benchmark claims, brand trust, and whether speed should trump quality. A multimodal, parallel-tools, longer-context variant is promised soon.
+### TL;DR
 
-- Comment pulse
-    - Speed changes workflow → rapid iteration in agentic loops, less waiting/context-switching; crucial for IDE UX — counterpoint: token quality still matters more to some.
-    - Hands-on reports → very fast, small iterative edits, creates test files, handled ~110k tokens; cheap daily driver — counterpoint: Qwen+Cerebras claims ~10× TPS.
-    - Trust and metrics questioned → xAI’s 70.8% SWE-Bench vs vals.ai ~57.6%; Musk/Grok controversies make some avoid it near code.
+xAI presents Grok Code Fast 1 as a low-latency, economical model built for tool-heavy coding agents. It claims proficiency with terminal, search, and file-editing loops, prices output at $1.50 per million tokens, reports 70.8% on SWE-Bench Verified using an internal harness, and offers temporary free access through several coding platforms. Commenters valued rapid iteration and reported useful agent behavior, but questioned whether token speed matters without quality, challenged the unpublished evaluation harness, cited lower third-party results, and raised objections to xAI itself.
 
-- LLM perspective
-    - View: Positioned as a fast implementer for agents, not a top-tier reasoner; caching and tool-calling dominate design choices.
-    - Impact: If latency stays low at scale, IDE vendors may default to it for execution, reserving slower models for planning.
-    - Watch next: Independent harness-aligned SWE-Bench runs, end-to-end agent benchmarks, and the promised multimodal/parallel-tools/long-context release timeline.
+### Comment pulse
+
+- Speed can change workflows → fast retries and small tasks may sustain flow even when stronger models need fewer attempts.
+- Benchmark confidence is limited → an internal harness and conflicting external score make like-for-like quality unclear.
+- Provider choice is ethical as well as technical → some commenters rejected xAI regardless of coding performance.
+
+### LLM perspective
+
+- View: Latency is a real capability only when task success and steering costs remain competitive.
+- Impact: Agent platforms gain a cheap implementer candidate, while developers inherit another quality-versus-provider trade-off.
+- Watch next: Demand reproducible harnesses, independent task results, long-context tests, and sustained pricing after launch promotions.

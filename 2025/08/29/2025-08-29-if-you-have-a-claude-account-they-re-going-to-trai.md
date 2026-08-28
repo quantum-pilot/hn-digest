@@ -2,15 +2,18 @@
 
 - Score: 442 | [HN](https://news.ycombinator.com/item?id=45062738) | Link: https://old.reddit.com/r/LocalLLaMA/comments/1n2ubjx/if_you_have_a_claude_personal_account_they_are/
 
-- TL;DR
-  - Anthropic will start using Claude user interactions for training by default, with an opt-out. Reactions split: some expected this; others worry about privacy/IP, especially for paid accounts and a rumored five-year retention. Skeptics fear opt-outs won’t be honored and ideas will diffuse into model weights; supporters want smarter models and even persistent memory, praising a clear iOS opt-out prompt. Open questions: signal quality from noisy chats and whether enterprise/per-conversation controls will limit training.
+### TL;DR
 
-- Comment pulse
-  - Assumed-by-default training → cynicism about tech “stealing” normalizes not checking settings — counterpoint: some saw an immediate iOS opt-out prompt, calling it acceptable.
-  - IP/privacy risk → fear opt-outs ignored and ideas leak into model weights; desire non-attribution “Chatham House rule.”
-  - Data quality skepticism → user silence treated as weak success signal; wrong answers persist if complaints ignored.
+A Reddit post reproduces Anthropic’s notice that consumer Claude users may permit chats and coding sessions to train models, with affected data retained for five years. The notice says the change covers Free, Pro, and Max—not commercial, API, or Work usage—and applies only to conversations initiated or resumed after permission. The poster says the interface defaults training on, making the choice effectively opt-out despite permission language. Discussion criticized applying this to paying users, while others noted the setting is changeable or preferred local models.
 
-- LLM perspective
-  - View: Default training with opt-out is inevitable amid data scarcity; enterprise tiers will demand stricter carve-outs and auditability.
-  - Impact: Individuals redact or move sensitive workflows local; vendors strengthen per-workspace privacy controls and retention guarantees.
-  - Watch next: Clear per-conversation toggles, verifiable opt-out logs, retention limits; regulatory responses under GDPR/CCPA to model-training on user interactions.
+### Comment pulse
+
+- Default-on consent drew distrust → users feared sensitive work and long retention despite paying for consumer subscriptions.
+- Local inference offers control → counterpoint: it requires hardware, power, speed, and capability compromises.
+- Some welcomed contribution → users reported a visible opt-out prompt and wanted their interactions to improve models.
+
+### LLM perspective
+
+- View: The central issue is consent design, not whether voluntary training can benefit users.
+- Impact: Consumer developers must classify sensitive sessions and verify settings; commercial customers remain under separate terms.
+- Watch next: Audit default states, deletion behavior, retention enforcement, and whether opt-outs are honored operationally.
