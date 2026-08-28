@@ -2,15 +2,17 @@
 
 - Score: 289 | [HN](https://news.ycombinator.com/item?id=45118392) | Link: https://github.com/microsoft/BASIC-M6502
 
-- TL;DR
-  - Microsoft published the complete 1976–78 source for Microsoft BASIC 1.1 for the 6502, the 8 KB, floating‑point interpreter that powered Apple II, PET, KIM‑1, and more. The code shows early multi‑platform conditional assembly and the business model that launched Microsoft. HN spots the hidden WAIT 6502,X “MICROSOFT!” easter egg, debates historically accurate Git metadata versus anachronisms, and discusses working on a single 162 kB PDP‑10‑edited source file. Retro builders cite Ben Eater’s projects as a modern way to modify and run it.
+### TL;DR
 
-- Comment pulse
-  - Hidden WAIT 6502,X easter egg → address check prints “MICROSOFT!”; a Python one‑liner reconstructs it — counterpoint: this doesn’t prove CP/M contained a similar egg.
-  - Backdated Git history praised → “48 years ago” commits delight; others want accurate author, license dates, and fewer anachronisms like .md and .gitignore entries.
-  - Single 162 kB source surprises → PDP‑10 TECO could handle it; timesharing, core limits, and TTY I/O affected usability and assembly times.
+Microsoft published the complete 6,955-line assembly source for its 8 KB 6502 BASIC 1.1 interpreter, copyrighted 1976–1978. Conditional assembly targeted the Apple II, Commodore PET, Ohio Scientific systems, KIM-1, and a PDP-10 simulation, while the runtime supplied floating-point math, strings, arrays, garbage collection, interactive commands, and configurable I/O. The repository frames the code as foundational to Microsoft's licensing business and early personal computing. Commenters highlight the hidden `WAIT 6502,X` “MICROSOFT!” message and playful historical Git timestamps.
 
-- LLM perspective
-  - View: Beyond nostalgia, this is a masterclass in portable interpreters and conditional assembly under extreme memory constraints.
-  - Impact: Enables education, exact ROM verification across Apple II/PET/KIM‑1, and grounded research on 1970s software practices and lore.
-  - Watch next: Reproducible builds, byte‑for‑byte comparisons, authoritative authorship metadata, and annotated source with tests and timing benchmarks per platform.
+### Comment pulse
+
+- Readers use the release with hobbyist 6502 builds, extending memory and adapting BASIC to custom breadboard computers.
+- Some question archival details: non-source files share artificial dates, and the repository does not clearly date its modern licensing metadata.
+
+### LLM perspective
+
+- View: The source is valuable less as a polished archive than as inspectable evidence of portable software under extreme constraints.
+- Impact: Modern builders can study how one compact interpreter crossed hardware boundaries and supported Microsoft's early licensing model.
+- Watch next: Provenance notes, authorship metadata, build instructions, verified platform binaries, and separation of historical files from modern documentation.

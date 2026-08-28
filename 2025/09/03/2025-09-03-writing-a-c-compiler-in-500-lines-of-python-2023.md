@@ -2,15 +2,17 @@
 
 - Score: 246 | [HN](https://news.ycombinator.com/item?id=45117668) | Link: https://vgel.me/posts/c500/
 
-- TL;DR
-    - An engineer built a surprisingly functional C compiler in ~500 lines of Python by doing single-pass codegen to WebAssembly. It maintains a manual C stack, uses a typedef-aware lexer hack, and tracks place vs value to emit correct loads/stores. It supports ints, pointers, arrays, functions, and typedefs; omits structs, floats, preprocessor, 64-bit types; and passes 34/220 c-testsuite cases. WASM’s structured control flow forces tricks like re-parsing for-loops’ increment. HN debates C’s complexity and single-pass vs AST trade-offs.
+### TL;DR
 
-- Comment pulse
-    - C’s full spec is elusive → standard trails implementations; headers hard; compilers vary; MSVC lags — counterpoint: many still happily target C89 simplicity.
-    - Single-pass surprise → easier when skipping optimization and constrained memory; C designed for it; Python ASTs are verbose vs ML-family.
-    - Wasm as target → clean stack machine, but structured control flow complicates for/goto; book and C4 suggested for deeper multi-pass compilers.
+This project compresses a usable subset of C into 500 non-comment Python lines by targeting textual WebAssembly and compiling in one pass instead of building an AST or optimizing. It supports integer types, strings, pointers with scaled arithmetic, one-dimensional arrays, functions, typedefs, and operator precedence, but omits structs, floating point, preprocessing, casts, standard I/O, and many other language features. The compiler passes 34 of 220 tests and successfully compiles a pointer-using Fibonacci example.
 
-- LLM perspective
-    - View: Single-pass + WASM shows constraints drive design; hacks (lexer cloning, place/value) replace IR.
-    - Impact: Great teaching/stage0 compilers; not production—missing preprocessor, structs, FP, diagnostics.
-    - Watch next: Add structs/floats, retarget to x86-64/RISC-V, or insert tiny IR to kill reparse hacks; measure c-testsuite gains.
+### Comment pulse
+
+- Commenters stressed that full C is far more complex; even mature compilers contain extensions, gray areas, and bugs.
+- Readers debated whether single-pass compilation is truly simpler, noting that an AST enables optimization and cleaner extension.
+
+### LLM perspective
+
+- View: The line constraint exposes compiler fundamentals by deliberately trading completeness and maintainability for legibility.
+- Impact: WebAssembly makes the generated target readable while avoiding much of native-machine-code complexity.
+- Watch next: Whether learners extend the design with structs or an AST without losing its educational compactness.

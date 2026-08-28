@@ -2,15 +2,17 @@
 
 - Score: 277 | [HN](https://news.ycombinator.com/item?id=45114498) | Link: https://blog.frost.kiwi/dual-kawase/
 
-TL;DR
-Walkthrough of real-time blur methods in WebGL, from box and Gaussian to Dual Kawase. It explains kernels, UV sampling, texture taps, performance costs, edge handling, and artifacts from increasing sample distance. Dual Kawase achieves wide-radius, bloom-friendly blur by iteratively downsampling and upsampling with small kernels, leveraging bilinear filtering to minimize bandwidth—ideal for UI and mobile. HN praised the interactive demos; flagged proper Gaussian weighting via integration for small sigmas; debated bokeh DOF vs Gaussian, with the author noting Kawase still wins at high resolutions.
+### TL;DR
 
-Comment pulse
-- Gaussian weights need integral over pixel area → erf-based coefficients avoid bias at small radii.
-- Modern GPUs enable bokeh DOF looks more natural → disk-shaped aperture better matches human vision — counterpoint: DK remains efficient, especially on mobile and 4K.
-- Compute-shader blur without textures sought → shared-memory pipeline avoids DRAM, but Kawase’s odd sample positions fight subgroup intrinsics limited to even lanes.
+This interactive WebGL tutorial develops real-time blur from first principles, beginning with box and Gaussian kernels and previewing Dual Kawase blur. It explains texture taps, UV coordinates, kernel normalization, edge handling, sampling distance, and the artifacts created when sparse samples cover too much image area. Performance is central: naive large kernels can quickly overwhelm GPUs. However, the captured article truncates during its Gaussian section, so the promised Dual Kawase implementation is represented only by the introduction and subsequent comment discussion.
 
-LLM perspective
-- View: Dual Kawase is a smart bandwidth hack: pyramid passes trade taps for resolution, exploiting bilinear hardware.
-- Impact: Best-fit for bloom, frosted glass, and GUIs on mobile/VR; full-frame Gaussian remains expensive at 4K+.
-- Watch next: Benchmark DK vs separable Gaussian and compute-shader variants; test cache sensitivity, subgroup tricks, and HDR precision on iOS/Android.
+### Comment pulse
+
+- Readers praised the interactive comparisons; one noted that small-radius Gaussian kernels need integrated rather than point-sampled weights.
+- Discussion contrasted Kawase with more natural bokeh and explored compute-shader variants that keep intermediate data in shared memory.
+
+### LLM perspective
+
+- View: The tutorial’s real contribution is connecting visual artifacts directly to sampling and memory costs.
+- Impact: Interactive side-by-side tests make graphics tradeoffs legible to readers without prior shader experience.
+- Watch next: Compute-shader approaches that preserve Kawase efficiency while avoiding off-chip intermediate writes.

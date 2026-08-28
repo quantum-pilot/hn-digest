@@ -2,15 +2,17 @@
 
 - Score: 268 | [HN](https://news.ycombinator.com/item?id=45120050) | Link: https://pluralistic.net/2025/09/03/unpunishing-process/
 
-- TL;DR
-    - Doctorow slams Judge Amit Mehta’s post‑verdict remedy in the DOJ’s Google search case: no breakup, choice screens, or data deletion—just data‑sharing with rivals. He argues this entrenches Google, spreads surveillance, and is unenforceable via a broad “sensitive” carveout after an opaque trial. Apple’s $20B/year default deal and Google’s Android/Chrome integrations go largely untouched. HN debates wealth concentration, the legitimacy of Apple‑Google defaults, ad‑supported expectations, and calls for structural remedies, disgorgement, and personal penalties.
+### TL;DR
 
-- Comment pulse
-    - Money/power capture; enforce antitrust, break up giants — counterpoint: wealth alone isn't anti-democratic; Europe has billionaires.
-    - Apple-Google default deal: critics call exclusionary; defenders say Apple preferred best search anyway; $20B discouraged Apple building search.
-    - Remedies/transparency: behavioral conditions unenforceable; demand breakups, data disgorgement, executive fines; trial secrecy criticized, release remedies-hearing transcripts.
+Cory Doctorow argues that Judge Amit Mehta’s remedy for Google’s illegal search monopoly preserves the conduct that matters most: Google keeps Chrome and Android, avoids an Android choice screen, and can continue paying for default placement. The order instead requires sharing some search data with rivals. Doctorow sees that as either extending privacy harms or inviting years of litigation over sensitive-data exceptions and malicious compliance. He favors structural separation because behavioral restrictions are difficult to monitor and enforce.
 
-- LLM perspective
-    - View: Data-sharing without deletion or divestitures rewards surveillance and invites malicious compliance; it won’t create durable search competition.
-    - Impact: Google’s moat persists; rivals litigate over “sensitive” scope; users’ data proliferates to more parties, compounding breach risks.
-    - Watch next: Whether DOJ appeals; compliance audits; EU DMA enforcement on defaults and data combining despite reported softening on adtech fines.
+### Comment pulse
+
+- Commenters disputed whether Apple would choose Google regardless and whether default payments were truly exclusionary.
+- Several favored a breakup, arguing piecemeal behavioral remedies create weak deterrence and prolonged enforcement fights.
+
+### LLM perspective
+
+- View: Doctorow’s strongest point is institutional: complex behavioral remedies depend on unusually capable, persistent enforcement.
+- Impact: Rival access to search data could aid competition while creating a new privacy and compliance battleground.
+- Watch next: How courts define shareable data and whether default-payment contracts meaningfully change in practice.

@@ -2,15 +2,17 @@
 
 - Score: 205 | [HN](https://news.ycombinator.com/item?id=45111273) | Link: https://larstofus.com/2025/09/02/speeding-up-the-unreal-editor-launch-by-not-spawning-38000-tooltips/
 
-- TL;DR
-    - An Unreal dev found the editor eagerly instantiates ~38k tooltip widgets during startup—spending up to 2–5s (debug) and ~40 MB RAM for UI you won’t see. Fix: defer creation—store FText on SetToolTip, build the widget on GetToolTip when hovered. Runtime impact is negligible (≤0.05 ms; one tooltip per frame). A PR implements this, and closing Settings/Preferences lowers counts further. HN echoes the pattern: lazy-init UI beats prebuilding components, and routine audits catch excessive call counts.
+### TL;DR
 
-- Comment pulse
-    - UE slows small-team iteration → heavy editor, Blueprint pain; AngelScript helps — counterpoint: with experience, UE productive; Unity easier but pricing worries.
-    - Audit hot libraries regularly → invocation counts often dominate; flame charts misattribute; big wins from reducing unnecessary calls.
-    - Lazy UI pays off → render tooltips/modals on demand or via single global instance/portal to cut idle cost; first-use may be slower.
+Profiling revealed Unreal Editor eagerly constructed roughly 38,000 tooltip widget trees for a simple project, consuming about 40 MB and adding two to five seconds in debug builds or just under one second in development builds. The proposed patch stores tooltip text and creates a widget only when requested, where a single creation costs about 0.05 milliseconds. An update found around 20,000 tooltips came from two optional open panels—project settings and editor preferences—so layouts materially affect the result.
 
-- LLM perspective
-    - View: Classic lazy-init win: store FText, instantiate tooltip on hover; avoids 38k widgets and RAM at startup.
-    - Impact: Faster editor launch, lower baseline memory; best for users with Settings/Preferences closed and lighter default layouts.
-    - Watch next: UE merge PR, measure cold-start delta across SKUs; audit other eager widget patterns; add engine-wide lazy tool/tooltip factories.
+### Comment pulse
+
+- Readers generalize the lesson: inspect invocation counts, not only expensive individual calls, because tiny costs compound across ubiquitous abstractions.
+- Unreal users contrast its immense feature set and visual capabilities with slower iteration and developer experience than smaller engines.
+
+### LLM perspective
+
+- View: Laziness fits tooltips perfectly because potential UI inventory is enormous while human attention remains strictly serial.
+- Impact: A contained allocation change can reduce startup time and memory without shifting noticeable latency into normal interaction.
+- Watch next: Epic's pull-request decision, measurements across layouts and plugins, first-hover latency, caching, and similar eager widget construction.

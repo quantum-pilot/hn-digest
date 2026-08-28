@@ -2,15 +2,17 @@
 
 - Score: 383 | [HN](https://news.ycombinator.com/item?id=45117230) | Link: https://github.com/nukeop/nuclear
 
-- TL;DR
-  - Nuclear is an AGPL desktop player that streams music from free sources (YouTube, SoundCloud, Jamendo, Audius) with playlists, scrobbling, lyrics, and SponsorBlock, no accounts/ads. The current Electron app is largely unmaintained; a rewrite (nuclear-xrd) switches to Tauri and Rust, adds auto‑updates, theming, and a plugin system. HN reactions mix amusement at edgy testimonials/LLM jokes with concerns: high RAM use, playback failures, and JavaScript errors. Some report success via different providers/playlists. Several want an open-source client that fronts major paid services.
+### TL;DR
 
-- Comment pulse
-  - Anti-artist vibe hurts project → homepage highlights a musician condemning it; README includes LLM gag—counterpoint: some find the irreverence funny and on-brand.
-  - Electron bloat is real → users report ~300MB at startup; others say acceptable and rewrite to Tauri/Rust should cut footprint.
-  - Unreliable playback → many songs fail with JS errors; some succeed by switching providers or using playlists, highlighting brittle scrapers.
+Nuclear is an AGPL desktop player that searches and streams music from free online sources including YouTube, Jamendo, Audius, and SoundCloud, combining queues, playlists, downloads, lyrics, scrobbling, local files, discovery, and SponsorBlock without accounts or ads. Its current Electron version is explicitly unmaintained and expected to break; a rewrite promises Tauri, Rust for intensive work, automatic core and plugin updates, theming, and more providers. Commenters confirm unreliable playback and JavaScript errors, debate memory use, and question the project's provocative attitude toward musicians.
 
-- LLM perspective
-  - View: The rewrite’s Tauri+Rust+plugins path is sensible to reduce resource use and isolate fragile provider integrations.
-  - Impact: Lower memory and auto-updates could revive desktop adoption; plugin ecosystem attracts contributors; legal friction with YouTube-like sources may persist.
-  - Watch next: nuclear-xrd alpha builds, playback reliability metrics, CPU/RAM benchmarks versus Electron, provider coverage breadth, and moderation/governance choices.
+### Comment pulse
+
+- Several testers could not play search results until changing providers or using playlists, reinforcing the repository's maintenance warning.
+- Readers want an open client for paid major services too, separating player quality from the company receiving subscription revenue.
+
+### LLM perspective
+
+- View: Aggregating unstable free sources is attractive but turns provider churn into the project's central maintenance obligation.
+- Impact: A plugin-based rewrite could isolate breakage, though source reliability and creator-compensation concerns remain product constraints.
+- Watch next: Rewrite releases, provider success rates, migration path, resource use, plugin safety, licensing, and sustainable maintainer capacity.

@@ -2,15 +2,17 @@
 
 - Score: 448 | [HN](https://news.ycombinator.com/item?id=45114245) | Link: https://microsoft.github.io/VibeVoice/
 
-- TL;DR
-    - Microsoft’s VibeVoice is an open-source TTS framework for expressive, long-form, multi-speaker audio. It uses ultra-low-rate (7.5 Hz) acoustic/semantic tokenizers and a next-token diffusion design—LLM for context, diffusion head for fidelity—to scale to 90‑minute, 4‑speaker conversations. After release, the repo was disabled due to misuse concerns. HN listeners praised cross‑lingual switching and easy voice cloning, but many heard robotic artifacts—especially male voices—plus odd background‑music and weak singing; some prefer other free models like Chatterbox and note YouTube‑style TTS rivals.
+### TL;DR
 
-- Comment pulse
-    - Quality feels synthetic, especially male voices → intonation off; 'saw‑tooth/warbly/mp3‑compressed' artifacts. — counterpoint: some hear convincing female voices and call it the best free option.
-    - Notable strengths: code‑switching and easy voice cloning → cross‑lingual demo impresses; cloning "just works." Weaknesses: poor singing; background music framed as a feature.
-    - Repo takedown frustrates users → project disabled for misuse; commenters seek code/weights, note MIT-licensed copies, and question whether yanking achieves real damage control.
+Microsoft Research describes VibeVoice as a long-form, multi-speaker text-to-speech framework combining low-rate acoustic and semantic tokenizers, a language model for dialogue flow, and a diffusion head for audio detail. The project claims generation lasting up to 90 minutes with as many as four speakers, plus cross-lingual and podcast-like output. A September 5 update says the repository was disabled after out-of-scope use while misuse protections are reconsidered, limiting independent evaluation of those claims.
 
-- LLM perspective
-    - View: The architecture optimizes sequence length; perceived quality gaps likely from vocoder/timbre modeling and prosody control, especially for male timbres.
-    - Impact: If stabilized, enables automated podcasting, audiobooks, and multilingual agents; guardrails and watermarking needed to mitigate impersonation and policy risk.
-    - Watch next: Independent MOS/AB tests versus ElevenLabs, PlayHT, and Chatterbox; gender‑segmented scores; release/relensing status; artifact fixes in vocoder and background‑mix handling.
+### Comment pulse
+
+- Listeners praised cross-language switching and cloning but frequently reported warble, robotic intonation, weak male voices, and poor singing.
+- Commenters questioned whether already copied MIT-licensed code could be recalled and why the repository and weights were removed.
+
+### LLM perspective
+
+- View: Long context is valuable, but listener reports suggest duration and naturalness remain separate achievements.
+- Impact: Repository withdrawal interrupts reproducibility precisely when outside testing could clarify capability and failure modes.
+- Watch next: Whether Microsoft restores access with concrete safeguards and publishes quality evaluations across speakers and languages.

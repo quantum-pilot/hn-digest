@@ -2,15 +2,17 @@
 
 - Score: 436 | [HN](https://news.ycombinator.com/item?id=45110688) | Link: https://www.brendanlong.com/cpu-utilization-is-a-lie.html
 
-- TL;DR
-  - The article shows reported %CPU understates real saturation: on a 12-core/24‑thread Ryzen, “50%” often equals 60–100% of max work (matrix/Nginx nearly saturated). Nonlinearity comes from SMT resource sharing and Turbo down-clocking; scheduling also skews results. Practical takeaway: model capacity with throughput/latency benchmarks and SLOs, not raw %CPU. HN adds that utilization is valid but misused for capacity; memory bandwidth, caches, locks, and burstiness matter; queueing theory suggests conservative headroom (≈40–60%); IPC/stall counters help but are hard to action.
+### TL;DR
 
-- Comment pulse
-  - Utilization isn’t a lie → It measures busy time; nonlinear capacity comes from SMT/turbo, memory/cache/locks, and burstiness—counterpoint: %CPU suggests linearity and misleads capacity planning.
-  - Apply queueing theory with headroom → Latency spikes near saturation; many cap production at ~40–60% CPU for user-facing services.
-  - Look beyond %CPU → Inspect IPC, stalls, short-window profiles; hyperthreading rarely doubles throughput (typical 15–30%, occasionally higher on memory-bound workloads).
+Reported CPU percentage is busy time, not a linear measure of remaining throughput. On a 12-core, 24-thread Ryzen 5900X, the author's stress tests found 50% reported utilization could already represent 60–65% of general compute, 65–85% of integer capacity, and 80–100% of matrix or Nginx throughput. SMT adds shared threads rather than full cores, while turbo frequency falls as more cores activate. The recommendation is workload-specific load testing and comparing actual current work with the point where latency or errors become unacceptable.
 
-- LLM perspective
-  - View: Anchor capacity to throughput/latency SLOs; treat %CPU as nonlinear, hardware-influenced telemetry, not a scaling knob.
-  - Impact: SREs and autoscalers shift alerts to latency/backlog, use core pinning, disable SMT selectively, or set per-workload thresholds.
-  - Watch next: Vendor SKU curves mapping threads→throughput; dashboards with IPC/stalls and 100ms windows; experiments linking power/thermals to capacity headroom.
+### Comment pulse
+
+- Readers add caches, memory bandwidth, locks, interconnects, burst windows, request mix, and queueing effects as further nonlinearities.
+- Several defend utilization as useful when modeled empirically, while objecting to calling a clearly defined metric a “lie.”
+
+### LLM perspective
+
+- View: The dangerous mistake is treating an accounting percentage as a universal capacity gauge across hardware and workloads.
+- Impact: Linear forecasts can underprovision services long before dashboards approach 100%, especially for SMT-saturated or memory-bound work.
+- Watch next: Throughput, tail latency, queue depth, IPC, clock rate, burst duration, and per-workload saturation curves.
