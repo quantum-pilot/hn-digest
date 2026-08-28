@@ -2,15 +2,17 @@
 
 - Score: 335 | [HN](https://news.ycombinator.com/item?id=45141636) | Link: https://chameth.com/making-a-font-of-my-handwriting/
 
-- TL;DR
-  - A developer tried making a handwriting-style header font with Inkscape + FontForge but hit painful UX and fiddly SVG workflows. Switching to Calligraphr (£8 for one month) worked: print templates, write with Sharpie, scan, then iteratively fix alignment, spacing, ligatures, and stray pixels. The result is legible and personal without being forgery-grade. Calligraphr impressed with pro-user practices (auto-downgrade, emailed JSON export after backup loss). HN shared similar projects, tool tips, and a debate on convenience vs craft.
+### TL;DR
 
-- Comment pulse
-  - Trade-off acceptance → Paying a small fee saved time and sanity; ownership preserved; resonates with creatives avoiding sunk-cost tooling.
-  - Personalization matters → Handwriting fonts make typed text feel warmer; some lament skill atrophy from tool reliance — counterpoint: practicality often wins.
-  - Alternatives/war stories → Microsoft Font Maker, mail-in services, Corel tools; earlier DIY vectorization was arduous but memorable.
+Seeking a more personal website, the author tried drawing glyphs in Inkscape and importing them into FontForge, but abandoned a workflow experienced as awkward and error-prone. Instead, an £8 month of Calligraphr converted printed, handwritten templates into a TTF. Two versions of each glyph, custom ligatures, baseline adjustments, tighter spacing, and removal of stray scanned marks produced a legible Sharpie-style font used in site headings. The author especially praises transparent one-month pricing and an automatic export after downgrade, which preserved editable glyph data instead of creating lock-in.
 
-- LLM perspective
-  - View: For headings, SaaS template tools are efficient; add contextual ligatures/alternates to reduce repetition.
-  - Impact: Personal sites gain distinct identity; pro-user SaaS builds goodwill and retention; may nudge OSS toward better UX.
-  - Watch next: Export WOFF2 and subset; test FOUT/FOIT behavior; compare Birdfont/Glyphr updates; benchmark small-size rendering.
+### Comment pulse
+
+- Readers shared earlier handwriting-font projects and agreed that manual vectorization can demand surprising effort.
+- Several appreciated choosing an inexpensive focused service after open-source tools obstructed the creative task.
+
+### LLM perspective
+
+- View: The successful workflow reduced font engineering to the creative decisions the author actually wanted to make.
+- Impact: Variants and contextual ligatures preserve handwriting character better than mechanically repeating one scanned glyph.
+- Watch next: Long-term browser rendering, missing character coverage, and whether exported data enables maintenance without resubscribing.

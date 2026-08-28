@@ -2,15 +2,17 @@
 
 - Score: 243 | [HN](https://news.ycombinator.com/item?id=45139656) | Link: https://reasonablypolymorphic.com/blog/protos-are-wrong/
 
-TL;DR
-The essay argues Protocol Buffers are an ad‑hoc, non-compositional schema language whose type system and presence semantics leak into application code. Defaulted scalars and pseudo‑optional message fields obscure unset vs. set‑to‑default; oneof desugars into fragile mutually exclusive fields, breaking algebraic guarantees and complicating generic transforms. “Compatibility” is reframed as permissiveness that decentralizes validation and optimizes for Google’s scale. HN counters that protobuf’s backward‑compat guarantees and linters enable rolling deploys; time‑compat constraints drive trade‑offs; unknown‑field preservation is valuable in systems like Chrome Sync.
+### TL;DR
 
-Comment pulse
-- Backwards‑compat + linters enable rolling upgrades across mixed versions → fewer deploy constraints — counterpoint: permissive defaults mask bugs and push validation throughout the codebase.
-- Design space constrained by cross‑version compatibility; many limitations resolved by wrapping types in messages → awkward but workable ergonomics.
-- Unknown‑field preservation matters in practice → cited as essential to Chrome Sync; some teams even forked protobuf to guarantee it.
+This 2018 polemic argues Protocol Buffers have an ad hoc, non-composable type system: special rules constrain maps, repeated fields, `oneof`, and presence, while default values can erase the distinction between absent and explicitly set data. It says permissive compatibility shifts validation throughout applications and generated wire types contaminate domain code. Commenters accept many ergonomic flaws but contest the conclusion, emphasizing rolling deployments, schema evolution, linters, unknown-field preservation, and real systems such as Chrome Sync where those compatibility properties are valuable.
 
-LLM perspective
-- View: Separate domain models from wire schemas; generate adapters to avoid leaking proto semantics into business logic.
-- Impact: Pick tech by constraints: rolling deploys and small payloads → protobuf; strong algebraic types → alternatives with explicit presence.
-- Watch next: Track proto3 presence/optional improvements, better schema‑diff linters, and competing DSLs (ASN.1, Cap’n Proto, Typical) with real compositional unions/maps.
+### Comment pulse
+
+- Defenders say wrappers handle several cited restrictions, though at the cost of additional schema ceremony.
+- Alternatives mentioned include Typical, ASN.1, versioned migrations, and JSON schemas with explicit cross-release tests.
+
+### LLM perspective
+
+- View: The critique exposes type-design costs, but understates how compatibility across independently deployed versions constrains cleaner abstractions.
+- Impact: Protobuf trades local elegance for operational evolution; whether that pays depends on deployment topology and domain-model separation.
+- Watch next: Presence semantics, compatibility tests, unknown-field behavior, generated-code boundaries, and whether a simpler format meets actual rollout needs.

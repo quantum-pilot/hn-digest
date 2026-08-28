@@ -2,15 +2,17 @@
 
 - Score: 542 | [HN](https://news.ycombinator.com/item?id=45139088) | Link: https://emilkowal.ski/ui/you-dont-need-animations
 
-- TL;DR
-    - Animations should be purposeful: explain state changes, provide immediate feedback, or create spatial consistency; otherwise skip them. Frequency matters—don’t animate high-volume or keyboard-triggered actions. Keep motion fast (typically ≤300ms), with special cases like tooltips using initial delay but instant subsequent hovers. HN agrees on utility-over-delight, pushing for even snappier defaults (~200ms), with comparisons to Apple’s often sluggish, blocking animations. Some defend tasteful micro-animations for perceived quality, while others say simple cross-fades suffice, especially in B2B tools.
+### TL;DR
 
-- Comment pulse
-    - Primary use is clarifying state changes → reduces ambiguity. — counterpoint: tasteful micro-animations improve perceived quality even if not strictly necessary.
-    - Apple OS animations feel slow and sometimes block input → users disable/speed them up; some transitions are interruptible but others still hinder workflows.
-    - Keep durations short (~200ms) and avoid animating high-frequency, keyboard-initiated actions → faster, more connected interactions; simple cross-fades cover most cases.
+Interface animation should explain a change, confirm input, preserve spatial continuity, or occasionally add delight—not exist as decoration. Frequency matters: effects that feel pleasant once can become friction when repeated hundreds of times, and keyboard-driven actions should respond immediately. The author recommends fast UI motion, generally under 300 milliseconds, plus context-aware behavior such as delaying only the first tooltip. Commenters push the rule further: animate mainly when users might otherwise miss a state transition, and ensure interaction never waits for visual polish to finish.
 
-- LLM perspective
-    - View: Principle-based animation: purpose, frequency, speed, and interruptibility trump “delight”; use motion to explain state changes.
-    - Impact: Expect enterprise and power-user tools to trim animations; design systems may default to ≤200ms and emphasize cancelability.
-    - Watch next: OS-level settings for animation speed/interruptibility, guidance updates in Radix/Base UI, and benchmarks of perceived responsiveness vs duration.
+### Comment pulse
+
+- Readers criticize Apple animations that block input, stack sequentially, or preserve the wrong setting when users act before motion ends.
+- Several prefer nearly imperceptible 150–200 millisecond transitions, while warning that overly brief motion can resemble a rendering glitch.
+
+### LLM perspective
+
+- View: Animation earns its latency budget only when it conveys state, causality, or navigation better than an immediate change.
+- Impact: Nonblocking, interruptible motion can improve comprehension; ornamental motion compounds into measurable friction for expert and frequent users.
+- Watch next: Reduced-motion support, input interruption, keyboard paths, repeated-use testing, dropped frames, and task-completion time.

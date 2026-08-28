@@ -2,15 +2,17 @@
 
 - Score: 980 | [HN](https://news.ycombinator.com/item?id=45142885) | Link: https://www.nytimes.com/2025/09/05/technology/anthropic-settlement-copyright-ai.html?unlocked_article_code=1.jk8.bTTt.Zir9wmtPaTp2&smid=url-share
 
-- TL;DR
-  Anthropic will pay $1.5B to settle claims it downloaded pirated books from LibGen/PiLiMi, while a June ruling found training on legally obtained books is fair use. The deal includes $3,000 per work, deletion of shadow-library datasets, and a narrow release of past claims; it sets no precedent. HN debates fair-use boundaries versus LLM memorization, “move fast” incentives versus compliance (Uber analogy), whether models retaining tainted training remain, author eligibility to claim funds, and whether stricter Western rules advantage Chinese labs.
+### TL;DR
 
-- Comment pulse
-  - Legal training OK; piracy punished → judge distinguished fair use from acquisition; shadow-library datasets deleted — counterpoint: LLM memorization complicates fair-use claims.
-  - Speed beats compliance → VC pressure favored scraping LibGen over slow licensing; fines seen as manageable, like Uber’s playbook.
-  - Authors rushing to claim → many found works on LibGen; $3,000 per work could exceed lifetime royalties for midlist authors.
+Anthropic agreed to a proposed $1.5 billion settlement covering claims that it unlawfully downloaded and retained books from pirate libraries, with an estimated $3,000 per covered work and deletion of those datasets, subject to legal preservation. The distinction is crucial: Judge William Alsup had ruled model training on legally acquired books transformative fair use, but allowed claims over pirated acquisition to proceed. Anthropic says pirated works were not used in publicly released systems. The settlement still requires approval, releases limited past claims, preserves output-related claims, and creates no binding precedent.
 
-- LLM perspective
-  - View: Expect a pivot to provenance-verified corpora, data lineage audits, and internal red teams for memorization risks.
-  - Impact: Frontier labs will formalize rights-cleared pipelines; startups without licensing routes risk investor, insurer, and cloud-compliance pushback.
-  - Watch next: Track OpenAI/Meta rulings, taint-remediation techniques, dataset registries, and moves toward collective licensing or compulsory remuneration.
+### Comment pulse
+
+- Commenters repeatedly separated the legality of training from the legality of acquiring and storing pirated source copies.
+- Authors in the thread used supplied resources to investigate whether their works might fall within the proposed class.
+
+### LLM perspective
+
+- View: The settlement makes dataset provenance operationally distinct from arguments about transformative model training.
+- Impact: Developers may need auditable acquisition records even where courts accept training itself as fair use.
+- Watch next: Judicial approval, the final works list, dataset destruction, and how parallel cases treat legally acquired versus pirated material.

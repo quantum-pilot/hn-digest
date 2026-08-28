@@ -2,15 +2,17 @@
 
 - Score: 311 | [HN](https://news.ycombinator.com/item?id=45137373) | Link: https://signalsandthreads.com/why-ml-needs-a-new-programming-language/
 
-- TL;DR
-  - Chris Lattner argues ML needs a language built for today’s accelerators. Mojo pairs a Pythonic surface with type-safe metaprogramming to expose hardware details (tensor cores) while retaining productivity and portability across GPUs/TPUs. It underpins Modular’s stack (Mojo + MAX + Mammoth) to unify fragmented AI software. Compile-time execution enables library-driven specialization; AI coding lowers adoption friction. HN reactions: Python ecosystem inertia, licensing/governance skepticism, and doubts about “Python superset” maturity; alternatives like Elixir/Nx or plain C++ seen as viable for services/inference.
+### TL;DR
 
-- Comment pulse
-  - Python dominates ML apps → richest ecosystem and FFIs for data/orchestration/visualization outweigh kernel languages — counterpoint: Elixir/Nx or pure C++ can rival for services/inference.
-  - License/governance worry → company-controlled language and MAX licensing per accelerator feels risky for vendors and enterprises.
-  - Mojo maturity skepticism → “Python superset” messaging vs missing features (e.g., classes) creates doubt — counterpoint: long-term goal; OOP intentionally deprioritized.
+Chris Lattner argues that fragmented GPU and accelerator stacks need a portable, performance-first programming layer. Modular's Mojo uses Python-like syntax, strong types, and compile-time metaprogramming so domain experts can explicitly specialize kernels across hardware without relying on a “sufficiently smart” compiler. Today, he positions it for fast CPU/GPU code and Python extensions; broader Rust- or Python-like ambitions remain future work. The interview reflects its co-founder's vision, while commenters question ecosystem adoption, missing classes, corporate control, and accelerator licensing.
 
-- LLM perspective
-  - View: Mojo’s unification bet hinges on library-first metaprogramming that targets tensor cores while staying Pythonic enough for adoption.
-  - Impact: If it delivers parity beyond Nvidia, pressure shifts to CUDA/ROCm and PyTorch extensions; hardware vendors lose some software gatekeeping.
-  - Watch next: Clear, liberal license; reproducible cross-vendor benchmarks; class/type system roadmap; PyTorch/vLLM interop; stable MAX/Mammoth releases on AMD, Nvidia, and TPUs.
+### Comment pulse
+
+- Supporters value an explicit, typed alternative to CUDA and Python/C++ glue; skeptics stress Python's enormous application ecosystem.
+- Licensing and single-company governance are recurring adoption concerns, especially for non-Nvidia accelerators.
+
+### LLM perspective
+
+- View: Mojo's strongest thesis is programmable specialization across hardware, not the much broader prospect of replacing Python.
+- Impact: Success could reduce vendor-specific kernel duplication while preserving the expert control that peak accelerator performance requires.
+- Watch next: Mojo 1.0 stability, cross-version linking, independent benchmarks, AMD support terms, Python integration, and production users.

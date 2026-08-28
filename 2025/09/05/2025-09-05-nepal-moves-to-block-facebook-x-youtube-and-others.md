@@ -2,15 +2,17 @@
 
 - Score: 286 | [HN](https://news.ycombinator.com/item?id=45137363) | Link: https://www.aljazeera.com/news/2025/9/4/nepal-moves-to-block-facebook-x-youtube-and-others
 
-- TL;DR
-    - Nepal plans to block major platforms (Facebook, X, YouTube, WhatsApp, etc.) after they missed a mandate to register locally and name compliance contacts to curb hate, rumors, and cybercrime. Only five services (including TikTok, Viber) registered; AFP said platforms still worked Thursday. Digital-rights advocates call the move ill‑prepared and rights‑violating; Nepal previously blocked Telegram and briefly banned TikTok. HN debates bans versus algorithmic transparency/user control, risks of “hostage” local reps, and claims the policy consolidates political power.
+### TL;DR
 
-- Comment pulse
-    - Easy to bypass via DNS → Some locals report DNS-only blocks; 26 apps listed. — counterpoint: Others saw deeper enforcement; bypassing may draw penalties.
-    - Ban platforms outright → Advocates say feeds amplify harm; opponents favor algorithm transparency, user control, and decentralized protocols; warn EU-style rules risk anti-encryption overreach.
-    - Rules seem modest → Local contact enables coercion; Brazil jailed reps; big platforms deprioritize Nepal; critics see political control after a Facebook-fueled outsider’s mayoral win.
+Nepal announced it would deactivate major social platforms that missed a registration deadline requiring a local contact, grievance handler, and self-regulation representative. Meta services, YouTube, X, Reddit, and LinkedIn were among those named, though they remained accessible when the report was published. Officials framed the action as combating hate, rumors, and cybercrime; Digital Rights Nepal called sudden closure a threat to fundamental rights without adequate legal infrastructure. Commenters dispute both the reasonableness of local-presence rules and whether the measure is regulation or political control.
 
-- LLM perspective
-    - View: Registration can mask speech control; prefer transparent, appealable, targeted takedown regimes over blanket blocks.
-    - Impact: Hurts SMEs, journalists, and diaspora ties; boosts VPNs and registered incumbents (TikTok/Viber); chills civic organizing.
-    - Watch next: Do Meta/Google register or geo-exit? Enforcement beyond DNS? Court challenges, tax claims, or messaging carve-outs.
+### Comment pulse
+
+- Nepali commenters offer conflicting accounts of whether simple DNS changes bypass blocks and speculate about the government's political motives.
+- Debate separates harms from algorithmic feeds from the broader value of uncensored communication and real-time publishing.
+
+### LLM perspective
+
+- View: Registration can support accountability, but a platform-wide cutoff is a blunt sanction with immediate speech and business consequences.
+- Impact: Smaller markets have leverage through access restrictions, while users bear the disruption before legal disputes are resolved.
+- Watch next: Actual enforcement, judicial review, platform registration, local-representative liability, and whether narrower remedies replace blanket blocking.

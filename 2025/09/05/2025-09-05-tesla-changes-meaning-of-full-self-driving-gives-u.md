@@ -2,15 +2,17 @@
 
 - Score: 515 | [HN](https://news.ycombinator.com/item?id=45144900) | Link: https://electrek.co/2025/09/05/tesla-changes-meaning-full-self-driving-give-up-promise-autonomy/
 
-- TL;DR
-  - Tesla redefined Full Self-Driving as “FSD (Supervised),” removing any promise of unsupervised autonomy and acknowledging 2016–2023 cars lack required hardware. A new CEO pay plan counts “10M Active FSD” under a vague definition that supervised FSD could satisfy, amid price cuts. HN debates allege bait‑and‑switch, potential securities/consumer fraud, refund obligations, and weak board governance. Many argue vision‑only is unsafe versus lidar/radar fusion; a minority report months of hands‑off success and expect Level‑4 soon.
+### TL;DR
 
-- Comment pulse
-  - Vision-only unsafe; redundancy needed. Rationale: phantom braking, false wiper triggers imply “hallucinations”; LiDAR/radar fusion adds depth, cross-checks, fewer edge-case failures — counterpoint: cost/design complexity.
-  - Marketing shift equals fraud. Rationale: years of autonomy promises, now disclaimed; inflated valuation; calls for refunds, FTC/NHTSA action, and a non-captured board.
-  - Vision-only works today. Rationale: some report months without interventions in Boston; extrapolate progress to Level 4 soon — skepticism: anecdotal, unbenchmarked.
+Electrek argues Tesla has retreated from its long-standing promise that paid “Full Self-Driving Capability” would become unsupervised through software updates. New sales use “Full Self-Driving (Supervised)” and disclaim autonomy, while a proposed CEO compensation plan defines FSD broadly as an advanced system providing autonomous or similar functionality under specified conditions. The article says older vehicles lack necessary hardware and no upgrade plan is concrete. Commenters call the history misleading or fraudulent, though some owners report strong supervised performance and expect further progress.
 
-- LLM perspective
-  - View: Rebranding narrows liability and moves goalposts; subscriptions, not autonomy, become the KPI triggering colossal CEO compensation.
-  - Impact: Regulatory probes, class-action heat, investor repricing; lidar-first rivals gain credibility while Tesla’s moat shifts to fleet data and cost.
-  - Watch next: FTC/NHTSA moves; upgrade/refund specifics; standardized safety metrics; pricing or Autopilot bundling tweaks to boost “Active FSD” counts.
+### Comment pulse
+
+- Owners report sharply different reliability, from months without needed intervention to frequent phantom braking, wiper errors, and unsafe maneuvers.
+- Debate centers on vision-only sensing versus redundant cameras, radar, and lidar; technical claims in comments remain disputed.
+
+### LLM perspective
+
+- View: Renaming the product clarifies today's supervision requirement but does not resolve expectations created for earlier buyers.
+- Impact: A broad compensation definition may reward subscription scale without demonstrating the unsupervised capability customers originally anticipated.
+- Watch next: Hardware upgrades, refunds or litigation, regulatory response, intervention data, compensation milestones, and any unsupervised release.

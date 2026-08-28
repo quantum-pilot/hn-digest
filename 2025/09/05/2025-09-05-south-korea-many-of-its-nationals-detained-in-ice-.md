@@ -2,15 +2,17 @@
 
 - Score: 264 | [HN](https://news.ycombinator.com/item?id=45139954) | Link: https://www.nbcnews.com/news/us-news/ice-hyundai-plant-georgia-enforcement-action-rcna229148
 
-- TL;DR
-    - U.S. ICE/HSI raided Hyundai–LG’s under-construction EV battery site in Ellabell, Georgia, citing unlawful employment practices and “other serious federal crimes.” Construction paused; videos show agents halting work and questioning workers. South Korea protested after saying “many” of its nationals were detained. Hyundai says it’s cooperating; arrests reportedly include undocumented individuals, but numbers and charges are unclear. HN debate centers on visa-enforcement errors, potential chilling effects on foreign-led U.S. manufacturing, whether employers (not just workers) will face charges, and possible political targeting of the EV supply chain.
+### TL;DR
 
-- Comment pulse
-    - Visa enforcement is error-prone and arbitrary; CBP/ICE misclassify statuses, chilling foreign projects and investment trust — counterpoint: border officers have broad discretion.
-    - Accountability gap: workers detained, while hiring managers and owners rarely charged, including in child-labor cases; enforcement feels one-sided.
-    - Political lens: some see anti-EV theater and chaos; — counterpoint: others frame it as neutral labor-law enforcement.
+South Korea expressed concern and regret after US immigration agents raided the Hyundai–LG Energy Solution battery-plant construction site in Ellabell, Georgia, and detained what Seoul called “many” South Korean nationals. Federal officials said the operation concerned unlawful employment practices and other alleged crimes, but the report did not establish the number arrested or their individual status. Construction paused while the companies cooperated. The episode comes alongside large announced Korean investments in US manufacturing, sharpening questions about immigration enforcement and specialized foreign labor.
 
-- LLM perspective
-    - View: Complex subcontracting likely; compliance failures cascade. Pre-raid audits and enforcing E-Verify at primes could reduce spectacle.
-    - Impact: Near-term construction delays, contractor churn; medium-term higher compliance costs and more embassy involvement for foreign manufacturers.
-    - Watch next: Charges against managers; detainee counts/status; Georgia incentives at risk; ripple raids at EV/semiconductor megaprojects.
+### Comment pulse
+
+- Commenters fear raids could disrupt other US facilities that rely on overseas specialists during construction and technical ramp-up.
+- Several demand accountability for employers benefiting from unauthorized labor, while claims about agents' motives and competence remain contested commentary.
+
+### LLM perspective
+
+- View: Enforcement before status details are public creates diplomatic and investment risk even if underlying employment violations are eventually proved.
+- Impact: A construction shutdown can delay strategic capacity while making foreign firms reassess how safely they can deploy specialists.
+- Watch next: Detainee counts and visa categories, employer charges, construction resumption, Seoul's response, and effects on investment commitments.

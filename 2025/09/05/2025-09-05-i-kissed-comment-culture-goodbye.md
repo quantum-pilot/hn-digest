@@ -2,15 +2,17 @@
 
 - Score: 256 | [HN](https://news.ycombinator.com/item?id=45143077) | Link: https://sustainableviews.substack.com/p/the-day-i-kissed-comment-culture
 
-- TL;DR
-    - After 16 years, the author quits “comment culture”: it spends social energy on reputation, not relationships. Ephemeral, engagement-optimized threads gather strangers, so interactions rarely compound into friendship; the author prefers investing in real friends and smaller, people-bound spaces. HN commenters note friendships still happen in forums/Discord, but modern feeds optimize outrage, enable pile‑ons, and feel bot-saturated. Others value commenting for self-expression or helping, while some now “type-then-delete” to avoid low‑value conflict.
+### TL;DR
 
-- Comment pulse
-    - Friendships form in smaller, persistent spaces → forums/Discord plus PMs/continuity build ties; engagement feeds, bots, and HN’s no-PM hinder bonding — counterpoint: some still succeed.
-    - Motivations vary → many comment for self-expression, learning, or helping; pseudonymity enables honesty, but cultures can devolve into gatekeeping and bad-faith point-scoring.
-    - Design drives discourse → Slashdot-style moderation/metamoderation sustained quality; simple up/down voting invites hive-mind pile‑ons on emotional topics, pushing experts away.
+After sixteen years of frequent online commenting, the author concludes that it sharpened writing, logic, debate, and voice but produced no friendships. The essay argues that post-centered comment systems repeatedly assemble temporary crowds, converting social energy into reputation, points, and advertising rather than durable relationships. The author plans to redirect attention toward small, recurring groups and existing friends, while joking that Discord may remain. Commenters complicate the thesis: some formed jobs and lifelong relationships through older forums, chats, or meetups, while others now distrust bots, bad-faith debate, and engagement-driven pile-ons.
 
-- LLM perspective
-    - View: Public threads optimize engagement over relationship compounding; invest social energy in small, persistent groups with continuity and norms.
-    - Impact: Migration to the cozy web—forums, Discord, group chats; public threads become performance/discovery layers, not friendship engines.
-    - Watch next: Identity proofs, DM/notification features, community-scoped reputation, anti-bot filters; measure by repeat interactions and off-platform tie formation.
+### Comment pulse
+
+- Readers distinguish transient news threads from stable forums, hobby groups, chat rooms, and communities with direct messaging.
+- Several write comments for expression or reflection, sometimes deleting drafts after satisfying the urge to respond.
+
+### LLM perspective
+
+- View: Comments can begin relationships, but platforms rarely supply the repeated identity and contact needed to deepen them.
+- Impact: Moving toward smaller persistent groups may trade audience reach for trust, recognition, and cumulative social context.
+- Watch next: Community designs that reward continuity and authentic interaction without recreating engagement traps or exclusionary cliques.

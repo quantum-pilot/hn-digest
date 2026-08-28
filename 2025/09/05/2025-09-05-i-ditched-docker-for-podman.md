@@ -2,15 +2,17 @@
 
 - Score: 1104 | [HN](https://news.ycombinator.com/item?id=45137525) | Link: https://codesmash.dev/why-i-ditched-docker-for-podman-and-you-should-too
 
-- TL;DR
-    - The author moved from Docker to Podman for a safer, simpler model: no root daemon, rootless by default, tighter systemd/Kubernetes fit, and near drop-in CLI compatibility. Migration is mostly painless (Dockerfiles work; pods/systemd/Buildah/Skopeo shine), with caveats around rootless ports and volume permissions. HN likes Podman’s security and license posture but flags compatibility gaps (GitLab/buildx/GPU), Ubuntu’s stale packages and missing .deb, and Windows rough edges. Others argue Docker/compose—or even non-container deployments—remain simpler; image-slimming tools and jails were cited.
+### TL;DR
 
-- Comment pulse
-    - Podman breaks on some images (GitLab, buildx, GPU). Workarounds: rootful/rootless split, --capabilities, compatibility layer — counterpoint: others run GitLab and runners fine.
-    - Ubuntu ships old Podman; no maintained .deb; Windows uninstalls flaky. Perception: non–Red Hat distros are second-class, pushing users to Fedora/RHEL or back to Docker.
-    - Some question containers’ value: simple git hooks worked; jails/chroot did isolation; modern tools slim containers by tracing usage (SlimToolkit, OpenWrt ujail, Bifrost).
+After six months using Podman in production, the author prefers its daemonless, rootless-by-default design, direct process model, systemd integration, Kubernetes-oriented pods, and separation of image tasks across companion tools. OCI and Docker-style commands made the author’s FastAPI migration mostly familiar, while privileged ports, volume permissions, legacy socket consumers, and Compose workflows required adjustment. Commenters offer a less seamless picture: many value rootless operation, but report compatibility gaps with complex images, GPU tooling, `buildx`, older Ubuntu packages, and cross-platform installations. Several also reject Kubernetes YAML as a universal Compose replacement.
 
-- LLM perspective
-    - View: Podman’s architecture fits Linux servers; desktop parity and compatibility gaps are the real adoption blockers.
-    - Impact: Teams can mix: Podman rootless for apps, Docker or rootful Podman where legacy or performance demands it.
-    - Watch next: Official Ubuntu repo/PPA, Windows stability, GPU/runtime parity, buildx/buildkit equivalence, macOS Rosetta performance gains.
+### Comment pulse
+
+- Podman works well for many self-built images, yet some Docker-dependent workloads still force users into fallback environments.
+- Ubuntu’s outdated packages and lack of a current official upstream package emerged as recurring adoption barriers.
+
+### LLM perspective
+
+- View: Podman is a strong Linux-native alternative, but “drop-in replacement” depends heavily on workload and distribution.
+- Impact: Rootless defaults reduce privilege exposure while compatibility testing becomes an explicit migration cost.
+- Watch next: Packaging freshness, Compose and GPU parity, and consistent behavior for images built around Docker quirks.

@@ -2,15 +2,17 @@
 
 - Score: 266 | [HN](https://news.ycombinator.com/item?id=45140572) | Link: https://rustcurious.com/elements/
 
-TL;DR
-An interactive chart maps Rust’s type system around language-defined items and traits, emphasizing what’s built into the language versus library structs. It highlights core foundations enabling no_std and omits Vec/String/HashMap to show they’re ordinary structs. HN found it quick to absorb and useful for developers from other statically typed languages, but some argued the “periodic table” layout implies relationships that aren’t rigorous, preferring more precise groupings or complementary views like memory-layout visualizations.
+### TL;DR
 
-Comment pulse
-- Periodic-table framing overstates structure → column/row groupings mix unrelated types; creates spurious correspondences — counterpoint: the ‘Elements’ branding aims for approachable overview, not formal taxonomy.
-- Useful learning aid → quickly conveys which types/traits are language-level and which are library-only; accessible to developers from typed languages.
-- Complementary resources suggested → memory-layout visualizations help C/C++-minded readers reason about ownership, alignment, and representation.
+RustCurious presents a clickable map of Rust’s core types and language-integrated traits, aiming to show that every possible Rust type fits within its boxes. It deliberately excludes familiar library structures such as `Vec`, `String`, and `HashMap`, emphasizing the boundary between compiler-supported language items and ordinary library code. That separation helps explain Rust’s platform-independent core and `no_std` use without a dynamic heap. Readers found the compact overview approachable, though one commenter argued its periodic-table-like groupings create visual correspondences that are sometimes arbitrary rather than explanatory.
 
-LLM perspective
-- View: concise map of lang items vs library types; taxonomy would benefit from explicit organizing principles.
-- Impact: improves curricula and onboarding; clarifies which abstractions require an allocator, unsafe code, or standard library support.
-- Watch next: add trait graphs, variance/Sized/Drop relations, and per-type links to RFCs, layout, and stability across channels.
+### Comment pulse
+
+- Several readers praised the page’s density and accessibility, especially for people familiar with other statically typed languages.
+- One detailed critique says the arrangement implies relationships that the Rust type system does not actually support.
+
+### LLM perspective
+
+- View: The guide works best as a navigational index, not a formal taxonomy of type relationships.
+- Impact: Distinguishing language items from library structs can clarify what remains available in constrained `no_std` environments.
+- Watch next: Whether future revisions explain grouping choices and link each visual relationship to precise semantics.
