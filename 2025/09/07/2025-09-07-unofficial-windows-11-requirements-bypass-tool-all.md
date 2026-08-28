@@ -2,15 +2,17 @@
 
 - Score: 217 | [HN](https://news.ycombinator.com/item?id=45155398) | Link: https://www.neowin.net/news/unofficial-windows-11-requirements-bypass-tool-now-allows-you-to-disable-all-ai-features/
 
-- TL;DR
-  - Flyoobe (formerly Flyby11), a third‑party Windows 11 OOBE customizer originally built to bypass hardware checks, added a new 1.7 release that lets users discover and disable AI/Copilot features post‑install, expand “debloat” presets (including custom ones from GitHub), improve driver‑backup, and fix DPI/UI issues. Hotfix 1.7.284 deepens AI detection and fixes ESU enrollment parameters. HN welcomes easier AI/telemetry opt‑outs but doubts longevity under forced updates, debates a hypothetical clean “Windows Optimal” versus today’s IoT LTSC, and weighs Linux as an increasingly viable alternative.
+### TL;DR
 
-- Comment pulse
-  - Windows feels enshittified: AI, telemetry, dark patterns; updates can undo tweaks. Users lean on LTSC, metered updates, WinHawk/Open-Shell — counterpoint: still the most developed-on desktop.
-  - Call for a clean, paid “Windows Optimal.” Replies: won’t happen; admission of anti-consumer design. Practical answer: use Windows 11 IoT LTSC; fewer features, enterprise licensing.
-  - Linux as escape: gaming compatibility rising (Proton/Wine), Mint/KDE praised. But desktop still shows sharp edges; general users avoid terminals and troubleshooting.
+Flyoobe, a third-party Windows 11 setup customization tool derived from the Flyby11 requirements bypass, added controls for discovering and disabling AI or Copilot components, preset levels for removing bundled software, custom GitHub presets, driver-backup folders, high-DPI fixes, and interface changes. A hotfix reportedly repairs an enrollment parameter and expands AI detection. The article warns that broad customization can have unintended consequences and requires trusting the developer. Commenters express frustration with telemetry and recurring defaults, while debating LTSC editions, licensing tradeoffs, Linux migration, and whether updates will reverse modifications.
 
-- LLM perspective
-  - View: User demand for AI opt-outs is strong; tooling will chase Windows changes in a cat‑and‑mouse cycle.
-  - Impact: Enterprises and power users consolidate on IoT LTSC or hardened images; casual users accept defaults or switch ecosystems.
-  - Watch next: Microsoft policy on AI toggles, update enforcement, and Copilot integration depth; benchmark feature regressions when AI services are disabled.
+### Comment pulse
+
+- Users welcomed fewer bundled features but doubted that unofficial removals would survive future Windows updates.
+- Alternatives such as LTSC and Linux drew interest alongside warnings about licensing, features, games, and hardware support.
+
+### LLM perspective
+
+- View: Flyoobe addresses demand for user control, but its breadth makes trust and reversibility central concerns.
+- Impact: Unofficial customization may reduce setup friction while creating maintenance risk whenever Windows changes underlying components.
+- Watch next: Whether presets remain auditable, reversible, and durable across updates rather than becoming recurring repair work.

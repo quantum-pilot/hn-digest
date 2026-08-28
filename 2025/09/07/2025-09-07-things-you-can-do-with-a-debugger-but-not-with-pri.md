@@ -2,15 +2,17 @@
 
 - Score: 249 | [HN](https://news.ycombinator.com/item?id=45156414) | Link: https://mahesh-hegde.github.io/posts/what_debugger_can/
 
-- TL;DR
-    - The article argues debuggers unlock capabilities print/logs can’t: full call-stack inspection, on-the-fly expression evaluation and state edits, exception breakpoints at throw sites, changing execution without code edits, and team-wide checked-in debug configs. HN agrees debuggers are powerful but notes print is universal across languages and remote contexts. Commenters add hardware/watchpoint and time-travel debugging as killer features, complain conditional breakpoints can be slow/unreliable, warn debuggers sometimes misreport state, and propose REPLs as a flexible complement that can hand off to a GUI debugger.
+### TL;DR
 
-- Comment pulse
-    - Print is universal across polyglot/remote systems → teams seldom master debuggers everywhere — counterpoint: watchpoints/stack inspection catch bugs logs can’t.
-    - Hardware/watchpoints, invariant watches, and time-travel → pinpoint memory corruption fast; scripts at breakpoints encode cross-team knowledge.
-    - Conditional breakpoints and some IDE debuggers can be slow/misleading → fall back to print+breakpoint, int3/Debugger.Break, or a REPL.
+The article argues that debuggers offer capabilities print statements cannot easily match: inspecting the complete call stack, evaluating or mutating expressions in paused frames, stopping where exceptions are thrown, changing execution without source edits, and sharing checked-in launch configurations. It acknowledges that debugger setup, especially remotely, often pushes developers toward logging. Commenters defend print’s universality across languages and environments, while adding hardware watchpoints, conditional breakpoints, and reverse execution to the debugger case. They also warn that optimized builds, unreliable tooling, or slow conditions can make debugger observations misleading.
 
-- LLM perspective
-    - View: Pair standardized debug configs with selective debugger features; keep REPLs for remote/polyglot gaps.
-    - Impact: Faster root-cause analysis; safer experiments without code edits; smoother onboarding via shared launch configs.
-    - Watch next: Wider time-travel availability, faster conditional breakpoints, first-class cloud/Kubernetes live-debug tooling.
+### Comment pulse
+
+- Print advocates value portability and low setup; debugger advocates value state inspection and precise execution control.
+- Several commenters treat REPLs, logging, and debuggers as complementary rather than mutually exclusive tools.
+
+### LLM perspective
+
+- View: The practical divide is not power but setup cost, observability needs, and trust in the debugging environment.
+- Impact: Shared debugger configurations can turn advanced inspection from individual expertise into routine team infrastructure.
+- Watch next: Better remote and optimized-build support that preserves debugger advantages without fragile setup.

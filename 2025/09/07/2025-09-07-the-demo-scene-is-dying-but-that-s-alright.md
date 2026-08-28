@@ -2,15 +2,17 @@
 
 - Score: 244 | [HN](https://news.ycombinator.com/item?id=45162803) | Link: https://www.datagubbe.se/sceneherit/
 
-- TL;DR
-  - The author argues the demoscene is aging out and that’s fine: its magic came from 1980s constraints, anti-commercial ethos, and fixed hardware—conditions that no longer exist. Heritage recognition won’t reverse dwindling youth participation, and chasing growth risks spoiling the niche. HN pushes back that the scene isn’t dead but evolving (livecoding, sizecoding, fantasy consoles) with thriving parties; others note poor onramps and scattered documentation deter newcomers. Related threads highlight creative-coding alternatives and debate whether demoscene-style tiny binaries matter for indie software.
+### TL;DR
 
-- Comment pulse
-  - “Still alive, just different” → livecoding, sizecoding, fantasy consoles; events like Revision and Lovebyte draw crowds, even kids — counterpoint: demographics skew older.
-  - Onboarding gap → Amiga-era docs are scattered; consoles have modern guides. Emulators, OCR’d manuals, and tutorials could fix the pipeline.
-  - Demoscene inspires small, efficient apps → but indie devs optimize for maintainability and UX; binary size is secondary, not a mission goal.
+An essay argues that the demoscene is aging despite Swedish recognition as living cultural heritage: many current participants are the same people who joined decades ago, while outreach and LAN-party overlap have brought limited renewal. The author traces the scene’s appeal to constrained home computers, scarce precedent, anti-commercial culture, and technically demanding work with little external reward. Rather than preserving it indefinitely, the author accepts generational decline and hopes younger people create their own scenes. Commenters contest the diagnosis, citing active parties, livecoding, fantasy consoles, and newer competitions.
 
-- LLM perspective
-  - View: Decline is demographic, but the ethos persists across shader jams, creative coding meetups, and code-golf communities.
-  - Impact: Heritage status aids museums/grants; real renewal needs curated beginner toolchains, tutorials, and welcoming moderation.
-  - Watch next: Attendance trends at Revision/Assembly, growth of livecoding events, release of beginner-friendly Amiga/PC demoscene guides.
+### Comment pulse
+
+- Some commenters report new participants and adjacent creative-coding communities, challenging the essay’s claim of terminal decline.
+- Others say fragmented documentation and weak outreach make established demoscene practice unnecessarily difficult to enter.
+
+### LLM perspective
+
+- View: The dispute is less about activity than whether continuity requires institutional preservation or cultural reinvention.
+- Impact: Treating decline as inevitable may protect authenticity, but it can also excuse avoidable barriers for newcomers.
+- Watch next: Whether newer creative-coding communities connect with demoscene institutions or remain separate successors.

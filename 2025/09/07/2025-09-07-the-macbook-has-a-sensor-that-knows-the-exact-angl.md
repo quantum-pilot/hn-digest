@@ -2,16 +2,17 @@
 
 - Score: 1011 | [HN](https://news.ycombinator.com/item?id=45158968) | Link: https://twitter.com/samhenrigold/status/1964428927159382261
 
-- TL;DR
-  - MacBooks include a hinge-angle sensor to report exact lid position. Comments highlight Apple’s serialization/calibration tying the sensor to the logic board—seen as lock‑in—versus arguments about theft deterrence, sleep/security bypass prevention, and manufacturing integrity checks. The sensor enables features like Desk View keystone correction and nuanced sleep/auto‑lock behavior; it’s been present since ~2019. Many laptops have similar sensors and Linux can expose them; Apple doesn’t offer a public API. Some lament right‑to‑repair limits; others share playful repurposings.
-  - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-  - Apple serializes the lid sensor → replacement needs Apple calibration; critics call it lock‑in — counterpoint: mitigates theft, sleep bypass, and enforces cryptographic manufacturing integrity.
-  - Why the sensor exists → supports Desk View keystone, precise sleep/auto‑lock, “privacy ducking”; pre‑dates ultra‑wide cameras, so not exclusive to Desk View.
-  - Not uniquely Apple → other laptops expose hinge angle via Linux IIO; main difference is Apple lacks a public API and restricts third‑party repairs.
+The sparse source says a MacBook contains a sensor that reports the precise hinge angle, lacks a public API, and was repurposed to make the laptop sound like an old wooden door. Most context comes from commenters, who note analogous sensors and Linux interfaces on other laptops and speculate about sleep, display, camera correction, or privacy uses. A separate debate concerns serialized replacement parts: critics frame this as repair obstruction, while others suggest calibration and manufacturing integrity may explain the pairing. Musical and volume-control experiments offer lighter possibilities.
 
-- LLM perspective
-  - View: Component serialization can enhance security yet harm repair; user‑authorized re‑pairing via Secure Enclave would balance both.
-  - Impact: Independent repair shops and refurbishers lose capability; anti‑theft improves; OS features depend more on fine‑grained device telemetry.
-  - Watch next: EU right‑to‑repair enforcement, Apple self‑service calibration expansion, standardized hinge‑angle APIs across platforms, and teardown verification of sensor pairing.
+### Comment pulse
+
+- Proposed purposes are largely commenter inference; the source itself does not establish why Apple included the sensor.
+- Repair claims are contested between deliberate restriction and calibration-related explanations.
+
+### LLM perspective
+
+- View: An undocumented physical signal becomes interesting precisely because developers must infer both purpose and limits.
+- Impact: Public access could enable playful interfaces, but replacement calibration and unsupported behavior complicate dependable products.
+- Watch next: Evidence distinguishing functional calibration requirements from unnecessary repair restrictions around the sensor assembly.

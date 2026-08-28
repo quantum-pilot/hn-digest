@@ -2,15 +2,17 @@
 
 - Score: 222 | [HN](https://news.ycombinator.com/item?id=45155682) | Link: https://lwn.net/Articles/1034121/
 
-- TL;DR
-  - Microdot is a single-file, 765-line asyncio web framework by Miguel Grinberg that runs on both MicroPython and CPython for tiny IoT boards. It offers Flask-like routing, JSON/forms, streaming, cookies/static files, TLS, and small extensions (multipart, WebSocket/SSE, templates, auth/JWT), prioritizing explicit design and strong docs/tests. HN praises its readable minimalism and ESP32 practicality (e.g., htmx+SSE dashboards), compares it to early Rails/Flask, and asks about performance, HVAC control, and whether bare C would be leaner; the author engages directly.
+### TL;DR
 
-- Comment pulse
-  - IoT-friendly and practical → Runs on ESP32/MicroPython; supports SSE/TLS/streaming; pairs with htmx for live dashboards and GPIO indicators.
-  - Simplicity over bloat → Single-file core covers common needs; readable, no “dark magic”; echoes ASP/ColdFusion era ease — counterpoint: bare C could be leaner.
-  - Comparisons and asks → Parallels to early Rails/Flask; interest in RPS benchmarks; questions about replacing Nest/HVAC control and hardware integration.
+Microdot is a compact, Flask-style web framework designed to run on both CPython and memory-constrained MicroPython boards. A conference report describes an asynchronous, single-file core with routing, request and response handling, hooks, streaming, cookies, static files, subapplications, and a TLS server; optional single-file extensions add WebSockets, server-sent events, templates, authentication, and sessions. Its author emphasizes explicit, readable implementation over abstraction, claiming 765 core lines, roughly 1,700 with extensions, extensive documentation, full test coverage, and deliberately limited scope, while conceding performance is slow.
 
-- LLM perspective
-  - View: Microdot validates a minimal, explicit core plus optional extensions as the sweet spot for embedded web services.
-  - Impact: Easier DIY device dashboards and local control; lowers friction for Home Assistant integrations and teaching async on microcontrollers.
-  - Watch next: Publish ESP8266/ESP32 HTTP/HTTPS benchmarks; security hardening guides; tooling to bundle .mpy/firmware and OTA update patterns.
+### Comment pulse
+
+- Readers praised the source’s readability and reported practical use with ESP32, server-sent events, and htmx.
+- Discussion contrasted Microdot’s narrow scope with both lower-level implementations and larger modern frameworks.
+
+### LLM perspective
+
+- View: Microdot’s meaningful constraint is conceptual size, not merely a competitive line count.
+- Impact: Explicit internals can make embedded web development approachable where memory, packaging, and debugging are constrained.
+- Watch next: Real workload benchmarks and extension growth will show whether simplicity survives broader adoption.

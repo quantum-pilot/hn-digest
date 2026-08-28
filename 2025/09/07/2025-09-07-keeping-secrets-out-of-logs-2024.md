@@ -2,15 +2,17 @@
 
 - Score: 249 | [HN](https://news.ycombinator.com/item?id=45160774) | Link: https://allan.reyes.sh/posts/keeping-secrets-out-of-logs/
 
-TL;DR
-Secrets-in-logs isn’t solvable by one control. The article catalogs six common causes (direct logging, “kitchen-sink” objects, config flips, embedded-in-URLs, telemetry, user input) and ten “lead bullets”: centralized pipelines, minimization/redaction/tokenization, domain primitives and read-once wrappers, taint checking, log formatters, unit tests, scanners, and preprocessors, plus people/process. Strategy: map data flows, protect chokepoints, layer prevention and detection, and plan cleanup/rotation. HN discussion highlights runtime tagging vs. type/taint approaches, node-level rsyslog redaction, limitations of GuardedString, and the need for training and better architectures.
+### TL;DR
 
-Comment pulse
-- Runtime in‑band tagging → mark secrets with magic tokens and strip at sinks; simple to deploy — counterpoint: late masking, no single‑use, easy to bypass.
-- Node‑level rsyslog redaction → regex redact known patterns, spool locally, encrypt upstream; throttle to WARN+ and alert on risky INFO/DEBUG to limit retention exposure.
-- Train developers and prefer signatures/IDs over transmitting secrets → fewer kitchen‑sink leaks; third‑party APIs may still force bearer tokens in headers.
+Keeping secrets out of logs has no single fix because sensitive data arrives through direct logging, oversized objects, configuration, embedded values, telemetry, and user input. The author proposes layered controls: centralized structured logging, data minimization and redaction, secret-aware domain types, read-once wrappers, taint analysis, safe formatters, tests, scanners, preprocessors, and trained people. Teams should map data flows, enforce controls at chokepoints, add downstream detection, and maintain an incident playbook for restriction, cleanup, recovery, and prevention.
 
-LLM perspective
-- View: Model logs as data flows; pair domain primitives, read-once wrappers, and taint analysis; scanners are backstops, not shields.
-- Impact: Catches leaks in compile-time/tests, lowers prod overhead, and limits blast radius when config flips or telemetry bypasses logging.
-- Watch next: Define leak-rate SLOs, measure formatter and preprocessor latency, pilot Semgrep/CodeQL rules, and test sampling plus TruffleHog/LLM verification pipelines.
+### Comment pulse
+
+- Readers praised the taxonomy and practical decomposition even when questioning individual techniques.
+- Discussion stressed secrets embedded inside uncontrolled strings, stack traces, responses, and serialized objects as the hardest case.
+
+### LLM perspective
+
+- View: Treating logging as a governed data pipeline is more durable than relying on developer memory or regex alone.
+- Impact: Layered prevention and detection reduce both leak probability and the time required to locate exposure.
+- Watch next: Coverage gaps, side-channel log paths, scanner sampling bias, and secrets persisting in indexes or downstream stores.

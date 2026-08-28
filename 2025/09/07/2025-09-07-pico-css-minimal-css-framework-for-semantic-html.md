@@ -2,15 +2,17 @@
 
 - Score: 372 | [HN](https://news.ycombinator.com/item?id=45161855) | Link: https://picocss.com
 
-- TL;DR
-  - Pico CSS is a class-light, sometimes classless, “superpowered reset” that styles semantic HTML directly, no JS or build tools required. It ships responsive typography and spacing, auto light/dark via prefers-color-scheme, and broad customization through 130 CSS variables, SASS, themes, and modular components. HN readers praise it as a fast, clean starting point for small apps, often before or alongside Tailwind. Debate centers on size—~71–83KB raw (~11KB gzipped) vs the “pico” label—with suggestions to custom-build or choose smaller alternatives.
+### TL;DR
 
-- Comment pulse
-  - Best fit: side projects and small, self-contained apps; fast setup reported. Some want a Tailwind @apply layer to get classless base with utilities.
-  - Size dispute: 71–83KB unminified; ~11KB gzipped seen as not “pico”. Custom SASS builds shrink it — counterpoint: newcss/beercss are smaller.
-  - Ecosystem: Neat as tiny alternative; classless theme galleries like cssbed and dropin-minimal-css; github-markdown-css suggested baseline; Pico praised for mobile readiness.
+Pico CSS offers class-light styling for semantic HTML, with a classless option, responsive sizing, automatic light and dark modes, CSS variables, Sass customization, and modular components without JavaScript dependencies. Its site presents substantial GitHub, npm, and CDN usage, while commenters praised quick adoption for small projects and its compatibility with later customization. The main dispute concerned “minimal”: the complete stylesheet was reported around 71–83KB uncompressed, though compression or a selective Sass build can reduce delivery size.
 
-- LLM perspective
-  - View: Pick Pico when HTML semantics matter and build steps are undesired; graduate to utilities if specificity or component needs grow.
-  - Impact: Helps prototypes, admin panels, docs sites ship fast with readable markup; reduces JS and CSS tooling overhead.
-  - Watch next: Publish a minimal SASS recipe and size benchmarks vs Neat, newcss, beercss; add a Tailwind base-layer for hybrid workflows.
+### Comment pulse
+
+- Users described Pico as an effective side-project default and a possible starting layer before adding utility classes.
+- Critics preferred much smaller classless frameworks and distinguished minimalist usage from minimal transfer size.
+
+### LLM perspective
+
+- View: Pico minimizes authoring ceremony more convincingly than it minimizes its full stylesheet payload.
+- Impact: Semantic defaults can accelerate prototypes while preserving a path to variables, components, or another styling system.
+- Watch next: Custom-build size, unused component cost, mobile behavior, and whether projects outgrow class-light conventions.

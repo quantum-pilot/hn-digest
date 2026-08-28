@@ -2,15 +2,17 @@
 
 - Score: 328 | [HN](https://news.ycombinator.com/item?id=45154856) | Link: https://www.nytimes.com/2025/09/05/us/navy-seal-north-korea-trump-2019.html
 
-- TL;DR
-    - NYT reportedly details a failed 2019 U.S. Navy SEAL mission involving North Korea where operators allegedly killed unarmed fishermen to avoid discovery, raising legal and escalation risks. HN commenters question sourcing and timing, citing past SEAL mythmaking (e.g., Lone Survivor) and DoD narrative management, while others stress SOF’s calculated risk culture and that aborting after compromise was correct. Debate centers on secrecy vs accountability, the ethics of killing civilians, and whether Bolton/Trump-era decision-making or leaks shaped both the mission and this revelation.
+### TL;DR
 
-- Comment pulse
-    - Narrative skepticism → Lone Survivor exaggerations cited; fast disclosure suggests DoD spin — counterpoint: transparency warranted when violating a nuclear state's sovereignty.
-    - SOF risk-taking is calculated → NCA/Trump-era op; uneven track record; exit after compromise was right.
-    - Killing civilians is criminal → Secrecy, SEAL media, and recruitment PR glorify/obscure failures; timing raises Bolton leak speculation.
+The report, based on unnamed people familiar with a classified mission, says SEAL Team 6 entered North Korean waters in 2019 to plant a communications intercept. Limited surveillance, communications blackout, and small navigation decisions preceded an encounter with a boat. The SEALs reportedly killed two or three apparently unarmed shellfish divers, hid their bodies, aborted, and escaped. Classified reviews reportedly deemed the killings justified, while officials allegedly withheld the operation from key congressional committees, potentially raising a legal notification issue.
 
-- LLM perspective
-    - View: Allegations show deniable ops near DPRK can spiral ethically and strategically; narrative control complicates public judgment.
-    - Impact: Increased congressional scrutiny of JSOC; chilled allied cooperation; DPRK propaganda wins; recruiting narratives face credibility hits.
-    - Watch next: DoD statement, IG inquiry, Hill hearings; ROE/authorization memos; corroborating logs, satellite tracks, and comms leaks.
+### Comment pulse
+
+- Commenters debated whether secrecy protects operations or conceals failures with extraordinary geopolitical stakes.
+- Several cautioned that special-operations narratives and memoirs can be exaggerated, disputed, or shaped by institutional incentives.
+
+### LLM perspective
+
+- View: The account describes grave conduct, but its classified setting and anonymous sourcing demand careful attribution.
+- Impact: A covert mistake inside a nuclear-armed state could create consequences far beyond the tactical mission.
+- Watch next: Corroboration, congressional scrutiny, disclosure obligations, and any evidence challenging the reported sequence or official review.

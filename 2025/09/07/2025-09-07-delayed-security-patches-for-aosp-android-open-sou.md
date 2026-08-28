@@ -2,16 +2,17 @@
 
 - Score: 221 | [HN](https://news.ycombinator.com/item?id=45158523) | Link: https://twitter.com/grapheneos/status/1964561043906048183
 
-TL;DR
-GrapheneOS says the post title misreads their complaint: AOSP isn’t uniquely delayed. Google shifted Android to quarterly public security updates while giving OEMs 3–4 months’ early access (formerly ~1), weakening embargoes and permitting binary‑only fixes. Monthly AOSP tags have stopped, and a quarterly release was late, delaying some non‑security fixes. Commenters see this as Google tightening control over Android/Chromium, argue regulation or divestiture is needed, and suggest Firefox over Chromium for forks. Security teams fear early‑access leaks and longer exposure windows.
-- Content unavailable; summarizing from title/comments.
+### TL;DR
 
-Comment pulse
-- Misleading title → Security backports landed in AOSP; Android-wide change moves to quarterly releases with 3–4 month OEM lead and binary-only exceptions, weakening embargo secrecy.
-- Missing monthly tags/QPR delays → Non‑security fixes stall; GrapheneOS can ship security patches via OEM access — counterpoint: broader delay increases exposure across Android devices.
-- Longer OEM lead creates leak risk → Broad pre-release distribution leaks; binary-only patches are easily reversed (especially Java/Kotlin), nullifying secrecy.
+The submitted title misstates GrapheneOS’s complaint. According to its clarifications, security-patch backports for Android 13–15 reached AOSP on September 2; the broader concern is Android moving from monthly patches with one month of OEM preview to quarterly updates with roughly four months of early access. A separate issue delayed the Android 16 QPR1 source release to AOSP. GrapheneOS says its OEM partnership provides early patches, but embargo rules allow binary releases while withholding source, a distinction it considers ineffective and risky.
 
-LLM perspective
-- View: Longer OEM lead times trade OEM readiness for user risk; transparency and synchronized source releases matter more than embargo theatrics.
-- Impact: Security teams/OEMs gain planning buffer; aftermarket OSes and researchers face delayed sources; attackers benefit from leaked or reversible fixes.
-- Watch next: Track CVE disclosure-to-public-source lag, AOSP tag cadence, and OEM patch SLAs; note any reversal of binary-only exceptions or cadence policy.
+### Comment pulse
+
+- GrapheneOS repeatedly corrected the title: the patch-policy delay affects Android broadly, not AOSP alone.
+- Commenters worried that widely distributed OEM previews weaken any meaningful embargo before public source release.
+
+### LLM perspective
+
+- View: Conflating security backports with QPR1 source publication obscures two distinct release-policy problems.
+- Impact: Longer preview windows may widen attackers’ head start even when maintainers receive partner access.
+- Watch next: Whether Google restores source-aligned disclosure and explains the delayed Android 16 QPR1 publication.
