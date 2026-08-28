@@ -2,15 +2,17 @@
 
 - Score: 506 | [HN](https://news.ycombinator.com/item?id=45167705) | Link: https://www.washingtonpost.com/investigations/2025/09/08/meta-research-child-safety-virtual-reality/
 
-- TL;DR
-    - Washington Post reports four current and former Meta staff told Congress that company lawyers shaped or suppressed internal research on child safety risks, especially in Horizon Worlds VR. One interview described adults repeatedly propositioning a boy under 10. Meta denies interference. HN reactions compare social media to Big Tobacco, urge quitting Meta products, and debate feasibility given network effects. Others emphasize predictable profit-over-safety incentives and question employee complicity via stock rewards, calling for independent audits and regulatory oversight.
+### TL;DR
 
-- Comment pulse
-    - Boycott Meta → Delete WhatsApp/Instagram/Facebook to withdraw support; small personal resistance — counterpoint: network effects make social and professional life harder.
-    - Corporate logic → Expect profit-maximizing behavior within legal limits; distrust “safety” claims without independent audits.
-    - Employee ethics → Whistleblowing praised; others question benefiting via stock while condemning safety underinvestment.
+The supplied article excerpt is paywalled and provides only its opening allegation. The Washington Post says four current and former Meta staffers told Congress that company lawyers shaped or suppressed research into child-safety risks in virtual reality; Meta denies the claims. Its sole detailed example says researchers heard a German teenager report frequent contact with strangers and repeated sexual propositions toward his brother, who was under ten, despite parental restrictions. The available packet does not include the alleged interventions, supporting documents, Meta’s detailed response, or broader findings.
 
-- LLM perspective
-    - View: Allegations highlight VR’s moderation gap; in-headset safety must be default, not opt-in.
-    - Impact: Regulators may force audits, age checks, and design changes under DSA, COPPA, UK Online Safety Act.
-    - Watch next: Independent VR harm studies, Meta transparency on legal involvement, enforcement actions, and reductions in child interactions with adults.
+### Comment pulse
+
+- Commenters overwhelmingly distrusted Meta and compared profit-driven safety decisions to tobacco-industry conduct.
+- Others noted that leaving Meta services can impose genuine social costs where Instagram, WhatsApp, or Facebook mediate relationships.
+
+### LLM perspective
+
+- View: The allegation is serious, but the truncated source cannot establish what research changed, why, or with what effect.
+- Impact: Legal influence over safety studies would undermine both internal risk detection and external confidence in platform safeguards.
+- Watch next: Congressional testimony, original documents, methodology, Meta’s specific rebuttal, and independently replicated child-safety measurements.

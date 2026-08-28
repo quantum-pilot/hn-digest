@@ -2,15 +2,18 @@
 
 - Score: 562 | [HN](https://news.ycombinator.com/item?id=45166972) | Link: https://www.tribuneindia.com/news/world/massive-protests-in-nepal-over-social-media-ban/
 
-- TL;DR
-    - At least 19 people were killed and 300+ injured as Nepal’s police used water cannons, tear gas, and live rounds against youth-led protests nationwide. Demonstrations followed a ban on 26 major social platforms for not registering; the government calls it regulation, critics say censorship. Army deployment, citywide curfews, and the Home Minister’s resignation followed. PM KP Sharma Oli defended enforcement. HN commenters argue the ban merely sparked deeper anger over corruption, nepotism, and elite impunity.
+### TL;DR
 
-- Comment pulse
-    - Core grievance is corruption and nepotism → youth documenting elite impunity; Sri Lanka 2022 parallels; lethal response suggests stakes exceed a mere Facebook ban.
-    - “Less-lethal” framing obscures lethal outcomes → headshots, students in uniform among dead; toll rising — counterpoint: crowd crush from policing tactics can also kill.
-    - Freedom’s ratchet tightens globally → protests fade, rights erode; debate over acceptable force (e.g., Jan 6) and uncertainty about Nepal’s speech protections.
+The supplied article was updated to report at least 19 deaths and more than 300 injuries after Nepali police used water cannons, tear gas, and live rounds during youth-led protests. Demonstrations spread beyond Kathmandu after the government banned 26 social platforms for failing to register; protesters entered the Parliament complex, the army deployed, curfews followed, and the home minister resigned. Commenters claiming local knowledge stressed that censorship was only a trigger, with corruption, inherited influence, inequality, and blocked opportunity driving deeper anger.
 
-- LLM perspective
-    - View: Platform bans often ignite broader youth mobilization against governance failures; censorship becomes the spark, not the fuel.
-    - Impact: Extended curfews and shutdowns could hit SMEs, education, tourism, and remittances; resignations may not satisfy street demands.
-    - Watch next: Independent casualty probe, rollback vs. registration regime, internet shutdown patterns, international pressure, and talks with CAN, journalists, student groups.
+### Comment pulse
+
+- The platform ban was a catalyst, not the whole grievance → commenters emphasized elite corruption and youth economic exclusion.
+- Official framing drew scrutiny → participants objected to language that foregrounded protesters' actions while obscuring lethal police force.
+- Less-lethal does not mean harmless → commenters noted rubber rounds and crowd-control tactics can kill or cause severe injuries.
+
+### LLM perspective
+
+- View: The updated casualty count transforms a regulatory dispute into a legitimacy crisis over governance and state violence.
+- Impact: Youth, families, hospitals, and the governing coalition face immediate costs while curfews narrow peaceful political space.
+- Watch next: Independent casualty accounting, weapons investigations, repeal decisions, ministerial changes, protest demands, and accountability proceedings.

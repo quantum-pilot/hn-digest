@@ -2,15 +2,17 @@
 
 - Score: 487 | [HN](https://news.ycombinator.com/item?id=45174297) | Link: https://kube.io/blog/liquid-glass-css-svg/
 
-- TL;DR
-    - The post recreates Apple’s “Liquid Glass” in the browser using physics-based refraction (Snell’s law), convex/squircle profiles, precomputed displacement fields, and SVG feDisplacementMap (RG channels) plus a rim-light highlight. It composes as a Chrome-only backdrop-filter; dynamic shape changes require regenerating maps. Demos include a magnifier, switch, slider, and a music panel. HN praises the clear explanations but flags jank and potential battery cost, debating WebGL shaders for portability versus CSS/SVG for immediate DOM integration and first-paint visibility.
+### TL;DR
 
-- Comment pulse
-    - WebGL shaders are faster and cross‑browser → require canvas re-rendering; weaker DOM integration and first paint. — counterpoint: SVG/CSS shows immediately and fits existing UIs.
-    - Performance is rough → scrolling stutters and heavy battery use feared, even on high‑end Macs; author acknowledges and shipped quick optimizations.
-    - Chrome‑only backdrop‑filter is frustrating → but acceptable for showcasing an unavailable feature; some report Firefox feels smoother despite missing effects.
+The tutorial recreates Apple-like refractive interface elements using refraction calculations, generated SVG displacement maps, CSS filters, and a separate specular-highlight layer. It models several curved surface profiles, precomputes symmetric displacement magnitudes, encodes X and Y offsets into image color channels, and applies the result behind ordinary HTML. The approach can render on the first frame without moving the page into a canvas, but true backdrop refraction currently depends on a Chromium-only extension. Dynamic resizing is expensive, and the author labels the prototype experimental and under-optimized.
 
-- LLM perspective
-    - View: Smart use of precomputed, normalized displacement maps to mimic Snell-based refraction with SVG constraints.
-    - Impact: Practical for Electron/Chromium apps and marketing sites; risky for core UX due to performance and energy costs.
-    - Watch next: Benchmark shader-based versions (WebGL/WebGPU), measure power and jank; track SVG filter backdrop support and potential shader-like filter proposals.
+### Comment pulse
+
+- WebGL alternatives offer wider browser support and faster shaders, but cannot directly refract existing DOM content without re-rendering it.
+- Readers reported heavy scrolling jank; the author acknowledged several unoptimized visualizations and made an initial performance fix.
+
+### LLM perspective
+
+- View: The technique is strongest as an optics lesson and constrained enhancement, not a production-wide design system.
+- Impact: Precomputed SVG maps preserve normal HTML composition, trading shader flexibility for DOM integration and first-frame rendering.
+- Watch next: Standardized backdrop filters, resizing costs, GPU acceleration, accessibility fallbacks, battery use, and open-source cleanup.

@@ -2,15 +2,18 @@
 
 - Score: 678 | [HN](https://news.ycombinator.com/item?id=45171200) | Link: https://stopa.io/post/297
 
-- TL;DR
-  - An engineer “supervised” his iPhone with Apple Configurator, factory-resetting it to disable the App Store and whitelist only needed sites/apps. The added friction prevents impulsive changes while keeping utilities (maps, rides, chat, LLMs). After two months, screen time dropped ~2 hours/day; the phone “feels like a tool.” Biggest unresolved issue: filtering “semi-important” email without losing urgent alerts. HN discusses alternative approaches (device separation, cold-turkey/notifications-off, Assistive Access/Focus modes, email whitelisting, added-friction tools) and practical constraints like payments/navigation.
+### TL;DR
 
-- Comment pulse
-  - Split devices: strip phone to utilities; keep entertainment on an at-home tablet → reduces temptation, improves battery.
-  - Cold turkey week + pocket notebook → reveals true necessities; some just disable all notifications — counterpoint: daily payments/navigation make this impractical for many.
-  - Alternatives: Assistive Access/Focus modes, Android ROMs with push control, Foqos/QR locks, grayscale → add friction; email whitelisting/paid inboxes tame alerts.
+The author used Apple Configurator's device-supervision controls to keep useful iPhone apps while disabling app installation and allowing only selected websites. Unlike easily dismissed Screen Time limits, changing the profile requires connecting the phone to a Mac, creating deliberate friction. After two months, reported daily screen time fell from about four hours to two without a desire to remove restrictions. Setup requires a factory reset, careful app selection, and weeks of adjustments; semi-important services such as email remain difficult to constrain without missing urgent messages.
 
-- LLM perspective
-  - View: Friction-first design beats willpower; supervised mode is a durable “personal MDM” for attention management.
-  - Impact: Normalizes utility-only phones; pressures Apple to ship a first-class “Utility Mode” with enforceable schedules.
-  - Watch next: Data on relapse/screen-time deltas; improved Assistive Access/Focus APIs; smarter on-device email prioritization.
+### Comment pulse
+
+- Physical or procedural friction beats willpower → separate devices, remote unlock codes, and supervision interrupt automatic checking.
+- Utility needs are personal → navigation, payments, authentication, work, family communication, and tickets complicate a universal dumbphone.
+- Notification whitelists address the middle ground → personal senders can remain immediate while transactional email waits.
+
+### LLM perspective
+
+- View: The method preserves smartphone utility by making distraction changes inconvenient rather than demanding continuous self-denial.
+- Impact: Users trade spontaneous installation and browsing for reclaimed attention, longer setup, and occasional dependence on others.
+- Watch next: Profile durability across updates, emergency overrides, notification filtering, backup restoration, and sustained screen-time results.

@@ -2,15 +2,18 @@
 
 - Score: 308 | [HN](https://news.ycombinator.com/item?id=45166750) | Link: https://buttondown.com/blog/rss-vs-ice
 
-- TL;DR
-  - Microsoft/Adobe’s ICE aimed to commercialize web syndication with a complex, pricey, consortium-led spec. RSS, born as a simple Netscape widget and evolved by Dave Winer, spread via free aggregators and minimal requirements—winning adoption from the New York Times and eventually Microsoft. Lesson: open, easy, permissionless beats heavyweight standards. HN lauds RSS’s consumer benefits but debates sustainability: publishers often cripple feeds for ads/analytics, though paid full‑text feeds and sponsorships show viable alternatives.
+### TL;DR
 
-- Comment pulse
-  - Consumer-first RSS thrives; publishers resist due to lost emails, tracking, and ad slots → push email-only or partial feeds — counterpoint: paid full‑text feeds and sponsorships work.
-  - Ads and efficiency hinder full feeds: readers poll too often, ignore conditional requests; publishers truncate to save bandwidth — counterpoint: ads can be inserted, harder.
-  - Did RSS lose? Many say no: it persists, cross-platform via Feedly/Reeder, with no rival protocol; success ≠ mainstream dominance.
+The essay contrasts RSS with Information and Content Exchange, a late-1990s syndication standard backed by Microsoft, Adobe, Reuters, Vignette, and others. ICE targeted commercial licensing with negotiation, pricing, expiration, and branding machinery, expensive servers, and a 58,000-word guide. RSS required little more than a title, description, and item links, so independent publishers and free aggregators could adopt and extend it without institutional permission. HN readers agreed simplicity and user control sustained RSS, while debating publisher incentives, advertising, polling inefficiency, and whether survival constitutes victory.
 
-- LLM perspective
-  - View: Openness plus ‘good enough’ features outcompete complex consortia; distribution control shifted to users, not platforms.
-  - Impact: Better crawl etiquette and WebSub-style push could revive full-content feeds and reduce publisher costs.
-  - Watch next: Paid RSS, JSON Feed, and browser-native subscribe buttons; track full-text adoption rates and sustainable revenue experiments.
+### Comment pulse
+
+- Consumer control is RSS's durable advantage → subscribers choose sources and readers without surrendering identities or feeds to a platform.
+- Publisher economics remain awkward → partial feeds, site-visit incentives, polling load, and weak monetization can reduce usefulness.
+- Open standards need not dominate culture → commenters called continued interoperability a win even without mainstream awareness.
+
+### LLM perspective
+
+- View: RSS won protocol adoption by minimizing coordination costs, not by matching ICE's commercial feature set.
+- Impact: Small publishers and readers retain a portable subscription channel despite centralized platforms' stronger discovery and monetization.
+- Watch next: Paid full-text feeds, adaptive polling, reader discovery, platform feed visibility, and sustainable publisher revenue models.
