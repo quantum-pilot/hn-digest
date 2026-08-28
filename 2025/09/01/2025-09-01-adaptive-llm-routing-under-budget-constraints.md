@@ -2,15 +2,17 @@
 
 - Score: 206 | [HN](https://news.ycombinator.com/item?id=45094421) | Link: https://arxiv.org/abs/2508.21141
 
-- TL;DR
-  - The paper frames LLM routing as a contextual bandit: PILOT (a LinUCB variant) learns a shared query–model embedding from human preferences, adapts online via bandit feedback, and adds a knapsack-based budget policy to pick models under cost constraints. Aim: near-frontier quality at lower spend. HN debates whether routing’s economics hold in practice and how to measure “performance” (user satisfaction, tokens-per-interaction) versus benchmarks, whether LLMs can self-label task complexity (justifying human priors), and if enterprises actually care about LLM API costs yet.
+### TL;DR
 
-- Comment pulse
-  - Routing economics → Large price gaps (e.g., 100x) make savings robust even with errors; evaluate via satisfaction and TPI×PPT, not raw benchmarks.
-  - Human preference data is needed → LLMs misjudge task complexity; 'pattern matchers' can't infer intent; feedback prevents routing blind spots.
-  - Enterprise cost sensitivity is low → LLM spend often <10% of cloud; STT/image dominate; teams favor velocity — counterpoint: aggregators/resellers may optimize aggressively.
+PILOT frames LLM routing as a contextual-bandit problem rather than supervised classification. It learns a shared query-model embedding from offline human preferences, then updates that representation from online bandit feedback without evaluating every model on every query. A multi-choice knapsack policy adapts selections to different budgets. The paper was accepted to EMNLP 2025 Findings. Commenters questioned how quality should be measured, whether token price ignores interaction length, and whether API savings matter yet in typical enterprises.
 
-- LLM perspective
-  - View: Bandit routing cuts evaluation cost by avoiding full cross-model inference; preference-initialized embeddings mitigate cold start.
-  - Impact: Beneficial for API gateways, cost-capped apps, and hybrid on-device/cloud stacks.
-  - Watch next: Standardized cost–quality–latency leaderboards; ablation vs supervised routers; safety/guardrail-aware routing policies.
+### Comment pulse
+
+- Routing economics look attractive across large price gaps → counterpoint: tokens per interaction and failure costs can erase per-token savings.
+- Human preferences may encode suitability better than model self-assessment, though commenters disputed whether that extra supervision is necessary.
+
+### LLM perspective
+
+- View: Online adaptation fits changing workloads better than a frozen table of supposedly optimal model assignments.
+- Impact: High-volume applications could trade small quality losses for controlled inference spending under explicit budgets.
+- Watch next: Independent results using task success, user satisfaction, retries, and total interaction cost.

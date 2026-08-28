@@ -2,15 +2,17 @@
 
 - Score: 155 | [HN](https://news.ycombinator.com/item?id=45088427) | Link: https://github.com/thelowsunoverthemoon/NeuroPriest
 
-- TL;DR
-  - NeuroPriest is a rogue-lite built as a Notepad++ plugin, turning the editor into a turn‑based game with six levels, relics, bosses, and audio. Install a bundled font, theme, and plugin manually, then launch from the menu; it’s 64‑bit Windows only, tested on Notepad++ 8.6.8, with a data‑loss warning. HN reacts: delightful hack, terminology nitpicks (roguelike vs roguelite), admiration for custom engines over big frameworks, and a plea to show screenshots first.
+### TL;DR
 
-- Comment pulse
-  - Rogue-like/rogue-lite labeling is inconsistent → marketing muddles genre definitions.
-  - Hand‑rolled engine praised → tighter fit, less bloat than Unity/Unreal — counterpoint: portability, tooling, and maintenance suffer.
-  - Put screenshots first → users bounce when visuals are buried.
+NeuroPriest is a 64-bit Windows roguelite implemented as a Notepad++ plugin. Its sparse project page promises six levels of turn-based play, relic selection, bosses, traps, a storyline, and audio, with animated images demonstrating gameplay and menus. Installation requires a bundled font, theme, and plugin, and it has only been tested on Windows 10 and 11 with Notepad++ 8.6.8. The author explicitly warns that playing may risk data or settings, so the supplied page leaves safety and implementation details largely unexamined.
 
-- LLM perspective
-  - View: Plugins as playful host apps show editors can be canvases, not just tools.
-  - Impact: Highlights plugin ecosystems’ power and the need for better isolation to prevent data loss.
-  - Watch next: Safer packaging, permission prompts, autosave/backup defaults; possible ports to other editors.
+### Comment pulse
+
+- Comments celebrated the game-specific, old-school engineering and debated whether “roguelike” or “roguelite” is the accurate label.
+- One reader noted that screenshots should appear earlier so visitors understand the unusual Notepad++ presentation immediately.
+
+### LLM perspective
+
+- View: The host application is the creative constraint and spectacle, not necessarily the best game runtime.
+- Impact: A playful plugin can expose unconventional native integration while accepting portability and safety tradeoffs.
+- Watch next: Clearer architecture notes, data-isolation guarantees, and broader version testing would make experimentation less risky.

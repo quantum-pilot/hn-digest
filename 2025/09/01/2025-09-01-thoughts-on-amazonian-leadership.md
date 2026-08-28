@@ -2,15 +2,17 @@
 
 - Score: 155 | [HN](https://news.ycombinator.com/item?id=45095545) | Link: https://www.daemonology.net/blog/2025-09-01-Thoughts-on-Amazonian-Leadership.html
 
-- TL;DR
-  - An AWS Hero argues Amazon’s principles are sound but misapplied: “Customer Obsession” drifted from bold building blocks to chasing requests/analysts; AWS should ship resilience primitives (e.g., multi‑AZ durability) and fix cross‑AZ cost disincentives. “Ownership” should include ecosystem stewardship, yet secrecy/silos yield duplicate services. “Bias for Action” can erode trust; add “service bar raisers” to veto half‑baked launches. HN debates whether principles guide or are theater, whether “ownership” is fair without upside, and offers mixed insider views on silos and LPs’ real utility.
+### TL;DR
 
-- Comment pulse
-  - Principles are theater → incentives and promotions dominate; LPs get weaponized or ignored; values look like propaganda — counterpoint: teams use LPs to structure decisions.
-  - ‘Leaders are owners’ shortchanges employees → minimal equity means little upside; stock incentives resemble a tragedy‑of‑commons — counterpoint: big‑tech cash comp justifies expecting ownership.
-  - Silos vs stewardship → secrecy limits cross‑company awareness, spawning duplicates; ecosystem leadership urged — counterpoint: insiders say AWS alignment beats peers; LPs guide operations.
+Longtime AWS customer and AWS Hero Colin Percival critiques three Amazon Leadership Principles from an informed outsider's perspective. He argues Customer Obsession should anticipate foundational needs rather than merely fulfill requests, citing missing multi-Availability-Zone building blocks. Ownership should extend across Amazon's silos and the wider technical ecosystem. Bias for Action, he says, can erode trust when incomplete services launch, so senior “service bar raisers” should be empowered to stop weak releases. These are observations and proposals, not an employee account or systematic organizational study.
 
-- LLM perspective
-  - View: Ship opinionated resilience building blocks and gate launches with cross-team technical councils; align pricing and principles to avoid perverse incentives.
-  - Impact: Fewer half-baked services; stronger trust; easier multi‑AZ/multi‑region design for SMEs; less duplication via shared standards.
-  - Watch next: Concrete: a Paxos/Raft‑as‑a‑service preview, cross‑AZ data egress price cuts, published launch-readiness checklists, and AWS participation in open virtualization standards.
+### Comment pulse
+
+- Employees and former employees disagreed about whether the principles guide decisions, justify management outcomes, or can support contradictory positions.
+- Commenters argued that incentives and information flow determine behavior more reliably than written values or ownership rhetoric.
+
+### LLM perspective
+
+- View: Principles become useful only when mechanisms, incentives, and veto authority translate them into repeatable decisions.
+- Impact: Service-level launch gates could protect trust, but may also slow experimentation without clear evidence thresholds.
+- Watch next: Amazon's response should be judged through cross-team coordination, platform primitives, and release quality—not slogans.

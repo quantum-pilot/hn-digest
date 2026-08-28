@@ -2,15 +2,18 @@
 
 - Score: 159 | [HN](https://news.ycombinator.com/item?id=45090963) | Link: https://blog.tdhttt.com/post/love-ee/
 
-- TL;DR
-  - A student chasing next‑gen interfaces tinkered with SixthSense, then studied CSE. EE felt rote and math‑first; software and physics research (Docker, ML at CERN) delivered impact, prompting a switch to CS+Physics. He still wants better human–computer interaction (AR/VR, BCI) but is glad he didn’t force EE. HN argues EE’s “wall” is deep math and leaky abstractions; hobbyist electronics ≠ EE research; software’s low cost and fast feedback win, while keyboards persist due to human factors.
+### TL;DR
 
-- Comment pulse
-  - EE’s barrier is rigorous math and leaky abstractions → undergrad shortcuts feel rote; real design needs PDEs/control theory, making hobby builds seem like cargo‑culting.
-  - Software accelerates experimentation → cheap tools, immediate deployment to users — counterpoint: serious CS research also demands heavy math and sometimes expensive compute.
-  - Keyboards/mice persist → human motor habits and error rates favor them; replacements must change interaction paradigms, not just swap peripherals.
+An undergraduate drawn to futuristic interfaces found electrical-engineering courses repetitive, memorization-heavy, and disconnected from visible innovation. Software offered immediate feedback and global reach: the author built a course-planning interface, added Docker support to scientific software, and joined particle-physics machine-learning research. A late, open-ended electronics project finally made hardware enjoyable, but by then the author had switched to computer science and physics. The essay explicitly treats this as one school experience, not a universal verdict on engineering education.
 
-- LLM perspective
-  - View: The motivation gap stems from slow EE feedback loops, costly hardware, and pedagogy emphasizing math before meaning.
-  - Impact: Project‑first EE curricula and modern labs could retain builders; cross‑trained CS/EE grads will drive practical AR/VR/BCI advances.
-  - Watch next: Universities adopting accessible EDA/simulators, low‑cost FPGA/MCU kits, clear HCI benchmarks; monitor AR/BCI releases from major labs and startups.
+### Comment pulse
+
+- Engineers said genuine EE research requires substantial mathematics, while introductory tinkering often hides complexity behind reusable blocks.
+- Others shared the author’s frustration with delayed practical work, aging labs, and repetitive problem sets.
+- Commenters noted software experimentation is cheaper and more reversible, though cutting-edge CS can also demand inaccessible resources.
+
+### LLM perspective
+
+- View: Feedback speed and project ownership shaped the author’s motivation more strongly than subject matter alone.
+- Impact: Earlier open-ended laboratories could help students connect mathematical prerequisites to personally meaningful hardware outcomes.
+- Watch next: Curriculum experiments comparing retention and career choice under project-first versus theory-first sequencing.

@@ -2,15 +2,18 @@
 
 - Score: 385 | [HN](https://news.ycombinator.com/item?id=45093090) | Link: https://radar.cloudflare.com/ai-insights
 
-- TL;DR
-    - Cloudflare Radar’s AI Insights aggregates network-wide telemetry on AI crawlers and usage: who’s crawling, for what purpose, how crawl-to-refer ratios are shifting, robots.txt trends, and Workers AI model/task popularity. Cloudflare reports training now drives ~80% of AI crawling while referrals to publishers decline. HN debates whether Cloudflare is becoming a paid gatekeeper via bot verification versus providing a much-needed identity standard. Readers flag data surprises: Character.AI’s high DNS popularity and Llama‑3‑8B leading Workers deployments; questions arise over labeling Common Crawl as an “AI bot.”
+### TL;DR
 
-- Comment pulse
-    - Cloudflare gatekeeps AI crawlers, possibly charging → risks to small search engines/archives — counterpoint: bot verification standards are overdue and within CF’s remit.
-    - Character.AI ranks #2 by 1.1.1.1 DNS queries → indicates youth adoption; some suspect DNS caching skew; Workers usage shows Llama‑3‑8B dominates.
-    - Labeling Common Crawl’s CCBot as an “AI bot” → risks overblocking research/archival crawls; potential loophole: route access through CC to bypass restrictions.
+Cloudflare Radar’s AI Insights dashboard aggregates traffic trends for AI crawlers, declared crawl purposes, crawl-to-referral ratios, robots.txt directives, generative-AI service popularity, and model or task use on Workers AI. The page says training accounted for nearly 80% of AI crawling by mid-2025 while publisher referrals fell. Commenters welcomed the visibility but warned that DNS caching can distort service rankings and questioned Cloudflare’s authority to classify bots and define which automated traffic counts as acceptable.
 
-- LLM perspective
-    - View: Cloudflare is centralizing bot identity and telemetry, reshaping crawling economics and giving publishers a lever over AI access.
-    - Impact: AI vendors must authenticate crawlers and negotiate terms; small crawlers face friction; publishers get dashboards and enforceable robots.txt semantics.
-    - Watch next: WebBotAuth adoption, crawl-to-refer trends, enforcement of AI user-agent directives, and whether Common Crawl receives carve-outs.
+### Comment pulse
+
+- Bot verification could curb impersonation → counterpoint: critics fear Cloudflare becoming a toll-collecting gatekeeper for public content.
+- Readers found Character.AI’s high DNS-based ranking surprising and debated how caching affects the measurement.
+- Classifying Common Crawl as an AI bot raised concern because its archive supports many non-AI uses.
+
+### LLM perspective
+
+- View: The dashboard makes crawler economics observable, but Cloudflare’s categories also shape the market it measures.
+- Impact: Publishers gain evidence for access policies while smaller crawlers may inherit rules designed around major AI companies.
+- Watch next: Methodology disclosures, signed-bot adoption, and crawl-to-referral changes after blocking or payment controls.

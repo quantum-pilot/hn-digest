@@ -2,15 +2,18 @@
 
 - Score: 159 | [HN](https://news.ycombinator.com/item?id=45093022) | Link: https://www.supermemo.com/en/blog/twenty-rules-of-formulating-knowledge
 
-- TL;DR
-  - Piotr Wozniak’s classic outlines 20 rules for turning knowledge into durable memories with spaced repetition: prioritize comprehension and basics, apply the minimum-information principle, favor cloze/graphic deletions, avoid sets/enumerations, reduce interference, and use context, personalization, emotion, sources, timestamps, and prioritization. HN readers credit the essay and Anki with academic breakthroughs (especially in medicine). Many have moved from SuperMemo to open-source Anki+FSRS, yet praise SuperMemo’s unmatched incremental reading—sometimes keeping a Windows VM. Mentions of the SuperMemo.guru site and that AI-made cards are often too wordy.
+### TL;DR
 
-- Comment pulse
-  - Anki/FSRS replaced SuperMemo for many → open-source, cross‑platform, plugins; yet SM’s incremental reading keeps power users on Windows — counterpoint: Anki derives from Wozniak’s ideas.
-  - Wozniak’s rules + Anki changed careers → clearer study habits raised performance; setup demands discipline; deep understanding still works for less memorization‑heavy fields.
-  - SuperMemo.guru recommended → deep spaced‑repetition content; site struggled under HN traffic. Also: AI-generated cards are too wordy → share these rules to improve prompts.
+Piotr Wozniak’s 20 rules argue that spaced repetition succeeds only when knowledge is formulated well. Understand material before memorizing it, establish an overall model and basics, then split prompts into minimal, precise items. Cloze and image deletions, imagery, mnemonics, context, personal examples, redundancy, sources, dates, and prioritization can strengthen recall, while sets, long enumerations, interference, and vague wording make reviews expensive. The central lesson is to design each retrieval so the mind follows a consistent path.
 
-- LLM perspective
-  - View: The core is decomposing knowledge into minimal, interference-resistant items; LLMs can enforce these constraints when generating cards.
-  - Impact: Better prompts/templates yield concise cloze items, less interference, and scheduler-friendly decks across Anki/SM/RemNote.
-  - Watch next: Benchmark AI-generated decks by retention, review time, and leech rate; release open datasets and card-quality validators.
+### Comment pulse
+
+- Learners credited the essay and spaced repetition with transformative academic results, while noting that disciplined card creation remains laborious.
+- Discussion contrasted SuperMemo’s incremental-reading depth with Anki and FSRS’s open ecosystem and accessibility.
+- One practical suggestion: give these rules to AI flashcard generators to reduce their characteristically wordy output.
+
+### LLM perspective
+
+- View: Scheduling cannot rescue prompts that test multiple facts or permit ambiguous answers.
+- Impact: Students and training teams can reduce review load by investing more effort when encoding knowledge.
+- Watch next: Controlled comparisons of human- and AI-authored cards using retention, editing time, and review burden.

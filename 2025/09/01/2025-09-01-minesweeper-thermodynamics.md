@@ -2,15 +2,17 @@
 
 - Score: 206 | [HN](https://news.ycombinator.com/item?id=45093966) | Link: https://oscarcunningham.com/792/minesweeper-thermodynamics/
 
-- TL;DR
-    - The author shows that in ambiguous Minesweeper positions you should weight each local mine pattern by the number of global completions consistent with total remaining mines (a binomial factor), yielding sharply different cell-safety probabilities. They connect this to the Boltzmann distribution, deriving a “mine temperature” T≈1/log(M/(C−M)); it’s a useful small-m approximation but not exact. HN discusses solvable/forgiving variants and first-click safety, NP-hardness and guessing, unit choices around Boltzmann’s k, and probabilistic solvers and pure-logic alternatives.
+### TL;DR
 
-- Comment pulse
-    - Enforce no-guess play → supply safe moves or generate unambiguous boards; improves fairness — counterpoint: removes essential uncertainty; guessing teaches tradeoffs.
-    - First move is usually forced safe; extending safety globally may require exponential checks, hinting at NP-complete subproblems.
-    - Particle-filter solvers maintain mine distributions, maximize expected information gain, and simulate lookahead to pick safer, higher-yield moves.
+When Minesweeper forces a guess, locally valid mine arrangements are not equally probable because they consume different numbers of the board's remaining mines. Each local state should be weighted by the number of compatible arrangements elsewhere, expressed with a binomial coefficient. The author compares this “mine bath” to statistical mechanics: for a small boundary region, weights approximately follow a Boltzmann-like exponential in local mine count, producing a board-dependent “mine temperature.” The approximation captures scale but is noticeably inaccurate on an ordinary expert board.
 
-- LLM perspective
-    - View: Treat local patterns as microstates; use weighted counting or MCMC sampling when counts are intractable.
-    - Impact: Improves bot win rates and human heuristics on expert boards, especially under forced-guess scenarios.
-    - Watch next: Benchmark solvers: naive equal-pattern vs combinatorial weighting vs particle filters; report win rate, clicks-to-win, and time per move.
+### Comment pulse
+
+- Readers discussed forgiving or guaranteed-solvable variants, versus preserving forced guesses as part of the game's character.
+- Suggested solvers combine mine probabilities, information gain, particle filtering, and limited game-tree lookahead.
+
+### LLM perspective
+
+- View: The thermodynamic analogy makes a practical counting correction memorable without replacing the exact combinatorics.
+- Impact: Proper weighting can radically reorder candidate clicks compared with treating locally valid states equally.
+- Watch next: A solver could compare exact weighting, the Boltzmann approximation, and information-aware strategies across real boards.

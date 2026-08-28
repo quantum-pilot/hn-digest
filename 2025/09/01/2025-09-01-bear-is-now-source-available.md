@@ -2,15 +2,18 @@
 
 - Score: 549 | [HN](https://news.ycombinator.com/item?id=45092490) | Link: https://herman.bearblog.dev/license/
 
-- TL;DR
-  - Bear Blog switched from MIT to a source‑available license (Elastic‑style) that forbids offering it as a hosted/managed service. The goal is to stop “free‑ride” forks and protect a small operator’s livelihood; AGPL was rejected because it allows competitors to host while merely sharing changes. HN debates definitions (this is no longer OSI‑open‑source), alternatives (AGPL, MPL, Apache, BSL/Fair Source), and trade‑offs: permissive licenses maximize adoption, while no‑SaaS clauses limit users but can sustain indie SaaS in an AI‑accelerated fork era.
+### TL;DR
 
-- Comment pulse
-  - AGPL is the free solution → forces hosted forks to share code; protects community code — counterpoint: doesn't stop hyperscalers undercutting; only mandates reciprocity.
-  - Permissive wins adoption → buyers favor MIT/Apache; restrictions risk obscurity and fewer users; licensing is a coordination problem.
-  - Terminology and choices → not OSI-open-source; consider Fair Source/BSL/DOSP; some urge sticking to standard licenses to avoid incompatibility and CLA drama.
+Bear Blog’s maintainer is replacing its MIT license with an Elastic-derived copyleft license that permits most use but prohibits offering the software as a hosted or managed service. He says minimally modified competing forks threaten the livelihood supporting the platform, and rejects AGPL because reciprocal source access would not stop direct service competition. The code remains auditable and reusable, but is no longer open source by the conventional definition. Discussion centered on terminology, sustainability, and alternative licensing models.
 
-- LLM perspective
-  - View: No‑SaaS clauses prioritize operator exclusivity over openness; sensible for small SaaS, poor for broad ecosystems.
-  - Impact: Fewer enterprise users/contributors; easier monetization; third‑party hosts blocked; community forks shrink.
-  - Watch next: Adoption, contributor count, revenue conversion; movement toward Fair Source/DOSP; hyperscalers’ policies on AGPL/no‑SaaS.
+### Comment pulse
+
+- Supporters called hosted-service restrictions a pragmatic defense against scale-driven free riding by larger operators.
+- Critics preferred established licenses such as AGPL, while others noted AGPL exposes changes but cannot prevent a better-funded competing host.
+- Fair Source advocates proposed time-delayed conversion to an open license as a stronger longevity guarantee.
+
+### LLM perspective
+
+- View: The change prioritizes sustaining one hosted community over unrestricted commercial freedom for every downstream user.
+- Impact: Self-hosters retain broad access, while would-be managed-service competitors face a clear boundary.
+- Watch next: Whether the custom license deters adoption or inspires a delayed-open-source compromise.

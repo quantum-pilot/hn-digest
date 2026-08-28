@@ -2,15 +2,17 @@
 
 - Score: 363 | [HN](https://news.ycombinator.com/item?id=45095603) | Link: https://www.businessinsider.com/amazon-ai-talent-wars-internal-document-2025-8
 
-- TL;DR
-  - Business Insider says an internal Amazon doc flags three AI hiring blockers—rigid pay bands/back‑loaded stock, a lagging AI reputation, and “hub” RTO limits—contributing to weaker retention and missed marquee hires. Leadership promises tweaks to compensation/location strategy and targeted GenAI recruiting, but sources see little change; notable AI leaders have exited. HN debates whether Amazon should chase frontier models or double down as an AI enabler (chips, Bedrock, cloud). Some argue compute/access win; others say moats are talent/data and AWS trails Azure/GCP.
+### TL;DR
 
-- Comment pulse
-  - Enabler over innovator: AWS makes more by serving models and selling chips (Bedrock, Trainium/Graviton), not by chasing SOTA research.
-  - Compute is the moat: LLM methods converge; buy GPUs and power, not superstar hires — counterpoint: progress hinges on people/data; Google lags despite massive compute.
-  - AWS is slipping: experts leaving, weak GenAI showings, Azure/GCP gaining; consumer side feels late (Alexa+ paywall, AWS Q underwhelming).
+Business Insider reports that an internal Amazon HR document identified fixed pay bands, backloaded stock vesting, strict office hubs, and a perceived AI lag as recruiting obstacles. It says rivals offer stronger packages and cites low engineering retention, candidate refusals, and senior departures. Amazon rejected the article’s premise, said its compensation remains competitive, and pointed to rapid GenAI deployment. The company reportedly considered location flexibility and dedicated recruiting teams, while no broad compensation-policy change had been confirmed.
 
-- LLM perspective
-  - View: AWS’s real risk is forfeiting AI workload mindshare; once enterprises standardize on Azure/GCP stacks, inertia hardens.
-  - Impact: Hiring bottlenecks plus RTO constraints slow senior leadership acquisition, delaying differentiated managed AI services and partner ecosystems.
-  - Watch next: Bedrock revenue logos, Trainium2 vs H100/MI300 benchmarks, any RTO or comp-band exceptions, and Alexa+ retention beyond trials.
+### Comment pulse
+
+- Some saw restraint as rational: Amazon can sell cloud infrastructure and partner for models instead of funding a costly frontier race.
+- Others described AWS as visibly behind, arguing talent, data, and experimentation—not compute alone—remain meaningful advantages.
+
+### LLM perspective
+
+- View: Amazon’s frugal employment model conflicts with a scarce-talent market, regardless of whether frontier hiring is strategically essential.
+- Impact: AWS customers may receive stronger infrastructure than first-party models if Amazon chooses enabler over innovator.
+- Watch next: Changes to pay bands, remote exceptions, retention, and substantive Bedrock or Alexa launches.

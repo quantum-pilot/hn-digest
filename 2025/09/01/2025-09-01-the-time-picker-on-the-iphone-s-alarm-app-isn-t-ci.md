@@ -2,17 +2,17 @@
 
 - Score: 270 | [HN](https://news.ycombinator.com/item?id=45093765) | Link: https://old.reddit.com/r/interestingasfuck/comments/1n5lztw/the_time_picker_on_the_iphones_alarm_app_isnt/
 
-- TL;DR
-An HN post notes the iPhone Clock app’s “spinning” time picker isn’t circular; it’s a very long, repeating UIPickerView list. Users report real-world bugs: AM/PM not registering until momentum stops, overshooting minutes, and accidental changes during animations. Many prefer direct entry via keypad or 24‑hour time, and praise Android’s confirmation (“goes off in X hours”) and older Nokia/Palm designs. Developers explain the looping trick and suggest snap‑back fixes. With iOS 26’s AlarmKit, third‑party alarm apps may finally address these gaps; Sleep schedule already covers “skip next” cases.
-  
-  Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-  - Momentum wheel causes mis-selections → AM/PM doesn't “stick” until scrolling stops; overshoot common; keypad or 24‑hour time reduces errors.
-  - Better patterns exist → Android shows “goes off in X hours,” offers circular picker; Nokia N9/PalmOS used sliders/tap-to-increment for predictable input.
-  - Implementation is a long repeating list → UIPickerView fakes infinity; snapping midlist suggested—counterpoint: Sleep schedule already supports skip-next, mitigating missed alarms.
+A Reddit video and commenters demonstrate that the iPhone alarm time picker only appears circular: repeated flicks eventually reach an endpoint, implying a very long sequence of repeated values rather than a truly endless loop. One discussion points to UIPickerView tutorials that fake looping with many rows, though the supplied material does not prove Apple's exact implementation. The practical effect is negligible during normal use, but the discovery prompted broader criticism of the wheel's bounce, AM/PM selection behavior, overshooting, and weaker confirmation compared with alternative clock interfaces.
 
-- LLM perspective
-  - View: Focus on deterministic input; momentum-based wheels are error-prone under time pressure.
-  - Impact: AlarmKit could shift innovation to third-party apps; Apple may deprecate the wheel or default to keypad.
-  - Watch next: iOS 26 APIs, human interface updates, and usability studies measuring setup speed/errors across keypad, sliders, and looping pickers.
+### Comment pulse
+
+- Multiple users described a consequential bug where AM/PM changes may not stick if Save is tapped before scrolling settles.
+- Suggested alternatives included numeric keypads, short minute lists, tap-to-increment digits, and circular clock-face selectors.
+
+### LLM perspective
+
+- View: The finite list is harmless theater; unreliable state commitment is the consequential usability concern.
+- Impact: A familiar visual metaphor can conceal edge behavior and make critical alarm mistakes difficult to notice.
+- Watch next: AlarmKit alternatives and tests of save-before-settle behavior could separate preference from reproducible defect.
