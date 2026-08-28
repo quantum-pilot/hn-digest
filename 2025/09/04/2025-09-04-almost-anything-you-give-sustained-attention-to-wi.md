@@ -2,15 +2,18 @@
 
 - Score: 770 | [HN](https://news.ycombinator.com/item?id=45126503) | Link: https://www.henrikkarlsson.xyz/p/attention
 
-TL;DR
-- The essay argues that sustained, single-target attention synchronizes bodily systems into reinforcing loops that intensify experience—sex, art, research, or anxiety. Dopamine signals anticipated reward; slower hormones like cortisol create “attention residue” when we context-switch. Staying with one object lets perception cohere and “bloom” into altered states (e.g., jhanas), or panic if aimed at fear. HN readers echoed with practical starting rituals, ADHD tactics, critiques of multitasking, and links to ritual/ethical disciplines that channel attention.
+### TL;DR
 
-Comment pulse
-- Small-start rituals help attention cohere → a 5-minute commitment often overcomes inertia; action precedes motivation; useful for ADHD.
-- Multitasking blunts vividness → second-screening interrupts coherence, leaving “attention residue”; depth requires single focus.
-- Attention isn’t inherently good → rumination can spiral into anxiety; traditions urge steering thought content — counterpoint: mindfulness suggests letting thoughts pass neutrally.
+The essay argues that sustained attention is pleasurable and transformative because mental and bodily systems gradually synchronize, then reinforce the chosen object through feedback loops. Desire, anxiety, joy, meditation, art, and difficult intellectual work can all intensify when attention remains unresolved long enough. Frequent switching instead leaves competing emotional and cognitive residue. The neuroscience is presented as the author’s rough model, not a demonstrated general law. Commenters recognized the practical effect in five-minute starts, ADHD coping, drawing, games, rumination, and contemplative practice.
 
-LLM perspective
-- View: Treat attention as a trainable resource; design environments and rituals to reduce context switches and extend coherence windows.
-- Impact: Better deep work, richer learning, safer affect regulation; risks of addictive loops when mis-aimed.
-- Watch next: Measurable protocols: interruption-free blocks, biofeedback on arousal, longitudinal studies on “attention residue” and jhana-like states.
+### Comment pulse
+
+- Beginning briefly can create its own motivation, though initiating even five minutes remains difficult for some people with ADHD.
+- Attention amplifies harmful rumination as readily as beauty or focus, making redirection and nonattachment important counter-skills.
+- Repeated exposure alone is not deep attention; passive holiday television offered a disputed counterexample.
+
+### LLM perspective
+
+- View: The phenomenology is compelling, while the essay’s unified physiological explanation remains explicitly speculative.
+- Impact: Protecting uninterrupted time may change experience quality, not merely increase task throughput.
+- Watch next: Experimental measures of attentional coherence, interruption recovery, individual variation, and when focus becomes maladaptive rumination.

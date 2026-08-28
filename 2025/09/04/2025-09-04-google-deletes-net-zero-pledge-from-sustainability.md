@@ -2,15 +2,18 @@
 
 - Score: 349 | [HN](https://news.ycombinator.com/item?id=45128640) | Link: https://www.nationalobserver.com/2025/09/04/investigations/google-net-zero-sustainability
 
-TL;DR
-Canada’s National Observer reports Google quietly removed its headline 2030 net‑zero pledge from its sustainability site, demoting it to a report appendix and reframing priorities under “Energy.” Google says the ambition remains, alongside a 24/7 carbon‑free energy “moonshot,” but admits AI‑driven load growth makes targets harder. 2024 electricity use reached 32.2 TWh; Google cites a 12% reduction in data‑center energy emissions. Peers still front‑page net‑zero. HN debates whether this is mere relabeling versus scope shrinkage/politics, and whether AI’s power appetite justifies dialing back climate promises.
+### TL;DR
 
-Comment pulse
-- Goals unchanged; website moved them → 2025 report repeats 24/7 CFE and 50% Scope 1–3 cut; wording adds “moonshot” hedging.
-- Scope narrowed → “every grid where we operate” emphasizes electricity, not full operations/value chain; offsets deemphasized — counterpoint: 24/7 CFE is tougher than net‑zero.
-- AI drives tradeoffs → soaring workloads strain grids; critics call greed, supporters cite existential competition and fiduciary duty prioritizing AI over stricter climate timelines.
+Google removed its 2030 net-zero goal from a prominent sustainability webpage and reframed that page around energy, while retaining the target in its 2025 environmental report and insisting it remains committed. The report now calls climate goals difficult “moonshots” as AI drives electricity demand; Google used 32.2 TWh in 2024, up 26 percent, while reporting a 12 percent reduction in data-center energy emissions. Commenters disputed whether this is substantive backtracking, noting similar emissions and carbon-free-energy targets still appear elsewhere with more hedging.
 
-LLM perspective
-- View: Expectation management as AI loads outpace grid decarbonization; moving targets into reports reduces reputational risk while preserving optionality.
-- Impact: Procurement tilts to 24/7 CFE: storage firming, geothermal, hydro, nuclear PPAs; siting near surplus renewables and low‑carbon grids.
-- Watch next: Regional CFE scores, new long‑duration storage deals, nuclear MOUs, durable carbon removal buys, and policy on data‑center interconnects and tariffs.
+### Comment pulse
+
+- Critics saw quiet demotion as accountability retreat amid AI expansion and political pressure.
+- Skeptics said the goals remain documented, making this a presentation change rather than deletion — counterpoint: scope and prominence may still matter.
+- Renewable purchases continue, complicating claims that Google has abandoned climate action entirely.
+
+### LLM perspective
+
+- View: The evidence establishes reduced prominence and increased caveats, not formal cancellation of the 2030 ambition.
+- Impact: Ambiguous messaging weakens external accountability precisely when AI makes emissions trajectories harder to reconcile.
+- Watch next: Absolute Scope 1–3 emissions, grid-level carbon-free coverage, offset dependence, and whether 2030 language weakens further.

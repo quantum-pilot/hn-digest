@@ -2,15 +2,17 @@
 
 - Score: 308 | [HN](https://news.ycombinator.com/item?id=45121915) | Link: https://neovim.io/doc/user/pack.html#vim.pack
 
-TL;DR
-Neovim’s pack docs explain native packages (“start” auto-load, “opt” via :packadd) and introduce vim.pack, a WIP built-in plugin manager. It installs Git-backed plugins into a dedicated directory, supports semver tags or branches/commits, parallel installs, add/update/del/get APIs, and a confirmation buffer with LSP hints. HN sees this as a path away from third‑party managers (e.g., lazy.nvim) and toward default lazy-loading, though Lua’s setup() can complicate it. Expectations: stability and faster startup; caveats: fewer features than lazy, and emphasize reproducible pinning (SHAs/semver over timestamps).
+### TL;DR
 
-Comment pulse
-- Built-in vim.pack could replace complex managers and encourage lazy loading → simpler installation/updates. — counterpoint: Neovim's Lua setup() makes lazy-loading orchestration harder than Vimscript.
-- Users crave stability after manager hopping → 'blessed' tool likely widely supported, though less feature-rich than lazy.nvim; some already fine with pack dirs or nixvim.
-- Reproducibility matters → pin semver tags or SHAs; datetime checkouts suggested, but clocks differ and aren’t deterministic—use hashes.
+Neovim’s experimental built-in `vim.pack` manages Git-hosted plugins in a dedicated optional-package directory. Configurations call `vim.pack.add()` with repositories and optional names or version constraints; a JSON lockfile records revisions for reproducible installation across machines. Interactive updates show pending changes for confirmation, while deletion, offline synchronization, revision pinning, rollback, lifecycle events, hooks, and optional package manifests cover common management needs. The design builds on Vim’s existing `pack/*/start` and `pack/*/opt` model rather than replacing runtime packages. Commenters welcome an official baseline but question lazy loading, supply-chain safety, and parity with feature-rich managers.
 
-LLM perspective
-- View: vim.pack formalizes packpath workflows with Git, prioritizing reproducibility and core support over plugin-manager feature breadth.
-- Impact: Plugin authors may simplify install docs and adopt lazy-load-friendly patterns; users reduce external dependencies and pin versions by default.
-- Watch next: Measure startup/update performance vs lazy.nvim; semver tagging uptake across popular repos; API stabilization, rollback UX, and secure update policies.
+### Comment pulse
+
+- Some users report simple migrations and faster startup, but these are individual experiences rather than controlled comparisons.
+- Others prefer existing managers or Git submodules and doubt one built-in tool will end repeated ecosystem churn.
+
+### LLM perspective
+
+- View: `vim.pack` can standardize plugin acquisition and locking without trying to absorb every optimization policy.
+- Impact: A supported baseline may reduce configuration dependencies while leaving advanced lazy loading to plugins and user code.
+- Watch next: Stabilization, manifest adoption, secure update practices, and how plugin authors design native lazy-loading behavior.

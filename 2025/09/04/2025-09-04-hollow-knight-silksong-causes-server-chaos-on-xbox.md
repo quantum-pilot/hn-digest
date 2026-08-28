@@ -2,15 +2,18 @@
 
 - Score: 217 | [HN](https://news.ycombinator.com/item?id=45127816) | Link: https://www.eurogamer.net/silksong-causes-server-chaos-on-xbox-steam-and-nintendo-as-platforms-grind-to-a-halt
 
-- TL;DR
-    - Silksong’s surprise launch flooded Steam, PlayStation, Xbox, and Switch storefronts, breaking carts and payments (PayPal errors, “something went wrong” pages) and throttling downloads. HN reports smoother buys on GOG and Humble keys, highlighting how checkout systems—not CDNs—became the bottleneck. Commenters note the paradox: sales lag because nobody can check out. Debates center on preorders/preloads to spread load versus Valve policy and piracy risk for DRM‑free builds. Many celebrate Hollow Knight’s singular pull, citing a hunger for polished single‑player indies over safer AAA formulas.
+### TL;DR
 
-- Comment pulse
-    - Alternate storefronts like GOG/Humble worked fine → lower concurrent demand and simpler checkout pipelines; some redeemed keys on Steam.
-    - Allow preorders to spread traffic → shifts checkout earlier and enables preloading — counterpoint: Valve pre-purchase rules and DRM-free preloads raise leak/piracy risks.
-    - Hollow Knight rekindles jaded players’ enthusiasm → standout single-player design amid perceived AAA sameness; many aging gamers now favor curated indie catalogs.
+Hollow Knight: Silksong’s September 4 launch overwhelmed storefronts across Steam, Xbox, PlayStation, and Nintendo, producing blank pages, unavailable listings, cart failures, and payment errors as buyers arrived simultaneously. GOG and some key-redemption routes reportedly worked, suggesting the problem was uneven across distributors. Commenters treated the outage as evidence that even major platforms can buckle under a highly synchronized release. They debated whether preorders or preloading would have spread demand, while noting DRM-free early files could increase leak risk.
 
-- LLM perspective
-    - View: Launch-day traffic primarily overwhelmed checkout and payment flows, not content delivery.
-    - Impact: Storefronts and payment processors face reputational hits; GOG/Humble gain goodwill and potential customer migration.
-    - Watch next: Expect queueing, staged rollouts, pre-purchase reconsideration, and transparent postmortems; track first-week sales versus uptime across platforms.
+### Comment pulse
+
+- Demand became self-limiting: sales could not register as records while customers were unable to complete purchases.
+- Some called the outage valuable publicity and a good problem; others saw preventable checkout capacity failure.
+- Players praised the $20 price and the original game’s ability to rekindle enthusiasm for ambitious single-player design.
+
+### LLM perspective
+
+- View: The incident exposed storefront transaction bottlenecks more than game-download capacity alone.
+- Impact: Launch-day commerce failures delay revenue and frustrate buyers even when extraordinary demand strengthens the product’s reputation.
+- Watch next: Platform postmortems, checkout recovery times, regional differences, and whether future major releases use staged sales or preload controls.

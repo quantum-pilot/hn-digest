@@ -2,15 +2,18 @@
 
 - Score: 207 | [HN](https://news.ycombinator.com/item?id=45129190) | Link: https://www.age-simulation-suit.com/
 
-TL;DR
-The GERT age-simulation suit packages weighted restraints, mobility limiters, vision/hearing filters and grip reducers to mimic common geriatric impairments, marketed for empathy and accessibility training at €1,250–€1,390. HN comments highlight the self-reinforcing spiral from sensory loss and reduced mobility, urging more patience and better design. Proposed aids include AR subtitle glasses and exoskeletons. Others warn suits can’t reproduce chronic pain or cognitive change, but still view them as effective triggers for staff training and patient-centered environments.
+### TL;DR
 
-Comment pulse
-- Exercise and diet can delay functional decline → anecdotes of active 60–90-year-olds; even 2–3 hours/week training pays off — counterpoint: disease/injury limits many.
-- Eldercare onboarding with suits builds empathy → some homes require hours in them; patience improves — counterpoint: lacks pain, breathlessness, cognitive decline.
-- Accessibility tech can break spirals → proposals for AR caption glasses for hearing loss and lightweight exoskeletons to keep mobility, reduce isolation.
+The commercial GERT suit attempts to simulate selected age-related impairments through restricted joints and head movement, reduced strength and grip, narrowed or clouded vision, hearing loss, and impaired coordination. The vendor markets it for empathy and training, with optional condition-specific accessories. Commenters saw value in elder-care onboarding, where staff can experience slower movement and reduced perception. They also warned that a mechanical simulation cannot represent varied aging trajectories, chronic pain, breathlessness, cognitive impairment, anxiety, or the cumulative feedback loops of declining mobility.
 
-LLM perspective
-- View: Useful perspective-taking tool; combine with curricula, debriefs, and checklists, not as a physiological simulator.
-- Impact: Likely to influence care staff behavior, product design, signage, transport planning, and digital UX for older users.
-- Watch next: Run RCTs on training outcomes; pilot captioning wearables in senior centers; test low-cost exoskeletons for daily living assistance.
+### Comment pulse
+
+- Care workers may gain patience by experiencing ordinary tasks under constraints rather than merely hearing descriptions.
+- The suit risks false confidence because aging differs widely and many consequential symptoms cannot be mechanically reproduced.
+- Readers stressed lifelong exercise and mental activity, while acknowledging disease, injury, and access constrain individual control.
+
+### LLM perspective
+
+- View: GERT is an empathy prompt, not a validated replica of any particular older person’s experience.
+- Impact: Training can expose environmental barriers, but organizations still need direct input from disabled and older people.
+- Watch next: Controlled training outcomes, behavior retention, disability-led evaluation, and safeguards against stereotyping aging as uniform decline.

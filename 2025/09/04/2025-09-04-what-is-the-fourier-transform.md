@@ -2,15 +2,17 @@
 
 - Score: 474 | [HN](https://news.ycombinator.com/item?id=45132810) | Link: https://www.quantamagazine.org/what-is-the-fourier-transform-20250903/
 
-- TL;DR
-    - Quanta explains Fourier transforms: any signal/function can be expressed as sums of sines/cosines, a 19th‑century insight from Fourier’s heat‑flow work that seeded harmonic analysis. It shows frequency detection by correlation, infinite series for sharp edges, 2D transforms for images, and how the FFT made these ideas ubiquitous—from compression and denoising to MRI and quantum uncertainty. HN adds adjacent tools (Laplace/z, generating functions, control theory), debates pedagogy and resources (3Blue1Brown, MIT, VFX), and notes why FT excels: sparsity, periodicity, and derivative‑eigenfunction structure.
+### TL;DR
 
-- Comment pulse
-    - Laplace and z transforms extend the toolkit → solve differential/difference equations; control theory uses poles/zeros; z is essentially generating functions.
-    - Why FT dominates → many signals are sparse or periodic; sines/cosines are derivative eigenfunctions, diagonalizing linear systems and simplifying PDEs and compression.
-    - Intro risks false understanding → readers suggest 3Blue1Brown and MIT lectures; VFX ‘enhance’ video is fun but light — counterpoint: accessibility can spark deeper study.
+The Fourier transform rewrites a function as frequency contributions, then permits reconstruction from those components. It tests sine and cosine waves against the input; strong average alignment indicates that a frequency is present, while cancellation indicates little contribution. Fourier developed the idea while studying heat flow, claiming even sharp jumps could be approximated by infinitely many smooth waves. The frequency view can simplify problems and underpins harmonic analysis, signal processing, JPEG compression, radar, MRI, gravitational-wave detection, and the position–momentum relationship in quantum mechanics. Fast algorithms made these applications practical.
 
-- LLM perspective
-    - View: Transforms recast problems where operators become simple and signals sparse; choose bases aligned with physics, statistics, or perception.
-    - Impact: Fast, hardware‑friendly FFT/DCT underpin codecs, imaging, and control; better GPU/ASIC kernels shift costs for real‑time compression, denoising, and spectral ML.
-    - Watch next: Watch wavelets and learned dictionaries in next‑gen codecs, accelerated NTT/FHT for crypto/vision, and deblurring limits under noise, quantization, and aliasing.
+### Comment pulse
+
+- Readers recommended visual lectures and related Laplace, z, and wavelet transforms for greater intuition and depth.
+- One critique warns that the introductory explanation may hide why Fourier bases arise naturally in differential equations and periodic systems.
+
+### LLM perspective
+
+- View: The transform is powerful because many complicated observations become sparse or structurally simpler in frequency coordinates.
+- Impact: Changing representation enables compression, denoising, measurement, and equation solving without changing the underlying information.
+- Watch next: Deeper explanations connecting orthogonality, complex exponentials, derivatives, sampling, and uncertainty to the introductory picture.

@@ -2,15 +2,18 @@
 
 - Score: 522 | [HN](https://news.ycombinator.com/item?id=45126358) | Link: https://www.cnbc.com/2025/09/04/atlassian-the-browser-company-deal.html
 
-- TL;DR
-    - Atlassian will buy The Browser Company for $610M cash, aiming to fold Arc’s power-user workflow ideas and Dia’s AI into an enterprise-focused browser. CEO Mike Cannon-Brookes argues mainstream browsers aren’t built for work; Arc struggled to convert users to its novel features and paused development. The deal follows reported talks with Perplexity and OpenAI and comes as Chrome keeps dominance post-DOJ ruling. HN debates whether Arc pivoted too soon, if Atlassian can make a work-first browser useful, or if browsers should stay lean.
+### TL;DR
 
-- Comment pulse
-    - Right thesis (browser-as-OS) → thin differentiation atop Chromium; flat growth is normal, not pivot fuel — counterpoint: flashy marketing, no business model.
-    - Atlassian fit → enterprise workflow browser could reduce context-switching and JIRA pain; skeptics expect Arc to be sunset and brand to repel consumers.
-    - Scope debate → many want fast, secure basics plus PWAs, not an all-in-one; others cite Opera/Vivaldi/Zen as richer, Arc-like options with tradeoffs (e.g., DRM).
+Atlassian agreed to acquire The Browser Company for $610 million in cash, aiming to combine Arc’s work-oriented tab management, Dia’s cross-tab AI assistant, and Atlassian’s enterprise distribution. Arc had passionate early adopters but limited use of its distinctive features, and development shifted toward the more conventional Dia. Commenters mourned that pivot while disputing whether Arc ever delivered its “browser as operating system” ambition. The acquisition’s logic is workplace integration, yet many users questioned whether an enterprise browser solves a real problem.
 
-- LLM perspective
-    - View: Enterprise-first browser could win if it unifies identity, search, and actions across SaaS, not just UI chrome.
-    - Impact: Atlassian customers and IT admins; potential pressure on Edge/Chrome in enterprises; Arc users face migration risk or product rebrand.
-    - Watch next: Dia vs Arc roadmap, SSO/MDM integration, privacy posture, and measured productivity gains vs Edge Copilot and Chrome’s AI.
+### Comment pulse
+
+- Arc fans saw premature abandonment of differentiated design; skeptics saw a low-revenue Chromium skin achieving an excellent exit.
+- Atlassian could connect browser context across workplace SaaS, though users fear Arc will disappear inside a disliked enterprise suite.
+- Alternatives such as Zen attract Arc users but reportedly still lack some workflow features and DRM support.
+
+### LLM perspective
+
+- View: Atlassian bought a product team and interface thesis whose consumer ambitions had not produced mass adoption.
+- Impact: Dia may gain enterprise distribution while losing the independence that made Arc attractive to power users.
+- Watch next: Arc maintenance, Dia’s integration boundaries, privacy controls, enterprise uptake, and retention of The Browser Company’s team.

@@ -2,15 +2,18 @@
 
 - Score: 277 | [HN](https://news.ycombinator.com/item?id=45133109) | Link: https://leshicodes.github.io/blog/spotify-migration/
 
-- TL;DR
-    - The author replaces Spotify with a self-hosted stack: Navidrome via Cloudflare Tunnel, Lidarr+sabnzbd for library management, lrcget (via Kasm) for synced lyrics, and Last.fm/Lidify for discovery. Benefits claimed: lossless quality, privacy, ownership, offline access, and direct artist support through purchases (e.g., Bandcamp). HN readers debate “fair” compensation and suggest user-centric payouts; share simpler or alternative stacks (Jellyfin/LMS, Tailscale, Syncthing); and note the time/maintenance tradeoff, with some preferring human curation or buying/ripping over algorithmic discovery.
+### TL;DR
 
-- Comment pulse
-    - Fair pay is complex: per-stream ≠ fair; many stakeholders; user-centric payouts preferred — counterpoint: CD-era math suggests streams can equal past per-listen revenue.
-    - DIY stacks work (Navidrome/Jellyfin/LMS, Tailscale, Syncthing), but some prefer simple: buy/rip, local sync, Bandcamp apps, human-curated radio over algorithms.
-    - Time is the hurdle: people want offline-first clients; advice is start small, rip CDs, cache libraries; Tailscale enables secure remote access.
+The author replaced Spotify with a self-hosted stack centered on Navidrome, remote access through Cloudflare Tunnel, platform-specific clients, Last.fm scrobbling, Lidarr library management, containerized synchronized lyrics, and Lidify recommendations. After a weekend setup, the system provides lossless files, ownership, privacy, offline control, and permanence, while music purchases, merchandise, and concerts support artists directly. Commenters shared simpler Jellyfin, Subsonic, and local-file setups, but questioned whether a 13-component system trades subscription dependence for substantial maintenance and discovery complexity.
 
-- LLM perspective
-    - View: Self-hosting reduces platform risk and lock-in; discovery suffers, and metadata/backup hygiene become ongoing chores.
-    - Impact: Artists gain when listeners buy directly; platforms may shift toward user-centric payouts if churn grows among engaged listeners.
-    - Watch next: CLI lyrics tools, better Last.fm/ListenBrainz recommendations, and simpler mobile offline sync could mainstream self-hosted stacks.
+### Comment pulse
+
+- Direct purchases can give artists more per fan, though “fair” compensation spans performers, writers, production, promotion, and distribution.
+- Self-hosting restores control over offline behavior and removals, with cheap CDs and gradual collecting offering a low-complexity path.
+- Human curation through radio, critics, and RSS can replace recommendation algorithms without recreating Spotify’s machinery.
+
+### LLM perspective
+
+- View: Ownership is the durable benefit; reproducing every streaming convenience creates most of the stack’s complexity.
+- Impact: Technically capable listeners gain autonomy while accepting backup, metadata, networking, security, and discovery responsibilities.
+- Watch next: Lyrics automation, simpler clients, resilient remote access, legal acquisition workflows, and long-term backup integrity.

@@ -2,15 +2,17 @@
 
 - Score: 254 | [HN](https://news.ycombinator.com/item?id=45127542) | Link: https://www.theguardian.com/money/2025/sep/04/calling-your-boss-a-dickhead-is-not-a-sackable-offence-tribunal-rules
 
-- TL;DR
-    - A UK tribunal ruled that calling two bosses “dickheads” once, during a heated meeting, wasn’t gross misconduct, so on-the-spot dismissal was unfair. The employer skipped its own requirement to issue warnings for insulting language; the claimant got ~£15k compensation plus ~£14k costs. HN’s takeaway: this is about process and proportionality, not a license to insult—discipline can still follow via proper steps. Discussion spans policy updates, dismissal thresholds, morale effects of firings, and shaky cross-country comparisons.
+### TL;DR
 
-- Comment pulse
-    - Follow procedure → Warnings and fair process required; snap firings for insults risk unfair dismissal. Protection starts after 2 years — counterpoint: just update policy.
-    - Internal rules bind employers → Handbooks can trump contracts; ad‑hoc deviations lose. Broad “verbal abuse” clauses risk selective enforcement and countersuits.
-    - Culture matters → Knee‑jerk firings chill morale; remaining staff read values from exits — counterpoint: overseas comparisons and tabloid sources muddy the legal signal.
+A UK employment tribunal found that office manager Kerrie Herbert was unfairly dismissed after calling her manager and another director “dickheads” during one heated meeting. The judge deemed the remark unacceptable but not gross misconduct warranting immediate termination, especially without prior incidents. Her contract treated provocative insulting language as misconduct requiring a warning, while only threatening or intimidating language permitted summary dismissal. The employer was ordered to pay £15,042.81 compensation and £14,087 legal costs. Commenters emphasized that ordinary discipline remained available through proper procedure.
 
-- LLM perspective
-    - View: Proportionality and due process prevail; a single heated insult rarely equals gross misconduct absent threats or a pattern.
-    - Impact: UK SMEs must align contracts, handbooks, and training; managers should pause, document, and use staged discipline.
-    - Watch next: Watch appeals, ACAS guidance tweaks, clearer ‘verbal abuse’ definitions, and rulings on online or off‑duty insults.
+### Comment pulse
+
+- The ruling protects process, not workplace insults: misconduct can still lead to warnings and eventual dismissal.
+- Readers debated whether stronger written policies alone could justify instant termination or whether statutory reasonableness still controls.
+
+### LLM perspective
+
+- View: The headline overstates a narrower finding that one insult, in context, did not justify summary dismissal.
+- Impact: Employers need proportionate discipline and consistent procedures rather than treating every offensive remark as gross misconduct.
+- Watch next: Contract wording, qualifying service, precedent from the full judgment, and whether revised policies satisfy employment law.

@@ -2,15 +2,17 @@
 
 - Score: 466 | [HN](https://news.ycombinator.com/item?id=45127983) | Link: https://news.ucsc.edu/2025/09/pulse-fi-wifi-heart-rate/
 
-- TL;DR
-  - UC Santa Cruz’s Pulse-Fi measures heart rate from WiFi reflections using low-cost ESP32/Raspberry Pi and ML filtering. In tests with 118 people, five seconds yielded ~0.5 BPM error, working while seated, walking, and up to ~3 m away; longer windows improved accuracy. It’s a proof‑of‑concept with its own dataset; breathing/apnea detection is next. HN debates deployment: current setup is dedicated and single‑target, but commodity accuracy is notable; non‑invasive sensing is maturing; privacy/biometric risks weigh against eldercare benefits.
+### TL;DR
 
-- Comment pulse
-  - Real-world readiness questioned → dedicated emitter/receiver; unclear multi-person handling or simultaneous data traffic — counterpoint: single-antenna ESP32 accuracy is a meaningful proof-of-concept.
-  - Biometric risk → heart and WiFi CSI can re-identify people at a distance; raises surveillance/privacy concerns beyond health monitoring.
-  - Non-invasive sensing is booming → echoes NDT practices and prior RSSI/CSI gesture systems; cheap ubiquitous radios enable useful proxy measurements.
+UC Santa Cruz researchers report that Pulse-Fi estimates heart rate from tiny changes a body creates in Wi-Fi signals between a dedicated transmitter and receiver. A neural network trained against oximeter readings filtered environmental and movement noise. Across 118 participants and 17 body positions, the team reports roughly half a beat-per-minute error after five seconds, improving with longer observation, and accurate operation while sitting, standing, lying, or walking at distances up to three meters. Tests used inexpensive ESP32 and Raspberry Pi hardware; breathing and apnea work remains unpublished and prospective.
 
-- LLM perspective
-  - View: Low-cost WiFi plus ML makes passive vitals plausible, but multi-person separation and interference handling determine practical value.
-  - Impact: Home health, eldercare, and sleep monitoring could gain insights without wearables; router and IoT vendors may compete on sensing.
-  - Watch next: Release code/datasets, 802.11bf progress, clinical validation, multi-target benchmarks, and privacy standards for in-home RF biometrics.
+### Comment pulse
+
+- Readers see potential for unobtrusive caregiving, provided subjects retain control over continuous health data.
+- Critics note the demonstration does not establish concurrent networking, ordinary-router use, crowded rooms, or multiple-person separation.
+
+### LLM perspective
+
+- View: The result is a promising dedicated-hardware proof of concept, not yet passive whole-home monitoring.
+- Impact: Commodity radio sensing could reduce wearable burden while creating unusually intimate privacy and consent risks.
+- Watch next: Independent clinical validation, multi-person environments, normal network traffic, longer distances, and local-only data controls.
