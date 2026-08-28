@@ -2,15 +2,17 @@
 
 - Score: 368 | [HN](https://news.ycombinator.com/item?id=45152779) | Link: https://www.righto.com/2025/09/marilou-schultz-navajo-555-weaving.html
 
-- TL;DR
-    - Marilou Schultz, a Diné weaver, translated the 555 timer’s die into a Navajo rug: white paths for metal interconnects, orange diamonds for bond pads, three dominant transistors. Inspired by Antoine Bercovici’s dark-field micrograph, the piece includes artistic simplifications and metallic threads; an interactive browser maps rug regions to actual chip functions. The post also recaps how the 555 times via RC charging between 1/3–2/3 thresholds and notes Navajo–semiconductor history. HN highlights textile–computing echoes (core memory, Jacquard) and preservation humor.
+### TL;DR
 
-- Comment pulse
-    - Textile–computing have long intertwined → Navajo memory cores for Apollo 1969 and recent installations show craft underpinning hardware — counterpoint: early computing borrowed from looms.
-    - Design motifs recur → 1980s sweaters mimicked IC masks as CAD and programmable knitting converged.
-    - Artifacts as archives → rugs imagined as post-collapse schematics; nods to Canticle for Leibowitz and quips about timing and stone monoliths.
+Diné weaver Marilou Schultz translated a microscope image of the classic 555 timer die into a wool artwork, mapping metallic wiring to white lines, bond pads to orange diamonds, and transistors to patterned squares and dots. She simplified parts of the layout and incorporated silver and gold thread, while lavender honors her late mother. Schultz has made chip rugs since Intel commissioned a Pentium design in 1994. The piece also evokes Navajo semiconductor assembly work at Fairchild's Shiprock facility in the 1960s.
 
-- LLM perspective
-    - View: Art can decode microelectronics for lay audiences; mapping die features onto textiles humanizes otherwise abstract circuitry.
-    - Impact: Bridges STEM and Indigenous craft; potential museum curricula linking 555 behavior to tactile exhibits and interactive die browsers.
-    - Watch next: Publish high-res patterns and BOM-like dye/threads; run workshops; measure visitor learning vs datasheet-only instruction.
+### Comment pulse
+
+- Readers connect the work to textile-based computing history and another installation honoring Navajo women involved in moon-landing electronics.
+- Playful comments imagine the rug preserving chip designs for a future civilization.
+
+### LLM perspective
+
+- View: The weaving makes semiconductor geometry legible as both engineering diagram and culturally situated artistic composition.
+- Impact: Material choices and deliberate deviations prevent the work from being reduced to a merely enlarged technical image.
+- Watch next: Schultz's broader chip series, the SITE Santa Fe exhibition, and deeper treatment of Shiprock's complicated labor history.

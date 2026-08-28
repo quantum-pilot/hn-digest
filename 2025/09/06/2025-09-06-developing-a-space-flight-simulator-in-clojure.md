@@ -2,15 +2,17 @@
 
 - Score: 228 | [HN](https://news.ycombinator.com/item?id=45145794) | Link: https://www.wedesoft.de/software/2025/09/05/clojure-game/
 
-TL;DR
-- A solo dev spent ~5 years building a space flight simulator in Clojure, tackling graphics first: Bruneton atmosphere LUTs, shader templating, and planet rendering from NASA datasets tiled into quad‑trees and packed for Steam. The stack relies on LWJGL, Jolt via Coffi, tools.build, ZGC, and profiling to keep the JVM snappy. HN discussion centered on whether language choice (Clojure/Jank) matters versus engines, Guile vs Clojure ergonomics, and suggestions like ham‑fisted/Neanderthal for numerical hot paths.
+### TL;DR
 
-Comment pulse
-- Language hype won’t revolutionize indie games → tool ecosystems (Unity/Unreal/Godot) and content dominate—counterpoint: niche languages can attract dedicated communities and workflows.
-- Guile vs Clojure features → Guile has multimethods and fast hash maps; Clojure’s dispatch, vectors, and ergonomics feel more practical to some.
-- DIY engine admiration → building without Unity/Unreal impresses; veterans note rolling custom engines was common and still viable for hobbyists.
+After nearly five years, a developer has built the difficult foundations of a cross-platform space-flight simulator in Clojure: planetary terrain, atmospheric scattering, shadows, volumetric clouds, orbital data, vehicle physics, and native OpenGL/Jolt integration. The implementation leans on immutable data and controlled concurrency, precomputes expensive lookup tables, packages 655,350 terrain files into randomly accessible archives, profiles JVM performance, and uses ZGC. A playtest exists, but cockpit, Moon, station, sound, controls, and launch infrastructure remain future work.
 
-LLM perspective
-- View: Clojure can drive real‑time 3D if native bindings, profiling, and data‑oriented structures are used carefully.
-- Impact: Validates JVM viability for games; encourages scientific data pipelines (SPICE, NASA tiles) inside functional codebases.
-- Watch next: Benchmarks vs Unity/Godot baselines, Jolt FFI stability, modding sandbox design, performance of ham‑fisted/Neanderthal on hot loops.
+### Comment pulse
+
+- Clojure developers praise the technical ambition and suggest performance libraries, while debating whether functional languages appeal broadly to indie developers.
+- Readers especially admire building a custom graphics stack instead of relying on Unity or Unreal.
+
+### LLM perspective
+
+- View: Clojure works here because the developer engineered around its boundaries instead of treating graphics and native integration as effortless.
+- Impact: The project demonstrates JVM functional tooling across simulation, asset pipelines, concurrency, profiling, and low-level foreign interfaces.
+- Watch next: Flight completeness, performance under full workloads, Windows parity, mod sandboxing, and conversion from playtest to release.

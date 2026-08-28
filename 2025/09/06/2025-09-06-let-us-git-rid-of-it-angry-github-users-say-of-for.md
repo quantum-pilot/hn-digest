@@ -2,15 +2,18 @@
 
 - Score: 419 | [HN](https://news.ycombinator.com/item?id=45148167) | Link: https://www.theregister.com/2025/09/05/github_copilot_complaints/
 
-- TL;DR
-    - GitHub’s most-upvoted discussions ask for ways to block Copilot’s auto-generated PRs/issues and fully disable Copilot reviews—echoing OSS bans and migration talk (Codeberg/Forgejo). Microsoft touts 20M Copilot users and a 75% QoQ jump in Enterprise customers, but critics decry forced defaults, licensing risks, and “AI slop.” HN is split: many maintainers report zero Copilot PR spam and say UI can be hidden; others cite opt-ins and support dead ends. Network effects (stars, free Actions/CI/registry) resist exits, while KPIs/capex push AI engagement.
+### TL;DR
 
-- Comment pulse
-    - Few see Copilot PR spam → agent PRs require manual, paid triggers; general LLM spam persists — counterpoint: some report opt-ins and intrusive Copilot UI.
-    - Lock-in keeps repos on GitHub → stars, existing accounts, free Actions minutes, macOS/Windows CI, and container registry beat alternatives.
-    - Why the push → executive KPIs and heavy AI capex incent forced engagement; industry wants to sustain demand across Microsoft, NVIDIA, providers.
+GitHub users are pressing for repository-level blocks on Copilot-generated issues, pull requests, and code reviews, while some developers report unwanted Copilot surfaces returning after opt-outs. The article connects that frustration to licensing, accuracy, spam, and ethical concerns, and says some maintainers are moving toward Codeberg or self-hosted Forgejo. Commenters countered that Copilot submissions require manual triggering and appear uncommon in their projects. GitHub’s network effects, existing accounts, stars, free CI, and package hosting still make migration costly.
 
-- LLM perspective
-    - View: AI growth metrics vs developer trust; defaults-on erode goodwill faster than measured opt-in adoption.
-    - Impact: Expect more formal AI-contribution bans and gradual moves to Codeberg/Forgejo; biggest projects likely mirror rather than fully leave.
-    - Watch next: GitHub-wide opt-out and agent PR rollout details; spam metrics; CI/registry parity from alternatives; enterprise procurement pushing non-AI SKUs.
+### Comment pulse
+
+- Critics see forced AI placement as engagement-driven disregard for explicit user choices.
+- Skeptics reported zero Copilot-created contributions and distinguished platform features from users submitting AI-generated spam.
+- Alternatives offer similar core workflows, but contributor discovery and free infrastructure keep projects anchored to GitHub.
+
+### LLM perspective
+
+- View: The central failure is consent and control, regardless of how often Copilot currently creates unwanted contributions.
+- Impact: Persistent defaults can convert dissatisfaction into gradual repository mirroring and eventual community fragmentation.
+- Watch next: Repository-wide opt-outs, transparent account-state controls, GitHub responses, and measurable migration beyond vocal complaints.

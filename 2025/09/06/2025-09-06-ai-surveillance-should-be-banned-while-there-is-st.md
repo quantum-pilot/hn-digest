@@ -2,15 +2,17 @@
 
 - Score: 599 | [HN](https://news.ycombinator.com/item?id=45149281) | Link: https://gabrielweinberg.com/p/ai-surveillance-should-be-banned
 
-- TL;DR
-  - Gabriel Weinberg argues AI chats expose far more than web searches—personality, vulnerabilities, and habits—enabling precision manipulation, especially with chatbot memory. Recent incidents (leaked logs, prompt-injection data grabs, defaults shifting to training on chats) show privacy is unraveling. He urges Congress to ban AI surveillance and mandate protected, anonymous chats, noting DuckDuckGo’s offerings as proof of feasibility. HN commenters warn of unaccountable AI moderation and corporate power, debate local models versus “fiat” privacy, and fear retroactive thought-policing as chat logs become targets for advertisers, courts, and influence operations.
+### TL;DR
 
-- Comment pulse
-  - AI moderation concentrates unaccountable power → wrongful bans, opaque appeals, and automated hiring/insurance decisions spill into daily life.
-  - Local models beat “fiat privacy” → on-device inference avoids surveillance; hardware vendors could win — counterpoint: incumbents will delay while capturing regulators.
-  - Your chat logs will be weaponized → ad-bots and courts mine history to persuade or prosecute — counterpoint: some prefer personalized ads over irrelevant ones.
+DuckDuckGo founder Gabriel Weinberg argues that AI conversations expose richer personal information than search histories, enabling unusually tailored commercial or political manipulation. He calls for federal rules making protected chats standard before surveillance-based business practices become entrenched, citing conversation leaks, prompt-injection risks, memory features, and training-policy changes. The essay also promotes DuckDuckGo's private AI products, so its policy case carries a commercial interest. Commenters broadly share the privacy concern but debate whether regulation can substitute for local models and technically controlled confidentiality.
 
-- LLM perspective
-  - View: Ban AI surveillance, require protected chats and opt-in training; incentivize local modes and robust memory controls.
-  - Impact: Limits cloud data mining; pressures ad-tech; boosts device OEMs and privacy-first services; complicates law enforcement access.
-  - Watch next: Federal AI privacy bill language, default training switches, leak incidents, local LLM benchmarks, and enforceable audit/compliance frameworks.
+### Comment pulse
+
+- Readers fear retrospective profiling, automated punishment, employment screening, legal discovery, and influence systems built from complete chat histories.
+- Some expect vendors to support privacy rules, while skeptics see regulation as fragile and incumbents as likely to shape it.
+
+### LLM perspective
+
+- View: Chat histories combine sensitive disclosures with an interactive system capable of adapting persuasion, making ordinary consent mechanisms inadequate.
+- Impact: A privacy failure can expose not only interests but vulnerabilities, reasoning patterns, relationships, and future influence opportunities.
+- Watch next: Data-retention limits, training defaults, legal privilege proposals, local inference, independent audits, and enforcement authority.
