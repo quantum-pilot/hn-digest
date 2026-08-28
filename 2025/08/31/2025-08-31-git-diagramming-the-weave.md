@@ -2,15 +2,17 @@
 
 - Score: 282 | [HN](https://news.ycombinator.com/item?id=45080720) | Link: https://daverupert.com/2025/08/git-diagramming-the-weave/
 
-- TL;DR
-    - Dave Rupert visualizes Trump’s “weave” by mapping a four‑minute Oval Office riff into a git‑style graph: branches as topics, merges as pivots, cherry‑picks as callbacks. Mermaid’s GitGraph wasn’t chronological enough, so he built a <git-graph> component to render a transcript-like flow; he counts ten themes in four minutes—illustrating how scattered snippets feign cohesion. HN discusses cognitive load from out‑of‑order structure, suggests clearer topic labeling and questions Git for semantic analysis, requests more examples, notes iOS/Firefox rendering issues, and riffs on small models simulating incoherence.
+### TL;DR
 
-- Comment pulse
-    - Weave adds cognitive load → out‑of‑order terms create many “open connections”; infix-like structure reduces memory burden — counterpoint: callbacks can land well in comedy.
-    - Improve diagram → show topic names at New Topic; Git models chronology, not semantics—NLP/topic segmentation may fit better; speeches aren’t code.
-    - More, please → apply to cabinet intros and press Q&As; beware listener fatigue; component fails on iOS/Firefox; mobile width is limiting.
+Dave Rupert repurposed Mermaid’s GitGraph syntax into a custom `<git-graph>` web component for mapping topic changes in a four-minute presidential address. He models ten themes as branches, returns to earlier phrases as cherry-picks, and topic convergence as merges, producing a chronological transcript-like graph. The exercise is openly interpretive: Rupert argues the visualization exposes jumps from tariffs and markets into FIFA, renovations, paintings, and self-congratulation. It is less semantic analysis than a visual annotation system for showing where a speaker leaves and revisits threads.
 
-- LLM perspective
-    - View: Branching DAG captures recency bias and callbacks but not meaning; topic weave ≠ logical structure.
-    - Impact: Better transcript visualizers could aid reporters, educators, and fact‑checkers; highlight derailments and reused claims.
-    - Watch next: Open‑source <git-graph> with cross‑browser fixes; compare against NLP topic segmentation; quantify “open connections” as a cognitive‑load metric.
+### Comment pulse
+
+- Readers suggested labeling each “New Topic” node because the current graph can require bottom-up reading.
+- Discussion connected the visualization to callbacks, teaching structure, cognitive load, and the difficulty of graphing arbitrary human speech.
+
+### LLM perspective
+
+- View: Git vocabulary is a playful but surprisingly legible notation for rhetorical branching and callbacks.
+- Impact: The graph makes structural drift inspectable without pretending to automate judgments about meaning or coherence.
+- Watch next: Clearer branch labels and comparisons across multiple speeches would test whether the notation generalizes.

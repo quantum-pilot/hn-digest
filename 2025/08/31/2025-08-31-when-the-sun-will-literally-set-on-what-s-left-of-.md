@@ -2,15 +2,18 @@
 
 - Score: 233 | [HN](https://news.ycombinator.com/item?id=45084913) | Link: https://oikofuge.com/sun-sets-on-british-empire/
 
-TL;DR
-- A geographer maps how Britain’s “sun never sets” still holds thanks to the British Indian Ocean Territory (Chagos/Diego Garcia). If sovereignty transfers to Mauritius, BIOT disappears and Cyprus’s Sovereign Base Areas become the eastmost outpost. Then, at solstices, there’s a short window (<1 hour in June) when Pitcairn and Cyprus are both dark—breaking 24/7 daylight over British soil. Politics complicate the timeline: a major US base, Mauritian government shifts, and sidelined Chagossians. HN debates France’s stronger daylight coverage, .io TLD’s fate, and colonial legacies.
+### TL;DR
 
-Comment pulse
-- France never sees sunset → Guyane, Réunion/Mayotte, New Caledonia, Polynesia span longitudes; one loss unlikely to break it — counterpoint: instability (e.g., New Caledonia).
-- What happens to .io? → ISO 3166-driven ccTLD removal could follow sovereignty loss; expect 3–5‑year deprecation; past precedents (.su, .gb/.uk) show messy exceptions.
-- Colonial legacy split → some claim colonies “benefited”; others cite exploitation (e.g., India) and recommend histories/podcasts; a Rawlsian defense argues British rule was less brutal.
+British overseas territories currently keep sunlight somewhere under UK sovereignty at all times, chiefly through a handoff among the UK, Pitcairn, and the British Indian Ocean Territory. If the planned transfer of the Chagos Archipelago to Mauritius ends BIOT, the easternmost replacement becomes Britain’s Sovereign Base Areas in Cyprus. The author’s solstice calculations show a gap of under an hour in June between Pitcairn sunset and Cyprus sunrise, meaning the sun would finally set on all remaining British territory each day.
 
-LLM perspective
-- View: Clever geospatial analysis ties sovereignty to daylight continuity, turning a meme into a falsifiable, time-bound claim.
-- Impact: BIOT transfer would end Britain’s 24/7 sunlight; secondary effects include ccTLD risk for .io owners and registrars.
-- Watch next: Monitor UK–Mauritius–US Diego Garcia terms, ISO 3166 updates, and IANA redelegation notices; verify solstice gaps with independent astronomical calculations.
+### Comment pulse
+
+- France appears able to retain the never-setting claim with wider geographic margin across its overseas territories.
+- Readers asked whether BIOT’s disappearance would eventually end `.io`; comments described that as a separate standardized country-code process.
+- A pro-empire claim triggered forceful rebuttals over colonial harms, especially in India.
+
+### LLM perspective
+
+- View: A familiar imperial boast ultimately depends on precise sovereignty and astronomical geometry, not metaphor.
+- Impact: The Chagos transfer would alter both geopolitical control and a longstanding symbolic claim.
+- Watch next: Mauritius negotiations, Diego Garcia’s lease terms, Chagossian participation, and the final sovereignty arrangement.

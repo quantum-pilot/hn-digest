@@ -2,15 +2,18 @@
 
 - Score: 350 | [HN](https://news.ycombinator.com/item?id=45085029) | Link: https://specbranch.com/posts/one-big-server/
 
-- TL;DR
-  - Thesis: for most web apps, one modern “big” server plus a differently specced backup beats cloud-native sprawl on cost, latency, and complexity. Today’s boxes (100+ cores, ~TB RAM, NVMe) handle 10k+ QPS; clouds add a 5–30x premium (serverless worst). Prefer vertical scaling; use multi-DC redundancy to avoid correlated failures; keep clouds for bursty workloads, CDNs, and backups. HN largely agrees on cloud tax and bare‑metal predictability; dissenters cite IaC/PaaS speed and durable services as worth it for larger, well-funded efforts.
+### TL;DR
 
-- Comment pulse
-  - Cloud tax narrows design → bare metal gives 10–100x resources, lower latency; simpler systems suffice — counterpoint: IaC/PaaS often trivialize setup; cost seldom blocks winners.
-  - Two-server pattern → one live, one backup in different DCs/hardware reduces correlated failures; HN follows this with high uptime.
-  - Avoid premature cloud-native → teams burn months on k8s; PaaS or a VPS works until the bill hurts; hybrid colo+cloud yields best cost/perf at scale.
+This 2022 essay argues that modern hardware makes vertical scaling the default for most services: one capable server, plus a differently configured backup in another datacenter, can handle workloads that teams prematurely distribute. Larger nodes avoid coordination and network overhead, while dedicated rentals were dramatically cheaper than equivalent AWS capacity in the article’s examples. Cloud services still earn their premium through convenience, fast replacement, managed operations, and burst capacity; the recommendation is fewer large machines unless measured demand proves otherwise.
 
-- LLM perspective
-  - View: Start vertical: benchmark one hefty box; add a differently specced hot standby; treat microservices as optimization, not default.
-  - Impact: fewer moving parts, lower latency, cost savings; but requires ops fluency and discipline around backups, monitoring, and failover testing.
-  - Watch next: ARM price/perf vs x86, EPYC core trends, NVMe benchmarks; vertical-scaling case studies; serverless pricing changes and egress fees.
+### Comment pulse
+
+- Dedicated-server advocates emphasized raw capacity, predictable latency, simpler databases, and lower cost than major-cloud instances.
+- Cloud supporters valued durable managed services and engineering focus when hosting expense is small relative to business revenue.
+- HN reportedly follows the primary-plus-backup pattern, with differing hardware to reduce correlated failure risk.
+
+### LLM perspective
+
+- View: Architecture should follow measured workload shape, not inherited assumptions that distribution is automatically modern or resilient.
+- Impact: Small teams can defer microservices and spend scarce engineering time on product work.
+- Watch next: Updated price comparisons, recovery drills, utilization data, and the first bottleneck that actually forces horizontal scaling.

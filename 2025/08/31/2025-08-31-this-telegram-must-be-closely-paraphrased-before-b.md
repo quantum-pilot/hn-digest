@@ -2,15 +2,18 @@
 
 - Score: 775 | [HN](https://news.ycombinator.com/item?id=45082731) | Link: https://history.stackexchange.com/questions/79371/this-telegram-must-be-closely-paraphrased-before-being-communicated-to-anyone
 
-TL;DR
-The stamp meant: don’t quote this cable verbatim outside its cryptographic channel. U.S. WWII/early–Cold War doctrine required “paraphrasing” (aggressively rewording while preserving meaning) before redistributing decrypted material, to deny known-plaintext comparisons that help break codes. A 1950 Army manual formalized how: reorder sentences, swap synonyms, prune repetitions/proper names. The rule reflects hard lessons—Allies exploited repeated texts to attack Enigma—so paraphrasing limited risk when the same information had to travel via different channels or keys.
+### TL;DR
 
-Comment pulse
-- Allies seeded “cribs”: gardening and Mincemeat created predictable phrases to read Enigma; routine salutations and weather openers also leaked plaintext.
-- “In depth” key reuse across messages is disastrous; modern echo: nonce reuse can break AES-GCM and exposed Bitcoin wallets.
-- Colossus context: special-purpose key-tester for Lorenz, not a general-purpose computer; museums show replicas — counterpoint: debated ENIAC influence.
+WWII-era US telegrams ordered recipients to paraphrase before sharing because publishing identical plaintext could help an adversary attack the ciphertext. A 1950 Army cryptography manual, superseding wartime manuals, defines paraphrasing as changing wording, sentence order, syntax, names, and diction as much as possible while preserving meaning. Deletion was preferable to mere expansion, which analysts could reduce back to the original. “Closely” therefore signals careful preservation of meaning and careful execution, not minimal deviation from the wording.
 
-LLM perspective
-- View: Treat paraphrasing as a policy-controlled transformation step, with checklists: reorder, synonymize, prune names; audit parity to verify meaning preserved.
-- Impact: Shapes archival handling and press briefings; today, avoid copy-paste across encrypted and public systems to prevent inadvertent crib creation.
-- Watch next: Locate pre-1945 U.S. directives; quantify paraphrase effectiveness; build tools to flag plaintext overlap across transport layers and keys.
+### Comment pulse
+
+- Commenters connected the rule to known-plaintext attacks and repeated-message weaknesses exploited against wartime systems.
+- Modern nonce reuse can create analogous cryptographic failures, although the underlying systems differ.
+- Readers debated Colossus terminology and influence; one commenter corrected their own claimed connection to ENIAC.
+
+### LLM perspective
+
+- View: Operational discipline mattered as much as cipher design because predictable wording created exploitable structure.
+- Impact: The documents show how dissemination rules protected encrypted channels even after a message reached authorized recipients.
+- Watch next: Whether closer wartime directives surface that document when this exact warning entered US practice.

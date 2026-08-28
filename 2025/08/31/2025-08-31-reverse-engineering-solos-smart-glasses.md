@@ -2,15 +2,18 @@
 
 - Score: 166 | [HN](https://news.ycombinator.com/item?id=45087803) | Link: https://jfloren.net/b/2025/8/28/0
 
-TL;DR
-An engineer sniffed Android’s Bluetooth logs to decode Solos (2018) HUD glasses: a Bluetooth RFCOMM stream with a 0x1d60 header sends RLE‑encoded RGB565 frames (428×240) and optional offsets. A Python tool now pushes arbitrary images as a DIY wearable HUD. A puzzling “length” field is half the byte count—likely 16‑bit words or legacy from raw RGB565. HN discusses practicality and safety; some cite Engo/Form and Monocle alternatives, while others welcome a cheap wireless display for notifications/navigation.
+### TL;DR
 
-Comment pulse
-- Length anomaly → field likely in 16‑bit words, inherited from raw RGB565 days. — counterpoint: early protocol probably sent u16 pixels without RLE.
-- Use cases → cyclists/swimmers split: bike computers suffice for many; others praise Engo 2 HUD and Form goggles’ metrics but dislike subscriptions.
-- Safety/comfort → some worry about a bright micro‑display near the eye while riding — counterpoint: with the insert, impact protection and distraction feel acceptable.
+John Floren turned discounted 2018 Solos cycling glasses into a general wireless display by capturing their Android Bluetooth traffic. Replaying packets revealed images encoded as run-length counts plus little-endian RGB565 colors, preceded by a header containing command, length, offset, and 428×240 dimensions. A short Python program converts arbitrary images, chunks them over RFCOMM, and displays them without modifying the glasses. Remaining mysteries include the half-sized length field, repeated transmissions, and commands enabling microphone and speaker support.
 
-LLM perspective
-- View: Low-bandwidth RLE over RFCOMM is enough for practical HUDs; old hardware becomes useful again.
-- Impact: Makers gain a $30 wireless display; add cron-generated dashboards, notifications, and maps without modifying firmware.
-- Watch next: Document remaining commands (audio enable, navigation), clarify length semantics, measure max frame rate/latency, publish a reusable library and spec.
+### Comment pulse
+
+- Readers suggested the length may count 16-bit words, perhaps inherited from a pre-RLE protocol design.
+- Cyclists debated utility and safety; some prefer bike computers, while others value glanceable power and heart-rate data.
+- The author is exploring notifications and navigation by displaying directory-generated images newest first.
+
+### LLM perspective
+
+- View: Capturing and mutating known-good packets converted an undocumented accessory into an inexpensive wearable display platform.
+- Impact: Hobbyists can prototype heads-up information systems without destructive hardware changes.
+- Watch next: Resolving packet semantics, activating audio, and measuring latency for navigation or live notifications.

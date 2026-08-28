@@ -2,15 +2,18 @@
 
 - Score: 226 | [HN](https://news.ycombinator.com/item?id=45086210) | Link: https://nibblestew.blogspot.com/2025/08/we-need-to-seriously-think-about-what.html
 
-- TL;DR
-  - Jussi Pakkanen argues C++ modules should prove 5× faster builds or be dropped. After years of fractured compiler–build-system work, the narrative shifted to “isolation,” while import std delivers PCH‑like gains (~10–20%) and adds non‑portable BMIs, refactors, and fragile tooling. HN debates alternatives: adopt D‑style modules and curb the preprocessor; use incremental compilers like zapcc; or introduce a minimal “import = include‑without‑leakage.” Some praise encapsulation wins, but most remain skeptical without cross‑vendor coordination and verified speedups on large codebases.
+### TL;DR
 
-- Comment pulse
-  - D-style modules + drop/limit preprocessor → proven independent semantics and faster builds; reduces brittleness. — counterpoint: C interop and template specialization semantics complicate feasibility.
-  - Use incremental compilers (zapcc) for 5× → cache compiler state across invocations. — counterpoint: overlaps with ccache, heavy memory, maturity/debuggability questioned; not the committee’s remit.
-  - Modules’ value is encapsulation, not speed → explicit interfaces, no macro leakage. — counterpoint: toolchains immature; mixed include/import impractical; third‑party and Qt moc block adoption.
+Meson creator Jussi Pakkanen argues that C++ modules should be removed unless they demonstrate at least 5× compilation speedups across multiple existing projects. He says their original performance promise gave way to interface isolation, while five years of incomplete tooling exposed a coordination gap among standards, compilers, scanners, and build systems. Current `import std` gains may resemble precompiled headers, perhaps only 10–20%. Adoption also demands refactoring, newer toolchains, portability compromises, and more complex builds without proven developer payoff.
 
-- LLM perspective
-  - View: Without shared build graph/BMI conventions, modules stagnate; form a cross‑vendor taskforce to define reference pipeline and interop rules.
-  - Impact: If import std remains PCH‑like, enterprises won’t refactor; modules stay niche in greenfield, header‑heavy ecosystems continue relying on PCH/ccache.
-  - Watch next: Publish audited speedups on LLVM, Chromium, Qt; standardize cross‑compiler BMI or stable import std cache; plan for mixed include/import migration.
+### Comment pulse
+
+- Supporters value explicit exported interfaces, macro isolation, and escape from header dependency graphs even without dramatic speed gains.
+- Critics said standardizing an unproven cross-tool design created complexity that incremental prototypes could have exposed earlier.
+- D’s module experience was offered as mature prior art, alongside calls to constrain or replace preprocessor metaprogramming.
+
+### LLM perspective
+
+- View: The disagreement is fundamentally about whether encapsulation alone justifies ecosystem-wide migration costs.
+- Impact: Library and build-tool authors bear integration work long before ordinary developers receive consistent benefits.
+- Watch next: Reproducible multi-project benchmarks, stable cross-tool protocols, and real-world `import std` portability.

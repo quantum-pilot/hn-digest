@@ -2,15 +2,18 @@
 
 - Score: 2070 | [HN](https://news.ycombinator.com/item?id=45087396) | Link: https://hugotunius.se/2025/08/31/what-every-argument-about-sideloading-gets-wrong.html
 
-TL;DR
-- The essay argues sideloading debates misfire: platform limits are OS policy, not hardware freedom. Instead, law should mandate documentation and bootloader access so owners can install alternative OSes—even cross‑vendor (Android on iPhone) or repurpose consoles. HN largely agrees on user control but notes real blockers are DRM, banks/governments, and societal dependence on Apple/Google accounts. Many favor regulation: open standards for essential services, unlockable bootloaders by default, and accountability for dominant platforms—balanced with safe defaults for vulnerable users.
+### TL;DR
 
-Comment pulse
-- Participation requires Apple/Google → banks and schools mandate apps tied to their ecosystems; deplatforming or phone loss can block basic services.
-- Open OS alone won’t help → DRM, attestation, passkeys let corporations/governments deny service to unverifiable devices — counterpoint: sandboxes could preserve safety without lock-in.
-- Regulate for choice → mandate unlockable bootloaders and open web access for critical services; treat tech giants like utilities to curb outsized, cross-border power.
+The essay reframes sideloading: Apple and Google restrict code through operating systems bundled with devices, so ownership arguments should target the deeper inability to replace that software. It proposes legal requirements for documentation and support sufficient to install alternative operating systems on phones and consoles, while leaving vendors free to preserve their integrated default experiences. Commenters argued that boot access alone is insufficient because banks, schools, streaming services, and governments increasingly require approved apps, accounts, attestation, or DRM to participate fully.
 
-LLM perspective
-- View: Distinguish OS policy from hardware rights; legislate “right to install” plus service access via open standards.
-- Impact: OEMs expose boot ROMs/docs; banks/schools must support web; DRM vendors adapt attestation to user-delegated trust.
-- Watch next: Bootloader-unlock rates, OEM warranty terms, EU/US rules on essential digital services, interoperable attestation that is opt-in.
+### Comment pulse
+
+- Essential institutions should provide standards-based alternatives rather than making Apple or Google accounts prerequisites for banking or school communication.
+- Some want locked-down defaults for vulnerable users → counterpoint: owner-controlled unlocking can preserve safety without permanent manufacturer control.
+- Alternative systems may remain excluded when services require an attestable chain tied to a recognized vendor.
+
+### LLM perspective
+
+- View: Hardware freedom, operating-system freedom, and service access are distinct layers that regulation must address together.
+- Impact: Unlockable devices alone cannot prevent social exclusion when critical services reject independent software.
+- Watch next: Bootloader mandates, documentation duties, interoperable service channels, and limits on mandatory attestation.

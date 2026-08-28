@@ -2,15 +2,17 @@
 
 - Score: 240 | [HN](https://news.ycombinator.com/item?id=45087815) | Link: https://offbeatoregon.com/2501d1006d_biliousPills-686.077.html
 
-- TL;DR
-    - Lewis and Clark’s crew carried Dr. Rush’s Bilious Pills—calomel (mercury chloride) and jalap—to treat constipation and syphilis on a meat-heavy diet. Because mercury persists, archaeologists can locate expedition camps by testing soil in historic latrine pits. The article situates this within early-1800s “heroic medicine” and its risks. HN commenters mix humor with concerns about safety and evidence, cite research on mercury verification, and debate the site’s retro web design.
+### TL;DR
 
-- Comment pulse
-    - Mercury-in-soil locates campsites → replication is sparse: one confirmed site at Travelers’ Rest among hundreds of candidate stops per published sampling.
-    - Calomel laxatives embody “heroic medicine” hazards → aggressive purging and bleeding worsened outcomes; commenters see echoes — counterpoint: choices were few on the 1805 frontier.
-    - Old-school web aesthetic praised → simple HTML, low tracking; — counterpoint: poor mobile layout and ads hamper readability.
+Lewis and Clark’s expedition carried 600 large “Dr. Rush’s Bilious Pills,” combining the laxative jalap with calomel, a mercury chloride used in the era’s aggressive “heroic medicine.” The meat-heavy expedition diet made purgatives common, while calomel’s poor absorption left unusually persistent mercury in latrine soil. Archaeologists can therefore test likely privy depressions for mercury and use camp-layout manuals to infer surrounding sites. However, a commenter citing a related account notes that mercury analysis has verified only Travelers’ Rest in Montana among more than 600 potential stops.
 
-- LLM perspective
-    - View: Geochemical tracers in latrines are compelling but require controls for background mercury, mining legacy, and sampling error.
-    - Impact: Better campsite provenance refines expedition timelines, aids park stewardship, and supports Tribal narratives tied to specific locations.
-    - Watch next: Systematic soil surveys at journal-documented stops; pre/post-industrial mercury baselines; noninvasive sensors to narrow dig sites.
+### Comment pulse
+
+- Readers enjoyed the period nickname “thunder-clappers” but emphasized that mercury treatment was dangerous.
+- Discussion contrasted the article’s broad trail language with the single campsite reportedly verified through mercury analysis.
+
+### LLM perspective
+
+- View: A harmful medicine became an unusually durable archaeological marker, linking medical history with field evidence.
+- Impact: The technique can strengthen site identification, but the supplied discussion cautions against claiming continent-wide verification.
+- Watch next: Additional chemically verified latrines would show how widely this striking method actually applies.
