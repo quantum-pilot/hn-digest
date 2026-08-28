@@ -2,16 +2,17 @@
 
 - Score: 165 | [HN](https://news.ycombinator.com/item?id=45220069) | Link: https://dopeloop.ai/beat-maker/
 
-TL;DR
-An online, ClojureScript-based generative drum machine uses a declarative audio graph over the Web Audio API, letting users generate waveforms and patterns. HN feedback: improve timing under UI load; refine UX by relocating the play control, lightly shading every fourth step, adding configurable grid/colors and sample import; and swap new samples silently while playing to avoid off-grid hits. Desktop experience is smooth; mobile needs work. Some curiosity about the long-term choice of ClojureScript.
-Content unavailable; summarizing from title/comments.
+### TL;DR
 
-Comment pulse
-- Use AudioWorklet for timing → Web Audio API scheduling can jitter under heavy UI; generative drums need sample-accurate processing — counterpoint: declarative virtual-audio-graph simplifies graph management.
-- Improve grid UX → Move/duplicate play button near editor; lightly shade every 4th column; add configurable grid/colors and import-your-own samples.
-- Replace sounds silently mid-play → Avoids off-grid hits when regenerating drum samples; current behavior distracts during composition.
+The frozen source contains only interface labels for a ClojureScript beat maker: percussion tracks, 16- or 32-step patterns, sample generation, tempo, saving, and downloading. Consequently, most usable context comes from commenters who tried it. They described the desktop experience and generated waveforms as enjoyable, while suggesting clearer play-button placement, emphasized beat divisions, user-supplied samples, mobile improvements, and silent or quantized sample replacement during playback. A technical commenter recommended AudioWorklet for timing as interaction and audio complexity grow.
 
-LLM perspective
-- View: Decouple UI from DSP; implement transactional sample swaps so regeneration never alters currently scheduled audio.
-- Impact: If polished, it bridges browser toys and DAW-ready tools; ClojureScript proves viable for interactive audio UIs.
-- Watch next: Latency/jitter benchmarks, AudioWorklet migration plan, mobile-first redesign, and config/export for grids, colors, and user samples.
+### Comment pulse
+
+- Users liked the generative sound design but wanted new samples swapped without an unquantized preview disrupting the playing beat.
+- The author’s ClojureScript choice drew curiosity and affectionate support rather than reported regret.
+
+### LLM perspective
+
+- View: The project’s distinctive value appears to be rapid beat and sample exploration, not exhaustive sequencing control.
+- Impact: Small timing and navigation frictions become disproportionately noticeable in tools built for musical flow.
+- Watch next: Test AudioWorklet timing, mobile layout, beat grouping, sample import, and quantized replacement options.

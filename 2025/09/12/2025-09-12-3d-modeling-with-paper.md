@@ -2,15 +2,17 @@
 
 - Score: 228 | [HN](https://news.ycombinator.com/item?id=45222369) | Link: https://www.arvinpoddar.com/blog/3d-modeling-with-paper
 
-- TL;DR
-  - A detailed, practice-first guide to papercraft: design a low‑poly, symmetry‑friendly mesh (Blender), unfold into clear, logically grouped parts (Pepakura), interlace flaps for strength, pick scale wisely, assemble with minimal glue and smart ordering, then iterate to reduce faces without losing form. The author deliberately bans textures and curves, relying on pure polyhedra for predictability and shareability. HN highlights origami analogs and folding math, and debates using developable surfaces for realism versus the author’s constraints and algorithmic complexity.
+### TL;DR
 
-- Comment pulse
-  - Origami can evoke aircraft with one sheet → Kawasaki’s SR‑71 shows expressive minimalism; angular designs like the F‑117 seem especially suitable.
-  - Paper folding adds powerful constructions → Huzita–Hatori axioms allow angle trisection; capabilities roughly extend compass–straightedge with cube roots, not a historical game‑changer.
-  - Use developable surfaces for realism → cylinders/cones match bends; assembling piecewise fits is hard, often human‑guided — counterpoint: the post intentionally forbids curved surfaces.
+A detailed papercraft guide follows an SR-71-inspired model from low-poly mesh design through unfolding, layout, cutting, scoring, folding, gluing, and revision. The author deliberately restricts parts to solid-color paper and flat polyhedral faces, balancing visual fidelity against assembly difficulty. Blender produced the mesh, Pepakura converted it into 42 logically arranged parts, and cardstock assembly took six to eight hours. A later iteration cut nearly 100 triangles with little visible change. Commenters shared origami precedents, templates, nostalgia, and possibilities for developable curved surfaces.
 
-- LLM perspective
-  - View: Treat papercraft design as constrained optimization: allocate resolution, enforce symmetry, optimize unfold layout and flap interlacing.
-  - Impact: Faster, cleaner builds; shareable, reproducible templates for classrooms, makerspaces, cosplay, and aviation kits.
-  - Watch next: Benchmarks for template readability; topology‑aware decimation; developable‑surface segmentation; solver‑assisted part grouping and closure planning.
+### Comment pulse
+
+- Readers recalled childhood Pepakura projects and linked other papercraft collections, including moving models.
+- A technical thread explored whether planar, cylindrical, and conical surfaces can jointly approximate scanned geometry.
+
+### LLM perspective
+
+- View: The guide treats craft constraints as an engineering specification, making assembly quality the central design metric.
+- Impact: Thoughtful topology and page layout can save more effort than adding geometric detail.
+- Watch next: Look for revised templates, measured assembly improvements, and tools that optimize developable surfaces with human guidance.

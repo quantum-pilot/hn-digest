@@ -2,15 +2,17 @@
 
 - Score: 129 | [HN](https://news.ycombinator.com/item?id=45223239) | Link: https://blog.tjll.net/a-beginners-guide-to-extending-emacs/
 
-- TL;DR
-  - The post walks through extending Emacs without prior Elisp by building a reStructuredText :ref: completion backend. It introspects completion-at-point, defines a custom “thing” for bounds, builds candidates via rx + re-builder + re-search-forward, and returns (start end candidates). It then wires mode hooks, scales across files with caches and with-temp-buffer, and adds nicer UI via corfu/company metadata. HN highlights Emacs’s discoverability (describe-*, apropos), the “every key is a function” model, and LLM-assisted live Elisp as a productivity boost for customization.
+### TL;DR
 
-- Comment pulse
-  - LLM + Emacs is a killer app → gptel + Claude, org-mode logs, live eval, backtraces; rapid, versioned customization across machines.
-  - Everything is a function call → keys map to commands; describe-key/apropos/docs demystify customization.
-  - Emacs introspection eases hacking → info/helpful/edebug/debug-on-error shorten feedback loops — counterpoint: debugging event-loop quirks can still be painful.
+This tutorial teaches Emacs extensibility by building completion for reStructuredText references. Starting from `describe-key`, the author traces `completion-at-point` into its hook, studies existing implementations, writes Elisp to identify bounds and collect candidates, and installs the function for relevant buffers. Extensions then add project-wide cached references, mode hooks, candidate types, and contextual documentation. The larger lesson is that Emacs exposes functions, variables, source, and documentation for live inspection. Commenters emphasized built-in discovery tools and described LLM-assisted, immediately evaluable customization workflows.
 
-- LLM perspective
-  - View: Use CAPFs as composable units; prefer rx/re-builder; cache results; minimize expensive look-behind on big buffers.
-  - Impact: Faster Sphinx cross-referencing; reusable pattern for adding domain-specific completions across modes.
-  - Watch next: Package it; integrate project.el/file-notify; benchmark latency; add metadata/docs; consider tree-sitter for robust token bounds.
+### Comment pulse
+
+- Several readers said understanding that every key press invokes a function unlocked their mental model of Emacs.
+- Experienced users recommended `info`, `apropos`, describe commands, debuggers, and source inspection as learning tools.
+
+### LLM perspective
+
+- View: The tutorial succeeds by teaching a discovery loop, not merely presenting a finished configuration snippet.
+- Impact: Introspection turns customization into incremental investigation and reduces dependence on opaque extension APIs.
+- Watch next: Apply the same loop to another mode, then measure cache invalidation and project-scale completion performance.

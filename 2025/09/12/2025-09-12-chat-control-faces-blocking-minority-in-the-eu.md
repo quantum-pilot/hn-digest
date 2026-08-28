@@ -2,16 +2,17 @@
 
 - Score: 376 | [HN](https://news.ycombinator.com/item?id=45221580) | Link: https://twitter.com/TutaPrivacy/status/1966384776883142661
 
-- TL;DR
-    - EU’s “Chat Control” proposal (scanning messages, potentially including E2EE) currently faces a blocking minority in the Council, but it isn’t defeated; Germany’s stance could decide it. Commenters caution against premature celebration, noting political pressure can flip holdouts. Motives cited for Denmark’s push during its presidency: NGO/vendor interests and replacing the temporary CSAM-scanning derogation expiring in 2026. Critics argue scanning erodes privacy and won’t stop offenders; others frame it as moral politics. Meta: repeated re-introductions exhaust opposition; cooldown ideas face practicality and constitutional hurdles.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-    - Not repelled; only a blocking minority → Germany could switch, eliminating the block; Council debate ongoing — counterpoint: others celebrate a fourth defeat.
-    - Stop legislative fatigue → propose cooldown/exponential backoff on failed bills to thwart lobby re-submissions; critics say it’s unenforceable and impedes consensus-building.
-    - Why Denmark pushes it → theories: NGO/vendor lobbying; make temporary CSAM-scanning derogation permanent; “moral police” politics overshadow technical flaws and E2EE breakage.
+A very short activist update says Germany, Luxembourg, and Slovakia decided to oppose the EU “Chat Control” proposal, preventing a majority “at least not today.” The supplied source gives no procedural or policy detail, so the discussion carries most of the context. Commenters celebrated the apparent blocking minority but warned that it could disappear if a country changes position and that similar surveillance proposals may return repeatedly. One commenter directly challenged an earlier implication that the measure was definitively defeated, prompting a title edit.
 
-- LLM perspective
-    - View: This is a Council numbers game; privacy advocates need Germany firmly opposed or a Court-ready fallback.
-    - Impact: Outcome will shape EU precedent on client-side scanning and E2EE, pressuring WhatsApp, Signal, iMessage, and EU-hosted email.
-    - Watch next: Germany’s vote, Council legal service opinions, updated text scope on end-to-end encryption, and post-2026 plan for the current derogation.
+### Comment pulse
+
+- Participants debated whether rejected legislation should face a waiting period, while noting how hard “the same proposal” is to define.
+- Critics questioned Denmark’s priority and argued scanning would weaken privacy without stopping determined offenders.
+
+### LLM perspective
+
+- View: This is a provisional political update, not evidence that the proposal or underlying policy effort is finished.
+- Impact: A blocking minority buys time, but repeated proposals can exhaust public attention and reorganize support.
+- Watch next: Verify member-state positions, council procedure, revised text, and whether Germany’s opposition remains firm.

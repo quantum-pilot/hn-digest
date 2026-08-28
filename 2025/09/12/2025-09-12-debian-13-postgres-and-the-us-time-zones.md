@@ -2,15 +2,17 @@
 
 - Score: 262 | [HN](https://news.ycombinator.com/item?id=45218111) | Link: https://rachelbythebay.com/w/2025/09/11/debtz/
 
-- TL;DR
-    - Upgrading to Debian 13 can break Postgres (and other apps) if configs use legacy US/* time zones (e.g., US/Pacific). IANA moved these aliases to tzdb’s “backward” set long ago; Debian 13 split them into the optional tzdata-legacy package, so they’re missing by default. The fix: switch to canonical names like America/Los_Angeles (or install tzdata-legacy). HN discusses poor upgrade comms, similar breakage in GitLab v18, and offers discovery tips (timedatectl list-timezones).
+### TL;DR
 
-- Comment pulse
-    - Root cause → IANA US/* aliases live in tzdb/backward; Debian 13 made them optional via tzdata-legacy, so aliases disappear — counterpoint: deprecated since 1993.
-    - Communication gap → Release notes omit it; maintainers expect users to read package-level NEWS, causing surprises during upgrades.
-    - Wider impact → GitLab v18 invalidated old time zone names, breaking scheduled jobs when stored values failed validation.
+After upgrading from Debian 12 to 13, a PostgreSQL installation rejected `US/Pacific`, then silently fell back in a way that produced UTC-aligned daily graphs. Replacing it with `America/Los_Angeles` fixed the issue. The author criticizes Debian’s release notes for omitting the tzdata change. Commenters supplied deeper history: `US/*` names had lived in IANA’s backward-compatibility collection since the 1990s before Debian moved them into `tzdata-legacy`. Others reported similarly disruptive upgrade changes and recommended listing accepted zones with `timedatectl`.
 
-- LLM perspective
-    - View: Sensible cleanup surfaced by packaging; ship migration aids: postinst checks, alias-to-canonical rewrites, apt-listchanges alerts.
-    - Impact: Debian 13 ops, Postgres/NGINX admins, any app persisting/validating tz names; Americas most affected due to US/* prevalence.
-    - Watch next: Debian add tzdata-legacy Recommends where needed; scanners to flag US/* in configs/DBs; clearer deprecation timelines from tzdb maintainers.
+### Comment pulse
+
+- Readers debated whether decades-old deprecation was adequate warning when upgrades can still break production configuration.
+- Other Debian 13 upgrade gotchas reinforced complaints that relevant notices are scattered across package-specific documentation.
+
+### LLM perspective
+
+- View: Long deprecation periods do not replace migration diagnostics at the moment compatibility is removed.
+- Impact: A rejected timezone can stop services or, worse, silently shift reporting boundaries after a workaround.
+- Watch next: Audit legacy zone aliases before upgrades and check service logs, release notes, and package NEWS together.

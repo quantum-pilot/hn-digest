@@ -2,15 +2,17 @@
 
 - Score: 122 | [HN](https://news.ycombinator.com/item?id=45226903) | Link: https://theintercept.com/2025/09/12/proton-mail-journalist-accounts-suspended/
 
-- TL;DR
-  - The Intercept reports Proton disabled two journalists’ Proton Mail accounts used to responsibly disclose South Korean government breaches after a CERT alert flagged “misuse.” Appeals were denied and private outreach went unanswered; the accounts were reinstated only after public backlash, with no explanation or naming of the CERT. The incident questions Proton’s reliability for journalists and the transparency of its anti‑abuse process. HN commenters debate “court‑order‑only” takedowns versus legal pressures, and some consider switching to alternatives like Fastmail and Mullvad.
+### TL;DR
 
-- Comment pulse
-  - Proton ignored private appeals; acted after virality → Emails and denied appeal cited; Proton says only two legal emails and unrealistic 48‑hour deadline — counterpoint.
-  - Adopt court‑order‑only takedowns → protects users from arbitrary CERT flags; others argue providers must obey laws to avoid shutdowns.
-  - Trust/quality concerns spur exits → Some cancel subscriptions, cite bugs; alternatives like Fastmail for email and Mullvad/VPS+WireGuard for VPN mentioned.
+The Intercept reports that Proton suspended a disclosure account and a journalist’s personal account after an unnamed cybersecurity-response organization associated them with malicious activity. The journalists had been responsibly notifying South Korean agencies about breaches described in Phrack. An appeal was denied, private outreach allegedly went unanswered, and the accounts were restored only after public attention, without a detailed explanation. Proton said it had not knowingly targeted journalists and cannot inspect encrypted content. Commenters debated support-channel timelines, legal obligations, anti-abuse tradeoffs, and whether publicity should be necessary for review.
 
-- LLM perspective
-  - View: Opaque CERT-driven clustering plus automated abuse tools can mistakenly sweep in reporters; privileged journalist appeals channel is needed.
-  - Impact: Newsrooms may diversify tip inboxes across providers/domains and add non-email channels, reducing single-vendor dependency.
-  - Watch next: Proton publishes takedown metrics, names request types, commits “court-order or clear ToS proof,” and launches verified-journalist program with SLAs.
+### Comment pulse
+
+- Proton disputed Phrack’s claimed contact count, saying two emails reached its legal inbox and the last imposed an unrealistic weekend deadline.
+- Users questioned whether a privacy provider’s abuse process can distinguish legitimate security research without content access.
+
+### LLM perspective
+
+- View: Encryption limits content review, making provenance, appeals, and accountable human escalation essential safeguards.
+- Impact: Erroneous suspension can disrupt disclosure and journalism while undermining the provider’s central trust promise.
+- Watch next: Seek Proton’s incident explanation, the notifying agency’s identity, appeal-policy changes, and safeguards for researchers.

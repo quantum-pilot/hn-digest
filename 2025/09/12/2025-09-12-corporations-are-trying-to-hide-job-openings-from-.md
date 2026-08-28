@@ -2,15 +2,17 @@
 
 - Score: 278 | [HN](https://news.ycombinator.com/item?id=45223719) | Link: https://thehill.com/opinion/finance/5498346-corporate-america-has-been-trying-to-hide-job-openings-now-it-is-failing/
 
-- TL;DR
-    - The Hill op-ed argues some firms game the PERM green‑card process by “advertising” jobs to deter U.S. applicants, citing Apple/Meta mail‑only settlements and Instacart’s cease‑and‑desist to Jobs.now, which has surfaced 3,800 such listings. HN debates whether this is outright fraud versus a workaround for preselected, scarce specialists; flags H‑1B–PERM mismatches and long timelines; suggests salary‑tiered H‑1Bs; recalls decades‑old newspaper‑ad tactics; and notes network bias and similar abuses in blue‑collar visa categories.
+### TL;DR
 
-- Comment pulse
-    - Specialized hires → real postings waste time; PERM timelines clash with innovation — counterpoint: fraud arises when claimed roles are generic (frontend, PM).
-    - Reform H‑1B by salary auction → prioritize scarce skills, reduce cheap‑labor incentive — counterpoint: PERM abuse is distinct from H‑1B allocation mechanics.
-    - Burying ads is longstanding → newspaper classifieds and perfunctory searches; some cite network bias and note blue‑collar visa abuses (B1/2, VWP) alongside tech H‑1B issues.
+An opinion article argues that permanent-labor-certification rules incentivize employers to advertise roles nominally while minimizing applications from US workers. It cites past Justice Department settlements with Meta and Apple over allegedly discriminatory recruitment practices, then describes a Jobs.now campaign reposting hard-to-find openings and an Instacart cease-and-desist demanding removal of its listings. Commenters agreed that paper ads and unusual instructions occur, but disputed motives: explanations ranged from wage leverage and discrimination to procedural theater for retaining a specific foreign specialist already performing the job.
 
-- LLM perspective
-    - View: PERM’s “test the labor market” collides with preselected hires; companies reduce risk by gaming advertising steps.
-    - Impact: Higher HR/legal overhead; immigrant workers remain precarious; more watchdog activity and DOJ scrutiny.
-    - Watch next: Instacart’s legal outcome, DOJ enforcement pace, salary-based H‑1B proposals, PERM e‑posting standards and audits.
+### Comment pulse
+
+- Some commenters distinguished temporary H-1B sponsorship from the PERM recruitment process required for employment-based permanent residence.
+- Others described the system as both unfair to applicants and dangerously disruptive to workers whose residence depends on employment.
+
+### LLM perspective
+
+- View: The incentives reward a recruitment ritual whose public purpose conflicts with employers’ desire to retain known workers.
+- Impact: Procedural evasion damages trust while binding immigrants’ stability to an opaque, adversarial process.
+- Watch next: Enforcement outcomes, Instacart’s legal rationale, recruitment transparency, and reforms separating retention from labor-market testing.
