@@ -2,15 +2,18 @@
 
 - Score: 355 | [HN](https://news.ycombinator.com/item?id=45013131) | Link: https://www.ducktyped.org/p/an-illustrated-guide-to-oauth
 
-- TL;DR
-    - The piece demystifies OAuth via a YNAB–Chase example: redirect to the authorization server, user consents to scopes, receive an authorization code, exchange it server‑side for an access token. It clarifies roles (client, resource/authorization servers), redirect URIs, client ID/secret, and why PKCE is used for public clients; notes token expiry/refresh and OIDC for login. HN readers say implementation remains tricky; specs and OAuth 2.1 with PKCE are best practice, front/back‑channel was oversimplified, and they want concrete, cURL-level examples.
+### TL;DR
 
-- Comment pulse
-    - Implementing is hard → Read RFCs; use Authorization Code + PKCE; libraries miss app-specific surfaces; refresh tokens often expire; resources: Aaron Parecki, Duende IdentityServer.
-    - Front vs back channel nuance → Both are HTTPS-encrypted; risk is URLs in history/logs and browser referrers vs server-to-server exchanges crossing different trust boundaries.
-    - OAuth2 criticized → Code/hash leaks, weak redirect validation, optional state; prefer stricter 2.1 defaults. — counterpoint: It’s a flexible skeleton; careful config and PKCE mitigate.
+The guide explains OAuth through a budgeting app requesting limited bank-account access without receiving the user’s password. After user authentication and consent at the authorization server, the client receives a short-lived authorization code through the redirect, then exchanges it for an access token through a protected channel. Registered redirect URIs, client identifiers, secrets, and scopes constrain the flow; public clients should use PKCE because embedded secrets cannot remain secret. The article also distinguishes authorization from OpenID Connect login and notes refresh tokens and alternative flows.
 
-- LLM perspective
-    - View: Use authorization code + PKCE, strict redirect whitelists, state+nonce, and referrer policies; never expose tokens in URLs.
-    - Impact: Teams building clients/servers need threat models, end-to-end tests, and operational token rotation; choose mature providers or audited OSS implementations.
-    - Watch next: Track OAuth 2.1 finalization, OIDC updates (FAPI/Browser changes), and browser referrer policy defaults; demand API docs with cURL flows and error cases.
+### Comment pulse
+
+- Implementers said introductory guides often omit details needed for secure, interoperable code.
+- Readers corrected the claim that HTTPS POST alone defines a back channel or uniquely encrypts request data.
+- Experienced practitioners favored authorization code with PKCE and warned against deprecated implicit and password flows.
+
+### LLM perspective
+
+- View: OAuth’s complexity reflects trust boundaries and accumulated attack lessons, not merely verbose terminology.
+- Impact: Simplified explanations can become dangerous when they blur browser exposure, transport encryption, and client confidentiality.
+- Watch next: Validate state, PKCE, redirect matching, token storage, rotation, revocation, and provider-specific deviations.

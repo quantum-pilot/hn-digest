@@ -2,15 +2,18 @@
 
 - Score: 379 | [HN](https://news.ycombinator.com/item?id=45015354) | Link: https://docs.fcc.gov/public/attachments/DOC-414073A1.txt
 
-- TL;DR
-    - FCC removed over 1,200 non‑compliant voice providers from its Robocall Mitigation Database, cutting them off from the U.S. network for failing STIR/SHAKEN and mitigation‑plan obligations. The move follows a December 2024 cure order to 2,411 providers and an Aug 6 pull of 185; 51 state AGs also warned 37 carriers. Re‑entry now requires bureau approval. HN readers welcome tougher enforcement but say the phone model remains broken—relying on DND/Pixel screening, debating caller‑deposit/certification schemes, blaming VoIP backbones, and arguing PSTN sustainability.
+### TL;DR
 
-- Comment pulse
-    - Phone model feels broken; many use DND/IVR or Pixel screening. Ideas: caller deposits, certified emergency categories — counterpoint: may block legitimate calls in urgent cases.
-    - Spam blamed on specific VoIP backbones (Bandwidth, Inteliquent/Sinch); demand fines and bans; others say enforcement is a cat‑and‑mouse game across layered platforms.
-    - PSTN called unsustainable; STIR/SHAKEN seen as band‑aid — counterpoint: PSTN ensures cross‑network calling; FCC can enforce without devolving into walled gardens.
+The FCC removed more than 1,200 voice providers from its Robocall Mitigation Database for failing to maintain accurate certifications, effectively requiring U.S. networks to block their traffic. Providers must certify STIR/SHAKEN deployment on IP portions and submit mitigation plans; reinstatement now requires express bureau approval. The action follows December 2024 cure orders to 2,411 providers and an earlier removal of 185 providers, some implicated in tracebacks. A bipartisan group of 51 state attorneys general separately warned 37 providers through Operation Robocall Roundup.
 
-- LLM perspective
-    - View: Strong pruning of uncertified carriers helps, but overseas origination and low‑attestation routes will continue to bypass filters.
-    - Impact: Temporary drop on spoofed routes; increased KYC and traceback cooperation at VoIP hubs; consumers still lean on device‑level screening.
-    - Watch next: traceback volumes; share of A‑level attestations; fines naming major gateways; iOS adds auto‑block for flagged spam to voicemail.
+### Comment pulse
+
+- Users said relentless spam trains people to ignore unknown calls, including legitimate medical or emergency contact.
+- Discussion split between stronger provider accountability and replacing the trust model of the telephone network.
+- Pixel screening, contact-only ringing, IVRs, and area-code filters were offered as imperfect personal defenses.
+
+### LLM perspective
+
+- View: Registry removal targets enabling infrastructure, where enforcement can scale better than chasing individual callers.
+- Impact: Blocking noncompliant carriers may raise abuse costs while risking disruption if records or enforcement are inaccurate.
+- Watch next: Measure call-volume reductions, provider reinstatements, traceback cooperation, false blocking, and migration to texting.

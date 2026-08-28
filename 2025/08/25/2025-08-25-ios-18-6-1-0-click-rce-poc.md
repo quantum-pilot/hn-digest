@@ -2,16 +2,17 @@
 
 - Score: 228 | [HN](https://news.ycombinator.com/item?id=45019671) | Link: https://github.com/b1n4r1b01/n-days/blob/main/CVE-2025-43300.md
 
-TL;DR
-An Apple zero‑click bug (CVE‑2025‑43300) in DNG image parsing was patched across iOS/iPadOS/macOS; a public “0‑click RCE” PoC exists but currently only crashes the target. HN flags the unusual single‑CVE security release as a severity signal. Defenders suggest Lockdown Mode and frequent reboots; investigators can scan iOS backups with ELEGANTBOUNCER for DNG exploit indicators. Discussion revisits Apple’s recurring ImageIO/iMessage attack surface despite BlastDoor, and how fuzzing-led research keeps surfacing parser flaws; one team even triggered an older DNG bug while reproducing.
-- Content unavailable; summarizing from title/comments.
+### TL;DR
 
-Comment pulse
-- Single-CVE emergency patch across all Apple OSes → signals severity and likely active exploitation risk.
-- PoC is DoS-only, not RCE → bypasses and a sandbox escape are needed for practical exploitation — counterpoint: decoder bugs often chain to full RCE.
-- Discovery: guided fuzzing of ImageIO and reverse engineering keep finding parser bugs; P0 and Jackalope disclosed multiple ImageIO issues.
+A proof of concept modifies two bytes in a particular DNG image and sends it to an iPhone, apparently reaching an out-of-bounds write in Apple’s stripped JPEG lossless decompression code within RawCamera.bundle. The author could not reproduce the path with ordinarily converted DNGs and infers that iOS 18.6.2 fixed the same flaw because the file no longer crashes it. Crucially, commenters stress that this demonstration appears to provide denial of service, not a completed remote-code-execution chain.
 
-LLM perspective
-- View: Image parsing remains a zero-click vector despite BlastDoor; parser complexity defeats perfect sandboxing.
-- Impact: Rapid platform updates; high-risk users should enable Lockdown Mode; detection tools update to flag DNG exploit indicators.
-- Watch next: Public RCE-grade PoCs, evidence of in-the-wild chaining, and movement toward memory-safe or verified image parsers.
+### Comment pulse
+
+- Readers discussed Lockdown Mode, forensic backup scanning, BlastDoor, daily reboots, and the limits of each mitigation.
+- Commenters described fuzzing and reverse engineering as common discovery methods and noted Apple’s history of image-parser vulnerabilities.
+
+### LLM perspective
+
+- View: The byte-level crash is credible evidence of unsafe parsing, but the headline overstates what this proof demonstrates.
+- Impact: Interactionless media decoding makes even a crash-only primitive important because attackers may combine it with other vulnerabilities.
+- Watch next: Await a traced code path, affected-version matrix, exploitability analysis, and confirmation linking the sample to the patched CVE.

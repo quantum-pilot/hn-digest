@@ -2,14 +2,17 @@
 
 - Score: 286 | [HN](https://news.ycombinator.com/item?id=45017969) | Link: https://twitter.com/nealstephenson/status/1959759051732213812
 
-- TL;DR
-    - Meta reportedly suspended Neal Stephenson’s Facebook account, ironic since he coined “metaverse” in Snow Crash. HN reactions mock Meta’s metaverse record and point to broader issues: brittle, automated moderation; appeals that feel AI-run; and opaque account/region policies causing arbitrary lockouts or bans. Some argue Meta leadership never internalized cyberpunk critiques, chasing engagement over safety; a few note occasional, seemingly random reprieves.
-    - Content unavailable; summarizing from title/comments.
-- Comment pulse
-    - Stephenson coined “metaverse”; Meta never absorbed its critique → episode reveals branding without grasp, and weak cultural literacy in leadership.
-    - Meta moderation is inconsistent and appeals feel automated → benign anti-racist posts flagged while explicit extremist content stays; denials arrive instantly.
-    - Account/region logic is opaque → mis-geolocation blocks features or triggers bans; new accounts work while old ones break — counterpoint: some appeals succeed unpredictably.
-- LLM perspective
-     - View: Automation without real escalation paths breaks trust; ironic cases highlight the baseline failure rate.
-	   - Impact: Creators and public figures reassess reliance on Meta; regulators push due process, appeal audits, and clearer region/account policies.
-	   - Watch next: Whether Meta restores Stephenson; acknowledgement of automation errors; data on false positives, extremist action rates, and geolocation bugs.
+### TL;DR
+
+Neal Stephenson says Meta suspended his Facebook account because it suspected he was impersonating a noteworthy person. The frozen source contains only that assertion, with no screenshot, explanation from Meta, timeline, or resolution, so the reason and mechanism cannot be independently assessed here. The irony drove discussion because Stephenson coined “metaverse” in his 1992 novel Snow Crash. Commenters then supplied anecdotes about opaque moderation, instant appeal denials, unexplained regional classification, and inconsistent enforcement, none of which verifies Stephenson’s specific case.
+
+### Comment pulse
+
+- Readers emphasized the cultural irony of Meta misidentifying the writer whose work supplied its adopted name.
+- Personal moderation stories described mistaken hate-speech flags, ineffective appeals, account suspensions, and unexplained product-region failures.
+
+### LLM perspective
+
+- View: The sparse report illustrates a plausible identity-verification failure, but offers too little evidence to diagnose Meta’s system.
+- Impact: False impersonation decisions can lock public figures out while opaque appeals prevent users from correcting identity errors.
+- Watch next: Look for restoration, Meta’s explanation, verification steps offered, and evidence distinguishing automation from human review.

@@ -2,15 +2,17 @@
 
 - Score: 693 | [HN](https://news.ycombinator.com/item?id=45014131) | Link: https://menial.co.uk/base/
 
-- TL;DR
-    - Base is a native macOS SQLite editor with schema inspector, visual table editor, data browser, and SQL editor plus CSV/JSON/Excel import/export. It's a long‑running, polished indie app (≈15 years) with a free, limited version and a one‑time purchase for full features; macOS 15+ required. HN praised its stability and UI, raised discoverability concerns, requested UUID‑in‑blob decoding, and flagged missing SQLCipher support. Users compared it favorably to cross‑platform GUIs and appreciated native behavior, while some noted mac‑only scope.
+### TL;DR
 
-- Comment pulse
-    - Artisanal indie model → small, focused app preferred over enterprise/OSS; question remains whether it sustains a livable income.
-    - Hard to find → generic name and minimal marketing hide it from searches — counterpoint: quality alone rarely drives adoption.
-    - Feature requests and gaps → UUID blob display desired; lacks SQLCipher; compared favorably to DB Browser for macOS UI and table create/alter; mac‑only limits adoption.
+Base is a native SQLite editor for macOS with schema inspection, visual table creation and alteration, direct data editing, filtering, and an SQL editor with autocomplete, highlighting, reusable snippets, and instant results. It imports CSV and SQL dumps and exports SQL, delimited text, JSON, and Excel. A feature-limited build is free; the full version uses a one-time purchase and requires macOS 15 or newer. Longtime users say the app has existed and improved for roughly 15 years despite limited discoverability.
 
-- LLM perspective
-    - View: A well‑crafted native SQLite GUI filling the “it just works” niche; main risks are discoverability and narrow platform support.
-    - Impact: Indie developers and macOS teams gain faster schema editing and data inspection; smoother than generic cross‑platform tools for SQLite work.
-    - Watch next: Add UUID/GUID decoding heuristics and SQLCipher; publish benchmarks and SEO refresh; consider backward macOS support or a read‑only build.
+### Comment pulse
+
+- Readers praised Base’s polish and long maintenance history, while noting its generic name may make it hard to discover.
+- Requests included UUID-aware blob display and SQLCipher; comparisons favored native macOS behavior and table-alteration support over SQLite Browser.
+
+### LLM perspective
+
+- View: Base’s value is focused native ergonomics and longevity, not a novel database capability or broad platform reach.
+- Impact: A polished visual editor can make schema work safer for occasional users and faster for experienced SQLite developers.
+- Watch next: Assess crash resistance, large-database performance, SQLCipher support, UUID interpretation, and compatibility beyond macOS 15.

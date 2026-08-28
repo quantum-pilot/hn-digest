@@ -2,15 +2,18 @@
 
 - Score: 216 | [HN](https://news.ycombinator.com/item?id=45018773) | Link: https://newpublic.substack.com/p/how-blacksky-grew-to-millions-of
 
-- TL;DR
-  - Blacksky, built on Bluesky’s AT Protocol, shows decentralized, open-source social at scale: 0→2M “users” (feed+moderation subscribers) with zero marketing spend. It ships a community app, custom feeds, opt‑in, culturally informed moderation (anti‑Black harassment, misogynoir), its own ATProto implementation and global relay, and a 10‑person volunteer mod team—prioritizing autonomy and resilience beyond Bluesky. HN debates whether decentralization reduces attention addiction, federation’s messy UX (Mastodon/Threads/Bluesky), and the “2M users” metric and positioning, noting Blacksky remains a subset of the broader network.
+### TL;DR
 
-- Comment pulse
-  - Decentralization won’t cure screen addiction → only disconnecting restores time and focus — counterpoint: user‑controlled algorithms and non‑ad protocols can reduce engagement pressure.
-  - Federation UX is confusing → multiple accounts, duplicates, unreliable propagation; centralized feels simpler — counterpoint: choose one “home,” keep others read‑only, accept imperfect overlap.
-  - “2M users” challenged → counted as feed subscribers plus moderation subscribers; critics note Blacksky is a Bluesky subset and question the percentage.
+Blacksky founder Rudy Fraser describes a Black-centered social layer built on Bluesky’s AT Protocol, claiming organic growth from zero to two million users without out-of-pocket spending. It began with custom feeds and expanded into an interoperable app, independent account hosting, community-defined moderation, automated labeling, block lists, moderator-controlled feed ordering, and a separately built global relay. A ten-person volunteer moderation team applies evolving rules around anti-Black harassment and misogynoir. The two-million figure reportedly combines feed and moderation-service subscribers, leaving uniqueness and active-use interpretation unclear.
 
-- LLM perspective
-  - View: Middleware over protocols beats monoliths: pluggable feeds and moderation let communities self-govern without fragmenting the network.
-  - Impact: Marginalized groups gain safety norms, portability, and exit options; platforms face pressure to interoperate and expose algorithmic choice.
-  - Watch next: Reliability of independent relays, standardized mod labels and sharing, better account migration/merging UX, and transparent “user” metrics across ecosystems.
+### Comment pulse
+
+- Readers debated whether decentralization improves social life or merely changes who controls attention.
+- Federation’s overlapping identities, partial interoperability, and inconsistent propagation remain confusing to users.
+- Commenters questioned whether subscriber counts justify describing Blacksky as having two million distinct users.
+
+### LLM perspective
+
+- View: Blacksky’s strongest innovation is community-owned governance components that remain connected to a larger network.
+- Impact: Protocol-level portability can let marginalized communities control feeds and moderation without rebuilding every network effect.
+- Watch next: Publish deduplicated activity metrics, moderation sustainability, relay costs, migration reliability, and volunteer burnout data.

@@ -2,15 +2,18 @@
 
 - Score: 207 | [HN](https://news.ycombinator.com/item?id=45013737) | Link: https://b.43z.one/2025-07-22/
 
-- TL;DR
-  - The author proposes a tiny browser hack: after using quick find or Ctrl+F, pressing Enter should click the element under the current text selection—making buttons/divs keyboard-activatable, not just links. They ship a minimal extension that listens for Enter and clicks the selection’s parent node. HN replies highlight mature alternatives like Vimium/Vimium C/Tridactyl that already hint and click non-links, frustrations with broken keyboard scrolling on modern sites, and a built‑in workaround (Esc then Enter) that still behaves differently across browsers.
+### TL;DR
 
-- Comment pulse
-  - Keyboard extensions beat hacks → Vimium/Vimium C/Tridactyl hint-click any element, offer new-tab mappings, and work across sites.
-  - Keyboard scrolling is unreliable → sticky headers, custom scroll areas, and JS hijacks break PageUp/Down; try focus-to-scroll extensions or disable JS — counterpoint: Firefox compensates.
-  - Built-in workaround exists → Press Esc to close find, then Enter navigates; Chrome clicks links/buttons, Firefox mostly only links.
+Firefox’s apostrophe quick-find can select and activate links, but ordinary find modes highlight text without reliably activating buttons, scripted spans, or other interactive elements. The author built a tiny extension that listens for Enter, locates the parent element of the current selection, invokes its click handler, and clears the selection. It improves the author’s keyboard workflow on modern sites that avoid semantic links, but the implementation deliberately remains a rough hack with undiscovered exclusions. Commenters favored established keyboard-navigation extensions and noted broader accessibility failures in scrolling and focus management.
 
-- LLM perspective
-  - View: Minimal Enter-to-click improves flow, but selection→parentElement is brittle; may misclick nested nodes or non-interactive text.
-  - Impact: Helps keyboard users on JS-heavy sites; nudges devs toward semantic buttons, roles, tabindex, and accessible activation via Enter/Space.
-  - Watch next: Add heuristics: nearest clickable ancestor, role/button checks, focus ring, exclude contenteditable; test false-click rate versus Vimium/Tridactyl on top sites.
+### Comment pulse
+
+- Readers recommended Vimium, Vimium C, Tridactyl, ShortCat, and Mouseless for richer keyboard navigation.
+- PageUp, PageDown, sticky headers, custom scroll containers, and poor focus behavior remain recurring accessibility problems.
+- One correction noted Enter can activate selected links and some buttons after dismissing search, depending on browser.
+
+### LLM perspective
+
+- View: The extension patches symptoms of nonsemantic web interfaces rather than the underlying accessibility failure.
+- Impact: A small activation bridge can help power users, but synthetic clicks may choose the wrong ancestor.
+- Watch next: Add focus awareness, editable-field exclusions, nested-control handling, and tests across dynamic sites.

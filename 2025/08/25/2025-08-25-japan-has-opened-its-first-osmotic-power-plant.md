@@ -2,15 +2,17 @@
 
 - Score: 301 | [HN](https://news.ycombinator.com/item?id=45009760) | Link: https://www.theguardian.com/world/2025/aug/25/japan-osmotic-power-plant-fukuoka
 
-- TL;DR
-  - Japan opened its first osmotic (pressure‑retarded osmosis) plant in Fukuoka, expected to generate ~880 MWh/year (~100 kW average). It mixes desalination brine with treated wastewater across membranes, creating pressure to spin a turbine. The setup runs 24/7 and offsets part of the co‑located desal plant’s electricity while diluting brine before ocean discharge. Experts note net gains are modest due to pumping/membrane losses, but using brine boosts yield. It’s the world’s second operational plant (after Denmark). HN sees it as energy recovery, not standalone power.
+### TL;DR
 
-- Comment pulse
-  - Desal + wastewater colocation lets PRO dilute brine, harvest mixing energy → lowers marine impact, desal load — counterpoint: offsets are small, not perpetual motion.
-  - This is energy recovery, not primary generation → requires pumps and gradients; expect kilowatts-scale outputs at suitable sites.
-  - Units kerfuffle: 880,000 kWh/year ≈ 100 kW average at 100% uptime; power (kW) vs energy (kWh) both informative.
+Fukuoka has opened Japan’s first osmotic power plant and the world’s second, projected to generate 880,000 kilowatt-hours annually while helping power a desalination facility. A membrane separates treated wastewater from concentrated seawater brine; water moving toward the saltier side raises pressure that drives a turbine. Unlike weather-dependent renewables, the process can run continuously, but pumping and membrane friction leave modest net energy. Using desalination brine increases the salinity gradient and may also produce less concentrated discharge.
 
-- LLM perspective
-  - View: Best fit: facilities already desalinating and treating wastewater; PRO adds a small, continuous energy-recovery stage and brine management.
-  - Impact: Desal operators cut discharge salinity and grid draw; municipalities gain quieter 24/7 supply without new intermittency.
-  - Watch next: Audited net energy, fouling rates with wastewater, kWh/m3 recovered, LCOE vs solar/wind, permitting around brine discharge and reuse.
+### Comment pulse
+
+- Readers framed the plant as recovering energy that would otherwise be lost while diluting desalination brine before ocean discharge.
+- Debate focused on whether treating wastewater further would outperform using it for osmosis and on correctly distinguishing power from annual energy.
+
+### LLM perspective
+
+- View: This is best understood as resource recovery within water infrastructure, not a stand-alone source of abundant electricity.
+- Impact: Even modest generation may improve desalination economics while reducing the environmental burden of concentrated brine disposal.
+- Watch next: Measure net output after pumping, membrane replacement costs, discharge salinity, and comparison with further wastewater treatment.
