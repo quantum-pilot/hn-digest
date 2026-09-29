@@ -4,18 +4,16 @@
 
 ### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
-
-Based only on HN discussion, Parley is described by one commenter as a centreless chat network where small domain instances discover peers through DNS and identity documents, exchange signed HTTPS messages, and expose federation to ordinary IRC clients. Other commenters focused on absent channel ownership and operators, per-server blocking, fragmented room visibility, spam, hostile instances, and persistent netsplits. Some proposed shared reputation filters, but critics argued those mechanisms merely redistribute ecosystem-wide moderation and namespace governance to administrators.
+Parley is a working, unhardened proof of concept for federated chat through ordinary IRC clients. Domain instances discover email-like identities using DNS and well-known documents, exchange signed HTTPS events, peer automatically, retain searchable history, and replicate global channels; local channels stay private to an instance. Global rooms deliberately lack owners, operators, topics, and kicks, replacing them with personal or instance-level blocks. Commenters argued this makes abuse, hostile-server spam, namespace governance, and divergent network views the design’s central unresolved problems.
 
 ### Comment pulse
 
-- Operator-free global rooms alarmed commenters → removing local moderation leaves abuse decisions to every instance administrator or shared blocklists.
-- Federation creates availability ambiguity → rooms persist without an owner, but each instance may see a different network after disconnections.
-- Open instance creation invites abuse → commenters questioned spam and hostile-server defenses, while proposed unknown-server filtering seemed operationally critical.
+- Operator-free global rooms alarmed commenters → abuse decisions fall to every instance administrator or potentially troublesome shared blocklists.
+- Federation creates consistency ambiguity → rooms survive instance outages, but eventual replication may leave peers with divergent membership and history.
+- Open federation invites abuse → commenters questioned hostile-server spam defenses, while the README acknowledges unbounded per-account message volume.
 
 ### LLM perspective
 
-- View: The comments describe an elegant transport idea whose unresolved governance may dominate its user experience.
+- View: Reusing IRC clients lowers adoption friction, but decentralizing ownership also decentralizes responsibility for shared spaces.
 - Impact: IRC users could gain federation without plugins, while instance operators inherit difficult moderation, discovery, and abuse responsibilities.
-- Watch next: Usable documentation must specify trust bootstrapping, identity, room discovery, moderation, spam resistance, and partition recovery.
+- Watch next: Hardening needs bounded sending, adversarial federation tests, clearer moderation workflows, per-user keys, and encrypted direct messages.
