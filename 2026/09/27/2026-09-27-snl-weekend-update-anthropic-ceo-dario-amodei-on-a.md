@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The captured source contains no spoken transcript, only SNL’s official description: Jane Wickline portrays Anthropic CEO Dario Amodei visiting Weekend Update to discuss AI’s threat to humanity. Accordingly, the sketch’s actual jokes, delivery, and argument cannot be verified from the supplied content. HN reactions split sharply: some called it Wickline’s strongest work and praised the portrayal; others described the bit as sterile, repetitive, or toothless. Those assessments are viewer reports, not details recoverable from the official text.
+NBC’s written coverage, not a complete transcript, describes Jane Wickline portraying Anthropic CEO Dario Amodei on Weekend Update. The satire targets an alleged contradiction: AI leaders request government guardrails while continuing development, with Wickline’s scripted Amodei saying lawmakers must stop him and disavowing his own work. NBC praises the makeup, twitchy characterization, and Gollum-like turn. HN reactions divided sharply between viewers calling it Wickline’s strongest performance and critics finding the sketch repetitive, sterile, or toothless.
 
 ### Comment pulse
 
-- Wickline’s portrayal impressed some viewers → commenters called it her strongest SNL work and compared its mannerisms with Amodei’s interviews.
-- The comedy felt weak to others → critics described the sketch as repetitive and insufficiently bold — counterpoint: some highlighted specific moments as hilarious.
-- Expectations reflected broader SNL debates → commenters compared eras, performers, and international versions rather than agreeing on this sketch’s quality.
+- Wickline’s characterization impressed some viewers → commenters called it her strongest SNL work and compared its mannerisms with Amodei’s interviews.
+- The comedy felt weak to others → critics called it repetitive and insufficiently bold — counterpoint: some found the Gollum turn hilarious.
+- Expectations reflected broader SNL debates → commenters compared eras, performers, and international versions instead of agreeing on this sketch’s quality.
 
 ### LLM perspective
 
-- View: The available evidence establishes the satirical setup, while all performance judgments come from divided audience reactions.
+- View: NBC documents the satire’s premise and selected lines, but its article cannot substitute for a complete transcript.
 - Impact: Mainstream parody signals that AI-risk executives have become recognizable cultural figures beyond technology audiences.
-- Watch next: A verified transcript would be needed to assess which AI claims or Amodei positions the sketch actually satirizes.
+- Watch next: Compare the scripted contradiction with leaders’ actual policy proposals and company decisions without conflating portrayal with fact.
